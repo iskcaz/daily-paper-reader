@@ -942,6 +942,168 @@ window.SubscriptionsSmartQuery = (function () {
       .replace(/\{\{RETRIEVAL_CONTEXT\}\}/g, retrievalContext);
   };
 
+  const isLikelyBrowserFetchBlocked = (errorText) => {
+    const text = normalizeText(errorText).toLowerCase();
+    return (
+      text.includes('failed to fetch') ||
+      text.includes('load failed') ||
+      text.includes('networkerror') ||
+      text.includes('cors')
+    );
+  };
+
+  const loadGithubTokenForActions = () => {
+    try {
+      const secret = window.decoded_secret_private || {};
+      if (secret.github && secret.github.token) {
+        const token = normalizeText(secret.github.token);
+        if (token) return token;
+      }
+    } catch {
+      // ignore
+    }
+    try {
+      const raw = window.localStorage ? window.localStorage.getItem('github_token_data') : '';
+      if (!raw) return '';
+      const parsed = JSON.parse(raw);
+      return normalizeText(parsed && parsed.token);
+    } catch {
+      return '';
+    }
+  };
+
+  const githubFetch = async (token, url, init) => {
+    return fetch(url, {
+      ...(init || {}),
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: 'application/vnd.github.v3+json',
+        ...(init && init.headers ? init.headers : {}),
+      },
+    });
+  };
+
+  const resolveGithubRepoForActions = async (token) => {
+    const currentUrl = window.location && window.location.href ? String(window.location.href) : '';
+    const githubPagesMatch = currentUrl.match(/https?:\/\/([^.]+)\.github\.io\/([^/?#]+)/);
+    let owner = githubPagesMatch ? githubPagesMatch[1] : '';
+    let repo = githubPagesMatch ? githubPagesMatch[2] : '';
+
+    if (!owner || !repo) {
+      const userRes = await githubFetch(token, 'https://api.github.com/user');
+      if (!userRes.ok) {
+        throw new Error('无法使用 GitHub Token 获取用户信息，请重新验证 GitHub Token。');
+      }
+      const user = await userRes.json().catch(() => ({}));
+      owner = normalizeText(user && user.login);
+      repo = 'daily-paper-reader';
+    }
+
+    const repoRes = await githubFetch(token, `https://api.github.com/repos/${owner}/${repo}`);
+    if (!repoRes.ok) {
+      const text = await repoRes.text().catch(() => '');
+      throw new Error(`无法访问 GitHub 仓库 ${owner}/${repo}：HTTP ${repoRes.status} ${text}`);
+    }
+    const repoData = await repoRes.json().catch(() => ({}));
+    return {
+      owner,
+      repo,
+      defaultBranch: normalizeText(repoData && repoData.default_branch) || 'main',
+    };
+  };
+
+  const decodeGithubBase64Utf8 = (value) => {
+    const clean = normalizeText(value).replace(/\s/g, '');
+    const binary = atob(clean);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i += 1) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    if (window.TextDecoder) {
+      return new TextDecoder('utf-8').decode(bytes);
+    }
+    // eslint-disable-next-line no-escape
+    return decodeURIComponent(escape(binary));
+  };
+
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+  const requestCandidatesViaGithubActions = async (tag, desc, prompt) => {
+    const token = loadGithubTokenForActions();
+    if (!token) {
+      throw new Error(
+        '浏览器直连模型被拦截，且未检测到 GitHub Token；请先完成 GitHub Token 登录，让网页通过 GitHub Actions 后台调用模型。',
+      );
+    }
+    const repoInfo = await resolveGithubRepoForActions(token);
+    const requestId = `sq-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+    const workflowFile = 'smart-query-generate.yml';
+    const dispatchUrl = `https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/actions/workflows/${encodeURIComponent(
+      workflowFile,
+    )}/dispatches`;
+    const dispatchRes = await githubFetch(token, dispatchUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        ref: repoInfo.defaultBranch,
+        inputs: {
+          request_id: requestId,
+          tag,
+          description: desc,
+          prompt,
+        },
+      }),
+    });
+    if (!dispatchRes.ok) {
+      const text = await dispatchRes.text().catch(() => '');
+      if (dispatchRes.status === 404) {
+        throw new Error('未找到后台生成工作流，请等待网站代码更新完成后刷新页面。');
+      }
+      if (dispatchRes.status === 422 && /disabled workflow/i.test(text)) {
+        throw new Error('后台生成工作流尚未启用，请到 GitHub Actions 页面启用 smart-query-generate。');
+      }
+      throw new Error(`触发后台生成失败：HTTP ${dispatchRes.status} ${text}`);
+    }
+
+    setMessage('浏览器直连被拦截，已改用 GitHub Actions 后台调用模型；正在等待结果...', '#666');
+    if (modalState && modalState.type === 'chat') {
+      setChatStatus('浏览器直连被拦截，已改用 GitHub Actions 后台调用模型；正在等待结果...', '#666');
+    }
+
+    const resultPath = `docs/smart-query-results/${requestId}.json`;
+    const resultUrl = `https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/${encodeURIComponent(
+      resultPath,
+    ).replace(/%2F/g, '/')}?ref=${encodeURIComponent(repoInfo.defaultBranch)}`;
+    const deadline = Date.now() + 8 * 60 * 1000;
+    let lastStatusAt = 0;
+    while (Date.now() < deadline) {
+      await sleep(15000);
+      const res = await githubFetch(token, resultUrl, { cache: 'no-store' });
+      if (res.status === 404) {
+        if (Date.now() - lastStatusAt > 45000) {
+          lastStatusAt = Date.now();
+          setMessage('后台模型调用仍在运行，请稍候...', '#666');
+          if (modalState && modalState.type === 'chat') {
+            setChatStatus('后台模型调用仍在运行，请稍候...', '#666');
+          }
+        }
+        continue;
+      }
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        throw new Error(`读取后台生成结果失败：HTTP ${res.status} ${text}`);
+      }
+      const fileData = await res.json().catch(() => ({}));
+      const content = decodeGithubBase64Utf8(fileData && fileData.content);
+      const result = JSON.parse(content || '{}');
+      if (!result.ok) {
+        throw new Error(result.error || '后台模型调用失败。');
+      }
+      return normalizeGenerated(result.candidates || result);
+    }
+    throw new Error('后台模型调用等待超时，请到 GitHub Actions 页面查看 smart-query-generate 运行记录。');
+  };
+
   const requestCandidatesByDesc = async (tag, desc) => {
     const llm = loadLlmConfig();
     if (!llm) {
@@ -1110,6 +1272,9 @@ window.SubscriptionsSmartQuery = (function () {
     clearTimeout(timeout);
     if (!res) {
       if (fetchError) {
+        if (isLikelyBrowserFetchBlocked(fetchError)) {
+          return requestCandidatesViaGithubActions(tag, desc, prompt);
+        }
         throw new Error(`模型服务请求失败：${fetchError}`);
       }
       throw new Error(errorText || '模型服务请求失败，请检查网络与密钥配置。');
