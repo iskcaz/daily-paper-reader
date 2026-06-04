@@ -61,6 +61,21 @@ class FetchJournalSourcesTest(unittest.TestCase):
             "PFAS transport sediment",
         )
 
+    def test_month_arg_resolves_full_month(self):
+        start, end = self.mod.parse_month_arg("2025-06")
+        self.assertEqual(start.isoformat(), "2025-06-01")
+        self.assertEqual(end.isoformat(), "2025-06-30")
+
+    def test_resolve_fetch_date_window_prefers_month(self):
+        start, end = self.mod.resolve_fetch_date_window(
+            days=30,
+            from_date="2024-01-01",
+            until_date="2024-01-31",
+            month="2025-02",
+        )
+        self.assertEqual(start.isoformat(), "2025-02-01")
+        self.assertEqual(end.isoformat(), "2025-02-28")
+
     def test_finalize_marks_no_open_pdf(self):
         paper = {"abs_url": "https://doi.org/10.1/test", "pdf_url": ""}
 

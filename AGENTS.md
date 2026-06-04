@@ -45,8 +45,10 @@ open_pdf_available: false
 open_pdf_note: No legal open PDF found; skip screenshots and figure extraction.
 ```
 
-- 目前 `.github/workflows/journal-sources-preview.yml` 是预览工作流，只产出 artifact，不修改网站内容。不要把它误认为已经接入主推荐流水线。
-- 后续要真正进入网页推荐，需要再做 Supabase 表/RPC 或本地 raw 文件合并、DOI 去重、期刊权重排序与前端标签显示。
+- 环境期刊数据页面位于 `docs/journals/README.md`，数据文件为 `docs/journals/journal-papers.json`，前端筛选器为 `app/journal-browser.js`。
+- `.github/workflows/journal-sources-preview.yml` 已经会把抓取结果写入 `docs/journals/journal-papers.json` 并提交，因此运行成功后网页的“环境期刊”页面会更新。
+- 工作流支持 `year_month` 输入，例如 `2025-06` 表示抓取 2025 年 6 月整月；留空时使用 `fetch_days` 的最近 N 天。
+- 目前环境期刊页仍独立于主推荐流水线。后续若要把期刊论文混入每日推荐，需要再做 Supabase 表/RPC 或本地 raw 文件合并、统一推荐排序和详情页生成。
 
 ## 稳定版本和发布规则
 

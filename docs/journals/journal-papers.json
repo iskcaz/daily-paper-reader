@@ -1,0 +1,322 @@
+[
+  {
+    "id": "journal-10-1021-acs-est-5c13805",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c13805",
+    "doi": "10.1021/acs.est.5c13805",
+    "title": "Factors Influencing PFAS Accumulation in Root and Leafy Vegetables under Subsistence Farming in Shanghai, China",
+    "abstract": "",
+    "authors": [
+      "Beibei Ye",
+      "Jiaxi Wang",
+      "Liping Chen",
+      "Xia Yu",
+      "Ruiqi Yan",
+      "Wentao Zhao",
+      "Qian Sui"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-04T00:00:00+00:00",
+    "updated_at": "2026-06-04T17:10:16.977046+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c13805",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13805",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c14654",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c14654",
+    "doi": "10.1021/acs.est.5c14654",
+    "title": "LDH-Enhanced Degradation of PFASs: Influence of Reactant Configurations within Nanoconfined Spaces on Hydrated Electron Transport",
+    "abstract": "Hydrated electron (eaq–) reduction is an efficient pathway for degrading per- and polyfluoroalkyl substances (PFASs). Nanoconfined spaces can shield eaq– from quenchers in bulk solution and shorten diffusion distances, thereby enhancing utilization efficiency. However, the role of eaq– precursors and PFASs configurations within nanoconfined domains in governing eaq– transport remains unclear. In this study, polyindole (Pind) was synthesized within layered double hydroxide (LDH) interlayers as an eaq– precursor, while perfluorooctanoic acid (PFOA) was simultaneously enriched through electrostatic interaction. Although the eaq– yield increased with Pind loading, the PFOA degradation rate followed a unimodal trend, reaching a maximum at 27.2% Pind loading, where complete degradation was achieved within 3 h. Molecular dynamics simulations revealed stronger hydrophobic interactions among Pind molecules than between Pind and PFOA, leading to a configuration where PFOA surrounded Pind aggregates. With increasing Pind loading, this arrangement forced more eaq– to travel longer distances to attack C–F bonds, reducing their utilization efficiency despite higher overall yields. This “yield-transport” self-antagonism underscores the critical role of nanoconfined configurations in eaq– transport and utilization efficiency and provides mechanistic insights for the rational design and optimization of nanoconfinement systems.",
+    "authors": [
+      "Jingyi Feng",
+      "Hao Lu",
+      "Jing Hua",
+      "Na Sun",
+      "Jing Jiang",
+      "Kun Qian",
+      "Qi Yu",
+      "Anfei He",
+      "Haoting Tian"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-04T17:10:16.977352+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c14654",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Degradation (telecommunications)",
+      "Perfluorooctanoic acid",
+      "Diffusion",
+      "Chemistry",
+      "Chemical physics",
+      "Molecular dynamics",
+      "Yield (engineering)",
+      "Molecule"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16011",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16011",
+    "doi": "10.1021/acs.est.5c16011",
+    "title": "Per- and Polyfluoroalkyl Substances and Total Organic Fluorine Ratios from Field-Collected Light Nonaqueous Phase Liquids and Groundwater",
+    "abstract": "",
+    "authors": [
+      "Mireia Roig-Paul",
+      "Jeff Ford",
+      "Chris G. Heron",
+      "Sid Park",
+      "Patrick N. Reardon",
+      "Isabelle E. Logan",
+      "Esteban E. Hernandez",
+      "Shae Hubbard",
+      "Mitchell Kim-Fu",
+      "Ansel Moll",
+      "Gerrad D. Jones",
+      "Jennifer A. Field"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-04T17:10:16.977508+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16011",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16011",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Groundwater",
+      "Chemistry",
+      "Environmental chemistry",
+      "Phase (matter)",
+      "Fluorine",
+      "Chlorinated solvents",
+      "Water pollution",
+      "Dissolved organic carbon"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00336",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00336",
+    "doi": "10.1021/acs.estlett.6c00336",
+    "title": "Occurrence of Ultrashort-Chain Per- and Polyfluoroalkyl Substances in the Coral Reef Ecosystem of the Beibu Gulf, South China Sea",
+    "abstract": "Ultrashort-chain per- and polyfluoroalkyl substances (USC-PFAS) have gained increasing attention due to their ubiquitous environmental presence and escalating environmental concerns. However, data on their presence in corals remain lacking. This study investigated the concentrations of USC-PFAS, including trifluoroacetic acid (TFA), perfluoropropionic acid (PFPrA), trifluoromethanesulfonate (TFMS), perfluoroethanesulfonate (PFEtS), perfluoropropanesulfonate (PFPrS), and bisperfluoromethane sulfonimide (bis-FMeSI), along with other legacy and emerging PFAS in reef-building coral samples (n = 54) from the Beibu Gulf of the South China Sea. Among the USC-PFAS, TFA, PFPrA, and bis-FMeSI exhibited detection rates of 100%, 74%, and 72%, respectively, in coral samples. TFA dominated the PFAS profile, accounting for 86% of the total concentrations by weight, with concentrations (median: 23 ng/g dw) far exceeding those of all other legacy and emerging PFAS. The wet-weight-based logarithm bioaccumulation factors (log10 BAFs) from seawater to coral were estimated to be 1.85–3.60 for TFA, 2.07–4.09 for PFPrA, and 0.56–3.43 for bis-FMeSI, suggesting their bioaccumulative potential in reef-building corals. This study provides the first evidence of the widespread occurrence of USC-PFAS, particularly TFA, in reef-building corals, underscoring the need for further research into their potential ecological risks.",
+    "authors": [
+      "Fengli Zhou",
+      "Yan Wang",
+      "Jia Yang",
+      "Xiaodong Wang",
+      "Lijia Xu",
+      "Mehvish Mumtaz",
+      "Hui Chen",
+      "Xiaotu Liu",
+      "Da Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-05-15T00:00:00+00:00",
+    "updated_at": "2026-06-04T17:10:19.061208+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00336",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00336",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 9,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Coral reef",
+      "Bioaccumulation",
+      "Ecosystem",
+      "Environmental science",
+      "Coral",
+      "Ecology",
+      "Seawater",
+      "Oceanography"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142173",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142173",
+    "doi": "10.1016/j.jhazmat.2026.142173",
+    "title": "Target and semi-quantitative non-target analysis of per- and polyfluoroalkyl substances (PFAS) in Arctic animals",
+    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are pervasive environmental contaminants due to their persistence, bioaccumulation potential and adverse effects. This study applied target and non-target screening analysis in an exploratory approach to investigating emerging PFAS in Arctic animals, including polar bears, ringed seals, glaucous gulls, ptarmigans and shorthorn sculpin. Target analysis detected 21 PFAS, with the highest ∑PFAS in a polar bear sample (3238 ng/g wet weight (ww)). Perfluorooctane sulfonate (PFOS) was still the dominant PFAS except for shorthorn sculpin, where perfluoropentane sulfonate (PFPeS) prevailed. Several replacement PFAS (including perfluoro-4-ethylcyclohexane sulfonates (PFECHS), chlorinated polyfluoroalkylether sulfonates (Cl-PFESA) and 4,8-dioxa-3H-perfluorononanoic acid (ADONA)) and the precursor perfluorooctane sulfonamide (PFOSA) were also detected, with highest concentrations in polar bears. Non-target screening identified 16 emerging PFAS, with polar bears showing the greatest diversity (13 compounds), followed by ringed seals (4) and glaucous gulls (4) while no additional emerging PFAS were identified in ptarmigan and shorthorn sculpin. Among these PFAS, 2H,2H,3H,3H-perfluorodecanoic acid (7:3 fluorotelomercarboxylic acid; FTCA) and perfluorooctylphosphonic acid (PFOPA) were detected across multiple species. A semi-quantification approach indicated that emerging PFAS may contribute substantially to the overall PFAS burden in polar bear, ringed seal and glaucous gull samples, highlighting the importance of expanding PFAS monitoring and conducting risk assessments of emerging PFAS in Arctic ecosystems. • PFAS profiles in high-trophic level Arctic animals are still dominated by PFOS. • Perfluoropentane sulfonate (PFPeS) was the predominant PFAS in Arctic fish. • Non-target screening revealed 16 emerging PFAS in polar bears, seals and gulls. • Semi-quantified levels of emerging PFAS contributed significantly to total PFAS. • Arctic animals are exposed to complex mixtures of PFAS and other pollutants.",
+    "authors": [
+      "Linyan Zhu",
+      "Rossana Bossi",
+      "Pedro N. Carvalho",
+      "Rune Dietz",
+      "Christian Sonne",
+      "Jens Søndergaard",
+      "Katrin Vorkamp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-04T17:10:25.248513+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+    "pdf_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Arctic",
+      "Environmental science",
+      "Chemistry",
+      "The arctic",
+      "Pollutant",
+      "Water pollution",
+      "Thermokarst"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": true
+  }
+]

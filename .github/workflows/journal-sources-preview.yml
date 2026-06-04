@@ -7,6 +7,10 @@ on:
         description: "回溯抓取天数"
         required: false
         default: "30"
+      year_month:
+        description: "指定年月，格式 YYYY-MM；填写后优先按整月抓取"
+        required: false
+        default: ""
       rows_per_journal:
         description: "每本期刊最多抓取条数"
         required: false
@@ -17,7 +21,7 @@ on:
         default: "PFAS;perfluoroalkyl;polyfluoroalkyl;PFOA;PFOS"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: journal-sources-preview
@@ -34,6 +38,7 @@ jobs:
       OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
       SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
       UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -54,6 +59,7 @@ jobs:
         run: |
           set -euo pipefail
           FETCH_DAYS="${{ github.event.inputs.fetch_days }}"
+          YEAR_MONTH="${{ github.event.inputs.year_month }}"
           ROWS_PER_JOURNAL="${{ github.event.inputs.rows_per_journal }}"
           QUERY="${{ github.event.inputs.query }}"
           if [ -z "$FETCH_DAYS" ]; then
@@ -62,12 +68,19 @@ jobs:
           if [ -z "$ROWS_PER_JOURNAL" ]; then
             ROWS_PER_JOURNAL="25"
           fi
-          mkdir -p journal-preview
-          python src/maintain/fetchers/fetch_journal_sources.py \
-            --days "$FETCH_DAYS" \
-            --rows-per-journal "$ROWS_PER_JOURNAL" \
-            --query "$QUERY" \
-            --output journal-preview/journal_papers.json
+          mkdir -p journal-preview docs/journals
+          ARGS=(
+            --rows-per-journal "$ROWS_PER_JOURNAL"
+            --query "$QUERY"
+            --output docs/journals/journal-papers.json
+          )
+          if [ -n "$YEAR_MONTH" ]; then
+            ARGS+=(--month "$YEAR_MONTH")
+          else
+            ARGS+=(--days "$FETCH_DAYS")
+          fi
+          python src/maintain/fetchers/fetch_journal_sources.py "${ARGS[@]}"
+          cp docs/journals/journal-papers.json journal-preview/journal_papers.json
 
       - name: Print preview summary
         run: |
@@ -91,3 +104,15 @@ jobs:
         with:
           name: journal-papers-preview
           path: journal-preview/journal_papers.json
+
+      - name: Commit journal website data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/journals/journal-papers.json
+          if git diff --cached --quiet; then
+            echo "No journal data changes to commit."
+            exit 0
+          fi
+          git commit -m "[chore] update journal sources data"
+          git push

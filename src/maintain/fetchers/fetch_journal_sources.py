@@ -9,7 +9,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import Any, Dict, Iterable, List
 from urllib.parse import quote
 
@@ -84,6 +84,50 @@ def parse_crossref_date(raw: Any) -> str | None:
         return datetime(year, month, day, tzinfo=timezone.utc).isoformat()
     except Exception:
         return None
+
+
+def parse_date_arg(value: str) -> date | None:
+    text = _norm(value)
+    if not text:
+        return None
+    try:
+        return datetime.strptime(text, "%Y-%m-%d").date()
+    except Exception as exc:
+        raise ValueError(f"invalid date, expected YYYY-MM-DD: {text}") from exc
+
+
+def parse_month_arg(value: str) -> tuple[date, date] | None:
+    text = _norm(value)
+    if not text:
+        return None
+    try:
+        start = datetime.strptime(text, "%Y-%m").date().replace(day=1)
+    except Exception as exc:
+        raise ValueError(f"invalid month, expected YYYY-MM: {text}") from exc
+    if start.month == 12:
+        next_month = start.replace(year=start.year + 1, month=1)
+    else:
+        next_month = start.replace(month=start.month + 1)
+    return start, next_month - timedelta(days=1)
+
+
+def resolve_fetch_date_window(*, days: int, from_date: str = "", until_date: str = "", month: str = "") -> tuple[date, date]:
+    month_window = parse_month_arg(month)
+    if month_window is not None:
+        return month_window
+
+    explicit_start = parse_date_arg(from_date)
+    explicit_end = parse_date_arg(until_date)
+    if explicit_start or explicit_end:
+        end = explicit_end or datetime.now(timezone.utc).date()
+        start = explicit_start or end
+        if start > end:
+            raise ValueError(f"from-date must be <= until-date: {start} > {end}")
+        return start, end
+
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=max(int(days or 1), 1) - 1)
+    return start, end
 
 
 def parse_crossref_authors(raw: Any) -> List[str]:
@@ -462,6 +506,9 @@ def fetch_journal_sources(
     days: int,
     output_file: str,
     watchlist_file: str = WATCHLIST_FILE,
+    from_date: str = "",
+    until_date: str = "",
+    month: str = "",
     rows_per_journal: int = 25,
     query: str = "",
     enrich_openalex: bool = True,
@@ -474,8 +521,12 @@ def fetch_journal_sources(
     default_tags = watchlist.get("default_tags") if isinstance(watchlist.get("default_tags"), list) else []
     query_terms = parse_query_terms(query)
     keywords = query_terms or [_norm(x) for x in (watchlist.get("keyword_filters") or []) if _norm(x)]
-    end_date = datetime.now(timezone.utc).date()
-    start_date = end_date - timedelta(days=max(int(days or 1), 1) - 1)
+    start_date, end_date = resolve_fetch_date_window(
+        days=days,
+        from_date=from_date,
+        until_date=until_date,
+        month=month,
+    )
     all_papers: List[Dict[str, Any]] = []
     for journal in journals:
         label = _norm(journal.get("short_label") or journal.get("name") or journal.get("key"))
@@ -561,9 +612,26 @@ def get_run_date_token(end_date: datetime, days: int) -> str:
     return end_date.strftime("%Y%m%d")
 
 
+def get_output_token(*, days: int, from_date: str = "", until_date: str = "", month: str = "") -> str:
+    if _norm(month):
+        return _norm(month).replace("-", "")
+    start_date, end_date = resolve_fetch_date_window(
+        days=days,
+        from_date=from_date,
+        until_date=until_date,
+        month=month,
+    )
+    if start_date != end_date:
+        return f"{start_date:%Y%m%d}-{end_date:%Y%m%d}"
+    return f"{end_date:%Y%m%d}"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch environmental journal papers from Crossref and enrich metadata.")
     parser.add_argument("--days", type=int, default=9)
+    parser.add_argument("--month", type=str, default="", help="按整月抓取，例如 2025-06。优先级高于 --days。")
+    parser.add_argument("--from-date", type=str, default="", help="开始日期，格式 YYYY-MM-DD。")
+    parser.add_argument("--until-date", type=str, default="", help="结束日期，格式 YYYY-MM-DD。")
     parser.add_argument("--rows-per-journal", type=int, default=25)
     parser.add_argument("--watchlist", type=str, default=WATCHLIST_FILE)
     parser.add_argument("--output", type=str, default="")
@@ -577,7 +645,12 @@ def main() -> None:
     days = max(int(args.days or 1), 1)
     output = _norm(args.output)
     if not output:
-        token = get_run_date_token(datetime.now(timezone.utc), days)
+        token = get_output_token(
+            days=days,
+            from_date=args.from_date,
+            until_date=args.until_date,
+            month=args.month,
+        )
         output = os.path.join(ROOT_DIR, "archive", token, "raw", f"journal_papers_{token}.json")
     elif not os.path.isabs(output):
         output = os.path.abspath(os.path.join(ROOT_DIR, output))
@@ -586,6 +659,9 @@ def main() -> None:
         days=days,
         output_file=output,
         watchlist_file=args.watchlist,
+        from_date=args.from_date,
+        until_date=args.until_date,
+        month=args.month,
         rows_per_journal=args.rows_per_journal,
         query=args.query,
         enrich_openalex=not args.skip_openalex,

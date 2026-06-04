@@ -6578,6 +6578,189 @@ body.dpr-paper-page.dpr-pdf-preview-open article.markdown-section {
   min-width: 220px;
 }
 
+.dpr-journal-browser {
+  display: grid;
+  gap: 16px;
+  margin: 12px 0 32px;
+}
+
+.dpr-journal-toolbar {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.dpr-journal-toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: end;
+}
+
+.dpr-journal-toolbar label {
+  display: grid;
+  gap: 5px;
+  min-width: 120px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.dpr-journal-toolbar select,
+.dpr-journal-toolbar input {
+  box-sizing: border-box;
+  min-height: 34px;
+  border: 1px solid rgba(15, 23, 42, 0.16);
+  border-radius: 6px;
+  background: #fff;
+  color: #111827;
+  font-size: 13px;
+}
+
+.dpr-journal-toolbar select {
+  padding: 4px 28px 4px 8px;
+}
+
+.dpr-journal-toolbar input {
+  flex: 1 1 260px;
+  padding: 6px 10px;
+}
+
+.dpr-journal-toolbar button {
+  min-height: 34px;
+  padding: 5px 12px;
+  border: 1px solid rgba(15, 23, 42, 0.16);
+  border-radius: 6px;
+  background: #fff;
+  color: #334155;
+  cursor: pointer;
+}
+
+.dpr-journal-count,
+.dpr-journal-loading,
+.dpr-journal-empty,
+.dpr-journal-error {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.dpr-journal-error {
+  color: #b42318;
+}
+
+.dpr-journal-list {
+  display: grid;
+  gap: 12px;
+}
+
+.dpr-journal-card {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.dpr-journal-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.dpr-journal-badge,
+.dpr-journal-pdf,
+.dpr-journal-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.dpr-journal-badge {
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+.dpr-journal-pdf.is-open {
+  background: rgba(22, 163, 74, 0.1);
+  color: #15803d;
+}
+
+.dpr-journal-pdf.is-missing {
+  background: rgba(100, 116, 139, 0.12);
+  color: #475569;
+}
+
+.dpr-journal-title {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.dpr-journal-title a {
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.dpr-journal-title a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.dpr-journal-meta {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.dpr-journal-abstract {
+  margin: 0;
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.dpr-journal-abstract.is-empty {
+  color: #94a3b8;
+}
+
+.dpr-journal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.dpr-journal-tags span {
+  background: rgba(15, 23, 42, 0.06);
+  color: #475569;
+}
+
+.dpr-journal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.dpr-journal-actions a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.dpr-journal-actions a:hover {
+  text-decoration: underline;
+}
+
 /* 响应式：小屏幕改为两列或单列 */
 @media (max-width: 900px) {
   .paper-title-row {

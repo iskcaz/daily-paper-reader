@@ -1,4 +1,5 @@
 * <a class="dpr-sidebar-root-link" href="#/">首页</a>
+* <a class="dpr-sidebar-root-link" href="#/journals/README">环境期刊</a>
 * <a class="dpr-sidebar-root-link dpr-sidebar-noactive-link" href="javascript:void(0)" data-dpr-hash="#/tutorial/README">使用教程</a>
 * Daily Papers
   * 2026-05-26 ~ 2026-06-04 <!--dpr-date:20260526-20260604-->
