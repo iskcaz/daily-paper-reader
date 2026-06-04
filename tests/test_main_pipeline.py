@@ -140,6 +140,7 @@ class MainPipelineTest(unittest.TestCase):
                                 "id": "journal-1",
                                 "doi": "10.1000/journal",
                                 "title": "PFAS journal paper",
+                                "published": "2026-06-15",
                                 "source": "journal",
                                 "journal_label": "EST",
                                 "open_pdf_available": False,
@@ -189,6 +190,92 @@ class MainPipelineTest(unittest.TestCase):
             self.assertEqual([row["id"] for row in merged], ["arxiv-1", "journal-1"])
             self.assertEqual(merged[1]["source"], "journal")
             self.assertEqual(merged[1]["open_pdf_status"], "no_open_pdf")
+            latest = json.loads((root / "docs" / "journals" / "journal-papers.json").read_text(encoding="utf-8"))
+            month_rows = json.loads((root / "docs" / "journals" / "history" / "2026-06.json").read_text(encoding="utf-8"))
+            index = json.loads((root / "docs" / "journals" / "history" / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(latest[0]["id"], "journal-1")
+            self.assertEqual(month_rows[0]["doi"], "10.1000/journal")
+            self.assertEqual(index["latest"], "2026-06")
+
+    def test_fetch_and_merge_journal_sources_records_empty_month_for_website(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            src_dir = root / "src"
+            raw_dir = root / "archive" / "20250601" / "raw"
+            raw_dir.mkdir(parents=True, exist_ok=True)
+            raw_path = raw_dir / "arxiv_papers_20250601.json"
+            raw_path.write_text("[]", encoding="utf-8")
+
+            def fake_run_step(label, args, env=None):
+                output_path = Path(args[args.index("--output") + 1])
+                output_path.write_text("[]", encoding="utf-8")
+
+            with patch.object(self.mod, "ROOT_DIR", str(root)), patch.object(
+                self.mod, "SRC_DIR", str(src_dir)
+            ), patch.object(
+                self.mod, "run_step", side_effect=fake_run_step
+            ), patch.dict(
+                os.environ,
+                {
+                    "DPR_ENABLE_JOURNAL_SOURCES": "1",
+                    "DPR_JOURNAL_MONTH": "2025-06",
+                },
+                clear=True,
+            ):
+                self.mod.fetch_and_merge_journal_sources(
+                    python=sys.executable,
+                    raw_path=str(raw_path),
+                    run_date_token="20250601",
+                    fetch_days=30,
+                    config={},
+                )
+
+            latest = json.loads((root / "docs" / "journals" / "journal-papers.json").read_text(encoding="utf-8"))
+            month_rows = json.loads((root / "docs" / "journals" / "history" / "2025-06.json").read_text(encoding="utf-8"))
+            index = json.loads((root / "docs" / "journals" / "history" / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(latest, [])
+            self.assertEqual(month_rows, [])
+            self.assertEqual(index["months"][0]["month"], "2025-06")
+            self.assertEqual(index["months"][0]["count"], 0)
+
+    def test_fetch_and_merge_journal_sources_refreshes_empty_days_result(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            src_dir = root / "src"
+            raw_dir = root / "archive" / "20250601" / "raw"
+            latest_dir = root / "docs" / "journals"
+            raw_dir.mkdir(parents=True, exist_ok=True)
+            latest_dir.mkdir(parents=True, exist_ok=True)
+            raw_path = raw_dir / "arxiv_papers_20250601.json"
+            raw_path.write_text("[]", encoding="utf-8")
+            (latest_dir / "journal-papers.json").write_text(
+                json.dumps([{"id": "stale", "published": "2025-05-01"}], ensure_ascii=False),
+                encoding="utf-8",
+            )
+
+            def fake_run_step(label, args, env=None):
+                output_path = Path(args[args.index("--output") + 1])
+                output_path.write_text("[]", encoding="utf-8")
+
+            with patch.object(self.mod, "ROOT_DIR", str(root)), patch.object(
+                self.mod, "SRC_DIR", str(src_dir)
+            ), patch.object(
+                self.mod, "run_step", side_effect=fake_run_step
+            ), patch.dict(
+                os.environ,
+                {"DPR_ENABLE_JOURNAL_SOURCES": "1"},
+                clear=True,
+            ):
+                self.mod.fetch_and_merge_journal_sources(
+                    python=sys.executable,
+                    raw_path=str(raw_path),
+                    run_date_token="20250601",
+                    fetch_days=30,
+                    config={},
+                )
+
+            latest = json.loads((latest_dir / "journal-papers.json").read_text(encoding="utf-8"))
+            self.assertEqual(latest, [])
 
     def test_main_runs_local_rerank_without_remote_rerank_base(self):
         with tempfile.TemporaryDirectory() as tmpdir:

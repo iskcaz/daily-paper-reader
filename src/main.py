@@ -18,6 +18,11 @@ try:
 except Exception:  # pragma: no cover
     yaml = None
 
+try:
+    from maintain.journal_history import update_journal_history
+except Exception:  # pragma: no cover - compatible when imported as package
+    from src.maintain.journal_history import update_journal_history
+
 
 SRC_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(SRC_DIR, ".."))
@@ -298,6 +303,19 @@ def fetch_and_merge_journal_sources(
         base_rows = []
     if not isinstance(journal_rows, list):
         journal_rows = []
+    if journal_sources_enabled(config):
+        fallback_month = month or datetime.now(timezone.utc).strftime("%Y-%m")
+        result = update_journal_history(
+            input_path=journal_path,
+            latest_path=os.path.join(ROOT_DIR, "docs", "journals", "journal-papers.json"),
+            history_dir=os.path.join(ROOT_DIR, "docs", "journals", "history"),
+            fallback_month=fallback_month,
+        )
+        print(
+            f"[INFO] updated journal website data: rows={result['row_count']} "
+            f"months={result['month_count']} updated={','.join(result['updated_months'])}",
+            flush=True,
+        )
     merged_rows = merge_paper_lists(base_rows, journal_rows)
     save_json(raw_path, merged_rows)
     print(

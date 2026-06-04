@@ -33,6 +33,17 @@ window.DPRJournalBrowser = (function () {
     return String(d.getUTCMonth() + 1).padStart(2, '0');
   }
 
+  function normalizeIndexMonths(months) {
+    if (!Array.isArray(months)) return [];
+    return months
+      .map((entry) => {
+        const value = typeof entry === 'string' ? entry : entry && entry.month;
+        const text = norm(value);
+        return /^\d{4}-\d{2}$/.test(text) ? text : '';
+      })
+      .filter(Boolean);
+  }
+
   function dateText(row) {
     const d = parseDate(row.published);
     if (!d) return '';
@@ -143,8 +154,13 @@ window.DPRJournalBrowser = (function () {
     const rows = state.rows || [];
     const filters = state.filters || {};
     const journals = uniqueSorted(rows.map((row) => norm(row.journal_label || row.journal_key || row.journal)), false);
-    const years = uniqueSorted(rows.map(yearOf), true);
-    const months = uniqueSorted(rows.filter((row) => !filters.year || yearOf(row) === filters.year).map(monthOf), false);
+    const indexMonths = state.monthOptions || [];
+    const years = uniqueSorted(rows.map(yearOf).concat(indexMonths.map((month) => month.slice(0, 4))), true);
+    const rowMonths = rows.filter((row) => !filters.year || yearOf(row) === filters.year).map(monthOf);
+    const indexedMonths = indexMonths
+      .filter((month) => !filters.year || month.slice(0, 4) === filters.year)
+      .map((month) => month.slice(5, 7));
+    const months = uniqueSorted(rowMonths.concat(indexedMonths), false);
     const filtered = filterRows(rows, filters);
     root.innerHTML = `
       <div class="dpr-journal-toolbar">
@@ -241,34 +257,38 @@ window.DPRJournalBrowser = (function () {
   async function loadRowsFromHistory(indexUrl) {
     const index = await fetchJson(indexUrl);
     const months = index && Array.isArray(index.months) ? index.months : [];
+    const monthOptions = normalizeIndexMonths(months);
     const paths = months
       .map((entry) => (typeof entry === 'string' ? entry : entry && entry.path))
       .map(norm)
       .filter(Boolean);
-    if (!paths.length) return [];
-    const payloads = await Promise.all(paths.map(fetchJson));
-    return sortRows(uniqueRows(payloads.flatMap(rowsFromPayload)));
+    if (!paths.length) return { rows: [], monthOptions };
+    const payloads = await Promise.all(
+      paths.map((path) => fetchJson(path).catch(() => [])),
+    );
+    return { rows: sortRows(uniqueRows(payloads.flatMap(rowsFromPayload))), monthOptions };
   }
 
   async function loadRows(root) {
     const source = root.getAttribute('data-source') || 'docs/journals/journal-papers.json';
     const historyIndex = root.getAttribute('data-history-index') || 'docs/journals/history/index.json';
     try {
-      const historyRows = await loadRowsFromHistory(historyIndex);
-      if (historyRows.length) return historyRows;
+      const historyData = await loadRowsFromHistory(historyIndex);
+      if (historyData.rows.length || historyData.monthOptions.length) return historyData;
     } catch (err) {
       // Fall through to the legacy single-file data source.
     }
-    return rowsFromPayload(await fetchJson(source));
+    return { rows: rowsFromPayload(await fetchJson(source)), monthOptions: [] };
   }
 
   async function initOne(root) {
     if (!root || stateByEl.has(root)) return;
     root.innerHTML = '<div class="dpr-journal-loading">正在加载环境期刊论文...</div>';
     try {
-      const rows = await loadRows(root);
+      const loaded = await loadRows(root);
       stateByEl.set(root, {
-        rows: Array.isArray(rows) ? rows : [],
+        rows: Array.isArray(loaded.rows) ? loaded.rows : [],
+        monthOptions: Array.isArray(loaded.monthOptions) ? loaded.monthOptions : [],
         filters: {},
       });
       render(root);
@@ -289,5 +309,21 @@ window.DPRJournalBrowser = (function () {
   });
   window.setTimeout(init, 0);
 
-  return { init };
+  function renderForTest(root, testState) {
+    stateByEl.set(root, {
+      rows: Array.isArray(testState && testState.rows) ? testState.rows : [],
+      monthOptions: Array.isArray(testState && testState.monthOptions) ? testState.monthOptions : [],
+      filters: (testState && testState.filters) || {},
+    });
+    render(root);
+  }
+
+  return {
+    init,
+    __test: {
+      loadRowsFromHistory,
+      normalizeIndexMonths,
+      renderForTest,
+    },
+  };
 })();
