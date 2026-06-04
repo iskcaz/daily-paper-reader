@@ -1,0 +1,75 @@
+version: 1
+default_tags:
+  - environmental-science
+  - journal-watch
+keyword_filters:
+  - PFAS
+  - perfluoroalkyl
+  - polyfluoroalkyl
+  - fluorotelomer
+  - PFOA
+  - PFOS
+  - emerging contaminant
+  - contaminant
+  - water treatment
+  - wastewater
+  - drinking water
+  - groundwater
+  - surface water
+  - estuary
+  - estuarine
+  - coastal
+  - marine
+  - sediment
+  - sorption
+  - transport
+journals:
+  - key: est
+    name: Environmental Science & Technology
+    issns:
+      - 0013-936X
+      - 1520-5851
+    short_label: EST
+    source_weight: 10
+    tags:
+      - core-journal
+      - est
+  - key: est_letters
+    name: Environmental Science & Technology Letters
+    issns:
+      - 2328-8930
+    short_label: EST Letters
+    source_weight: 9
+    tags:
+      - core-journal
+      - est-letters
+  - key: water_research
+    name: Water Research
+    issns:
+      - 0043-1354
+      - 1879-2448
+    short_label: WR
+    source_weight: 10
+    tags:
+      - core-journal
+      - water-research
+  - key: stoten
+    name: Science of the Total Environment
+    issns:
+      - 0048-9697
+      - 1879-1026
+    short_label: STOTEN
+    source_weight: 8
+    tags:
+      - core-journal
+      - stoten
+  - key: jhm
+    name: Journal of Hazardous Materials
+    issns:
+      - 0304-3894
+      - 1873-3336
+    short_label: JHM
+    source_weight: 8
+    tags:
+      - core-journal
+      - hazardous-materials

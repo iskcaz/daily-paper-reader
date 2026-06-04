@@ -28,6 +28,26 @@ Model: gpt-5.4
   - `docs/<日期>/papers.meta.json`
   - `archive/<日期>/recommend/*.json`
 
+## 自然科学文献源维护
+
+- 用户的研究方向需要正式环境科学期刊，不应只依赖 arXiv / bioRxiv / 计算机会议源。
+- 新增自然科学期刊监控清单为 `journal_watchlist.yaml`。首批重点期刊包括 EST、EST Letters、Water Research、Science of the Total Environment、Journal of Hazardous Materials。
+- 自然科学来源抓取器为 `src/maintain/fetchers/fetch_journal_sources.py`：
+  - Crossref：按期刊 ISSN 抓新论文，发现 EST / WR / STOTEN / JHM 等正式期刊文章。
+  - OpenAlex：按 DOI 补主题、开放获取状态、来源信息。
+  - Semantic Scholar：按 DOI 批量补摘要、引用量、开放 PDF 线索。
+  - Unpaywall：按 DOI 专门寻找合法开放 PDF。
+- 如果仍没有开放 PDF，保留论文卡片，但必须标记：
+
+```text
+open_pdf_status: no_open_pdf
+open_pdf_available: false
+open_pdf_note: No legal open PDF found; skip screenshots and figure extraction.
+```
+
+- 目前 `.github/workflows/journal-sources-preview.yml` 是预览工作流，只产出 artifact，不修改网站内容。不要把它误认为已经接入主推荐流水线。
+- 后续要真正进入网页推荐，需要再做 Supabase 表/RPC 或本地 raw 文件合并、DOI 去重、期刊权重排序与前端标签显示。
+
 ## 稳定版本和发布规则
 
 - 这个项目对用户来说是一个已经部署的网站，不只是代码库。修改后如果用户期望网页生效，通常需要提交并推送到 `userfork main`。

@@ -1,0 +1,93 @@
+name: journal-sources-preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      fetch_days:
+        description: "回溯抓取天数"
+        required: false
+        default: "30"
+      rows_per_journal:
+        description: "每本期刊最多抓取条数"
+        required: false
+        default: "25"
+      query:
+        description: "关键词；用分号分隔。留空则使用 journal_watchlist.yaml 默认词"
+        required: false
+        default: "PFAS;perfluoroalkyl;polyfluoroalkyl;PFOA;PFOS"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: journal-sources-preview
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+      DPR_CONTACT_EMAIL: ${{ secrets.DPR_CONTACT_EMAIL }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+      SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+      UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install lightweight deps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests pyyaml
+
+      - name: Fetch journal sources
+        run: |
+          set -euo pipefail
+          FETCH_DAYS="${{ github.event.inputs.fetch_days }}"
+          ROWS_PER_JOURNAL="${{ github.event.inputs.rows_per_journal }}"
+          QUERY="${{ github.event.inputs.query }}"
+          if [ -z "$FETCH_DAYS" ]; then
+            FETCH_DAYS="30"
+          fi
+          if [ -z "$ROWS_PER_JOURNAL" ]; then
+            ROWS_PER_JOURNAL="25"
+          fi
+          mkdir -p journal-preview
+          python src/maintain/fetchers/fetch_journal_sources.py \
+            --days "$FETCH_DAYS" \
+            --rows-per-journal "$ROWS_PER_JOURNAL" \
+            --query "$QUERY" \
+            --output journal-preview/journal_papers.json
+
+      - name: Print preview summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("journal-preview/journal_papers.json")
+          rows = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+          print(f"journal_papers count={len(rows)}")
+          for row in rows[:20]:
+              print("---")
+              print(row.get("journal_label"), row.get("published"), row.get("doi"))
+              print(row.get("title"))
+              print("open_pdf_status=", row.get("open_pdf_status"), "source=", row.get("open_pdf_source"))
+              print("metadata_sources=", ",".join(row.get("metadata_sources") or []))
+          PY
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: journal-papers-preview
+          path: journal-preview/journal_papers.json
