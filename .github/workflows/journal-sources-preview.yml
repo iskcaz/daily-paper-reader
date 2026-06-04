@@ -97,6 +97,29 @@ jobs:
               except ValueError:
                   return text[:7] if len(text) >= 7 and text[4] == "-" else ""
 
+          def row_key(row):
+              if not isinstance(row, dict):
+                  return ""
+              for field in ("doi", "id", "source_paper_id", "title"):
+                  value = str(row.get(field) or "").strip().lower()
+                  if value:
+                      return f"{field}:{value}"
+              return ""
+
+          def merge_rows(existing_rows, incoming_rows):
+              merged = []
+              seen = set()
+              for row in list(existing_rows or []) + list(incoming_rows or []):
+                  if not isinstance(row, dict):
+                      continue
+                  key = row_key(row)
+                  if key and key in seen:
+                      continue
+                  if key:
+                      seen.add(key)
+                  merged.append(row)
+              return merged
+
           data_path = Path("docs/journals/journal-papers.json")
           history_dir = Path("docs/journals/history")
           history_dir.mkdir(parents=True, exist_ok=True)
@@ -114,8 +137,14 @@ jobs:
               grouped[fallback_month] = []
 
           for month, month_rows in sorted(grouped.items()):
-              (history_dir / f"{month}.json").write_text(
-                  json.dumps(month_rows, ensure_ascii=False, indent=2) + "\n",
+              month_path = history_dir / f"{month}.json"
+              try:
+                  existing_rows = json.loads(month_path.read_text(encoding="utf-8")) if month_path.exists() else []
+              except Exception:
+                  existing_rows = []
+              merged_rows = merge_rows(existing_rows if isinstance(existing_rows, list) else [], month_rows)
+              month_path.write_text(
+                  json.dumps(merged_rows, ensure_ascii=False, indent=2) + "\n",
                   encoding="utf-8",
               )
 
