@@ -195,6 +195,27 @@ def _keyword_hit(text: str, keywords: Iterable[str]) -> bool:
     return False
 
 
+def keyword_haystack(paper: Dict[str, Any]) -> str:
+    parts: List[str] = []
+    for field in (
+        "title",
+        "abstract",
+        "doi",
+        "journal",
+        "journal_label",
+        "primary_category",
+        "oa_status",
+    ):
+        value = _norm(paper.get(field))
+        if value:
+            parts.append(value)
+    for field in ("categories", "tags", "openalex_concepts", "semantic_fields_of_study"):
+        values = paper.get(field)
+        if isinstance(values, list):
+            parts.extend(_norm(item) for item in values if _norm(item))
+    return "\n".join(parts)
+
+
 def parse_query_terms(query: str) -> List[str]:
     return [_norm(part) for part in re.split(r"[;,\n]+", _norm(query)) if _norm(part)]
 
@@ -547,10 +568,6 @@ def fetch_journal_sources(
                 continue
             if is_noise_article(paper):
                 continue
-            if keywords:
-                haystack = f"{paper.get('title') or ''}\n{paper.get('abstract') or ''}"
-                if not _keyword_hit(haystack, keywords):
-                    continue
             all_papers.append(paper)
         time.sleep(max(float(sleep_seconds or 0), 0.0))
 
@@ -574,6 +591,11 @@ def fetch_journal_sources(
             except Exception as exc:
                 log(f"[WARN] Unpaywall enrich failed for {paper.get('doi')}: {exc}")
             time.sleep(max(float(sleep_seconds or 0), 0.0))
+    if keywords:
+        before_count = len(papers)
+        papers = [paper for paper in papers if _keyword_hit(keyword_haystack(paper), keywords)]
+        if len(papers) != before_count:
+            log(f"[JournalSources] keyword filter kept {len(papers)}/{before_count} papers after enrichment")
     for paper in papers:
         finalize_open_pdf_status(paper)
 

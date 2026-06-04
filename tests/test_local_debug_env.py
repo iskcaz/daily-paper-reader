@@ -1,5 +1,6 @@
 import importlib.util
 import pathlib
+import shlex
 import sys
 import tempfile
 import unittest
@@ -89,7 +90,7 @@ class LocalDebugEnvTest(unittest.TestCase):
         self.assertIn("已存在会议词条，跳过重复检索", script)
         self.assertIn("src/conference_pipeline.py", script)
         self.assertNotIn("\npython src/conference_sidebar.py", script)
-        self.assertIn(f"\n{self.mod.sys.executable} src/conference_sidebar.py", script)
+        self.assertIn(f"\n{shlex.quote(self.mod.sys.executable)} src/conference_sidebar.py", script)
         self.assertLess(script.index("TOPIC_MARKER="), script.index("src/conference_pipeline.py"))
         self.assertLess(script.index("grep -Fq \"$TOPIC_MARKER\""), script.index("src/conference_pipeline.py"))
 

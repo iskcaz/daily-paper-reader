@@ -61,6 +61,78 @@ class FetchJournalSourcesTest(unittest.TestCase):
             "PFAS transport sediment",
         )
 
+    def test_keyword_haystack_includes_enriched_metadata(self):
+        paper = {
+            "title": "Vegetable uptake study",
+            "abstract": "",
+            "openalex_concepts": ["Environmental chemistry"],
+            "semantic_fields_of_study": ["PFAS remediation"],
+        }
+
+        self.assertTrue(self.mod._keyword_hit(self.mod.keyword_haystack(paper), ["PFAS"]))
+
+    def test_fetch_filters_keywords_after_openalex_enrichment(self):
+        original_load_watchlist = self.mod.load_watchlist
+        original_fetch_crossref_journal = self.mod.fetch_crossref_journal
+        original_enrich_openalex = self.mod.enrich_with_openalex
+        original_enrich_semantic = self.mod.enrich_with_semantic_scholar_batch
+        original_enrich_unpaywall = self.mod.enrich_with_unpaywall
+        try:
+            self.mod.load_watchlist = lambda path: {
+                "default_tags": ["environmental-science"],
+                "journals": [
+                    {
+                        "key": "est",
+                        "name": "Environmental Science & Technology",
+                        "short_label": "EST",
+                        "issns": ["0013-936X"],
+                        "source_weight": 10,
+                    }
+                ],
+            }
+            self.mod.fetch_crossref_journal = lambda *args, **kwargs: [
+                {
+                    "DOI": "10.1021/acs.est.enriched",
+                    "type": "journal-article",
+                    "title": ["Vegetable uptake study"],
+                    "container-title": ["Environmental Science & Technology"],
+                    "published-online": {"date-parts": [[2026, 6, 1]]},
+                    "URL": "https://doi.org/10.1021/acs.est.enriched",
+                }
+            ]
+
+            def enrich_openalex(paper, **kwargs):
+                paper["abstract"] = "This enriched abstract discusses PFAS uptake in crops."
+                paper["metadata_sources"].append("openalex")
+
+            self.mod.enrich_with_openalex = enrich_openalex
+            self.mod.enrich_with_semantic_scholar_batch = lambda papers, **kwargs: None
+            self.mod.enrich_with_unpaywall = lambda paper, **kwargs: None
+
+            import tempfile
+
+            with tempfile.TemporaryDirectory() as d:
+                output = pathlib.Path(d) / "journal.json"
+                papers = self.mod.fetch_journal_sources(
+                    days=30,
+                    output_file=str(output),
+                    watchlist_file="unused.yaml",
+                    query="PFAS",
+                    enrich_semantic=True,
+                    enrich_unpaywall=True,
+                    sleep_seconds=0,
+                )
+
+            self.assertEqual(len(papers), 1)
+            self.assertEqual(papers[0]["doi"], "10.1021/acs.est.enriched")
+            self.assertIn("openalex", papers[0]["metadata_sources"])
+        finally:
+            self.mod.load_watchlist = original_load_watchlist
+            self.mod.fetch_crossref_journal = original_fetch_crossref_journal
+            self.mod.enrich_with_openalex = original_enrich_openalex
+            self.mod.enrich_with_semantic_scholar_batch = original_enrich_semantic
+            self.mod.enrich_with_unpaywall = original_enrich_unpaywall
+
     def test_month_arg_resolves_full_month(self):
         start, end = self.mod.parse_month_arg("2025-06")
         self.assertEqual(start.isoformat(), "2025-06-01")

@@ -16,7 +16,8 @@ import common  # type: ignore
 class MaintainCommonTest(unittest.TestCase):
     def test_default_raw_path(self):
         path = common.default_raw_path("aaai_papers", "20260325")
-        self.assertTrue(path.endswith("archive/20260325/raw/aaai_papers_20260325.json"))
+        normalized = path.replace("\\", "/")
+        self.assertTrue(normalized.endswith("archive/20260325/raw/aaai_papers_20260325.json"))
 
     def test_count_raw_rows(self):
         with tempfile.TemporaryDirectory() as tmp:
