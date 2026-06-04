@@ -193,6 +193,10 @@ window.DPRJournalBrowser = (function () {
         const state = stateByEl.get(root);
         if (!state) return;
         const key = el.getAttribute('data-filter');
+        if (state.queryRenderTimer) {
+          window.clearTimeout(state.queryRenderTimer);
+          state.queryRenderTimer = null;
+        }
         state.filters[key] = el.value;
         if (key === 'year') state.filters.month = '';
         render(root);
@@ -202,7 +206,18 @@ window.DPRJournalBrowser = (function () {
           const state = stateByEl.get(root);
           if (!state) return;
           state.filters.query = el.value;
-          render(root);
+          window.clearTimeout(state.queryRenderTimer);
+          state.queryRenderTimer = window.setTimeout(() => {
+            render(root);
+            const query = root.querySelector('input[data-filter="query"]');
+            if (query && document.activeElement !== query) {
+              query.focus();
+              const length = query.value.length;
+              if (typeof query.setSelectionRange === 'function') {
+                query.setSelectionRange(length, length);
+              }
+            }
+          }, 180);
         });
       }
     });
@@ -211,6 +226,10 @@ window.DPRJournalBrowser = (function () {
       reset.addEventListener('click', () => {
         const state = stateByEl.get(root);
         if (!state) return;
+        if (state.queryRenderTimer) {
+          window.clearTimeout(state.queryRenderTimer);
+          state.queryRenderTimer = null;
+        }
         state.filters = {};
         render(root);
       });

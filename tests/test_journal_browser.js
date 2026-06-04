@@ -2,11 +2,12 @@ const assert = require('node:assert/strict');
 
 global.window = global.window || {
   addEventListener() {},
-  setTimeout() {},
 };
 global.window.addEventListener = global.window.addEventListener || function addEventListener() {};
-global.window.setTimeout = global.window.setTimeout || function setTimeoutStub() {};
+global.window.setTimeout = global.setTimeout;
+global.window.clearTimeout = global.clearTimeout;
 global.document = global.document || {
+  activeElement: null,
   addEventListener() {},
   querySelectorAll() {
     return [];
@@ -52,6 +53,57 @@ function testRenderIncludesEmptyIndexedMonthOptions() {
   assert.match(root.innerHTML, /0 \/ 0/);
 }
 
+async function testQueryInputKeepsFocusAfterDebouncedRender() {
+  const listeners = {};
+  const query = {
+    value: '',
+    getAttribute(name) {
+      return name === 'data-filter' ? 'query' : '';
+    },
+    addEventListener(type, handler) {
+      listeners[type] = handler;
+    },
+    focus() {
+      global.document.activeElement = query;
+    },
+    setSelectionRange(start, end) {
+      query.selection = [start, end];
+    },
+  };
+  const root = {
+    innerHTML: '',
+    querySelectorAll(selector) {
+      return selector === '[data-filter]' ? [query] : [];
+    },
+    querySelector(selector) {
+      return selector === 'input[data-filter="query"]' ? query : null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'paper-1',
+        title: 'PFAS transport',
+        published: '2026-06-01',
+        journal_label: 'EST',
+      },
+    ],
+    monthOptions: [],
+    filters: {},
+  });
+
+  query.value = 'PFAS';
+  global.document.activeElement = null;
+  listeners.input();
+  await new Promise((resolve) => setTimeout(resolve, 230));
+
+  assert.equal(query.value, 'PFAS');
+  assert.equal(global.document.activeElement, query);
+  assert.deepEqual(query.selection, [4, 4]);
+  assert.match(root.innerHTML, /1 \/ 1/);
+}
+
 async function testLoadRowsFromHistorySkipsBrokenMonthFiles() {
   const originalFetch = global.fetch;
   global.fetch = async (url) => {
@@ -92,7 +144,9 @@ async function testLoadRowsFromHistorySkipsBrokenMonthFiles() {
 
 testNormalizeIndexMonthsKeepsOnlyValidYearMonths();
 testRenderIncludesEmptyIndexedMonthOptions();
-testLoadRowsFromHistorySkipsBrokenMonthFiles()
+Promise.resolve()
+  .then(testQueryInputKeepsFocusAfterDebouncedRender)
+  .then(testLoadRowsFromHistorySkipsBrokenMonthFiles)
   .then(() => {
     console.log('journal browser tests ok');
   })
