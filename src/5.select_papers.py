@@ -478,8 +478,28 @@ def build_candidates(
     return list(merged.values())
 
 
+def _source_weight_bonus(item: Dict[str, Any]) -> float:
+    try:
+        weight = float(item.get("source_weight") or 0)
+    except Exception:
+        weight = 0.0
+    return min(max(weight, 0.0), 50.0) / 1000.0
+
+
 def sort_by_score(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    return sorted(items, key=lambda x: (-float(x.get("llm_score", 0)), str(x.get("id") or "")))
+    return sorted(
+        items,
+        key=lambda x: (
+            -(float(x.get("llm_score", 0)) + _source_weight_bonus(x)),
+            str(x.get("id") or ""),
+        ),
+    )
+
+
+def is_deep_dive_eligible(item: Dict[str, Any]) -> bool:
+    if str(item.get("source") or "").strip() != "journal":
+        return True
+    return bool(item.get("open_pdf_available"))
 
 
 def build_tag_map(candidates: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
@@ -796,7 +816,11 @@ def process_mode(
             min_score=float(cfg.get("all_quick_min_score") or 0),
         )
 
-    deep_candidates = [p for p in candidates if float(p.get("llm_score", 0)) >= 8.0]
+    deep_candidates = [
+        p
+        for p in candidates
+        if float(p.get("llm_score", 0)) >= 8.0 and is_deep_dive_eligible(p)
+    ]
     deep_candidates = sort_by_score(deep_candidates)
 
     priority_deep_candidates = [
@@ -836,7 +860,11 @@ def process_mode(
             deep_selected = priority_deep_candidates + extra_selected
 
     selected_ids = {p.get("id") for p in deep_selected}
-    deep_overflow = [p for p in deep_candidates if p.get("id") not in selected_ids]
+    deep_overflow = [
+        p
+        for p in candidates
+        if p.get("id") not in selected_ids and float(p.get("llm_score", 0)) >= 8.0
+    ]
 
     quick_candidates = [
         p

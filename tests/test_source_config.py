@@ -9,12 +9,24 @@ from src.source_config import (
     ARXIV_SOURCE_KEY,
     get_source_backend,
     get_supabase_shared_config,
+    list_known_source_keys,
     migrate_source_config_inplace,
     resolve_source_backends,
+    validate_profile_paper_sources,
 )
 
 
 class SourceConfigMigrationTest(unittest.TestCase):
+    def test_journal_is_supported_without_source_backend(self):
+        known_sources = list_known_source_keys({})
+        self.assertIn("journal", known_sources)
+        sources, filled = validate_profile_paper_sources(
+            {"tag": "ENV", "paper_sources": ["journal"]},
+            known_sources=known_sources,
+        )
+        self.assertEqual(sources, ["journal"])
+        self.assertFalse(filled)
+
     def test_migrate_fills_missing_paper_sources_and_source_backends(self):
         cfg = {
             "supabase": {

@@ -155,6 +155,33 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
         self.assertEqual(len(tables), 1)
         self.assertEqual(tables[0]["url"], "assets/tables/arxiv/1234.5678/table-001.webp")
 
+    def test_journal_without_open_pdf_writes_landing_link_not_pdf(self):
+        paper = {
+            "title": "Journal Test",
+            "authors": ["Ada Lovelace"],
+            "published": "2026-06-01T00:00:00+00:00",
+            "source": "journal",
+            "link": "https://doi.org/10.1000/test",
+            "abs_url": "https://doi.org/10.1000/test",
+            "open_pdf_available": False,
+            "open_pdf_status": "no_open_pdf",
+            "abstract": "abstract body",
+        }
+        md = self.mod.build_markdown_content(paper, "quick", "", "", [])
+        meta = self.mod._parse_front_matter(md)
+        self.assertNotIn("pdf", meta)
+        self.assertEqual(meta["link"], "https://doi.org/10.1000/test")
+        self.assertEqual(self.mod.resolve_paper_pdf_url(paper), "")
+
+    def test_journal_with_open_pdf_uses_pdf_url(self):
+        paper = {
+            "source": "journal",
+            "link": "https://doi.org/10.1000/test",
+            "pdf_url": "https://example.org/open.pdf",
+            "open_pdf_available": True,
+        }
+        self.assertEqual(self.mod.resolve_paper_pdf_url(paper), "https://example.org/open.pdf")
+
     def test_maybe_generate_paper_media_accepts_biorxiv(self):
         calls = []
 

@@ -80,6 +80,70 @@ jobs:
             ARGS+=(--days "$FETCH_DAYS")
           fi
           python src/maintain/fetchers/fetch_journal_sources.py "${ARGS[@]}"
+          export YEAR_MONTH
+          python - <<'PY'
+          import json
+          import os
+          from collections import defaultdict
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          def parse_month(value):
+              text = str(value or "").strip()
+              if not text:
+                  return ""
+              try:
+                  return datetime.fromisoformat(text.replace("Z", "+00:00")).strftime("%Y-%m")
+              except ValueError:
+                  return text[:7] if len(text) >= 7 and text[4] == "-" else ""
+
+          data_path = Path("docs/journals/journal-papers.json")
+          history_dir = Path("docs/journals/history")
+          history_dir.mkdir(parents=True, exist_ok=True)
+
+          rows = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else []
+          if not isinstance(rows, list):
+              raise SystemExit("docs/journals/journal-papers.json must contain a JSON array")
+
+          fallback_month = os.environ.get("YEAR_MONTH") or datetime.now(timezone.utc).strftime("%Y-%m")
+          grouped = defaultdict(list)
+          for row in rows:
+              month = parse_month(row.get("published") if isinstance(row, dict) else "") or fallback_month
+              grouped[month].append(row)
+          if not grouped:
+              grouped[fallback_month] = []
+
+          for month, month_rows in sorted(grouped.items()):
+              (history_dir / f"{month}.json").write_text(
+                  json.dumps(month_rows, ensure_ascii=False, indent=2) + "\n",
+                  encoding="utf-8",
+              )
+
+          months = []
+          for path in sorted(history_dir.glob("????-??.json"), reverse=True):
+              try:
+                  month_rows = json.loads(path.read_text(encoding="utf-8"))
+              except Exception:
+                  month_rows = []
+              months.append(
+                  {
+                      "month": path.stem,
+                      "path": f"docs/journals/history/{path.name}",
+                      "count": len(month_rows) if isinstance(month_rows, list) else 0,
+                  }
+              )
+
+          index = {
+              "generated_at": datetime.now(timezone.utc).isoformat(),
+              "latest": months[0]["month"] if months else "",
+              "months": months,
+          }
+          (history_dir / "index.json").write_text(
+              json.dumps(index, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          print(f"journal history months={len(months)}")
+          PY
           cp docs/journals/journal-papers.json journal-preview/journal_papers.json
 
       - name: Print preview summary
@@ -109,7 +173,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/journals/journal-papers.json
+          git add docs/journals/journal-papers.json docs/journals/history
           if git diff --cached --quiet; then
             echo "No journal data changes to commit."
             exit 0

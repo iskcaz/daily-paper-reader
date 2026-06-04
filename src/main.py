@@ -179,6 +179,134 @@ def save_json(path: str, data: Any) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def _split_source_env(value: str) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for item in re.split(r"[,\s]+", str(value or "").strip()):
+        key = item.strip().lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(key)
+    return out
+
+
+def journal_sources_enabled(config: dict | None = None) -> bool:
+    flag = str(os.getenv("DPR_ENABLE_JOURNAL_SOURCES") or "").strip().lower()
+    if flag in {"1", "true", "yes", "on"}:
+        return True
+    if flag in {"0", "false", "no", "off"}:
+        return False
+    env_sources = _split_source_env(os.getenv("DPR_FORCE_PAPER_SOURCES") or "") + _split_source_env(
+        os.getenv("DPR_APPEND_PAPER_SOURCES") or ""
+    )
+    if "journal" in env_sources:
+        return True
+    cfg = config if isinstance(config, dict) else _load_full_config()
+    profiles = (((cfg or {}).get("subscriptions") or {}).get("intent_profiles") or [])
+    if isinstance(profiles, list):
+        for profile in profiles:
+            if not isinstance(profile, dict):
+                continue
+            sources = [str(x or "").strip().lower() for x in (profile.get("paper_sources") or [])]
+            if "journal" in sources:
+                return True
+    return False
+
+
+def _paper_merge_key(item: dict) -> str:
+    doi = str(item.get("doi") or "").strip().lower()
+    if doi:
+        return f"doi:{doi}"
+    pid = str(item.get("id") or item.get("paper_id") or "").strip().lower()
+    if pid:
+        return f"id:{pid}"
+    title = str(item.get("title") or "").strip().lower()
+    return f"title:{title}" if title else ""
+
+
+def merge_paper_lists(base_rows: list[Any], incoming_rows: list[Any]) -> list[dict]:
+    merged: list[dict] = []
+    key_to_index: dict[str, int] = {}
+    for raw in list(base_rows or []) + list(incoming_rows or []):
+        if not isinstance(raw, dict):
+            continue
+        item = dict(raw)
+        key = _paper_merge_key(item)
+        if not key:
+            continue
+        if key not in key_to_index:
+            key_to_index[key] = len(merged)
+            merged.append(item)
+            continue
+        existing = merged[key_to_index[key]]
+        for field, value in item.items():
+            if field == "metadata_sources" and isinstance(value, list):
+                old = existing.get(field) if isinstance(existing.get(field), list) else []
+                existing[field] = list(dict.fromkeys([*old, *value]))
+            elif not existing.get(field) and value not in (None, "", []):
+                existing[field] = value
+        try:
+            existing["source_weight"] = max(int(existing.get("source_weight") or 0), int(item.get("source_weight") or 0))
+        except Exception:
+            pass
+    return merged
+
+
+def fetch_and_merge_journal_sources(
+    *,
+    python: str,
+    raw_path: str,
+    run_date_token: str,
+    fetch_days: int | None,
+    config: dict | None = None,
+) -> None:
+    if not journal_sources_enabled(config):
+        return
+
+    journal_path = os.path.join(os.path.dirname(raw_path), f"journal_papers_{run_date_token}.json")
+    rows_per_journal = str(os.getenv("DPR_JOURNAL_ROWS_PER_JOURNAL") or "25").strip() or "25"
+    month = str(os.getenv("DPR_JOURNAL_MONTH") or "").strip()
+    query = str(os.getenv("DPR_JOURNAL_QUERY") or "").strip()
+    days = fetch_days
+    if days is None:
+        setting = load_arxiv_paper_setting()
+        try:
+            days = int(setting.get("days_window") or MAIN_DEFAULT_DAYS)
+        except Exception:
+            days = MAIN_DEFAULT_DAYS
+
+    cmd = [
+        python,
+        os.path.join(SRC_DIR, "maintain", "fetchers", "fetch_journal_sources.py"),
+        "--rows-per-journal",
+        rows_per_journal,
+        "--output",
+        journal_path,
+    ]
+    if month:
+        cmd.extend(["--month", month])
+    else:
+        cmd.extend(["--days", str(max(int(days or 1), 1))])
+    if query:
+        cmd.extend(["--query", query])
+
+    run_step("Step 1b - fetch journal sources", cmd)
+    base_rows = load_json_safe(raw_path)
+    journal_rows = load_json_safe(journal_path)
+    if not isinstance(base_rows, list):
+        base_rows = []
+    if not isinstance(journal_rows, list):
+        journal_rows = []
+    merged_rows = merge_paper_lists(base_rows, journal_rows)
+    save_json(raw_path, merged_rows)
+    print(
+        f"[INFO] merged journal sources into raw pool: base={len(base_rows)} "
+        f"journal={len(journal_rows)} merged={len(merged_rows)} path={raw_path}",
+        flush=True,
+    )
+
+
 def _read_env_text(*names: str) -> str:
     for name in names:
         value = str(os.getenv(name) or "").strip()
@@ -649,6 +777,16 @@ def main() -> None:
                 *(["--days", str(args.fetch_days)] if args.fetch_days is not None else []),
                 *(["--ignore-seen"] if args.fetch_ignore_seen else []),
             ],
+        )
+    if journal_sources_enabled(_load_full_config()):
+        if not os.path.exists(raw_path):
+            save_json(raw_path, [])
+        fetch_and_merge_journal_sources(
+            python=python,
+            raw_path=raw_path,
+            run_date_token=run_date_token,
+            fetch_days=args.fetch_days,
+            config=_load_full_config(),
         )
     if trace_ids:
         print_trace_retrieval("RAW", raw_path, trace_ids)

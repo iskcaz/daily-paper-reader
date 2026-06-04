@@ -1236,6 +1236,21 @@ def yaml_escape_value(s: str) -> str:
     return s
 
 
+def resolve_paper_pdf_url(paper: Dict[str, Any]) -> str:
+    source_key = str(paper.get("source") or "").strip().lower()
+    pdf_url = str(paper.get("pdf_url") or "").strip()
+    link_url = str(paper.get("link") or "").strip()
+    if source_key == "journal":
+        if paper.get("open_pdf_available") is False:
+            return ""
+        return pdf_url
+    return pdf_url or link_url
+
+
+def resolve_paper_landing_url(paper: Dict[str, Any]) -> str:
+    return str(paper.get("abs_url") or paper.get("link") or paper.get("pdf_url") or "").strip()
+
+
 def maybe_generate_paper_figures(
     paper: Dict[str, Any],
     *,
@@ -1319,7 +1334,7 @@ def build_markdown_content(
     published = str(paper.get("published") or "").strip()
     if published:
         published = published[:10]
-    pdf_url = str(paper.get("link") or paper.get("pdf_url") or "").strip()
+    pdf_url = resolve_paper_pdf_url(paper)
     score = paper.get("llm_score")
     evidence = str(paper.get("canonical_evidence") or "").strip()
     tldr = (
@@ -1371,6 +1386,9 @@ def build_markdown_content(
     lines.append(f"date: {yaml_escape_value(published or 'Unknown')}")
     if pdf_url:
         lines.append(f"pdf: {yaml_escape_value(pdf_url)}")
+    landing_url = resolve_paper_landing_url(paper)
+    if landing_url and landing_url != pdf_url:
+        lines.append(f"link: {yaml_escape_value(landing_url)}")
     if tags_list:
         # 保留完整的 kind:label 格式，前端渲染时再处理
         lines.append(f"tags: [{', '.join(yaml_escape_value(t) for t in tags_list)}]")
@@ -1450,7 +1468,7 @@ def process_paper(
     arxiv_id = str(paper.get("id") or paper.get("paper_id") or "").strip()
     md_path, txt_path, paper_id = prepare_paper_paths(docs_dir, date_str, title, arxiv_id)
     abstract_en = (paper.get("abstract") or "").strip()
-    pdf_url = str(paper.get("link") or paper.get("pdf_url") or "").strip()
+    pdf_url = resolve_paper_pdf_url(paper)
     paper_llm_client = create_llm_client()
 
     glance = ""
@@ -1626,7 +1644,9 @@ def process_paper(
                 return paper_id, title
 
             # 生成详细总结
-            pdf_url = str(paper.get("link") or paper.get("pdf_url") or "").strip()
+            if not pdf_url:
+                log(f"[WARN] skip deep summary because no open PDF is available: {paper_id}")
+                return paper_id, title
             ensure_text_content(pdf_url, txt_path)
             summary = generate_deep_summary(md_path, txt_path, client=paper_llm_client)
             if summary:
@@ -1665,7 +1685,19 @@ def process_paper(
         return paper_id, title
 
     # 新文件：生成完整内容
-    pdf_url = str(paper.get("link") or paper.get("pdf_url") or "").strip()
+    pdf_url = resolve_paper_pdf_url(paper)
+    if not pdf_url:
+        glance = generate_glance_overview(title, abstract_en, client=paper_llm_client) or build_glance_fallback(paper)
+        if glance:
+            paper["_glance_overview"] = glance
+        tags_list = build_tags_list(section, paper.get("llm_tags") or [])
+        content = build_markdown_content(paper, section, "", "", tags_list)
+        os.makedirs(os.path.dirname(md_path), exist_ok=True)
+        with open(md_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        if section == "deep":
+            log(f"[WARN] skip deep summary because no open PDF is available: {paper_id}")
+        return paper_id, title
     ensure_text_content(pdf_url, txt_path)
     figures, tables = maybe_generate_paper_media(
         paper,

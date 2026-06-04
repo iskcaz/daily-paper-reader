@@ -45,6 +45,7 @@ DATE_RE_DAY = re.compile(r"^\d{8}$")
 DATE_RE_RANGE = re.compile(r"^\d{8}-\d{8}$")
 SUPABASE_TIME_FIELDS = ("published",)
 SUPABASE_VECTOR_SHARD_DAYS = 7
+LOCAL_FILE_SOURCE_KEYS = {"journal"}
 EMBEDDING_CACHE_VERSION = 1
 EMBEDDING_CACHE_FIELD = "embedding_cache"
 LEGACY_EMBEDDING_CACHE_KEY = "embedding_cache"
@@ -161,6 +162,16 @@ class Paper:
   source: str = "arxiv"
   embedding: Optional[np.ndarray] = None
   embedding_model: str = ""
+  doi: str = ""
+  abs_url: str = ""
+  pdf_url: str = ""
+  journal: str = ""
+  journal_key: str = ""
+  journal_label: str = ""
+  open_pdf_status: str = ""
+  open_pdf_available: bool | None = None
+  open_pdf_note: str = ""
+  source_weight: int | None = None
   tags: Set[str] = field(default_factory=set)
 
   @property
@@ -188,6 +199,16 @@ class Paper:
       "categories": self.categories,
       "published": self.published,
       "link": self.link,
+      "doi": self.doi,
+      "abs_url": self.abs_url,
+      "pdf_url": self.pdf_url,
+      "journal": self.journal,
+      "journal_key": self.journal_key,
+      "journal_label": self.journal_label,
+      "open_pdf_status": self.open_pdf_status,
+      "open_pdf_available": self.open_pdf_available,
+      "open_pdf_note": self.open_pdf_note,
+      "source_weight": self.source_weight,
       # tags 输出为去重后的列表
       "tags": sorted(self.tags),
     }
@@ -451,6 +472,14 @@ def load_paper_pool(path: str) -> List[Paper]:
   with open(path, "r", encoding="utf-8") as f:
     raw = json.load(f)
 
+  def _optional_int(value: Any) -> int | None:
+    try:
+      if value is None or str(value).strip() == "":
+        return None
+      return int(value)
+    except Exception:
+      return None
+
   papers: List[Paper] = []
   for item in raw:
     try:
@@ -467,6 +496,16 @@ def load_paper_pool(path: str) -> List[Paper]:
         link=str(item.get("link") or "") or None,
         embedding=emb,
         embedding_model=str(item.get("embedding_model") or "").strip(),
+        doi=str(item.get("doi") or "").strip(),
+        abs_url=str(item.get("abs_url") or "").strip(),
+        pdf_url=str(item.get("pdf_url") or "").strip(),
+        journal=str(item.get("journal") or "").strip(),
+        journal_key=str(item.get("journal_key") or "").strip(),
+        journal_label=str(item.get("journal_label") or "").strip(),
+        open_pdf_status=str(item.get("open_pdf_status") or "").strip(),
+        open_pdf_available=item.get("open_pdf_available") if isinstance(item.get("open_pdf_available"), bool) else None,
+        open_pdf_note=str(item.get("open_pdf_note") or "").strip(),
+        source_weight=_optional_int(item.get("source_weight")),
       )
       if p.id:
         papers.append(p)
@@ -1260,6 +1299,8 @@ def main() -> None:
   for source_key in query_groups:
     if source_key == ARXIV_SOURCE_KEY:
       continue
+    if source_key in LOCAL_FILE_SOURCE_KEYS:
+      continue
     if not get_source_backend(config, source_key):
       log(f"[ERROR] 词条引用了论文源「{source_key}」，但未配置 source_backends.{source_key}。")
       return
@@ -1414,6 +1455,8 @@ def main() -> None:
     for source_key, source_queries in query_groups.items():
       if source_key == ARXIV_SOURCE_KEY:
         continue
+      if source_key in LOCAL_FILE_SOURCE_KEYS:
+        continue
       result_sb = run_supabase_vector_recall_for_source(
         output_path,
         source_key,
@@ -1469,6 +1512,38 @@ def main() -> None:
         )
         group_end()
         merged_results.append(result_local)
+
+    for source_key in sorted(LOCAL_FILE_SOURCE_KEYS):
+      source_queries = query_groups.get(source_key) or []
+      if not source_queries:
+        continue
+      papers = load_paper_pool(input_path)
+      source_papers = [p for p in papers if p.source == source_key]
+      if not source_papers:
+        log(f"[WARN] local embedding source={source_key} has no papers in {input_path}")
+        continue
+      total_papers = len(source_papers)
+      dynamic_top_k = args.top_k if args.top_k and args.top_k > 0 else estimate_dynamic_top_k(total_papers)
+
+      filter_inst = get_filter()
+      filter_inst.top_k = dynamic_top_k
+      paper_embeddings = try_use_precomputed_embeddings(source_papers, expected_model=args.model)
+      if paper_embeddings is None:
+        group_start(f"Step 2.2 - compute local source embeddings ({source_key}:{os.path.basename(input_path)})")
+        coarse_result = filter_inst.filter(items=source_papers, queries=source_queries)
+        group_end()
+        paper_embeddings = coarse_result["embeddings"]
+
+      group_start(f"Step 2.2 - rank local source ({source_key}:{os.path.basename(input_path)})")
+      result_local = rank_papers_for_queries(
+        model=filter_inst.model,
+        papers=source_papers,
+        paper_embeddings=paper_embeddings,
+        queries=source_queries,
+        top_k=dynamic_top_k,
+      )
+      group_end()
+      merged_results.append(result_local)
 
     merged = merge_pipeline_results(merged_results)
     if not merged.get("queries"):

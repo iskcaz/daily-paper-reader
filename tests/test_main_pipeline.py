@@ -74,6 +74,35 @@ class MainPipelineTest(unittest.TestCase):
         self.assertEqual(env["LLM_PRIMARY_BASE_URL"], "https://summary.example.com/v1")
         self.assertEqual(env["DEEPSEEK_MODEL"], "deepseek-v4-flash")
 
+    def test_merge_paper_lists_dedupes_by_doi_and_preserves_metadata(self):
+        merged = self.mod.merge_paper_lists(
+            [
+                {
+                    "id": "journal-old",
+                    "doi": "10.1000/test",
+                    "title": "Old",
+                    "metadata_sources": ["crossref"],
+                    "source_weight": 5,
+                }
+            ],
+            [
+                {
+                    "id": "journal-new",
+                    "doi": "10.1000/test",
+                    "abstract": "Updated abstract",
+                    "metadata_sources": ["openalex"],
+                    "source_weight": 10,
+                },
+                {"id": "arxiv-1", "title": "Other"},
+            ],
+        )
+
+        self.assertEqual(len(merged), 2)
+        self.assertEqual(merged[0]["id"], "journal-old")
+        self.assertEqual(merged[0]["abstract"], "Updated abstract")
+        self.assertEqual(merged[0]["metadata_sources"], ["crossref", "openalex"])
+        self.assertEqual(merged[0]["source_weight"], 10)
+
     def test_main_runs_local_rerank_without_remote_rerank_base(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

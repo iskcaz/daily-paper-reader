@@ -49,6 +49,7 @@ DATE_RE_DAY = re.compile(r"^\d{8}$")
 DATE_RE_RANGE = re.compile(r"^\d{8}-\d{8}$")
 SUPABASE_TIME_FIELDS = ("published",)
 SUPABASE_BM25_SHARD_DAYS = 7
+LOCAL_FILE_SOURCE_KEYS = {"journal"}
 
 
 TOKEN_RE = re.compile(r"[A-Za-z0-9]+|[\u4e00-\u9fff]")
@@ -124,6 +125,7 @@ class Paper:
   published: str | None = None
   link: str | None = None
   source: str = "arxiv"
+  extra: Dict[str, Any] = field(default_factory=dict)
   tags: Set[str] = field(default_factory=set)
 
   @property
@@ -141,7 +143,7 @@ class Paper:
 
   def to_dict(self) -> Dict[str, Any]:
     """转换为可 JSON 序列化的字典"""
-    return {
+    payload = {
       "id": self.id,
       "source": self.source,
       "title": self.title,
@@ -153,6 +155,11 @@ class Paper:
       "link": self.link,
       "tags": sorted(self.tags),
     }
+    for key, value in self.extra.items():
+      if key in payload or key in {"tags"}:
+        continue
+      payload[key] = value
+    return payload
 
 
 class BM25Index:
@@ -551,8 +558,25 @@ def load_paper_pool(path: str) -> List[Paper]:
     raw = json.load(f)
 
   papers: List[Paper] = []
+  base_keys = {
+    "id",
+    "source",
+    "title",
+    "abstract",
+    "authors",
+    "primary_category",
+    "categories",
+    "published",
+    "link",
+    "tags",
+  }
   for item in raw:
     try:
+      extra = {
+        str(k): v
+        for k, v in item.items()
+        if str(k) not in base_keys and v is not None
+      }
       p = Paper(
         id=str(item.get("id") or "").strip(),
         source=str(item.get("source") or "arxiv").strip() or "arxiv",
@@ -563,6 +587,7 @@ def load_paper_pool(path: str) -> List[Paper]:
         categories=[str(c) for c in (item.get("categories") or [])],
         published=str(item.get("published") or "") or None,
         link=str(item.get("link") or "") or None,
+        extra=extra,
       )
       if p.id:
         papers.append(p)
@@ -1027,6 +1052,8 @@ def main() -> None:
   for source_key in query_groups:
     if source_key == ARXIV_SOURCE_KEY:
       continue
+    if source_key in LOCAL_FILE_SOURCE_KEYS:
+      continue
     if not get_source_backend(config, source_key):
       log(f"[ERROR] 词条引用了论文源「{source_key}」，但未配置 source_backends.{source_key}。")
       return
@@ -1142,6 +1169,8 @@ def main() -> None:
     for source_key, source_queries in query_groups.items():
       if source_key == ARXIV_SOURCE_KEY:
         continue
+      if source_key in LOCAL_FILE_SOURCE_KEYS:
+        continue
       result_sb = run_supabase_rank_for_source(output_path, source_key, source_queries)
       if result_sb:
         merged_results.append(result_sb)
@@ -1180,6 +1209,28 @@ def main() -> None:
         )
         group_end()
         merged_results.append(result_local)
+
+    for source_key in sorted(LOCAL_FILE_SOURCE_KEYS):
+      source_queries = query_groups.get(source_key) or []
+      if not source_queries:
+        continue
+      papers = load_paper_pool(input_path)
+      source_papers = [p for p in papers if p.source == source_key]
+      if not source_papers:
+        log(f"[WARN] local BM25 source={source_key} has no papers in {input_path}")
+        continue
+      total_papers = len(source_papers)
+      dynamic_top_k = args.top_k if args.top_k and args.top_k > 0 else estimate_dynamic_top_k(total_papers)
+      group_start(f"Step 2.1 - rank local source ({source_key}:{os.path.basename(input_path)})")
+      source_bm25 = build_bm25_index(source_papers, k1=float(args.k1), b=float(args.b))
+      result_local = rank_papers_for_queries(
+        bm25=source_bm25,
+        papers=source_papers,
+        queries=source_queries,
+        top_k=dynamic_top_k,
+      )
+      group_end()
+      merged_results.append(result_local)
 
     merged = merge_pipeline_results(merged_results)
     if not merged.get("queries"):

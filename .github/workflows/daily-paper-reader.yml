@@ -227,6 +227,8 @@ jobs:
           ls -la "$HF_HOME" || true
 
           echo "Running main script..."
+          export DPR_ENABLE_JOURNAL_SOURCES=1
+          export DPR_APPEND_PAPER_SOURCES=journal
           RUN_ENRICH="${{ github.event.inputs.run_enrich }}"
           FETCH_DAYS="${{ github.event.inputs.fetch_days }}"
           FETCH_MODE="${{ github.event.inputs.fetch_mode }}"

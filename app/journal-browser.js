@@ -188,14 +188,72 @@ window.DPRJournalBrowser = (function () {
     }
   }
 
+  async function fetchJson(url) {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+    return response.json();
+  }
+
+  function rowsFromPayload(payload) {
+    if (Array.isArray(payload)) return payload;
+    if (payload && Array.isArray(payload.rows)) return payload.rows;
+    if (payload && Array.isArray(payload.papers)) return payload.papers;
+    return [];
+  }
+
+  function uniqueRows(rows) {
+    const out = [];
+    const seen = new Set();
+    rows.forEach((row) => {
+      if (!row || typeof row !== 'object') return;
+      const key = norm(row.doi || row.id || row.source_paper_id || row.title);
+      if (key && seen.has(key)) return;
+      if (key) seen.add(key);
+      out.push(row);
+    });
+    return out;
+  }
+
+  function sortRows(rows) {
+    return rows.slice().sort((a, b) => {
+      const dateA = parseDate(a.published);
+      const dateB = parseDate(b.published);
+      const timeA = dateA ? dateA.getTime() : 0;
+      const timeB = dateB ? dateB.getTime() : 0;
+      if (timeA !== timeB) return timeB - timeA;
+      return norm(a.title).localeCompare(norm(b.title));
+    });
+  }
+
+  async function loadRowsFromHistory(indexUrl) {
+    const index = await fetchJson(indexUrl);
+    const months = index && Array.isArray(index.months) ? index.months : [];
+    const paths = months
+      .map((entry) => (typeof entry === 'string' ? entry : entry && entry.path))
+      .map(norm)
+      .filter(Boolean);
+    if (!paths.length) return [];
+    const payloads = await Promise.all(paths.map(fetchJson));
+    return sortRows(uniqueRows(payloads.flatMap(rowsFromPayload)));
+  }
+
+  async function loadRows(root) {
+    const source = root.getAttribute('data-source') || 'docs/journals/journal-papers.json';
+    const historyIndex = root.getAttribute('data-history-index') || 'docs/journals/history/index.json';
+    try {
+      const historyRows = await loadRowsFromHistory(historyIndex);
+      if (historyRows.length) return historyRows;
+    } catch (err) {
+      // Fall through to the legacy single-file data source.
+    }
+    return rowsFromPayload(await fetchJson(source));
+  }
+
   async function initOne(root) {
     if (!root || stateByEl.has(root)) return;
-    const source = root.getAttribute('data-source') || 'docs/journals/journal-papers.json';
     root.innerHTML = '<div class="dpr-journal-loading">正在加载环境期刊论文...</div>';
     try {
-      const response = await fetch(source, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const rows = await response.json();
+      const rows = await loadRows(root);
       stateByEl.set(root, {
         rows: Array.isArray(rows) ? rows : [],
         filters: {},

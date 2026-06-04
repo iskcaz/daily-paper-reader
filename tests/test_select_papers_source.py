@@ -260,6 +260,82 @@ class SelectPapersDeepPriorityModeTest(unittest.TestCase):
         deep_scores = [float(item.get("llm_score", 0)) for item in result.get("deep_dive", [])]
         self.assertEqual(deep_scores, sorted(deep_scores, reverse=True))
 
+    def test_process_mode_excludes_closed_journal_from_deep_but_keeps_quick(self):
+        candidates = [
+            {
+                "id": "journal-closed",
+                "source": "journal",
+                "open_pdf_available": False,
+                "open_pdf_status": "no_open_pdf",
+                "llm_score": 8.8,
+            },
+            {
+                "id": "journal-open",
+                "source": "journal",
+                "open_pdf_available": True,
+                "open_pdf_status": "open_pdf",
+                "llm_score": 8.5,
+            },
+            {
+                "id": "preprint-quick",
+                "source": "arxiv",
+                "llm_score": 7.6,
+            },
+        ]
+        result = self.mod.process_mode(
+            candidates=candidates,
+            tag_count=0,
+            mode="standard",
+            cfg={"deep_base": 5, "deep_unlimited": False, "deep_strategy": "score", "quick_base": 10, "quick_strategy": "uniform"},
+            carryover_ratio=0.5,
+        )
+
+        deep_ids = [item.get("id") for item in result.get("deep_dive", [])]
+        quick_ids = [item.get("id") for item in result.get("quick_skim", [])]
+
+        self.assertNotIn("journal-closed", deep_ids)
+        self.assertIn("journal-closed", quick_ids)
+        self.assertIn("journal-open", deep_ids)
+
+    def test_process_mode_keeps_open_journal_eligible_under_existing_score_rules(self):
+        candidates = [
+            {
+                "id": "journal-open-high",
+                "source": "journal",
+                "open_pdf_available": True,
+                "open_pdf_status": "open_pdf",
+                "llm_score": 9.2,
+            },
+            {
+                "id": "journal-open-regular",
+                "source": "journal",
+                "open_pdf_available": True,
+                "open_pdf_status": "open_pdf",
+                "llm_score": 8.4,
+            },
+        ]
+        result = self.mod.process_mode(
+            candidates=candidates,
+            tag_count=0,
+            mode="standard",
+            cfg={"deep_base": 5, "deep_unlimited": False, "deep_strategy": "score", "quick_base": 10, "quick_strategy": "uniform"},
+            carryover_ratio=0.5,
+        )
+
+        deep_ids = [item.get("id") for item in result.get("deep_dive", [])]
+        self.assertEqual(deep_ids, ["journal-open-high", "journal-open-regular"])
+
+    def test_sort_by_score_uses_source_weight_as_small_tiebreaker(self):
+        items = [
+            {"id": "preprint", "source": "arxiv", "llm_score": 8.5},
+            {"id": "journal", "source": "journal", "llm_score": 8.5, "source_weight": 10},
+            {"id": "higher", "source": "arxiv", "llm_score": 8.6},
+        ]
+
+        sorted_ids = [item["id"] for item in self.mod.sort_by_score(items)]
+
+        self.assertEqual(sorted_ids, ["higher", "journal", "preprint"])
+
 
 if __name__ == "__main__":
     unittest.main()
