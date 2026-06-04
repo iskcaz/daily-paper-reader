@@ -11,7 +11,7 @@ import sys
 import time
 from datetime import date, datetime, timedelta, timezone
 from typing import Any, Dict, Iterable, List
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 import requests
 
@@ -66,6 +66,41 @@ def normalize_doi(value: Any) -> str:
     text = re.sub(r"^https?://(dx\.)?doi\.org/", "", text, flags=re.I)
     text = re.sub(r"^doi:\s*", "", text, flags=re.I)
     return text.strip().lower()
+
+
+def is_doi_landing_url(value: Any) -> bool:
+    text = _norm(value)
+    if not text:
+        return False
+    try:
+        host = urlparse(text).netloc.lower()
+    except Exception:
+        return False
+    return host in {"doi.org", "dx.doi.org", "www.doi.org"}
+
+
+def is_probable_direct_pdf_url(value: Any) -> bool:
+    text = _norm(value)
+    if not text or is_doi_landing_url(text):
+        return False
+    try:
+        parsed = urlparse(text)
+    except Exception:
+        return False
+    path = parsed.path.lower()
+    query = parsed.query.lower()
+    return path.endswith(".pdf") or "/pdf" in path or "pdf" in query
+
+
+def is_usable_open_pdf_url(value: Any) -> bool:
+    text = _norm(value)
+    if not text or is_doi_landing_url(text):
+        return False
+    try:
+        protocol = urlparse(text).scheme.lower()
+    except Exception:
+        return False
+    return protocol in {"http", "https"}
 
 
 def parse_crossref_date(raw: Any) -> str | None:
@@ -358,7 +393,9 @@ def enrich_with_openalex(paper: Dict[str, Any], *, api_key: str = "", mailto: st
         paper["is_oa"] = bool(open_access.get("is_oa"))
         paper["oa_status"] = _norm(open_access.get("oa_status"))
         oa_url = _norm(open_access.get("oa_url"))
-        if oa_url and not _norm(paper.get("pdf_url")):
+        if oa_url and not _norm(paper.get("abs_url")):
+            paper["abs_url"] = oa_url
+        if is_probable_direct_pdf_url(oa_url) and not _norm(paper.get("pdf_url")):
             paper["pdf_url"] = oa_url
             paper["open_pdf_status"] = "open_pdf"
             paper["open_pdf_source"] = "openalex"
@@ -368,7 +405,7 @@ def enrich_with_openalex(paper: Dict[str, Any], *, api_key: str = "", mailto: st
         pdf = _norm(primary_location.get("pdf_url"))
         if landing and not _norm(paper.get("abs_url")):
             paper["abs_url"] = landing
-        if pdf and not _norm(paper.get("pdf_url")):
+        if is_usable_open_pdf_url(pdf) and not _norm(paper.get("pdf_url")):
             paper["pdf_url"] = pdf
             paper["open_pdf_status"] = "open_pdf"
             paper["open_pdf_source"] = "openalex"
@@ -443,7 +480,7 @@ def enrich_with_semantic_scholar_batch(
                 paper["abs_url"] = _norm(result.get("url"))
             oa_pdf = result.get("openAccessPdf") if isinstance(result.get("openAccessPdf"), dict) else {}
             pdf_url = _norm(oa_pdf.get("url"))
-            if pdf_url and not _norm(paper.get("pdf_url")):
+            if is_usable_open_pdf_url(pdf_url) and not _norm(paper.get("pdf_url")):
                 paper["pdf_url"] = pdf_url
                 paper["open_pdf_status"] = "open_pdf"
                 paper["open_pdf_source"] = "semantic_scholar"
@@ -478,7 +515,7 @@ def enrich_with_unpaywall(
     best = data.get("best_oa_location") if isinstance(data.get("best_oa_location"), dict) else {}
     pdf_url = _norm(best.get("url_for_pdf"))
     landing = _norm(best.get("url"))
-    if pdf_url and not _norm(paper.get("pdf_url")):
+    if is_usable_open_pdf_url(pdf_url) and not _norm(paper.get("pdf_url")):
         paper["pdf_url"] = pdf_url
         paper["open_pdf_status"] = "open_pdf"
         paper["open_pdf_source"] = "unpaywall"
@@ -489,12 +526,17 @@ def enrich_with_unpaywall(
 
 
 def finalize_open_pdf_status(paper: Dict[str, Any]) -> None:
-    if _norm(paper.get("pdf_url")):
+    pdf_url = _norm(paper.get("pdf_url"))
+    if pdf_url and is_usable_open_pdf_url(pdf_url):
         paper["open_pdf_status"] = "open_pdf"
         paper["open_pdf_available"] = True
         if not _norm(paper.get("open_pdf_source")):
             paper["open_pdf_source"] = "unknown"
     else:
+        if pdf_url and not _norm(paper.get("abs_url")):
+            paper["abs_url"] = pdf_url
+        paper["pdf_url"] = None
+        paper["open_pdf_source"] = ""
         paper["open_pdf_status"] = "no_open_pdf"
         paper["open_pdf_available"] = False
         paper["open_pdf_note"] = "No legal open PDF found; skip screenshots and figure extraction."

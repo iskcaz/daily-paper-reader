@@ -157,6 +157,27 @@ class FetchJournalSourcesTest(unittest.TestCase):
         self.assertIn("skip screenshots", paper["open_pdf_note"])
         self.assertEqual(paper["link"], "https://doi.org/10.1/test")
 
+    def test_finalize_does_not_treat_doi_landing_page_as_pdf(self):
+        paper = {
+            "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+            "pdf_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+            "open_pdf_status": "open_pdf",
+            "open_pdf_source": "openalex",
+        }
+
+        self.mod.finalize_open_pdf_status(paper)
+
+        self.assertIsNone(paper["pdf_url"])
+        self.assertEqual(paper["open_pdf_status"], "no_open_pdf")
+        self.assertFalse(paper["open_pdf_available"])
+        self.assertEqual(paper["open_pdf_source"], "")
+        self.assertEqual(paper["link"], "https://doi.org/10.1016/j.jhazmat.2026.142173")
+
+    def test_usable_open_pdf_url_allows_publisher_routes_but_rejects_doi_pages(self):
+        self.assertTrue(self.mod.is_usable_open_pdf_url("https://example.org/article.pdf"))
+        self.assertTrue(self.mod.is_usable_open_pdf_url("https://publisher.example/download?id=abc123"))
+        self.assertFalse(self.mod.is_usable_open_pdf_url("https://doi.org/10.1016/j.jhazmat.2026.142173"))
+
     def test_dedupe_by_doi_merges_metadata_sources(self):
         rows = [
             {"doi": "10.1/ABC", "title": "A", "metadata_sources": ["crossref"], "source_weight": 5},

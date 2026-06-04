@@ -12,7 +12,7 @@ import re
 import tempfile
 import time
 import xml.etree.ElementTree as ET
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
 
@@ -1241,6 +1241,28 @@ def yaml_escape_value(s: str) -> str:
     return s
 
 
+def is_doi_landing_url(value: Any) -> bool:
+    text = str(value or "").strip()
+    if not text:
+        return False
+    try:
+        host = urlparse(text).netloc.lower()
+    except Exception:
+        return False
+    return host in {"doi.org", "dx.doi.org", "www.doi.org"}
+
+
+def is_usable_open_pdf_url(value: Any) -> bool:
+    text = str(value or "").strip()
+    if not text or is_doi_landing_url(text):
+        return False
+    try:
+        parsed = urlparse(text)
+    except Exception:
+        return False
+    return parsed.scheme.lower() in {"http", "https"}
+
+
 def resolve_paper_pdf_url(paper: Dict[str, Any]) -> str:
     source_key = str(paper.get("source") or "").strip().lower()
     pdf_url = str(paper.get("pdf_url") or "").strip()
@@ -1248,7 +1270,7 @@ def resolve_paper_pdf_url(paper: Dict[str, Any]) -> str:
     if source_key == "journal":
         if paper.get("open_pdf_available") is False:
             return ""
-        return pdf_url
+        return pdf_url if is_usable_open_pdf_url(pdf_url) else ""
     return pdf_url or link_url
 
 

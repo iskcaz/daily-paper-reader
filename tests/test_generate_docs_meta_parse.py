@@ -192,6 +192,16 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
         }
         self.assertEqual(self.mod.resolve_paper_pdf_url(paper), "https://example.org/open.pdf")
 
+    def test_journal_doi_landing_page_is_not_used_as_pdf(self):
+        paper = {
+            "source": "journal",
+            "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+            "pdf_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+            "open_pdf_available": True,
+            "open_pdf_status": "open_pdf",
+        }
+        self.assertEqual(self.mod.resolve_paper_pdf_url(paper), "")
+
     def test_parse_generated_meta_preserves_journal_fields(self):
         with tempfile.TemporaryDirectory() as d:
             path = Path(d) / "paper.md"

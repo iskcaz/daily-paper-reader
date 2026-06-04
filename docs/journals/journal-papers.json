@@ -282,7 +282,7 @@
     "updated_at": "2026-06-04T17:10:25.248513+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
-    "pdf_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+    "pdf_url": null,
     "journal": "Journal of Hazardous Materials",
     "journal_key": "jhm",
     "journal_label": "JHM",
@@ -290,8 +290,8 @@
       "0304-3894"
     ],
     "source_weight": 8,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -317,6 +317,7 @@
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
-    "open_pdf_available": true
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]

@@ -184,6 +184,7 @@ function testMonthSelectionIsPreservedWhenPdfFilterHasNoMatch() {
         title: 'PFAS in Arctic animals',
         published: '2026-06-01',
         journal_label: 'JHM',
+        pdf_url: 'https://example.org/article.pdf',
         open_pdf_available: true,
       },
     ],
@@ -195,6 +196,57 @@ function testMonthSelectionIsPreservedWhenPdfFilterHasNoMatch() {
   assert.match(root.innerHTML, /<option value="06">06<\/option>/);
   assert.match(root.innerHTML, /0 \/ 2/);
   assert.match(root.innerHTML, /当前筛选条件下没有论文。/);
+}
+
+function testDoiLandingPageIsNotTreatedAsOpenPdf() {
+  const root = {
+    innerHTML: '',
+    querySelectorAll() {
+      return [];
+    },
+    querySelector() {
+      return null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'doi-page',
+        title: 'PFAS DOI landing page',
+        published: '2026-06-01',
+        journal_label: 'JHM',
+        pdf_url: 'https://doi.org/10.1016/j.jhazmat.2026.142173',
+        open_pdf_available: true,
+        open_pdf_status: 'open_pdf',
+      },
+    ],
+    monthOptions: ['2026-06'],
+    filters: { pdf: 'open' },
+  });
+
+  assert.match(root.innerHTML, /0 \/ 1/);
+  assert.match(root.innerHTML, /当前筛选条件下没有论文。/);
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'doi-page',
+        title: 'PFAS DOI landing page',
+        published: '2026-06-01',
+        journal_label: 'JHM',
+        pdf_url: 'https://doi.org/10.1016/j.jhazmat.2026.142173',
+        open_pdf_available: true,
+        open_pdf_status: 'open_pdf',
+      },
+    ],
+    monthOptions: ['2026-06'],
+    filters: { pdf: 'missing' },
+  });
+
+  assert.match(root.innerHTML, /1 \/ 1/);
+  assert.match(root.innerHTML, /无开放 PDF，跳过截图\/图表提取/);
+  assert.doesNotMatch(root.innerHTML, /打开开放 PDF/);
 }
 
 async function testQueryInputKeepsFocusAfterDebouncedRender() {
@@ -356,6 +408,7 @@ testJournalOptionsFollowCurrentMonthFilter();
 testMonthOptionsFollowCurrentJournalFilter();
 testInvalidJournalSelectionIsPreservedAsNoMatch();
 testMonthSelectionIsPreservedWhenPdfFilterHasNoMatch();
+testDoiLandingPageIsNotTreatedAsOpenPdf();
 Promise.resolve()
   .then(testQueryInputKeepsFocusAfterDebouncedRender)
   .then(testQueryChangeDoesNotStealResetClick)

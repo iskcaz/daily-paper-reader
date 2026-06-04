@@ -64,10 +64,33 @@ window.DPRJournalBrowser = (function () {
     return ['1', 'true', 'yes', 'y', 'open', 'available'].includes(text);
   }
 
+  function isDoiLandingUrl(value) {
+    const text = norm(value);
+    if (!text) return false;
+    try {
+      const host = new URL(text).hostname.toLowerCase();
+      return host === 'doi.org' || host === 'dx.doi.org' || host === 'www.doi.org';
+    } catch (err) {
+      return false;
+    }
+  }
+
+  function isUsableOpenPdfUrl(value) {
+    const text = norm(value);
+    if (!text || isDoiLandingUrl(text)) return false;
+    try {
+      const url = new URL(text);
+      return url.protocol === 'http:' || url.protocol === 'https:';
+    } catch (err) {
+      return false;
+    }
+  }
+
   function hasOpenPdf(row) {
-    return norm(row.open_pdf_status).toLowerCase() === 'open_pdf' ||
+    return isUsableOpenPdfUrl(row.pdf_url) &&
+      (norm(row.open_pdf_status).toLowerCase() === 'open_pdf' ||
       truthyValue(row.open_pdf_available) ||
-      !!norm(row.pdf_url);
+      !!norm(row.pdf_url));
   }
 
   function labelForPdf(row) {
@@ -134,7 +157,7 @@ window.DPRJournalBrowser = (function () {
     const title = norm(row.title) || '(Untitled)';
     const abstract = norm(row.abstract);
     const link = norm(row.abs_url || row.link || (row.doi ? `https://doi.org/${row.doi}` : ''));
-    const pdf = norm(row.pdf_url);
+    const pdf = isUsableOpenPdfUrl(row.pdf_url) ? norm(row.pdf_url) : '';
     const concepts = Array.isArray(row.openalex_concepts) ? row.openalex_concepts.slice(0, 5) : [];
     return `
       <article class="dpr-journal-card">

@@ -10,6 +10,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
@@ -37,7 +38,50 @@ def row_key(row: Any) -> str:
     return ""
 
 
+def is_doi_landing_url(value: Any) -> bool:
+    text = str(value or "").strip()
+    if not text:
+        return False
+    try:
+        host = urlparse(text).netloc.lower()
+    except Exception:
+        return False
+    return host in {"doi.org", "dx.doi.org", "www.doi.org"}
+
+
+def is_usable_open_pdf_url(value: Any) -> bool:
+    text = str(value or "").strip()
+    if not text or is_doi_landing_url(text):
+        return False
+    try:
+        parsed = urlparse(text)
+    except Exception:
+        return False
+    return parsed.scheme.lower() in {"http", "https"}
+
+
+def normalize_open_pdf_fields(row: dict[str, Any]) -> dict[str, Any]:
+    pdf_url = str(row.get("pdf_url") or "").strip()
+    if is_usable_open_pdf_url(pdf_url):
+        row["open_pdf_status"] = "open_pdf"
+        row["open_pdf_available"] = True
+        if not str(row.get("open_pdf_source") or "").strip():
+            row["open_pdf_source"] = "unknown"
+        return row
+
+    if pdf_url and not str(row.get("abs_url") or "").strip():
+        row["abs_url"] = pdf_url
+    row["pdf_url"] = None
+    row["open_pdf_source"] = ""
+    row["open_pdf_status"] = "no_open_pdf"
+    row["open_pdf_available"] = False
+    row["open_pdf_note"] = "No legal open PDF found; skip screenshots and figure extraction."
+    return row
+
+
 def merge_row(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    normalize_open_pdf_fields(existing)
+    normalize_open_pdf_fields(incoming)
     for field, value in incoming.items():
         if field == "metadata_sources" and isinstance(value, list):
             old = existing.get(field) if isinstance(existing.get(field), list) else []
@@ -65,7 +109,7 @@ def merge_row(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, A
             continue
         if not existing.get(field) and value not in (None, "", []):
             existing[field] = value
-    return existing
+    return normalize_open_pdf_fields(existing)
 
 
 def merge_rows(existing_rows: list[Any], incoming_rows: list[Any]) -> list[dict[str, Any]]:
@@ -80,7 +124,7 @@ def merge_rows(existing_rows: list[Any], incoming_rows: list[Any]) -> list[dict[
             continue
         if key:
             key_to_index[key] = len(merged)
-        merged.append(dict(row))
+        merged.append(normalize_open_pdf_fields(dict(row)))
     return merged
 
 
@@ -106,7 +150,10 @@ def update_journal_history(
     input_file = Path(input_path)
     latest_file = Path(latest_path)
     history_path = Path(history_dir)
-    rows = load_rows(input_file)
+    rows = [
+        normalize_open_pdf_fields(dict(row)) if isinstance(row, dict) else row
+        for row in load_rows(input_file)
+    ]
 
     write_json(latest_file, rows)
     history_path.mkdir(parents=True, exist_ok=True)
