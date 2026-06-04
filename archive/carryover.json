@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-06-04T13:19:44.184350+00:00",
-  "updated_date": "20260526-20260604",
+  "generated_at": "2026-06-04T14:24:44.047085+00:00",
+  "updated_date": "20260506-20260604",
   "carryover_days": 9,
-  "tag_states": {}
+  "tag_states": {
+    "coastal-pfas": {
+      "updated_date": "20260506-20260604",
+      "carryover_days": 9,
+      "items": []
+    }
+  }
 }
