@@ -6760,6 +6760,12 @@ body.dpr-paper-page.dpr-pdf-preview-open article.markdown-section {
   font-size: 12px;
 }
 
+.dpr-journal-authors {
+  color: #475569;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 .dpr-journal-abstract {
   margin: 0;
   color: #334155;

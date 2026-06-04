@@ -108,11 +108,38 @@ window.DPRJournalBrowser = (function () {
     return parts.join(' · ');
   }
 
+  function authorNames(row) {
+    if (!Array.isArray(row.authors)) return [];
+    return row.authors
+      .map((author) => {
+        if (typeof author === 'string') return norm(author);
+        if (!author || typeof author !== 'object') return '';
+        return norm(author.name || [author.given, author.family].map(norm).filter(Boolean).join(' '));
+      })
+      .filter(Boolean);
+  }
+
+  function authorLine(row, query) {
+    const names = authorNames(row);
+    if (!names.length) return '';
+    const visible = names.slice(0, 4);
+    const queryText = norm(query).toLowerCase();
+    if (queryText) {
+      const matched = names.find((name) => name.toLowerCase().includes(queryText));
+      if (matched && !visible.includes(matched)) {
+        visible.push(matched);
+      }
+    }
+    const suffix = names.length > visible.length ? ' et al.' : '';
+    return `${visible.join(', ')}${suffix}`;
+  }
+
   function searchableText(row) {
     return [
       row.title,
       row.abstract,
       row.doi,
+      authorNames(row).join(' '),
       row.journal,
       row.journal_label,
       row.openalex_concepts && row.openalex_concepts.join(' '),
@@ -153,12 +180,13 @@ window.DPRJournalBrowser = (function () {
       .join('');
   }
 
-  function renderCard(row) {
+  function renderCard(row, query) {
     const title = norm(row.title) || '(Untitled)';
     const abstract = norm(row.abstract);
     const link = norm(row.abs_url || row.link || (row.doi ? `https://doi.org/${row.doi}` : ''));
     const pdf = isUsableOpenPdfUrl(row.pdf_url) ? norm(row.pdf_url) : '';
     const concepts = Array.isArray(row.openalex_concepts) ? row.openalex_concepts.slice(0, 5) : [];
+    const authors = authorLine(row, query);
     return `
       <article class="dpr-journal-card">
         <div class="dpr-journal-card-head">
@@ -166,6 +194,7 @@ window.DPRJournalBrowser = (function () {
           <span class="dpr-journal-pdf ${hasOpenPdf(row) ? 'is-open' : 'is-missing'}">${escapeHtml(labelForPdf(row))}</span>
         </div>
         <h3 class="dpr-journal-title">${link ? `<a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>` : escapeHtml(title)}</h3>
+        ${authors ? `<div class="dpr-journal-authors">${escapeHtml(authors)}</div>` : ''}
         <div class="dpr-journal-meta">${escapeHtml(sourceLine(row))}</div>
         ${abstract ? `<p class="dpr-journal-abstract">${escapeHtml(abstract)}</p>` : '<p class="dpr-journal-abstract is-empty">暂无摘要；仍保留期刊记录用于追踪。</p>'}
         ${concepts.length ? `<div class="dpr-journal-tags">${concepts.map((x) => `<span>${escapeHtml(x)}</span>`).join('')}</div>` : ''}
@@ -210,13 +239,13 @@ window.DPRJournalBrowser = (function () {
           </select></label>
         </div>
         <div class="dpr-journal-toolbar-row">
-          <input data-filter="query" type="search" value="${escapeHtml(filters.query || '')}" placeholder="搜索标题、摘要、DOI、主题词">
+          <input data-filter="query" type="search" value="${escapeHtml(filters.query || '')}" placeholder="搜索标题、作者、摘要、DOI、主题词">
           <button type="button" data-action="reset">重置</button>
         </div>
         <div class="dpr-journal-count">当前显示 ${filtered.length} / ${rows.length} 篇</div>
       </div>
       <div class="dpr-journal-list">
-        ${filtered.length ? filtered.map(renderCard).join('') : '<div class="dpr-journal-empty">当前筛选条件下没有论文。</div>'}
+        ${filtered.length ? filtered.map((row) => renderCard(row, filters.query)).join('') : '<div class="dpr-journal-empty">当前筛选条件下没有论文。</div>'}
       </div>
     `;
     bind(root);

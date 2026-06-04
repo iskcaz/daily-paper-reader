@@ -249,6 +249,53 @@ function testDoiLandingPageIsNotTreatedAsOpenPdf() {
   assert.doesNotMatch(root.innerHTML, /打开开放 PDF/);
 }
 
+function testSearchMatchesAuthorNamesAndRendersAuthors() {
+  const root = {
+    innerHTML: '',
+    querySelectorAll() {
+      return [];
+    },
+    querySelector() {
+      return null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'jhm-paper',
+        title: 'PFAS in Arctic food webs',
+        published: '2026-06-01',
+        journal_label: 'JHM',
+        authors: [
+          'Linyan Zhu',
+          'Rossana Bossi',
+          'Pedro N. Carvalho',
+          'Jens Søndergaard',
+          'Katrin Vorkamp',
+        ],
+      },
+      {
+        id: 'est-paper',
+        title: 'PFAS in vegetables',
+        published: '2026-06-04',
+        journal_label: 'EST',
+        authors: [
+          { given: 'Beibei', family: 'Ye' },
+        ],
+      },
+    ],
+    monthOptions: ['2026-06'],
+    filters: { query: 'Vorkamp' },
+  });
+
+  assert.match(root.innerHTML, /1 \/ 2/);
+  assert.match(root.innerHTML, /PFAS in Arctic food webs/);
+  assert.doesNotMatch(root.innerHTML, /PFAS in vegetables/);
+  assert.match(root.innerHTML, /Linyan Zhu, Rossana Bossi, Pedro N\. Carvalho, Jens Søndergaard, Katrin Vorkamp/);
+  assert.match(root.innerHTML, /placeholder="搜索标题、作者、摘要、DOI、主题词"/);
+}
+
 async function testQueryInputKeepsFocusAfterDebouncedRender() {
   const listeners = {};
   const query = {
@@ -409,6 +456,7 @@ testMonthOptionsFollowCurrentJournalFilter();
 testInvalidJournalSelectionIsPreservedAsNoMatch();
 testMonthSelectionIsPreservedWhenPdfFilterHasNoMatch();
 testDoiLandingPageIsNotTreatedAsOpenPdf();
+testSearchMatchesAuthorNamesAndRendersAuthors();
 Promise.resolve()
   .then(testQueryInputKeepsFocusAfterDebouncedRender)
   .then(testQueryChangeDoesNotStealResetClick)
