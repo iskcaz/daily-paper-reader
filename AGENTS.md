@@ -1,5 +1,84 @@
 # 仓库级 Agent 规则
 
+## 项目当前维护背景
+
+- 这是用户 fork 后自用的 `daily-paper-reader` 仓库，远端 fork 通常为 `userfork https://github.com/iskcaz/daily-paper-reader.git`。
+- 用户正在使用 GitHub Pages 站点：`https://iskcaz.github.io/daily-paper-reader/`。
+- 当前已验证可用的稳定提交是 `63b114b`（`fix utf8 decoding for llm responses`）。如果后续改动导致网页或模型调用异常，优先对比或回退到这个提交。
+- 用户希望使用的模型服务配置是：
+
+```text
+Base URL: https://jsyai.xinglian.work/v1
+Model: gpt-5.4
+```
+
+- 不要把这个模型误判为不可用，也不要把问题简化成“只能换 DeepSeek”。这个 fork 已经改过前端和工作流，目标是支持上述 OpenAI-compatible 服务。
+- 用户不熟悉 GitHub 和部署流程。回复时优先用中文、少术语、给明确下一步；不要要求用户提供或粘贴完整 API Key。
+
+## 当前关键修复点
+
+- 前端配置已经允许保存 `gpt-5.4` 和 `https://jsyai.xinglian.work/v1`。
+- 浏览器端 CORS 测试失败不一定代表服务不可用，因为 GitHub Actions 的服务端请求仍可能可用。不要仅凭网页测试失败就否定模型。
+- GitHub Actions 的智能查询生成已经加入服务端兜底，主要生成脚本为 `scripts/smart_query_generate.py`。
+- `src/llm.py` 里必须按 UTF-8 读取模型 JSON 响应内容。此前供应商响应头编码不标准，`requests.response.json()` 可能把中文解成乱码。当前修复是优先用 `response.content.decode("utf-8-sig")` 再 `json.loads(...)`。
+- 如果用户说“抽取后是乱码”，先检查生成文件本身，而不是只检查浏览器显示。重点看：
+  - `docs/<日期>/`
+  - `docs/README.md`
+  - `docs/_sidebar.md`
+  - `docs/<日期>/papers.meta.json`
+  - `archive/<日期>/recommend/*.json`
+
+## 稳定版本和发布规则
+
+- 这个项目对用户来说是一个已经部署的网站，不只是代码库。修改后如果用户期望网页生效，通常需要提交并推送到 `userfork main`。
+- 推送用户 fork 的常用命令是：
+
+```bash
+git push userfork <当前分支>:main
+```
+
+- 推送前必须确认没有误提交 `secret.private`、真实 API Key、PAT 或其它私密信息。
+- 推送后提示用户等待 GitHub Pages 自动部署，并使用带版本参数的地址强制刷新，例如：
+
+```text
+https://iskcaz.github.io/daily-paper-reader/?v=<说明>
+```
+
+- 如果网页仍旧不变，先让用户 `Ctrl + F5` 强刷，再检查 GitHub Actions / Pages 是否完成。
+
+## 用户运行态文件规则
+
+- 默认不要改动或提交以下文件，除非用户明确要求修复当前网页、生成结果或部署状态：
+  - `config.yaml`
+  - `docs/config.yaml`
+  - `docs/README.md`
+  - `docs/_sidebar.md`
+  - `docs/<日期>/`
+  - `docs/assets/`
+  - `archive/`
+  - `secret.private`
+- 例外：如果用户明确反馈当前网页内容错误、乱码、生成结果错误，可以修复并提交 `docs/` 和 `archive/` 下对应日期的生成产物。提交前需要说明这是为了修复已发布页面。
+- 永远不要提交 `secret.private`，也不要在回复中展示其中内容。
+
+## 常用验证命令
+
+- 修改模型配置或调用逻辑后，优先运行：
+
+```bash
+python -m unittest tests.test_llm_structured_output
+node tests/test_subscriptions_smart_query.js
+node tests/test_llm_config_utils.js
+python -m py_compile scripts/smart_query_generate.py
+```
+
+- 修复乱码后，至少检查关键中文字段的 Unicode 码点，确认不是 `ä¸`、`æµ`、`è¯` 这类 mojibake 残留。
+- 提交前运行：
+
+```bash
+git diff --check
+git status --short --branch
+```
+
 ## 提交共同作者规则
 
 - 本仓库内由 Agent/Codex 创建、提交或推送的 commit，提交信息末尾必须追加以下共同作者 trailer：
