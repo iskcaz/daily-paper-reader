@@ -1,16 +1,374 @@
 {
   "mode": "standard",
-  "generated_at": "2026-06-04T13:19:44.184060+00:00",
+  "generated_at": "2026-06-04T14:31:59.781729+00:00",
   "stats": {
     "mode": "standard",
-    "tag_count": 0,
+    "tag_count": 1,
     "deep_divecandidates": 0,
-    "deep_cap": null,
+    "deep_cap": 6,
     "deep_selected": 0,
-    "quick_candidates": 0,
-    "quick_skim_target": 10,
-    "quick_selected": 0
+    "quick_candidates": 9,
+    "quick_skim_target": 11,
+    "quick_selected": 9
   },
   "deep_dive": [],
-  "quick_skim": []
+  "quick_skim": [
+    {
+      "id": "2605.26666v1",
+      "source": "arxiv",
+      "title": "A Comparative Analysis of Clustering Algorithms for Characterizing Surface Ocean Variability in the Western Mediterranean",
+      "abstract": "Understanding regional dynamical structures in the sea is fundamental to characterize energy transfer and transport properties, with implications in physical and biogeochemical modeling and characterization. In this work, we study the potential of clustering techniques to identify regional patterns, persistent or recurrent configurations, out of daily snapshots of sea surface temperature and kinetic energy in a region of the western Mediterranean Sea. From the methodological perspective, we use different clustering techniques: K-means, Self-Organizing Maps and InfoMap to verify if the patterns found are coherent across methods. Our results show that K-means and Self-Organizing Maps consistently delineate four distinct clusters of sea surface temperature configurations, aligned with the seasons even after removing the annual cycle, which indicates the persistence of seasonal structures beyond a mean effect in the temperature field. The study of surface kinetic energy, characterized by higher spatial and temporal variability, reveals more complex circulation regimes. While K-means and Self-Organizing Maps provide a robust and convergent classification of the dominant large-scale energy patterns, InfoMap uncovers finer-scale features such as localized jets and eddies. InfoMap, in particular, provides a complementary perspective to the partition-based methods, validating subtle yet significant hydrodynamic structures and acting as an anomaly detector for extreme events.",
+      "authors": [
+        "Victor Rodriguez-Mendez",
+        "Enrico Ser-Giacomi",
+        "Jose J. Ramasco",
+        "Cristobal Lopez",
+        "Emilio Hernandez-Garcia"
+      ],
+      "primary_category": "physics.ao-ph",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "published": "2026-05-26T07:56:34+00:00",
+      "link": "https://arxiv.org/pdf/2605.26666v1",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "ocean transport pattern characterization method",
+      "llm_evidence_cn": "æµ·æ´è¾è¿æ ¼å±è¡¨å¾æ¹æ³",
+      "llm_evidence": "æµ·æ´è¾è¿æ ¼å±è¡¨å¾æ¹æ³",
+      "canonical_evidence": "æµ·æ´è¾è¿æ ¼å±è¡¨å¾æ¹æ³",
+      "llm_tldr_en": "This paper addresses how to characterize regional surface-ocean dynamical structures by comparing clustering algorithms on Mediterranean SST and kinetic energy fields, yielding coherent transport-related regimes that could support coastal contaminant pathway analyses.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹æµ·è¡¨å¨åç»æé¾ä»¥ç³»ç»è¯å«ãè¿èéå¶æµ·æ´è¾è¿ä¸çç©å°çåå­¦è¿ç¨è¡¨å¾çé®é¢ï¼æ¯è¾äºK-meansãèªç»ç»æ å°åInfoMapä¸ç§èç±»æ¹æ³ï¼å¯¹è¥¿å°ä¸­æµ·éæ¥æµ·è¡¨æ¸©åº¦ä¸å¨è½å¿«ç§è¿è¡ååºåæãç»ææ¾ç¤ºï¼K-meansä¸èªç»ç»æ å°è½å¤ç¨³å®è¯å«ä¸è´çåºåæ ¼å±ï¼èInfoMapæ´ææäºç½ç»ç»æå·®å¼ãç ç©¶è½ä¸æ¶åPFASï¼ä½å¶å¯¹æµ·æ´è¡¨å±è¾è¿åºååæä¹æè¯å«çæ¹æ³ï¼å¯ä¸ºè¿å²¸PFASå¨æ²³å£ä¸æ²¿æµ·æ°´åä¸­çè¿ç§»è·¯å¾åç¯å¢è¡ä¸ºç ç©¶æä¾å¯è¿ç§»å·¥å·ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹æµ·è¡¨å¨åç»æé¾ä»¥ç³»ç»è¯å«ãè¿èéå¶æµ·æ´è¾è¿ä¸çç©å°çåå­¦è¿ç¨è¡¨å¾çé®é¢ï¼æ¯è¾äºK-meansãèªç»ç»æ å°åInfoMapä¸ç§èç±»æ¹æ³ï¼å¯¹è¥¿å°ä¸­æµ·éæ¥æµ·è¡¨æ¸©åº¦ä¸å¨è½å¿«ç§è¿è¡ååºåæãç»ææ¾ç¤ºï¼K-meansä¸èªç»ç»æ å°è½å¤ç¨³å®è¯å«ä¸è´çåºåæ ¼å±ï¼èInfoMapæ´ææäºç½ç»ç»æå·®å¼ãç ç©¶è½ä¸æ¶åPFASï¼ä½å¶å¯¹æµ·æ´è¡¨å±è¾è¿åºååæä¹æè¯å«çæ¹æ³ï¼å¯ä¸ºè¿å²¸PFASå¨æ²³å£ä¸æ²¿æµ·æ°´åä¸­çè¿ç§»è·¯å¾åç¯å¢è¡ä¸ºç ç©¶æä¾å¯è¿ç§»å·¥å·ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2605.29142v1",
+      "source": "arxiv",
+      "title": "Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure",
+      "abstract": "Observations from the RAPID array near 26.5$^\\circ$N indicate a linear decline in the AMOC over the past two decades, linked to contrasting boundary changes: a weakening western boundary contribution partly compensated by strengthening at the eastern boundary. The dynamical processes responsible for this partial compensation, however, remain unclear. Because cross-slope gradients in ocean bottom pressure (OBP) provide a dynamical measure of overturning transport, we use a high-resolution ocean model to diagnose OBP gradients across the mid-latitude North Atlantic and investigate the processes governing these boundary-specific changes. The model reproduces a meridionally consistent decline in western boundary overturning transport and a partially compensating strengthening at the eastern boundary, consistent with observations at 26.5$^\\circ$N. These opposing trends arise from a vertically coherent structure in the OBP trend, shaped by two competing drivers: rising coastal sea level and decreasing density in the ocean interior. Through geostrophic balance, this dual-driver mechanism produces partial compensation between western and eastern boundary trends while also extending across latitudes, leading to a basin-wide decline of the AMOC throughout the mid-latitude North Atlantic.",
+      "authors": [
+        "Qianjiang Xing",
+        "Shane Elipot",
+        "William E. Johns",
+        "Bablu Sinha",
+        "Jules Kajtar",
+        "Adam T. Blaker",
+        "Tillys Petit",
+        "Ben I. Moat",
+        "David A. Smeed"
+      ],
+      "primary_category": "physics.ao-ph",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "published": "2026-05-27T22:12:32+00:00",
+      "link": "https://arxiv.org/pdf/2605.29142v1",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "ocean circulation mechanism relevant to transport pathways",
+      "llm_evidence_cn": "ä¸è¾è¿è·¯å¾ç¸å³çæµ·æ´ç¯æµæºå¶",
+      "llm_evidence": "ä¸è¾è¿è·¯å¾ç¸å³çæµ·æ´ç¯æµæºå¶",
+      "canonical_evidence": "ä¸è¾è¿è·¯å¾ç¸å³çæµ·æ´ç¯æµæºå¶",
+      "llm_tldr_en": "Using ocean bottom pressure and a high-resolution North Atlantic model, this paper explains overturning changes through density and sea-level dynamics. It is not PFAS-specific but is a methodological bridge for understanding marine transport pathways.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹å¤§è¥¿æ´ç»åç¿»è½¬ç¯æµåå¼±çè¾¹çå¨åæºå¶ä¸æ¸è¿ä¸é®é¢ï¼å©ç¨æµ·åºååæ¢¯åº¦è¿ä¸å¨åå­¦ææ ï¼å¹¶ç»åé«åè¾¨çæµ·æ´æ¨¡åè¯æ­ä¸­çº¬åº¦åå¤§è¥¿æ´ç¯æµååãç»ææ¾ç¤ºï¼å¯åº¦ç»æä¸æµ·å¹³é¢ååå±åé©±å¨ä¸è¥¿è¾¹çè´¡ç®çå·®å¼æ§è°æ´ï¼ä»èå½±åç¿»è½¬è¾è¿ãè½ç¶è®ºæä¸æ¶åPFASæè¿å²¸ç¯å¢ï¼ä½å¶å¯¹æµ·æ´ç¯æµä¸è¾è¿æºå¶çå®éè§£ææ¹æ³ï¼å¯ä¸ºçè§£æ±¡æç©ç±éåæµ·è¿ç§»åçæµ·æ´è¾éèæ¯æä¾é´æ¥æ¯æã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹å¤§è¥¿æ´ç»åç¿»è½¬ç¯æµåå¼±çè¾¹çå¨åæºå¶ä¸æ¸è¿ä¸é®é¢ï¼å©ç¨æµ·åºååæ¢¯åº¦è¿ä¸å¨åå­¦ææ ï¼å¹¶ç»åé«åè¾¨çæµ·æ´æ¨¡åè¯æ­ä¸­çº¬åº¦åå¤§è¥¿æ´ç¯æµååãç»ææ¾ç¤ºï¼å¯åº¦ç»æä¸æµ·å¹³é¢ååå±åé©±å¨ä¸è¥¿è¾¹çè´¡ç®çå·®å¼æ§è°æ´ï¼ä»èå½±åç¿»è½¬è¾è¿ãè½ç¶è®ºæä¸æ¶åPFASæè¿å²¸ç¯å¢ï¼ä½å¶å¯¹æµ·æ´ç¯æµä¸è¾è¿æºå¶çå®éè§£ææ¹æ³ï¼å¯ä¸ºçè§£æ±¡æç©ç±éåæµ·è¿ç§»åçæµ·æ´è¾éèæ¯æä¾é´æ¥æ¯æã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2605.29581v1",
+      "source": "arxiv",
+      "title": "Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations",
+      "abstract": "The upper few meters of the ocean play a key role in air-sea exchanges of momentum and energy. Two important properties of this layer are the vertical shear of current velocity and the surface velocity. Vertical shear reflects momentum transfer, while the surface current velocity is essential for modeling transport processes such as pollutant dispersion. Direct measurements are challenging, and methods that provide continuous, real-time, and spatially extensive observations are highly desirable.   This proof-of-concept study presents a new approach for estimating the radial component of surface velocity and the vertical shear of sea surface currents using a single-frequency high-frequency (HF) radar. The method is based on estimating the two first-order Bragg peaks in the backscattered radar spectrum which exhibit asymmetric frequency shifts in the presence of shear. The integral shear is retrieved from the frequency difference between the two peaks, while a new spectral processing technique enables correction of the surface velocity estimate for the effect of shear. The approach was tested using data from a WERA HF radar deployed off Ashkelon (Israel), and validated against simultaneous acoustic Doppler current profiler (ADCP) measurements at lower depths. The retrieved shear magnitudes and surface velocities show consistent trends with ADCP and wind observations, indicating that the method is applicable under strong-wind conditions for HF radar systems providing high-quality Doppler spectra.",
+      "authors": [
+        "G. Hasson",
+        "S. Støle-Hentschel",
+        "T. Vrećica",
+        "V. Shrira",
+        "Y. Toledo"
+      ],
+      "primary_category": "physics.ao-ph",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "published": "2026-05-28T08:24:56+00:00",
+      "link": "https://arxiv.org/pdf/2605.29581v1",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "ocean current retrieval supports coastal pollutant transport analysis",
+      "llm_evidence_cn": "æµ·è¡¨æµåæ¼å¯æ¯æè¿å²¸æ±¡æç©è¾è¿åæ",
+      "llm_evidence": "æµ·è¡¨æµåæ¼å¯æ¯æè¿å²¸æ±¡æç©è¾è¿åæ",
+      "canonical_evidence": "æµ·è¡¨æµåæ¼å¯æ¯æè¿å²¸æ±¡æç©è¾è¿åæ",
+      "llm_tldr_en": "This proof-of-concept develops single-frequency HF radar retrievals of ocean surface velocity and vertical shear, enabling continuous spatial observations that can improve modeling of pollutant dispersion and land-to-coast transport pathways in coastal waters.",
+      "llm_tldr_cn": "éå¯¹è¿æµ·ä¸å±æµ·æµä¸ååååé¾ä»¥è¿ç»­è§æµãä»èéå¶æ±¡æç©è¾è¿å»ç»çé®é¢ï¼æ¬ææåºåºäºåé¢é«é¢é·è¾¾åæ¼æµ·è¡¨å¾åæµéåååååçæ°æ¹æ³ãç ç©¶éè¿ä¼°è®¡é·è¾¾åæ³¢ä¸­çå³é®è°±ç¹å¾æ¥æ¢å¤ä¸å±å¨åç»æãç»æè¡¨æè¯¥æ¹æ³å¯æä¾å®æ¶ãç©ºé´è¿ç»­çæµ·è¡¨æµåºä¿¡æ¯ãè¯¥å·¥ä½è½éPFASç ç©¶ï¼ä½å¯ä½ä¸ºåæéæºæ±¡æç©åæ²³å£åè¿æµ·æ©æ£è¾è¿çéè¦æ¯æå·¥å·ã",
+      "llm_tldr": "éå¯¹è¿æµ·ä¸å±æµ·æµä¸ååååé¾ä»¥è¿ç»­è§æµãä»èéå¶æ±¡æç©è¾è¿å»ç»çé®é¢ï¼æ¬ææåºåºäºåé¢é«é¢é·è¾¾åæ¼æµ·è¡¨å¾åæµéåååååçæ°æ¹æ³ãç ç©¶éè¿ä¼°è®¡é·è¾¾åæ³¢ä¸­çå³é®è°±ç¹å¾æ¥æ¢å¤ä¸å±å¨åç»æãç»æè¡¨æè¯¥æ¹æ³å¯æä¾å®æ¶ãç©ºé´è¿ç»­çæµ·è¡¨æµåºä¿¡æ¯ãè¯¥å·¥ä½è½éPFASç ç©¶ï¼ä½å¯ä½ä¸ºåæéæºæ±¡æç©åæ²³å£åè¿æµ·æ©æ£è¾è¿çéè¦æ¯æå·¥å·ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2605.30603v1",
+      "source": "arxiv",
+      "title": "Learning effective Sargassum transport dynamics from limited drifter observations",
+      "abstract": "Floating-material transport is influenced by unresolved processes that are often absent from available circulation products. We develop a data-driven transport-learning framework for learning effective transport corrections from limited Lagrangian observations using physically motivated ocean--atmosphere diagnostics and finite-memory representations motivated in part by inertial-particle memory effects. The diagnostic representation is analyzed through predictive and sparse symbolic-discovery approaches under leave-one-trajectory-out validation. Applications to Sargassum-following drifters in the Puerto Rico region and the Gulf Stream show that the diagnostics contain transport-relevant information beyond the baseline circulation products. Multilayer perceptron (MLP) ensembles provide flexible predictive trajectory corrections, while Sparse Identification of Nonlinear Dynamics (SINDy) tests whether instantaneous or delayed sparse symbolic transport structure can be extracted from the diagnostics. The results differ across flow regimes: (i) in Puerto Rico, delayed sparse symbolic corrections provide modest but systematic improvement; (ii) in the Gulf Stream application, dynamically useful sparse symbolic corrections remain primarily instantaneous even though delayed predictive information persists. These results support finite-memory transport effects in coarse-grained floating-material transport while also illustrating the difficulty of obtaining stable delayed sparse symbolic closures.",
+      "authors": [
+        "F. J. Beron-VEra",
+        "M. J. Olascoaga",
+        "J. Morell",
+        "E. Cruz"
+      ],
+      "primary_category": "physics.ao-ph",
+      "categories": [
+        "physics.ao-ph",
+        "cs.LG"
+      ],
+      "published": "2026-05-28T21:50:46+00:00",
+      "link": "https://arxiv.org/pdf/2605.30603v1",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "drifter-based coastal transport pathway modeling",
+      "llm_evidence_cn": "åºäºæ¼æµå¨çè¿æµ·è¾è¿è·¯å¾å»ºæ¨¡",
+      "llm_evidence": "åºäºæ¼æµå¨çè¿æµ·è¾è¿è·¯å¾å»ºæ¨¡",
+      "canonical_evidence": "åºäºæ¼æµå¨çè¿æµ·è¾è¿è·¯å¾å»ºæ¨¡",
+      "llm_tldr_en": "This work learns effective transport dynamics for floating material from sparse drifter data using data-driven corrections to circulation products. While not PFAS-specific, the framework is a useful transport-pathway tool for tracing land-to-coastal contaminant movement.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹ç°æç¯æµäº§åé¾ä»¥å®æ´è¡¨ç¤ºæ¼æµ®ç©å®éè¿ç§»çé®é¢ï¼æåºä¸ç§åºäºæéæ¼æµå¨è§æµçæ°æ®é©±å¨è¾è¿å­¦ä¹ æ¡æ¶ï¼å¹¶å¼å¥ç©çå¯åè¯æ­éä¸æéè®°å¿è¡¨ç¤ºä¿®æ­£è¾è¿åºãä½èå¨é©¬å°¾è»æ¼æµä¸ªä¾ä¸­éªè¯ï¼è¯¥æ¹æ³è½ä»æéè½¨è¿¹ä¸­æåè¶åºåºçº¿ç¯æµäº§åçææè¾è¿ä¿¡æ¯ãè½ç¶å¯¹è±¡ä¸æ¯PFASï¼ä½å¶è¯å«è¿æµ·è¾è¿è·¯å¾åæ ¡æ­£è¿ç§»å¨åçæè·¯ï¼å¯ç´æ¥è¿ç§»å°éæºæ±¡æç©åæ²³å£åæµ·å²¸æµ·æ´è¾éè¿ç¨ç ç©¶ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹ç°æç¯æµäº§åé¾ä»¥å®æ´è¡¨ç¤ºæ¼æµ®ç©å®éè¿ç§»çé®é¢ï¼æåºä¸ç§åºäºæéæ¼æµå¨è§æµçæ°æ®é©±å¨è¾è¿å­¦ä¹ æ¡æ¶ï¼å¹¶å¼å¥ç©çå¯åè¯æ­éä¸æéè®°å¿è¡¨ç¤ºä¿®æ­£è¾è¿åºãä½èå¨é©¬å°¾è»æ¼æµä¸ªä¾ä¸­éªè¯ï¼è¯¥æ¹æ³è½ä»æéè½¨è¿¹ä¸­æåè¶åºåºçº¿ç¯æµäº§åçææè¾è¿ä¿¡æ¯ãè½ç¶å¯¹è±¡ä¸æ¯PFASï¼ä½å¶è¯å«è¿æµ·è¾è¿è·¯å¾åæ ¡æ­£è¿ç§»å¨åçæè·¯ï¼å¯ç´æ¥è¿ç§»å°éæºæ±¡æç©åæ²³å£åæµ·å²¸æµ·æ´è¾éè¿ç¨ç ç©¶ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2606.03744v1",
+      "source": "arxiv",
+      "title": "Wave-mean decomposition of scale-dependent kinetic energy from surface drifters",
+      "abstract": "Separating waves and mean flows is a fundamental challenge in ocean dynamics. Lagrangian filtering of passive-tracer time series into high-frequency wave and low-frequency mean-flow components provides a practical route, as the relevant time scales are often cleanly split in the Lagrangian frame. Here we show that Lagrangian filtering can be applied to surface drifter observations, providing a powerful approach to quantify wave and mean-flow contributions to surface kinetic energy statistics. A key methodological choice is to implement the filtering in a generalized Lagrangian mean (GLM) framework, attributing filtered velocities to mean rather than particle trajectories; this produces more physically interpretable diagnostics. Using Gulf of Mexico drifter data, we compute second-order velocity structure functions (SF2s) for waves and mean flow components across spatial scales. With these filtered SF2s as a benchmark, we illustrate that Helmholtz decomposition of unfiltered SF2s alone should not be interpreted as a dynamical wave-mean decomposition. Applying Helmholtz decomposition to the filtered SF2s further illuminates seasonal dynamics. Mean-flow surface kinetic energy is rotationally dominated at scales larger than O(1) km, while at and below O(1) km, divergent and rotational contributions are approximately equipartitioned in both summer and winter, suggesting low-frequency divergent motions and possible associated vertical exchange. Winter mean flows are more active than summer mean flows over 500 m-10 km. Super-inertial motions are broadly consistent with linear waves. In winter, wave kinetic energy is concentrated at smaller spatial scales than in summer, possibly reflecting enhanced downscale transfer by stronger submesoscale mean flows.",
+      "authors": [
+        "Han Wang",
+        "Dhruv Balwada",
+        "Jin-Han Xie"
+      ],
+      "primary_category": "physics.flu-dyn",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-06-02T14:57:18+00:00",
+      "link": "https://arxiv.org/pdf/2606.03744v1",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "surface-drifter method for coastal mixing diagnostics",
+      "llm_evidence_cn": "ç¨äºè¿æµ·æ··åè¯æ­çè¡¨å±æ¼æµå¨æ¹æ³",
+      "llm_evidence": "ç¨äºè¿æµ·æ··åè¯æ­çè¡¨å±æ¼æµå¨æ¹æ³",
+      "canonical_evidence": "ç¨äºè¿æµ·æ··åè¯æ­çè¡¨å±æ¼æµå¨æ¹æ³",
+      "llm_tldr_en": "The paper tackles separation of waves and mean flow in coastal-ocean drifter data using GLM-based Lagrangian filtering. By quantifying distinct transport components, it provides a transferable tool for analyzing estuarine or coastal PFAS dispersion and fate.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹æµ·æ´è¡¨å±æ¼æµèµæä¸­æ³¢å¨ä¸å¹³åæµé¾ä»¥åç¦»çé®é¢ï¼æåºåºäºå¹¿ä¹ææ ¼ææ¥å¹³åæ¡æ¶çæ»¤æ³¢æ¹æ³ï¼å°é«é¢æ³¢æµªä¸ä½é¢å¹³åæµè´¡ç®åå«éåãä½èå¨è¡¨å±æ¼æµå¨è§æµä¸éªè¯äºè¯¥æ¹æ³å¯å¾å°æ´å·ç©çè§£éæ§çå¨è½è¯æ­ãè½ç¶è®ºæå¹¶ä¸ç ç©¶PFASæ¬èº«ï¼ä½å¶å¯¹æ··åãè¾è¿åå°ºåº¦åè§£çå¤çä¸æ²³å£åè¿æµ·PFASåå¸å½è¶åæé«åº¦ç¸å³ãè¯¥æ¹æ³å¯ä½ä¸ºè¯å«æ½®æ±æ³¢å¨ãå¹³åè¾è¿åæ··åå½±åçéè¦ææ¯æ¡¥æ¢ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹æµ·æ´è¡¨å±æ¼æµèµæä¸­æ³¢å¨ä¸å¹³åæµé¾ä»¥åç¦»çé®é¢ï¼æåºåºäºå¹¿ä¹ææ ¼ææ¥å¹³åæ¡æ¶çæ»¤æ³¢æ¹æ³ï¼å°é«é¢æ³¢æµªä¸ä½é¢å¹³åæµè´¡ç®åå«éåãä½èå¨è¡¨å±æ¼æµå¨è§æµä¸éªè¯äºè¯¥æ¹æ³å¯å¾å°æ´å·ç©çè§£éæ§çå¨è½è¯æ­ãè½ç¶è®ºæå¹¶ä¸ç ç©¶PFASæ¬èº«ï¼ä½å¶å¯¹æ··åãè¾è¿åå°ºåº¦åè§£çå¤çä¸æ²³å£åè¿æµ·PFASåå¸å½è¶åæé«åº¦ç¸å³ãè¯¥æ¹æ³å¯ä½ä¸ºè¯å«æ½®æ±æ³¢å¨ãå¹³åè¾è¿åæ··åå½±åçéè¦ææ¯æ¡¥æ¢ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "estuarine mixing and its influence on PFAS distribution and fate",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-05-27-725968-v1",
+      "source": "biorxiv",
+      "title": "Advancing Great Lakes Coastal Wetland Food Web Models Using an Integrative Tracer Approach",
+      "abstract": "Coastal wetlands of the Laurentian Great Lakes support abundant populations of fish, invertebrates, and vegetation, though the trophic linkages connecting primary production and lower consumers is not well understood in these systems. We implemented a multiple-tracer approach to evaluate trophic pathways, pairing traditional food web isotope tracers like carbon ({delta}13C) and nitrogen ({delta}15N) with total mercury concentrations (THg). We predicted that filamentous algae would be the dominant energy resource in the diet of lower trophic-level invertebrates in the Grand River Estuary, a network of riverine coastal wetlands adjacent to Lake Michigan. In addition, we predicted that adding THg as a tracer would improve the resolution of our food web models by clarifying trophic levels and relationships between wetland species. Four basal energy sources were sampled, including filamentous algae, emergent macrophytes, submersed macrophytes, and phytoplankton, along with organic detritus. Aquatic invertebrates were sampled across multiple functional guilds to represent primary and secondary consumers and included amphipods and odonates. Our findings suggest that organic detritus is the dominant resource responsible for energetically supporting these lower trophic levels in the Grand River estuary, although submersed macrophytes were important alternative energy sources for secondary consumers. THg concentrations enhanced the resolution of dietary contribution estimates in MixSIAR models applied to consumer and source data. Isotope biplots revealed that THg concentrations were a more reliable predictor of trophic position than {delta}15N in Grand River Estuary (GRE) sites. This methodology has important implications for future food web studies in complex ecosystems such as coastal wetlands and demonstrates the novel use of mercury as an ecological tracer in a Bayesian mixing model approach.",
+      "authors": [
+        "Smith, A. M.",
+        "Cooper, M. J.",
+        "Otter, R."
+      ],
+      "primary_category": "ecology",
+      "categories": [
+        "ecology"
+      ],
+      "published": "2026-05-30T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.27.725968v1.full.pdf",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "estuarine tracer approach for riverine coastal pathways",
+      "llm_evidence_cn": "æ²³å£ä¸æ²³å²¸æ¹¿å°ä¸­çç¤ºè¸ªè·¯å¾ç ç©¶",
+      "llm_evidence": "æ²³å£ä¸æ²³å²¸æ¹¿å°ä¸­çç¤ºè¸ªè·¯å¾ç ç©¶",
+      "canonical_evidence": "æ²³å£ä¸æ²³å²¸æ¹¿å°ä¸­çç¤ºè¸ªè·¯å¾ç ç©¶",
+      "llm_tldr_en": "This paper addresses limited resolution of trophic pathways in a riverine estuarine coastal wetland by combining carbon, nitrogen, and mercury tracers, showing improved pathway discrimination and a stronger basis for tracking material sources and transport in estuarine systems.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹å¤§æ¹æ²¿å²¸æ¹¿å°ä¸æ²³å£ç³»ç»ä¸­ç©è´¨æ¥æºåé£ç©ç½è·¯å¾åè¾¨çä¸è¶³çé®é¢ï¼æåºå°ç¢³æ°®ç¨³å®åä½ç´ ä¸æ»æ±æµåº¦ç»åçå¤ç¤ºè¸ªæ¹æ³ãä½èå¨é»è¿å¯æ­æ ¹æ¹çæ ¼å°å¾·æ²³æ²³å£æ£éªè¯¥æ¡æ¶ï¼åç°å å¥æ±ç¤ºè¸ªåå¯æ´æ¸æ°å°åºåä½è¥å»çº§æ¶è´¹èçè½éæ¥æºä¸ä¼ éééãå°½ç®¡å¯¹è±¡å¹¶éPFASï¼ä½å¶å¯¹æ²³å£ä¸­æ¥æºè¯å«ãè·¯å¾è§£æåæ²³æµåè¿å²¸è¾éè¿ç¨çç¤ºè¸ªæè·¯ï¼å¯¹è¿æµ·PFASç¯å¢è¡ä¸ºç ç©¶å·ææ¹æ³åé´æä¹ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹å¤§æ¹æ²¿å²¸æ¹¿å°ä¸æ²³å£ç³»ç»ä¸­ç©è´¨æ¥æºåé£ç©ç½è·¯å¾åè¾¨çä¸è¶³çé®é¢ï¼æåºå°ç¢³æ°®ç¨³å®åä½ç´ ä¸æ»æ±æµåº¦ç»åçå¤ç¤ºè¸ªæ¹æ³ãä½èå¨é»è¿å¯æ­æ ¹æ¹çæ ¼å°å¾·æ²³æ²³å£æ£éªè¯¥æ¡æ¶ï¼åç°å å¥æ±ç¤ºè¸ªåå¯æ´æ¸æ°å°åºåä½è¥å»çº§æ¶è´¹èçè½éæ¥æºä¸ä¼ éééãå°½ç®¡å¯¹è±¡å¹¶éPFASï¼ä½å¶å¯¹æ²³å£ä¸­æ¥æºè¯å«ãè·¯å¾è§£æåæ²³æµåè¿å²¸è¾éè¿ç¨çç¤ºè¸ªæè·¯ï¼å¯¹è¿æµ·PFASç¯å¢è¡ä¸ºç ç©¶å·ææ¹æ³åé´æä¹ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-05-27-728134-v1",
+      "source": "biorxiv",
+      "title": "Temporal emergence of functional dark matter in microbial responses to PFAS revealed by materials-based cultivation",
+      "abstract": "Microbial responses to xenobiotic compounds are difficult to resolve due to environmental complexity and limited functional annotation. Here, we establish a materials-based cultivation framework using macroporous elastomeric silicone foams (MESIF) to capture microbial adaptation across environmental contexts and timescales. Using glyphosate as a model compound and per- and polyfluoroalkyl substances (PFAS) as a poorly understood class, we show that responses differ depending on the availability of established metabolic pathways. Glyphosate exposure induced rapid, pathway-specific functional enrichment with minimal taxonomic change. In contrast, PFAS exposure did not yield consistent taxonomic or annotation-based signals but instead produced responses that emerged over time and were primarily detectable at protein and genome-resolved levels. LC-MS analyses revealed transformation dynamics, including formation of shorter-chain products. These responses were not explained by known degrader taxa but involved uncharacterized proteins and microbial populations, highlighting the extent of functional \"dark matter\" in microbial responses to persistent contaminants.",
+      "authors": [
+        "Velaz Martin, M.",
+        "Rabe, K. S.",
+        "Meisch, L.",
+        "Vollmers, J.",
+        "Kaster, A. K.",
+        "Niemeyer, C. M."
+      ],
+      "primary_category": "microbiology",
+      "categories": [
+        "microbiology"
+      ],
+      "published": "2026-05-27T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.27.728134v1.full.pdf",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS microbial biogeochemical response processes",
+      "llm_evidence_cn": "PFASå¾®çç©çç©å°çåå­¦ååºè¿ç¨",
+      "llm_evidence": "PFASå¾®çç©çç©å°çåå­¦ååºè¿ç¨",
+      "canonical_evidence": "PFASå¾®çç©çç©å°çåå­¦ååºè¿ç¨",
+      "llm_tldr_en": "This paper addresses poor understanding of microbial functional responses to PFAS by introducing a materials-based cultivation framework. It shows PFAS elicit diffuse, weakly annotated microbial adaptations, offering a biogeochemical lens relevant to PFAS behavior studies.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹PFASå¨ç¯å¢ä¸­å¼åçå¾®çç©åè½ååºé¾ä»¥è§£æãæ³¨éä¸è¶³çé®é¢ï¼æåºåºäºå¤§å­å¼¹æ§ç¡æ³¡æ²«çææå¹å»æ¡æ¶ï¼ç¨äºè·¨ç¯å¢åæ¶é´å°ºåº¦ææå¾®çç©éåºè¿ç¨ãä½èä»¥èçè¦åPFASä½å¯¹æ¯ï¼åç°èçè¦å¯äº§çæç¡®çéè·¯å¯éï¼èPFASæ´å¤è¡¨ç°ä¸ºåæ£ä¸é¾æ³¨éçåè½ååãç»æè¯´æPFASç¸å³çç©å°çåå­¦è¿ç¨å·æéè½æ§åå¤ææ§ãè¯¥å·¥ä½è½éè¿æµ·åºæ¯ç ç©¶ï¼ä½ä¸ºçè§£æ²³å£ä¸æµ·å²¸ç¯å¢ä¸­PFASçå¾®çç©è½¬åä¸çææåºæä¾äºå¯è¿ç§»çæ¹æ³åºç¡ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹PFASå¨ç¯å¢ä¸­å¼åçå¾®çç©åè½ååºé¾ä»¥è§£æãæ³¨éä¸è¶³çé®é¢ï¼æåºåºäºå¤§å­å¼¹æ§ç¡æ³¡æ²«çææå¹å»æ¡æ¶ï¼ç¨äºè·¨ç¯å¢åæ¶é´å°ºåº¦ææå¾®çç©éåºè¿ç¨ãä½èä»¥èçè¦åPFASä½å¯¹æ¯ï¼åç°èçè¦å¯äº§çæç¡®çéè·¯å¯éï¼èPFASæ´å¤è¡¨ç°ä¸ºåæ£ä¸é¾æ³¨éçåè½ååãç»æè¯´æPFASç¸å³çç©å°çåå­¦è¿ç¨å·æéè½æ§åå¤ææ§ãè¯¥å·¥ä½è½éè¿æµ·åºæ¯ç ç©¶ï¼ä½ä¸ºçè§£æ²³å£ä¸æµ·å²¸ç¯å¢ä¸­PFASçå¾®çç©è½¬åä¸çææåºæä¾äºå¯è¿ç§»çæ¹æ³åºç¡ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-05-27-728272-v1",
+      "source": "biorxiv",
+      "title": "Viral impacts on plankton standing stocks, primary productivity, and biogeochemistry in a model ocean",
+      "abstract": "Viral lysis fuels the microbial loop by enhancing organic matter recycling (via the viral shunt) and can redirect organic matter toward export (via the viral shuttle). However, the global impact of viral infection mediated by shunt and shuttle pathways remains unclear. Here, we implemented viral infection and lysis processes in a global ocean ecosystem model, including a single phytoplankton (representing Prochlorococcus), virus (representing cyanophage), and nanozooplankton. Despite low but plausible levels of viral infection, high shunt efficiencies generated enhanced-productivity regions covering up to approximately one-half of the global ocean. For lower viral shunt efficiencies, the enhanced-productivity regions contracted abruptly, accompanied by steady declines in productivity. Viral-mediated increases in primary productivity reduced the extent of tropical oligotrophic regions at high shunt efficiencies, while lower efficiencies expanded oligotrophic areas. These results provide a path forward to developing predictive models of how viral infection and the fate of cellular lysates shape global ocean ecosystems.",
+      "authors": [
+        "Fremont, P.",
+        "Beckett, S. J.",
+        "Muratore, D.",
+        "Demory, D.",
+        "Carr, E.",
+        "Jahn, O.",
+        "Follett, C. L.",
+        "Talmy, D.",
+        "Lindell, D.",
+        "Weitz, J. S.",
+        "Dutkiewicz, S."
+      ],
+      "primary_category": "ecology",
+      "categories": [
+        "ecology"
+      ],
+      "published": "2026-05-29T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.27.728272v1.full.pdf",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "marine biogeochemical modeling framework",
+      "llm_evidence_cn": "æµ·æ´çç©å°çåå­¦å»ºæ¨¡æ¡æ¶",
+      "llm_evidence": "æµ·æ´çç©å°çåå­¦å»ºæ¨¡æ¡æ¶",
+      "canonical_evidence": "æµ·æ´çç©å°çåå­¦å»ºæ¨¡æ¡æ¶",
+      "llm_tldr_en": "The study incorporates viral lysis into a global ocean ecosystem model to quantify impacts on productivity and biogeochemical cycling. While not about PFAS, it offers transferable marine fate and process-modeling concepts relevant to contaminant behavior studies.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹æµ·æ´çæ¯è¿ç¨å¯¹çäº§åä¸çç©å°çåå­¦å¾ªç¯å½±åç¼ºä¹å®éè¯ä¼°çé®é¢ï¼å°çæ¯ææä¸è£è§£æºå¶çº³å¥å¨çæµ·æ´çæç³»ç»æ¨¡åï¼åæviral shuntä¸viral shuttleå¯¹ææºè´¨å¾ªç¯åè¾åºçä½ç¨ãç»æè¡¨æï¼ä¸åè£è§£éæ¾æçä¼æ¾èæ¹åé«çäº§ååºåçèå´ä¸æµ·æ´çç©å°çåå­¦ååºãè½ç¶å¯¹è±¡å¹¶éPFASï¼ä½å¶å°æµ·æ´è¿ç¨è¦åè¿æ°å¼æ¨¡åçæ¡æ¶ï¼å¯¹è¿å²¸PFASç¯å¢å½è¶ãè¿ç§»åè¿ç¨è§£æå·æä¸å®æ¹æ³åé´æä¹ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹æµ·æ´çæ¯è¿ç¨å¯¹çäº§åä¸çç©å°çåå­¦å¾ªç¯å½±åç¼ºä¹å®éè¯ä¼°çé®é¢ï¼å°çæ¯ææä¸è£è§£æºå¶çº³å¥å¨çæµ·æ´çæç³»ç»æ¨¡åï¼åæviral shuntä¸viral shuttleå¯¹ææºè´¨å¾ªç¯åè¾åºçä½ç¨ãç»æè¡¨æï¼ä¸åè£è§£éæ¾æçä¼æ¾èæ¹åé«çäº§ååºåçèå´ä¸æµ·æ´çç©å°çåå­¦ååºãè½ç¶å¯¹è±¡å¹¶éPFASï¼ä½å¶å°æµ·æ´è¿ç¨è¦åè¿æ°å¼æ¨¡åçæ¡æ¶ï¼å¯¹è¿å²¸PFASç¯å¢å½è¶ãè¿ç§»åè¿ç¨è§£æå·æä¸å®æ¹æ³åé´æä¹ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-05-28-728481-v1",
+      "source": "biorxiv",
+      "title": "Quantitative metagenomics reveals fine-scale population dynamics across bacteria, archaea, and microbial eukaryotes in an estuarine-coastal continuum",
+      "abstract": "Microbial communities are foundational to marine ecosystem function, yet their diversity is often obscured by broad taxonomic groupings and relative-abundance surveys that mask the dynamics of individual populations. This limitation is especially important across estuarine-coastal gradients, where microbial standing stocks, environmental conditions, and community composition vary sharply over space and time. Here, we used quantitative, genome-resolved metagenomics to examine microbial population dynamics across a one-year estuary-to-ocean transect spanning the Neuse River Estuary, Pamlico Sound, and adjacent North Atlantic shelf waters. Internal standard normalization enabled absolute abundance estimates for single-copy genes and metagenome-assembled genomes (MAGs), allowing individual populations to be tracked as genome equivalents per liter. Bacterial standing stocks were higher in estuarine waters, and communities varied primarily with salinity and season. We recovered 415 MAGs, including 386 bacterial genomes that represented, on average, 52% of bacterial genome equivalents, along with archaeal and eukaryotic representatives. Many abundant MAGs lacked close reference genomes, demonstrating that numerically important coastal populations remain poorly characterized. Genome-resolved abundances revealed pronounced niche partitioning among closely related taxa, including seasonal and spatial turnover of Synechococcus, Cyanobium, and Vulcanococcus populations associated with distinct pigment-defined cytometric groups. Rhodobacteraceae MAGs also showed population-specific correlations with picoeukaryotic MAGs, including a winter offshore Planktomarina population that reached 18% of total bacterial genome equivalents during a Micromonas-associated bloom. By providing absolute population abundances, this study transformed coastal microbiome surveys into numerical frameworks for resolving microbial population structure, ecological interactions, and biogeochemical relevance across dynamic environmental gradients.\n\nIMPORTANCEEstuarine and coastal waters contain diverse microbial communities that help regulate food webs and the cycling of carbon and nutrients, but many of the individual microbial populations responsible for these processes remain poorly understood. In this study, we examined bacteria, archaea, and small algae across the Neuse River Estuary, Pamlico Sound, and nearby coastal ocean waters over one year. By measuring the absolute abundance of individual microbial genomes, rather than only their relative proportions, we showed that closely related populations can have very different seasonal and spatial patterns. This was especially clear for cyanobacteria related to Synechococcus and heterotrophic bacteria in the family Rhodobacteraceae, which showed distinct population dynamics and associations with small algae. These results demonstrate how quantitative genome-resolved measurements can reveal hidden microbial population structure and improve our understanding of how microorganisms shape coastal ecosystem function.",
+      "authors": [
+        "Zhao, L.",
+        "Curtis, N.",
+        "Paerl, R. W.",
+        "Gifford, S. M."
+      ],
+      "primary_category": "genomics",
+      "categories": [
+        "genomics"
+      ],
+      "published": "2026-05-29T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.28.728481v1.full.pdf",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "estuarine-coastal biogeochemical dynamics method",
+      "llm_evidence_cn": "æ²³å£å°è¿æµ·çç©å°çåå­¦å¨ææ¹æ³",
+      "llm_evidence": "æ²³å£å°è¿æµ·çç©å°çåå­¦å¨ææ¹æ³",
+      "canonical_evidence": "æ²³å£å°è¿æµ·çç©å°çåå­¦å¨ææ¹æ³",
+      "llm_tldr_en": "This study resolves fine-scale microbial population dynamics across an estuarine-to-coastal continuum using quantitative genome-resolved metagenomics. Though not PFAS-focused, it offers a strong biogeochemical framework for studying processes that may affect PFAS fate in estuaries and coastal seas.",
+      "llm_tldr_cn": "è¯¥ç ç©¶éå¯¹æ²³å£å°è¿æµ·è¿ç»­ä½ä¸­å¾®çç©ç¾¤è½éå¸¸åªè½ä»¥ç²ç²åº¦ç¸å¯¹ä¸°åº¦è¡¨å¾ãé¾ä»¥è§£æç²¾ç»å¨æçé®é¢ï¼éç¨å®éåãåºå ç»åè¾¨çå®åºå ç»å­¦å¼å±ä¸å¹´å°ºåº¦æ­é¢è§æµãç»ææ­ç¤ºäºç»èãå¤èåå¾®åçæ ¸çç©å¨æ²³å£ãæ½æ¹åéæ¶æ°´ä½ä¸­çç»å°ºåº¦ç§ç¾¤ååãè½ç¶è®ºæå¹¶æªç´æ¥æµéPFASï¼ä½å¶æ¡æ¶è½å¤å»ç»å½±åæ±¡æç©è½¬ååå½è¶çå³é®çç©å°çåå­¦è¿ç¨ãå¯¹è¿æµ·PFASç¯å¢è¡ä¸ºç ç©¶èè¨ï¼è¿æ¯çè§£æ²³å£å°æµ·æ´è¿ç¨è¦åçéè¦æ¹æ³åºç¡ã",
+      "llm_tldr": "è¯¥ç ç©¶éå¯¹æ²³å£å°è¿æµ·è¿ç»­ä½ä¸­å¾®çç©ç¾¤è½éå¸¸åªè½ä»¥ç²ç²åº¦ç¸å¯¹ä¸°åº¦è¡¨å¾ãé¾ä»¥è§£æç²¾ç»å¨æçé®é¢ï¼éç¨å®éåãåºå ç»åè¾¨çå®åºå ç»å­¦å¼å±ä¸å¹´å°ºåº¦æ­é¢è§æµãç»ææ­ç¤ºäºç»èãå¤èåå¾®åçæ ¸çç©å¨æ²³å£ãæ½æ¹åéæ¶æ°´ä½ä¸­çç»å°ºåº¦ç§ç¾¤ååãè½ç¶è®ºæå¹¶æªç´æ¥æµéPFASï¼ä½å¶æ¡æ¶è½å¤å»ç»å½±åæ±¡æç©è½¬ååå½è¶çå³é®çç©å°çåå­¦è¿ç¨ãå¯¹è¿æµ·PFASç¯å¢è¡ä¸ºç ç©¶èè¨ï¼è¿æ¯çè§£æ²³å£å°æµ·æ´è¿ç¨è¦åçéè¦æ¹æ³åºç¡ã",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
 }

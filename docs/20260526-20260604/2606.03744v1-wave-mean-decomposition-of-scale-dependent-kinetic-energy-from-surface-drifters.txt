@@ -1,0 +1,574 @@
+Title: Wave-mean decomposition of scale-dependent kinetic energy from surface drifters
+
+URL Source: https://arxiv.org/pdf/2606.03744v1
+
+Published Time: Wed, 03 Jun 2026 01:35:11 GMT
+
+Number of Pages: 42
+
+Markdown Content:
+manuscript submitted to XXX 
+
+# Wave-mean decomposition of scale-dependent kinetic energy from surface drifters 
+
+Han Wang 1, Dhruv Balwada 2, and Jin-Han Xie 3
+
+> 1
+
+Institute of Oceanography, University of Hamburg, 20146 Hamburg, Germany 
+
+> 2
+
+Lamont Doherty Earth Observatory, Columbia University, Palisades, NY, USA 
+
+> 3
+
+School of Mechanics and Engineering Science, Peking University, China 
+
+Corresponding author: Han Wang, hannnwangus@gmail.com 
+
+–1–  
+
+> arXiv:2606.03744v1 [physics.flu-dyn] 2 Jun 2026 manuscript submitted to XXX
+
+Abstract 
+
+Separating waves and mean flows is a fundamental challenge in ocean dynamics. Lagrangian filtering of passive-tracer time series into high-frequency wave and low-frequency mean-flow components provides a practical route, as the relevant time scales are often cleanly split in the Lagrangian frame. Here we show that Lagrangian filtering can be applied to surface drifter observations, providing a powerful approach to quantify wave and mean-flow contributions to surface kinetic energy statistics. A key methodological choice is to implement the filtering in a generalized Lagrangian mean (GLM) framework, attribut-ing filtered velocities to mean rather than particle trajectories; this produces more phys-ically interpretable diagnostics. Using Gulf of Mexico drifter data, we compute second-order velocity structure functions (SF2s) for waves and mean flow components across spa-tial scales. With these filtered SF2s as a benchmark, we illustrate that Helmholtz de-composition of unfiltered SF2s alone should not be interpreted as a dynamical wave–mean decomposition. Applying Helmholtz decomposition to the filtered SF2s further illumi-nates seasonal dynamics. Mean-flow surface kinetic energy is rotationally dominated at scales larger than O(1) km, while at and below O(1) km, divergent and rotational con-tributions are approximately equipartitioned in both summer and winter, suggesting low-frequency divergent motions and possible associated vertical exchange. Winter mean flows are more active than summer mean flows over 500 m–10 km. Super-inertial motions are broadly consistent with linear waves. In winter, wave kinetic energy is concentrated at smaller spatial scales than in summer, possibly reflecting enhanced downscale transfer by stronger submesoscale mean flows. 
+
+## 1 Introduction 
+
+Kinetic energy in the ocean is shared between balanced or slow motions — such as mesoscale eddies and submesoscale currents, whose velocity fields are constrained by diagnostic balance relations — and unbalanced or fast motions, predominantly internal gravity waves, which propagate through oscillatory dynamics. Understanding how en-ergy is partitioned between these “balanced” and “unbalanced” regimes across scales is central for diagnosing oceanic energy pathways (Ferrari & Wunsch, 2009; Alford et al., 2007), understanding oceanic transport (Balwada et al., 2018), and interpreting remote-sensing and in-situ observations (Klein et al., 2019). The last point is particularly rel-evant for observations from the new generation of satellites such as the Surface Water  
+
+> –2– manuscript submitted to XXX
+
+and Ocean Topography (SWOT) mission, which samples the scales where balanced mo-tions and unbalanced motions co-exist. Achieving the balanced-unbalanced decomposition from observations remains chal-lenging. A widely used diagnostic is the Helmholtz decomposition, which separates hor-izontal velocities, or statistics derived from them, into rotational and divergent compo-nents. While observational data to perform this decomposition directly on velocities are rarely available (Farrar et al., 2020), as doing so needs spatially two-dimensional veloc-ity measurements, it is possible to obtain a decomposition of statistical metrics averaged over repeated measurements even when they are constrained in spatial coverage. Applied to scale-dependent statistics such as second-order structure functions (SF2s) or wavenum-ber spectra, the Helmholtz decomposition has been used on ship-track, aircraft, surface-drifters, and model data (B¨ uhler et al., 2014; Lindborg, 2015; Balwada et al., 2016, 2022; Sinha et al., 2019). As a rough heuristic, rotational velocities are often associated with balanced flows, whereas divergent velocities are often associated with unbalanced flows. This heuristic is motivated by the fact that geostrophic and low-Rossby-number balanced flows are one of the most energetic components of balanced flows (Ferrari & Wunsch, 2009) and are dominated by rotational motions, while super-inertial internal waves are one of the most energetic components of unbalanced flows (Alford et al., 2007) and possess strong divergent motions. This heuristic is not an accurate dynamical decomposition: balanced flows can be substantially divergent (e.g., submesoscale fronts statistically have more rotational im-prints than divergent imprints (Barkan et al., 2019)), and unbalanced flows can be sub-stantially rotational (e.g., near-inertial waves). Dynamical extensions of the Helmholtz decomposition can be based on using buoyancy data and lead to a decomposition into linear waves and geostrophic (B¨ uhler et al., 2014) or weakly nonlinear balanced flows (H. Wang & B¨ uhler, 2020). In practice, however, concurrent buoyancy measurements at the required resolution are often unavailable. B¨ uhler et al. (2014) suggested that when buoyancy mea-surements are unavailable, the Garrett–Munk internal wave spectrum (Garrett & Munk, 1972) can be used to model the potential energy contribution, though this does not ac-count for regional or seasonal deviations from the Garrett-Munk spectrum. Recent works relax this data requirement by using other types of additional information: Vladoiu et al. (2024) applied a full wave–mean decomposition to shipboard ADCP and towed CTD data in the pycnocline, and Vladoiu & Lien (2026) exploited the distinct polarization  
+
+> –3– manuscript submitted to XXX
+
+relations of waves and vortical modes to achieve a wave-mean decomposition using depth-resolved velocity measurements. Other decomposition approaches require different types of observational or mod-eling information. Eulerian temporal filtering can separate frequency bands from moored or fixed-point measurements, so that fast motions may be treated as unbalanced motions and slow motions as balanced motions. However, Doppler shifting by the balanced mo-tions smears the spectral gap between balanced and unbalanced motions, making clean separation difficult in energetic regions (Gerkema et al., 2013; Pinkel, 2008). Vertical-mode methods require resolved velocity profiles and assumptions about the vertical modal structures (Torres et al., 2022). In three-dimensional gridded simulations, the flow can be projected onto the linear wave and geostrophic modes (Bartello, 1995; Early et al., 2021),with nonlinear extensions available in idealized settings (Vi´ udez & Dritschel, 2004; Eden et al., 2019; Chouksey et al., 2018). Lagrangian filtering offers an alternative approach that circumvents many of the limitations or assumptions described above. It exploits the temporal separation between balanced and unbalanced motions by applying frequency filters to time series collected along flow-following trajectories. The key advantage of working in the Lagrangian frame is that the balanced-motions’ Doppler shift, which challenges Eulerian filtering (Gerkema et al., 2013; Pinkel, 2008), is largely removed. As a result, the time-scale separation be-tween balanced and unbalanced motions is typically cleaner in the Lagrangian frame than in the Eulerian frame, even after accounting for fast-evolving balanced motions such as submesoscale fronts (Callies et al., 2020; Jones et al., 2023). Lagrangian filtering has been developed and tested using synthetic particles in ocean models, and has been shown to outperform Eulerian frequency filtering in preserving transport-relevant balanced mo-tions, including convergent flows near fronts (Shakespeare et al., 2021; Jones et al., 2023). Grid-based implementations that avoid explicit particle tracking have also been devel-oped (Kafiabad, 2022; Baker et al., 2025). Surface drifters (“drifters”) provide flow-following time series directly, making them a natural platform for Lagrangian filtering. However, drifter observations are spatially sparse and unstructured, so they cannot be used to directly reconstruct spatially resolved flow fields. What drifters do provide is access to scale-dependent statistics: SF2s com-puted from velocity differences between pairs of drifters as a function of their separation  
+
+> –4– manuscript submitted to XXX
+
+distance characterize kinetic energy across spatial scales (Bennett, 1984; Davidson, 2015; Balwada et al., 2016). Combined with Helmholtz decomposition, SF2s can further dis-tinguish rotational and divergent contributions (Lindborg, 2015; Balwada et al., 2016). Previous drifter SF2 analyses, however, have mostly (with the only exception of Beron-Vera & LaCasce (2016) to our knowledge) used unfiltered velocities, and therefore do not decompose balanced and unbalanced contributions. Combining Lagrangian filtering with SF2s offers a way to quantify how balanced and unbalanced motions each contribute to surface kinetic energy across scales. Here we apply Lagrangian frequency filtering to drifter data from the Grand La-grangian Deployment (GLAD; summer 2012, Poje et al. (2014)) and the Lagrangian Sub-mesoscale Experiment (LASER; winter 2016, D’Asaro et al. (2018)), both conducted in the Gulf of Mexico. We apply a frequency filter with cutoff frequency near the inertial frequency to obtain lowpass and highpass velocity components, which we refer to as “mean flows” and “waves”, respectively, following standard wave-mean terminology (B¨ uhler, 2014). Due to the time scale separation between balanced and unbalanced motions in the La-grangian frame (Callies et al., 2020; Jones et al., 2023), we interpret the waves (highpass) and mean (lowpass) flows as unbalanced and balanced motions respectively. We com-pute SF2s for both components, and apply the Helmholtz decomposition to these filtered SF2s. A key methodological choice is to implement the filtering within the generalized Lagrangian-mean (GLM) framework (Andrews & McIntyre, 1978; B¨ uhler, 2014), attribut-ing both highpass and lowpass velocities to the lowpass-filtered trajectory rather than to the unaveraged particle trajectory. This yields, to our knowledge, the first GLM-inspired wave–mean decomposition of scale-dependent kinetic energy from ocean observations. We use the results both methodologically, to compare the GLM-inspired decomposition with other decomposition approaches, and dynamically, to examine seasonally varying wave and mean-flow contributions to surface kinetic energy in the Gulf of Mexico. The contributions of different frequency components in SF2s have been studied in several contexts. Beron-Vera & LaCasce (2016), which came closest to the analyses here, compared SF2s before and after inertial oscillations are removed by Lagrangian frequency filtering. However, this study focused on pair dispersion, rather than doing a detailed exploration of the filtering methodology or all the insights that can be derived from such an approach. Callies et al. (2020) proposed a frequency-resolving SF2 for Eulerian data; we are not aware of its clear connections to Lagrangian data. Hypolite et al. (2026) an- 
+
+> –5– manuscript submitted to XXX
+
+alyzed SF2s before and after Eulerian frequency filtering in simulations. Our approach differs in using GLM-inspired Lagrangian filtering as the starting point. The paper is organized as follows. Section 2 describes the data and methods. Sec-tion 3 discusses methodological lessons on wave-mean decomposition. Section 4 presents dynamical insights for the Gulf of Mexico. Section 5 summarizes the results and discusses directions for future work. 
+
+## 2 Data and Methods 
+
+2a GLAD and LASER datasets 
+
+We apply our methods to drifter observations from two observational campaigns in the Gulf of Mexico: the Grand Lagrangian Deployment (GLAD) in summer 2012 (20 July–22 October 2012) and the Lagrangian Submesoscale Experiment (LASER) in win-ter 2016 (21 January–30 April 2016). The spatial extent of the drifter trajectories from these campaigns is shown in the upper row of Fig. 1. We use the processed data products ( ¨Ozg¨ okmen, 2013; E. D’Asaro et al., 2017), described in detail in Berta et al. (2020); aspects relevant to this work are summarized here. In these data products, drifter positions are first interpolated to 5-minute inter-vals and velocities are estimated by finite differencing. Positions (and hence velocities) are lowpass filtered with a 1-hour cutoff period and resampled to uniform 15-minute in-tervals. Therefore, motions at periods shorter than 1 hour are absent in our analysis. The data clearly retain imprints from internal waves. In individual drifter trajectories, in-ertial oscillations are often visible [Fig. 2, “Unfiltered trajectory” in panel (b)]. The GLAD product ( ¨Ozg¨ okmen, 2013) contains only CODE-type drifter measurements (Davis, 1985), while the LASER product (E. D’Asaro et al., 2017) contains only CARTHE-type drifter measurements (Novelli et al., 2017). Both designs are intended to measure near-surface currents; CODE and CARTHE drifters follow the flows in roughly the upper 1 m and 0.6 m of the water column, respectively (Davis, 1985; Novelli et al., 2017), and have broadly similar responses to wind and surface waves (Poulain et al., 2022). We discard observations flagged as undrogued. Following Balwada et al. (2022), we focus on a region with relatively homogeneous statistics by retaining only offshore observations with longitudes between 91 ◦W and 84 ◦W, latitudes north of 24 ◦N, and seafloor depths greater than 500 m. We also discard snapshots with one drifter observation. Af- 
+
+> –6– manuscript submitted to XXX
+
+ter this screening, 1,264,764 and 1,411,873 space–time observations are retained for GLAD and LASER, respectively. The sampling distribution of screened observations in GLAD is shown in Fig. 2(a). 
+
+2b Unfiltered SF2s 
+
+The main statistical quantities analyzed in this work are SF2s computed before and after Lagrangian filtering. This subsection reviews the unfiltered SF2s and their Helmholtz decomposition. The underlying concepts follow previous works, but we adopt notations that distinguish unfiltered quantities from the filtered counterparts introduced in § 2e. At each time snapshot, we identify all the available pairs of drifters. We treat all vectors in a local two-dimensional Cartesian frame. For a given pair, the unfiltered sep-aration vector ro is the difference between the two unfiltered positions x1 
+
+> o
+
+and x2
+
+> o
+
+; the subscript “o” denotes “original”, unfiltered quantities. The left panel of Fig. 3 illustrates 
+
+ro for one drifter pair. The unfiltered velocity difference between the two drifters, ∆uo(ro, x1
+
+> o
+
+, t ) (only one position is sufficient to define the velocity difference when combined with ro),is projected into a longitudinal component ∆ uLo (ro, x1
+
+> o
+
+, t ) along ro, and a transverse component ∆ uTo (ro, x1
+
+> o
+
+, t )perpendicular to ro; the subscripts “L” and “T” stand for “longitudinal” and “trans-verse”: ∆uLo (ro, x1
+
+> o
+
+, t ) def 
+
+= ∆uo(ro, x1
+
+> o
+
+, t )·ero, ∆uTo (ro, x1
+
+> o
+
+, t ) def 
+
+= ∆uo(ro, x1
+
+> o
+
+, t )·(ez × ero) , (1) where ez is the upward vertical unit vector, and ero is the unit vector along ro.So far we have defined important subscripts “o”, “L”, and “T”; more will appear, and we list in Appendix A key subscripts in this work. Assuming weak temporal stationarity and horizontal spatial homogeneity (“sta-tionarity” and “homogeneity”), the ensemble-averaged quantities (SF2s and spatial co-variances) are functions of separation only, and not functions of the spatial position of one drifter x1 
+
+> o
+
+or time ( t). The unfiltered longitudinal and transverse SF2s are then de-fined as 
+
+DLLo (ro) def 
+
+=
+
+D ∆uLo (ro, x1
+
+> o
+
+, t )2E
+
+, and DTTo (ro) def 
+
+=
+
+D ∆uTo (ro, x1
+
+> o
+
+, t )2E
+
+, (2)  
+
+> –7– manuscript submitted to XXX
+
+Figure 1: Upper row: all trajectories in the GLAD (left) and LASER campaigns (right) from data products ( ¨Ozg¨ okmen, 2013; E. D’Asaro et al., 2017). Black dots indicate the drifters’ starting positions. Colored contours show bottom bathymetry; regions shallower than 500 m are left blank. Green boxes mark the range of latitudes and longitudes used in the analysis. Lower row: frequency spectra before (“Unfiltered”) and after (“lowpass” and “highpass”) Lagrangian frequency filtering in GLAD (left) and LASER (right). Horizontal axis is scaled by the typical Coriolis frequency fa evaluated at 28 ◦ N. The range of Cori-olis frequencies covered by all the data points included in the SF2 analysis is indicated by the shading around ω/f a = 1. The cutoff frequency of the frequency filter, corresponding to a period of 1.5 days, is denoted by ωc on the horizontal axis. The diurnal and semid-iurnal tidal frequencies are denoted by K1 and M2 on the horizontal axis. Dashed lines mark power laws ∝ ω−2, consistent with Ornstein–Uhlenbeck process and often found in other oceanic Lagrangian kinetic energy measurements (D’Asaro & Lien, 2000; LaCasce, 2008). Values below 1 m 2/s are omitted.  
+
+> –8– manuscript submitted to XXX
+
+Figure 2: Example with one drifter’s 45-day recording from GLAD. Panel (a): position of the sample drifter; line denotes the sample drifter’s trajectory and contour shows ob-servation density of screened data in GLAD. Panel (b): particle trajectory (“Unfiltered”), which is the sequence of drifter positions from ( ¨Ozg¨ okmen, 2013) directly, and lowpass trajectory (“Lowpass”), which is the sequence of lowpass filtered positions; the triangle sign marks the drifter deployment position. Panel (c): meridional displacement (difference in meridional position from the deployment position) along the particle and lowpass tra-jectories. Panel (d): meridional velocity before and after filtering. Panel (e): frequency spectra before and after filtering; plot labels are the same as Fig. 1.  
+
+> –9– manuscript submitted to XXX
+
+where ⟨· · ·⟩ denotes ensemble averaging, which is approximated by averaging over all snap-shots ( t), all positions x1
+
+> o
+
+, and all drifter pairs whose separation vectors are ro. In prac-tice, one counts drifter pairs with separations falling into relevant discrete bins. Due to the spatial sparsity of drifter observations, it’s impractical to directly eval-uate SF2s as functions of two-dimensional ro. Commonly, isotropy is assumed, so that SF2s are functions of |ro| only. In this work, we relax the assumption of isotropy, fol-lowing H. Wang & B¨ uhler (2021) and expand each SF2 into azimuthal Fourier modes. For example, writing ro = ( ro, α o), 
+
+DLLo (ro) = 
+
+> ∞
+
+X
+
+> n=0
+
+Dcn 
+
+> LLo
+
+(ro) cos ( nα o) + Dsn 
+
+> LLo
+
+(ro) sin ( nα o). (3) In the main text, we only analyze the modes at n = 0, which are angularly indepen-dent and related to the two-dimensional functions via an unweighted angle averaging. The leading angularly dependent modes are discussed in Supplementary Materials § 1. For brevity, outside Supplementary Materials § 1, we omit the superscripts “ c0′′ and write, for example, Dc0LLo (ro) as DLLo (ro). The separation distance ro is binned into 26 loga-rithmically spaced bins from 25 m to 1052 .1 km. Within each bin of ro, observations are weighted by the distribution of polar angles αo, to reduce bias from uneven angular sam-pling under anisotropic statistics. The specific algorithm we apply is described in Ap-pendix B of H. Wang & B¨ uhler (2021). Aside from the angularly weighted averaging, our evaluation of SF2s at n = 0 is numerically identical to evaluations of SF2 under the assumption of isotropy in other works Balwada et al. (2016, 2022). We stress that we do not assume isotropy, but by evaluat-ing the modes at n = 0, we are only diagnosing the angularly averaged components of SF2s in the expansion (3). We focus on interpreting the sum of angularly averaged SF2 components 
+
+DLLo (ro) + DTTo (ro). (4) We offer an idiosyncratic recount on its connections to flow energetics. We first inspect the two-dimensional SF2s. Manipulating expressions as in Eqn. (18)-(22) of H. Wang & B¨ uhler (2021), 
+
+DLLo (ro) + DTTo (ro) = 2  u2 + v2 − Cu(ro) − Cv (ro) (5) = 2(2 π)2
+
+
+
+u2 + v2 −
+
+Z ∞−∞ 
+
+[ bCu(k) + bCv (k]e ik·ro dk dl 
+
+
+
+, (6)  
+
+> –10– manuscript submitted to XXX
+
+where ( u, v ) are zonal and meridional velocities, Cu(ro), Cv (ro) are covariance functions defined under homogeneity and stationarity; e.g., Cu(ro) def 
+
+= ⟨u(x1, t )u(ro + x1, t )⟩ , and 
+
+c(·) denotes Fourier coefficients in wavenumber space. The covariance functions are in-verse Fourier transforms of wavenumber power spectra (Yaglom, 1952; B¨ uhler et al., 2014), so bCu, bCv are power spectra, and their sum is twice the kinetic energy spectrum. There-fore, after averaging (6) over the angle α, the angularly averaged SF2 sum is related to the angularly averaged horizontal kinetic energy spectral density E(κ) [such that R ∞ 
+
+> 0
+
+E(κ)dκ =
+
+u2 + v2 /2 and κ = √k2 + l2 is the radial horizontal wavenumber] via: (Bennett, 1984; Davidson, 2015; Balwada et al., 2016) 
+
+DLLo (ro) + DTTo (ro) = 4 
+
+Z ∞
+
+> 0
+
+E(κ)[1 − J0(κr o)] dκ ≈ r2o
+
+Z 2/r o
+
+> 0
+
+κ2E(κ)dκ + 4 
+
+Z ∞
+
+> 2/r o
+
+E(κ)dκ, 
+
+(7) where J0(κr o) is the zeroth-order Bessel function and the approximation arises from asymp-totic behaviors of J0(κr o). Thus, the angularly averaged SF2 (7) is contributed by large-scale enstrophy and small-scale kinetic energy, with the weighting controlled by ro. The algebra in the derivations here are the same as previous works (Bennett, 1984; LaCasce, 2016; Balwada et al., 2016) with a slight difference in interpretations: we do not assume isotropy, but rather, we are inspecting the angularly averaged quantities. If E(κ) follows a power law κ−m over an infinite range with 1 < m < 3, the cor-responding SF2 scales as rm−1o . However, if the power law holds over finite ranges, as with real-world data, the correspondence need not be one-to-one (LaCasce, 2016). So some caution should be exercised if one attempts to use the SF2 to infer the energy spec-tral power law. Recent work has used additional drifter statistics to validate the spectral-slope inference (Qian et al., 2025). In SF2 figures, we show reference slopes 2 /3, 1, 2, but generally refrain from inferring precise spectral slopes from SF2 slopes. 
+
+2c Recipe for Helmholtz decomposition 
+
+As discussed in the Introduction, the Helmholtz decomposition is widely used to infer dynamical information from velocity observations. Here we list the framework and recipe for the Helmholtz decomposition of SF2s. Under appropriate boundary conditions, a two-dimensional velocity field ( u, v ) can be decomposed into rotational and divergent components induced by a stream function ψ and a potential function ϕ:
+
+u(x, y ) = ∂ϕ (x, y )
+
+∂x − ∂ψ (x, y )
+
+∂y , v(x, y ) = ∂ϕ (x, y )
+
+∂y + ∂ψ (x, y )
+
+∂x . (8)  
+
+> –11– manuscript submitted to XXX
+
+Although spatially sparse drifter observations do not allow this decomposition to be applied directly to instantaneous velocity fields, the rotational and divergent contri-butions to SF2s can be diagnosed. We apply the Helmholtz decomposition formulae for the angularly averaged SF2s (7) : 
+
+Dψψ i(rj) = DTTi (rj) + 
+
+Z rj
+
+> 0
+
+(−DLLi (τ ) + DTTi (τ )) /τ dτ, (9) 
+
+Dϕϕ i(rj) = DLLi (rj) −
+
+Z rj
+
+> 0
+
+(−DLLi (τ ) + DTTi (τ )) /τ dτ, (10) where Dψψ i(rj) and Dϕϕ i(rj) denote the contributions of the rotational and divergent mo-tions, respectively, to the angularly averaged SF2. These components satisfy Dψψ o(ro)+ 
+
+Dϕϕ o(ro) = DLLo (ro)+ DTTo (ro), with no additional cross-term contribution from cor-relations between rotational and divergent velocities (Lindborg, 2015). In the subscripts, “ψ” and “ ϕ” denote quantities induced by the rotational and divergent motions respec-tively. The indices “i” and “j” are dummy variables; “i” can be “o” (original), “f” (fast), or “s” (slow), and “j” can be “o” or “s”. The “f” and “s” subscripts are introduced with the filtered SF2s in § 2e. When evaluating the integrals in (9)–(10), we use the small-est bin center of rj as the lower limit of integration. We refer to B¨ uhler et al. (2014) and Lindborg (2015) for the derivations of the Helmholtz decomposition formulae (9)-(10) under isotropy, and to H. Wang & B¨ uhler (2021) and Lindborg (2025) for the derivations targeting angularly averaged SF2s without assum-ing isotropy. In addition to stationarity and homogeneity, the Helmholtz decomposition of the angularly-averaged modes (9)-(10) requires no further assumptions. An additional assumption imposed by H. Wang & B¨ uhler (2021) on the cross-correlation between ψ
+
+and ϕ was later shown to be unnecessary by Lindborg (2025). Supplementary Materi-als § 1 discusses the Helmholtz decomposition of anisotropic modes; from GLAD and LASER data considered in this work, we find anisotropic modes inconsequential to the qualita-tive interpretations of the Helmholtz decomposition. 
+
+2d Reference frame for Lagrangian filtering 
+
+We approximate drifters as passive tracers following the flow in the top meter of the ocean. This is partially justified as we only use data flagged as drogued. As the drifter observations are horizontal-flow-following, filtering time series along each drifter is equiv-alent to filtering in the Lagrangian frame of the horizontal flow.  
+
+> –12– manuscript submitted to XXX
+
+Our choice of the reference frame is inspired by the generalized Lagrangian-mean (GLM) framework (Andrews & McIntyre, 1978; B¨ uhler, 2014). Many averaging oper-ators can be defined in a Lagrangian frame to compute mean flow (Gilbert & Vanneste, 2018); here, we define averaging as applying a lowpass filter in time at a fixed drifter la-bel, and regard the highpass and lowpass motions as “waves” and “mean flows” respec-tively. This aligns with the GLM requirement that the wave-induced displacement has zero temporal mean to leading order (Andrews & McIntyre, 1978; B¨ uhler, 2014). This choice is motivated by the time-scale separation between balanced and unbalanced mo-tions in oceanic flows, as discussed in the Introduction. We therefore interpret waves as unbalanced motions and mean flows as balanced motions. Similar Lagrangian frequency-filtering approaches have been used to decompose waves and mean flows and to diagnose unbalanced and balanced motions in oceanic modeling data, with (Kafiabad, 2022; Baker et al., 2024) or without (Shakespeare et al., 2021; Jones et al., 2023) the GLM frame-work in mind. The GLM framework uses the mean trajectory as the reference frame. The mean trajectory is the trajectory due to the mean flow, and waves induce the particle’s dis-placements away from this mean trajectory (hereafter “wave displacements”). Variables (e.g., the velocities) associated with both the waves and mean flows use the mean tra-jectories as their coordinate. Fig.10.2 in B¨ uhler (2014) provides a visual illustration. In our application, this means attributing both highpass and lowpass velocities to the lowpass-filtered trajectory . Even without the GLM framework in mind, this attribution appears natural: for frequency filtering to separate waves and mean flows, the artifacts introduced in the Eulerian frame, i.e., Doppler shifts, are induced by the advection of wave energy by mean flows. Canceling this artifact requires an observer moving with the mean flow, whose trajectory is the time integral of the mean-flow velocity, i.e., the lowpass trajec-tory. See Gerkema et al. (2013) for a review. In principle, different frameworks where the wave and mean flows are attributed to other reference frames can be constructed. One alternative is to attribute filtered ve-locities to the unaveraged particle trajectories, as in Shakespeare et al. (2021). We re-fer to this as the “particle trajectory framework”. The particle trajectory framework may appear natural too: the particle trajectory is directly observed, whereas the mean tra-jectory under the GLM framework is a conceptual construction. But this choice can com-plicate the wave-mean decomposition: in the particle trajectory framework, mean flow  
+
+> –13– manuscript submitted to XXX
+
+velocities are assigned to positions displaced by the waves, so deformation of the refer-ence frame (and hence, motions observed from the reference frame) can introduce ap-parent flow evolutions taking place at wave time scales into the diagnosed mean flow. Analytically, useful dynamical properties such as the robustness of large-scale geostrophic balance in the mean flow in the presence of strong waves would hold less exactly under the particle trajectory framework (Kafiabad et al., 2021). In our application to drifter observations, the difference between the two frame-works turns out to be significant; in particular, the mean trajectory frame yields a more physically interpretable Helmholtz decomposition of highpass SF2s. We demonstrate this in § 3. 
+
+2e Lagrangian-filtered SF2s 
+
+We now define SF2s computed from Lagrangian-filtered velocities (hereafter “fil-tered SF2s”). For a drifter pair, the lowpass separation vector 
+
+rs (11) is defined as the vector difference between the lowpass filtered positions of the two drifters (rs = x1 
+
+> s
+
+− x2 
+
+> s
+
+). The subscript “s” denotes “slow” (lowpass) quantities. Fig. 3 (right panel) illustrates rs.The lowpass SF2s are defined analogously to the unfiltered SF2s, but use lowpass velocities and lowpass separation: 
+
+DLLs (rs) def 
+
+=
+
+D ∆uLs (rs, x1 
+
+> s
+
+, t )2E
+
+, DTTs (rs) def 
+
+=
+
+D ∆uTs (rs, x1 
+
+> s
+
+, t )2E
+
+, (12) where ∆ uLs and ∆ uTs are the longitudinal and transverse components of the lowpass velocity difference: ∆uLs (rs, x1 
+
+> s
+
+, t ) def 
+
+= ∆us(rs, x1 
+
+> s
+
+, t ) · ers, ∆uTs (rs, x1 
+
+> s
+
+, t ) def 
+
+= ∆us(rs, x1 
+
+> s
+
+, t ) · (ez × ers) , (13) and ers is the unit vector pointing along rs.Highpass SF2s use the highpass velocity differences but are still evaluated as func-tions of the lowpass separation rs (i.e., highpass velocities are attributed to the lowpass trajectories): 
+
+DLLf (rs) def 
+
+=
+
+D ∆uLf (rs, x1 
+
+> s
+
+, t )2E
+
+, DTTf (rs) def 
+
+=
+
+D ∆uTf (rs, x1 
+
+> s
+
+, t )2E
+
+, (14)  
+
+> –14– manuscript submitted to XXX
+
+Figure 3: Raw (left panel) and lowpass-filtered (right panel) trajectories (spanning 13.9 days) of two drifters from the GLAD campaign, plotted on local Cartesian coordinates. The triangles denote drifters’ deployment positions and the circles denote the raw (left panel) or lowpass-filtered (right panel) positions of the drifters at the present time. The separation vectors ro (left panel) or rs (right panel) connect the present positions. where ∆ uLf and ∆ uTf denote the longitudinal and transverse highpass velocity differ-ences. The subscript “f” denotes “fast” (highpass) quantities. This use of rs as the spa-tial coordinate conforms with using the mean trajectories as the reference frame, as we have argued for in § 2d. Similar to the treatment of unfiltered SF2s, in the main text, we discuss filtered SF2s only at the angularly-averaged mode n = 0 in the expansion (3) and omit the su-perscripts. For example, DTTf (rs) refers to Dc0TTf (rs) in the expansion of DTTf (rs) fol-lowing (3). The angular weighting is applied in the computation of filtered SF2s too. The binning of rs is set identical to the binning of ro.The Helmholtz decomposition formulae for the lowpass and highpass SF2s are iden-tical to those for the unfiltered SF2s ((9)-(10)). The Helmholtz decomposition formu-lae apply unchanged because at no point in the derivations leading to the formulae (B¨ uhler et al., 2014; Lindborg, 2015; H. Wang & B¨ uhler, 2021; Lindborg, 2025) would the filter-ing affect the algebra, which is grounded only in kinematic (and not dynamic) relations.  
+
+> –15– manuscript submitted to XXX
+
+2f Choice and effect of frequency filter 
+
+For each drifter record, we apply a 5th-order Butterworth lowpass filter with a 1.5-day cutoff to the zonal and meridional positions and velocities. We choose these param-eters to strongly suppress motions at frequencies at and above the local Coriolis frequen-cies covered by the screened data. The lowpass trajectory is the sequence of the lowpass-filtered positions. Because the velocities in ( ¨Ozg¨ okmen, 2013; E. D’Asaro et al., 2017) are obtained by finite differencing positions, filtering and differencing are linear opera-tions that commute; accordingly, the lowpass trajectory agrees (to numerical accuracy; not shown) with the time integral of the lowpass velocity. This consistency between low-pass velocity and lowpass trajectory aligns with the GLM framework. Highpass veloc-ities are computed as unfiltered velocities minus lowpass velocities. The high-frequency nature of highpass velocities aligns with the GLM condition that wave displacements have zero temporal mean at leading order. Fig. 2 illustrates the filtering for an example drifter. The anticyclonic loops con-tributed by inertial oscillations in the unfiltered trajectory largely disappear in the low-pass trajectory [Fig. 2(b)]. Fig. 2(e) shows the sample drifter’s frequency spectrum of horizontal velocity variance (hereafter “frequency spectrum”) before and after filtering. The frequency spectra are computed as a statistical average of  |˜u(ω)|2 + |˜v(ω)|2, where the tilde denotes the Fourier coefficients in the angular frequency space following the con-vention ˜ u(ω) = R 
+
+> R
+
+u(t)e−iωt dt . At super-inertial frequencies, the lowpass spectrum is orders of magnitude smaller than the unfiltered spectrum, and exhibits no peaks around Coriolis frequencies, as intended. We apply the same filtering to all the screened GLAD and LASER data ( § 2a). For records with gaps, we apply the filter separately to each continuous segment. The fre-quency spectra averaged across all drifters before and after filtering are shown in Fig. 1 (lower row), confirming that the lowpass filtered velocities are predominantly subiner-tial and the highpass filtered velocities are predominantly super-inertial in the overall statistics. To estimate these frequency spectra, we partition trajectories longer than 14 days into non-overlapping 14-day segments (discarding remainders). This yields 742 (GLAD) and 616 (LASER) segments. Hann windows are applied to each segment, before fast Fourier transforms are computed to obtain ˜ u(ω) and ˜ v(ω). In the computation of SF2s, time seg-ments of all lengths are included, while the data screening ( § 2a) remains. As the fre- 
+
+> –16– manuscript submitted to XXX
+
+Figure 4: Filtered longitudinal and transverse SF2s DLLs (rs), D TTs (rs), D LLf (rs), D TTf (rs)in GLAD (left) and LASER (right). In this and subsequent SF2 figures, shading indicates 95% confidence intervals estimated via block bootstrapping following Balwada et al. (2022) (using the same decorrelation time scale). Gray lines mark the power laws r2, r 1
+
+and r2/3, with legends in the right panel. quency spectra use only uninterrupted 14-day segments, they are based on 77% of the GLAD and 50% of the LASER data points used for SF2s. Applying a Welch-like 50% overlap does not affect the frequency spectra perceptibly, while extending segments to 28 days does affect the result significantly (not shown) as many shorter trajectories are discarded. In this work, on the frequency spectra, we only comment on qualitative be-haviors that are insensitive to the length of time segments. Our filtering operations are close to what is done after synthetic particles are re-leased in previous particle-based Lagrangian filtering packages such as Shakespeare et al. (2021). The only (yet conceptually important) difference is that we attribute high-pass and lowpass velocities to lowpass trajectories, as explained in §2d. (Shakespeare et al. (2021) evaluates filtered velocities on particle trajectories at temporal midpoints.) Assembling all the methodological points together, we implement the filtering, com-pute the filtered SF2s according to §2e, and show in Fig. 4 the angularly averaged, fil-tered longitudinal and transverse SF2s (12) and (14), which are the inputs for the an-gularly averaged Helmholtz decomposition formulae of filtered SF2s, (9)-(10).  
+
+> –17– manuscript submitted to XXX
+
+## 3 Lessons on flow decomposition 
+
+3a Wave-mean decomposition and pragmatic alternatives 
+
+Putting together the highpass (wave-induced) and lowpass (mean-flow-induced) SF2s gives, for the first time to our knowledge, a scale-dependent wave-mean decomposition of horizontal kinetic energy under the GLM framework inferred directly from observa-tional data [Fig. 5(e,f)]. As explained in §2d, we interpret the highpass and lowpass com-ponents as unbalanced and balanced motions, so that this wave-mean decomposition is also interpreted dynamically. In Fig. 5(e,f), the reference “unfiltered” curve is the SF2 of the unfiltered veloc-ities binned by the lowpass separation rs:
+
+DLLo (rs) + DTTo (rs). (15) Its computation amounts to replacing the lowpass velocities with unfiltered velocities in the computation of the lowpass SF2 (12). We use (15) only as a baseline for comparing with the filtered SF2s (12) and (14). When considering unfiltered motion alone, the con-ventional definition of unfiltered SF2s (4) in the particle trajectory frame is more nat-ural. A more detailed clarification on the usage scenarios between the two definitions of unfiltered SF2s is in Supplementary Materials § 2. From Fig. 5(e,f), lowpass SF2s are larger than highpass SF2s at rs > 10 km in both GLAD and LASER, while at rs < 5 km, highpass SF2s are larger than lowpass SF2s. Thus, balanced and unbalanced motions dominate large and small separations, respectively, consistent with simplistic textbook pictures (with quasi-geostrophic motions as balanced motions at large scales and internal waves as unbalanced motions at small scales), and with broad patterns found using other decomposition methods in observa-tional and modeling data despite possible deviations from textbook pictures (B¨ uhler et al., 2014; Rocha, Chereskin, et al., 2016; Qiu et al., 2017; Torres et al., 2018; Vladoiu et al., 2024). The lowpass SF2s have steeper slopes than highpass SF2s over the diagnosed range. We next compare this wave-mean decomposition with two pragmatic alternatives, using Fig. 5(e,f) as the wave–mean decomposition benchmark. First, as explained in the Introduction, the Helmholtz decomposition is often used as a heuristic on the wave-mean decomposition. Fig. 5(a,b) shows the Helmholtz decomposition (9)-(10) of unfiltered SF2s  
+
+> –18– manuscript submitted to XXX
+
+Figure 5: Decomposition of SF2s under different approaches. Lower rows are progres-sively closer to our preferred wave–mean decomposition. Left column is from GLAD and right column is from LASER. Panels (a,b): Helmholtz decomposition of unfiltered SF2s , [ DLLo (ro) + DTTo (ro)] (“No Helm.”) into rotational Dψψ o(ro) (“Rot.”) and divergent 
+
+Dϕϕ o(ro) (“Div.”) SF2s. Panels (c,d): particle-trajectory-frame filtering, where the “Un-filtered”, “Lowpass” and “highpass” SF2s are all binned over unfiltered separations ro.Panels (e,f): mean-trajectory-frame filtering, where the “Unfiltered”, “Lowpass” and “highpass” SF2s are all binned over mean separations rs. In all SF2 plots, negative SF2 values are skipped; when SF2s are diagnosed positive but the confidence interval covers negative values, shading extends to the bottom of panel.  
+
+> –19– manuscript submitted to XXX
+
+in the particle trajectory frame. Fig. 5(a) is quantitatively close to and qualitatively in-distinguishable from Fig. 2(a) of Balwada et al. (2016), with small differences arising from different data selection and our angle-weighted averaging. In GLAD, the Helmholtz de-composition broadly tracks the wave-mean decomposition: the separation where rota-tional contributions begin to exceed divergent contributions in Fig. 5(a) is comparable to the separation where lowpass SF2s begin to exceed highpass SF2s in Fig. 5(e). In LASER, however, the two diagnostics differ qualitatively. Fig. 5(b) suggests strong rotational dom-inance already for ro > 100 m (with divergent SF2s approaching zero or diagnosed neg-ative due to numerical errors), whereas Fig. 5(f) shows highpass contributions compa-rable to or larger than lowpass contributions over 100 m–3 km, with only moderate low-pass dominance at larger scales. Thus, we argue that Helmholtz decomposition of scale-dependent statistical metrics alone is not sufficient to diagnose the scale-dependent par-tition between unbalanced and balanced motions; it is most useful when combined with additional information (see Introduction for choices in observational data; in modeling data, C. Wang et al. (2023) used deterministic, spatially resolved information to exploit Helmholtz decomposition to achieve an efficient dynamical decomposition). Second, we consider a wave-mean decomposition obtained by Lagrangian filtering in the particle trajectory frame [Fig. 5(c,d)]. The particle-trajectory based filtering (Shake-speare et al., 2021; Jones et al., 2023), and the filtering of inertial oscillations in Beron-Vera & LaCasce (2016), follow this pragmatic alternative. This alternative is relevant when, for example, a computationally expensive Lagrangian filtering in the particle tra-jectory frame has already been performed and archived. In Fig. 5(c,d), the highpass and lowpass SF2s are computed by replacing the unfiltered velocities by highpass or lowpass velocities in the unfiltered SF2s (4), while retaining the unfiltered separation ro. The un-filtered SF2s in Fig. 5(c,d) follow (4) in the particle trajectory frame. At separations above 500 m, in both GLAD and LASER, the particle trajectory frame [Fig. 5(c,d)] broadly agrees with the mean trajectory frame [Fig. 5(e,f)] in diag-nosing whether the highpass or lowpass SF2s dominate. At smaller separations, however, the deviations are large: in the particle trajectory frame [Fig. 5(c,d)], the diagnosed low-pass or highpass SF2s are often larger than the unfiltered SF2s. This behavior is not ob-served in the mean trajectory frame [Fig. 5(e,f)], where the sum of highpass and low-pass SF2s approximately is equal to the unfiltered SF2 (15) (see also Fig. 3 in Supple-mentary Materials § 2). We explain in Supplementary Materials § 2 why the approxi- 
+
+> –20– manuscript submitted to XXX
+
+mate summation relationship (highpass SF2 + lowpass SF2 ≈ unfiltered SF2) holds bet-ter in the mean trajectory frame than in the particle trajectory frame; the main factor is the different extents of phase averaging involved when computing the SF2s in the two reference frames. The more robust summation relationship in the mean trajectory frame is another conceptual convenience (in addition to the cleaner wave-mean separation) over the particle trajectory frame. As the differences between mean and particle trajectories arise from wave displacements, which typically happen at small spatial scales, the larger error in the particle trajectory frame in the wave-mean decomposition at smaller sep-arations is expected. Therefore, filtering in the particle trajectory frame can provide a qualitatively correct scale-dependent wave-mean decomposition at spatial scales larger than typical wave displacements. Quantitative error in the particle trajectory frame can nevertheless remain significant even at large scales; for example, in the next subsection, unphysical behaviors of the highpass SF2s in the particle trajectory frame are prominent at all scales diagnosed in LASER. In summary, using the wave–mean decomposition in the mean trajectory frame as the benchmark, we find that Helmholtz decomposition of unfiltered statistics should not by itself be interpreted as a dynamical decomposition, while filtering in the particle tra-jectory frame can provide a qualitative indicator of wave–mean partitioning at separa-tions larger than typical wave displacements. 
+
+3b Particle trajectory versus mean trajectory 
+
+Section § 2d explains conceptually why attributing filtered fields to mean trajec-tories should lead to a cleaner wave–mean separation than attributing them to particle trajectories for Lagrangian filtering. Synthetic examples have demonstrated this. Fig. 3 of Kafiabad (2022), and supplementary movie 1 of Baker et al. (2025) (comparing pan-els b and c) are two such examples. In these synthetic examples, wave fields are extremely strong, and based solely on these examples, it is still unclear if the choice of reference frame matters in the real ocean. Here we show that it does matter, using the Helmholtz decompositions of highpass SF2s in LASER as an example. To our knowledge, this is the first observational example in which the mean trajectory frame leads to a more phys-ically interpretable wave–mean separation.  
+
+> –21– manuscript submitted to XXX
+
+Fig. 6 compares highpass SF2s and their Helmholtz decompositions (9)–(10) in the two reference frames. Panels (a,b) use the mean trajectory frame, following our main def-inition for highpass SF2s (14). Panels (c,d) use the particle trajectory frame; there, the highpass SF2s are obtained by replacing the unfiltered velocities by highpass velocities in the unfiltered SF2s (4). As the particle trajectory frame does not cleanly remove mean-flow advection effects ( § 2d), we use Fig. 6(c,d) only as an illustration of possible arti-facts. The contrast in LASER is striking [Fig. 6(b) versus Fig. 6(d)]. The two estimates of highpass SF2s differ by about an order of magnitude over part of the separation range, and their Helmholtz decompositions are qualitatively different. In the mean trajectory frame [Fig. 6(b)], the divergent highpass SF2 is larger than or comparable to the rota-tional highpass SF2 throughout the diagnosed range, i.e., 
+
+Dϕϕ f (rs) ≥ Dψψ f (rs). (16) This inequality is physically explainable. Propagating linear oceanic internal waves typ-ically have intrinsic frequencies larger than |f |, so their divergent kinetic-energy spec-trum is at least as large as their rotational kinetic-energy spectrum. See B¨ uhler et al. (2014), or Supplementary Materials § 3 for a recount of the derivation. The correspond-ing inequality for angularly averaged SF2s (16) follows from the nonnegative kernel [1 −
+
+J0(κr s)] (DLMF, 2026) in (7). In contrast, the particle trajectory frame [Fig. 6(d)] suggests strong dominance of highpass SF2s by rotational component at separations larger than 100 m, with rotational SF2s exceeding divergent SF2s by more than an order of magnitude. We are not aware of a model of super-inertial oceanic motions that predicts such a strong dominance of rotational motions. Rather, this resembles the imprint of nearly geostrophic balanced motions, which are slow and predominantly rotational. The rotational dominance in Fig. 6(d) therefore appears to reflect leakage of lowpass motions into the diagnosed highpass SF2s in the particle trajectory frame. This is a manifestation of how the unclean wave-mean separation in the particle trajectory frame can lead to physically uninterpretable diag-nostics.  
+
+> –22– manuscript submitted to XXX
+
+Figure 6: Helmholtz decomposition of highpass SF2s computed in two reference frames for GLAD and LASER. Panels (a,c) show GLAD and panels (b,d) show LASER; panels (a,b) use the mean trajectory frame and panels (c,d) use the particle trajectory frame. We interpret the mean trajectory results (a,b) as providing a cleaner separation of waves from mean flows.  
+
+> –23– manuscript submitted to XXX
+
+## 4 Dynamical insights in the Gulf of Mexico 
+
+4a Highpass motions 
+
+As the highpass motions are dominated by super-inertial frequencies ( §2f), we in-terpret the highpass SF2s as imprinted by super-inertial wave dynamics. Following § 2e and § 3b, we only use the mean-trajectory-frame diagnostics in Fig. 6(a,b), which avoid the mean-flow contamination evident in the particle trajectory frame and provide bet-ter physical interpretability. The variance of highpass velocities 
+
+D
+
+(uf − ⟨ uf ⟩)2 + ( vf − ⟨ vf ⟩)2E
+
+, computed from all samples used in the highpass SF2 estimates, is significantly larger in GLAD (0 .0682 m 2 s−2)than in LASER (0 .0275 m 2 s−2). As a reminder, GLAD is in summer and LASER is in winter. Plausible contributors include energetic forcing during Hurricane Isaac (included in our processed record), and enhanced surface intensification of internal waves in sum-mer associated with a shallower mixed layer (E. A. D’Asaro, 1978; Rocha, Gille, et al., 2016; Lahaye et al., 2019). In both GLAD and LASER, the highpass SF2s (and the rotational and divergent components) show an approximate r2/3 
+
+> s
+
+power law below their decorrelation scales. In GLAD, this power law extends over nearly 4 decades of length scales, while in LASER, it spans over about one decade before the SF2s flatten (indicating decorrelation at O(1) km). As there is no strong sign of a different power law regime in the highpass SF2s in the diagnosed ranges, the connection of power laws of these SF2s to power laws of wavenum-ber spectra is less ambiguous ( §2b): the highpass SF2s can be consistent with a κ−5/3
+
+wavenumber spectrum at spatial scales below the decorrelation scale. Some care is still needed when interpreting this power-law behavior; we expand on this in §5. Near-inertial peaks are clear in the Lagrangian frequency spectra in LASER and GLAD (Fig. 7). A bandpass filter over 0 .8fa−1.2fa gives velocity variances of 0 .0336 m 2 s−2
+
+in GLAD and 0 .0096 m 2 s−2 in LASER, corresponding to 49% and 35% of the highpass velocity variance in GLAD and LASER respectively. This confirms that the near-inertial band is one of the most energetic frequency bands in the highpass field and can plau-sibly dominate the highpass SF2s over significant ranges of spatial scales. The inequality (16) observed in the Helmholtz decomposition of highpass SF2s in both GLAD and LASER is consistent with linear internal waves ( §3b). At large sepa- 
+
+> –24– manuscript submitted to XXX
+
+rations ( rs ≳ 10 km), the Helmholtz decomposed components Dϕϕ f and Dψψ f become comparable in both LASER and GLAD, consistent with near-inertial waves (“NIWs”), for which ω ≈ f . As ω ≈ f , the divergent and rotational kinetic energy spectra turn equal (Supplementary Materials § 3), and thus the inequality in (16) approaches equal-ity, leading to a near equipartition between rotational and divergent SF2s. Because of the dispersion relationship, the horizontal spatial scales should be much larger than ver-tical spatial scales in NIWs (Gill, 2016). Therefore, the tendency of Dϕϕ f and Dψψ f to be close at rs ≳ 10 km is consistent with a dominance of NIWs at large horizontal scales. Indulging further in the NIW-related speculations motivated by the near-equipartition between divergent and rotational highpass SF2s, we note that in LASER (winter), the near-equipartition extends to smaller separations ( rs ≲ 10 km), suggesting that the high-pass motions at these scales are also strongly imprinted by NIWs. This is not observed in GLAD (summer). One interpretation is that LASER contains more NIWs at small horizontal scales, which might arise under stronger wave–mean interactions that trans-fer NIW energy to higher wavenumbers. Consistent with this conjecture are the follow-ing observations. First, the spatial decorrelation scale of highpass SF2s [the separation distance above which SF2s are plateauing in Fig. 6(a,b)] is O(1) km in LASER, while larger than O(100) km in GLAD (as the plateauing is not present at the diagnosed range). This is consistent with wave energy being more concentrated at small scales in LASER. Second, at submesoscale spatial range (500 m – 10 km), the lowpass (balanced) motions in LASER are more active than in GLAD ( §4b); at rs ≈ 1 km, the lowpass SF2s in LASER are 2-3 times as big as the lowpass SF2s in GLAD (Fig. 8). Such balanced motions in LASER can more effectively scatter, refract, strain, or diffuse NIW energy toward smaller scales (Bartello, 1995; Young & Jelloul, 1997; B¨ uhler & McIntyre, 2005; Asselin et al., 2020; Danioux & Vanneste, 2016). This interpretation is supported by circumstantial evidence at best. When we use the term “consistent with”, we imply that the noted observations are only compatible with the suggested theoretical models, and are not direct proofs. Diurnal tides are dif-ficult to separate from NIWs as the K1 frequency is close to f in this region, and we do not strictly rule out significant tidal contributions within the inertial band. Our current emphasis on NIWs is motivated by (i) the weak semi-diurnal tidal peaks in Fig. 7 (around the marked M2 frequency), suggesting tides can be modest overall, and (ii) independent observations suggesting that diurnal tides are weaker than NIWs in summer offshore north- 
+
+> –25– manuscript submitted to XXX
+
+Figure 7: Frequency spectra as in the lower row of Fig. 1, shown here with GLAD and LASER overlaid for direct comparison. east GoM (Gough et al., 2016). Other mechanisms can also be consistent. One such pos-sibility is that in LASER, more waves may be generated from fronts through loss of bal-ance (Nagai et al., 2015; Molemaker et al., 2005; Shakespeare & Taylor, 2014). To clar-ify the dynamical origins, additional data (from independent observations or models) are required. 
+
+4b Lowpass motions 
+
+The lowpass SF2s and their Helmholtz decomposition are shown in Fig. 8. In both GLAD and LASER, rotational lowpass SF2s are at least as large as divergent lowpass SF2s across the diagnosed range. At rs ≳ 1 km, the rotational SF2s are generally at least an order of magnitude larger. The divergent SF2s at these scales are sometimes es-timated to be slightly negative as the true values are near zero and sensitive to possi-ble numerical errors in the evaluation of (9)–(10). This dominance of rotational lowpass SF2s at large scales is consistent with large-scale geostrophically balanced motions and is sharper than the corresponding result for unfiltered SF2s noted in previous works (Bal-wada et al., 2016): the dominance of rotational motions is now attributable specifically to the mean flows, whereas the highpass SF2s arising from waves show the opposite ten-dency or near-equipartition [Fig. 6 (a,b)].  
+
+> –26– manuscript submitted to XXX
+
+Remarkably, at smaller separations ( rs < 1 km), over more than a decade of sep-aration, the lowpass rotational and divergent SF2s are nearly equipartitioned in both GLAD and LASER. Previous Lagrangian observations have found evidence for strong horizontal diver-gence and associated vertical motion at submesoscales (D’Asaro et al., 2018; Berta et al., 2020; Tarry et al., 2021). In particular, D’Asaro et al. (2018) observed persistent ten-dencies of drifters to converge and pointed out that divergent mean flows are active in LASER; our results here offer a quantification. In Eulerian observations, Freilich et al. (2023) found strong divergence at scales under 1 km from airborne snapshots in frontal regions, and S. Taylor et al. (2026) found an equipartition of the cross-scale kinetic-energy transfer rate due to rotational and divergent motions at 7 km from a decade of coastal radar observations. For context, estimates of divergence based on unfiltered velocities can contain large contributions from internal waves, whose motions are dominantly os-cillatory, and need not contribute to sustained vertical transport relevant for impacting climatological tracers (Balwada et al., 2018). The previous observational works discussed here link observed divergence to persistent, mean-flow associated processes through con-vergence of particles, diagnosed vertical motions, or the dynamical contexts, but they do not quantitatively isolate the mean-flow contributions as we do here. We are not aware of an observational precedent for such a scale-extended rotation–divergence equiparti-tion in surface mean flows as we find here. The kinematic origin of the equipartition is clear: from (9)-(10), Dψψ s ≈ Dϕϕ s
+
+when DLLs ≈ DTTs over the same and smaller scales, as observed in Fig. 4. The dy-namical origin of this equipartition is less clear. Several processes could plausibly con-tribute. Scaling arguments and modeling results suggest that submesoscale fronts can produce divergent motions that are statistically as active as rotational motions in the balanced flow (Barkan et al., 2019). Wind-driven Ekman currents may also have strong divergence in sub-inertial motions (Gill, 2016). However, to our knowledge, existing the-ories on frontogenesis or Ekman forcing only explain how divergent motions can be strong and locally comparable to rotational motions, but they do not explicitly predict the equipar-tition across an extended range of spatial scales. Another candidate is the parametric subinertial mixed-layer model of Young (1994), where a rotation–divergence equiparti-tion arises if the inverse vertical-mixing time scale happens to be close to |f |; however, this leaves open why the mixing time scale would behave in the speculated way. Finally,  
+
+> –27– manuscript submitted to XXX
+
+idealized modeling of stratified turbulence reports approximate rotational–divergent equipar-tition without prominent waves in the continuous inertial range, even under purely ro-tational forcing (Lindborg & Brethouwer, 2007); we are not aware of a clear analogy of this model in surface ocean dynamics yet. To clarify the dynamical origin of this intrigu-ing equipartition, more observational/modeling data and process-oriented studies are re-quired. We cannot fully exclude that the equipartition might arise from nonphysical ar-tifacts, especially given the small SF2 amplitudes at the small separations. Potential con-tributors include (a) spectral leakage from the frequency filter, and (b) the constraint that all SF2s vanish at rs = 0 by construction, which could impose SF2s to be close to each other at small separations. On (a), as a basic sensitivity test, the equipartition persists when we change the Butterworth filter order to be between 1 and 4 (not shown; we do not increase the order over 5 due to apparent numerical instabilities). This sug-gests some robustness to spectral leakage. The artifact (b) should typically only affect the first few separation bins [e.g., Fig. 5(a), where the rotational and divergent SF2s seem closer in a few bins near 0.01 km than near 0.1 km], and is unlikely to fully explain the equipartition over more than a decade of rs.The similar partitioning of rotational and divergent SF2s between GLAD and LASER in the lowpass components, despite differences in season, deployment patterns and quan-tity of available measurements, is remarkable. The GLAD and LASER lowpass SF2s still differ in the following ways. LASER has a slightly larger lowpass velocity variance (0 .0116 m 2 s−2)than GLAD (0 .0109 m 2 s−2), and has lowpass SF2s one to two times larger than GLAD at 500 m ≤ rs ≤ 10 km. This tendency of mean flows to be more energetic and more concentrated at submesoscales in winter is consistent with the seasonality of mixed layer energetics under mechanisms such as available-potential-energy-release (Boccaletti et al., 2007; Callies et al., 2015; Rocha, Gille, et al., 2016). The power-law behaviors are qual-itatively different too. GLAD transitions between approximate r2/3s , r2s , and r1s regimes, whereas LASER shows an approximate r2s power law up to 10 km before decorrelating. The absence of a transition in power law regimes in LASER’s lowpass SF2s, as compared to GLAD’s lowpass SF2s, indicates different scale-dependent mean-flow dynamics be-tween GLAD and LASER.  
+
+> –28– manuscript submitted to XXX
+
+Figure 8: Helmholtz decomposition of lowpass SF2s computed in the mean trajectory frame from GLAD [panel (a)] and LASER [panel (b)]. 
+
+## 5 Summary and Discussion 
+
+In this work, we apply a GLM-inspired Lagrangian filtering algorithm to surface drifter data to decompose wave and mean-flow contributions to scale-dependent kinetic energy. We report the implementation and design considerations of the filtering approach, and analyze its impact on SF2s through Helmholtz decomposition. The main contribu-tions are twofold.  
+
+> •
+
+Flow decomposition. To our knowledge, this is the first GLM-inspired wave–mean decomposition applied to oceanic observational data. Physically meaningful re-sults are obtained, and comparisons with particle-trajectory-reference-frame-based decomposition and Helmholtz decomposition are discussed extensively, demonstrat-ing the advantages and applicability of GLM-inspired filtering under real oceanic scenarios.  
+
+> •
+
+Upper-ocean dynamics. We find on the ocean surface 1) signatures of inertial-band waves, which appear active below 1 km in winter; 2) divergent motions in the mean flows that are as strong as rotational motions at spatial separations smaller than 1 km; and 3) a transition from dominance of waves to dominance of mean flows at spatial separations of 5 −10 km in summer and winter. These results inform submesoscale processes such as wave-mean interactions and frontogenesis in the GoM, and motivate further process-oriented studies.  
+
+> –29– manuscript submitted to XXX
+
+A direct application of our methodology is validation of satellite altimetry prod-ucts. Lowpass velocities evaluated in the mean trajectory frame can serve as an inde-pendent reference for balanced velocities inferred from satellite data, including SWOT sea-surface-height products (Tranchant et al., 2025; Bertrand et al., 2025). For geostrophic velocity inference, our methodology identifies scales where two necessary conditions for geostrophic dominance are met: 1) lowpass SF2s dominate highpass SF2s, and 2) rota-tional lowpass SF2s dominate divergent lowpass SF2s. In GLAD and LASER, both con-ditions are met at only around rs ≳ 10 km, suggesting that geostrophic velocities do not dominate at smaller spatial scales in summer/winter offshore GoM. Our quantification of divergent kinetic energy in the mean flows is also important for interpreting surface divergence as an indicator of vertical transport. Large surface divergence in unfiltered motions is not, by itself, evidence of sustained vertical transport: internal waves can produce large instantaneous divergence, but their motions are dom-inantly oscillatory and may contribute little to irreversible tracer transport (Balwada et al., 2018). The divergence most relevant for sustained vertical exchange of tracers is in-stead the divergence of the mean flow at low frequencies, such as that associated with convergent secondary circulations near fronts (McWilliams, 2016; Barkan et al., 2019; Jones et al., 2023; J. R. Taylor & Thompson, 2023). This transport-relevant divergence can be much weaker in amplitude than wave divergence and difficult to extract when spa-tial resolution is coarse or temporal sampling is sparse, which is typical for Eulerian ob-servations. Even in fine, time-resolving Eulerian observations, wave–mean separation would rely on Eulerian filtering and therefore remain affected by Doppler shifts (Gerkema et al., 2013; Callies et al., 2020). Lagrangian observations, such as drifters, provide Lagrangian wave-resolving time series spanning a wide range of spatial scales, allowing GLM-inspired Lagrangian filtering combined with Helmholtz decomposition to quantify the scale-dependent divergent kinetic energy contributed by mean flows. The magnitude relationship between rotational and divergent imprints in lowpass SF2s is similar between GLAD and LASER ( §4b). In contrast, the Helmholtz decom-position of highpass SF2s differ more substantially between GLAD and LASER ( §4a). Thus, the qualitative differences between GLAD and LASER in the unfiltered SF2s and their Helmholtz decompositions noted in previous works (Balwada et al., 2016, 2022) ap-pear to be primarily induced by differences in wave statistics. This also suggests that  
+
+> –30– manuscript submitted to XXX
+
+oceanic states with broadly similar mean-flow statistics can nevertheless have very dif-ferent wave statistics. We summarize the assumptions and sources of error of our analysis as follows. The GLM-inspired filtering itself is diagnostic, but its dynamical interpretation re-lies on attributing highpass and lowpass motions as unbalanced and balanced flows, which is based on time scale separation. The SF2 estimates use horizontal homogeneity and temporal stationarity when replacing ensemble averages by spatial and temporal aver-ages. We do not assume horizontal isotropy, and focus on the angularly-averaged modes in the main text. The Helmholtz decomposition of angularly averaged SF2s requires no further assumptions. Our analysis relies on the processed data products ( ¨Ozg¨ okmen, 2013; E. D’Asaro et al., 2017), and treats drogued drifters as passive tracers of near-surface currents. Mea-surement error, effects of surface waves and wind drag, and imperfect flagging of drogue loss are ignored. Some of these simplifications are partially justified: Novelli et al. (2017) reported that 95% of the LASER positions have an error of 10 m or less, and drogue loss has been carefully detected by transmission data and comparison of neighboring drifter velocities (Haza et al., 2018). One more systematic source of error is spectral leakage from numerical frequency filters. Supplementary Materials § 2 shows that the difference between unfiltered SF2s and the sum of highpass and lowpass SF2s, which is contributed partly by spectral leak-age, is small relative to the unfiltered SF2s. However, leakage errors may still be signif-icant relative to the filtered SF2s, which are sometimes much smaller than the unfiltered SF2s. We have not devised a way to separately estimate leakage of super-inertial mo-tions into lowpass SF2s and subinertial motions into highpass SF2s. Statistical uncertainty is represented by 95% bootstrapped confidence intervals com-puted with modified block bootstrapping following Balwada et al. (2022), which assumes independence between observations separated by a typical flow time scale (taken the same as in Balwada et al. (2022)). This assumption is still restrictive: two observations in a same convergent zone can be separated by a long time interval and still be statistically dependent. A fundamental improvement of statistical error quantification is beyond the scope of this work.  
+
+> –31– manuscript submitted to XXX
+
+Recent work by Hypolite et al. (2026) provides complementary diagnostics. Using simulations, they apply Eulerian frequency filtering to surface velocities, and interpret the resulting highpass and lowpass SF2s partly through Helmholtz decomposition. Their super-inertial motions tend to drive the transverse-to-longitudinal SF2 ratio toward unity at submesoscales, consistent with comparable rotational and divergent imprints in high-pass SF2s, which we also find ( §4a). Their lowpass statistics differ from ours: their large transverse-to-longitudinal SF2 ratio suggests rotationally dominated lowpass motions across diagnosed scales before de-correlation, whereas we find near-equipartition between ro-tational and divergent lowpass SF2s at rs ≤ 1 km ( §4b). Such differences may arise from data and methodology: they apply Eulerian filtering to gridded data, while we apply GLM-inspired Lagrangian filtering to surface-drifter observations. Hypolite et al. (2026) also report that interactions between surface waves and currents can produce small-scale mo-tions with shallow SF2 slopes. Such effects are neglected by us and remain a caveat for our interpretations, especially as the drifters follow currents in the upper 1 m. We find a robust power law of r2/3s (κ−5/3) below decorrelation scales in highpass SF2s ( §4a). In the Eulerian frame, a κ−5/3 power law is often associated with an energy-cascade inertial range (Kolmogorov, 1941). Here, however, rs is defined in the GLM mean trajectory frame. As the coordinate transform from particle trajectory to mean trajec-tory is not necessarily volume-preserving (McIntyre, 1988; Soward & Roberts, 2010), con-servation laws and cascade arguments may differ between Eulerian and GLM coordinates (B¨ uhler et al., 2014; Rocha, 2018). Existing GLM conservation-law results for quasi-geostrophic dynamics (Xie & Vanneste, 2015; Salmon, 2016) do not directly resolve the interpreta-tion of highpass, unbalanced SF2 slopes. Although we have argued for the mean trajectory frame, particle-frame artifacts need not always be large. In our analysis, the Helmholtz decomposition of highpass LASER data provides the clearest example of an unphysical outcome in the particle trajectory frame. For the Helmholtz decomposition of lowpass LASER SF2s and GLAD highpass/lowpass SF2s, the frame dependence is not conspicuous (not shown). In the wave-mean decom-position ( §3a), the particle trajectory frame also does not differ perceptibly from the mean trajectory frame at separations above 500 m. In simulations, the two frames may also be close when wave displacements are under-resolved on the model grid. That said, the choice of particle trajectory frame, rather than the mean trajectory frame, might be why Lagrangian filtering has sometimes been reported to generate unphysical outcomes. For  
+
+> –32– manuscript submitted to XXX
+
+example, in Fig. 5 of C. Wang et al. (2023), the balanced motion diagnosed from particle-trajectory Lagrangian filtering in a region with strong internal waves is shown to con-tain visible wavy patterns. In that example, strong internal waves may induce large wave displacements resolvable by the simulation, making the artifact from particle trajecto-ries visible. As models reach finer resolutions, wave-induced displacements may become better resolved and the advantages of mean-trajectory attribution may become more ev-ident. The mean trajectory framework is implemented in recent grid-based Lagrangian filtering algorithms (Baker et al., 2025; Kafiabad, 2022), which avoid costly particle track-ing but require solving complex PDEs, and adaptations for realistic ocean models are ongoing. Implementations based on particle tracking are ongoing (Cai Maitland-Davies, private communication), but we are not aware of related published work. As a focus of this work is to introduce GLM-inspired Lagrangian filtering to ocean observations, we intentionally study only one statistical metric: SF2s. The filtering can be applied to other drifter metrics. For example, lowpass third-order structure functions analogous to those of Balwada et al. (2022), computed from lowpass velocities and tra-jectories, can diagnose cross-scale kinetic energy transfer rates induced by mean flows. The application of the GLM-inspired filtering to separate wave and mean flow impacts in other drifter statistics should be naturally motivated by different applications in fu-ture.  
+
+> –33– manuscript submitted to XXX
+
+Table 1: Key subscripts. o Evaluated at unfiltered position, or belonging to unfiltered motions s Evaluated at lowpass filtered positions, or belonging to lowpass filtered motions f Belonging to highpass filtered motions L Induced by velocity differences along separation vectors T Induced by velocity differences across separation vectors 
+
+ψ Induced by rotational motions 
+
+ϕ Induced by divergent motions 
+
+W Induced by linearized wave motions 
+
+## Appendix A: Key subscripts 
+
+Key subscripts for variables in this paper are listed in Table 1. 
+
+## Data Availability Statement 
+
+Codes for structure function computations, diagnostics and plotting are available on Zenodo (H. Wang, 2026). The GLAD and LASER data products are available on https:// www.griidc.org/ .
+
+Acknowledgments 
+
+Without implying their endorsement, we thank Oliver B¨ uhler, Jacques Vanneste, J¨ orn Callies, Alexa Griesel, Julia Dr¨ ager-Dietel, Xiaolong Yu and Leif Thomas for helpful dis-cussions. This project originated at Courant Institute of Mathematical Sciences, USA, when all authors were working there. We acknowledge the use of ChatGPT for code gen-eration and for stylistic edits. This paper is a contribution to the projects L3, M2, and W2 of the Collaborative Research Centre TRR 181 “Energy Transfers in Atmosphere and Ocean” funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - Projektnummer 274762653, which supports HW. DB acknowledges sup-port from NSF OCE- 2242109. JHX acknowledges support from the National Natural Science Foundation of China, grant numbers 12272006, 12472219, 42361144844 and 12588201,  
+
+> –34– manuscript submitted to XXX
+
+and from the Laoshan Laboratory under grant numbers LSKJ202202000, LSKJ202300100 and LSJKJ202400203. 
+
+## References 
+
+Alford, M., MacKinnon, J., Zhao, Z., Pinkel, R., Klymak, J., & Peacock, T. (2007). Internal waves across the pacific. Geophysical Research Letters , 34 (24). Andrews, D., & McIntyre, M. (1978). An exact theory of nonlinear waves on a lagrangian-mean flow. Journal of fluid Mechanics , 89 (4), 609–646. Asselin, O., Thomas, L. N., Young, W. R., & Rainville, L. (2020). Refraction and straining of near-inertial waves by barotropic eddies. Journal of Physical Oceanog-raphy , 50 (12), 3439–3454. Baker, L. E., Kafiabad, H., Maitland-Davies, C., & Vanneste, J. (2024, November). 
+
+Lagrangian filtering for wave-mean flow decomposition [software and dataset]. Zen-odo. Retrieved from https://doi.org/10.5281/zenodo.14237745 doi: 10.5281/ zenodo.14237745 Baker, L. E., Kafiabad, H. A., Maitland-Davies, C., & Vanneste, J. (2025). La-grangian filtering for wave–mean flow decomposition. Journal of Fluid Mechanics ,
+
+1009 , A40. Balwada, D., LaCasce, J. H., & Speer, K. G. (2016). Scale-dependent distribution of kinetic energy from surface drifters in the gulf of mexico. Geophysical Research Letters , 43 (20), 10–856. Balwada, D., Smith, K. S., & Abernathey, R. (2018). Submesoscale vertical veloci-ties enhance tracer subduction in an idealized antarctic circumpolar current. Geo-physical Research Letters , 45 (18), 9790–9802. Balwada, D., Xie, J.-H., Marino, R., & Feraco, F. (2022). Direct observational ev-idence of an oceanic dual kinetic energy cascade and its seasonality. Science Ad-vances , 8 (41), eabq2566. Barkan, R., Molemaker, M. J., Srinivasan, K., McWilliams, J. C., & D’Asaro, E. A. (2019). The role of horizontal divergence in submesoscale frontogenesis. Journal of Physical Oceanography , 49 (6), 1593–1618. Bartello, P. (1995). Geostrophic adjustment and inverse cascades in rotating strati-fied turbulence. Journal of the atmospheric sciences , 52 (24). Bennett, A. (1984). Relative dispersion: Local and nonlocal dynamics. Journal of  
+
+> –35– manuscript submitted to XXX
+
+Atmospheric Sciences , 41 (11), 1881–1886. Beron-Vera, F. J., & LaCasce, J. (2016). Statistics of simulated and observed pair separations in the gulf of mexico. Journal of Physical Oceanography , 46 (7), 2183– 2199. Berta, M., Griffa, A., Haza, A., Horstmann, J., Huntley, H., Ibrahim, R., . . . Poje, A. (2020). Submesoscale kinematic properties in summer and winter surface flows in the northern gulf of mexico. Journal of Geophysical Research: Oceans , 125 (10), e2020JC016085. Bertrand, V., Le Sommer, J., Vianna Zaia De Almeida, V., Samson, A., & Cosme, E. (2025). A robust variational framework for cyclogeostrophic ocean surface current retrieval. EGUsphere , 2025 , 1–22. Boccaletti, G., Ferrari, R., & Fox-Kemper, B. (2007). Mixed layer instabilities and restratification. Journal of Physical Oceanography , 37 (9), 2228–2250. B¨ uhler, O. (2014). Waves and mean flows . Cambridge University Press. B¨ uhler, O., Callies, J., & Ferrari, R. (2014). Wave–vortex decomposition of one-dimensional ship-track data. Journal of Fluid Mechanics , 756 , 1007–1026. B¨ uhler, O., & McIntyre, M. E. (2005). Wave capture and wave–vortex duality. Jour-nal of Fluid Mechanics , 534 , 67–95. Callies, J., Barkan, R., & Garabato, A. N. (2020). Time scales of submesoscale flow inferred from a mooring array. Journal of Physical Oceanography , 50 (4), 1065–1086. Callies, J., Ferrari, R., Klymak, J. M., & Gula, J. (2015). Seasonality in subme-soscale turbulence. Nature communications , 6 (1), 6862. Chouksey, M., Eden, C., & Br¨ uggemann, N. (2018). Internal gravity wave emission in different dynamical regimes. Journal of Physical Oceanography , 48 (8), 1709– 1730. Danioux, E., & Vanneste, J. (2016). Near-inertial-wave scattering by random flows. 
+
+Physical Review Fluids , 1 (3), 033701. D’Asaro, E., Guigand, C., Haza, A., Huntley, H., Novelli, G., ¨Ozg¨ okmen, T., & Ryan, E. (2017). Lagrangian submesoscale experiment (laser) surface drifters, interpolated to 15-minute intervals. (dataset from Gulf of Mexico Research Initiative Information and Data Coopera-tive (GRIIDC), Harte Research Institute, Texas A&M University-Corpus Christi.)  
+
+> –36– manuscript submitted to XXX
+
+doi: 10.7266/N7W0940 D’Asaro, E. A. (1978). Mixed layer velocities induced by internal waves. Journal of Geophysical Research: Oceans , 83 (C5), 2437–2438. Davidson, P. (2015). Turbulence: an introduction for scientists and engineers . Ox-ford university press. Davis, R. E. (1985). Drifter observations of coastal surface currents during code: The statistical and dynamical views. Journal of Geophysical Research: Oceans ,
+
+90 (C3), 4756–4772. D’Asaro, E. A., & Lien, R.-C. (2000). Lagrangian measurements of waves and turbu-lence in stratified flows. Journal of physical oceanography , 30 (3), 641–655. D’Asaro, E. A., Shcherbina, A. Y., Klymak, J. M., Molemaker, J., Novelli, G., Guigand, C. M., . . . others (2018). Ocean convergence and the dispersion of flotsam. Proceedings of the National Academy of Sciences , 115 (6), 1162–1167. Early, J. J., Lelong, M. P., & Sundermeyer, M. A. (2021, apr). A generalized wave-vortex decomposition for rotating Boussinesq flows with arbitrary stratification. 
+
+Journal of Fluid Mechanics , 912 , A32. Retrieved from https://www.cambridge .org/core/product/identifier/S0022112020009957/type/journal article 
+
+doi: 10.1017/jfm.2020.995 Eden, C., Chouksey, M., & Olbers, D. (2019). Gravity wave emission by shear insta-bility. Journal of Physical Oceanography , 49 (9), 2393–2406. Farrar, J. T., D’Asaro, E., Rodriguez, E., Shcherbina, A., Czech, E., Matthias, P., . . . others (2020). S-mode: The sub-mesoscale ocean dynamics experiment. In 
+
+Igarss 2020-2020 ieee international geoscience and remote sensing symposium (pp. 3533–3536). Ferrari, R., & Wunsch, C. (2009, jan). Ocean circulation kinetic energy: Reservoirs, sources, and sinks. Annual Review of Fluid Mechanics , 41 , 253–282. Retrieved from http://www.annualreviews.org/doi/abs/10.1146/annurev.fluid.40 .111406.102139 doi: 10.1146/annurev.fluid.40.111406.102139 Freilich, M., Lenain, L., & Gille, S. T. (2023). Characterizing the role of non-linear interactions in the transition to submesoscale dynamics at a dense filament. Geo-physical Research Letters , 50 (15), e2023GL103745. Garrett, C., & Munk, W. (1972). Space-time scales of internal waves. Geophysical Fluid Dynamics , 3 (3), 225–264.  
+
+> –37– manuscript submitted to XXX
+
+Gerkema, T., Maas, L. R., & van Haren, H. (2013). A note on the role of mean flows in doppler-shifted frequencies. Journal of physical oceanography , 43 (2), 432–441. Gilbert, A. D., & Vanneste, J. (2018). Geometric generalised lagrangian-mean theo-ries. Journal of Fluid Mechanics , 839 , 95–134. Gill, A. E. (2016). Atmosphere—ocean dynamics . Elsevier. Gough, M. K., Reniers, A., MacMahan, J. H., & Howden, S. D. (2016). Resonant near-surface inertial oscillations in the northeastern gulf of mexico. Journal of Geophysical Research: Oceans , 121 (4), 2163–2182. Haza, A. C., D’Asaro, E., Chang, H., Chen, S., Curcic, M., Guigand, C., . . . others (2018). Drogue-loss detection for surface drifters during the lagrangian subme-soscale experiment (laser). Journal of atmospheric and oceanic technology , 35 (4), 705–725. Hypolite, D., Srinivasan, K., McWilliams, J. C., Barkan, R., Rodriguez, E., Wine-teer, A., . . . Rocha, C. (2026). Second-order velocity structure functions at submesoscales. Journal of Physical Oceanography , 56 (1), 225–244. Jones, C. S., Xiao, Q., Abernathey, R. P., & Smith, K. S. (2023). Using lagrangian filtering to remove waves from the ocean surface velocity field. Journal of Ad-vances in Modeling Earth Systems , 15 (4), e2022MS003220. Kafiabad, H. A. (2022). Grid-based calculation of the lagrangian mean. Journal of Fluid Mechanics , 940 , A21. Kafiabad, H. A., Vanneste, J., & Young, W. R. (2021). Wave-averaged balance: a simple example. Journal of Fluid Mechanics , 911 , R1. Klein, P., Lapeyre, G., Siegelman, L., Qiu, B., Fu, L.-L., Torres, H., . . . Le Gentil, S. (2019). Ocean-scale interactions from space. Earth and Space Science , 6 (5), 795–817. Kolmogorov, A. N. (1941). The local structure of turbulence in incompressible vis-cous fluid for very large reynolds number. Cr Acad. Sci. USSR , 30 , 301. LaCasce, J. (2008). Statistics from lagrangian observations. Progress in Oceanogra-phy , 77 (1), 1–29. LaCasce, J. (2016). Estimating eulerian energy spectra from drifters. Fluids , 1 (4), 33. Lahaye, N., Gula, J., & Roullet, G. (2019). Sea surface signature of internal tides. 
+
+Geophysical Research Letters , 46 (7), 3880–3890.  
+
+> –38– manuscript submitted to XXX
+
+Lindborg, E. (2015). A helmholtz decomposition of structure functions and spectra calculated from aircraft data. Journal of Fluid Mechanics , 762 , R4. Lindborg, E. (2025). A complete helmholtz decomposition of second order horizontal velocity structure functions. European Journal of Mechanics-B/Fluids , 204394. Lindborg, E., & Brethouwer, G. (2007). Stratified turbulence forced in rotational and divergent modes. Journal of Fluid Mechanics , 586 , 83–108. McIntyre, M. E. (1988). A note on the divergence effect and the lagrangian-mean surface elevation in periodic water waves. J. Fluid Mech , 189 , 235–242. McWilliams, J. C. (2016, may). Submesoscale currents in the ocean. Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences , 472 (2189), 20160117. Retrieved from https://royalsocietypublishing.org/doi/10.1098/ rspa.2016.0117 doi: 10.1098/rspa.2016.0117 Molemaker, M. J., McWilliams, J. C., & Yavneh, I. (2005). Baroclinic instability and loss of balance. Journal of physical oceanography , 35 (9), 1505–1517. Nagai, T., Tandon, A., Kunze, E., & Mahadevan, A. (2015). Spontaneous gener-ation of near-inertial waves by the kuroshio front. Journal of Physical Oceanogra-phy , 45 (9), 2381–2406. 
+
+NIST Digital Library of Mathematical Functions. (2026). https://dlmf.nist.gov/ ,Release 1.2.6 of 2026-03-15. Retrieved from https://dlmf.nist.gov/10 
+
+(F. W. J. Olver, A. B. Olde Daalhuis, D. W. Lozier, B. I. Schneider, R. F. Boisvert, C. W. Clark, B. R. Miller, B. V. Saunders, H. S. Cohl, and M. A. Mc-Clain, eds.) Novelli, G., Guigand, C. M., Cousin, C., Ryan, E. H., Laxague, N. J., Dai, H., . . . ¨Ozg¨ okmen, T. M. (2017). A biodegradable surface drifter for ocean sampling on a massive scale. Journal of Atmospheric and Oceanic Technology , 34 (11), 2509–2532. Pinkel, R. (2008). Advection, phase distortion, and the frequency spectrum of finescale fields in the sea. Journal of physical oceanography , 38 (2), 291–313. Poje, A. C., ¨Ozg¨ okmen, T. M., Lipphardt Jr, B. L., Haus, B. K., Ryan, E. H., Haza, A. C., . . . others (2014). Submesoscale dispersion in the vicinity of the deep-water horizon spill. Proceedings of the National Academy of Sciences , 111 (35), 12693–12698.  
+
+> –39– manuscript submitted to XXX
+
+Poulain, P.-M., Centurioni, L., & ¨Ozg¨ okmen, T. (2022). Comparing the currents measured by carthe, code and svp drifters as a function of wind and wave condi-tions in the southwestern mediterranean sea. Sensors , 22 (1), 353. Qian, Y.-K., LaCasce, J. H., & Peng, S. (2025). Inferring submesoscale energy spec-tra in the gulf of mexico from surface drifters. Journal of Physical Oceanography ,
+
+55 (9), 1475–1491. Qiu, B., Nakano, T., Chen, S., & Klein, P. (2017). Submesoscale transition from geostrophic flows to internal waves in the northwestern pacific upper ocean. Na-ture Communications , 8 (1), 14055. Rocha, C. B. (2018). The turbulent and wavy upper ocean: transition from geostrophic flows to internal waves and stimulated generation of near-inertial waves (Unpublished doctoral dissertation). UNIVERSITY OF CALIFORNIA SAN DIEGO. Rocha, C. B., Chereskin, T. K., Gille, S. T., & Menemenlis, D. (2016). Mesoscale to submesoscale wavenumber spectra in drake passage. Journal of Physical Oceanog-raphy , 46 (2), 601–620. Rocha, C. B., Gille, S. T., Chereskin, T. K., & Menemenlis, D. (2016). Seasonality of submesoscale dynamics in the kuroshio extension. Geophysical Research Letters ,
+
+43 (21), 11–304. Salmon, R. (2016). Variational treatment of inertia–gravity waves interacting with a quasi-geostrophic mean flow. J. Fluid Mech , 809 , 502–529. Shakespeare, C. J., Gibson, A. H., Hogg, A. M., Bachman, S. D., Keating, S. R., & Velzeboer, N. (2021). A new open source implementation of lagrangian filtering: A method to identify internal waves in high-resolution simulations. Journal of Advances in Modeling Earth Systems , 13 (10), e2021MS002616. Shakespeare, C. J., & Taylor, J. R. (2014). The spontaneous generation of inertia– gravity waves during frontogenesis forced by large strain: Theory. Journal of fluid mechanics , 757 , 817–853. Sinha, A., Balwada, D., Tarshish, N., & Abernathey, R. (2019). Modulation of lateral transport by submesoscale flows and inertia-gravity waves. Journal of Ad-vances in Modeling Earth Systems , 11 (4), 1039–1065. Soward, A. M., & Roberts, P. H. (2010). The hybrid euler–lagrange procedure using an extension of moffatt’s method. J. Fluid Mech , 661 , 45–72.  
+
+> –40– manuscript submitted to XXX
+
+Tarry, D. R., Essink, S., Pascual, A., Ruiz, S., Poulain, P.-M., ¨Ozg¨ okmen, T., . . . others (2021). Frontal convergence and vertical velocity measured by drifters in the alboran sea. Journal of Geophysical Research: Oceans , 126 (4), e2020JC016614. Taylor, J. R., & Thompson, A. F. (2023). Submesoscale dynamics in the upper ocean. Annual Review of Fluid Mechanics , 55 (1), 103–127. Taylor, S., Thompson, A. F., Kachelein, L., & Klein, P. (2026). Seasonal to inter-annual cross-scale energy transfer variability: Observational insight from the santa barbara channel. Geophysical Research Letters , 53 (4), e2025GL117885. Torres, H. S., Klein, P., D’Asaro, E., Wang, J., Thompson, A. F., Siegelman, L., . . . Perkovic-Martin, D. (2022). Separating energetic internal gravity waves and small-scale frontal dynamics. Geophysical Research Letters , 49 (6), e2021GL096249. Torres, H. S., Klein, P., Menemenlis, D., Qiu, B., Su, Z., Wang, J., . . . Fu, L. L. (2018). Partitioning Ocean Motions Into Balanced Motions and Internal Gravity Waves: A Modeling Study in Anticipation of Future Space Missions. Journal of Geophysical Research: Oceans , 123 (11), 8084–8105. doi: 10.1029/2018JC014438 Tranchant, Y.-T., Legresy, B., Foppert, A., Pena-Molino, B., & Phillips, H. (2025). Swot reveals fine-scale balanced motions driving near-surface currents and dis-persion in the antarctic circumpolar current. Earth and Space Science , 12 (8), e2025EA004248. Vi´ udez, ´A., & Dritschel, D. G. (2004). Optimal potential vorticity balance of geo-physical flows. Journal of Fluid Mechanics , 521 , 343–352. Vladoiu, A., & Lien, R.-C. (2026). A method of separating linear internal wave and vortical mode energies using shipboard adcp velocity measurements. Journal of Atmospheric and Oceanic Technology , 43 (1), 61–75. Vladoiu, A., Lien, R.-C., & Kunze, E. (2024). Energy partition between subme-soscale internal waves and quasigeostrophic vortical motion in the pycnocline. 
+
+Journal of Physical Oceanography , 54 (6), 1285–1307. Wang, C., Liu, Z., & Lin, H. (2023). A simple approach for disentangling vorti-cal and wavy motions of oceanic flows. Journal of Physical Oceanography , 53 (5), 1237–1249. Wang, H. (2026, June). hannnwang/wave-mean-decomposition-of-scale- dependent-kinetic-energy-from-surface-drifters: Submission 0. Zenodo. Retrieved from  
+
+> –41– manuscript submitted to XXX
+
+https://doi.org/10.5281/zenodo.20496939 doi: 10.5281/zenodo.20496939 Wang, H., & B¨ uhler, O. (2020). Ageostrophic corrections for power spectra and wave–vortex decomposition. Journal of Fluid Mechanics , 882 , A16. Wang, H., & B¨ uhler, O. (2021). Anisotropic statistics of lagrangian structure func-tions and helmholtz decomposition. Journal of Physical Oceanography , 51 (5), 1375–1393. Xie, J.-H., & Vanneste, J. (2015). A generalised-lagrangian-mean model of the inter-actions between near-inertial waves and mean flow. J. Fluid Mech , 744 , 143–169. Yaglom, A. M. (1952). Introduction to the theory of stationary random functions. 
+
+Uspekhi matematicheskikh nauk , 7 (5), 3–168. Young, W. (1994). The subinertial mixed layer approximation. Journal of physical oceanography , 24 (8), 1812–1826. Young, W., & Jelloul, M. B. (1997). Propagation of near-inertial oscillations through a geostrophic flow. Journal of Marine Research , 55 , 735-766. ¨Ozg¨ okmen, T. (2013). Glad experiment code-style drifter trajectories (low-pass filtered, 15 minute interval records), northern gulf of mexico near desoto canyon, july-october 2012. (Distributed by: GRIIDC, Harte Research Institute, Texas A&M Univer-sity–Corpus Christi.) doi: 10.7266/N7VD6WC8

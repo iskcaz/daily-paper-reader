@@ -1,0 +1,736 @@
+Title: Learning effective Sargassum transport dynamics from limited drifter observations
+
+URL Source: https://arxiv.org/pdf/2605.30603v1
+
+Published Time: Mon, 01 Jun 2026 00:22:24 GMT
+
+Number of Pages: 27
+
+Markdown Content:
+# Learning effective Sargassum transport dynamics from limited drifter observations 
+
+Francisco J. Beron-Vera ∗
+
+Department of Atmospheric Sciences Rosenstiel School of Marine, Atmospheric, and Earth Science University of Miami Miami, Florida, USA 
+
+fberon@miami.edu 
+
+Maria J. Olascoaga Department of Ocean Sciences Rosenstiel School of Marine, Atmospheric, and Earth Science University of Miami Miami, Florida, USA 
+
+jolascoaga@miami.edu 
+
+Julio Morell Department of Marine Sciences University of Puerto Rico Mayag¨ uez, Puerto Rico 
+
+julio.morell@upr.edu 
+
+Edward Cruz Department of Marine Sciences University of Puerto Rico Mayag¨ uez, Puerto Rico 
+
+edward.cruz1@upr.edu 
+
+Sarted: May 10, 2026. This version: June 1, 2026. 
+
+Abstract 
+
+Floating-material transport is influenced by unresolved processes that are often ab-sent from available circulation products. We develop a data-driven transport-learning framework for learning effective transport corrections from limited Lagrangian obser-vations using physically motivated ocean–atmosphere diagnostics and finite-memory representations motivated in part by inertial-particle memory effects. The diagnostic representation is analyzed through predictive and sparse symbolic-discovery approaches under leave-one-trajectory-out validation. Applications to Sargassum-following drifters in the Puerto Rico region and the Gulf Stream show that the diagnostics contain transport-relevant information beyond the baseline circulation products. Multilayer perceptron (MLP) ensembles provide flexible predictive trajectory corrections, while Sparse Identification of Nonlinear Dynamics (SINDy) tests whether instantaneous or delayed sparse symbolic transport structure can be extracted from the diagnostics. The results differ across flow regimes: (i) in Puerto Rico, delayed sparse symbolic correc-tions provide modest but systematic improvement; (ii) in the Gulf Stream application, 
+
+> ∗Corresponding author.
+
+1 
+
+> arXiv:2605.30603v1 [physics.ao-ph] 28 May 2026 dynamically useful sparse symbolic corrections remain primarily instantaneous even though delayed predictive information persists. These results support finite-memory transport effects in coarse-grained floating-material transport while also illustrating the difficulty of obtaining stable delayed sparse symbolic closures.
+
+Transport models for floating material often omit unresolved processes that in-fluence observed trajectories. Oceanic and atmospheric diagnostics extracted from limited drifter observations are analyzed within a finite-memory trans-port dynamical-system representation motivated in part by memory effects in inertial-particle transport. The diagnostic representation is examined through predictive trajectory correction and sparse symbolic discovery: neural-network residual prediction improves trajectory forecasts, while sparse identification tests whether interpretable symbolic transport structure can be extracted from the diagnostics. Applications to Sargassum-following drifters in the Puerto Rico region and the Gulf Stream show that delayed predictive information can persist even when stable delayed sparse symbolic closures do not emerge. 
+
+# Contents 
+
+1 Introduction 32 Learning framework 5
+
+2.1 Pipeline overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52.2 Effective transport formulation . . . . . . . . . . . . . . . . . . . . . . . . . 52.3 Physics-informed diagnostics . . . . . . . . . . . . . . . . . . . . . . . . . . 72.4 MLP residual model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72.4.1 Model definition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 72.4.2 Leave-one-trajectory-out ensemble . . . . . . . . . . . . . . . . . . . 82.4.3 Trust modulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92.5 Sparse discovery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92.5.1 SINDy formulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92.5.2 Bootstrap stability . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 2.6 Validation metrics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 2.7 Trajectory integration with delayed representations . . . . . . . . . . . . . . 11 
+
+3 Applications 12 
+
+3.1 Puerto Rico drifters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 3.2 Gulf Stream drifters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 
+
+4 Conclusions 24 
+
+21 Introduction 
+
+Large Sargassum influxes have become an important environmental, ecological, and socioe-conomic challenge throughout the tropical and subtropical Atlantic, Caribbean Sea, and Gulf of Mexico [WHB +19, JBMK +25, BVOMB26]. Anticipating transport pathways and coastal landfall locations remains difficult because available circulation products often fail to represent the effective motion of floating Sargassum aggregations. Unlike ideal passive tracers, floating Sargassum mats may be influenced by processes beyond resolved ocean circulation. Recent work has emphasized finite-size effects, including inertial transport mechanisms and interactions among Sargassum mats [BVM20, BBVO24]. Additional unresolved contributions may arise from wave forcing, Stokes drift, unresolved submesoscale transport, coastal interactions, and other mechanisms affecting slip relative to the surrounding flow. As a result, trajectory predictions obtained solely from ocean circulation products can accumulate substantial transport errors even when the large-scale circulation is reasonably captured. These effects also raise the possibility that effective Sargassum transport may not be purely instantaneous, but may instead contain finite-memory structure. This study is motivated by observational datasets consisting of drifters deployed directly within Sargassum mats. These drifters are intended to follow the motion of the Sargassum itself rather than ideal passive particles and therefore provide observational proxies for effective Sargassum transport. Two applications motivate the analysis: embedded-drifter observations initialized within Sargassum mats near Puerto Rico and longer trajectories in the Gulf Stream region. While the drifters were deployed within Sargassum aggregations, continuous association with the mats over the full trajectories remains to be verified. The datasets span different dynamical environments and observational characteristics but share a common goal: inferring effective transport behavior from sparse Lagrangian observations. The limited number of available trajectories makes the problem challenging, but also raises a broader dynamical-systems question: what effective transport dynamics can be inferred from a limited collection of Sargassum-following observations? More specifically, we ask two related questions: (i) do local oceanic and atmospheric diagnostics contain predictive transport information beyond that present in baseline circulation products? and (ii) does delayed finite-memory information provide additional predictive or sparse sym-bolic transport structure? The goal is to determine what transport structure can be recovered from sparse La-grangian observations and how this depends on the underlying transport representation. Unlike recent efforts focused on the collective dynamics and internal evolution of Sar-gassum aggregations [BVB26], which sought mechanistic descriptions of Sargassum in-teractions and center-of-mass evolution using machine-learning and sparse-discovery ap-proaches, the present work focuses on effective transport laws inferred directly from em-bedded Sargassum-following trajectories and on unresolved transport behavior at the ob-3servational level. The approach is motivated in part by recent efforts combining imperfect transport models with machine-learning corrections for inertial-particle dynamics [WS18], machine-learning reconstruction of ocean surface dynamics from drifter trajectories [ASH20], and previous adaptations of inertial transport ideas to Sargassum dynamics [BBVO24]. Inertial-particle transport frameworks based on the Maxey–Riley equation contain history-dependent effects through the Basset memory term, motivating the use of delayed finite-memory transport representations. Wan and Sapsis proposed delayed feature represen-tations motivated by Maxey–Riley transport theory, and related ideas were subsequently adapted to Sargassum applications. Here delayed representations are examined in a differ-ent observational setting, where limited embedded-drifter trajectories are combined with physically motivated ocean–atmosphere diagnostics rather than a prescribed transport law. We seek a reproducible pipeline for diagnosing transport mechanisms not explicitly represented in baseline circulation products. The framework combines four ingredients: (i) a baseline ocean trajectory model; (ii) physics-guided ocean–atmosphere feature construction; (iii) leave-one-trajectory-out validation; and (iv) predictive and sparse symbolic analyses using both instantaneous and delayed trans-port representations. The central objective is to investigate what transport structure is contained in instanta-neous and delayed ocean–atmosphere representations constructed from sparse Lagrangian observations. In the present implementation, predictive residual corrections are represented using multilayer perceptrons (MLP and delayed MLP, dMLP; [RHW86]), while sparse symbolic discovery uses Sparse Identification of Nonlinear Dynamics (SINDy and delayed SINDy, dSINDy; [BPK16]) together with sequential thresholded least squares (STLSQ). The delayed SINDy formulation is of particular interest because it probes whether finite-memory transport structure admits a stable sparse symbolic representation. MLP mod-els are used because they provide comparatively simple architectures with relatively few trainable parameters for the limited-data setting considered here, while delayed representa-tions incorporate finite-memory information directly through the feature construction itself. Both predictive and sparse symbolic components remain replaceable without modifying the remainder of the workflow. Alternative predictive architectures include recurrent neu-ral networks, gated recurrent units, long short-term memory networks, transformer-based models, or related approaches, while sparse identification could employ ridge-regularized STLSQ, lasso, elastic net, or Bayesian sparse regression. 4Embedded drifter trajectories      
+
+> Ocean and wind velocity products
+> Feature construction instantaneous φ(x, t ) and delayed state z
+> Ocean baseline ˙x=u
+> Predictive residual learning MLP and dMLP
+> Sparse symbolic discovery SINDy and dSINDy
+> Baseline skill Predictive skill and trust diagnostics
+> Sparse symbolic transport structure
+> Leave-one-trajectory-out validation trajectory metrics, bootstrap stability, representative maps
+
+Figure 1: Schematic of the learning and sparse-discovery pipeline. Instantaneous diag-nostics φ(x, t ) and delayed finite-memory states z are constructed from common drifter observations and ocean–atmosphere velocity products. Predictive residual learning com-pares instantaneous MLP and delayed MLP (dMLP) trajectory corrections, while sparse symbolic discovery compares instantaneous SINDy and delayed SINDy (dSINDy) transport closures. All models are evaluated under the same leave-one-trajectory-out protocol. 
+
+# 2 Learning framework 
+
+2.1 Pipeline overview 
+
+The workflow is summarized in Fig. 1. Embedded drifter trajectories and ocean– atmosphere velocity products are used to construct two related transport representations: an instantaneous feature vector φ(x, t ) and a delayed finite-memory state z. Instanta-neous models use local diagnostic information only, whereas delayed models additionally incorporate finite-memory effects through lagged feature representations. 
+
+2.2 Effective transport formulation 
+
+We seek an effective dynamical system describing Sargassum motion using observational drifter trajectories together with baseline ocean circulation products. The baseline circu-lation is assumed to capture an important fraction of the large-scale dynamics, while the 5learned component represents unresolved contributions. This viewpoint is motivated in part by recent work combining imperfect transport models with machine-learning correc-tions in inertial particle dynamics [WS18]. The construction is also motivated by oceanographic adaptations of the Maxey–Riley equation [MR83] for finite-size, massive (inertial) transport, including theoretical, obser-vational, laboratory, and geophysical studies of inertial effects in floating matter and Sar-gassum aggregations [BVOH +15, BVOM19, OBVM +20, MOBV +20, MMOBV20, BV21, BVM20, OBVB +23, BBVO24, BV24]. In these studies, the full inertial dynamics involve coupled slow and fast variables, while reduced slow-manifold equations depend on quanti-ties beyond the resolved velocity field, including atmospheric forcing, acceleration, vorticity, and memory effects associated with the Basset history term. These considerations motivate the use of delayed finite-memory states in the present setting. Sargassum motion may ad-ditionally involve unresolved wave effects, Stokes drift, unresolved submesoscale transport, coastal interactions, and systematic forcing or model biases. The goal is not to impose a specific inertial transport law, but to use these ideas as guidance for constructing effective transport states. Two related closures are considered. The first uses an instantaneous state, ˙x = u(x, t ) + α(φ)Gβ (φ), (1) where φ = φ(x, t ) denotes an instantaneous feature vector constructed from local ocean– atmosphere diagnostics. The second introduces delayed finite-memory states, ˙x = u(x, t ) + α(z)Gβ (z), (2) where z augments the instantaneous diagnostics with delayed variables. In both formula-tions, u denotes the baseline ocean velocity field, Gβ denotes a learned residual correction parameterized by trainable coefficients β, and α denotes a trust factor suppressing correc-tions in poorly constrained regions of state space. The learned residual is treated as an effective unresolved contribution, 
+
+ueff = u + ures , (3) with 
+
+ures = finite-size/inertial effects + wave and Stokes-drift effects + unresolved submesoscale transport + model bias + · · · .
+
+(4) The learned correction therefore augments rather than replaces the baseline circulation model. Instantaneous closures depend only on local diagnostics, whereas delayed closures additionally incorporate lagged finite-memory information. 62.3 Physics-informed diagnostics 
+
+Guided by the inertial and windage considerations above, instantaneous diagnostics are constructed from local oceanic and atmospheric quantities, 
+
+φ(x, t ) = u, ua, D tu, D tua, ω, ω a, ∇· u, ∇· ua , (5) where u = ( u, v ) denotes ocean velocity and ua = ( ua, v a) denotes atmospheric velocity. The material derivative is written compactly as 
+
+Dt := DDt = ∂t + ( u · ∇ ). (6) Vertical vorticity is defined by 
+
+ω = ∂xv − ∂yu. (7) Analogous definitions are used for atmospheric quantities. Two transport states are considered. The instantaneous state uses only the local diag-nostics, 
+
+zn = φn, φn := φ(x(tn), t n) (8) corresponding to an effective Markovian closure. The delayed state augments these diag-nostics with finite-memory information, 
+
+zn = {φn, φ n−1, . . . , φ n−p} , (9) where p denotes the number of retained delays. Thus p = 0 recovers the instantaneous state, while p > 0 introduces delayed short-memory structure. In the present delayed implementations, p = 2. The delayed variables represent the recent Lagrangian environment sampled by the Sargassum mat through lagged ocean–atmosphere diagnostics. The construction is moti-vated partly by reduced inertial and windage ideas, although no specific transport law is imposed. 
+
+2.4 MLP residual model 
+
+2.4.1 Model definition 
+
+In the present implementation, the correction map Gβ is represented by a feed-forward neural network (FNN), specifically a multilayer perceptron (MLP). Both instantaneous and delayed residual models are considered. Instantaneous MLP uses the local feature vector φ(x, t ), whereas delayed MLP (dMLP) uses the finite-memory state z, allowing the correction to depend on the recent transport history sampled by the trajectory. Memory enters explicitly through the delayed state construction rather than through recurrent hidden states. This permits the use of relatively simple feed-forward networks in-stead of more complicated recurrent architectures such as long short-term memory (LSTM) 7networks or gated recurrent units (GRUs). Given the limited number of available trajecto-ries and sparse sampling of state space, MLP models provide flexible nonlinear corrections with comparatively few trainable parameters. Other predictive architectures could never-theless be incorporated without modifying the remainder of the pipeline. For a network with L hidden layers, 
+
+Gβ (z) = WL+1 σ
+
+
+
+WLσ  · · · σ(W1z + b1) · · ·  + bL
+
+
+
++ bL+1 , (10) where σ denotes a nonlinear activation function and 
+
+β = {W1, b1, . . . , WL+1 , bL+1 } (11) collects the trainable weights and biases. The parameters are determined from residual velocities through 
+
+β∗ = arg min 
+
+> β
+
+1
+
+N
+
+> N
+
+X
+
+> n=1
+
+∥ ˙xn − un − Gβ (z(tn)) ∥2 . (12) The optimization problem is nonconvex and is solved through backpropagation and stochastic gradient-based optimization. Different random initializations and optimization paths can therefore lead to distinct trained models, motivating the ensemble strategy in-troduced below. The learned network represents the residual velocity correction required to reproduce the observed Sargassum-following transport. 
+
+2.4.2 Leave-one-trajectory-out ensemble 
+
+Because only a small number of trajectories are available, validation uses a leave-one-trajectory-out (LOTO) strategy. For each experiment, one trajectory is withheld entirely from training and reserved for testing. The remaining trajectories are then used to train ensembles of instantaneous MLP and delayed MLP (dMLP) residual models. Ensem-ble methods are widely used to improve robustness and quantify predictive uncertainty [LPB17]. Here each ensemble member uses identical training data and architecture but begins from a different random initialization, thereby sampling distinct optimization path-ways and local minima. During testing, all ensemble members are integrated independently from the same initial condition, producing a collection of corrected trajectories 
+
+x(1) MLP , . . . , x(K)MLP .
+
+The deployed prediction is the ensemble-mean trajectory, 
+
+xMLP (t) = 1
+
+K
+
+> K
+
+X
+
+> k=1
+
+x(k)MLP (t), (13) where K denotes the ensemble size. The same ensemble procedure is applied to both instantaneous and delayed residual models. 82.4.3 Trust modulation 
+
+To reduce corrections in regions of limited support, we introduce a trust mechanism mo-tivated by ensemble-based uncertainty ideas [LPB17]. The approach uses disagreement among ensemble members as a proxy for prediction uncertainty. Ensemble spread is quantified through the sample standard deviation of ensemble tra-jectory predictions, 
+
+σ(z) := 1
+
+K − 1
+
+> K
+
+X
+
+> k=1
+
+x(k)MLP − xMLP 
+
+> 2
+
+!1/2
+
+. (14) The trust factor is then defined as 
+
+α(z) := exp 
+
+
+
+− σ(z)2
+
+σ20
+
+
+
+. (15) Small values of σ0 suppress corrections aggressively, while σ0 = ∞ corresponds to no trust suppression. The trust factor does not guarantee predictive accuracy: ensemble members may agree on an incorrect correction. It nevertheless acts as a safeguard against unconstrained extrapolation and provides a diagnostic measure of prediction confidence. Instantaneous and delayed models can exhibit different ensemble-spread behavior across transport regimes. In some cases, local diagnostics alone already produce stable ensem-ble predictions. In others, delayed states reduce ensemble spread or improve predictive stability, indicating that recent transport history contributes useful predictive structure. 
+
+2.5 Sparse discovery 
+
+2.5.1 SINDy formulation 
+
+SINDy seeks parsimonious symbolic descriptions by representing a target quantity as a sparse linear combination of candidate functions. Here sparse symbolic regression is applied to the residual transport contribution rather than to the full dynamics. The deployed model is written as ˙x = u(x, t ) + α(z)Θ( z)ξ, (16) where Θ( z) denotes a library of candidate functions constructed from the feature state z,and ξ contains sparse coefficients determining the active correction terms. In analogy with the neural-network parameter vector β, the sparse coefficient vector ξ plays the role of the learned symbolic closure parameters. The trust factor α(z) is retained during deployment and suppresses corrections in regions of low confidence. For instantaneous SINDy, z = φ(x, t ) and the candidate library depends only on local diagnostics. Delayed SINDy (dSINDy) instead augments the library with delayed states from Eq. (9), allowing sparse symbolic corrections to depend explicitly on finite-memory 9structure. In the present implementation, candidate terms consist of oceanic and atmo-spheric diagnostics selected from the physically motivated feature set introduced above. The sparse symbolic-regression problem is written as 
+
+ξ∗ = arg min 
+
+> ξ
+
+n
+
+∥r − Θ( z)ξ∥22 + λ∥ξ∥0
+
+o
+
+, (17) where 
+
+r = ˙ x − u (18) denotes residual velocity and ∥ · ∥ 0 counts active terms. The optimization balances residual error against model complexity. Direct minimization of the L0 penalty is generally com-binatorial and NP-hard because it requires selecting active terms among many possible candidate subsets. The current implementation uses STLSQ (sequential thresholded least squares), the sparse-regression strategy originally introduced with SINDy, as an efficient approximation to the formal sparse optimization problem. STLSQ alternates between least-squares fitting and thresholding steps that remove coefficients below a prescribed magnitude, progressively eliminating weak terms and promoting parsimonious symbolic models. The sparse symbolic component remains modular: regularized alternatives including ridge-STLSQ, lasso, elastic net, and Bayesian sparse regression can be substituted without changing the remainder of the pipeline. Instantaneous SINDy depends only on local diagnostics, whereas delayed SINDy incor-porates lagged finite-memory states directly into the symbolic closure. 
+
+2.5.2 Bootstrap stability 
+
+Sparse symbolic-transport performance and sparse symbolic-structure stability are assessed separately. LOTO (leave-one-trajectory-out) experiments determine whether the learned correction improves out-of-sample trajectories, whereas bootstrap resampling with replace-ment evaluates the robustness of the discovered sparse symbolic structure under perturba-tions of the training data. For a candidate library term j in Θ( z), the bootstrap active frequency is defined as 
+
+fj = #{bootstrap fits in which term j is active }
+
+#{bootstrap fits } . (19) Large values of fj indicate that sparse symbolic regression repeatedly selects the same term across resampled datasets. Median active frequency measures overall symbolic-structure stability, while the largest values of fj identify the most persistent terms across bootstrap realizations. Bootstrap stability and trajectory prediction need not coincide. Some sparse sym-bolic structures persist across resampled datasets while producing little improvement in 10 out-of-sample trajectory evolution. In other cases, stable sparse structure and trajectory improvement occur simultaneously, supporting recurrent transport mechanisms associated with the chosen state representation. 
+
+2.6 Validation metrics 
+
+Model performance is evaluated on withheld trajectories by comparing predicted and ob-served positions at identical observation times tn. Errors are therefore evaluated directly in time-synchronized trajectory space. Let xobs (tn) denote the observed trajectory and let 
+
+xm(tn) denote the prediction generated by model m, where m may correspond to the ocean baseline, MLP ensemble, or SINDy closure. The root-mean-square error is defined as 
+
+ERMS (m) = 1
+
+N
+
+> N
+
+X
+
+> n=1
+
+∥xm(tn) − xobs (tn)∥2
+
+!1/2
+
+. (20) Skill is reported relative to the ocean baseline through 
+
+Rm = ERMS (m)
+
+ERMS (ocean) . (21) Thus Rm < 1 indicates improvement over the ocean-model trajectory, whereas Rm > 1indicates degradation. Mean and final-time trajectory errors are defined analogously. 
+
+2.7 Trajectory integration with delayed representations 
+
+For trajectory prediction, the learned correction is coupled to the baseline ocean velocity field and integrated forward from the observed initial condition. Delayed models evolve on augmented finite-memory states constructed from recent transport history. At the continuous level, the resulting dynamics may be viewed schematically as a finite-memory system of the form ˙x(t) = f x(t), x(t − τ1), . . . , x(t − τp), t , 0 < τ 1 < · · · < τ p, (22) supplemented by a history condition 
+
+x(t) = y(t), t ∈ [t0 − τp, t 0]. (23) In the present formulation, delayed dependence enters through diagnostic coordinates rather than directly through delayed positions. The delayed state consists of a finite collec-tion of previous ocean–atmosphere diagnostics, which are evolved recursively together with the model trajectory during integration rather than prescribed from withheld observations. For delayed MLP models, the memory is encoded implicitly through the delayed state itself: current delayed state → dMLP → correction → next state .
+
+11 The neural network therefore acts as an instantaneous nonlinear map on the augmented delayed state space. For delayed SINDy models, the delayed variables enter explicitly into the symbolic transport closure through sparse combinations of delayed diagnostic coordinates. Delayed SINDy therefore defines an explicit finite-memory transport law in terms of delayed diag-nostic states. Instantaneous MLP and SINDy correspond to the Markovian limit p = 0, where the delayed state reduces to the local diagnostic vector. 
+
+# 3 Applications 
+
+3.1 Puerto Rico drifters 
+
+The Puerto Rico application considers drifters deployed on Sargassum mats off southern Puerto Rico as part of observational efforts by the Caribbean Coastal Ocean Observing Sys-tem (CARICOOS). Ocean baseline trajectories are obtained from a CARICOOS regional implementation of the Finite-Volume Community Ocean Model (FVCOM; [CLB03]) for the Puerto Rico domain, while atmospheric velocity diagnostics are derived from the Euro-pean Centre for Medium-Range Weather Forecasts (ECMWF) ERA5 reanalysis [HBB +20]. These ocean and atmosphere products provide the reference fields from which the instan-taneous and delayed diagnostic states and learned transport corrections are constructed. The Puerto Rico trajectories require basic quality control before delayed analysis. Ob-servation intervals are irregular, ranging from approximately 10 minutes to 1 hour with occasional larger gaps, and one trajectory exhibits unphysical land-crossing behavior. To obtain physically interpretable delayed states, the diagnostics are constructed using fixed-∆t interpolation with ∆ t = 1 hr together with segmentation across large temporal gaps, and the corrupted trajectory segment is excluded from the final analysis. Table 1 summarizes the LOTO results for the Puerto Rico application. The updated comparison clarifies the role of delayed predictive structure in Puerto Rico. The instanta-neous MLP already provides substantial improvement over the baseline circulation model, with median trajectory-wise RMS ratio RMLP ≈ 0.76, median final-position error ratio of approximately 0 .73, and improvement for 8 of the 12 retained trajectories. The delayed MLP also improves 8 of the 12 trajectories, but with weaker aggregate RMS improvement, 
+
+RdMLP ≈ 0.90, and nearly neutral aggregate final-position behavior, with final-position er-ror ratio approximately equal to one. The Puerto Rico results therefore show that delayed memory is not required for substantial predictive improvement. The instantaneous MLP already provides a strong local predictive closure, while delayed MLP examines the effect of short-memory transport states on trajectory prediction and stability. Local instantaneous diagnostics already contain enough structure for neural residual models to improve many withheld trajectories. Delayed states are introduced to examine 12 Model Rep. Median RMS Improved Final Role ratio traj. ratio Ocean baseline 1.000 – 1.000 reference baseline MLP instant. 0.755 8/12 0.729 predictive Markovian closure dMLP delayed 0.898 8/12 1.003 predictive finite-memory closure SINDy instant. 0.988 – 1.000 sparse symbolic local correction dSINDy delayed 0.961 – 0.950 sparse symbolic delayed closure 
+
+Table 1: Puerto Rico leave-one-trajectory-out comparison after excluding trajectory 4. Values below one indicate improvement relative to the corresponding ocean baseline. MLP and dMLP denote instantaneous and delayed predictive residual closures, respectively, while SINDy and dSINDy denote instantaneous and delayed sparse symbolic closures. The delayed representation uses a fixed-∆ t formulation with two delayed lags corresponding to 1–2 hr memory. whether short-time transport memory yields additional predictive improvement or persis-tent delayed symbolic structure. Figure 2 shows individual LOTO trajectory comparisons for both predictive models. Observations correspond to “Sargassum-following” drifter trajectories, ocean trajectories are obtained from the baseline circulation product, dashed blue curves denote the instan-taneous MLP, and solid blue curves denote the delayed MLP. Aggregate statistics partially obscure substantial trajectory-to-trajectory variability. Several withheld trajectories are substantially improved by the instantaneous MLP alone, whereas others remain difficult for both MLP and dMLP. The delayed MLP acts primarily as a finite-memory extension of an already effective predictive closure rather than as a uniformly superior model. The predictive corrections are modulated through an ensemble-based trust factor in-tended to suppress extrapolative corrections in poorly constrained regions of state space. Figure 3 summarizes sensitivity to the trust scale σ0 for both MLP and dMLP. Small values suppress learned corrections strongly and keep trajectories close to the ocean base-line, whereas larger values permit stronger residual corrections. Trust modulation affects both instantaneous and delayed predictive models. The instantaneous MLP achieves the strongest median RMS improvement in the Puerto Rico case, while the delayed MLP re-mains a useful finite-memory comparison rather than the dominant predictive model. Figure 4 compares trajectory performance with the trajectory-mean trust factor. Open circles denote the instantaneous MLP and filled circles denote the delayed MLP. Ensemble spread provides a useful uncertainty proxy, but high ensemble agreement is not sufficient for accuracy. Some strongly improved trajectories occur at moderate trust levels, while several degraded cases are associated with stronger suppression. The trust factor acts primarily as an extrapolation-control diagnostic rather than a direct error estimator. The sparse symbolic results differ substantially from the predictive neural models. In-stantaneous SINDy remains nearly neutral in Puerto Rico, whereas delayed SINDy pro-13 Trajectory 1     
+
+> 15'68/W45'30'15'67/W
+> 18/N
+> 20'
+> 40'
+> 19/N
+> 20'
+> 40'
+
+Observed Ocean MLP dMLP
+
+Trajectory 2    
+
+> 12'6'67/W54'48'
+> 45'
+> 50'
+> 55'
+> 18/N
+
+Trajectory 3    
+
+> 69/W30'68/W30'67/W
+> 18/N
+> 20'
+> 40'
+> 19/N
+
+Trajectory 5    
+
+> 30'67/W30'66/W30'
+> 24'
+> 36'
+> 48'
+> 19/N
+> 12'
+
+Trajectory 6     
+
+> 12'67/W48'36'24'12'
+> 45'
+> 50'
+> 55'
+> 18/N
+> 5'
+
+Trajectory 7     
+
+> 69/W30'68/W30'67/W30'
+> 18/N
+> 15'
+> 30'
+> 45'
+> 19/N
+
+Trajectory 8     
+
+> 30'15'67/W45'30'15'
+> 48'
+> 18/N
+> 12'
+> 24'
+> 36'
+
+Trajectory 9    
+
+> 30'67/W30'66/W30'
+> 40'
+> 19/N
+> 20'
+> 40'
+
+Trajectory 10    
+
+> 67/W45'30'15'66/W
+> 45'
+> 50'
+> 55'
+> 18/N
+> 5'
+
+Trajectory 11   
+
+> 67/W45'30'15'
+> 45'
+> 50'
+> 55'
+> 18/N
+> 5'
+
+Trajectory 12    
+
+> 70/W69/W68/W67/W66/W
+> 30'
+> 19/N
+> 30'
+> 20/N
+> 30'
+
+Trajectory 13    
+
+> 12'6'66/W54'48'
+> 50'
+> 55'
+> 18/N
+> 5'
+
+Figure 2: Individual leave-one-trajectory-out MLP trajectory comparisons for the Puerto Rico application. Observed “Sargassum-following” drifter trajectories are compared with the baseline ocean trajectory, the instantaneous MLP correction, and the delayed MLP correction. The instantaneous MLP is shown as a dashed blue curve and the delayed MLP as a solid blue curve. Filled circles denote trajectory initiation and open circles denote observed terminal locations. vides modest but systematic improvement together with recurrent delayed structure under bootstrap resampling. The Puerto Rico application therefore highlights dSINDy as the dominant sparse symbolic closure. To obtain physically interpretable delayed structure, delayed states are constructed us-ing fixed-∆ t interpolation with sampling interval ∆ t = 1 hr together with treatment of large temporal gaps before delayed sparse symbolic regression. The delayed state consequently takes the form 
+
+zn = {φn, φ n−1, φ n−2}, (24) so that the retained delayed terms correspond explicitly to 1-hour and 2-hour memory. 14 trust scale <0            
+
+> 51020401
+> median RMS ratio R
+> 0.8
+> 0.85
+> 0.9
+> 0.95
+> 1
+> number of improved trajectories
+> 6
+> 6.5
+> 7
+> 7.5
+> 8
+> R=1
+> MLPmedianR
+> dMLPmedianR
+> MLPimproved
+> dMLPimproved
+
+Figure 3: Trust-scale sensitivity for the instantaneous MLP and delayed MLP ensembles in the Puerto Rico application. Curves show the median trajectory RMS ratio and the number of withheld trajectories improved relative to the ocean baseline as functions of the trust scale σ0. The instantaneous MLP is shown with open/dashed markers and the delayed MLP with filled/solid markers. The corresponding delayed sparse symbolic transport correction can be written as ˙xn = un + eGx(zn), (25) ˙yn = vn + eGy(zn). (26) A representative sparse symbolic structure inferred from the bootstrap analysis is 
+
+eGx(zn) ≈ − un + 0 .2 vn + 0 .2 un−1 + 0 .4 vn−1
+
++ 0 .2 un−2 − 0.3 vn−2 + 0 .03 ( ua)n−1, (27) 
+
+eGy(zn) ≈ − 0.8 vn − 0.4 un−1 − 0.5 vn−1
+
++ 0 .3 un−2 + 0 .4 vn−2 + 0 .04 ( va)n + 0 .04 ( Dtv)n. (28) The displayed coefficients correspond to the most persistent delayed symbolic structures identified across bootstrap realizations; lower-frequency terms are omitted for clarity. The learned sparse symbolic corrections represent effective delayed transport closures inferred from the diagnostic states rather than direct reductions of inertial-particle transport equa-tions. Under this fixed-∆ t reinterpretation, delayed SINDy produces modest but systematic improvement relative to the ocean baseline while remaining more conservative than the 15 trajectory-mean trust factor 7,
+
+0.2 0.4 0.6 0.8 1
+
+> RMS ratio R
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+> 2
+> 3
+> 5
+> 7
+> 8
+> 9
+> 10
+> 12
+> 13
+> 1
+> 23
+> 5
+> 8
+> 9
+> 10
+> 11
+> 12
+
+R = 1
+
+> MLP
+> dMLP
+
+Figure 4: Trust–performance diagnostic for the instantaneous MLP and delayed MLP en-sembles in the Puerto Rico application. Each point corresponds to one withheld trajectory. The horizontal axis is the trajectory-mean trust factor ¯ α and the vertical axis is the tra-jectory RMS ratio relative to the ocean baseline. Open circles denote the instantaneous MLP and filled circles denote the delayed MLP. predictive neural closures. Table 1 shows that the delayed sparse symbolic closure achieves aggregate trajectory ratios below one, with the best performance obtained for a com-paratively small global correction amplitude α ≈ 0.05. Only a modest delayed symbolic correction is required to improve the baseline trajectories. The bootstrap analysis further indicates that the delayed library contains persistent recurrent structure rather than a single rigid universal equation. Median active frequencies are approximately 0 .46 for the x equation and 0 .47 for the y equation. Table 2 summarizes the most persistent delayed terms identified across bootstrap realizations. The retained sparse symbolic structures are dominated by ocean velocity memory, atmospheric forcing, material acceleration, and short-time delayed velocity coupling across both 1-hour and 2-hour lags. The recurrent delayed dependencies indicate persistent short-memory structure across bootstrap realizations, even though no single universal symbolic equation emerges across all withheld trajectories. Figure 5 illustrates representative withheld trajectories used to compare the predic-16 x-equation term Frequency y-equation term Frequency 
+
+u 0.996 v 0.993 (va)n−2 0.858 va 0.985 
+
+un−2 0.820 un−2 0.933 
+
+v 0.801 vn−1 0.799 
+
+un−1 0.785 Dtv 0.865 
+
+vn−1 0.764 (va)n−1 0.826 
+
+Dtua 0.638 un−1 0.772 
+
+vn−2 0.638 (va)n−2 0.703 
+
+ωa 0.597 ∇ · u 0.669 
+
+ua 0.586 (Dtu)n−1 0.650 Table 2: Most persistent delayed SINDy terms from fixed-∆ t bootstrap resampling. Sub-scripts denote fixed-time delays relative to sampling index n with ∆ t = 1 hr, so that n − 1and n − 2 correspond to 1-hour and 2-hour lags, respectively. Frequencies denote the frac-tion of bootstrap fits in which a term remains active. 24' 12' 67/W 48' 36' 24'              
+
+> 50'
+> 18/N
+> 10'
+> 20'
+> 30'
+> Trajectory8
+> ObservedOceanMLPdSINDy
+> 67/W48'36'24'12'
+> 52'
+> 54'
+> 56'
+> 58'
+> 18/N
+> Trajectory11
+> 67/W48'36'24'12'
+> 52'
+> 54'
+> 56'
+> 58'
+> 18/N
+> Trajectory10
+
+Figure 5: Representative leave-one-trajectory-out trajectory comparisons for the Puerto Rico application. Observed “Sargassum-following” drifter trajectories are compared with the ocean baseline, the instantaneous MLP correction, and the delayed sparse symbolic dSINDy correction. Filled circles and open circles indicate trajectory start and end points. tive and sparse symbolic models. For the Puerto Rico application, the predictive model shown is the instantaneous MLP, whereas the sparse symbolic model is dSINDy. The examples highlight the different behavior of the predictive and sparse symbolic closures. MLP provides stronger trajectory-level corrections, while dSINDy remains smoother and more conservative with explicit finite-memory structure. Trajectory 8 provides the clear-est delayed symbolic correction example, with dSINDy giving the cleanest correction after substantial drift in the ocean baseline. Trajectory 11 highlights the stronger predictive capability of the MLP branch, whereas trajectory 10 illustrates a more balanced regime in which the MLP becomes comparatively oscillatory while dSINDy remains smoother. The Puerto Rico experiments show that instantaneous diagnostics already contain sub-stantial predictive structure. A simple residual MLP improves many withheld trajectories 17 without requiring delayed memory. Delayed states nevertheless remain dynamically mean-ingful through the sparse symbolic results: dSINDy identifies weak but recurrent delayed structure associated with short-time velocity memory and ocean–atmosphere transport effects. 
+
+3.2 Gulf Stream drifters 
+
+The Gulf Stream application provides a more stringent test because the drifter trajectories sample a dynamically energetic western-boundary-current jet together with adjacent recir-culatory regimes. The drifters were deployed in Sargassum mats within the Gulf Stream off southeastern Florida. Ocean baseline trajectories are obtained from Archiving, Validation, and Interpretation of Satellite Oceanographic data (AVISO) altimetry-derived geostrophic velocity products [LND98], while atmospheric velocity diagnostics are obtained from the European Centre for Medium-Range Weather Forecasts (ECMWF) ERA5 reanalysis, as in the Puerto Rico application. The Gulf Stream trajectories require more substantial quality control before learning because of large temporal gaps, intermittently inactive ocean baselines, and difficult recir-culatory regimes. The retained trajectory segments are therefore selected to ensure phys-ically reasonable continuous evolution together with dynamically active AVISO baseline trajectories over the same time intervals. Delayed states are constructed using fixed-∆ t
+
+interpolation with ∆ t = 6 hr, and all learned corrections are evaluated against AVISO ocean trajectories integrated over the same time vectors. Table 3 summarizes the LOTO results for the Gulf Stream application. The Gulf Stream experiments support an interpretation broadly consistent with the Puerto Rico case. Instantaneous diagnostics already contain substantial predictive structure, with me-dian trajectory-wise RMS ratio RMLP ≈ 0.47 and median final-position error ratio ap-proximately equal to 0 .39. Delayed MLP corrections can further improve some coherent jet-following regimes, but their benefits are more selective and trajectory-dependent. De-layed states are therefore not introduced because an instantaneous learned closure fails. Instead, they allow the role of short-memory transport structure to be examined within the same dynamical setting. Local instantaneous diagnostics already contain enough structure for neural residual models to improve most withheld trajectories. Delayed states are introduced to examine whether finite-memory transport structure yields additional predictive improvement or persistent delayed symbolic structure in coherent Gulf Stream transport regimes. Figure 6 shows individual LOTO trajectory comparisons for both predictive models. Observations correspond to “Sargassum-following” drifter trajectories, ocean trajectories are obtained from the AVISO baseline circulation product, dashed blue curves denote the instantaneous MLP, and solid blue curves denote the delayed MLP. Aggregate statistics partially obscure substantial trajectory-to-trajectory variability. Several withheld trajecto-ries are substantially improved by the instantaneous MLP alone, whereas delayed MLP can 18 Model Rep. Median RMS Improved Final Role ratio traj. ratio Ocean baseline 1.000 – 1.000 reference baseline MLP instant. 0.469 22/26 0.388 predictive Markovian closure dMLP delayed 0.534 22/26 1.473 predictive finite-memory closure SINDy instant. 0.894 – 0.952 sparse symbolic local correction dSINDy delayed 1.000 – 1.000 sparse symbolic delayed closure 
+
+Table 3: Gulf Stream leave-one-trajectory-out comparison. Values below one indicate improvement relative to the corresponding AVISO ocean baseline. MLP and dMLP de-note instantaneous and delayed predictive residual closures, respectively, while SINDy and dSINDy denote instantaneous and delayed sparse symbolic closures. Delayed representa-tions use a fixed-∆ t formulation with ∆ t = 6 hr. provide stronger corrections in some coherent jet-following pathways. Other cases remain difficult for both MLP and dMLP, especially in recirculatory or extrapolative regimes. The delayed MLP therefore acts primarily as a finite-memory extension of an already effective predictive closure rather than as a uniformly superior model. The predictive corrections are modulated through an ensemble-based trust factor in-tended to suppress extrapolative corrections in poorly constrained regions of state space. Figure 7 summarizes sensitivity to the trust scale σ0 for both MLP and dMLP. Small values suppress learned corrections strongly and keep trajectories close to the ocean baseline. The instantaneous MLP remains comparatively robust under strong trust suppression, whereas delayed MLP becomes more effective at moderate and weak suppression levels where longer coherent jet-following structure can be exploited. This increased flexibility, however, comes with greater trajectory-to-trajectory variability. Figure 8 compares trajectory performance with the trajectory-mean trust factor. Open circles denote the instantaneous MLP and filled circles denote the delayed MLP. Ensem-ble spread provides a useful uncertainty proxy, but strong ensemble agreement alone does not guarantee accurate prediction. Several improved trajectories occur at moderate trust levels, whereas more strongly suppressed trajectories are often associated with degraded predictive regimes. In the Gulf Stream application, trust modulation is particularly im-portant for delayed predictive corrections because delayed MLP exhibits greater sensitivity across coherent jet-following and extrapolative regimes. The trust factor acts primarily as an extrapolation-control diagnostic rather than a direct error estimator. The sparse symbolic results differ substantially from the predictive neural models. Ta-ble 3 shows that instantaneous SINDy provides the dynamically meaningful sparse cor-rection for the Gulf Stream application, whereas delayed SINDy does not improve out-of-sample trajectory prediction when coupled back into trajectory integration. The Gulf Stream symbolic results therefore emphasize instantaneous SINDy as the effective local symbolic closure. 19 Trajectory 1    
+
+> 81/W72/W63/W54/W45/W
+> 28/N
+> 32/N
+> 36/N
+> 40/N
+> 44/N
+
+Observed Ocean MLP dMLP
+
+Trajectory 2    
+
+> 80/W72/W64/W56/W48/W
+> 28/N
+> 32/N
+> 36/N
+> 40/N
+
+Trajectory 3   
+
+> 72/W63/W54/W45/W
+> 28/N
+> 32/N
+> 36/N
+> 40/N
+> 44/N
+
+Trajectory 4   
+
+> 72/W60/W48/W36/W
+> 28/N
+> 32/N
+> 36/N
+> 40/N
+> 44/N
+
+Trajectory 5   
+
+> 78/W75/W72/W69/W
+> 27/N
+> 30/N
+> 33/N
+> 36/N
+
+Trajectory 6   
+
+> 67/W66/W65/W64/W
+> 38/N
+> 30'
+> 39/N
+> 30'
+> 40/N
+
+Trajectory 7     
+
+> 61/W60/W59/W58/W57/W56/W
+> 40'
+> 50'
+> 41/N
+> 10'
+> 20'
+
+Trajectory 8     
+
+> 80/W79/W78/W77/W76/W75/W
+> 26/N
+> 28/N
+> 30/N
+> 32/N
+> 34/N
+
+Trajectory 9   
+
+> 58/W56/W54/W52/W
+> 30'
+> 39/N
+> 30'
+> 40/N
+> 30'
+> 41/N
+
+Trajectory 10     
+
+> 47/W46/W45/W44/W43/W42/W
+> 38/N
+> 39/N
+> 40/N
+> 41/N
+> 42/N
+> 43/N
+
+Trajectory 11      
+
+> 80/W79/W78/W77/W76/W75/W74/W
+> 26/N
+> 28/N
+> 30/N
+> 32/N
+> 34/N
+> 36/N
+
+Trajectory 12     
+
+> 71/W30'70/W30'69/W30'
+> 30'
+> 35/N
+> 30'
+> 36/N
+> 30'
+
+Figure 6: Individual leave-one-trajectory-out MLP trajectory comparisons for the Gulf Stream application. Observed “Sargassum-following” drifter trajectories are compared with the AVISO ocean baseline, the instantaneous MLP correction, and the delayed MLP correction. The instantaneous MLP is shown as a dashed blue curve and the delayed MLP as a solid blue curve. Filled circles denote trajectory initiation and open circles denote observed terminal locations. Although delayed states admit a direct physical interpretation in the Gulf Stream ap-plication, with one-step and two-step delays corresponding to 6-hour and 12-hour lags, respectively, the delayed sparse symbolic branch does not yield an improved trajectory closure. Bootstrap analysis nevertheless reveals persistent delayed algebraic structure in-volving ocean-velocity memory, atmospheric forcing, and short-time delayed coupling. The instantaneous sparse symbolic correction takes the form ˙x = u + eGx(φ), (29) ˙y = v + eGy(φ). (30) 20 trust scale <0            
+
+> 51020401
+> median RMS ratio R
+> 0.5
+> 0.6
+> 0.7
+> 0.8
+> 0.9
+> 1
+> 1.1
+> number of improved trajectories
+> 12
+> 14
+> 16
+> 18
+> 20
+> 22
+> 24
+> R=1
+> MLPmedianR
+> dMLPmedianR
+> MLPimproved
+> dMLPimproved
+
+Figure 7: Trust-scale sensitivity for the instantaneous MLP and delayed MLP ensembles in the Gulf Stream application. Curves show the median trajectory RMS ratio and the number of withheld trajectories improved relative to the AVISO ocean baseline as functions of the trust scale σ0. The instantaneous MLP is shown with open/dashed markers and the delayed MLP with filled/solid markers. A representative instantaneous sparse structure inferred from the LOTO analysis is 
+
+eGx ≈ − 0.83 u + 0 .31 ua − 1.42 ω − 2.11 ∇· u, (31) 
+
+eGy ≈ − 0.76 v + 0 .28 va + 1 .35 ω − 2.47 ∇· u. (32) These representative coefficients highlight the compact local structure recovered by in-stantaneous SINDy. Although coefficients vary across withheld trajectories, the retained terms repeatedly involve ocean velocity, atmospheric forcing, and rotational or divergence diagnostics, consistent with interpretable local transport corrections. Delayed SINDy produces persistent lag-heavy algebraic structure, but this structure does not translate into a useful delayed trajectory closure. Bootstrap resampling shows that many delayed sparse symbolic terms are repeatedly selected across resampled datasets. The delayed sparse structure is dominated by ocean-velocity memory, atmospheric forcing, acceleration diagnostics, and short-time delayed velocity coupling across both 6-hour and 12-hour lags. The recurrent delayed dependencies indicate persistent short-memory struc-ture across bootstrap realizations, even though no useful delayed sparse symbolic closure emerges for Gulf Stream trajectory prediction. Figure 9 illustrates representative withheld trajectories used to compare the predictive and sparse symbolic models. For the Gulf Stream application, the predictive model shown 21 trajectory-mean trust factor 7,
+
+0 0.2 0.4 0.6 0.8 1
+
+> RMS ratio R
+
+0
+
+0.5
+
+1
+
+1.5
+
+2     
+
+> 1
+> 2
+> 3
+> 45
+> 6
+> 7
+> 8
+> 9
+> 10
+> 1214
+> 1617
+> 19
+> 20
+> 22
+> 26
+> 4
+> 5
+> 6
+> 79
+> 11
+> 15
+> 1618
+> 20
+> 22
+> 25
+
+R = 1
+
+> MLP
+> dMLP
+
+Figure 8: Trust–performance diagnostic for the instantaneous MLP and delayed MLP en-sembles in the Gulf Stream application. Each point corresponds to one withheld trajectory segment. The horizontal axis is the trajectory-mean trust factor ¯ α and the vertical axis is the trajectory RMS ratio relative to the AVISO ocean baseline. Open circles denote the instantaneous MLP and filled circles denote the delayed MLP. is the instantaneous MLP, whereas the sparse symbolic model is instantaneous SINDy. The examples highlight the different behavior of the predictive and sparse symbolic closures. MLP provides stronger trajectory-level corrections, while SINDy provides smoother and more conservative symbolic transport corrections. Trajectory 1 illustrates a case in which the ocean baseline already captures the initial jet-following motion reasonably well, while MLP later develops a spurious loop and SINDy remains closer to the baseline transport. Trajectory 9 provides the clearest MLP improvement together with a conservative symbolic correction. Trajectory 16 illustrates a difficult extrapolative regime in which all closures struggle. The Gulf Stream experiments show that instantaneous diagnostics already contain sub-stantial predictive structure. A simple residual MLP therefore already produces strong trajectory corrections. Delayed states remain useful, but their role is more selective and de-pends strongly on the closure itself. Delayed MLP can improve some coherent jet-following regimes, although with greater sensitivity to trust modulation and extrapolative instability. 22 x-equation term Frequency y-equation term Frequency 
+
+u 0.884 v 0.982 
+
+un−1 0.872 vn−1 0.978 
+
+un−2 0.861 vn−2 0.971 
+
+ω 0.846 ω 0.963 
+
+ua 0.831 va 0.958 (ua)n−1 0.817 (va)n−1 0.947 (ua)n−2 0.804 (va)n−2 0.934 
+
+Dtu 0.791 Dtv 0.921 (Dtu)n−1 0.776 (Dtv)n−1 0.906 
+
+∇· u 0.765 ∇· u 0.894 Table 4: Most persistent delayed SINDy terms from bootstrap resampling for the Gulf Stream application. Subscripts denote fixed-time delays relative to sampling index n with ∆t = 6 hr, so that n − 1 and n − 2 correspond to 6-hour and 12-hour lags, respectively. Frequencies denote the fraction of bootstrap fits in which a term remains active. 81/W 72/W 63/W 54/W 45/W              
+
+> 28/N
+> 32/N
+> 36/N
+> 40/N
+> 44/N
+> Trajectory1
+> ObservedOceanMLPSINDy
+> 58/W56/W54/W52/W
+> 30'
+> 39/N
+> 30'
+> 40/N
+> 30'
+> Trajectory9
+> 72/W40'20'71/W40'20'
+> 20'
+> 40'
+> 34/N
+> 20'
+> 40'
+> 35/N
+> Trajectory16
+
+Figure 9: Representative leave-one-trajectory-out trajectory comparisons for the Gulf Stream application. Observed “Sargassum-following” drifter trajectories are compared with the AVISO ocean baseline, the instantaneous MLP correction, and the instantaneous sparse symbolic SINDy correction. Filled circles and open circles indicate trajectory start and end points. The sparse symbolic results lead to a different conclusion: instantaneous SINDy remains dynamically meaningful, whereas delayed sparse symbolic structure, despite persistent de-layed terms under bootstrap resampling, does not produce a useful delayed trajectory closure. Overall, the Gulf Stream results indicate that predictive transport structure is already strongly encoded within local ocean–atmosphere diagnostics, while delayed struc-ture plays a more selective role associated primarily with coherent jet-following regimes and delayed algebraic transport structure. 23 4 Conclusions 
+
+This work develops a data-driven approach for learning effective transport corrections from sparse Sargassum-following drifter trajectories using physically guided instantaneous and delayed ocean–atmosphere diagnostics. The methodology combines baseline circulation models, leave-one-trajectory-out validation, predictive residual learning, sparse symbolic discovery, and bootstrap stability analysis within a common delayed-transport setting mo-tivated in part by finite-memory effects in inertial-particle transport. The Puerto Rico and Gulf Stream applications support a consistent overall picture. In Puerto Rico, delayed sparse symbolic corrections remain modestly but systematically effective under a fixed-time delayed formulation, supporting weak but recurrent short-memory transport structure. In the Gulf Stream application, instantaneous sparse symbolic corrections remain dynamically meaningful, whereas delayed sparse symbolic closure does not improve out-of-sample trajectory evolution despite persistent delayed-term selection under bootstrap resampling. Instantaneous MLP already captures substantial predictive structure in both applica-tions, while delayed MLP can provide additional improvement in some coherent transport regimes but with greater sensitivity and stronger trajectory dependence. The results there-fore indicate that physically guided local ocean–atmosphere diagnostics already contain substantial predictive transport structure before delayed memory is introduced. The sparse symbolic results lead to a different conclusion. In Puerto Rico, delayed SINDy identifies weak but recurrent delayed symbolic structure associated with short-time velocity memory and ocean–atmosphere forcing. In the Gulf Stream application, delayed symbolic structure persists algebraically under bootstrap resampling but does not yield a useful delayed trajectory closure when coupled back into transport evolution. Instanta-neous SINDy nevertheless remains dynamically meaningful through compact local symbolic corrections involving velocity, atmospheric forcing, and rotational or divergence diagnos-tics. Overall, the results suggest that delayed transport states can reveal physically inter-pretable short-memory structure even when delayed predictive improvement remains mod-est or strongly trajectory dependent. The learned corrections should nevertheless be viewed as effective coarse-grained transport closures rather than complete mechanistic transport laws, since the available observations remain sparse, unresolved transport processes are important, and ocean–atmosphere forcing products themselves contain uncertainty. Future work will investigate whether larger ensembles of controlled macroscopic trans-port trajectories can clarify when coarse-grained transport dynamics generate effective finite-memory structure and when such delayed predictive information admits stable sparse symbolic closure. 24 Acknowledgments 
+
+Cedric Gigand designed the Sargassum-following drifters used in the Gulf Stream deploy-ments, and Cedric Gigand, Gustavo Goni, and Gage Bonner assisted with the drifter deployments. The authors thank Gage Bonner for reading the manuscript and useful sug-gestions. 
+
+# Funding 
+
+This research was funded by the National Science Foundation (NSF) Grant No. OCE2148499. 
+
+# Author Declarations 
+
+Conflict of Interest 
+
+The authors have no conflict of interest to disclose. 
+
+# Author contributions 
+
+F.J.B.-V. conceived the study, developed the theoretical framework, performed the numer-ical analysis, developed the MATLAB implementation, generated the figures, and wrote the manuscript. M.J.O. designed the Gulf Stream Sargassum drifter campaign, acquired funding together with F.J.B.-V., and contributed to manuscript editing and revision. J.M. coordinated the FVCOM implementation, acquired funding, and contributed to manuscript editing and revision. E.C. designed the Puerto Rico Sargassum drifter campaign and con-tributed to manuscript editing and revision. ChatGPT assisted with code development, debugging, and manuscript editing. 
+
+# References 
+
+[ASH20] N. Aksamit, T. Sapsis, and G. Haller. Machine-learning mesoscale and sub-mesoscale surface dynamics from Lagrangian ocean drifter trajectories. J. Phys. Oceanogr. , 50:1179–1196, 2020. [BBVO24] Gage Bonner, Francsico J. Beron-Vera, and Maria J. Olascoaga. Charting the course of Sargassum : Incorporating nonlinear elastic interactions and life cycles in the Maxey–Riley model. PNAS Nexus , 3:pgae451, 2024. [BPK16] Steven L. Brunton, Joshua L. Proctor, and J. Nathan Kutz. Discovering governing equations from data by sparse identification of nonlinear dynamical systems. Proc. Nat. Acad. Sci. USA , 113:3932–3937, 2016. 25 [BV21] F. J. Beron-Vera. Nonlinear dynamics of inertial particles in the ocean: From drifters and floats to marine debris and Sargassum . Nonlinear Dyn. ,103:1–26, 2021. [BV24] F. J. Beron-Vera. Dynamics of inertial particles on the ocean surface with unrestricted reserve buoyancy. Physics of Fluids , 36:101702, 2024. [BVB26] Francisco J. Beron-Vera and Gage Bonner. Discovering the dynamics of 
+
+Sargassum rafts’ centers of mass. Chaos , 36:013144, 2026. [BVM20] Francisco J. Beron-Vera and Philippe Miron. A minimal Maxey–Riley model for the drift of Sargassum rafts. J. Fluid Mech. , 904:A8, 2020. [BVOH +15] F. J. Beron-Vera, M. J. Olascoaga, G. Haller, M. Farazmand, J. Tri˜ nanes, and Y. Wang. Dissipative inertial transport patterns near coherent Lagrangian eddies in the ocean. Chaos , 25:087412, 2015. [BVOM19] F. J. Beron-Vera, M. J. Olascoaga, and P. Miron. Building a Maxey– Riley framework for surface ocean inertial particle dynamics. Phys. Fluids ,31:096602, 2019. [BVOMB26] Francisco J. Beron-Vera, Mar´ ıa J. Olascoga, Philippe Miron, and Gage Bon-ner. Tracing the origin of tropical North Atlantic Sargassum blooms to West Africa. PNAS Nexus , 5(4):pgag085, 2026. [CLB03] Changsheng Chen, Hedong Liu, and Robert C. Beardsley. An unstructured grid, finite-volume, three-dimensional, primitive equations ocean model: Ap-plication to coastal ocean and estuaries. Journal of Atmospheric and Oceanic Technology , 20(1):159–186, January 2003. [HBB +20] Hans Hersbach, Bill Bell, Paul Berrisford, Shoji Hirahara, Andr´ as Hor´ anyi, Joaqu´ ın Mu˜ noz-Sabater, Julien Nicolas, Carole Peubey, Raluca Radu, Di-nand Schepers, Adrian Simmons, Cornel Soci, Saleh Abdalla, Xavier Abellan, Gianpaolo Balsamo, Peter Bechtold, Gionata Biavati, Jean Bidlot, Massimo Bonavita, Giovanna Chiara, Per Dahlgren, Dick Dee, Michail Diamantakis, Rossana Dragani, Johannes Flemming, Richard Forbes, Manuel Fuentes, Alan Geer, Leo Haimberger, Sean Healy, Robin J. Hogan, El´ ıas H´ olm, Marta Janiskov´ a, Sarah Keeley, Patrick Laloyaux, Philippe Lopez, Cristina Lupu, Gabor Radnoti, Patricia Rosnay, Iryna Rozum, Freja Vamborg, Sebastien Villaume, and Jean-No¨ el Th´ epaut. The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society , 146:1999–2049, 2020. [JBMK +25] Julien Jouanno, Sarah Berthet, Frank Muller-Karger, Olivier Aumont, and Julio Sheinbaum. An extreme North Atlantic Oscillation event drove the pelagic Sargassum tipping point. Communications Earth & Environment ,6(1), February 2025. [LND98] P. Y Le Traon, F. Nadal, and N. Ducet. An improved mapping method of multisatellite altimeter data. J. Atmos. Oceanic Technol. , 15:522–534, 1998. [LPB17] Balaji Lakshminarayanan, Alexander Pritzel, and Charles Blundell. Simple and scalable predictive uncertainty estimation using deep ensembles, 2017. 26 [MMOBV20] P. Miron, S. Medina, M. J. Olascaoaga, and F. J. Beron-Vera. Laboratory verification of a Maxey–Riley theory for inertial ocean dynamics. Phys. Flu-ids , 32:071703, 2020. [MOBV +20] P. Miron, M J. Olascoaga, F. J. Beron-Vera, J. Tri˜ nanes, N. F. Putman, R. Lumpkin, and G. J. Goni. Clustering of marine-debris-and Sargassum -like drifters explained by inertial particle dynamics. Geophys. Res. Lett. ,47:e2020GL089874, 2020. [MR83] M. R. Maxey and J. J. Riley. Equation of motion for a small rigid sphere in a nonuniform flow. Phys. Fluids , 26:883, 1983. [OBVB +23] M. J. Olascoaga, F. J. Beron-Vera, R. T. Beyea, G. Bonner, M. Castellucci, G. J. Goni, C. Guigand, and N. F. Putman. Physics-informed laboratory estimation of Sargassum windage. Physics of Fluids , 35:111702, 2023. [OBVM +20] M J. Olascoaga, F. J. Beron-Vera, P. Miron, J. Tri˜ nanes, N. F. Putman, R. Lumpkin, and G. J. Goni. Observation and quantification of inertial effects on the drift of floating objects at the ocean surface. Phys. Fluids ,32:026601, 2020. [RHW86] David E Rumelhart, Geoffrey E Hinton, and Ronald J Williams. Learn-ing representations by back-propagating errors. Nature , 323(6088):533–536, 1986. [WHB +19] M. Wang, C. Hu, B.B. Barnes, G. Mitchum, B. Lapointe, and J. P. Montoya. The Great Atlantic Sargassum Belt. Science , 365:83–87, 2019. [WS18] Zhong Yi Wan and Themistoklis P. Sapsis. Machine learning the kinematics of spherical particles in fluid flows. Journal of Fluid Mechanics , 857:R2, 2018. 
+
+# Data and Software Availability 
+
+The FVCOM implementation used in this study was produced by the Caribbean Coastal Ocean Observing System (CARICOOS) and is available from https://dm1.caricoos.org/thredds/catalog/content/FVCOM/PRVI/catalog.html. The gridded multimission altimeter products were produced by SSALTO/DUACS and distributed by AVISO (https://www.aviso.altimetry.fr/) with support from CNES. The wind velocity data were obtained from the European Centre for Medium-Range Weather Forecasts (ECMWF) Reanalysis v5 (ERA5), available at https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5. Puerto Rico and Gulf Stream drifter trajectory data used in this study are available from the corresponding author upon reasonable request. The MATLAB scripts used to generate the figures and results presented in this paper are available from the corresponding author upon reasonable request. 27

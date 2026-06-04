@@ -1,0 +1,378 @@
+Title: Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure
+
+URL Source: https://arxiv.org/pdf/2605.29142v1
+
+Published Time: Fri, 29 May 2026 00:23:31 GMT
+
+Number of Pages: 40
+
+Markdown Content:
+# Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure 
+
+# Qianjiang Xing 1, Shane Elipot 1∗, William E. Johns 1, Bablu Sinha 2,Jules Kajtar 2, Adam T. Blaker 2, Tillys Petit 2, Ben I. Moat 2, and David A. Smeed 2
+
+> 1
+
+Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami, Miami, USA. 
+
+> 2
+
+National Oceanography Centre, Southampton, United Kingdom. 
+
+> ∗
+
+Corresponding author. Email: selipot@miami.edu 
+
+Observations from the RAPID array near 26.5 ◦N indicate a linear decline in the AMOC over the past two decades, linked to contrasting boundary changes: a weaken-ing western boundary contribution partly compensated by strengthening at the eastern boundary. The dynamical processes responsible for this partial compensation, however, remain unclear. Because cross-slope gradients in ocean bottom pressure (OBP) provide a dynamical measure of overturning transport, we use a high-resolution ocean model to diagnose OBP gradients across the mid-latitude North Atlantic and investigate the pro-cesses governing these boundary-specific changes. The model reproduces a meridionally consistent decline in western boundary overturning transport and a partially compensat-ing strengthening at the eastern boundary, consistent with observations at 26.5 ◦N. These opposing trends arise from a vertically coherent structure in the OBP trend, shaped by two competing drivers: rising coastal sea level and decreasing density in the ocean interior. Through geostrophic balance, this dual-driver mechanism produces partial compensa-tion between western and eastern boundary trends while also extending across latitudes, leading to a basin-wide decline of the AMOC throughout the mid-latitude North Atlantic. 
+
+1
+
+> arXiv:2605.29142v1 [physics.ao-ph] 27 May 2026
+
+# Introduction 
+
+Monitoring Atlantic Meridional Overturning Circulation (AMOC) using in situ measurement is challenging due to the wide range of spatial scales involved, with mesoscale variability dominating ocean currents ( 1, 2 ). To address these observational difficulties, studies have proposed estimat-ing overturning transports using ocean bottom pressure (OBP) gradient measurements ( 3–6 ). This method is based on the established geostrophic theory and involves vertically integrating OBP gradients at eastern and western continental boundaries and calculating their difference to derive transport. In principle, the AMOC strength can be approximated by the overturning transport inte-grated either from the surface to the depth of the overturning streamfunction maximum (hereafter, the AMOC depth) or from the AMOC depth to the depth at which the overturning streamfunction crosses zero (hereafter, the zero-crossing overturning depth). When the overturning transport is de-rived from OBP gradients below the AMOC depth, it is referred to as the deep overturning transport, which is capable of fully capturing AMOC variability. Modeling and observational studies support this notion, and further show that meridional transports based solely on western boundary OBP gradients reproduce most of the interannual variability in the AMOC at key latitudes ( 3, 6 ). Further modeling research demonstrates that continental slope OBP measurements effectively filter out mesoscale variability, allowing direct observation of climate-relevant, large-scale ocean circulation signals ( 2). Because OBP is coherent across much of the Atlantic basin, it provides a basin-scale measure of the coherent overturning signals associated with AMOC variability ( 2). A previous observational study generated four short-term (3.6-year) time series of the deep western overturning transport relative to and below 1000 m, calculated through double vertical integration of western boundary OBP cross-slope (normal to bathymetric contours) gradients or equivalent geostrophic transport shear, based on four mooring arrays deployed at different latitudes across the North Atlantic ( 7). Their analysis revealed that short-term variations in deep western overturning transport were meridionally coherent and largely driven by wind stress ( 7). Yet, the brevity of these records prevented any robust assessment of long-term trends or decadal variability at the western boundary. A recent multi-latitude study revisited these four time series over a much longer period, up to 22 years, and revealed a meridionally consistent decline in deep western over-2turning transport over the past two decades ( 8). This meridionally consistent signal provides strong evidence of a basin-scale weakening of the AMOC. Moreover, using RAPID array observations at 26.5 ◦N, that study identified an opposing-trend pattern between western and eastern boundary con-tributions to the AMOC. This is an important result that prompts the question of what mechanisms drive this contrasting boundary trend pattern under current climatic conditions. In addition, it is reasonable to ask whether the opposing-trend pattern observed by the RAPID array is representative of the broader North Atlantic. To address the question regarding the consistency of opposing trends, obtaining abundant OBP data across the wider North Atlantic is critical. However, such data are currently unavailable as the existing OBP observations suffer from severe limitations. Bottom pressure recorders, although they directly measure OBP and excel at capturing high-frequency variability, suffer from long-period drift which precludes their use for the assessment of climate trends ( 4). As a result, in-situ OBP observations offer limited mechanistic insight into the opposing boundary trend pattern. In addi-tion, few observational arrays provide basin-wide geostrophic transport profiles needed to estimate overturning transport on both the western and eastern boundaries ( 9), with the RAPID array being an exception. Furthermore, the temporal coverage across the existing arrays at the western boundary varies in record length. For example, although the four time series of deep western overturning transport, estimated by recent observational study ( 8), display a coherent meridional decline, only the two southern arrays of the four mooring arrays, RAPID and MOVE at 26.5 ◦N and 16.5 ◦N, re-spectively, have been operating for nearly two decades ( 10,11 ). In contrast, the two northern arrays, Line W at 39.5 ◦N and the RAPID–Scotian Line at 42.5 ◦N, provide only about ten years of contin-uous observations ( 12, 13 ). Consequently, our ability using observational data to fully characterize the meridional consistency of the opposing trends across the broader North Atlantic remains limited. To overcome these observational limitations, we utilize 24 years (2000-2023) of simulated data from a realistically forced high-resolution ocean model to investigate the trends of deep overturning transports inferred from OBP cross-slope gradients (see Materials and Methods) across the mid-latitude North Atlantic (25–41 ◦N). First, we compute linear trends of deep overturning transports at both western and eastern boundaries to test the robustness and meridional consistency of the 3observed opposing-trend pattern, as well as reassess their relationship with AMOC derived from the velocity field. Second, we explore the physical mechanisms underlying this opposing boundary trend by examining the spatial structure of the simulated OBP trends. Finally, we identify the pro-cesses driving the spatial pattern of the OBP trend under contemporary climate change conditions as represented in the model (model validation in terms of climate change is provided in Materials and Methods). To maintain consistency with our previous study ( 8), deep overturning transports and their western and eastern contributions presented in this study are calculated by vertically integrating OBP gradients between the AMOC depth and the zero-crossing overturning depth, relative to the AMOC depth. As such, negative values of deep overturning transports are associated with southward flows and a positive linear trend represent a decline in transport. The simulated AMOC transport is also sign-reversed when estimating its trend, ensuring direct comparability with the deep overturning transport. 
+
+# Results 
+
+# AMOC and opposing boundary trends in deep overturning 
+
+Within the mid-latitude North Atlantic, the zonally integrated and time mean meridional overturning streamfunction in our model exhibits several notable features (Fig. 1A). The AMOC depth remains relatively constant at around 1000 m, whereas the zero-crossing overturning depth, marking the boundary between the upper and lower overturning cells, is around 3400 m south of 35.5 ◦N and becomes shallower, around 2700 m, to the north of that latitude. The strength of the overturning maximum also exhibits weaker values north of 35.5 ◦N, with its strongest values occurring between 32 ◦N and 35 ◦N. The upper overturning cell shows a widespread negative trend across most latitudes, featuring pronounced values near 32–35 ◦N, except for a localized positive trend between 35.5 ◦Nand 37.5 ◦N (Fig. 1B). Consistently, the basin-wide AMOC trend during 2000–2023 displays a similar meridional structure, reflecting the trend pattern of the upper overturning cell (Fig. 1C). In addition, positive trend values are present in the lower part of the lower overturning cells (below 4(A)     
+
+> (B)
+> (C) (D)
+> (E) (F)
+> OBP trend
+> at 34.5 °N
+> OBP trend
+> at 36.5 °N
+
+Figure 1 : AMOC and the opposing trends in deep western and eastern overturning transports in the mid-latitude North Atlantic. (A) Temporal mean meridional overturning stream function computed by zonal integration of velocity fields across the mid-latitude North Atlantic basin. (B) Colors indicate the linear trend in the overturning stream function, and contours show the mean overturning stream function from panel (A). (C) Linear trends with uncertainties of 95% significance level (shading) in deep full overturning transport (green; 𝑇 𝐹𝑢𝑙𝑙 ) at ten selected latitudes and depths (green rhombuses in the panel A) and AMOC anomalies (black) throughout the basin. (D) Linear trends with uncertainties (error bars) in deep western overturning transport (red; 𝑇 𝑊 ) and deep eastern overturning transport (blue; 𝑇 𝐸 ) at the ten selected latitudes. (E, F) Vertical profiles of OBP trends at the western boundary, eastern boundary, and their difference for the 34.5 ◦N and 36.5 ◦N section. 54500 m, Fig. 1B), corresponding to a weakening of the abyssal overturning. The primary climatic influence of the AMOC stems from its role in oceanic meridional heat transport (MHT), with variations in MHT directly influencing regional to global temperature pat-terns ( 14 ). The tight coupling between MHT and AMOC is well established at 26.5 ◦N, where RAPID array observations demonstrate a strong correlation between the two ( 14,15 ), implying that large-scale AMOC changes are accompanied by corresponding MHT adjustments at that latitude. In our model, this linear relationship between AMOC and MHT holds broadly (Figure S1): their correlations exceed 0.7 across the basin and remain statistically significant at all latitudes of the domain considered. However, a noticeable weakening in correlation is observed between 35 ◦N and 38 ◦N, implying a transitional zone where the contribution of overturning to the MHT is proba-bly different to adjacent regions. The AMOC and MHT trends show consistent sign alignment across latitudes. A positive trend (weakening) dominates most latitudes, except between 35.5 ◦Nand 37.5 ◦N where MHT also exhibits negative trends (strengthening). North of 39 ◦N, the MHT weakening trend persists, while the AMOC trend decays to near zero by 41 ◦N. This indicates that in the subpolar region, changes in MHT are no longer dominated by the AMOC but may instead be governed by horizontal circulation, such as the Gulf Stream extension ( 16 ). At 26.5 ◦N, the simulated AMOC compares reasonably with observations, though with some systematic differences (Figure S2). The simulated AMOC has a mean strength of 13.9 ± 2.8 Sv (mean ± standard deviation) over 2004–2023. Both the mean and variability are weaker than ob-served AMOC, compared with 17.1 ± 4.6 Sv reported by the RAPID array ( 10 ). The time-mean AMOC depth (946 m) and the zero-crossing overturning depth (3324 m) are also shallower than the corresponding RAPID estimates (993 m and 4300 m, respectively). Such a relatively shallow zero-crossing overturning depth is typical of CMIP-class climate models, with nearly all models exhibiting a shallower overturning transition depth compared with RAPID observations ( 17 ). Many CMIP6 models also simulate an abyssal overturning cell associated with Antarctic Bottom Water (AABW) formation stronger than observed, a feature that is likewise present in our model. Con-sistent with the behavior of most CMIP6 models ( 17 ), which exhibit a strong relationship between present-day AMOC strength and its projected weakening under warming scenarios, the weaker 6AMOC in our model is accompanied by a weaker declining trend (0.06 ± 0.06 Sv/yr, 95% con-fidence interval) compared with the observed RAPID trend of 0.09 ± 0.08 Sv/yr (2-𝜎 confidence intervals) over the same period ( 10 ). To estimate deep overturning transports in our model, integrated from the AMOC depth down to zero-crossing overturning depth, we extract continental slope OBP fields within a depth range of 1000-3000 m (see Materials and Methods) for both western (Figure S3) and eastern boundaries (Figure S4) of the mid-latitude North Atlantic (Fig. 2A). In the model, the AMOC depth is approximately 1000 m, whereas we adopt a fixed zero-crossing overturning depth of 3000 m across the entire basin. Because estimating deep overturning transport from OBP cross-slope gradients along the full continental boundaries is computationally demanding, we focus on ten representative latitudes across the domain considered to compute deep overturning transports for the western boundary contribution ( 𝑇 𝑊 ), eastern boundary contribution ( 𝑇 𝐸 ), and the combined contributions from 𝑇 𝑊 and 𝑇 𝐸 (𝑇 𝐹𝑢𝑙𝑙 ), see Equations 6, 7, and 8 in Materials and Methods. More latitudes are sampled near 36 ◦N, which appears to be a transition region. From all latitudes considered, we identify a meridionally consistent pattern of a declining trend for 𝑇 𝑊 and a strengthening trend for 𝑇 𝐸 (Fig. 1D). The magnitude of these opposing trends peak at around 32-35 ◦N, aligned with the latitude of peak AMOC strength and the strongest declining trend in the AMOC (Fig. 1A). In most cases, the 𝑇 𝑊 trends exceed those of 𝑇 𝐸 , resulting in a declining 𝑇 𝐹𝑢𝑙𝑙 trend across nearly all latitudes, except at 36 ◦N and 36.5 ◦N. The 𝑇 𝐹𝑢𝑙𝑙 trends at all representative latitudes closely track the AMOC trends (Fig. 1C). These results confirm that the trend in deep overturning transport derived from OBP cross-slope gradient provides a robust measure of the AMOC trend across the mid-latitude North Atlantic, with contrasting contributions from the western and eastern boundaries giving rise to the opposing trend patterns. 
+
+# Opposite-sign vertical structure of the OBP trend 
+
+The deep overturning transport is governed by the cross-slope OBP gradients at the western and eastern boundaries (see Equation 5 in Materials and Methods). Accordingly, the trends in 𝑇 𝑊 and 
+
+𝑇 𝐸 are expected to be closely linked to the vertical structure of OBP trends along the continental 7slopes of their respective boundaries. The trends in deep overturning transport exhibit a distinct meridional pattern (Fig. 1, C and D), with 𝑇 Full weakening at 32–35 ◦N and strengthening at 35.5–37.5 ◦N, accompanied by correspondingly larger and smaller magnitudes in the 𝑇 𝑊 and 𝑇 𝐸 
+
+trends in these two regions. We therefore select 34.5 ◦N and 36.5 ◦N from these two regions as representative latitudes to further examine how the vertical structure of the OBP trend influences the overturning transport trends. Both the western and eastern boundaries at 34.5 ◦N and 36.5 ◦Nexhibit an opposite-sign vertical structure in the OBP trend: a positive trend above 1500–2000 m depth and a negative trend below (Fig. 1, E and F). A key distinction is that at 34.5 ◦N, the magnitude of the western OBP trend for the full depth generally exceeds that of the eastern boundary, whereas at 36.5 ◦N, the western trend becomes comparable to, or even weaker than, its eastern counterpart. This contrast reflects the relative magnitudes of the 𝑇 𝑊 and 𝑇 𝐸 trends at these latitudes. These results illustrate the link between the overturning transport trend and the vertical structure of the OBP trend at these two latitudes. Therefore, we examine next whether this vertical structure is a robust feature across the broader mid-latitude North Atlantic. Fig. 2B shows the horizontal distribution of the OBP trend throughout the mid-latitude North Atlantic basin. In general, the OBP exhibits positive trend values on both western and eastern continental shelves, and negative trend values in the ocean interior. To examine further the structure of the OBP trend with depth, we trace bathymetry contours in the 1000-3000 m depth range, and we extract continental slope OBP fields for both western and eastern boundaries so that we can plot OBP trend in an along-boundary versus depth coordinate system (Fig. 2, C and D). Such representation of the OBP trend reveals a meridionally consistent vertical (cross-slope) pattern, with positive values at shallower depths and negative values at deeper depths at both the western and eastern boundaries. At the western boundary, the transition between positive and negative OBP trends is substantially deep, around 2300 m, at latitude of around 36.2 ◦N (point 200). At latitudes near 34 ◦N (point 250), the transition depth sharply shoals to about 1200 m, and then deepens again to vary between 1500 and 2000 m to south of 31.7 ◦N (Fig. 2C). At the eastern boundary, aside from a localized region of sharp changes (points 50–150) associated with complex topography, the depth of the zero-crossing OBP trend remains relatively stable at approximately 1600 m except for a shoaling to north of latitude near 36 ◦N. Overall, the OBP trend exhibits a coherent cross-slope 8(A)       
+
+> (B)
+> (C) (D)
+> From 40 °NTo 25 °NFrom 25 °NTo 40 °N
+> Cape Hatteras
+> Blake Plateau
+> Shelf
+> Mid -Atlantic Bight
+> South Atlantic Bight
+
+Figure 2 : The opposite-sign structure of the OBP trend across the mid-latitude North Atlantic. 
+
+(A) Bathymetry of the mid-latitude North Atlantic between 25 ◦N and 41 ◦N. Red and blue dots mark every 50 points along the traced isobaths on the western and eastern boundaries, respectively. Note that tracing begins at 41 ◦N on the western boundary and at 25 ◦N on the eastern boundary. (B) Horizontal distribution of the OBP trend across the mid-latitude North Atlantic. Yellow circle and box at the western boundary mark the approximate locations of Cape Hatteras and the Blake Plateau. (C, D) Vertical structure of the OBP trend at the western and eastern boundaries, shown in along-boundary versus depth coordinates. The smoothed green contour highlights the zero-OBP trend line. For clarity, this and the following figures include only the isobaths at the western and eastern continental boundaries and isobaths in other regions (e.g., the Gulf of Mexico and the Mid-Atlantic Ridge) are excluded. 9vertical structure at both boundaries, with a depth-dependent sign reversal that varies meridionally, showing stronger spatial variability at the western boundary and a comparatively stable structure at the eastern boundary. Within the 1000–3000 m layer, we therefore observe a meridionally consistent opposite-sign (positive-up, negative-down) vertical structure of the OBP trend at both boundaries. This structure is associated with the widespread declining trend in 𝑇 𝑊 and the strengthening trend in 𝑇 𝐸 . In this deep layer, the deep negative OBP trend contributes to a negative trend in the OBP cross-slope gradient. According to geostrophy (Equation 4 in Materials and Methods), a negative trend in the cross-slope OBP gradient produces a negative trend in the shear of the eastern boundary over-turning contribution and a positive trend in the shear of the western boundary contribution. After performing the vertical integrations, this shear tendency results in a positive (declining) trend in 
+
+𝑇 𝑊 at the western boundary and a negative (strengthening) trend in 𝑇 𝐸 at the eastern boundary. By the same argument, a positive OBP trend in the upper part of this deep layer in turn leads to a strengthening trend in 𝑇 𝑊 and a weakening trend in 𝑇 𝐸 .The positive-up and negative-down OBP trends within the 1000–3000 m layer induce opposite contributions to the overall trend in deep overturning transports. This implies that the relative depth of the zero-crossing of the OBP trend within the 1000–3000 m layer at each boundary controls the magnitudes of the declining trend in 𝑇 𝑊 and strengthening trend in 𝑇 𝐸 , respectively. A deeper zero-crossing depth corresponds to a weaker declining trend in 𝑇 𝑊 and a weaker strengthening trend in 
+
+𝑇 𝐸 . Therefore, at the western boundary, the weakest declining trend in 𝑇 𝑊 occurs near 36 ◦N, where the zero-crossing depth is the deepest, while the strongest declining trend occurs near 32-35 ◦Nwith the shallowest zero-crossing depth (Fig. 2C). In the same way, at the eastern boundary, the shallower zero-crossing depth north of 36 ◦N corresponds to the stronger strengthening trend in 𝑇 𝐸 
+
+(Fig. 2D). Its magnitude becomes larger than that of 𝑇 𝑊 , resulting in a net strengthening trend in 
+
+𝑇 𝐹𝑢𝑙𝑙 at 35.5–37.5 ◦N. In the simulated mid-latitude North Atlantic, we identify meridionally coherent but opposing overturning trends at the western and eastern boundaries, along with the strongest decline in the 10 AMOC between 32 ◦ and 35 ◦N and a localized strengthening between 35.5 ◦ and 37.5 ◦N. These features share a common origin: they arise from the vertical structure of the trend in the OBP cross-slope gradient, and therefore from the spatial structure of the OBP trend itself. We now turn to identifying the physical mechanisms, under climate change as represented in the model, that give rise to this spatial structure of the OBP trend in the mid-latitude North Atlantic. 
+
+# What drives the OBP trend structure under climate change? 
+
+According to the calculation of the OBP in our model (see Equation 2 in the Materials and Methods), the temporal tendency of the OBP can be decomposed into two contributions as follows: 
+
+𝜕𝑃 ′(𝑧 = −𝐻, 𝑡 )
+
+𝜕𝑡 = 𝑔𝜌 0
+
+𝜕 
+
+h∫ 𝑧 =𝜂 (𝑡 ) 
+
+> 𝑧 =−𝐻 𝜌 (𝑧,𝑡 )− 𝜌 0
+> 𝜌 0
+
+𝑑𝑧 
+
+i
+
+𝜕𝑡 + 𝑔𝜌 0
+
+𝜕𝜂 (𝑡 )
+
+𝜕𝑡 , (1) where the first term on the right-hand side represents the contribution from full-depth density changes (hereafter density term) and the second term represents the contribution from mean sea level changes (herefafter sea level term). We examine how variations in these two terms act together to produce the characteristic spatial structure observed in the 2000-2023 OBP linear trend in the mid-latitude North Atlantic. As shown in Fig. 3A, the density term is generally negative across the ocean interior, with pro-nounced negative values over the Gulf Stream region (north of about 35 ◦N) and localized positive values to the south of the Gulf Stream (32-34 ◦N) and the middle of the basin (35 ◦N, 55 ◦W-35 ◦W). In contrast, at the western boundary in waters shallower than 300 m, the density term contributes a weak positive signal to the north of Cape Hatteras (Mid-Atlantic Bight, see Fig. 2B) and near-zero signal to the south (Fig. 3A). The sea level term has a similar distribution pattern as the density term overall, but with an opposing sign in the ocean interior, showing how most of this common pattern reflects steric changes to the sea level (Fig. 3B). However, at the western boundary, the sea level term is of the same positive sign as the density term north of Cape Hatteras within the Mid-Atlantic Bight, resulting in a net positive OBP trend there. To the south of Cape Hatteras and inshore of the 300 m isobath, the density term is near zero but the sea level term is positive and relatively stronger than to the north, resulting in a net positive strong OBP trend in the South Atlantic Bight. At the 11 (A) 
+
+## (B) Figure 3 : The OBP trend is decomposed into contributions from the trend in ocean water density and sea level changes (A and B) Horizontal distribution of the density term and sea level term in the mid-latitude North Atlantic during 2000-2023. Note that the two panels in this figure use a consistent color scheme with Fig. 2B but different scales, as the density and sea level terms are an order of magnitude larger than the OBP trend. 12 eastern boundary, the sea level term is uniformly positive from offshore to inshore irrespective of the shallowing isobaths, whereas the density term transitions from negative in the interior and offshore to near zero within a narrow coastal strip, resulting in a positive OBP trend inshore of approximately the 1000 m isobath. Therefore, in the model, the effects of decreasing density and rising sea level on the OBP trend do not exactly cancel each other through steric adjustment. Instead, their imbalance causes the spatial pattern of OBP trend across much of the basin (Fig. 2B). Specifically, sea level rise dominates the positive OBP trend at shallower depths on the continental shelves, whereas density decrease predominantly drives the negative OBP trend at deeper depth on the continental slope and in the ocean interior. Thus, in the warming climate simulated by the model over 2000–2023 (as shown in Figures S5 and S6), the combined effects of sea level rise and decreasing ocean density shape the spatial structure of the OBP trend. In particular, they explain the meridional variations in the depth of the OBP trend zero-crossing at the basin boundaries (Fig. 2, C and D). These boundary OBP trends form a meridionally coherent pattern that reflects the boundary opposing contributions to Atlantic overturning and leads to a weakening AMOC throughout the mid-latitude North Atlantic. To understand how the 2000-2023 OBP trend pattern arise, we examine the spatial evolution of OBP anomalies over 2000–2023 (Fig. 4), which generally shows an increase along the western and eastern boundaries and a decrease in the ocean interior, consistent with the spatial pattern of the OBP trend shown in Fig. 2B. However, the temporal evolution of these anomalies further reveals that OBP variability along the western and eastern boundaries exhibits distinct behaviors, which are not apparent from the spatial distribution of the long-term trend alone. OBP anomalies at the eastern boundary are primarily driven by sea level changes that are spatially uniform both inshore and offshore, showing little dependence on bathymetric contours and latitude (Figure S7). In contrast, OBP anomalies at the western boundary are closely constrained by isobaths, with Cape Hatteras serving as a key separation point. From 41 ◦N to near Cape Hatteras, most OBP anomalies at the western boundary before 2012 are also driven by sea level changes (Figure S7). In contrast, density changes typically lead to weak positive anomalies during 2012-2014, 2015-2017, and 2021-2023 (Figure S8, B, D, and F), associated with enhanced increased salinity in the salty North Atlantic Mode Waters ( 18 ). South of Cape Hatteras, stronger OBP anomalies develop on the South Atlantic Bight, where sea level changes always dominate during 2000-2023 (Figure S7). During 2015–2023, 13 pronounced positive OBP anomalies associated with sea level changes propagate from the South Atlantic Bight toward Cape Hatteras (Fig. S7F–H). These sea level changes arise from variations in Gulf Stream transport, owing to the large cross-stream sea level gradients of the Gulf Stream and its proximity to the shelf ( 19 ). The positive OBP anomalies near Cape Hatteras are dynamically linked to the open ocean through Gulf Stream variability ( 20 ). (A)  (E)    
+
+> (B) (F)
+> (C) (G)
+> (D) (H)
+
+Figure 4 : Evolution of OBP anomalies in the mid-latitude North Atlantic during 2000–2023. 
+
+(A-H) OBP anomalies with respect to the 2000-2023 time-mean in consecutive 3-year intervals, chosen to reduce interannual variability while retaining sufficient temporal resolution to illustrate the gradual evolution of the anomalies. Overall, at the western boundary, OBP anomalies generally weaken from 41 ◦N toward Cape Hatteras regardless of whether they are driven by density changes or sea level changes, whereas intensified continental shelf-origin anomalies driven by sea level changes on the South Atlantic Bight extend to near Cape Hatteras. This results in the weakest declining trend and the strongest declining trend in the overturning transports derived from OBP cross-slope gradient to the north and south of Cape Hatteras, respectively. In addition, OBP anomalies transitioning from negative 14 to positive values are generally stronger at the western boundary relative to the eastern boundary at the same latitude (Fig. 4). Consequently, the magnitude of the declining trend in western boundary overturning is generally larger than the magnitude of the strengthening trend at the eastern boundary, producing a widespread declining trend in the AMOC across most latitudes of the mid-latitude North Atlantic. 
+
+# Discussion 
+
+This study employs a high-resolution model to show that the interplay between rising sea level and decreasing density under a warming climate generates an opposite-sign spatial structure of the ocean bottom pressure (OBP) trend at both the western and eastern boundaries of the mid-latitude North Atlantic. This structure, in turn, produces opposing trends in deep overturning transport linked to OBP cross-slope gradients at the western and eastern boundaries through the zonally integrated meridional geostrophic balance. Since the declining trend in western boundary overturn-ing is generally stronger than the strengthening trend in the east, the model yields a meridionally consistent decline in the deep overturning transport across the full section, which closely captures the declining trend in the AMOC throughout the mid-latitude North Atlantic. These results are consistent with and provide a clear mechanistic explanation for the findings of a previous observa-tional study ( 8). Together, they advocate for the inclusion of OBP measurements in future AMOC observing systems, despite the current limitations in AMOC observational coverage and the tech-nical constraints of bottom pressure recorders ( 2, 9, 21 ). The depths that primarily define the vertical structure of the overturning circulation in the North Atlantic (AMOC depth and zero-cross overturning depth) show changes that are linked to the long-term AMOC trend, yet this linkage has received limited attention. The AMOC trends in our model are weaker than those inferred at the RAPID array. Several factors may contribute to this difference, including the weaker simulated AMOC strength and the shallower zero-crossing over-turning depth. A recent study has shown that climate models with stronger and deeper present-day overturning tend to project larger weakening and shoaling under global warming, because a less stratified North Atlantic allows surface buoyancy flux anomalies to penetrate deeper, producing 15 larger density changes at depth and consequently a larger AMOC decline ( 17 ). Recent RAPID observations indicate that both the AMOC depth and the zero-crossing overturning depth have shoaled over the past two decades ( 8, 10 ). Because the deep overturning transport is calculated within these two depth boundaries, such changes in the vertical structure of the overturning can substantially influence the magnitude of its long-term trend, and thus the estimated AMOC trend. This highlights the importance of carefully selecting and regularly reassessing the depth ranges used to estimate deep overturning transport. Moreover, we argue that future AMOC observing system designs should more explicitly monitor how these key depths evolve in response to overturning changes. This model study identifies a special transition region between 32 and 37.5 ◦N, with 35.5 ◦N as a key boundary for the AMOC strength (Fig. 1A) as well as for the trends in AMOC and deep overturn-ing transport (Fig. 1, B and C). At the western boundary, Cape Hatteras, located near 35.5 ◦N, marks the separation of the Gulf Stream from the continental margin into the ocean interior. This separation favors the shallowest zero-crossing depth of the OBP trend due to the strongest negative sea level term between 1000 and 3000 m (Fig. 3C) at 32-35 ◦N. These features give rise to the strongest de-clining trends in western boundary overturning transport (Fig. 1D), and therefore the largest AMOC declining trend at 32-35 ◦N. Further north (35.5-37.5 ◦N), the deepening zero-crossing depth of the OBP trend due to the strongest positive sea level term below 1000 m corresponds to much weaker declines in western boundary overturning. In contrast, the shoaling zero-crossing depth of the OBP trend at the eastern boundary induce stronger strengthening in eastern boundary overturning. This potentially induces a net strengthening of deep overturning transport, and thus a strengthening of the AMOC at 35.5-37.5 ◦N. In addition, in the framework of the transformed Eulerian mean, the residual meridional circulation is defined as the sum of the Ekman transport and the eddy-induced transport, which together set the overturning structure and stratification ( 22–24 ). Although this theory was originally developed for the Antarctic Circumpolar Current region, it is expected to be applicable to other baroclinically active western boundary current systems, including the Gulf Stream. From an energetics perspective, the positive eddy kinetic energy (EKE) trend near Cape Hatteras (Figure S9) reflects a strengthening of localized eddy-induced transport. Given that Ekman transport exhibits no significant trend over the study period, the enhanced eddy-induced transport 16 leads to a strengthened residual circulation and thus a positive AMOC trend at 35.5-37.5 ◦N. The sign-contrast in AMOC trends observed in this region points to a northward displacement of the AMOC streamfunction, most clearly seen in the significant positive linear trend of the maximum AMOC latitude (Figure S10A). This finding suggests that the AMOC response to climate change is more nuanced than a simple, meridionally coherent slowdown or acceleration. Rather, it is charac-terized by a spatial reorganization of its circulation, involving distinct regional changes in dynamics. The spatially heterogeneous long-term evolution of the overturning circulation revealed by our model highlights a critical limitation of single-latitude AMOC observing arrays. It is not always the case that the overturning streamfunction exhibits a declining trend throughout the mid-latitude North Atlantic. The strengthening observed at 35.5–37.5 ◦N is one example. In addition, a positive trend in overturning streamfunction appears south of 32 ◦N below about 4800 m (Fig. 1B). Our model shows decreasing temperature and Ocean Heat Content (OHC) trends (Figure S5C and Fig-ure S6D), together with the increasing density trend at these depths (Figure S5D), indicate that the abyssal water in the mid-latitude North Atlantic is becoming colder and denser due to the cooling of North Atlantic Deep Water coming from the north ( 25 ). This abyssal cooling increases deep-ocean stratification, contributing to the positive trend in overturning transport in the abyssal ocean. As our model reasonably reproduces observed abyssal climate changes (e.g., temperature and OHC trends) consistent with long-term observations ( 25,26 ), we are confident that it captures the basin-wide and abyssal adjustment of the overturning circulation to climate change. However, AMOC observations at a single latitude, while able to capture large-scale signals and local variability, may be insufficient and potentially misleading for fully characterizing such basin-scale adjustments. The high-resolution ocean model used in this study helps overcome several observational limitations, including the short and non-uniform duration of available records and the sparse distribution of observational arrays that cannot fully cover the basin. The model enables a robust diagnosis of the relationship between OBP-based metrics (including OBP trends and OBP cross-slope gradients trends) and overturning transport trends. This relationship reflects density and sea level changes associated with climate warming that generate opposite-sign spatial structures in OBP trends, thereby inducing opposing boundary contributions to overturning transport, as 17 observed by the RAPID array ( 8), ultimately leading to the net decline in the AMOC. Although the simulated AMOC is weaker and shallower than observed, resulting in a reduced AMOC trend magnitude, we are confident that the mechanistic insights derived from the OBP framework remain applicable for interpreting overturning transport trends inferred from observations. At the same time, our results highlight that trend estimates derived from a single observational array should be interpreted with caution, and emphasize the importance of monitoring the overturning circulation at multiple latitudes, with observational analyses evaluated in conjunction with model simulations. 
+
+# Materials and Methods 
+
+Eddy-rich double-nested model 
+
+The numerical simulations analyzed here are conducted using NEMO version 4.2.2 ( 27 ), coupled to the SI3 sea-ice model ( 28 ). The model setup follows the general design of the global 1/4 ◦ GOSI9 configuration developed jointly by the National Oceanography Centre and the UK Met Office within the Joint Marine Modelling Programme ( 29 ). Enhanced horizontal resolution is achieved through a two-level AGRIF nesting strategy in the subtropical North Atlantic. The first nest refines the grid to 1/12 ◦ over 6–42 ◦N, while a second nest further increases the resolution to 1/36 ◦ between 19–31 ◦N. The vertical discretization consists of 75 levels, with layer thicknesses increasing from 1 m near the surface to approximately 250 m at depth, and bottom topography represented using partial-steps. Atmospheric forcing is prescribed using surface fluxes derived from the Japanese Meteorological Agency reanalysis JRA55-do ( 30 ). The simulation spans the period 1976–2023. For the present analysis, we focus on the mid-latitude North Atlantic (25–41 ◦N), a region well suited for diagnosing basin-scale AMOC variability and continental-slope ocean bottom pressure. Monthly model output at 1/12 ◦ resolution is used throughout this domain. To facilitate comparisons with observations from long-term mooring arrays, including RAPID ( 10 ) and Line W ( 31 ), and to minimize the influence of model spin-up, we restrict our analysis to the 2000–2023 period. We present diagnostics which show the background evolving climatic conditions in the North Atlantic study region over model years 2000-2023. As shown in Figure S5, both sea surface temperature (SST) and sea surface height (SSH) exhibit basin-wide positive trends throughout the 18 mid-latitude North Atlantic. Figure S6 further displays the horizontal patterns of depth-integrated ocean heat content (OHC) trends across four layers (0–700 m, 700–2000 m, 2000–4000 m, and 
+
+>4000 m). In the upper 4000 m, OHC trends are predominantly positive, with stronger positive trend in the western half basin and weaker or localized negative trends in the eastern basin. In contrast, the abyssal layer below 4000 m is characterized by widespread negative OHC trends. Overall, the features demonstrate that the model simulation during 2000–2023 captures a warming climate state that is broadly consistent with observation-based datasets and studies ( 25, 26, 32–35 ). 
+
+# OBP calculation in the model 
+
+Our model computes ocean bottom pressure (OBP) based on the hydrostatic balance following the approach adopted by many others (e.g., CMIP6 ( 36 )). Considering a water column of the mid-latitude North Atlantic (Figure S11), the OBP anomaly 𝑃 ′(𝑧 = −𝐻, 𝑡 ) (also denoted as OBP) at depth 𝑧 = −𝐻 and time 𝑡 can be expressed as: 
+
+𝑃 ′(𝑧 = −𝐻, 𝑡 ) = 𝑔𝜌 0
+
+∫ 𝑧 =𝜂 (𝑡 )
+
+> 𝑧 =−𝐻
+
+𝜌 (𝑧, 𝑡 ) − 𝜌 0
+
+𝜌 0
+
+𝑑𝑧 + 𝜂 (𝑡 )
+
+
+
+, (2) where 𝜌 (𝑧, 𝑡 ) is the in-situ density of seawater, 𝑔 is the gravitational acceleration, 𝜂 denotes the time-varying sea surface height relative to the geoid ( 𝑧 = 0), and 𝜌 0 is the reference density. Although atmospheric pressure contributes to OBP in the real ocean, it is not supplied as part of the atmospheric forcing for our ocean model configuration and is therefore not present in this calculation. 
+
+# Measuring deep overturning transport 
+
+Measuring deep overturning transport using the stepping method ( 4) has been described in detail in our previous work ( 8). Here, we provide a brief summary of the method used to estimate deep overturning transport from cross-slope gradients of OBP. Starting from the zonal component of the horizontal geostrophic momentum balance, we obtain the expression 
+
+𝑄 (𝑦, 𝑧 ) ≡ 
+
+∫ 𝑥 𝐸 
+
+> 𝑥 𝑊
+
+𝑣 𝑔 𝑑𝑥 = 1
+
+𝜌 𝑓 [ 𝑝 𝐸 (𝑦, 𝑧 ) − 𝑝 𝑊 (𝑦, 𝑧 )] , (3) which states that 𝑄 (𝑦, 𝑧 ), the meridional geostrophic transport per unit depth at latitude 𝑦 , is pro-portional to the difference in OBP between the eastern and western continental slopes. 19 Our interest lies in overturning transports, associated with vertical shear and compensating flows at different depths ( 3). The vertically integrated boundary OBP gradient has been shown to be indicative of overturning processes in the North Atlantic MOC. This expectation was confirmed by further study ( 6) where transport profiles together with independent bottom pressure recorder (BPR) measurements from the first year of the RAPID array are used to demonstrate that the boundary pressure gradient is proportional to the vertical shear of the geostrophic transport profile. Because the spatial distribution of individual mooring arrays makes it impossible to obtain continuous OBP measurements along the continental slope, direct observations of the along-slope OBP structure are not available. However, following Elipot et al. ( 7) and Xing et al. ( 8), a stepping method can be employed, in which the cross-slope OBP gradient is inferred from density and along-slope velocity measurements, allowing the overturning transport to be estimated. Consistent with these observational studies, we therefore continue to use the vertical structure of the cross-slope OBP gradient as the key diagnostic quantity for overturning variability. Therefore, the relevant quantity for diagnosing overturning is the vertical structure of the cross-slope OBP gradient. Taking the vertical derivative of (3) yields 
+
+𝜕𝑄 (𝑦, 𝑧 )
+
+𝜕𝑧 = 1
+
+𝜌 𝑓 𝜕 𝜕𝑧 [ 𝑝 𝐸 (𝑦, 𝑧 ) − 𝑝 𝑊 (𝑦, 𝑧 )] . (4) Equation (4) shows that the vertical shear of meridional transport, and thus the overturning circulation, can be decomposed into two contributions: one from the vertical gradient of eastern-boundary OBP and one from that of the western boundary. Each contribution can be vertically integrated to yield an overturning transport profile at the individual boundary ( 4, 8 ). In this study, we compute the deep full overturning transport 𝑇 𝐹𝑢𝑙𝑙 by vertically integrating the right-hand side of (4) twice over the depth range bounded by the fixed depth of the overturning streamfunction maximum ( 𝑧 𝐴𝑀𝑂𝐶 ) and the fixed depth of the zero crossing of the overturning streamfunction ( 𝑧 𝑏 ): 
+
+𝑇 Full (𝑦 ) = 1
+
+𝜌 𝑓 
+
+∫ 𝑧 AMOC 
+
+> 𝑧 𝑏
+
+∫ 𝑧 AMOC 
+
+> 𝑧 𝑏
+
+𝜕 𝜕𝑧 ′ [ 𝑝 𝐸 (𝑦, 𝑧 ′) − 𝑝 𝑊 (𝑦, 𝑧 ′)] 𝑑𝑧 ′
+
+
+
+𝑑𝑧. (5) We further separate this deep full overturning transport into eastern and western boundary 20 contributions by integrating the OBP gradients at each boundary independently: 
+
+𝑇 𝐸 (𝑦 ) = 1
+
+𝜌 𝑓 
+
+∫ 𝑧 AMOC 
+
+> 𝑧 𝑏
+
+∫ 𝑧 AMOC 
+
+> 𝑧 𝑏
+
+𝜕 𝑝 𝐸 (𝑦, 𝑧 ′)
+
+𝜕𝑧 ′ 𝑑𝑧 ′
+
+
+
+𝑑𝑧, (6) 
+
+𝑇 𝑊 (𝑦 ) = − 1
+
+𝜌 𝑓 
+
+∫ 𝑧 AMOC 
+
+> 𝑧 𝑏
+
+∫ 𝑧 𝑧 𝑏 
+
+𝜕 𝑝 𝑊 (𝑦, 𝑧 ′)
+
+𝜕𝑧 ′ 𝑑𝑧 ′
+
+
+
+𝑑𝑧. (7) The anomalies of deep full overturning transport is then given by the sum of the anomalies of two boundary contributions: 
+
+𝑇 ′ 
+
+> 𝐹𝑢𝑙𝑙
+
+(𝑦 ) = 𝑇 ′ 
+
+> 𝐸
+
+(𝑦 ) + 𝑇 ′ 
+
+> 𝑊
+
+(𝑦 ). (8) 
+
+# Extracting continental slope bottom pressure 
+
+Extracting continental-slope bottom pressure is essential for estimating the deep overturning trans-port derived from cross-slope gradients of OBP and for examining the vertical structure of OBP trends. The overall methodology was originally proposed by Hughes et al. ( 2), where a comprehen-sive description can be found. For the purpose of extracting OBP and estimating deep overturning transport from our model output, we follow this approach with several adaptations tailored to our model configuration. The corresponding code is available on Zenodo (see Zenodo link in Data and materials availability), and a detailed description of the procedure, consisting of three main steps, is provided below. 
+
+1. Isobath tracing and construction of an isobath stack We trace targeted isobaths from the model bathymetry using a contour-following algorithm and subsequently organize all traced contours into an ordered stack to ensure spatial continuity along the continental slope. The algorithm begins from a user-defined grid cell close to the desired contour value and identifies intersections between cell edges and the prescribed contour using sign-change detection. The contour is then traced in both directions using a marching-squares–type procedure, in which successive points are located through linear interpolation along intersected edges. Boundary conditions (periodic and non-periodic) are treated consistently, and tracing terminates when the contour closes or reaches an open boundary. This process yields an ordered sequence of grid coordinates representing a continuous isobath. 21 2. Identification of cross-slope points For each isobath, we identify grid locations on the conti-nental slope that are approximately aligned with the local cross-isobath (normal) direction. Because the isobath produced from step 1 can be noisy due to grid discretization, staircase artifacts, and projection effects, we first apply a hybrid smoothing procedure that combines adaptive moving-average filtering ( 37 ), Gaussian convolution with reflective boundaries ( 38 ), and spline-based curve reconstruction subject to arc-length preservation. This approach effectively removes grid-scale noise while retaining large-scale curvature and contour geometry. Local tangent directions are then estimated via linear regression within a sliding window, and the corresponding normal vectors are defined as the perpendicular directions. To ensure stable normal estimates in regions with high curvature, we further apply an elliptical weighting scheme that aggregates information from a large neighborhood, favoring nearby points in the projected normal direction and suppressing along-isobath variations. For each reference point on a shallower isobath, deeper-isobath correspondences are determined by projecting along the estimated normal direction. Candidate matches are identified within a prescribed search radius and selected based on the smallest positive projection distance onto the normal vector. This procedure establishes consistent cross-isobath mappings that capture the geometric deformation of the continental slope from the upper slope to the deep basin. 
+
+3. Extraction of bottom pressure Finally, OBP values are sampled at all selected cross-slope points for every time step. These extracted data form a three-dimensional array, spanning time, reference points along the boundary, and depth. It provides the basis for computing cross-slope OBP gradients as well as for examining the depth-dependent structure of OBP variability and long-term trends. 22 References and Notes 
+
+1. R. Ferrari, C. Wunsch, Ocean circulation kinetic energy: Reservoirs, sources, and sinks. Annual Review of Fluid Mechanics 41 (1), 253–282 (2009). 2. C. W. Hughes, J. Williams, A. Blaker, A. Coward, V. Stepanov, A window on the deep ocean: the special value of ocean bottom pressure for monitoring the large-scale, deep-ocean circulation. 
+
+Progress in Oceanography 161 , 19–46 (2018). 3. R. J. Bingham, C. Hughes, Determining North Atlantic meridional transport variability from pressure on the western boundary: A model investigation. Journal of Geophysical Research: Oceans 113 (C9) (2008). 4. C. W. Hughes, S. Elipot, M. ´ A. Morales Maqueda, J. W. Loder, Test of a method for monitoring the geostrophic meridional overturning circulation using only boundary measurements. Journal of Atmospheric and Oceanic Technology 30 (4), 789–809 (2013). 5. S. Elipot, C. Hughes, S. Olhede, J. Toole, Coherence of western boundary pressure at the RAPID WAVE array: Boundary wave adjustments or deep western boundary current advection? 
+
+Journal of physical oceanography 43 (4), 744–765 (2013). 6. S. Elipot, E. Frajka-Williams, C. W. Hughes, J. K. Willis, The observed North Atlantic Merid-ional Overturning Circulation: its meridional coherence and ocean bottom pressure. Journal of physical oceanography 44 (2), 517–537 (2014). 7. S. Elipot, E. Frajka-Williams, C. W. Hughes, S. Olhede, M. Lankhorst, Observed basin-scale response of the North Atlantic meridional overturning circulation to wind stress forcing. 
+
+Journal of Climate 30 (6), 2029–2054 (2017). 8. Q. Xing, et al. , Meridionally consistent decline in the observed western boundary contribution to the Atlantic Meridional Overturning Circulation. Science advances 12 (15), eadz7738 (2026). 9. G. D. McCarthy, et al. , Sustainable observations of the AMOC: methodology and technology. 
+
+Reviews of Geophysics 58 (1), e2019RG000654 (2020). 23 10. B. I. Moat, et al. , Atlantic meridional overturning circulation observed by the RAPID-MOCHA-WBTS (RAPID-Meridional Overturning Circulation and Heatflux Array-Western Boundary Time Series) array at 26 °N from 2004 to 2023 (v2023. 1) (2024), doi:doi: 10.5285/223b34a3-2dc5-c945-e063-7086abc0f274. 11. U. Send, M. Lankhorst, T. Kanzow, Observation of decadal change in the Atlantic meridional overturning circulation using 10 years of continuous transport data. Geophysical Research Letters 38 (24) (2011). 12. J. M. Toole, M. Andres, I. A. Le Bras, T. M. Joyce, M. S. McCartney, Moored observations of the Deep Western Boundary Current in the NW Atlantic: 2004–2014. Journal of Geophysical Research: Oceans 122 (9), 7488–7505 (2017). 13. J. W. Loder, et al. , Moored current and hydrographic measurements from the RAPID WAVE Scotian Line, 2008 to 2018. Can. Tech. Rep. Hydrogr. Ocean Sci (2025), 398: viii + 74 p. 14. W. E. Johns, et al. , Towards two decades of Atlantic Ocean mass and heat transports at 26.5 °N. 
+
+Philosophical Transactions of the Royal Society A 381 (2262), 20220188 (2023). 15. W. E. Johns, et al. , Continuous, array-based estimates of Atlantic Ocean heat transport at 26.5 °N. Journal of Climate 24 (10), 2429–2449 (2011). 16. M. S. Lozier, et al. , A sea change in our view of overturning in the subpolar North Atlantic. 
+
+Science 363 (6426), 516–521 (2019). 17. D. B. Bonan, et al. , Observational constraints imply limited future Atlantic meridional over-turning circulation weakening. Nature Geoscience pp. 1–9 (2025). 18. A. Hogikyan, L. Resplandy, M. Liu, G. Vecchi, Hydrological cycle amplification reshapes warming-driven oxygen loss in the Atlantic Ocean. Nature climate change 14 (1), 82–90 (2024). 19. T. Ezer, Regional differences in sea level rise between the mid-Atlantic bight and the South Atlantic bight: is the Gulf stream to blame? Earth’s Future 7 (7), 771–783 (2019). 24 20. T. Wu, R. He, Gulf Stream near Cape Hatteras modulates sea level variability along the southeastern coast of North America. Geophysical Research Letters 52 (7), e2024GL112776 (2025). 21. N. Harmon, et al. , Implications for oceanographic and seafloor geodetic applications due to settling of self-calibrating bottom pressure recorders. Geophysical Research Letters 53 (1), e2025GL117927 (2026). 22. R. Karsten, H. Jones, J. Marshall, The role of eddy transfer in setting the stratification and transport of a circumpolar current. Journal of Physical Oceanography 32 (1), 39–54 (2002). 23. J. Marshall, T. Radko, Residual-mean solutions for the Antarctic Circumpolar Current and its associated overturning circulation. Journal of Physical Oceanography 33 (11), 2341–2354 (2003). 24. G. Badin, R. G. Williams, On the buoyancy forcing and residual circulation in the Southern Ocean: The feedback from Ekman and eddy transfer. Journal of physical oceanography 40 (2), 295–310 (2010). 25. G. C. Johnson, S. G. Purkey, Refined estimates of global ocean deep and abyssal decadal warming trends. Geophysical Research Letters 51 (18), e2024GL111229 (2024). 26. D. G. Desbruy` eres, S. G. Purkey, E. L. McDonagh, G. C. Johnson, B. A. King, Deep and abyssal ocean warming from 35 years of repeat hydrography. Geophysical Research Letters 
+
+43 (19), 10–356 (2016). 27. G. Madec, et al. , NEMO ocean engine reference manual. Mreˇ zno]. Available: https://zenodo. org/record/8167700 23 (2023). 28. M. Vancoppenolle, et al. , Si3, the nemo sea ice engine. s Interneta, https://zenodo. org/record/7534900 23 (2023). 29. C. Guiavarc’h, et al. , GOSI9: UK Global Ocean and Sea Ice configurations. Geoscientific Model Development 18 (2), 377–403 (2025). 25 30. H. Tsujino, et al. , JRA-55 based surface dataset for driving ocean–sea-ice models (JRA55-do). 
+
+Ocean Modelling 130 , 79–139 (2018). 31. I. A.-A. Le Bras, J. Willis, I. Fenty, The Atlantic meridional overturning circulation at 35 °Nfrom deep moorings, floats, and satellite altimeter. Geophysical Research Letters 50 (10), e2022GL101931 (2023). 32. K. B. Karnauskas, L. Zhang, D. J. Amaya, The atmospheric response to North Atlantic SST trends, 1870–2019. Geophysical Research Letters 48 (2), e2020GL090677 (2021). 33. P. Prandi, et al. , Local sea level trends, accelerations and uncertainties over 1993–2019. Scien-tific Data 8 (1), 1 (2021). 34. F. Liao, I. Hoteit, A comparative study of the Argo-era ocean heat content among four different types of data sets. Earth’s Future 10 (9), e2021EF002532 (2022). 35. Z. Li, M. H. England, S. Groeskamp, Recent acceleration in global ocean heat accumulation by mode and intermediate waters. Nature Communications 14 (1), 6888 (2023). 36. L. Liu, M. Schindelegger, L. B¨ orger, J. Foth, J. Gou, Assessment of ocean bottom pressure variations in CMIP6 HighResMIP simulations. Ocean Science 21 (5), 2149–2167 (2025). 37. Z. Shan, J. Yang, M. A. Sanju´ an, C. Wu, H. Liu, A novel adaptive moving average method for signal denoising in strong noise background. The European Physical Journal Plus 137 (1), 50 (2022). 38. A. Buades, B. Coll, J.-M. Morel, A review of image denoising algorithms, with a new one. 
+
+Multiscale modeling & simulation 4 (2), 490–530 (2005). 
+
+# Acknowledgments 
+
+We are grateful to Prof. Chris Hughes for his assistance in extracting ocean bottom pressure along the continental slope in the ocean model, including interpreting the details of the method and providing the original IDL script. 26 Funding: Q.X. was supported by U.S. National Science Foundation grant 2148723. S.E. and W.E.J. were supported by U.S. National Science Foundation grant 2148723 and 2334091. B.S., J.K., A.B., T.P., B.I.M., and D.A.S. were supported by Natural Environment Research Council grants NE/Y003551/1 and NE/Y005589/1. 
+
+Author contributions: Conceptualization: Q.X., S.E. Funding acquisition: S.E., W.E.J. Re-sources: S.E., W.E.J., B.S., J.K., A.B., T.P. Methodology: Q.X., S.E. Investigation: Q.X., S.E. Formal analysis and data curation: Q.X., S.E., W.E.J., Visualization: Q.X. Supervision: S.E, W.E.J. Writing—original draft: Q.X. Writing—review and editing: Q.X., S.E., W.E.J., B.S., J.K., A.B., T.P., B.I.M., and D.A.S. 
+
+Competing interests: There are no competing interests to declare. 
+
+Data and materials availability: The model data outputs used in this study are available at https://doi.org/10.5281/zenodo.14733917. The python scripts for extracting ocean bottom pressure are available at https://doi.org/10.5281/zenodo.17970821. 
+
+# Supplementary materials 
+
+Figs. S1 to S11 27 Supplementary Materials for Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure 
+
+Qianjiang Xing 1, Shane Elipot 1∗, William E. Johns 1, Bablu Sinha 2, Jules Kajtar 2, Adam Blaker 2,Tillys Petit 2, Ben I. Moat 2, and David A. Smeed 2
+
+> 1
+
+Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami, Miami, USA. 
+
+> 2
+
+National Oceanography Centre, Southampton, United Kingdom. 
+
+> ∗
+
+Corresponding author. Email: selipot@miami.edu 
+
+This PDF file includes: 
+
+Figures S1 to S11 S1 (A)  (B)  
+
+> (C) (D)
+
+Figure S1 : Analysis of AMOC and MHT variability and trends in the North Atlantic (2000-2023). . (A) Mean meridional heat transport (MHT) as a function of latitude. (B) Mean Atlantic Meridional Overturning Circulation (AMOC) strength as a function of latitude. (C) Correlation coefficient between detrended MHT and AMOC time series at each latitude. Red shading indicates positive correlation. The correlation is statistically significant at all latitudes (p < 0.05). (D) Linear trends of AMOC (red, left y-axis) and MHT (blue, right y-axis) with their 95% confidence intervals (shaded envelopes). AMOC trends are shown in solid lines with red shading, while MHT trends are shown in dashed lines with blue shading. The horizontal black line in (D) marks the zero trend line. S2 S3 Figure S2 : Comparisons between AMOC estimates and deep overturning transport estimates at 26.5 ◦N. (A) Overturning streamfunction (Sv) estimated from the RAPID array over the period 2004–2023. The solid black line represents the time-mean and the gray dashed curves indicates plus or minus one standard deviation around the time mean. Black star indicates the time-mean depth of the overturning streamfunction maximum. The time-varying maximum of the overturning streamfunction defines the Atlantic Meridional Overturning Circulation (AMOC) strength at each time step. The gray star indicates the time-mean depth of the zero-crossing of the overturning streamfunction. (B) Overturning streamfunction estimated from model simulation over the period 2004–2023. (C) Time series of simulated AMOC anomalies (black, 𝐴𝑀𝑂𝐶 ′
+
+), deep full overturning transport at 26.5 ◦N (green, 𝑇 𝐹𝑢𝑙𝑙  
+
+> 26
+
+), deep western overturning transport (red, 𝑇 𝑊  
+
+> 26
+
+), and deep eastern overturning transport (blue, 𝑇 𝐸 
+
+> 26
+
+) during 1976 to 2023, successively offset by -25 Sv. Note that 
+
+𝐴𝑀𝑂𝐶 ′
+
+are derived from the estimated AMOC transport by changing their signs to negative for the convenience of the comparison with deep overturning transports. 𝑇 𝐹𝑢𝑙𝑙  
+
+> 26
+
+, 𝑇 𝑊  
+
+> 26
+
+, and 𝑇 𝐸  
+
+> 26
+
+are also transport anomalies. Trend uncertainties correspond to 95% confidence intervals. S4 Western boundary Figure S3 : Isobath tracing and cross-slope point identification at the western boundary. 
+
+Colored contours correspond to smoothed isobaths between 1000 and 3000 m at 100 m intervals. White dots indicate the cross-slope points extracted from the smoothed isobath geometry. The line between two adjacent cross-slope points should be perpendicular to the smoothed isobaths. More details are provided in Materials and Methods. S5 Eastern boundary Figure S4 : Isobath tracing and cross-slope point identification at the eastern boundary. 
+
+S6 (A) 
+
+(B) 
+
+(C) 
+
+(D) Figure S5 : Model evaluation of climate conditions in sea surface height and sea surface temperature. (A) Horizontal distribution of sea surface height trend in mid-latitude North Atlantic (25-41 ◦N) during 2000-2023. (B) Horizontal distribution of sea surface temperature trend during 2000-2023. (C) and(D) Horizontal distribution of abyssal (4000-6000 m) temperature and density trend during 2000-2023. S7 (A) 
+
+> (B)
+> (C)
+> (D)
+
+Figure S6 : Model evaluation of climate conditions in ocean heat content. (A) Horizontal distribution of the vertically integrated ocean heat content (OHC) trend in the upper 700 m of the mid-latitude North Atlantic during 2000–2023. (B) Horizontal distribution of the vertically integrated OHC trend for 700–2000 m. (C) Horizontal distribution of the vertically integrated OHC trend for 2000–4000 m. (D) Horizontal distribution of the vertically integrated OHC trend below 4000 m. Note that the colorbar scales are not uniform across panels and reflect the magnitude of OHC trends in each depth range. S8 (A)  (E)    
+
+> (B) (F)
+> (C) (G)
+> (D) (H)
+
+Figure S7 : Evolution of OBP anomalies due to sea level in the mid-latitude North Atlantic during 2000–2023. (A-H) OBP anomalies respect to the time mean due to sea level change in consecutive 3-year intervals from 2000 to 2023. S9 (A)  (E)    
+
+> (B) (F)
+> (C) (G)
+> (D) (H)
+
+Figure S8 : Evolution of OBP anomalies due to density in the mid-latitude North Atlantic during 2000–2023. (A-H) OBP anomalies with respect to the time mean due to density change in consecutive 3-year intervals from 2000 to 2023. S10 Figure S9 : Trends of total kinetic energy (TKE) and eddy kinetic energy (EKE) in the North Atlantic (2000–2023). (A) Zonally integrated TKE trend as a function of latitude and depth. (B) Vertically integrated TKE trend over the mid-latitude North Atlantic. Green lines show the 1000 and 3000 m isobath along the western boundary. (C) Same as (A) but for EKE trend. (D) Same as (b) but for EKE trend. The positive EKE trend near Cape Hatteras reflects a strengthening of localized eddy-induced transport, contributing to a regional intensification of the residual circulation. S11 Linear trend: 0.057 ±0.054 degree/year  
+
+> Linear trend: 0.005 ±0.006 degree/year
+> (A)
+> (B)
+
+Figure S10 : Northward shift of AMOC during 2000-2023. (A) Time series of the latitude of maximum AMOC (at approximately 1000 m depth) over the period 2000–2023. (B) Time series of the AMOC centroid latitude over the period 2000–2023. The gray line shows the monthly time series, and the red line represents a 3-month, third-order Butterworth low-pass filtered version. The maximum AMOC is identified as the maximum value of the AMOC streamfunction across all latitudes of the entire basin. The AMOC centroid latitude is defined as the latitude-weighted average of the AMOC streamfunction. The linear trend is calculated based on the filtered version, and the corresponding uncertainties represent 95% confidence intervals. S12 𝑧 = 0
+
+# 𝜌 𝑧 , 𝑡 𝜌 0
+
+# 𝑃 𝑧 = −𝐻 , 𝑡 
+
+# 𝑃 (𝑧 = 𝜂 (𝑡 ), 𝑡 )
+
+# 𝑧 = −𝐻 
+
+# 𝑧 = 𝜂 (t) 
+
+Continental slope Figure S11 : Schematic illustrating the decomposition of the full water column on the conti-nental slope. 𝑃 (𝑧 = −𝐻, 𝑡 ) is OBP on the continental slope, at time 𝑡 and depth 𝑧 = −𝐻 , 𝜌 (𝑧, 𝑡 )
+
+is the ocean water density, 𝑔 is the gravitational acceleration, 𝜂 (𝑡 ) is the time-varying sea surface height relative to the geoid ( 𝑧 = 0). 𝑃 (𝑧 = 𝜂 (𝑡 ), 𝑡 ) is the surface pressure, and 𝜌 0 is temporally and spatially constant ocean water density. S13

@@ -1,0 +1,419 @@
+Title: Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations
+
+URL Source: https://arxiv.org/pdf/2605.29581v1
+
+Published Time: Fri, 29 May 2026 01:05:05 GMT
+
+Number of Pages: 11
+
+Markdown Content:
+# Highlights 
+
+## Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations 
+
+G Hasson, S Støle-Hentschel, T Vrećica, V Shrira, Y Toledo. 
+
+• A proof-of-concept for extracting the vertical shear and current magnitudes at the sea surface using the first-order Bragg peaks of a single-frequency HF-radar 
+
+• Field campaign shows the methodology’s applicability under strong wind conditions 
+
+• A preliminary study of nonlinear wave effects indicates significant Doppler shifts for strong wave conditions 
+
+> arXiv:2605.29581v1 [physics.ao-ph] 28 May 2026
+
+# Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations 
+
+## G Hasson a, S Støle-Hentschel b, T Vrećica c, V Shrira d and Y Toledo. a,∗
+
+> a
+
+School of Mechanical Engineering, Tel-Aviv University, Tel-Aviv, 6997801, Israel 
+
+> b
+
+Université Paris-Saclay, Ecole Normale Supérieure Paris-Saclay, Gif-sur-Yvette, 91190, France 
+
+> c
+
+Mathematical Institute of the Serbian Academy of Sciences, Knez Mihailova 36, P.O. Box 367, Belgrade, 11000, Serbia 
+
+> d
+
+School of Mathematics and Computing, Keele University, Keele ST5 5BG, UK 
+
+A R T I C L E I N F O 
+
+Keywords :Oceanographic HF-radars Current measurements Surface gravity waves Vertically shearing currents Nonlinear wave effects 
+
+A B S T R A C T 
+
+The upper few meters of the ocean play a key role in air–sea exchanges of momentum and energy. Two important properties of this layer are the vertical shear of current velocity and the surface velocity. Vertical shear reflects momentum transfer, while the surface current velocity is essential for modeling transport processes such as pollutant dispersion. Direct measurements are challenging, and methods that provide continuous, real-time, and spatially extensive observations are highly desirable. This proof-of-concept study presents a new approach for estimating the radial component of surface velocity and the vertical shear of sea surface currents using a single-frequency high-frequency (HF) radar. The method is based on estimating the two first-order Bragg peaks in the backscattered radar spectrum which exhibit asymmetric frequency shifts in the presence of shear. The integral shear is retrieved from the frequency difference between the two peaks, while a new spectral processing technique enables correction of the surface velocity estimate for the effect of shear. The approach was tested using data from a WERA HF radar deployed off Ashkelon (Israel), and validated against simultaneous acoustic Doppler current profiler (ADCP) measurements at lower depths. The retrieved shear magnitudes and surface velocities show consistent trends with ADCP and wind observations, indicating that the method is applicable under strong-wind conditions for HF radar systems providing high-quality Doppler spectra. 
+
+## 1. Introduction 
+
+Processes in the upper few meters of the ocean play a key role in controlling the exchange between the ocean and the atmosphere Donelan (1990). The vertical profile of this up-per layer current encapsulates information on the turbulence intensity distribution, the latter is of great importance to the exchange of heat and momentum fluxes at the air-water interface. This significance is reflected in recent introduction of two ‘ Essential Ocean Variables’: Surface Current and Ocean Surface Stress 1.HF radars are a unique remote sensing tool that can continuously provide near real-time surface current maps across large areas for various purposes (see e.g., Lorente et al., 2022; Reyes et al., 2022). In this proof-of-concept work, we lay the foundation of a novel way of remote sensing of the subsurface shear flow and its velocity at the surface using a single HF radar by utilizing the frequency shifts in the first-order peaks in the HF radar echo spectrum. These peaks, which result from radar signal reflection from the sea surface, were first observed by Crombie (1955). In the Bragg scattering regime, relevant for the HF and VHF radars, the peaks are due to resonant scattering by the waves of half the wavelength of the emitted electromagnetic wave Lipa and Barrick (1986). The discrepancy between the observed frequency of the Bragg lines and the frequency given by 
+
+> ∗
+
+Corresponding author  
+
+> Susanne.Stole-Hentschel@proton.me
+
+(S. Støle-Hentschel) 
+
+> ORCID
+
+(s): 0000-0002-8081-9782 (S. Støle-Hentschel) 
+
+> 1
+
+https://goosocean.org/what-we-do/framework/essential-ocean-variables/ 
+
+the linear dispersion relation for the resonant surface gravity wave is the Doppler shift due to the current. In terms of velocities this discrepancy is usually interpreted as velocity of the surface current, although this would have been true only in the absence of vertical shear. Here, we propose an extension of the use of HF radars, which at present are primarily used to provide surface cur-rent maps over large areas neglecting the shear, e.g. Gurgel et al. (1999). More advanced approaches that allow also the extraction of shear current from HF radar measurements have been developed. As outlined in Stewart and Joy (1974), the utilisation of multiple HF frequencies simultaneously, with each frequency observing distinct Bragg waves, enables the vertical probing of the shear current. This method for describing waves in the presence of a vertically shearing cur-rent is based on approximations based on the Rayleigh equa-tion (see, e.g. Shrira, 1993; Quinn et al., 2017, for a more im-proved approximation and an extension to a simplified wave-action equation) Although this method is relatively simple to implement, it requires having two or more operating frequencies, which is not common in HF radars. Shrira et al. (2001); Ivonin et al. (2004) extended the usage of HF radars by utilizing the second-order and corner reflection peaks in the echo Doppler frequency spectra. These additional peaks result from surface waves of different wavelengths, and thus provide a way of probing the shear while employing a single frequency radar. However, the secondary peaks are much weaker than the first order ones, which sometimes makes them difficult to discern. 
+
+G Hasson et al.: Preprint submitted to Elsevier Page 1 of 7 Surface Current and Shear Retrieval from HF Radar 
+
+Here we propose a novel approach for determining ver-tical shear and surface current utilizing a single-frequency radar and only the first-order peaks in the radar echo Doppler frequency spectra. To this end we exploit the observation that in the presence of shear, the positions of two first-order peaks resulting from Bragg waves propagating in the opposite directions (toward and away from the radar) are not symmetric with respect to the radar frequency. By inferring the associated phase velocities, we demonstrate that the vertical shear and current velocity at the surface can be estimated. Although the differences between the two phase velocities are relatively minor, we show that it is nevertheless feasible to estimate the shear under strong wind conditions. The results are consistent with the current profile somewhat lower in the water column, as measured simultaneously by an Acoustic Doppler Current Profiler (ADCP). Thus, this work establishes the foundation for large-scale shear estimation using a single HF radar. Although the proposed approach is based upon disper-sion properties of linear surface waves on shear flow, we also examine the significance of nonlinear effects. Nonlinear cor-rections to dispersion relation Zakharov (1999) are of second order in wave steepness, and, therefore, are often neglected. As previously stated, the difference in velocities of the two peaks is small, and in view of this discarding these effects is not necessarily justified. A preliminary analysis indicates that the corrections to dispersion manifest in modulations of surface current (under the assumption of linear current profile). It is demonstrated that for energetic wave fields nonlinear corrections can be of comparable magnitude to the linear contribution, but can be safely neglected for relatively calm seas. The paper is organized as follows. The HF radar and ADCP measurements are described in section 2, together with a detailed description of the data processing. The novel methodology of estimating the shear and current velocity at the surface is presented in section 3. In section 4, preliminary results on the effects of non-linearity are outlined. The re-sults are presented in section 5, showing how the upper-layer shear from our new estimate responds to the changes in the environmental conditions. With a certain degree of latency, the fluctuations in upper-layer shear are also discernible in the ADCP data a few meters below the sea surface. The final section of the work, section 6, presents the conclusions and a brief discussion. 
+
+## 2. Methodology 
+
+The study utilized a WERA HF radar situated within the Ashkelon National Park at the coast of the Mediterranean Sea, however the methodology of the proposed approach is not radar specific. The station consists of 4 transmitting antennae operating at the frequency of 𝑓 0 = 8 .3 MHz in a square shape and an array of 12 receive antennas with a distance of 9 m ( 𝜆 EM ∕2 ) between adjacent antennae. The system is configured to take a measurement every 20 
+
+minutes, with the data averaged over 17 .75 minutes (with an additional 2.25 minutes for premeasurement calibration). The system generates both current maps and raw spectra, which are then transmitted to a local server at the station. We use the raw spectra to infer the shear and current ve-locity at the surface. The analyzed field data was acquired from 23 March to 7 April 2021, when three storms hit the area. The method will first be presented with a focus on the longest storm that occurred March 23 to March 25. As conventional method to estimate shear is not available, we validate the presented measurements with ADCP and wind measurements. The ADCP was only avaialbe during the chosen period which are all presented here. The wind measurements stem from a nearby meteorological station (Figure 1 positioned at 31.6692 ° N; 34.5021 ° E, depth 30 m distance to shore 3.53 km), providing wind speed, direction and gustiness. With the given depth, the measurements were taken in deep water regime, however, the method is expected to be applicable in intermediate depth and possible shallow water if the distance to the radar antenna ensures high quality measurements (starting from 2.5 km in our case). To extract separate information on the two first-order peaks, we employed the WERA FORTRAN package to generate backscatter spectra in the original polar frame of reference ( 𝑟 , 𝜃 ) from the backscattered signal of each re-ceiving antenna. Example spectra a provided in the supple-mentary material. To minimize back-scatter noise, a location at a close range and near the HF antennae bore-sight was chosen 2 (see Figure 1). The finding of the peak location, ̄𝑓 , is analogous to the approach currently employed by WERA as standard. For a spectrum containing NFFT data points, a window of size 𝐾 = NFFT ∕64 is extracted around the detected first order peaks. A weighted average of each element within the window ( 𝑓 𝑛 ) is then calculated using the power ( 𝑃 𝑛 ) as the weighting function: ̄𝑓 =
+
+∑𝐾 𝑛 =1 𝑓 𝑛 𝑃 𝑛 
+
+∑𝐾 𝑛 =1 𝑃 𝑛 
+
+. (1) In contrast to the common approach, we estimate sep-arately the frequency peaks resulting from offshore prop-agating waves ( 𝑓 − > 0) and onshore propagating waves (𝑓 + < 0). The respective Doppler shifts ( 𝑐 − and 𝑐 +) are calculated from the measured frequency shift with respect to the radar frequency 𝑓 0 using a two-way relativistic approach (see full derivation in the Appendix): 
+
+𝑐 − = 𝐶 𝑒 
+
+(𝑓 0 − 𝑓 of fshore 
+
+)
+
+𝑓 0 + 𝑓 of fshore 
+
+, (2a) 
+
+𝑐 + = 𝐶 𝑒 
+
+(𝑓 0 + 𝑓 onshore 
+
+)
+
+𝑓 0 − 𝑓 onshore 
+
+, (2b) where 𝐶 𝑒 is the speed of light. The continuous HF radar measurements allow a time series extraction of 𝑐 − and 𝑐 +.To estimate the shear from the difference between the offshore and onshore propagating waves celerity measure-ments, it is necessary first to ensure that the error Essen       
+
+> 2At distance 3.53 km and angle range of ( −4 ◦,5◦) contains area of about 1km 2.
+> G Hasson et al.: Preprint submitted to Elsevier Page 2 of 7 Surface Current and Shear Retrieval from HF Radar
+
+et al. (2000) is smaller than the discrepancy between the measurements. To determine the confidence level, we utilize the maximum error Δ and the specified resolution, based on the WERA’s accuracy estimation: 
+
+Δ = max( 𝑑𝑣, 
+
+√
+
+𝜎 2) , (3) where 𝜎 is the standard deviation and 𝑑𝑣 is the measurement resolution derived from the radar transmission configura-tion, 
+
+𝑑𝑣 = 12N 𝑇 chirp 
+
+. (4) The term 𝑁𝑇 chirp denotes the duration of the radar measure-ment, the longer it is, the finer the resolution. The value of 
+
+𝑁𝑇 chirp = 17 .75 minutes results in a frequency resolution of 0.001 Hz, corresponding to a velocity of approximately 
+
+1.7 cm/s. The accuracy of the measurement is defined by the standard deviation 𝜎 ,
+
+𝜎 =
+
+√√√√∑𝐾 𝑛 =1 𝑓 2(𝑛 )SNR( 𝑛 )
+
+∑𝐾 𝑛 =1 SNR( 𝑛 ) −̄ 𝑓 2 . (5) Here, SNR is the signal to noise ratio obtained from the measurement. The standard deviation is calculated using the same window size as the peak detection estimate. The vertical profile of the current in intermediate and low layers was measured using the NORTEK Signature 500, an Acoustic Doppler Current Profiler (ADCP) deployed at a distance of 3.5 km from the radar station and at an angle of 1 degree from the bore sight of the antennae array (Figure 1). The deployment included external battery canisters that allowed logging 5-beam bursts continuously. This enabled better accuracy in fitting the time-series comparisons be-tween the two instruments. It measured the north-south and east-west components of the horizontal velocity in the depth range 30 to 5.7 m with a step of 0.2 m (Figure 4 right panel). The accuracy of the ADCP measurements depends on the wave height. The total error of the ADCP measure-ments was estimated as the sum of the standard deviations of the measurements during the time interval. To account for the sampling variability of ADCP and HF radar, the measurements were averaged over a one hour period. For the comparison to the shear current obtained from the radar, the ADCP measurements were projected onto the look direction of the radar. 
+
+## 3. Theoretical estimates 
+
+The utilized WERA radar transmits a Frequency Modulated Continuous Wave (FMCW) with the radar frequency 𝑓 0
+
+(Gurgel et al., 1999). Due to the dominance of the Bragg resonance mechanism, a strong signal is back-scattered from the surface waves at Bragg wavenumber 𝑘 𝐵 . These surface waves propagate to and from the radar, with the respective phase velocities 𝑐 + and 𝑐 −. The relation between the elec-tromagnetic waves and the Bragg waves is defined by their respective wavelengths, 𝑘 𝐵 = 2 𝐾 0 = 4 𝜋𝑓 0∕𝐶 𝑒 . HF radar signal can be in resonance with water waves of wavelengths in the range 10 − 100 m which are measured sufficiently far from the shore, so that the deep water dispersion relation can be assumed: 
+
+𝜔 0 = 𝑐𝑘, (6) where 𝑐 is the water wave celerity, 𝑘 is the water wavenumber and 𝜔 0 in is the angular frequency of the water wave. The frequency shift 𝑓 𝐵 = 𝜔 ∕2 𝜋 that is induced by the current is detectable in the frequency spectrum. It is calculated as de-viation between measured frequency peaks and transmitted frequency: 
+
+𝜔 = 𝜔 0 + k ⋅ U , (7) where U is the current vector and k is the wave-number vector. Equation 7 suggests that both peaks experience the same shift. This approach was further developed by Barrick (1972) and is now a standard method for extracting current maps. However, the assumption of a depth–uniform current is difficult to justify in the presence of strong vertical shear. Shear has different effects on waves propagating to and from the radar: a wave propagating in the direction of a shear current has a different phase velocity than the wave propagating in the opposite direction. To evaluate the effect of the shear on the waves, the Rayleigh equation with a free surface boundary condition can be used to analytically or numerically extract a relationship between the current vertical profile 𝑈 (𝑧 ), and celerity 𝑐 :
+
+𝑤 ′′ +
+
+[ 𝑈 ′′ 
+
+𝑐 − 𝑈 − 𝑘 2
+
+]
+
+𝑤 = 0 , (8a) 
+
+𝑤 ′ =
+
+[ 𝑔 
+
+(𝑈 − 𝑐 )2 + 𝑈 ′
+
+𝑈 − 𝑐 
+
+]
+
+𝑤 at 𝑧 = 0 , (8b) 
+
+𝑤 = 0 at 𝑧 → −∞ . (8c) Here, 𝑤 is the vertical component of the 3𝐷 velocity vector and prime denotes derivation with respect to vertical coor-dinate 𝑧 , 𝑔 is gravitational acceleration. The simplest model of shear current is the model assuming constant shear: 
+
+𝑈 (𝑧 ) = 𝛼𝑧 + 𝛽 (9) where 𝛼 denotes the shear parameter and 𝛽 the surface current. The current affecting the Bragg wave relates to the relatively thin uppermost water layer as to 𝑂 (1) it the current’s influence is weighted by 𝑒 2𝑘𝑧 (see Stewart and Joy, 1974). Hence, 𝛼 models the near-surface shear. On solving the Rayleigh equation Eq. 8 for the adopted constant shear parametrization Eq. 9 we find the dependence of 𝑐 + and 𝑐 − on the current parameters 𝛼 and 𝛽 :
+
+𝑐 + = −𝛼 + √4𝑔𝑘 + 𝛼 2 − 2 𝑘𝛽 
+
+2𝑘 , (10a) 
+
+𝑐 − = − 𝛼 + √4𝑔𝑘 + 𝛼 2 + 2 𝑘𝛽 
+
+2𝑘 , (10b)   
+
+> G Hasson et al.: Preprint submitted to Elsevier Page 3 of 7 Surface Current and Shear Retrieval from HF Radar
+
+where 𝑘 is the resonant Bragg wavenumber specified by the radar transmission frequency 𝑓 0, and 𝑐 + and 𝑐 − are extracted from the radar measurement. It is straightforward to explicitly express 𝛼 and 𝛽 , the parameters of the model, in terms of the directly measurable characteristics: 
+
+𝛼 = ± 
+
+√
+
+−4 𝑔 + ( 𝑐 + − 𝑐 −)2𝑘 2 ,
+
+(11a) 
+
+𝛽 = 12
+
+⎛⎜⎜⎝
+
+−𝑐 + − 𝑐 − ±
+
+√
+
+−4 𝑔 + ( 𝑐 + − 𝑐 −)2𝑘 𝑘 
+
+⎞⎟⎟⎠
+
+.
+
+(11b) The ambiguity of the solutions for 𝛼 and 𝛽 can be resolved using the direction of the current. For the WERA system the convention imposes that a positive deviation of the peaks (𝑐 + − 𝑐 − > 0) leads to a peak shifted to the right of the Bragg frequency ( 𝑓 𝐵 ) and the corresponding current is directed away from the radar and 𝛼, 𝛽 are positive. Under the assumption that the shear is weak, the above equations can be simplified. Formulations for 𝑐 + and 𝑐 − accurate up to 
+
+𝑂 (1) in shear are defined as: 
+
+𝑐 ± ≈ −𝛼 
+
+2𝑘 ± √𝑔 ∕𝑘 (1 + 𝛼 2∕8 𝑔𝑘 ) − 𝛽. (12) These equations show that, in the linear profile approxi-mation, there is no contribution of shear at 𝑂 (𝛼 ) to the difference of phase velocity (𝑐 + − 𝑐 −). This simplified form clearly demonstrates at which orders different effects come into play, however equation 11 is used throughout the paper. 
+
+## 4. Revisiting nonlinearity 
+
+In this section, we consider the effects of the nonlin-ear contribution to the surface wave dispersion relation on the vertically sheared currents. We only consider resonant four-wave nonlinear interactions, as discussed in Zakharov (1999). It is further assumed that the effects of the shear on nonlinearity are small, and to leading order a potential non-linear theory can be used. A full derivation and analysis of the combined effects of nonlinearity and shear goes beyond the scope of this work. Waves travel faster in the mean direction of the wave propagation, while waves travelling in the opposite direction of the main wave system are slower Masuda et al. (2000). The Stokes wave solution valid for a single monochromatic wave is a classic example of this phenomenon. In case of an arbitrary wave spectrum the wavenumber for which the nonlinear dispersion is calculated is determined by the radar frequency, and for broad-banded wave systems the corresponding nonlinear angular frequency ( Ω) is 
+
+Ω( 𝐤 ) = 𝜔 (𝐤 ) + 4 𝜋 2𝑔 ∫ 𝑇 (𝐤 , 𝐤 𝟏 ) 𝑆 (𝐤 𝟏 )
+
+𝜔 (𝑘 ) d𝑘 1, (13) where 𝑆 (𝐤 ) is the energy wave spectrum, and the interaction kernel 𝑇 (𝐤 , 𝐤 𝟏 ) t is a lengthy function defined in terms of wavenumbers and frequencies Zakharov (1999), although it is dramatically simplified for the unidirectional case Lavrova (1983): 
+
+𝑇 (𝑘, 𝑘 1) = 12𝜋 2
+
+{
+
+𝑘 2𝑘 1 𝑘 < 𝑘 1,𝑘𝑘 21 𝑘 > 𝑘 1. (14) This enables us to express wave velocity with account of nonlinear effect, 𝑐 𝑛𝑙 , in terms of the linear one 𝑐 𝑙𝑖𝑛 
+
+𝑐 𝑛𝑙 = 𝑐 𝑙𝑖𝑛 +2 
+
+(
+
+∫
+
+> 𝑘
+> 0
+
+𝑘 1𝜔 𝑘 1 𝑆 (𝑘 1)d 𝑘 1 + ∫
+
+> ∞
+> 𝑘
+
+𝑘𝜔 𝑘 1 𝑆 (𝑘 1)d 𝑘 1
+
+)
+
+.
+
+(15) Thus, the specific wavenumber is selected by the Bragg resonance, but the corresponding frequency we encounter in the Doppler echo spectra differs somewhat from the linear frequency, which is essential for interpreting the observa-tions. When these corrections to phase velocities are applied under the square roots in equation 11 they effectively cancel each other out. The absolute contribution to 𝑐 + and 𝑐 − are nearly identical and thus (𝑐 + −𝑐 −)𝑛𝑙 ≈ ( 𝑐 + −𝑐 −)𝑙𝑖𝑛 . However, there is a non-negligible correction to the 𝛽 term in equation 11b. In the linear profile model this corresponds to the surface current. For brevity we will refer to the nonlinear correction to frequency as the Stokes-type correction. A comparison of magnitudes of the Stokes-type correction (expressed through 
+
+−𝑐 1 − 𝑐 2) and wind induced surface currents ( 𝛽 ) is given in Figure 2a. The nonlinear correction computed for the Pierson-Moskowitz spectra, which is a function of wind speed 𝑈 10 (wind speed at 10m above the mean water level): 
+
+𝑆 (𝑘 ) = 0.004 
+
+𝑘 3 𝑒𝑥𝑝 
+
+(
+
+−0 .554 𝑔 2
+
+𝑈 410 𝑘 2
+
+)
+
+. (16) An analytic solution for the nonlinear dispersion relation for such a spectrum was derived in Stuhlmeier and Stiassnie (2019). Measurements of wind-induced surface current were performed in Kudryavtsev et al. (2008), and as a crude approximation we assume here that the wind-induced sur-face current is ≈ 2% of 𝑈 10 . A comparison of these two effects is given in Figure 2a as a function of 𝑈 10 . It is found that, overall, the magnitudes are comparable, at least for developed seas. The nonlinear contributions to 𝛽 were computed using wave spectra obtained via in-situ ADCP measurements un-der potential flow assumptions (see Soffer et al., 2023, for effects of the shear on spectrum extraction which are not required in this case). It is assumed that the wave field propagates in the mean wind direction. The surface currents are also computed, under the assumption of no shear (mea-sured departure from linear solution). The magnitudes of the nonlinear correction and of the measured current are shown in Figure 2b. The rapid oscillations of the measured veloc-ities occur during periods with little wave energy, during which the radar accuracy is significantly lower. It should be   
+
+> G Hasson et al.: Preprint submitted to Elsevier Page 4 of 7 Surface Current and Shear Retrieval from HF Radar
+
+kept in mind that the assumption of unidirectional spectra amplifies the effect of nonlinearity, and the assumption of no shear reduces the magnitude of the measured surface current. Nonetheless, these results show that the contribution of nonlinearity, i.e. the Stokes-type correction, is indeed significant for estimation of surface currents (e.g. the storm period of 23-25th of March). 
+
+## 5. Results 
+
+The proposed method was applied to the data from March 23rd to 25th and provides hourly estimates of the frequency shifts and the associated shear. During the selected period, the wind speed was above 6 m/s for most of the time and the significant wave height in the range of 1.5 – 3 m (see upper panel in Figure 3). The frequency shift between the extracted peak frequency and the unperturbed Bragg frequency is shown in the lower panel of Figure 3. The estimated error (calculated according to equation 5) is noticeably smaller than the difference between the observed frequency shifts. Furthermore, we stress that the frequency shifts for waves propagating towards and away from the radar follow a dis-tinct pattern. These observations show that a shear is present in the current, since assuming a constant current would result in identical frequency shifts. The shear and the sea surface current are then estimated by plugging the measured difference between the frequency shifts into equations 11a and 11b. The calculated shear and the corresponding confidence bounds are shown in the left panel of figure 4. No direct measurements of the current profile in the uppermost ocean layer are available, as such data are notoriously difficult to obtain. For the validation of the HF shear estimates, we are comparing the HF shear esti-mates with the average gradient of the radial current profile measured by an ADCP at a somewhat larger depth: The aver-age over depths of 5−8 meters. The values were chosen to be as close to the surface as possible and still include a couple of measurement points together with the surface current value from the radar. Increasing or decreasing the interval length did not change the results considerably. The comparison revealed two characteristics: First, the shear parameter is generally lower for the ADCP, as it measures at lower depths; the HF, on the other hand, measures higher values, which is indicative of strong shear in the boundary layer of the air-sea interface. Second, the fluctuations of the shear are similar for both parameters, with temporal shifts for the cusps. The upper layer tends to respond faster to changes in the wind, and it takes some time until the momentum is transferred to lower layers of the water column. An exception to this trend is the first peak in the shear, which occurred around midnight on March 24th. In this instance, the ADCP shear parameter exhibited a peak before the HF shear parameter. The details of three time instances from the left panel (see markers 1,2 and 3) were investigated in greater detail in the right panel of Figure 4. The surface current ( 𝛽 ) estimated by our method is indicated at the mean water level. The corresponding radial current profiles over depths of 5 − 12 
+
+m are shown at their corresponding depths. The behaviour of the ADCP current profiles has a tendency towards the HF surface current. It is also notable that instance number three demonstrates a pronounced shear between the uppermost measurement points of the ADCP and a particularly strong shear and surface current estimated by the HF radar. The presented results were obtained from data of a regional storm with high seas and strong winds (Figure 3 top panel). When applying the method to a longer period, it was noted that the solution of equation 11a can be complex valued. Figure 6 shows the wind gustiness, the wind in radial direction and the significant wave height. The vertical dashed lines indicate three intervals for which the proposed method has real valued solutions. As demonstrated in the figure, when the method is applicable, the wind is strong and the gustiness is low and the significant wave height is high. Possible reasons for this are discussed in section 6. Fig. 5 presents the measured upper layer radial shear for different azimuth and range over time. The image includes data from March 24 th . In the subplot for range only the first 11 hours of the day are shown to avoid overloading the image. The default position for range and azimuth for both images is the one that was used for the comparison with the ADCP (3.3 km at an angle of 0◦). Fig. 5 shows that shear estimates from adjacent points in space are consistent. The temporal changes in one azimuth position happen si-multaneously in other positions while the range plot may be interpreted as a shear wave that propagates in the temporal scale of hours. 
+
+## 6. Discussion and Conclusion 
+
+The presented analysis of a three-week field campaign shows a notable discrepancy between the two first-order frequency peak locations estimated by the HF radar. The difference between the frequency peaks for waves approaching and receding from the radar is indicative of shear in the up-permost layer of the water column. It can be concluded that already existing HF radars can be used for probing sea surface shear and current velocity utilizing only the first order peaks. Although the utilized radar was operated in beam forming mode, the method is also expected to work in direction finding mode. In situ measurements of the current profile at depths below 5 m are consistent with the shear and surface current derived from the HF measurements. All considerations were carried out for deep water, but the method is expected to be applicable for finite depth as well. Our preliminary investigations indicate that spatial measurements in the order of square kilometers are feasible. It appears, that the shear can only be retrieved by this method when the wind and wave conditions are appropriate: the approach yields robust solutions when the significant wave height and wind speed in the radial direction are high and gustiness is low. A possible explanation for the influence of gustiness is that it may impede the transmission of the weaker signal of the waves that are propagating away from the radar. Currently, it is not clear to what extent all three parameters are essential for the method. It can be assumed   
+
+> G Hasson et al.: Preprint submitted to Elsevier Page 5 of 7
+
+Surface Current and Shear Retrieval from HF Radar 
+
+that the significant wave height correlates with a higher signal-to-noise ratio (SNR). However, it is also possible that the significant wave height can be high without measurable shear. The waves can generate vertical shear via radiation stresses. However, when breaking, they can produce an enhanced mixing and change the air-water momentum fluxes which in-turn reduce the upper-layer shear. This leaves us with a complex multi-faceted physical behavior in addition to the remote-sensing aspects. Although the estimated error for the measurements was generally lower than the measured frequency difference be-tween the peaks, it is possible that the adopted error esti-mate may have overlooked certain contributions that are not significant for the traditional current measurement but have a considerable effect on the shear calculation. Further research is required to enhance our understanding of the methodology limitations and ways to improve it. Certainly, the validation remains a critical open issue. Further validation will be undertaken in our future work. Due to technical limitations, the depth of the ADCP mea-surements was restricted to depths five metres from the surface and below. This is a significant constraint for the validation of the uppermost layer. Advanced instruments such as the no-blanking ADCPs and single-point current meter can be employed on moored floating buoys to measure the current profile in the upper 1.5 meters, which includes the actual shear measured by the HF. The principal challenge in utilizing these instruments are their operational and permit requirements. A dedicated expedition should be undertaken in order to obtain accurate measurements of strong shear. Another option might be a route of comparison to the com-plementary and already validated approach of Shrira et al. (2001) which was based on utilizing second order peaks. At the most fundamental level, we have identified the displacement of the first order peaks due to shear effects. We conclude, that the proposed method can be used for estimating the vertical shear and current at the surface em-ploying standard HF radars. In our settings, it yielded reli-able results under wind speed exceeding 5 m/sec in average with low gustiness (<10 m/sec) and significant sea states of 
+
+𝐻 𝑠 >1.8m. In such circumstances, the shear value is likely to be high and measurable. To outline more accurately the range of parameters where this method will work reliably further studies are needed. 
+
+Acknowledgements This research has been supported by the Project no. 7744592 MEGIC “Integrability and Extremal Problems in Mechanics, Geometry and Combinatorics” of the Science Fund of Serbia and the ISRAEL SCIENCE FOUNDATION grant numbers 1601/20 and 2358/24. SS-H would like to thank for the kind support of the short-term Max-Planck Miverva post-doctoral fellowship. 
+
+## Appendix: Two-Way Doppler from a Moving Reflector 
+
+The two-way Doppler relation used in Eqs. (2a)-(2b) follows directly from the classical Doppler effect applied twice—once for transmission from the radar to the moving surface, and once for the return reflection. For a wave of frequency 𝑓 0 and phase speed 𝐶 𝑒 , the one-way Doppler formula is 
+
+𝑓 = 𝐶 𝑒 + 𝑣 𝑟 
+
+𝐶 𝑒 − 𝑣 𝑠 
+
+𝑓 0, (A1) where 𝑣 𝑟 and 𝑣 𝑠 are the receiver and source velocities (pos-itive when directed toward each other). For the outgoing path, the radar acts as a stationary source ( 𝑣 𝑠 = 0 ) and the sea-surface facet as the moving receiver ( 𝑣 𝑟 = ± 𝑢 ), giving 
+
+𝑓 ′ = 𝐶 𝑒 ± 𝑢 𝐶 𝑒 
+
+𝑓 0. (A2) On the return path, the same facet acts as a moving source (𝑣 𝑠 = ± 𝑢 ) while the radar is stationary ( 𝑣 𝑟 = 0 ), so that 
+
+𝑓 = 𝐶 𝑒 
+
+𝐶 𝑒 ∓ 𝑢 𝑓 ′. (A3) Combining both paths yields the total two-way frequency shift, 
+
+𝑓 = 𝑓 0
+
+𝐶 𝑒 ± 𝑢 𝐶 𝑒 ∓ 𝑢 = 𝑓 0
+
+1 ± 𝑢 ∕𝐶 𝑒 
+
+1 ∓ 𝑢 ∕𝐶 𝑒 
+
+, (A4) where the upper sign corresponds to ocean wave motion to-ward (onshore) and the lower to motion away from (offshore) the radar. Solving for the reflector velocity gives 
+
+𝑢 = 𝐶 𝑒 
+
+𝑓 0 − 𝑓 𝑓 0 + 𝑓 (offshore) , 𝑢 = 𝐶 𝑒 
+
+𝑓 − 𝑓 0
+
+𝑓 + 𝑓 0
+
+(onshore) .
+
+(A5) Introducing the measured peak frequencies 𝑓 offshore > 0 and 
+
+𝑓 onshore < 0 relative to 𝑓 0, these expressions become 
+
+𝑐 − = 𝐶 𝑒 
+
+𝑓 0 − 𝑓 offshore 
+
+𝑓 0 + 𝑓 offshore 
+
+, 𝑐 + = 𝐶 𝑒 
+
+𝑓 0 + 𝑓 onshore 
+
+𝑓 0 − 𝑓 onshore 
+
+. (A6) 
+
+## 7. Bibliography References   
+
+> Barrick, D., 1972. First-order theory and analysis of mf/hf/vhf scatter from the sea. IEEE Transactions on Antennas and Propagation 20, 2–10. Crombie, D.D., 1955. Doppler spectrum of sea echo at 13.56 mc./s. Nature 175, 681–682. Donelan, M., 1990. Air-sea interaction . Essen, H.H., Gurgel, K.W., Schlick, T., 2000. On the accuracy of current measurements by means of hf radar. IEEE Journal of Oceanic Engineer-ing 25, 472–480. Gurgel, K.W., Antonischki, G., Essen, H.H., Schlick, T., 1999. Wellen radar (wera): A new ground-wave hf radar for ocean remote sensing. Coastal engineering 37, 219–234. Ivonin, D.V., Broche, P., Devenon, J.L., Shrira, V.I., 2004. Validation of hf radar probing of the vertical shear of surface currents by acoustic doppler current profiler measurements. Journal of Geophysical Re-search: Oceans 109.
+
+G Hasson et al.: Preprint submitted to Elsevier Page 6 of 7 Surface Current and Shear Retrieval from HF Radar 
+
+Kudryavtsev, V., Shrira, V., Dulov, V., Malinovsky, V., 2008. On the vertical structure of wind-driven sea currents. Journal of Physical Oceanography 38, 2121–2144. Lavrova, O.Y., 1983. On transversal instability of finite depth water waves. Izv. Atm. Ocean. Phys 19, 1068–1074. Lipa, B.J., Barrick, D.E., 1986. Extraction of sea state from hf radar sea echo: Mathematical theory and modeling. Radio Science 21, 81–100. Lorente, P., Aguiar, E., Bendoni, M., Berta, M., Brandini, C., Caceres-Euse, A., Capodici, F., Cianelli, D., Ciraolo, G., Corgnati, L., Dadic, V., Doronzo, B., Drago, A., Dumas, D., Falco, P., Fattorini, M., Gauci, A., Gomez, R., Griffa, A., Guerin, C.A., Hernandez-Carrasco, I., Hernandez-Lasheras, J., Licer, M., Magaldi, M.G., Mantovani, C., Mihanovic, H., Molcard, A., Mourre, B., Orfila, A., Revelard, A., Reyes, E., Sanchez, J., Saviano, S., Sciascia, R., Taddei, S., Tintore, J., Toledo, Y., Ursella, L., Uttieri, M., Vilibic, I., Zambianchi, E., Cardin, V., 2022. Coastal high-frequency radars in the Mediterranean - Part 1: Status of operations and a framework for future development. Ocean Science 18, 761–795. doi: 10.5194/os-18-761-2022 .Masuda, A., Kusaba, T., Komatsu, K., 2000. Nonlinear dispersion relation and the spectral forms in the saturated range of wind waves . Quinn, B.E., Toledo, Y., Shrira, V.I., 2017. Explicit wave action conser-vation for water waves on vertically sheared flows. Ocean Model. 112, 33–47. Reyes, E., Aguiar, E., Bendoni, M., Berta, M., Brandini, C., Caceres-Euse, A., Capodici, F., Cardin, V., Cianelli, D., Ciraolo, G., Corgnati, L., Dadic, V., Doronzo, B., Drago, A., Dumas, D., Falco, P., Fattorini, M., Fernandes, M.J., Gauci, A., Gomez, R., Griffa, A., Guerin, C.A., Hernandez-Carrasco, I., Hernandez-Lasheras, J., Licer, M., Lorente, P., Magaldi, M.G., Mantovani, C., Mihanovic, H., Molcard, A., Mourre, B., Revelard, A., Reyes-Suarez, C., Saviano, S., Sciascia, R., Taddei, S., Tintore, J., Toledo, Y., Uttieri, M., Vilibic, I., Zambianchi, E., Orfila, A., 2022. Coastal high-frequency radars in the Mediterranean - Part 2: Applications in support of science priorities and societal needs. Ocean Science 18, 797–837. doi: 10.5194/os-18-797-2022 .Shrira, V.I., 1993. Surface waves on shear currents: solution of the boundary-value problem. Journal of Fluid Mechanics 252, 565–584. Shrira, V.I., Ivonin, D.V., Broche, P., de Maistre, J.C., 2001. On remote sensing of vertical shear of ocean surface currents by means of a single-frequency vhf radar. Geophysical research letters 28, 3955–3958. Soffer, R., Kit, E., Toledo, Y., 2023. Method of directional spectrum estimation accounting for the ambient shearing currents. Phys. Rev. Fluids 8, L062801. doi: 10.1103/PhysRevFluids.8.L062801 .Stewart, R.H., Joy, J.W., 1974. Hf radio measurements of surface currents, in: Deep sea research and oceanographic abstracts, Elsevier. pp. 1039– 1049. Stuhlmeier, R., Stiassnie, M., 2019. Nonlinear dispersion for ocean surface waves. Journal of Fluid Mechanics 859, 49–58. Zakharov, V., 1999. Statistical theory of gravity and capillary waves on the surface of a finite-depth fluid. European journal of mechanics. B, Fluids 18, 327–344. 
+
+## CRediT authorship contribution statement 
+
+G Hasson: Methodology, Software, Data Curation, Writing. S Støle-Hentschel: Conceptualization, Methodol-ogy, Supervision, Funding acquisition, Writing. T Vrećica: 
+
+Non-linear theory, Writing, Funding acquisition, Writing – review and editing. V Shrira: Supervision, Writing, Methodology. Y Toledo.: Conceptualization of the study, Methodology, Supervision, Funding acquisition, Radar Re-sources. 
+
+Figure 1: Satellite image from Google Maps, overlaid with key features relevant to the study area. The HF station is marked in red. The shaded green area represents the coverage area of the HF station in the nearshore region (with maximal range of ∼180km in ideal conditions). Additionally, the location of the ADCP (bottom depth of 30m) can be seen in front of the radar station, providing information on the current profile and the waves. Lastly, the location of the meteorological station is indicated to the south of the HF station, providing data on local weather conditions. G Hasson et al.: Preprint submitted to Elsevier Page 7 of 7 Surface Current and Shear Retrieval from HF Radar 
+
+Figure 2: Nonlinear effects on the surface current ( 𝛽 ). a) A comparison of the surface currents induced by wind and by taking into account nonlinearity in the nonlinear dispersion relation computed for a Pierson-Moskowitz spectrum. Results are shown as a function of 𝑈 10 ) (wind speed at 10m height). b) Nonlinear correction to surface current computed for waves whose wavenumbers corresponding to radar wavelengths. The correction is computed using wave spectra measured by an ADCP, from third of March to seventeenth of April. 
+
+Figure 3: Measurements over the presented period. Upper panel: Significant wave height (dashed gray) and absolute value of the wind projected onto the HF direction. The wind is blowing towards the radar station (the shore) during the storm. Lower panel: Deviation of the extracted peak location from the Bragg frequency for the positive Doppler shift (dashed) and negative Doppler peak (solid). Under the constant current assumption the deviation should be the same. The deviation of the peak location is greater than the estimated error which is shown in grey. G Hasson et al.: Preprint submitted to Elsevier Page 8 of 7 Surface Current and Shear Retrieval from HF Radar -0.8 -0.6 -0.4 -0.2 0 0.2      
+
+> Current [m/s]
+> -12 -10 -8 -6 -4 -2 0
+> depth [m]  112233123
+> Mar 23, 18:00 Mar 24, 00:00 Mar 24, 06:00 Mar 24, 12:00 Mar 24, 18:00 Mar 25, 00:00
+
+date 2021 00.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 
+
+> | | [1/s]
+
+Figure 4: Results obtained from the HF and an ADCP for the depicted period. Left panel: comparison between the HF sea-surface shear (our method) to the average gradient of the current profile extracted by an ADCP over the depth 5 to 8 meters together with the surface current value from the radar, both estimations share the same trends. The trend of the shear penetration is shown to have a reasonable physical agreement with a reduced shear and delay in penetration to deeper region, with some discrepancy in the first lag possibly due to large errorsbars in the beginning of the measurement section. Right panel: three representative radial current profiles extracted by ADCP, the time of each profile is circles on the left panel. Gray shaded area present the averaging zone to create the shear estimation from the ADCP profile. 0 5 10 15 20             
+
+> t[h]
+> 0.3
+> 0.4
+> 0.5
+> 0.6
+> | | [1/s]
+> 3.0 3.5 4.0 4.5 5.0 5.5 6.0 6.5 7.0
+> r[km]
+> 0.1
+> 0.2
+> 0.3
+> 0.4
+> 0.5
+> | | [1/s]
+> 5
+> 0
+> 5
+> 10 Azimuth [  ]
+> 0
+> 2
+> 4
+> 6
+> 8
+> 10 t [h]
+
+Figure 5: Dependency of shear on azimuth and range. Upper panel: Shear values over time for different azimuth positions; lower panel: Shear values over range at different times. G Hasson et al.: Preprint submitted to Elsevier Page 9 of 7 Surface Current and Shear Retrieval from HF Radar 050                                    
+
+> Wind gust [m/s]
+> -10 -5 05
+> Wind speed [m/s]
+> Mar 23 Mar 26 Mar 29 Apr 01 Apr 04 Apr 07 Apr 10 Apr 13
+> date 2021 024
+> Hs [m]
+> Mar 23, 12:00 Mar 24, 00:00 Mar 24, 12:00 Mar 25, 00:00 2021 00.5 1
+> current [m/s]
+> HF radar ADCP
+> 02:00 04:00 06:00 08:00 10:00 12:00 14:00 16:00 18:00 Apr 02, 2021 00.5 Apr 10 Apr 11 2021 00.5 1Mar 23, 12:00 Mar 24, 00:00 Mar 24, 12:00 Mar 25, 00:00
+> date 2021 00.5
+> Shear [s -1 ]
+> 02:00 04:00 06:00 08:00 10:00 12:00 14:00 16:00 18:00
+> date Apr 02, 2021 0.2 0.3 0.4 Apr 10 Apr 11
+> date 2021 00.5
+
+Figure 6: Measurements over the entire period. Vertical dashed lines indicate the intervals where our method succeeds (the first interval is the one for which elaborated results in figure 4). Upper full panel: Wind gustiness as measured by a nearby meteorological station, we can see the regions of existing results are characterized by very low wind gustiness. Middle full panel: absolute value of the radial wind speed, all the regions our method was able to succeed, the wind was strong, however, periods of strong wind exist with our method fail to succeed. Lower full panel: significant wave height as measured by an ADCP. Each of the lower couples of sub-panels provide currents (radial surface current 𝛽 and the ADCP’s 5m depth current in the same direction) and shear (radial 𝛼 and the 𝛽 together with ADCP’s 5–8m estimated shear in the same direction). We see that our method provides similar temporal evolution across the storm events for the upper-layer shear 𝛼 , while the expected magnitude difference remains consistent with the different effective depths of the measurements. G Hasson et al.: Preprint submitted to Elsevier Page 10 of 7
