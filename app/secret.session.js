@@ -492,6 +492,11 @@
     return results;
   }
 
+  function isLikelyBrowserFetchBlocked(error) {
+    const message = String((error && (error.message || error)) || '').toLowerCase();
+    return message.includes('failed to fetch') || message.includes('load failed');
+  }
+
   // 使用 GitHub Token 推断目标仓库 owner/repo（与订阅面板保持一致的推断规则）
   async function detectGithubRepoFromToken(token) {
     const userRes = await fetch('https://api.github.com/user', {
@@ -1662,9 +1667,16 @@
           deepseekStatusEl.style.color = '#28a745';
           deepseekOk = true;
         } catch (e) {
-          deepseekStatusEl.textContent = `❌ 验证失败：${e.message || e}`;
-          deepseekStatusEl.style.color = '#c00';
-          deepseekOk = false;
+          if (isLikelyBrowserFetchBlocked(e)) {
+            deepseekStatusEl.textContent =
+              '⚠️ 浏览器测试失败，可能是接口未允许 GitHub Pages 跨域访问；仍允许保存配置，后台 GitHub Actions 会在服务器端调用。';
+            deepseekStatusEl.style.color = '#b7791f';
+            deepseekOk = true;
+          } else {
+            deepseekStatusEl.textContent = `❌ 验证失败：${e.message || e}`;
+            deepseekStatusEl.style.color = '#c00';
+            deepseekOk = false;
+          }
         } finally {
           deepseekVerifyBtn.disabled = false;
         }
@@ -1679,9 +1691,16 @@
           deepseekStatusEl.style.color = '#28a745';
           deepseekOk = true;
         } catch (e) {
-          deepseekStatusEl.textContent = `❌ 测试失败：${e.message || e}`;
-          deepseekStatusEl.style.color = '#c00';
-          deepseekOk = false;
+          if (isLikelyBrowserFetchBlocked(e)) {
+            deepseekStatusEl.textContent =
+              '⚠️ 浏览器测试失败，可能是接口未允许 GitHub Pages 跨域访问；仍允许保存配置，后台 GitHub Actions 会在服务器端调用。';
+            deepseekStatusEl.style.color = '#b7791f';
+            deepseekOk = true;
+          } else {
+            deepseekStatusEl.textContent = `❌ 测试失败：${e.message || e}`;
+            deepseekStatusEl.style.color = '#c00';
+            deepseekOk = false;
+          }
         } finally {
           deepseekTestBtn.disabled = false;
           deepseekVerifyBtn.disabled = false;
