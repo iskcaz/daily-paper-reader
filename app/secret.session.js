@@ -126,8 +126,8 @@
     }
   };
 
-  const enforceGuestMode = (overlayEl) => {
-    setAccessMode('guest', { mode: 'guest', reason: 'domain_force_guest' });
+  const enforceGuestMode = (overlayEl, reason) => {
+    setAccessMode('guest', { mode: 'guest', reason: reason || 'domain_force_guest' });
     if (overlayEl) {
       try {
         overlayEl.classList.remove('show');
@@ -2073,9 +2073,10 @@
               clearPassword();
             }
           }
-          // 没有保存的密码或自动解锁失败：展示解锁/游客界面
+          // 没有保存的密码或自动解锁失败：默认进入只读游客模式。
+          // 这样阅读论文不会被弹窗打断；需要后台/大模型能力时，可从“密钥配置”手动解锁。
           setupOverlay(true);
-          openSecretOverlay(overlay);
+          enforceGuestMode(overlay, 'default_readonly');
         } else {
           // 不存在 secret.private：始终展示初始化向导
           setupOverlay(false);
