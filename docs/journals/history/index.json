@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-06-04T20:59:12.625588+00:00",
+  "latest": "2026-06",
+  "months": [
+    {
+      "month": "2026-06",
+      "path": "docs/journals/history/2026-06.json",
+      "count": 4
+    },
+    {
+      "month": "2026-05",
+      "path": "docs/journals/history/2026-05.json",
+      "count": 1
+    }
+  ]
+}

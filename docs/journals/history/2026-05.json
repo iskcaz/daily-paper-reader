@@ -1,0 +1,71 @@
+[
+  {
+    "id": "journal-10-1021-acs-estlett-6c00336",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00336",
+    "doi": "10.1021/acs.estlett.6c00336",
+    "title": "Occurrence of Ultrashort-Chain Per- and Polyfluoroalkyl Substances in the Coral Reef Ecosystem of the Beibu Gulf, South China Sea",
+    "abstract": "Ultrashort-chain per- and polyfluoroalkyl substances (USC-PFAS) have gained increasing attention due to their ubiquitous environmental presence and escalating environmental concerns. However, data on their presence in corals remain lacking. This study investigated the concentrations of USC-PFAS, including trifluoroacetic acid (TFA), perfluoropropionic acid (PFPrA), trifluoromethanesulfonate (TFMS), perfluoroethanesulfonate (PFEtS), perfluoropropanesulfonate (PFPrS), and bisperfluoromethane sulfonimide (bis-FMeSI), along with other legacy and emerging PFAS in reef-building coral samples (n = 54) from the Beibu Gulf of the South China Sea. Among the USC-PFAS, TFA, PFPrA, and bis-FMeSI exhibited detection rates of 100%, 74%, and 72%, respectively, in coral samples. TFA dominated the PFAS profile, accounting for 86% of the total concentrations by weight, with concentrations (median: 23 ng/g dw) far exceeding those of all other legacy and emerging PFAS. The wet-weight-based logarithm bioaccumulation factors (log10 BAFs) from seawater to coral were estimated to be 1.85–3.60 for TFA, 2.07–4.09 for PFPrA, and 0.56–3.43 for bis-FMeSI, suggesting their bioaccumulative potential in reef-building corals. This study provides the first evidence of the widespread occurrence of USC-PFAS, particularly TFA, in reef-building corals, underscoring the need for further research into their potential ecological risks.",
+    "authors": [
+      "Fengli Zhou",
+      "Yan Wang",
+      "Jia Yang",
+      "Xiaodong Wang",
+      "Lijia Xu",
+      "Mehvish Mumtaz",
+      "Hui Chen",
+      "Xiaotu Liu",
+      "Da Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-05-15T00:00:00+00:00",
+    "updated_at": "2026-06-04T17:10:19.061208+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00336",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00336",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 9,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Coral reef",
+      "Bioaccumulation",
+      "Ecosystem",
+      "Environmental science",
+      "Coral",
+      "Ecology",
+      "Seawater",
+      "Oceanography"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  }
+]
