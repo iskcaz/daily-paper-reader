@@ -219,6 +219,11 @@ def normalize_arxiv_id(value: str) -> str:
     return raw.strip().lower()
 
 
+def looks_like_arxiv_id(value: str) -> bool:
+    arxiv_id = normalize_arxiv_id(value)
+    return bool(re.match(r"^\d{4}\.\d+(?:v\d+)?$", arxiv_id))
+
+
 def parse_arxiv_xml_feed(xml_text: str) -> Dict[str, Any]:
     """
     从 arXiv API XML feed 中解析第一条 paper 元数据，返回内部统一字典。
@@ -1251,6 +1256,44 @@ def resolve_paper_landing_url(paper: Dict[str, Any]) -> str:
     return str(paper.get("abs_url") or paper.get("link") or paper.get("pdf_url") or "").strip()
 
 
+def missing_abstract_text(source: str = "") -> str:
+    source_key = str(source or "").strip().lower()
+    if source_key == "arxiv":
+        return "arXiv did not provide an abstract for this paper."
+    if source_key == "biorxiv":
+        return "bioRxiv did not provide an abstract for this paper."
+    if source_key == "journal":
+        return "No abstract was available from the journal metadata sources for this paper."
+    return "No abstract was available from the metadata sources for this paper."
+
+
+def truthy_metadata_value(value: Any) -> bool:
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes", "y", "open", "available"}
+    return bool(value)
+
+
+def resolve_paper_sidebar_url(paper: Dict[str, Any], route_href: str = "") -> str:
+    raw_id = str(paper.get("id") or paper.get("paper_id") or "").strip()
+    source_key = str(paper.get("source") or "").strip().lower()
+    arxiv_id = normalize_arxiv_id(raw_id)
+    if source_key == "arxiv" and arxiv_id:
+        return f"https://arxiv.org/abs/{arxiv_id}"
+
+    landing_url = resolve_paper_landing_url(paper)
+    if landing_url:
+        return landing_url
+
+    if re.match(r"^\d{4}\.\d+(?:v\d+)?$", raw_id) and arxiv_id:
+        return f"https://arxiv.org/abs/{arxiv_id}"
+
+    pdf_url = resolve_paper_pdf_url(paper)
+    if pdf_url:
+        return pdf_url
+
+    return route_href
+
+
 def maybe_generate_paper_figures(
     paper: Dict[str, Any],
     *,
@@ -1343,11 +1386,11 @@ def build_markdown_content(
         or paper.get("llm_tldr_en")
         or ""
     ).strip()
-    abstract_en = (paper.get("abstract") or "").strip()
-    if not abstract_en:
-        abstract_en = "arXiv did not provide an abstract for this paper."
     paper_source = str(paper.get("source") or "").strip()
     selection_source = str(paper.get("selection_source") or "").strip()
+    abstract_en = (paper.get("abstract") or "").strip()
+    if not abstract_en:
+        abstract_en = missing_abstract_text(paper_source)
     figure_assets = paper.get("_figure_assets") if isinstance(paper.get("_figure_assets"), list) else []
     table_assets = paper.get("_table_assets") if isinstance(paper.get("_table_assets"), list) else []
 
@@ -1402,6 +1445,12 @@ def build_markdown_content(
         lines.append(f"source: {yaml_escape_value(paper_source)}")
     if selection_source:
         lines.append(f"selection_source: {yaml_escape_value(selection_source)}")
+    for field in ("doi", "journal", "journal_label", "publisher", "open_pdf_status", "open_pdf_note"):
+        value = str(paper.get(field) or "").strip()
+        if value:
+            lines.append(f"{field}: {yaml_escape_value(value)}")
+    if "open_pdf_available" in paper:
+        lines.append(f"open_pdf_available: {'true' if truthy_metadata_value(paper.get('open_pdf_available')) else 'false'}")
     if figure_assets:
         lines.append(f"figures_json: {yaml_escape_value(json.dumps(figure_assets, ensure_ascii=False))}")
     if table_assets:
@@ -1738,7 +1787,10 @@ def update_sidebar(
     quick_entries: List[Tuple[str, str, List[Tuple[str, str]]]],
     paper_evidence_by_id: Dict[str, str],
     date_label: str | None = None,
+    paper_link_by_id: Dict[str, str] | None = None,
 ) -> None:
+    link_by_id = paper_link_by_id or {}
+
     def build_sidebar_item_payload(
         paper_id: str,
         title: str,
@@ -1761,8 +1813,15 @@ def update_sidebar(
                 continue
             clean_tags.append({"kind": safe_kind, "label": safe_label})
 
-        arxiv_id = str(paper_id or "").strip().split("/")[-1]
-        paper_link = f"https://arxiv.org/abs/{arxiv_id}" if arxiv_id else route_href
+        safe_paper_id = str(paper_id or "").strip()
+        paper_link = str(link_by_id.get(safe_paper_id) or "").strip()
+        if not paper_link:
+            route_tail = safe_paper_id.split("/")[-1]
+            if re.match(r"^\d{4}\.\d+(?:v\d+)?(?:-[a-z0-9][a-z0-9-]*)?$", route_tail, flags=re.IGNORECASE):
+                arxiv_id = route_tail.split("-", 1)[0]
+                paper_link = f"https://arxiv.org/abs/{arxiv_id}"
+        if not paper_link:
+            paper_link = route_href
         payload = {
             "title": (title or "").strip() or paper_id,
             "link": paper_link,
@@ -2333,6 +2392,7 @@ def _parse_generated_md_to_meta(
                 kind = "query"
             tags_typed.append({"kind": kind, "label": label})
 
+    paper_source_value = str(fm_meta.get("source") or fm_meta.get("Source") or "").strip()
     parsed_abstract_en = _extract_md_section(text, "Abstract")
     abstract_en = str(paper_abstract or "").strip()
     if not abstract_en:
@@ -2341,7 +2401,7 @@ def _parse_generated_md_to_meta(
         # 兜底：md 有 Abstract 标题但抽取文本为空
         abstract_en = parsed_abstract_en
     if not abstract_en:
-        abstract_en = "arXiv did not provide an abstract for this paper."
+        abstract_en = missing_abstract_text(paper_source_value)
 
     # 作者：front matter authors 优先，次选旧式 meta 行
     raw_authors = fm_meta.get("authors") if "authors" in fm_meta else fm_meta.get("Authors")
@@ -2364,10 +2424,10 @@ def _parse_generated_md_to_meta(
 
     date_value = _fallback_meta("date", "Date")
     pdf_value = _fallback_meta("pdf", "PDF")
+    link_value = _fallback_meta("link", "Link")
     score_value = _fallback_meta("score", "Score")
     evidence_value = _fallback_meta("evidence", "Evidence")
     tldr_value = _fallback_meta("tldr", "TLDR")
-    paper_source_value = str(fm_meta.get("source") or fm_meta.get("Source") or "").strip()
     src_value = str(selection_source or "").strip()
     if not src_value and "selection_source" in fm_meta:
         src_value = str(fm_meta.get("selection_source") or "").strip()
@@ -2388,6 +2448,7 @@ def _parse_generated_md_to_meta(
         "authors": authors_line,
         "date": str(date_value or "").strip(),
         "pdf": str(pdf_value or "").strip(),
+        "link": str(link_value or "").strip(),
         "score": str(score_value or "").strip(),
         "evidence": str(evidence_value or "").strip(),
         "tldr": str(tldr_value or "").strip(),
@@ -2395,6 +2456,12 @@ def _parse_generated_md_to_meta(
         "abstract_en": abstract_en,
         "source": paper_source_value,
         "selection_source": src_value,
+        "doi": str(fm_meta.get("doi") or "").strip(),
+        "journal": str(fm_meta.get("journal") or "").strip(),
+        "journal_label": str(fm_meta.get("journal_label") or "").strip(),
+        "publisher": str(fm_meta.get("publisher") or "").strip(),
+        "open_pdf_status": str(fm_meta.get("open_pdf_status") or "").strip(),
+        "open_pdf_available": str(fm_meta.get("open_pdf_available") or "").strip(),
     }
 
 
@@ -2539,6 +2606,11 @@ def main() -> None:
     if args.paper_id:
         log_substep("6.p", "单篇论文生成", "START")
         try:
+            if not looks_like_arxiv_id(args.paper_id):
+                raise ValueError(
+                    "--paper-id currently supports arXiv ids only. "
+                    "Use the journal-source workflow for DOI/journal papers."
+                )
             paper = fetch_arxiv_paper_meta(args.paper_id)
             if not str(paper.get("source") or "").strip():
                 paper["source"] = "arxiv"
@@ -2638,6 +2710,7 @@ def main() -> None:
         section: str,
         papers: List[Dict[str, Any]],
         paper_evidence_by_id: Dict[str, str],
+        paper_link_by_id: Dict[str, str],
     ) -> List[Tuple[str, str, List[Tuple[str, str]]]]:
         if not papers:
             return []
@@ -2665,6 +2738,7 @@ def main() -> None:
                     log(f"[WARN] 生成{section}论文失败：{e}")
                     continue
                 paper_evidence_by_id[str((pid or "").strip())] = get_paper_sidebar_evidence(paper)
+                paper_link_by_id[str((pid or "").strip())] = resolve_paper_sidebar_url(paper, f"#/{pid}")
                 section_tags = extract_sidebar_tags(paper)
                 results.append((index, (pid, title, section_tags)))
 
@@ -2672,6 +2746,7 @@ def main() -> None:
         return [v for _, v in results]
 
     sidebar_evidence_by_id: Dict[str, str] = {}
+    sidebar_link_by_id: Dict[str, str] = {}
 
     if args.sidebar_only:
         log_substep("6.2", "跳过生成文章（仅更新侧边栏）", "SKIP")
@@ -2680,6 +2755,7 @@ def main() -> None:
             arxiv_id = str(paper.get("id") or paper.get("paper_id") or "").strip()
             _, _, pid = prepare_paper_paths(docs_dir, date_str, title, arxiv_id)
             sidebar_evidence_by_id[str(pid).strip()] = get_paper_sidebar_evidence(paper)
+            sidebar_link_by_id[str(pid).strip()] = resolve_paper_sidebar_url(paper, f"#/{pid}")
             deep_entries.append((pid, title, extract_sidebar_tags(paper)))
 
         for paper in quick_list:
@@ -2687,15 +2763,16 @@ def main() -> None:
             arxiv_id = str(paper.get("id") or paper.get("paper_id") or "").strip()
             _, _, pid = prepare_paper_paths(docs_dir, date_str, title, arxiv_id)
             sidebar_evidence_by_id[str(pid).strip()] = get_paper_sidebar_evidence(paper)
+            sidebar_link_by_id[str(pid).strip()] = resolve_paper_sidebar_url(paper, f"#/{pid}")
             quick_entries.append((pid, title, extract_sidebar_tags(paper)))
         log_substep("6.3", "跳过生成文章（仅更新侧边栏）", "SKIP")
     else:
         log_substep("6.2", "生成精读区文章", "START")
-        deep_entries = _process_section("deep", deep_list, sidebar_evidence_by_id)
+        deep_entries = _process_section("deep", deep_list, sidebar_evidence_by_id, sidebar_link_by_id)
         log_substep("6.2", "生成精读区文章", "END")
 
         log_substep("6.3", "生成速读区文章", "START")
-        quick_entries = _process_section("quick", quick_list, sidebar_evidence_by_id)
+        quick_entries = _process_section("quick", quick_list, sidebar_evidence_by_id, sidebar_link_by_id)
         log_substep("6.3", "生成速读区文章", "END")
 
     log_substep("6.4", "生成当日日报并同步首页 README", "START")
@@ -2732,6 +2809,7 @@ def main() -> None:
             quick_entries,
             sidebar_evidence_by_id,
             date_label=args.sidebar_date_label,
+            paper_link_by_id=sidebar_link_by_id,
         )
         log_substep("6.5", "更新侧边栏", "END")
     else:

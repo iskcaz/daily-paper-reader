@@ -39,7 +39,7 @@ window.$docsify = {
 
       const metaFallbacks = {
         citation_title: 'Daily Paper Reader Default Entry',
-        citation_journal_title: 'arxiv',
+        citation_journal_title: 'Daily Paper Reader',
         citation_pdf_url: 'https://daily-paper-reader.invalid/default.pdf',
         citation_publication_date: '2024-01-01',
         citation_date: '2024/01/01',
@@ -96,6 +96,31 @@ window.$docsify = {
         normalizeTextForMeta(value)
           .replace(/\r/g, '\n')
           .replace(/\n/g, CITATION_ABSTRACT_BR);
+
+      const firstMetaValue = (meta, keys) => {
+        if (!meta || typeof meta !== 'object') return '';
+        for (const key of keys || []) {
+          const value = meta[key];
+          if (Array.isArray(value)) {
+            const joined = value.map((item) => String(item || '').trim()).filter(Boolean).join(', ');
+            if (joined) return joined;
+            continue;
+          }
+          const text = normalizeTextForMeta(value);
+          if (text) return text;
+        }
+        return '';
+      };
+
+      const resolveCitationJournalTitle = (meta) => {
+        const explicit = firstMetaValue(meta, ['journal', 'journal_label', 'publisher']);
+        if (explicit) return explicit;
+        const source = firstMetaValue(meta, ['source', 'Source']).toLowerCase();
+        if (source === 'arxiv') return 'arxiv';
+        if (source === 'biorxiv') return 'bioRxiv';
+        if (source === 'journal') return 'Journal article';
+        return '';
+      };
 
       const trimBeforeMarkers = (value, markers) => {
         const text = normalizeTextForMeta(value);
@@ -431,6 +456,11 @@ window.$docsify = {
             }
           })();
 
+          if (!pdfUrl) {
+            pdfUrl = firstMetaValue(frontmatterPaperMeta, ['pdf', 'PDF']);
+          }
+          const citationJournalTitle = resolveCitationJournalTitle(frontmatterPaperMeta);
+
           let date = parseDateFromText(frontmatterPaperMeta.date);
           if (!date) {
             const matchDate = vmRouteFile
@@ -483,7 +513,9 @@ window.$docsify = {
           });
 
           updateMetaTag('citation_title', title);
-          updateMetaTag('citation_journal_title', 'arxiv');
+          updateMetaTag('citation_journal_title', citationJournalTitle, {
+            useFallback: false,
+          });
           updateMetaTag('citation_pdf_url', pdfUrl, {
             useFallback: false,
           });
@@ -2681,8 +2713,9 @@ window.$docsify = {
           const href = String(a.getAttribute('href') || '').trim();
           const routeMatch = href.match(/#\/(.+)$/);
           const routeId = routeMatch ? decodeURIComponent(routeMatch[1]).replace(/\/$/, '') : '';
-          const arxivId = routeId ? routeId.split('/').slice(-1)[0] : '';
-          const fallbackLink = arxivId ? `https://arxiv.org/abs/${arxivId}` : '';
+          const routeTail = routeId ? routeId.split('/').slice(-1)[0] : '';
+          const arxivMatch = routeTail.match(/^(\d{4}\.\d+(?:v\d+)?)(?:-[a-z0-9][a-z0-9-]*)?$/i);
+          const fallbackLink = arxivMatch ? `https://arxiv.org/abs/${arxivMatch[1]}` : '';
 
           let payload = null;
           const raw = a.getAttribute('data-sidebar-item') || '';

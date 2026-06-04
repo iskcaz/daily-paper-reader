@@ -161,16 +161,26 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
             "authors": ["Ada Lovelace"],
             "published": "2026-06-01T00:00:00+00:00",
             "source": "journal",
+            "doi": "10.1000/test",
+            "journal": "Environmental Science & Technology",
+            "journal_label": "EST",
             "link": "https://doi.org/10.1000/test",
             "abs_url": "https://doi.org/10.1000/test",
             "open_pdf_available": False,
             "open_pdf_status": "no_open_pdf",
-            "abstract": "abstract body",
+            "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+            "abstract": "",
         }
         md = self.mod.build_markdown_content(paper, "quick", "", "", [])
         meta = self.mod._parse_front_matter(md)
         self.assertNotIn("pdf", meta)
         self.assertEqual(meta["link"], "https://doi.org/10.1000/test")
+        self.assertEqual(meta["doi"], "10.1000/test")
+        self.assertEqual(meta["journal"], "Environmental Science & Technology")
+        self.assertEqual(meta["journal_label"], "EST")
+        self.assertEqual(meta["open_pdf_available"], "false")
+        self.assertIn("journal metadata sources", md)
+        self.assertNotIn("arXiv did not provide an abstract", md)
         self.assertEqual(self.mod.resolve_paper_pdf_url(paper), "")
 
     def test_journal_with_open_pdf_uses_pdf_url(self):
@@ -181,6 +191,80 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
             "open_pdf_available": True,
         }
         self.assertEqual(self.mod.resolve_paper_pdf_url(paper), "https://example.org/open.pdf")
+
+    def test_parse_generated_meta_preserves_journal_fields(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "paper.md"
+            path.write_text(
+                "\n".join(
+                    [
+                        "---",
+                        "title: Journal title",
+                        "authors: Ada Lovelace",
+                        "date: 2026-06-01",
+                        "link: https://doi.org/10.1000/test",
+                        "source: journal",
+                        "doi: 10.1000/test",
+                        "journal: Environmental Science & Technology",
+                        "journal_label: EST",
+                        "open_pdf_status: no_open_pdf",
+                        "open_pdf_available: false",
+                        "---",
+                        "",
+                        "## Abstract",
+                        "No abstract was available from the journal metadata sources for this paper.",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            item = self.mod._parse_generated_md_to_meta(str(path), "journal-id", "quick")
+
+            self.assertEqual(item["source"], "journal")
+            self.assertEqual(item["link"], "https://doi.org/10.1000/test")
+            self.assertEqual(item["doi"], "10.1000/test")
+            self.assertEqual(item["journal"], "Environmental Science & Technology")
+            self.assertEqual(item["journal_label"], "EST")
+            self.assertEqual(item["open_pdf_status"], "no_open_pdf")
+            self.assertEqual(item["open_pdf_available"], "false")
+            self.assertIn("journal metadata sources", item["abstract_en"])
+            self.assertNotIn("arXiv did not provide an abstract", item["abstract_en"])
+
+    def test_update_sidebar_uses_journal_landing_link(self):
+        with tempfile.TemporaryDirectory() as d:
+            sidebar = Path(d) / "_sidebar.md"
+            sidebar.write_text("* [首页](/)\n* Daily Papers\n", encoding="utf-8")
+
+            self.mod.update_sidebar(
+                str(sidebar),
+                "20260601",
+                [],
+                [("202606/01/journal-10-1000-test", "Journal Sidebar Test", [("score", "8.8")])],
+                {},
+                paper_link_by_id={
+                    "202606/01/journal-10-1000-test": "https://doi.org/10.1000/test",
+                },
+            )
+
+            text = sidebar.read_text(encoding="utf-8")
+            self.assertIn("https://doi.org/10.1000/test", text)
+            self.assertNotIn("https://arxiv.org/abs/journal-10-1000-test", text)
+
+    def test_resolve_sidebar_url_keeps_arxiv_abs_link(self):
+        paper = {
+            "source": "arxiv",
+            "id": "1706.03762v1",
+            "link": "https://arxiv.org/pdf/1706.03762v1",
+        }
+        self.assertEqual(
+            self.mod.resolve_paper_sidebar_url(paper, "#/202606/01/1706.03762v1-test"),
+            "https://arxiv.org/abs/1706.03762v1",
+        )
+
+    def test_paper_id_single_mode_rejects_non_arxiv_ids(self):
+        self.assertTrue(self.mod.looks_like_arxiv_id("https://arxiv.org/abs/1706.03762v1"))
+        self.assertFalse(self.mod.looks_like_arxiv_id("10.1000/test"))
+        self.assertFalse(self.mod.looks_like_arxiv_id("journal-10-1000-test"))
 
     def test_maybe_generate_paper_media_accepts_biorxiv(self):
         calls = []
