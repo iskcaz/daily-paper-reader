@@ -17,6 +17,7 @@ const {
   __setQuickRunConferenceBtn,
   __setUnsavedChanges,
   __setRunSelectionState,
+  __setJournalRunInputs,
   __initializeConferenceChoices,
   __getSelectedConferenceYearPairs,
   runSelectedQuickFetch,
@@ -281,6 +282,37 @@ async function testQuickFetchIncludesAnySelectedProfile() {
   delete global.window.confirm;
 }
 
+async function testQuickFetchIncludesJournalOptionsWhenFilled() {
+  const calls = [];
+  global.window.DPRWorkflowRunner = {
+    runQuickFetchByDays(days, options) {
+      calls.push({ days, options });
+    },
+  };
+  global.window.SubscriptionsSmartQuery = {
+    getSelectedProfilesForRun() {
+      return [{ tag: 'ENV', temporary: false, paused: false }];
+    },
+  };
+  __setUnsavedChanges(false);
+  __setJournalRunInputs({
+    month: '2025-06',
+    query: 'PFAS;sediment',
+    rows: '12',
+  });
+
+  assert.equal(await runSelectedQuickFetch(30, { fetchMode: 'skims' }), true);
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].options.dispatchInputs.profile_tag, 'ENV');
+  assert.equal(calls[0].options.dispatchInputs.journal_month, '2025-06');
+  assert.equal(calls[0].options.dispatchInputs.journal_query, 'PFAS;sediment');
+  assert.equal(calls[0].options.dispatchInputs.journal_rows_per_journal, '12');
+
+  __setJournalRunInputs({});
+  delete global.window.DPRWorkflowRunner;
+  delete global.window.SubscriptionsSmartQuery;
+}
+
 (async () => {
   testNormalizeSubscriptionsAddsBiorxivBackend();
   testNormalizeSubscriptionsPreservesCustomBiorxivBackendFields();
@@ -291,6 +323,7 @@ async function testQuickFetchIncludesAnySelectedProfile() {
   testQuickRunUnsavedMessageClearsAfterSave();
   testConferenceRunDisabledWhenUnsaved();
   await testQuickFetchIncludesAnySelectedProfile();
+  await testQuickFetchIncludesJournalOptionsWhenFilled();
 
   console.log('subscriptions manager tests passed');
 })().catch((error) => {

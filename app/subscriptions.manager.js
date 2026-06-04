@@ -29,6 +29,9 @@ window.SubscriptionsManager = (function () {
   let quickRunStartBtn = null;
   let quickRunHintEl = null;
   let conferenceHintEl = null;
+  let quickRunJournalMonthInput = null;
+  let quickRunJournalQueryInput = null;
+  let quickRunJournalRowsInput = null;
   let quickRunMode = '10';
   const selectedConferenceYearPairs = new Set();
   let resetContentBtn = null;
@@ -104,6 +107,25 @@ window.SubscriptionsManager = (function () {
   ]);
 
   const normalizeText = (v) => String(v || '').trim();
+  const collectJournalDispatchInputs = () => {
+    const out = {};
+    const month = normalizeText(quickRunJournalMonthInput && quickRunJournalMonthInput.value);
+    const query = normalizeText(quickRunJournalQueryInput && quickRunJournalQueryInput.value);
+    const rows = normalizeText(quickRunJournalRowsInput && quickRunJournalRowsInput.value);
+    if (/^\d{4}-\d{2}$/.test(month)) {
+      out.journal_month = month;
+    }
+    if (query) {
+      out.journal_query = query;
+    }
+    if (rows) {
+      const parsedRows = parseInt(rows, 10);
+      if (Number.isFinite(parsedRows) && parsedRows > 0) {
+        out.journal_rows_per_journal = String(parsedRows);
+      }
+    }
+    return out;
+  };
   const truncateDisplayText = (value, maxChars) => {
     const chars = Array.from(normalizeText(value));
     if (chars.length <= maxChars) return chars.join('');
@@ -782,6 +804,7 @@ window.SubscriptionsManager = (function () {
     const options = runOptions && typeof runOptions === 'object' ? cloneDeep(runOptions) : {};
     const dispatchInputs = isPlainObject(options.dispatchInputs) ? options.dispatchInputs : {};
     options.dispatchInputs = {
+      ...collectJournalDispatchInputs(),
       ...dispatchInputs,
       profile_tag: normalizedTag,
     };
@@ -807,6 +830,7 @@ window.SubscriptionsManager = (function () {
     const options = runOptions && typeof runOptions === 'object' ? cloneDeep(runOptions) : {};
     const dispatchInputs = isPlainObject(options.dispatchInputs) ? options.dispatchInputs : {};
     options.dispatchInputs = {
+      ...collectJournalDispatchInputs(),
       ...dispatchInputs,
       profile_tag: tags.join(','),
     };
@@ -1199,6 +1223,20 @@ window.SubscriptionsManager = (function () {
                     <span class="dpr-task-action-cost">约 ¥0.50</span>
                   </label>
                 </div>
+                <div class="dpr-journal-run-options" aria-label="环境期刊抓取选项">
+                  <label>
+                    <span>期刊月份</span>
+                    <input id="arxiv-admin-journal-month-input" type="month" placeholder="YYYY-MM">
+                  </label>
+                  <label>
+                    <span>期刊关键词</span>
+                    <input id="arxiv-admin-journal-query-input" type="text" placeholder="默认使用期刊清单关键词">
+                  </label>
+                  <label>
+                    <span>每刊条数</span>
+                    <input id="arxiv-admin-journal-rows-input" type="number" min="1" max="100" step="1" placeholder="25">
+                  </label>
+                </div>
                 <button id="arxiv-admin-quick-run-start-btn" class="chat-quick-run-run-btn dpr-task-start-btn" type="button">开始检索</button>
                 <div id="arxiv-admin-quick-run-msg" class="chat-quick-run-msg"></div>
               </div>
@@ -1472,6 +1510,9 @@ window.SubscriptionsManager = (function () {
     conferenceSelectionCountEl = null;
     quickRunHintEl = document.getElementById('arxiv-admin-quick-run-hint');
     conferenceHintEl = document.getElementById('arxiv-admin-conference-hint');
+    quickRunJournalMonthInput = document.getElementById('arxiv-admin-journal-month-input');
+    quickRunJournalQueryInput = document.getElementById('arxiv-admin-journal-query-input');
+    quickRunJournalRowsInput = document.getElementById('arxiv-admin-journal-rows-input');
     dailyProfilePickerEl = document.getElementById('arxiv-admin-daily-profile-picker');
     conferenceProfilePickerEl = document.getElementById('arxiv-admin-conference-profile-picker');
     dailySelectAllBtn = document.getElementById('arxiv-admin-daily-select-all-btn');
@@ -1668,6 +1709,13 @@ window.SubscriptionsManager = (function () {
           if (text) selectedConferenceYearPairs.add(text);
         });
       },
+      __setJournalRunInputs: (value) => {
+        const data = value && typeof value === 'object' ? value : {};
+        quickRunJournalMonthInput = { value: data.month || '' };
+        quickRunJournalQueryInput = { value: data.query || '' };
+        quickRunJournalRowsInput = { value: data.rows || '' };
+      },
+      collectJournalDispatchInputs,
       __initializeConferenceChoices: () => initializeConferenceChoices(),
       __getSelectedConferenceYearPairs: () => Array.from(selectedConferenceYearPairs),
       runSelectedQuickFetch,

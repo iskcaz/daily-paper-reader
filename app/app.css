@@ -3638,6 +3638,44 @@ article.markdown-section {
   box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.08);
 }
 
+.dpr-journal-run-options {
+  display: grid;
+  grid-template-columns: minmax(96px, 0.7fr) minmax(150px, 1.4fr) minmax(80px, 0.55fr);
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid #dfe7f3;
+  border-radius: 8px;
+  background: #f8fbff;
+}
+
+.dpr-journal-run-options label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  color: #53627b;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.dpr-journal-run-options input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 5px 7px;
+  border: 1px solid #ccd6e4;
+  border-radius: 6px;
+  color: #253452;
+  font-size: 11px;
+  background: #fff;
+}
+
+@media (max-width: 720px) {
+  .dpr-journal-run-options {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 .dpr-task-start-btn {
   width: 100%;
   margin-top: 0;
