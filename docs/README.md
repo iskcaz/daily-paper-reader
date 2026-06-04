@@ -6,50 +6,35 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-26 ~ 2026-06-04
-- 运行时间：2026-06-04 14:36:55 UTC
+- 最新运行日期：2026-06-04
+- 运行时间：2026-06-04 20:53:40 UTC
 - 运行状态：成功
-- 本次总论文数：9
+- 本次总论文数：4
 - 精读区：0
-- 速读区：9
+- 速读区：4
 
 ### 今日简报（AI）
-今日完成 9 篇海洋方向论文速读，重点集中在海表变率刻画、洋流反演与大西洋经向翻转环流减弱机制。
-最值得看的是两条线索：一是用聚类算法分析西地中海海表变率，二是从海底压力解释密度与海平面变化如何削弱大西洋翻转环流，并结合 HF 雷达反演海表流与垂向切变。
-下步建议先挑这 3 篇速读代表作按“方法—结论—应用场景”做对照阅读，快速判断哪些结果最值得继续深挖。
-- 详情：[/20260526-20260604/README](/20260526-20260604/README)
+今日速读 4 篇环境水文研究，重点聚焦城市与山地流域中的污染迁移、盐化风险和微塑料负荷。  
+最值得看的是两条主线：人工造雪可能把人为硝酸盐重新输送进山地含水层，城市汇水区则可用停留时间模型预测淡水盐化，并量化暴雨径流中的微塑料输出。  
+下步建议优先关注与你所在城市或周边水环境最相关的议题，尤其留意冬季融雪、道路盐使用和雨后径流这三类日常但易被忽视的污染来源。
+- 详情：[/202606/04/README](/202606/04/README)
 
 ### 精读区论文标签
 - 本次无精读推荐。
 
 ### 速读区论文标签
-1. [A Comparative Analysis of Clustering Algorithms for Characterizing Surface Ocean Variability in the Western Mediterranean](/20260526-20260604/2605.26666v1-a-comparative-analysis-of-clustering-algorithms-for-characterizing-surface-ocean-variability-in-the-western-mediterranean)
+1. [Redistribution of anthropogenic nitrate via artificial snowmaking to mountain aquifers: Isotopic evidence and biogeochemical pathways](/202606/04/journal-10-1016-j-watres-2026-125669-redistribution-of-anthropogenic-nitrate-via-artificial-snowmaking-to-mountain-aquifers-isotopic-evidence-and-biogeochemical-pathways)  
    标签：评分：6.0/10、query:coastal-pfas
-   evidence：海洋输运格局表征方法
-2. [Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure](/20260526-20260604/2605.29142v1-density-and-sea-level-changes-weaken-the-atlantic-overturning-mechanistic-insights-from-ocean-bottom-pressure)
+   evidence：水文系统中的生物地球化学路径追踪
+2. [Transit time modeling framework for predicting freshwater salinization in urban catchments](/202606/04/journal-10-1016-j-watres-2026-125692-transit-time-modeling-framework-for-predicting-freshwater-salinization-in-urban-catchments)  
    标签：评分：6.0/10、query:coastal-pfas
-   evidence：与输运路径相关的海洋环流机制
-3. [Retrieval of Ocean Surface Currents and Vertical Shear from HF Radar Observations](/20260526-20260604/2605.29581v1-retrieval-of-ocean-surface-currents-and-vertical-shear-from-hf-radar-observations)
+   evidence：盐度变化与水文输运路径建模
+3. [Yields and stormwater loads of microplastics in five urban stormwater catchments (City of Kitchener, Ontario, Canada)](/202606/04/journal-10-1016-j-watres-2026-125804-yields-and-stormwater-loads-of-microplastics-in-five-urban-stormwater-catchments-city-of-kitchener-ontario-canada)  
    标签：评分：6.0/10、query:coastal-pfas
-   evidence：海表流反演可支持近岸污染物输运分析
-4. [Learning effective Sargassum transport dynamics from limited drifter observations](/20260526-20260604/2605.30603v1-learning-effective-sargassum-transport-dynamics-from-limited-drifter-observations)
+   evidence：暴雨径流作为陆源入水通道
+4. [Per- and Polyfluoroalkyl Substances and Total Organic Fluorine Ratios from Field-Collected Light Nonaqueous Phase Liquids and Groundwater](/202606/04/journal-10-1021-acs-est-5c16011-per--and-polyfluoroalkyl-substances-and-total-organic-fluorine-ratios-from-field-collected-light-nonaqueous-phase-liquids-and-groundwater)  
    标签：评分：6.0/10、query:coastal-pfas
-   evidence：基于漂流器的近海输运路径建模
-5. [Wave-mean decomposition of scale-dependent kinetic energy from surface drifters](/20260526-20260604/2606.03744v1-wave-mean-decomposition-of-scale-dependent-kinetic-energy-from-surface-drifters)
-   标签：评分：6.0/10、query:coastal-pfas
-   evidence：用于近海混合诊断的表层漂流器方法
-6. [Advancing Great Lakes Coastal Wetland Food Web Models Using an Integrative Tracer Approach](/20260526-20260604/biorxiv-10-64898-2026-05-27-725968-v1-advancing-great-lakes-coastal-wetland-food-web-models-using-an-integrative-tracer-approach)
-   标签：评分：6.0/10、query:coastal-pfas
-   evidence：河口与河岸湿地中的示踪路径研究
-7. [Temporal emergence of functional dark matter in microbial responses to PFAS revealed by materials-based cultivation](/20260526-20260604/biorxiv-10-64898-2026-05-27-728134-v1-temporal-emergence-of-functional-dark-matter-in-microbial-responses-to-pfas-revealed-by-materials-based-cultivation)
-   标签：评分：6.0/10、query:coastal-pfas
-   evidence：PFAS微生物生物地球化学响应过程
-8. [Viral impacts on plankton standing stocks, primary productivity, and biogeochemistry in a model ocean](/20260526-20260604/biorxiv-10-64898-2026-05-27-728272-v1-viral-impacts-on-plankton-standing-stocks-primary-productivity-and-biogeochemistry-in-a-model-ocean)
-   标签：评分：6.0/10、query:coastal-pfas
-   evidence：海洋生物地球化学建模框架
-9. [Quantitative metagenomics reveals fine-scale population dynamics across bacteria, archaea, and microbial eukaryotes in an estuarine-coastal continuum](/20260526-20260604/biorxiv-10-64898-2026-05-28-728481-v1-quantitative-metagenomics-reveals-fine-scale-population-dynamics-across-bacteria-archaea-and-microbial-eukaryotes-in-an-estuarine-coastal-continuum)
-   标签：评分：6.0/10、query:coastal-pfas
-   evidence：河口到近海生物地球化学动态方法
+   evidence：地下水中PFAS源特征与陆源入海路径相关
 
 
 <div class="dpr-home-promo-card">

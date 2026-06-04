@@ -1,0 +1,350 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-04T20:53:07.455921+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 4,
+    "quick_skim_target": 11,
+    "quick_selected": 4
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "journal-10-1016-j-watres-2026-125669",
+      "source": "journal",
+      "title": "Redistribution of anthropogenic nitrate via artificial snowmaking to mountain aquifers: Isotopic evidence and biogeochemical pathways",
+      "abstract": "Artificial snow production is widely used as an adaptation strategy for winter tourism under climate warming, yet its influence on nitrogen (N) redistribution within mountain hydrological systems remains poorly constrained. Traditionally regarded as a temporary redistribution of water, technical snow may also redistribute anthropogenic nitrate contained in source waters to soils and groundwater. This study examines the influence of large-scale snowmaking on nitrogen dynamics in a temperate mountain catchment in South Korea. Seasonal monitoring showed that NO3--N concentrations in summit groundwater remained higher than background levels during snowmelt, in contrast to dilution patterns observed in stream water. Isotopic signatures of artificial snow closely resembled those of the source stream water, suggesting minimal isotopic modification during the snowmaking process. Dual isotope relationships and Monte Carlo simulations provided no clear isotopic evidence for substantial denitrification in summit groundwater. We applied a dual-isotope approach (δ18O-H2O and δ15N-NO3-), combined with Bayesian mixing, to evaluate the relative contributions of rainfall, natural snow, and artificial snow to mountain groundwater. The results suggest that artificial snow is a substantial contributor to groundwater nitrate relative to natural precipitation sources, although the magnitude of this contribution is subject to uncertainty associated with end-member characterization. Overall, these findings suggest that artificial snow primarily functions as a conduit for redistributing anthropogenic nitrogen, with implications for groundwater nitrate persistence under increasing snowmaking activity.",
+      "authors": [
+        "Hyejung Jung",
+        "Yalalt Nyamgerel",
+        "Kyung-Seok Ko",
+        "Dong-Chan Koh",
+        "Weon-Seo Kee",
+        "Jeonghoon Lee"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "water-research"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.watres.2026.125669",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.watres.2026.125669",
+      "doi": "10.1016/j.watres.2026.125669",
+      "updated_at": "2026-06-04T20:38:05.624674+00:00",
+      "abs_url": "https://doi.org/10.1016/j.watres.2026.125669",
+      "journal": "Water Research",
+      "journal_key": "water_research",
+      "journal_label": "WR",
+      "journal_issn": [
+        "0043-1354"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex",
+        "semantic_scholar"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Environmental science",
+        "Snow",
+        "Nitrate",
+        "Biogeochemical cycle",
+        "Denitrification",
+        "Groundwater",
+        "Temperate climate",
+        "Hydrology (agriculture)"
+      ],
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "semantic_fields_of_study": [
+        "Medicine"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "biogeochemical pathway tracing in a hydrologic system",
+      "llm_evidence_cn": "水文系统中的生物地球化学路径追踪",
+      "llm_evidence": "水文系统中的生物地球化学路径追踪",
+      "canonical_evidence": "水文系统中的生物地球化学路径追踪",
+      "llm_tldr_en": "This nitrate study traces redistribution and biogeochemical pathways in a mountain catchment using seasonal monitoring and isotopic evidence. Although not PFAS or coastal, its source-pathway-process framing is a transferable methodological bridge for tracing contaminants into estuarine and coastal systems.",
+      "llm_tldr_cn": "该研究针对人工造雪改变山地流域氮迁移过程却缺乏证据的问题，利用季节监测与同位素示踪解析硝酸盐在土壤和地下水中的再分配及生物地球化学路径。结果表明造雪可将源水中的人为硝酸盐转移至山顶含水层，并在融雪期维持异常浓度。虽然研究对象不是PFAS且场景非海岸带，但其源解析与过程追踪框架对识别PFAS在河口近海系统中的来源和转化具有方法借鉴。",
+      "llm_tldr": "该研究针对人工造雪改变山地流域氮迁移过程却缺乏证据的问题，利用季节监测与同位素示踪解析硝酸盐在土壤和地下水中的再分配及生物地球化学路径。结果表明造雪可将源水中的人为硝酸盐转移至山顶含水层，并在融雪期维持异常浓度。虽然研究对象不是PFAS且场景非海岸带，但其源解析与过程追踪框架对识别PFAS在河口近海系统中的来源和转化具有方法借鉴。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1016-j-watres-2026-125692",
+      "source": "journal",
+      "title": "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+      "abstract": "when normalized by the 20,000 people living in the watershed. In winter months, higher infiltration routes a large fraction of snowmelt and deicers into shallow subsurface pathways, enhancing vadose-zone and interflow contributions to stream salinity. Limited subsurface storage capacity and seasonal hydrologic turnover flush excess chloride from the vadose zone and groundwater during subsequent summer storms. By linking climate-driven deicer inputs, hydrologic connectivity, and stream water age, the framework provides a transferable basis for diagnosing and managing freshwater salinization in urban watersheds.",
+      "authors": [
+        "Shantanu V. Bhide",
+        "Stanley B. Grant",
+        "Kevin McGuire",
+        "Karen Prestegaard",
+        "Sujay S. Kaushal",
+        "Andrew J. Sekellick",
+        "Megan A. Rippy",
+        "Todd Schenk",
+        "Shannon Curtis",
+        "Jesus D. Gomez-Velez",
+        "Erin R. Hotchkiss",
+        "Peter Vikesland",
+        "Siddharth Saksena"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "water-research"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.watres.2026.125692",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.watres.2026.125692",
+      "doi": "10.1016/j.watres.2026.125692",
+      "updated_at": "2026-06-04T20:38:05.624779+00:00",
+      "abs_url": "https://doi.org/10.1016/j.watres.2026.125692",
+      "pdf_url": "https://doi.org/10.1016/j.watres.2026.125692",
+      "journal": "Water Research",
+      "journal_key": "water_research",
+      "journal_label": "WR",
+      "journal_issn": [
+        "0043-1354"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "open_pdf",
+      "open_pdf_source": "openalex",
+      "metadata_sources": [
+        "crossref",
+        "openalex",
+        "semantic_scholar"
+      ],
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "openalex_concepts": [
+        "Environmental science",
+        "Hydrology (agriculture)",
+        "Transit time",
+        "Soil salinity",
+        "Water resource management",
+        "Water quality",
+        "Hydrological modelling",
+        "Groundwater"
+      ],
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "semantic_fields_of_study": [
+        "Medicine"
+      ],
+      "open_pdf_available": true,
+      "llm_score": 6.0,
+      "llm_evidence_en": "salinization transport and hydrologic pathway modeling",
+      "llm_evidence_cn": "盐度变化与水文输运路径建模",
+      "llm_evidence": "盐度变化与水文输运路径建模",
+      "canonical_evidence": "盐度变化与水文输运路径建模",
+      "llm_tldr_en": "The study develops a transit-time modeling framework linking inputs, hydrologic connectivity, and water age to stream salinization, providing a transferable method for analyzing how salinity and transport pathways can affect contaminant distribution, including PFAS, in land-to-water systems.",
+      "llm_tldr_cn": "该研究针对城市流域淡水盐化来源与输运机制难以量化的问题，提出一个结合输入通量、水文连通性与水龄的传输时间建模框架。方法解析冬季融雪和除冰盐如何经浅层地下与壤中流路径进入河流，并通过季节性水文周转解释盐分冲刷过程。结果显示不同流路和储存容量共同控制了盐度时序变化。虽然研究对象不是PFAS，但其关于盐度影响与输运分配的框架，可为PFAS在含盐梯度环境中的迁移研究提供方法借鉴。",
+      "llm_tldr": "该研究针对城市流域淡水盐化来源与输运机制难以量化的问题，提出一个结合输入通量、水文连通性与水龄的传输时间建模框架。方法解析冬季融雪和除冰盐如何经浅层地下与壤中流路径进入河流，并通过季节性水文周转解释盐分冲刷过程。结果显示不同流路和储存容量共同控制了盐度时序变化。虽然研究对象不是PFAS，但其关于盐度影响与输运分配的框架，可为PFAS在含盐梯度环境中的迁移研究提供方法借鉴。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "effects of salinity on PFAS sorption transport and distribution",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1016-j-watres-2026-125804",
+      "source": "journal",
+      "title": "Yields and stormwater loads of microplastics in five urban stormwater catchments (City of Kitchener, Ontario, Canada)",
+      "abstract": "• MP concentrations, loads, and yields quantified across five stormwater catchments. • Hydrologic modeling coupled with sediment surveys and particle-mass balances. • Results reported in both particle- and mass-based units. • MP yields resolved by polymer type, size class, and particle shape. • Rubber and sediment yields covaried with MP yields and land use metrics. Urban stormwater runoff is a major pathway for microplastic (MP) pollution to aquatic environments. In this study, MPs from five stormwater catchments (SWCs) in the City of Kitchener, Ontario, Canada, were analyzed in water and sediment samples collected at their receiving stormwater ponds (SWPs). We integrated MP characterization targeting particles between 20 and 500 µm using a Laser Direct Infrared (LDIR) system with hydrological modeling, measured sediment accumulation rates, and particle to mass conversion calculations to quantify MP concentrations and loads. The LDIR data included polymer type, size class, and particle shape. Inflow concentrations to the SWPs ranged from 4.9 × 10 6 to 4 × 10 7 particles m -3 and from 5.8 × 10 -2 to 0.9 g m -3 , yielding annual loads of 9.7 × 10 11 to 3.5 × 10 12 particles yr -1 and 1.1 × 10 4 to 8 × 10 4 g yr -1 . Per unit impervious surface area MP yields fell in the range 3.6 × 10 10 to 2.1 × 10 11 particles ha -1 yr -1 and 4.2 × 10 2 to 4.9 × 10 3 g ha -1 yr -1 , while normalized to the total SWC area produced 1.7 × 10 10 -1.9 × 10 11 particles ha -1 yr -1 and 2 × 10 2 -4.3 × 10 3 g ha -1 yr -1 . Fragments were the dominant morphology (94-98% by count; 83-91% by mass). MPs smaller than 100 µm comprised 92.6-97.3% of particle counts but only 32.1-60.8% of mass, whereas MPs larger than 500 µm accounted for 0.2-0.8% of particle counts but 5.9-33.9% of mass. Yields showed no systematic differences across broad land-use categories and no correlation with total population. Instead, positive associations were observed with residential population density and with SWC imperviousness, including strong correlations with rubber and several polymer-specific yields. Annual average daily traffic was not related to total MP loads from SWCs but aligned with the relative abundances of specific polymers, particularly polystyrene and polycarbonate. Yields of rubber particles correlated with overall MP yields, reinforcing the role of road traffic as a source. Road and mixed-impervious cover considered independently were not significant predictors, but their ratio explained the relative yields of fragments, fibers, and selected polymers.",
+      "authors": [
+        "Mir Amir Mohammad Reshadi",
+        "Fereidoun Rezanezhad",
+        "Sarah Kaykhosravi",
+        "Thu Hang Nguyen",
+        "Stephanie Slowinski",
+        "Ali Reza Shahvaran",
+        "Lewis Alcott",
+        "Monica Puopolo",
+        "Buuan Lam",
+        "Philippe Van Cappellen"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "water-research"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.watres.2026.125804",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.watres.2026.125804",
+      "doi": "10.1016/j.watres.2026.125804",
+      "updated_at": "2026-06-04T20:38:05.624840+00:00",
+      "abs_url": "https://doi.org/10.1016/j.watres.2026.125804",
+      "pdf_url": "https://doi.org/10.1016/j.watres.2026.125804",
+      "journal": "Water Research",
+      "journal_key": "water_research",
+      "journal_label": "WR",
+      "journal_issn": [
+        "0043-1354"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "open_pdf",
+      "open_pdf_source": "openalex",
+      "metadata_sources": [
+        "crossref",
+        "openalex",
+        "semantic_scholar"
+      ],
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "openalex_concepts": [
+        "Stormwater",
+        "Environmental science",
+        "Microplastics",
+        "Environmental engineering",
+        "Surface runoff",
+        "Hydrology (agriculture)",
+        "Stormwater management",
+        "Urban runoff"
+      ],
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "open_pdf_available": true,
+      "llm_score": 6.0,
+      "llm_evidence_en": "stormwater runoff as land-to-water contaminant pathway",
+      "llm_evidence_cn": "暴雨径流作为陆源入水通道",
+      "llm_evidence": "暴雨径流作为陆源入水通道",
+      "canonical_evidence": "暴雨径流作为陆源入水通道",
+      "llm_tldr_en": "This microplastics study quantifies urban stormwater loads using hydrologic modeling, sediment surveys, and mass balances. While not about PFAS or coastal waters, it offers a transferable framework for estimating land-to-receiving-water contaminant transport pathways.",
+      "llm_tldr_cn": "该研究针对城市暴雨径流中微塑料负荷难以定量的问题，结合水文建模、沉积物调查与颗粒质量平衡，系统评估五个汇水区的浓度、通量与产率。结果揭示不同土地利用、橡胶颗粒和沉积物输移与微塑料输出的协变关系。虽然对象并非PFAS且场景不是海岸带，但其对陆源污染物向受纳水体迁移路径的量化思路，可为近海PFAS入海通量评估提供方法借鉴。",
+      "llm_tldr": "该研究针对城市暴雨径流中微塑料负荷难以定量的问题，结合水文建模、沉积物调查与颗粒质量平衡，系统评估五个汇水区的浓度、通量与产率。结果揭示不同土地利用、橡胶颗粒和沉积物输移与微塑料输出的协变关系。虽然对象并非PFAS且场景不是海岸带，但其对陆源污染物向受纳水体迁移路径的量化思路，可为近海PFAS入海通量评估提供方法借鉴。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1021-acs-est-5c16011",
+      "source": "journal",
+      "title": "Per- and Polyfluoroalkyl Substances and Total Organic Fluorine Ratios from Field-Collected Light Nonaqueous Phase Liquids and Groundwater",
+      "abstract": "",
+      "authors": [
+        "Mireia Roig-Paul",
+        "Jeff Ford",
+        "Chris G. Heron",
+        "Sid Park",
+        "Patrick N. Reardon",
+        "Isabelle E. Logan",
+        "Esteban E. Hernandez",
+        "Shae Hubbard",
+        "Mitchell Kim-Fu",
+        "Ansel Moll",
+        "Gerrad D. Jones",
+        "Jennifer A. Field"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-03T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.5c16011",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.5c16011",
+      "doi": "10.1021/acs.est.5c16011",
+      "updated_at": "2026-06-04T20:38:04.275714+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.5c16011",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Groundwater",
+        "Chemistry",
+        "Environmental chemistry",
+        "Phase (matter)",
+        "Fluorine",
+        "Chlorinated solvents",
+        "Water pollution",
+        "Dissolved organic carbon"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS source signatures in groundwater relevant to land-to-water transport",
+      "llm_evidence_cn": "地下水中PFAS源特征与陆源入海路径相关",
+      "llm_evidence": "地下水中PFAS源特征与陆源入海路径相关",
+      "canonical_evidence": "地下水中PFAS源特征与陆源入海路径相关",
+      "llm_tldr_en": "This paper examines PFAS and total organic fluorine ratios in field-collected light nonaqueous phase liquids and groundwater, helping identify subsurface source composition and partitioning that can inform how PFAS migrate from land-based contamination toward downstream aquatic receptors.",
+      "llm_tldr_cn": "该研究针对场地中轻质非水相液体与地下水内PFAS及总有机氟比例信息不足的问题，考察两类介质中的含氟污染组成与相对关系。论文通过现场采样与组分比值分析，识别潜在源区特征及PFAS在地下环境中的分配行为。结果可用于判断污染释放强度与地下迁移潜力。虽然对象并非河口近海，但对理解PFAS由陆地污染源经地下水路径输送至下游水体具有直接参考价值。",
+      "llm_tldr": "该研究针对场地中轻质非水相液体与地下水内PFAS及总有机氟比例信息不足的问题，考察两类介质中的含氟污染组成与相对关系。论文通过现场采样与组分比值分析，识别潜在源区特征及PFAS在地下环境中的分配行为。结果可用于判断污染释放强度与地下迁移潜力。虽然对象并非河口近海，但对理解PFAS由陆地污染源经地下水路径输送至下游水体具有直接参考价值。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
