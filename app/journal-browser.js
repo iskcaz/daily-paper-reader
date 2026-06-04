@@ -46,8 +46,21 @@ window.DPRJournalBrowser = (function () {
     return out;
   }
 
+  function truthyValue(value) {
+    if (typeof value === 'boolean') return value;
+    const text = norm(value).toLowerCase();
+    if (!text) return false;
+    return ['1', 'true', 'yes', 'y', 'open', 'available'].includes(text);
+  }
+
+  function hasOpenPdf(row) {
+    return norm(row.open_pdf_status).toLowerCase() === 'open_pdf' ||
+      truthyValue(row.open_pdf_available) ||
+      !!norm(row.pdf_url);
+  }
+
   function labelForPdf(row) {
-    if (row.open_pdf_status === 'open_pdf' || row.open_pdf_available) {
+    if (hasOpenPdf(row)) {
       return '开放 PDF';
     }
     return '无开放 PDF';
@@ -82,8 +95,8 @@ window.DPRJournalBrowser = (function () {
       if (filters.year && yearOf(row) !== filters.year) return false;
       if (filters.month && monthOf(row) !== filters.month) return false;
       if (filters.journal && norm(row.journal_label || row.journal_key || row.journal) !== filters.journal) return false;
-      if (filters.pdf === 'open' && !(row.open_pdf_status === 'open_pdf' || row.open_pdf_available)) return false;
-      if (filters.pdf === 'missing' && (row.open_pdf_status === 'open_pdf' || row.open_pdf_available)) return false;
+      if (filters.pdf === 'open' && !hasOpenPdf(row)) return false;
+      if (filters.pdf === 'missing' && hasOpenPdf(row)) return false;
       if (query && !searchableText(row).includes(query)) return false;
       return true;
     });
@@ -110,7 +123,7 @@ window.DPRJournalBrowser = (function () {
       <article class="dpr-journal-card">
         <div class="dpr-journal-card-head">
           <span class="dpr-journal-badge">${escapeHtml(row.journal_label || row.journal || 'Journal')}</span>
-          <span class="dpr-journal-pdf ${pdf ? 'is-open' : 'is-missing'}">${escapeHtml(labelForPdf(row))}</span>
+          <span class="dpr-journal-pdf ${hasOpenPdf(row) ? 'is-open' : 'is-missing'}">${escapeHtml(labelForPdf(row))}</span>
         </div>
         <h3 class="dpr-journal-title">${link ? `<a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>` : escapeHtml(title)}</h3>
         <div class="dpr-journal-meta">${escapeHtml(sourceLine(row))}</div>

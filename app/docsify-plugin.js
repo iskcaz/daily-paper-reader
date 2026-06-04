@@ -122,6 +122,13 @@ window.$docsify = {
         return '';
       };
 
+      const truthyMetaValue = (value) => {
+        if (typeof value === 'boolean') return value;
+        const text = normalizeTextForMeta(value).toLowerCase();
+        if (!text) return false;
+        return ['1', 'true', 'yes', 'y', 'open', 'available'].includes(text);
+      };
+
       const trimBeforeMarkers = (value, markers) => {
         const text = normalizeTextForMeta(value);
         if (!text) return '';
@@ -1331,11 +1338,18 @@ window.$docsify = {
             authors,
             date: normalizeDateField(meta.date || ''),
             pdf: String(meta.pdf || meta.PDF || '').trim(),
+            link: String(meta.link || meta.Link || '').trim(),
             score,
             evidence,
             tldr,
             tags: normalizeTagsForExport(meta.tags || []),
             abstract_en: abstractFromFrontMatter || abstractFromBody,
+            doi: String(meta.doi || meta.DOI || '').trim(),
+            journal: String(meta.journal || '').trim(),
+            journal_label: String(meta.journal_label || '').trim(),
+            publisher: String(meta.publisher || '').trim(),
+            open_pdf_status: String(meta.open_pdf_status || '').trim(),
+            open_pdf_available: String(meta.open_pdf_available || '').trim(),
           };
         };
 
@@ -4415,11 +4429,36 @@ window.$docsify = {
         if (meta.source) {
           lines.push(`<p><strong>Source</strong>: ${renderSourceChips(meta.source)}</p>`);
         }
+        if (meta.journal || meta.journal_label) {
+          const journalName = String(meta.journal || '').trim();
+          const journalLabel = String(meta.journal_label || '').trim();
+          const journalText = journalName && journalLabel && journalName !== journalLabel
+            ? `${journalName} (${journalLabel})`
+            : (journalName || journalLabel);
+          lines.push(`<p><strong>Journal</strong>: ${escapeHtml(journalText)}</p>`);
+        }
+        if (meta.doi) {
+          const doiText = String(meta.doi || '').trim();
+          const doiHref = /^https?:\/\//i.test(doiText) ? doiText : `https://doi.org/${doiText}`;
+          lines.push(
+            `<p class="paper-meta-link-row"><span class="paper-meta-link-label"><strong>DOI</strong>:</span> <a class="paper-meta-link" href="${escapeHtml(doiHref)}" target="_blank" rel="noopener noreferrer">${escapeHtml(doiText)}</a></p>`,
+          );
+        }
         lines.push(`<p><strong>Date</strong>: ${escapeHtml(meta.date || 'Unknown')}</p>`);
+        if (meta.link) {
+          lines.push(
+            `<p class="paper-meta-link-row"><span class="paper-meta-link-label"><strong>Paper page</strong>:</span> <a class="paper-meta-link" href="${escapeHtml(meta.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(meta.link)}</a></p>`,
+          );
+        }
         if (meta.pdf) {
           lines.push(
             `<p class="paper-meta-link-row"><span class="paper-meta-link-label"><strong>PDF</strong>:</span> <a class="paper-meta-link" href="${escapeHtml(meta.pdf)}" target="_blank">${escapeHtml(meta.pdf)}</a></p>`
           );
+        } else if (String(meta.source || '').trim().toLowerCase() === 'journal') {
+          const status = String(meta.open_pdf_status || '').trim();
+          const isOpen = status.toLowerCase() === 'open_pdf' || truthyMetaValue(meta.open_pdf_available);
+          const statusText = isOpen ? '开放 PDF' : '无开放 PDF，跳过截图/图表提取';
+          lines.push(`<p><strong>Open PDF</strong>: ${escapeHtml(statusText)}</p>`);
         }
         if (meta.tags && meta.tags.length) {
           lines.push(`<p><strong>Tags</strong>: ${renderTags(meta.tags)}</p>`);
