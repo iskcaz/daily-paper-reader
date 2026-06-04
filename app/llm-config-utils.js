@@ -7,18 +7,17 @@
     root.DPRLLMConfigUtils = api;
   }
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
-  const DEFAULT_DEEPSEEK_BASE_URL = 'https://api.deepseek.com';
+  const DEFAULT_DEEPSEEK_BASE_URL = 'https://jsyai.xinglian.work/v1';
   const DEFAULT_DEEPSEEK_CHAT_MODELS = [
-    'deepseek-v4-flash',
-    'deepseek-v4-pro',
+    'gpt-5.4',
   ];
   const DEEPSEEK_V4_MAX_OUTPUT_TOKENS = 393216;
   const DEEPSEEK_PRESETS = Object.freeze({
     deepseek: Object.freeze({
       key: 'deepseek',
-      label: 'DeepSeek 官方',
-      baseUrl: 'https://api.deepseek.com',
-      models: Object.freeze(['deepseek-v4-flash', 'deepseek-v4-pro']),
+      label: 'OpenAI 兼容中转',
+      baseUrl: 'https://jsyai.xinglian.work/v1',
+      models: Object.freeze(['gpt-5.4']),
     }),
   });
 
@@ -140,7 +139,7 @@
     if (normalizedModel.startsWith('deepseek-')) {
       return 'deepseek';
     }
-    return 'unsupported';
+    return 'openai-compatible';
   };
 
   const resolveJsonResponseMode = ({ baseUrl, model, preferSchema = true }) => {

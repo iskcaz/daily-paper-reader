@@ -102,9 +102,9 @@ function testGetDeepSeekPreset() {
     getDeepSeekPreset('deepseek'),
     {
       key: 'deepseek',
-      label: 'DeepSeek 官方',
-      baseUrl: 'https://api.deepseek.com',
-      models: ['deepseek-v4-flash', 'deepseek-v4-pro'],
+      label: 'OpenAI 兼容中转',
+      baseUrl: 'https://jsyai.xinglian.work/v1',
+      models: ['gpt-5.4'],
     },
   );
   assert.equal(getDeepSeekPreset('other-a'), null);
@@ -118,8 +118,8 @@ function testInferChatApiProfile() {
     inferChatApiProfile('https://api.deepseek.com', 'deepseek-v4-flash'),
     'deepseek',
   );
-  assert.equal(inferChatApiProfile('https://example.com/v1', 'other-model'), 'unsupported');
-  assert.equal(inferChatApiProfile('https://example.com/v1', 'other-model'), 'unsupported');
+  assert.equal(inferChatApiProfile('https://example.com/v1', 'other-model'), 'openai-compatible');
+  assert.equal(inferChatApiProfile('https://example.com/v1', 'other-model'), 'openai-compatible');
 }
 
 function testResolveJsonResponseMode() {
