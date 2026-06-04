@@ -103,9 +103,10 @@ window.DPRJournalBrowser = (function () {
   function filterRows(rows, filters, options) {
     const query = norm(filters.query).toLowerCase();
     const ignoreJournal = options && options.ignoreJournal;
+    const ignoreMonth = options && options.ignoreMonth;
     return rows.filter((row) => {
       if (filters.year && yearOf(row) !== filters.year) return false;
-      if (filters.month && monthOf(row) !== filters.month) return false;
+      if (!ignoreMonth && filters.month && monthOf(row) !== filters.month) return false;
       if (!ignoreJournal && filters.journal && norm(row.journal_label || row.journal_key || row.journal) !== filters.journal) return false;
       if (filters.pdf === 'open' && !hasOpenPdf(row)) return false;
       if (filters.pdf === 'missing' && hasOpenPdf(row)) return false;
@@ -156,11 +157,16 @@ window.DPRJournalBrowser = (function () {
     const filters = state.filters || {};
     const indexMonths = state.monthOptions || [];
     const years = uniqueSorted(rows.map(yearOf).concat(indexMonths.map((month) => month.slice(0, 4))), true);
-    const rowMonths = rows.filter((row) => !filters.year || yearOf(row) === filters.year).map(monthOf);
+    const monthRows = filterRows(rows, filters, { ignoreMonth: true });
+    const rowMonths = monthRows.map(monthOf);
+    const includeIndexedMonths = !filters.journal && !filters.pdf && !norm(filters.query);
     const indexedMonths = indexMonths
-      .filter((month) => !filters.year || month.slice(0, 4) === filters.year)
+      .filter((month) => includeIndexedMonths && (!filters.year || month.slice(0, 4) === filters.year))
       .map((month) => month.slice(5, 7));
     const months = uniqueSorted(rowMonths.concat(indexedMonths), false);
+    if (filters.month && !months.includes(filters.month)) {
+      filters.month = '';
+    }
     const journalRows = filterRows(rows, filters, { ignoreJournal: true });
     const journals = uniqueSorted(journalRows.map((row) => norm(row.journal_label || row.journal_key || row.journal)), false);
     if (filters.journal && !journals.includes(filters.journal)) {
