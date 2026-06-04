@@ -123,6 +123,42 @@ function testMonthOptionsFollowCurrentJournalFilter() {
   assert.match(root.innerHTML, /1 \/ 2/);
 }
 
+function testInvalidJournalCleanupRebuildsMonthOptions() {
+  const root = {
+    innerHTML: '',
+    querySelectorAll() {
+      return [];
+    },
+    querySelector() {
+      return null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'vegetable-paper',
+        title: 'PFAS in vegetables',
+        published: '2026-06-04',
+        journal_label: 'EST',
+      },
+      {
+        id: 'jhm-paper',
+        title: 'PFAS in groundwater',
+        published: '2026-06-02',
+        journal_label: 'JHM',
+      },
+    ],
+    monthOptions: ['2026-06'],
+    filters: { journal: 'JHM', query: 'vegetables' },
+  });
+
+  assert.doesNotMatch(root.innerHTML, /<option value="JHM" selected>JHM<\/option>/);
+  assert.match(root.innerHTML, /<option value="EST">EST<\/option>/);
+  assert.match(root.innerHTML, /<option value="06">06<\/option>/);
+  assert.match(root.innerHTML, /1 \/ 2/);
+}
+
 async function testQueryInputKeepsFocusAfterDebouncedRender() {
   const listeners = {};
   const query = {
@@ -216,6 +252,7 @@ testNormalizeIndexMonthsKeepsOnlyValidYearMonths();
 testRenderIncludesEmptyIndexedMonthOptions();
 testJournalOptionsFollowCurrentMonthFilter();
 testMonthOptionsFollowCurrentJournalFilter();
+testInvalidJournalCleanupRebuildsMonthOptions();
 Promise.resolve()
   .then(testQueryInputKeepsFocusAfterDebouncedRender)
   .then(testLoadRowsFromHistorySkipsBrokenMonthFiles)

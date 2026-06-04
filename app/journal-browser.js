@@ -157,21 +157,33 @@ window.DPRJournalBrowser = (function () {
     const filters = state.filters || {};
     const indexMonths = state.monthOptions || [];
     const years = uniqueSorted(rows.map(yearOf).concat(indexMonths.map((month) => month.slice(0, 4))), true);
-    const monthRows = filterRows(rows, filters, { ignoreMonth: true });
-    const rowMonths = monthRows.map(monthOf);
-    const includeIndexedMonths = !filters.journal && !filters.pdf && !norm(filters.query);
-    const indexedMonths = indexMonths
-      .filter((month) => includeIndexedMonths && (!filters.year || month.slice(0, 4) === filters.year))
-      .map((month) => month.slice(5, 7));
-    const months = uniqueSorted(rowMonths.concat(indexedMonths), false);
-    if (filters.month && !months.includes(filters.month)) {
-      filters.month = '';
+
+    let months = [];
+    let journals = [];
+    for (let i = 0; i < 3; i += 1) {
+      const monthRows = filterRows(rows, filters, { ignoreMonth: true });
+      const rowMonths = monthRows.map(monthOf);
+      const includeIndexedMonths = !filters.journal && !filters.pdf && !norm(filters.query);
+      const indexedMonths = indexMonths
+        .filter((month) => includeIndexedMonths && (!filters.year || month.slice(0, 4) === filters.year))
+        .map((month) => month.slice(5, 7));
+      months = uniqueSorted(rowMonths.concat(indexedMonths), false);
+
+      const journalRows = filterRows(rows, filters, { ignoreJournal: true });
+      journals = uniqueSorted(journalRows.map((row) => norm(row.journal_label || row.journal_key || row.journal)), false);
+
+      let changed = false;
+      if (filters.month && !months.includes(filters.month)) {
+        filters.month = '';
+        changed = true;
+      }
+      if (filters.journal && !journals.includes(filters.journal)) {
+        filters.journal = '';
+        changed = true;
+      }
+      if (!changed) break;
     }
-    const journalRows = filterRows(rows, filters, { ignoreJournal: true });
-    const journals = uniqueSorted(journalRows.map((row) => norm(row.journal_label || row.journal_key || row.journal)), false);
-    if (filters.journal && !journals.includes(filters.journal)) {
-      filters.journal = '';
-    }
+
     const filtered = filterRows(rows, filters);
     root.innerHTML = `
       <div class="dpr-journal-toolbar">
