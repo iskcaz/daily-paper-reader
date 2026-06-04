@@ -53,6 +53,41 @@ function testRenderIncludesEmptyIndexedMonthOptions() {
   assert.match(root.innerHTML, /0 \/ 0/);
 }
 
+function testJournalOptionsFollowCurrentMonthFilter() {
+  const root = {
+    innerHTML: '',
+    querySelectorAll() {
+      return [];
+    },
+    querySelector() {
+      return null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'may-paper',
+        title: 'May paper',
+        published: '2026-05-15',
+        journal_label: 'EST Letters',
+      },
+      {
+        id: 'june-paper',
+        title: 'June paper',
+        published: '2026-06-04',
+        journal_label: 'EST',
+      },
+    ],
+    monthOptions: ['2026-05', '2026-06'],
+    filters: { year: '2026', month: '05' },
+  });
+
+  assert.match(root.innerHTML, /<option value="EST Letters">EST Letters<\/option>/);
+  assert.doesNotMatch(root.innerHTML, /<option value="EST">EST<\/option>/);
+  assert.match(root.innerHTML, /1 \/ 2/);
+}
+
 async function testQueryInputKeepsFocusAfterDebouncedRender() {
   const listeners = {};
   const query = {
@@ -144,6 +179,7 @@ async function testLoadRowsFromHistorySkipsBrokenMonthFiles() {
 
 testNormalizeIndexMonthsKeepsOnlyValidYearMonths();
 testRenderIncludesEmptyIndexedMonthOptions();
+testJournalOptionsFollowCurrentMonthFilter();
 Promise.resolve()
   .then(testQueryInputKeepsFocusAfterDebouncedRender)
   .then(testLoadRowsFromHistorySkipsBrokenMonthFiles)
