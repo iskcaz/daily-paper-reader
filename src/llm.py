@@ -188,6 +188,13 @@ class LLMClient:
         return ""
 
     @staticmethod
+    def _decode_json_response(response: Any) -> Dict[str, Any]:
+        content = getattr(response, "content", None)
+        if isinstance(content, bytes) and content:
+            return json.loads(content.decode("utf-8-sig"))
+        return response.json()
+
+    @staticmethod
     def _strip_json_wrappers(text: str) -> str:
         cleaned = (text or "").strip()
         cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.IGNORECASE)
@@ -543,7 +550,7 @@ class LLMClient:
                 response = requests.post(request_url, headers=headers, json=payload, timeout=120)
                 response.raise_for_status()
                 try:
-                    response_data = response.json()
+                    response_data = self._decode_json_response(response)
                 except ValueError:
                     print("API 响应无法解析为 JSON，原始文本预览:", response.text[:500])
                     raise

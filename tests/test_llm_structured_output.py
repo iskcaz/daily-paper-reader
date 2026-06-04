@@ -99,6 +99,25 @@ class LlmStructuredOutputTest(unittest.TestCase):
         )
 
     @patch("llm.requests.post")
+    def test_chat_decodes_utf8_json_response_without_mojibake(self, mock_post):
+        resp = MagicMock()
+        resp.raise_for_status.return_value = None
+        resp.content = (
+            '{"choices":[{"message":{"content":"海洋"},"finish_reason":"stop"}],'
+            '"usage":{"prompt_tokens":1,"completion_tokens":1,"total_tokens":2}}'
+        ).encode("utf-8")
+        mock_post.return_value = resp
+        client = LLMClient(
+            api_key="test-key",
+            model="gpt-5.4",
+            base_url="https://jsyai.xinglian.work/v1",
+        )
+
+        result = client.chat(messages=[{"role": "user", "content": "hello"}])
+
+        self.assertEqual(result["content"], "海洋")
+
+    @patch("llm.requests.post")
     def test_chat_structured_falls_back_to_prompt_only_when_json_object_unsupported(self, mock_post):
         mock_post.side_effect = [
             self._mock_http_error_response(
