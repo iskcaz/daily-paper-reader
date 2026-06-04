@@ -123,7 +123,7 @@ function testMonthOptionsFollowCurrentJournalFilter() {
   assert.match(root.innerHTML, /1 \/ 2/);
 }
 
-function testInvalidJournalCleanupRebuildsMonthOptions() {
+function testInvalidJournalSelectionIsPreservedAsNoMatch() {
   const root = {
     innerHTML: '',
     querySelectorAll() {
@@ -153,10 +153,48 @@ function testInvalidJournalCleanupRebuildsMonthOptions() {
     filters: { journal: 'JHM', query: 'vegetables' },
   });
 
-  assert.doesNotMatch(root.innerHTML, /<option value="JHM" selected>JHM<\/option>/);
+  assert.match(root.innerHTML, /<option value="JHM" selected>当前选择：JHM（无匹配）<\/option>/);
   assert.match(root.innerHTML, /<option value="EST">EST<\/option>/);
+  assert.match(root.innerHTML, /0 \/ 2/);
+  assert.match(root.innerHTML, /当前筛选条件下没有论文。/);
+}
+
+function testMonthSelectionIsPreservedWhenPdfFilterHasNoMatch() {
+  const root = {
+    innerHTML: '',
+    querySelectorAll() {
+      return [];
+    },
+    querySelector() {
+      return null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'may-paper',
+        title: 'PFAS in coral',
+        published: '2026-05-15',
+        journal_label: 'EST Letters',
+        open_pdf_available: false,
+      },
+      {
+        id: 'june-paper',
+        title: 'PFAS in Arctic animals',
+        published: '2026-06-01',
+        journal_label: 'JHM',
+        open_pdf_available: true,
+      },
+    ],
+    monthOptions: ['2026-05', '2026-06'],
+    filters: { year: '2026', month: '05', pdf: 'open' },
+  });
+
+  assert.match(root.innerHTML, /<option value="05" selected>当前选择：05（无匹配）<\/option>/);
   assert.match(root.innerHTML, /<option value="06">06<\/option>/);
-  assert.match(root.innerHTML, /1 \/ 2/);
+  assert.match(root.innerHTML, /0 \/ 2/);
+  assert.match(root.innerHTML, /当前筛选条件下没有论文。/);
 }
 
 async function testQueryInputKeepsFocusAfterDebouncedRender() {
@@ -210,6 +248,70 @@ async function testQueryInputKeepsFocusAfterDebouncedRender() {
   assert.match(root.innerHTML, /1 \/ 1/);
 }
 
+async function testQueryChangeDoesNotStealResetClick() {
+  const listeners = {};
+  const resetListeners = {};
+  const query = {
+    value: '',
+    getAttribute(name) {
+      return name === 'data-filter' ? 'query' : '';
+    },
+    addEventListener(type, handler) {
+      listeners[type] = handler;
+    },
+    focus() {
+      global.document.activeElement = query;
+    },
+    setSelectionRange(start, end) {
+      query.selection = [start, end];
+    },
+  };
+  const reset = {
+    addEventListener(type, handler) {
+      resetListeners[type] = handler;
+    },
+  };
+  const root = {
+    innerHTML: '',
+    querySelectorAll(selector) {
+      return selector === '[data-filter]' ? [query] : [];
+    },
+    querySelector(selector) {
+      if (selector === 'input[data-filter="query"]') return query;
+      if (selector === '[data-action="reset"]') return reset;
+      return null;
+    },
+  };
+
+  renderForTest(root, {
+    rows: [
+      {
+        id: 'paper-1',
+        title: 'PFAS in vegetables',
+        published: '2026-06-01',
+        journal_label: 'EST',
+      },
+      {
+        id: 'paper-2',
+        title: 'PFAS in groundwater',
+        published: '2026-06-02',
+        journal_label: 'JHM',
+      },
+    ],
+    monthOptions: [],
+    filters: {},
+  });
+
+  query.value = 'vegetables';
+  listeners.input();
+  listeners.change();
+  resetListeners.click();
+  await new Promise((resolve) => setTimeout(resolve, 230));
+
+  assert.doesNotMatch(root.innerHTML, /value="vegetables"/);
+  assert.match(root.innerHTML, /2 \/ 2/);
+}
+
 async function testLoadRowsFromHistorySkipsBrokenMonthFiles() {
   const originalFetch = global.fetch;
   global.fetch = async (url) => {
@@ -252,9 +354,11 @@ testNormalizeIndexMonthsKeepsOnlyValidYearMonths();
 testRenderIncludesEmptyIndexedMonthOptions();
 testJournalOptionsFollowCurrentMonthFilter();
 testMonthOptionsFollowCurrentJournalFilter();
-testInvalidJournalCleanupRebuildsMonthOptions();
+testInvalidJournalSelectionIsPreservedAsNoMatch();
+testMonthSelectionIsPreservedWhenPdfFilterHasNoMatch();
 Promise.resolve()
   .then(testQueryInputKeepsFocusAfterDebouncedRender)
+  .then(testQueryChangeDoesNotStealResetClick)
   .then(testLoadRowsFromHistorySkipsBrokenMonthFiles)
   .then(() => {
     console.log('journal browser tests ok');

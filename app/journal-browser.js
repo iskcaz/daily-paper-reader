@@ -116,7 +116,11 @@ window.DPRJournalBrowser = (function () {
   }
 
   function renderOptions(values, selected, allLabel) {
-    return [`<option value="">${escapeHtml(allLabel)}</option>`]
+    const options = [`<option value="">${escapeHtml(allLabel)}</option>`];
+    if (selected && !values.includes(selected)) {
+      options.push(`<option value="${escapeHtml(selected)}" selected>当前选择：${escapeHtml(selected)}（无匹配）</option>`);
+    }
+    return options
       .concat(
         values.map((value) => {
           const active = value === selected ? ' selected' : '';
@@ -158,31 +162,16 @@ window.DPRJournalBrowser = (function () {
     const indexMonths = state.monthOptions || [];
     const years = uniqueSorted(rows.map(yearOf).concat(indexMonths.map((month) => month.slice(0, 4))), true);
 
-    let months = [];
-    let journals = [];
-    for (let i = 0; i < 3; i += 1) {
-      const monthRows = filterRows(rows, filters, { ignoreMonth: true });
-      const rowMonths = monthRows.map(monthOf);
-      const includeIndexedMonths = !filters.journal && !filters.pdf && !norm(filters.query);
-      const indexedMonths = indexMonths
-        .filter((month) => includeIndexedMonths && (!filters.year || month.slice(0, 4) === filters.year))
-        .map((month) => month.slice(5, 7));
-      months = uniqueSorted(rowMonths.concat(indexedMonths), false);
+    const monthRows = filterRows(rows, filters, { ignoreMonth: true });
+    const rowMonths = monthRows.map(monthOf);
+    const includeIndexedMonths = !filters.journal && !filters.pdf && !norm(filters.query);
+    const indexedMonths = indexMonths
+      .filter((month) => includeIndexedMonths && (!filters.year || month.slice(0, 4) === filters.year))
+      .map((month) => month.slice(5, 7));
+    const months = uniqueSorted(rowMonths.concat(indexedMonths), false);
 
-      const journalRows = filterRows(rows, filters, { ignoreJournal: true });
-      journals = uniqueSorted(journalRows.map((row) => norm(row.journal_label || row.journal_key || row.journal)), false);
-
-      let changed = false;
-      if (filters.month && !months.includes(filters.month)) {
-        filters.month = '';
-        changed = true;
-      }
-      if (filters.journal && !journals.includes(filters.journal)) {
-        filters.journal = '';
-        changed = true;
-      }
-      if (!changed) break;
-    }
+    const journalRows = filterRows(rows, filters, { ignoreJournal: true });
+    const journals = uniqueSorted(journalRows.map((row) => norm(row.journal_label || row.journal_key || row.journal)), false);
 
     const filtered = filterRows(rows, filters);
     root.innerHTML = `
@@ -216,6 +205,7 @@ window.DPRJournalBrowser = (function () {
         const state = stateByEl.get(root);
         if (!state) return;
         const key = el.getAttribute('data-filter');
+        if (key === 'query') return;
         if (state.queryRenderTimer) {
           window.clearTimeout(state.queryRenderTimer);
           state.queryRenderTimer = null;
