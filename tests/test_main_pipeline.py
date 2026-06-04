@@ -103,6 +103,93 @@ class MainPipelineTest(unittest.TestCase):
         self.assertEqual(merged[0]["metadata_sources"], ["crossref", "openalex"])
         self.assertEqual(merged[0]["source_weight"], 10)
 
+    def test_journal_sources_enabled_from_runtime_append(self):
+        with patch.dict(os.environ, {"DPR_APPEND_PAPER_SOURCES": "journal"}, clear=True):
+            self.assertTrue(self.mod.journal_sources_enabled({}))
+
+    def test_fetch_and_merge_journal_sources_writes_into_raw_pool(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            src_dir = root / "src"
+            raw_dir = root / "archive" / "20260601" / "raw"
+            raw_dir.mkdir(parents=True, exist_ok=True)
+            raw_path = raw_dir / "arxiv_papers_20260601.json"
+            raw_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "id": "arxiv-1",
+                            "doi": "10.1000/base",
+                            "title": "Base paper",
+                            "source": "arxiv",
+                        }
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            calls = []
+
+            def fake_run_step(label, args, env=None):
+                calls.append((label, args, env))
+                output_path = Path(args[args.index("--output") + 1])
+                output_path.write_text(
+                    json.dumps(
+                        [
+                            {
+                                "id": "journal-1",
+                                "doi": "10.1000/journal",
+                                "title": "PFAS journal paper",
+                                "source": "journal",
+                                "journal_label": "EST",
+                                "open_pdf_available": False,
+                                "open_pdf_status": "no_open_pdf",
+                                "source_weight": 10,
+                            }
+                        ],
+                        ensure_ascii=False,
+                    ),
+                    encoding="utf-8",
+                )
+
+            with patch.object(self.mod, "ROOT_DIR", str(root)), patch.object(
+                self.mod, "SRC_DIR", str(src_dir)
+            ), patch.object(
+                self.mod, "run_step", side_effect=fake_run_step
+            ), patch.dict(
+                os.environ,
+                {
+                    "DPR_ENABLE_JOURNAL_SOURCES": "1",
+                    "DPR_JOURNAL_ROWS_PER_JOURNAL": "7",
+                    "DPR_JOURNAL_MONTH": "2026-06",
+                    "DPR_JOURNAL_QUERY": "PFAS",
+                },
+                clear=True,
+            ):
+                self.mod.fetch_and_merge_journal_sources(
+                    python=sys.executable,
+                    raw_path=str(raw_path),
+                    run_date_token="20260601",
+                    fetch_days=30,
+                    config={},
+                )
+
+            self.assertEqual(len(calls), 1)
+            label, args, _ = calls[0]
+            self.assertEqual(label, "Step 1b - fetch journal sources")
+            self.assertIn("--rows-per-journal", args)
+            self.assertEqual(args[args.index("--rows-per-journal") + 1], "7")
+            self.assertIn("--month", args)
+            self.assertEqual(args[args.index("--month") + 1], "2026-06")
+            self.assertNotIn("--days", args)
+            self.assertIn("--query", args)
+            self.assertEqual(args[args.index("--query") + 1], "PFAS")
+
+            merged = json.loads(raw_path.read_text(encoding="utf-8"))
+            self.assertEqual([row["id"] for row in merged], ["arxiv-1", "journal-1"])
+            self.assertEqual(merged[1]["source"], "journal")
+            self.assertEqual(merged[1]["open_pdf_status"], "no_open_pdf")
+
     def test_main_runs_local_rerank_without_remote_rerank_base(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

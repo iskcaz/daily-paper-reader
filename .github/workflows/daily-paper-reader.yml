@@ -21,6 +21,18 @@ on:
         description: "仅运行指定词条 tag；留空表示全量运行"
         required: false
         default: ""
+      journal_month:
+        description: "环境期刊指定年月，格式 YYYY-MM；留空则按 fetch_days 抓取"
+        required: false
+        default: ""
+      journal_query:
+        description: "环境期刊关键词；用分号分隔。留空则使用 journal_watchlist.yaml 默认词"
+        required: false
+        default: ""
+      journal_rows_per_journal:
+        description: "环境期刊每本期刊最多抓取条数"
+        required: false
+        default: "25"
       reranker_profile:
         description: "Reranker：默认 public-zwwen-rerank；可改 local-qwen3-0.6b / siliconflow-qwen3-0.6b"
         required: false
@@ -233,7 +245,19 @@ jobs:
           FETCH_DAYS="${{ github.event.inputs.fetch_days }}"
           FETCH_MODE="${{ github.event.inputs.fetch_mode }}"
           PROFILE_TAG="${{ github.event.inputs.profile_tag }}"
+          JOURNAL_MONTH="${{ github.event.inputs.journal_month }}"
+          JOURNAL_QUERY="${{ github.event.inputs.journal_query }}"
+          JOURNAL_ROWS_PER_JOURNAL="${{ github.event.inputs.journal_rows_per_journal }}"
           RERANKER_PROFILE_INPUT="${{ github.event.inputs.reranker_profile }}"
+          if [ -n "$JOURNAL_MONTH" ]; then
+            export DPR_JOURNAL_MONTH="$JOURNAL_MONTH"
+          fi
+          if [ -n "$JOURNAL_QUERY" ]; then
+            export DPR_JOURNAL_QUERY="$JOURNAL_QUERY"
+          fi
+          if [ -n "$JOURNAL_ROWS_PER_JOURNAL" ]; then
+            export DPR_JOURNAL_ROWS_PER_JOURNAL="$JOURNAL_ROWS_PER_JOURNAL"
+          fi
           if [ -n "$RERANKER_PROFILE_INPUT" ]; then
             export RERANK_PROFILE="$RERANKER_PROFILE_INPUT"
           fi

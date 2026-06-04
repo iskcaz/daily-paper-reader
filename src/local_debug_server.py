@@ -218,6 +218,13 @@ class RunStore:
             text = norm_text(value)
             if text:
                 env[str(key)] = text
+        input_env = build_input_env(
+            str(run.get("workflow_key") or ""),
+            str(run.get("workflow_file") or ""),
+            run.get("inputs") if isinstance(run.get("inputs"), dict) else {},
+        )
+        for key, value in input_env.items():
+            env[str(key)] = value
         try:
             with log_path.open("w", encoding="utf-8") as log:
                 log.write(f"[local-debug] started_at={utc_now()}\n")
@@ -226,6 +233,8 @@ class RunStore:
                     log.write(f"[local-debug] config={config_path}\n")
                 if secret_env:
                     log.write("[local-debug] secret_env=SUMMARY/DEEPSEEK/RERANK variables injected\n")
+                if input_env:
+                    log.write("[local-debug] input_env=journal source variables injected\n")
                 log.write(f"[local-debug] command={' '.join(run['command'])}\n\n")
                 log.flush()
                 proc = subprocess.run(
@@ -351,6 +360,25 @@ def build_command(workflow_key: str, workflow_file: str, inputs: dict[str, str])
         return ["git", "status", "--short"]
 
     raise ValueError(f"本地调试后端暂不支持 workflow: {workflow_key or workflow_file}")
+
+
+def build_input_env(workflow_key: str, workflow_file: str, inputs: dict[str, str]) -> dict[str, str]:
+    if workflow_file != "daily-paper-reader.yml" and workflow_key != "daily-now":
+        return {}
+    env: dict[str, str] = {}
+    mapping = {
+        "journal_month": "DPR_JOURNAL_MONTH",
+        "journal_query": "DPR_JOURNAL_QUERY",
+        "journal_rows_per_journal": "DPR_JOURNAL_ROWS_PER_JOURNAL",
+    }
+    for input_key, env_key in mapping.items():
+        value = norm_text((inputs or {}).get(input_key))
+        if value:
+            env[env_key] = value
+    if env:
+        env.setdefault("DPR_ENABLE_JOURNAL_SOURCES", "1")
+        env.setdefault("DPR_APPEND_PAPER_SOURCES", "journal")
+    return env
 
 
 class Handler(SimpleHTTPRequestHandler):

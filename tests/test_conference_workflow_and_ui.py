@@ -9,6 +9,9 @@ class ConferenceWorkflowAndUiTest(unittest.TestCase):
         root = pathlib.Path(__file__).resolve().parents[1]
         workflow_path = root / ".github" / "workflows" / "daily-paper-reader.yml"
         text = workflow_path.read_text(encoding="utf-8")
+        workflow = yaml.safe_load(text) or {}
+        on_block = workflow.get("on") or workflow.get(True) or {}
+        inputs = (((on_block.get("workflow_dispatch") or {}).get("inputs")) or {})
 
         self.assertIn("MKL_THREADING_LAYER: GNU", text)
         self.assertIn("DPR_RERANK_GLOBAL_POOL_LIMIT: \"120\"", text)
@@ -19,6 +22,12 @@ class ConferenceWorkflowAndUiTest(unittest.TestCase):
         self.assertIn('default: "public-zwwen-rerank"', text)
         self.assertIn("requirements-paper-media.txt", text)
         self.assertIn("PaperCropper smoke OK", text)
+        self.assertIn("journal_month", inputs)
+        self.assertIn("journal_query", inputs)
+        self.assertEqual((inputs.get("journal_rows_per_journal") or {}).get("default"), "25")
+        self.assertIn("DPR_JOURNAL_MONTH", text)
+        self.assertIn("DPR_JOURNAL_QUERY", text)
+        self.assertIn("DPR_JOURNAL_ROWS_PER_JOURNAL", text)
 
     def test_conference_retrieval_workflow_dispatches_pipeline(self):
         root = pathlib.Path(__file__).resolve().parents[1]

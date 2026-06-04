@@ -94,6 +94,23 @@ class LocalDebugEnvTest(unittest.TestCase):
         self.assertLess(script.index("TOPIC_MARKER="), script.index("src/conference_pipeline.py"))
         self.assertLess(script.index("grep -Fq \"$TOPIC_MARKER\""), script.index("src/conference_pipeline.py"))
 
+    def test_daily_local_debug_maps_journal_inputs_to_env(self):
+        env = self.mod.build_input_env(
+            "daily-now",
+            "daily-paper-reader.yml",
+            {
+                "journal_month": "2025-06",
+                "journal_query": "PFAS;sediment",
+                "journal_rows_per_journal": "12",
+            },
+        )
+
+        self.assertEqual(env["DPR_ENABLE_JOURNAL_SOURCES"], "1")
+        self.assertEqual(env["DPR_APPEND_PAPER_SOURCES"], "journal")
+        self.assertEqual(env["DPR_JOURNAL_MONTH"], "2025-06")
+        self.assertEqual(env["DPR_JOURNAL_QUERY"], "PFAS;sediment")
+        self.assertEqual(env["DPR_JOURNAL_ROWS_PER_JOURNAL"], "12")
+
 
 if __name__ == "__main__":
     unittest.main()

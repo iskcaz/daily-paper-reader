@@ -220,6 +220,25 @@ class SubscriptionPlanTest(unittest.TestCase):
             plan = build_pipeline_inputs(cfg)
         self.assertEqual(plan['profiles'][0].get('paper_sources'), ['arxiv', 'biorxiv'])
 
+    def test_build_pipeline_inputs_can_append_journal_without_backend(self):
+        cfg = {
+            'subscriptions': {
+                'intent_profiles': [
+                    {
+                        'tag': 'ENV',
+                        'enabled': True,
+                        'paper_sources': ['arxiv'],
+                        'keywords': [{'keyword': 'PFAS', 'query': 'PFAS environmental fate'}],
+                    }
+                ],
+            }
+        }
+        with patch.dict('os.environ', {'DPR_APPEND_PAPER_SOURCES': 'journal'}, clear=False):
+            plan = build_pipeline_inputs(cfg)
+        self.assertEqual(plan['profiles'][0].get('paper_sources'), ['arxiv', 'journal'])
+        self.assertEqual(plan['bm25_queries'][0].get('paper_sources'), ['arxiv', 'journal'])
+        self.assertEqual(plan['embedding_queries'][0].get('paper_sources'), ['arxiv', 'journal'])
+
     def test_build_pipeline_inputs_can_filter_runtime_profile_tag(self):
         cfg = {
             'source_backends': {
