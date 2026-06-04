@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "request_id": "sq-1780582646233-hcbbwv6p",
+  "tag": "topic",
+  "description": "近海PFAS环境行为",
+  "created_at": "2026-06-04T14:17:40Z",
+  "model": "gpt-5.4",
+  "base_url": "https://jsyai.xinglian.work/v1",
+  "candidates": {
+    "tag": "coastal-pfas",
+    "description": "近海PFAS环境行为",
+    "keywords": [
+      {
+        "keyword": "coastal PFAS",
+        "query": "PFAS occurrence and behavior in coastal marine environments",
+        "keyword_cn": "近海PFAS"
+      },
+      {
+        "keyword": "marine fate",
+        "query": "environmental fate of PFAS in marine and coastal waters",
+        "keyword_cn": "海洋归趋"
+      },
+      {
+        "keyword": "transport pathways",
+        "query": "transport pathways of PFAS from land to coastal ocean",
+        "keyword_cn": "迁移路径"
+      },
+      {
+        "keyword": "sediment partitioning",
+        "query": "partitioning of PFAS between seawater and coastal sediments",
+        "keyword_cn": "沉积物分配"
+      },
+      {
+        "keyword": "air sea exchange",
+        "query": "air sea exchange processes controlling PFAS distribution in coastal zones",
+        "keyword_cn": "海气交换"
+      },
+      {
+        "keyword": "bioaccumulation",
+        "query": "bioaccumulation of PFAS in coastal marine organisms and food webs",
+        "keyword_cn": "生物富集"
+      },
+      {
+        "keyword": "precursor transformation",
+        "query": "transformation of PFAS precursors in coastal and marine environments",
+        "keyword_cn": "前体转化"
+      },
+      {
+        "keyword": "salinity effects",
+        "query": "effects of salinity on PFAS sorption transport and distribution",
+        "keyword_cn": "盐度效应"
+      },
+      {
+        "keyword": "riverine input",
+        "query": "riverine input as a source of PFAS to estuaries and coastal waters",
+        "keyword_cn": "河流输入"
+      },
+      {
+        "keyword": "estuarine mixing",
+        "query": "estuarine mixing and its influence on PFAS distribution and fate",
+        "keyword_cn": "河口混合"
+      }
+    ],
+    "intent_queries": [
+      {
+        "query": "Find studies on the environmental fate transport and transformation of PFAS in coastal and nearshore waters",
+        "query_cn": "检索关于PFAS在近海和沿海水体中环境归趋、迁移与转化的研究"
+      },
+      {
+        "query": "Search for mechanisms controlling PFAS distribution between seawater sediment and biota in coastal environments",
+        "query_cn": "检索控制PFAS在近海环境中海水、沉积物和生物之间分布的机制"
+      },
+      {
+        "query": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+        "query_cn": "检索关于河口与近海海洋系统中PFAS来源、迁移路径及生物地球化学过程的研究"
+      }
+    ]
+  }
+}
