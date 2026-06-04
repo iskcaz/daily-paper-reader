@@ -48,12 +48,13 @@ jobs:
           python-version: "3.11"
 
       - name: Generate smart query candidates
+        env:
+          DPR_SQ_REQUEST_ID: ${{ github.event.inputs.request_id }}
+          DPR_SQ_TAG: ${{ github.event.inputs.tag }}
+          DPR_SQ_DESCRIPTION: ${{ github.event.inputs.description }}
+          DPR_SQ_PROMPT: ${{ github.event.inputs.prompt }}
         run: |
-          python scripts/smart_query_generate.py \
-            --request-id "${{ github.event.inputs.request_id }}" \
-            --tag "${{ github.event.inputs.tag }}" \
-            --description "${{ github.event.inputs.description }}" \
-            --prompt "${{ github.event.inputs.prompt }}"
+          python scripts/smart_query_generate.py
 
       - name: Commit generated result
         if: always()
@@ -61,6 +62,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="${GITHUB_REF_NAME:-main}"
+
+          if [ ! -d docs/smart-query-results ]; then
+            echo "No smart query result directory to commit."
+            exit 0
+          fi
 
           git add docs/smart-query-results
           if git diff --cached --quiet; then

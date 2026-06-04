@@ -144,12 +144,14 @@ def call_model(api_key: str, base_url: str, model: str, prompt: str) -> dict[str
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--request-id", required=True)
-    parser.add_argument("--tag", required=True)
-    parser.add_argument("--description", required=True)
-    parser.add_argument("--prompt", required=True)
+    parser.add_argument("--request-id", default=os.getenv("DPR_SQ_REQUEST_ID", ""))
+    parser.add_argument("--tag", default=os.getenv("DPR_SQ_TAG", ""))
+    parser.add_argument("--description", default=os.getenv("DPR_SQ_DESCRIPTION", ""))
+    parser.add_argument("--prompt", default=os.getenv("DPR_SQ_PROMPT", ""))
     parser.add_argument("--output-dir", default="docs/smart-query-results")
     args = parser.parse_args()
+    if not args.request_id or not args.tag or not args.description or not args.prompt:
+        raise RuntimeError("missing smart query request inputs")
 
     api_key = (
         os.getenv("DEEPSEEK_API_KEY")
@@ -198,7 +200,7 @@ def main() -> int:
 
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0 if result.get("ok") else 1
+    return 0
 
 
 if __name__ == "__main__":
