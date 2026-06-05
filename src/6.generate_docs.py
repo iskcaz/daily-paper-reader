@@ -1063,7 +1063,7 @@ def build_latest_report_section(
         for idx, (paper_id, title, tags) in enumerate(deep_entries, start=1):
             safe_title = (title or "").strip() or paper_id
             evidence = (paper_evidence_by_id.get(str(paper_id).strip(), "") or "").strip()
-            lines.append(f"{idx}. [{safe_title}]({build_docsify_id_href(paper_id)})  ")
+            lines.append(f"{idx}. [{safe_title}]({build_docsify_id_href(paper_id)})")
             lines.append(f"   标签：{_format_entry_tags(tags)}")
             if evidence:
                 lines.append(f"   evidence：{evidence}")
@@ -1075,7 +1075,7 @@ def build_latest_report_section(
         for idx, (paper_id, title, tags) in enumerate(quick_entries, start=1):
             safe_title = (title or "").strip() or paper_id
             evidence = (paper_evidence_by_id.get(str(paper_id).strip(), "") or "").strip()
-            lines.append(f"{idx}. [{safe_title}]({build_docsify_id_href(paper_id)})  ")
+            lines.append(f"{idx}. [{safe_title}]({build_docsify_id_href(paper_id)})")
             lines.append(f"   标签：{_format_entry_tags(tags)}")
             if evidence:
                 lines.append(f"   evidence：{evidence}")
@@ -2063,6 +2063,96 @@ def list_day_report_links(docs_dir: str) -> List[Tuple[str, str]]:
     return out
 
 
+def _read_day_meta_entries(docs_dir: str, date_token: str) -> tuple[
+    List[Tuple[str, str, List[Tuple[str, str]]]],
+    List[Tuple[str, str, List[Tuple[str, str]]]],
+    Dict[str, str],
+] | None:
+    if RANGE_DATE_RE.match(date_token):
+        meta_path = os.path.join(docs_dir, date_token, "papers.meta.json")
+    elif re.fullmatch(r"\d{8}", date_token or ""):
+        meta_path = os.path.join(docs_dir, date_token[:6], date_token[6:], "papers.meta.json")
+    else:
+        return None
+    if not os.path.exists(meta_path):
+        return None
+    try:
+        with open(meta_path, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+    except Exception:
+        return None
+    papers = payload.get("papers") if isinstance(payload, dict) else None
+    if not isinstance(papers, list):
+        return None
+
+    deep_entries: List[Tuple[str, str, List[Tuple[str, str]]]] = []
+    quick_entries: List[Tuple[str, str, List[Tuple[str, str]]]] = []
+    evidence_by_id: Dict[str, str] = {}
+    for paper in papers:
+        if not isinstance(paper, dict):
+            continue
+        paper_id = str(paper.get("paper_id") or "").strip()
+        title = str(paper.get("title_en") or paper.get("title") or paper_id).strip()
+        if not paper_id:
+            continue
+        tags = [split_sidebar_tag(tag) for tag in re.split(r"[,;]\s*", str(paper.get("tags") or "")) if tag.strip()]
+        score = str(paper.get("score") or "").strip()
+        if score:
+            tags.insert(0, ("score", score))
+        evidence = str(paper.get("evidence") or "").strip()
+        if evidence:
+            evidence_by_id[paper_id] = evidence
+        entry = (paper_id, title, tags)
+        section = str(paper.get("section") or "").strip().lower()
+        if section == "deep":
+            deep_entries.append(entry)
+        else:
+            quick_entries.append(entry)
+
+    if not deep_entries and not quick_entries:
+        return None
+    return deep_entries, quick_entries, evidence_by_id
+
+
+def find_latest_non_empty_day_meta(
+    docs_dir: str,
+    exclude_date: str | None = None,
+) -> tuple[
+    str,
+    str,
+    List[Tuple[str, str, List[Tuple[str, str]]]],
+    List[Tuple[str, str, List[Tuple[str, str]]]],
+    Dict[str, str],
+] | None:
+    if not os.path.isdir(docs_dir):
+        return None
+    exclude = str(exclude_date or "").strip()
+    candidates: List[tuple[str, str]] = []
+    for name in os.listdir(docs_dir):
+        if RANGE_DATE_RE.fullmatch(name or ""):
+            candidates.append((name, format_date_str(name)))
+    for ym in os.listdir(docs_dir):
+        if not re.fullmatch(r"\d{6}", ym or ""):
+            continue
+        ym_path = os.path.join(docs_dir, ym)
+        if not os.path.isdir(ym_path):
+            continue
+        for day in os.listdir(ym_path):
+            if re.fullmatch(r"\d{2}", day or ""):
+                token = f"{ym}{day}"
+                candidates.append((token, format_date_str(token)))
+
+    for token, label in sorted(candidates, key=lambda item: item[0], reverse=True):
+        if token == exclude:
+            continue
+        entries = _read_day_meta_entries(docs_dir, token)
+        if not entries:
+            continue
+        deep_entries, quick_entries, evidence_by_id = entries
+        return token, label, deep_entries, quick_entries, evidence_by_id
+    return None
+
+
 def build_home_readme_content(
     docs_dir: str,
     date_str: str,
@@ -2076,6 +2166,20 @@ def build_home_readme_content(
     notice_path, promo_path = ensure_home_module_files(docs_dir)
     notice_md = _read_module_markdown(notice_path)
     promo_md = _read_module_markdown(promo_path)
+    fallback = None
+    if not deep_entries and not quick_entries:
+        fallback = find_latest_non_empty_day_meta(docs_dir, exclude_date=date_str)
+    if fallback:
+        fallback_date, fallback_label, fallback_deep, fallback_quick, fallback_evidence = fallback
+        log(
+            f"[INFO] current run has no recommendations; keeping latest non-empty home report: {fallback_label}"
+        )
+        date_str = fallback_date
+        date_label = fallback_label
+        deep_entries = fallback_deep
+        quick_entries = fallback_quick
+        paper_evidence_by_id = fallback_evidence
+        recommend_exists = True
     latest_report_md = build_latest_report_section(
         date_str=date_str,
         date_label=date_label,

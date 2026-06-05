@@ -415,6 +415,64 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
         self.assertIs(captured["client"], explicit_client)
         self.assertEqual(captured["kwargs"]["max_tokens"], 16 * 1024)
 
+    def test_empty_run_home_keeps_latest_non_empty_quick_report(self):
+        with tempfile.TemporaryDirectory() as d:
+            docs_dir = Path(d)
+            day_dir = docs_dir / "202606" / "04"
+            empty_dir = docs_dir / "20260507-20260605"
+            day_dir.mkdir(parents=True, exist_ok=True)
+            empty_dir.mkdir(parents=True, exist_ok=True)
+            (day_dir / "papers.meta.json").write_text(
+                json.dumps(
+                    {
+                        "label": "2026-06-04",
+                        "date": "2026-06-04",
+                        "count": 1,
+                        "papers": [
+                            {
+                                "paper_id": "202606/04/journal-wr-transit-time",
+                                "section": "quick",
+                                "title_en": "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+                                "score": "6.0",
+                                "tags": "query:coastal-pfas",
+                                "evidence": "urban salinization",
+                            }
+                        ],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (empty_dir / "papers.meta.json").write_text(
+                json.dumps(
+                    {
+                        "label": "2026-05-07 ~ 2026-06-05",
+                        "count": 0,
+                        "papers": [],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            content = self.mod.build_home_readme_content(
+                str(docs_dir),
+                "20260507-20260605",
+                "2026-05-07 ~ 2026-06-05",
+                "2026-06-05 00:00:00 UTC",
+                True,
+                [],
+                [],
+                {},
+            )
+
+            self.assertIn("2026-06-04", content)
+            self.assertIn(
+                "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+                content,
+            )
+            self.assertNotIn("2026-05-07 ~ 2026-06-05", content)
+
 
 if __name__ == "__main__":
     unittest.main()
