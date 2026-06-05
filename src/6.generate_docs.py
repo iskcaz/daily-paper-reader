@@ -538,8 +538,8 @@ def upsert_glance_block_in_text(md_text: str, glance: str) -> str:
     key = "## 速览"
     if key in txt:
         # 替换现有速览块
-        pattern = re.compile(r"(^## 速览\\s*\\n)(.*?)(?=\\n---\\n|\\n##\\s|\\Z)", re.S | re.M)
-        return pattern.sub(rf"\\1{glance}\n", txt, count=1)
+        pattern = re.compile(r"(^## 速览\s*\n)(.*?)(?=\n---\n|\n##\s|\Z)", re.S | re.M)
+        return pattern.sub(rf"\1{glance}\n", txt, count=1)
 
     abstract_idx = txt.find("## Abstract")
     if abstract_idx != -1:
@@ -721,46 +721,275 @@ def build_glance_fallback(paper: Dict[str, Any]) -> str:
     """
     当 LLM 额度不足/不可用时的降级速览：
     - TLDR 优先用 llm_tldr_cn/llm_tldr；否则用摘要首句；
-    - 其余字段用“基于摘要的启发式”生成，保证 5 段齐全。
+    - 有摘要时从摘要里抽取动机/方法/结果/结论线索；
+    - 无摘要时明确标注元数据不足，避免用空泛模板冒充内容。
     """
+    title = str(paper.get("title") or "").strip()
     abstract = str(paper.get("abstract") or "").strip()
     tldr = (
         str(paper.get("llm_tldr_cn") or paper.get("llm_tldr") or paper.get("llm_tldr_en") or "").strip()
     )
     evidence = str(paper.get("canonical_evidence") or "").strip()
+    journal_label = str(paper.get("journal_label") or paper.get("journal") or "").strip()
+
+    def normalize_text(text: str) -> str:
+        s = re.sub(r"\s+", " ", str(text or "")).strip()
+        s = re.sub(r"^[•·\-\s]+", "", s)
+        s = re.sub(r"^(?:SYNOPSIS|HIGHLIGHTS?)\s*:\s*", "", s, flags=re.I)
+        s = re.sub(r"^[,;:，；：\)\]\}]+", "", s).strip()
+        return s
+
+    def is_missing_abstract(text: str) -> bool:
+        s = normalize_text(text).lower()
+        return not s or "no abstract was available" in s or "did not provide an abstract" in s
+
+    def looks_like_partial_abstract(text: str, sentences: List[str]) -> bool:
+        raw = str(text or "").lstrip()
+        if raw.startswith((",", ";", ":", "，", "；", "：", ")", "]", "}")):
+            return True
+        first = sentences[0] if sentences else ""
+        if is_fragment_sentence(first):
+            return True
+        return bool(first and re.match(r"^[A-Z][A-Za-z0-9]*\)", first))
+
+    def split_sentences(text: str) -> List[str]:
+        s = normalize_text(text)
+        if not s:
+            return []
+        s = re.split(r"\bSYNOPSIS\s*:", s, maxsplit=1, flags=re.I)[0].strip()
+        starts_with_highlights = s.startswith("•")
+        s = re.sub(r"\s*[•·]\s*", ". ", s)
+        parts = re.split(r"(?<=[。！？.!?])\s+", s)
+        out: List[str] = []
+        for part in parts:
+            cleaned = normalize_text(part)
+            if cleaned:
+                out.append(cleaned)
+        if starts_with_highlights:
+            for index, sentence in enumerate(out):
+                if re.search(r"\b(in this study|this study|we |here,|urban|during|switzerland|marine|per- and polyfluoroalkyl|biodegradation)\b", sentence, re.I):
+                    return out[index:]
+        return out
+
+    def compact_sentence(text: str, max_chars: int = 240) -> str:
+        s = normalize_text(text)
+        if len(s) <= max_chars:
+            return s
+        cut = s[:max_chars].rsplit(" ", 1)[0].rstrip(",;: ")
+        cut = re.sub(r"\b(and|or|but|with|of|in|for|to|by|via|using|from|based)\s*$", "", cut, flags=re.I).rstrip(",;: ")
+        return (cut or s[:max_chars]).rstrip(".。") + "..."
 
     def first_sentence(text: str) -> str:
-        s = (text or "").strip()
-        if not s:
+        sentences = split_sentences(text)
+        return sentences[0] if sentences else ""
+
+    def is_fragment_sentence(text: str) -> bool:
+        s = normalize_text(text)
+        return bool(s) and s[0].islower()
+
+    def sentence_has(sentence: str, patterns: List[str]) -> bool:
+        return any(re.search(pat, sentence, re.I) for pat in patterns)
+
+    def sentence_key(sentence: str) -> str:
+        return re.sub(r"\W+", " ", normalize_text(sentence).lower()).strip()
+
+    result_patterns = [
+        r"\bresults? (?:show|showed|suggest|suggests|suggested|indicate|indicates|indicated|reveal|reveals|revealed)\b",
+        r"\b(detected|found|show(?:s|ed)?|demonstrat(?:e|es|ed)|reveal(?:s|ed)?|indicat(?:e|es|ed)|observed)\b",
+        r"\b(enhanced|inhibited|increased|decreased|reduced|identified|quantified|contributed|prevailed)\b",
+        r"\b(highest|dominant|predominant|concentrations?|loads?|rates?)\b",
+    ]
+    method_patterns = [
+        r"\bwe (investigated|applied|used|developed|proposed|presented|introduced|evaluated|assessed|combined|measured|analy[sz]ed|model(?:ed|led)?|collected|quantified)\b",
+        r"\b(this study|the study|our study) (investigated|applied|used|developed|evaluated|assessed|measured|analy[sz]ed|collected|quantified)\b",
+        r"\b(target|non-target|screening|sampling|samples?|dataset|framework|model|assay|experiment|SEM-EDS|XRD|FT-IR|XPS)\b",
+        r"\busing\b|\bbased on\b|\bthrough\b",
+    ]
+    motivation_patterns = [
+        r"\b(constrain(?:s|ed)?|limited|challenge|challenging|problem|risk|remain(?:s|ed)?|unexplored|unclear|unknown|need|lack(?:s|ing)?|persistent|pervasive)\b",
+        r"\b(contaminants?|pollutants?|bioavailability|exposure|remediation|monitoring|assessment)\b",
+        r"\b(yet|however)\b",
+    ]
+    conclusion_patterns = [
+        r"\b(our findings|these findings|findings demonstrate|these divergent outcomes|overall, these findings)\b",
+        r"\b(highlight(?:s|ing)?|suggest(?:s|ed)?|provide(?:s|d)?|offer(?:s|ed)?|support(?:s|ed)?|enable(?:s|d)?|establish(?:es|ed)?|implication|implications)\b",
+        r"\b(sustainable|management|risk assessment|transferable|remediation|monitoring)\b",
+    ]
+
+    def choose_sentence(
+        sentences: List[str],
+        include_patterns: List[str],
+        fallback_index: int,
+        *,
+        prefer: str = "any",
+        exclude_patterns: List[str] | None = None,
+        used: List[str] | None = None,
+        allow_fallback: bool = False,
+    ) -> str:
+        if not sentences:
             return ""
-        parts = re.split(r"(?<=[。！？.!?])\\s+", s)
-        return (parts[0] if parts else s).strip()
+        exclude_patterns = exclude_patterns or []
+        used_keys = {sentence_key(s) for s in (used or []) if s}
+        best: Tuple[float, int, str] | None = None
+        total = max(1, len(sentences) - 1)
+        for index, sentence in enumerate(sentences):
+            if sentence_key(sentence) in used_keys:
+                continue
+            if exclude_patterns and sentence_has(sentence, exclude_patterns):
+                continue
+            score = 0.0
+            for pat in include_patterns:
+                if re.search(pat, sentence, re.I):
+                    score += 5.0
+            if score <= 0:
+                continue
+            position = index / total
+            if prefer == "early":
+                score += max(0.0, 2.0 - 2.0 * position)
+            elif prefer == "late":
+                score += 2.0 * position
+            elif prefer == "middle":
+                score += 1.5 - abs(0.5 - position)
+            if index == 0 and prefer == "early":
+                score += 1.0
+            candidate = (score, -index if prefer == "early" else index, sentence)
+            if best is None or candidate > best:
+                best = candidate
+        if best is not None:
+            return best[2]
+        if not allow_fallback:
+            return ""
+        if 0 <= fallback_index < len(sentences):
+            return sentences[fallback_index]
+        return sentences[-1]
+
+    no_abstract = is_missing_abstract(abstract)
+    sentences = [] if no_abstract else split_sentences(abstract)
+    partial_abstract = False if no_abstract else looks_like_partial_abstract(abstract, sentences)
 
     if not tldr:
-        tldr = first_sentence(abstract)
+        if no_abstract:
+            subject = title or "该论文"
+            source = journal_label or "期刊元数据"
+            tldr = f"元数据没有提供摘要；当前只能确认《{subject}》来自{source}，需要打开 DOI 查看正文后再做内容判断。"
+        else:
+            first = first_sentence(abstract)
+            if is_fragment_sentence(first) and title:
+                tldr = f"题名聚焦《{title}》；现有摘要片段显示：{compact_sentence(first, 160)}"
+            else:
+                tldr = compact_sentence(first, 220)
     if not tldr and evidence:
         tldr = evidence
-    tldr = ensure_single_sentence_end(tldr or "基于摘要生成的速览信息。")
+    tldr = ensure_single_sentence_end(tldr or "元数据不足，暂时只能保留论文卡片和 DOI 入口。")
 
-    motivation = ensure_single_sentence_end(
-        first_sentence(evidence) or "本文关注一个具有代表性的研究问题，并尝试提升现有方法的效果或可解释性。"
-    )
-
-    method_hint = ""
-    if abstract:
-        m = re.search(r"(we (?:propose|present|introduce|develop)[^\\.]{0,200})\\.", abstract, re.I)
-        if m:
-            method_hint = m.group(1).strip()
-    method = ensure_single_sentence_end(method_hint or "方法与实现细节请参考摘要与正文。")
-
-    result_hint = ""
-    if abstract:
-        m = re.search(r"(experiments? (?:show|demonstrate)[^\\.]{0,200})\\.", abstract, re.I)
-        if m:
-            result_hint = m.group(1).strip()
-    result = ensure_single_sentence_end(result_hint or "结果与对比结论请参考摘要与正文。")
-
-    conclusion = ensure_single_sentence_end("总体而言，该工作在所述任务上展示了有效性，并提供了可复用的思路或工具。")
+    if no_abstract:
+        source = journal_label or "环境期刊"
+        motivation = ensure_single_sentence_end(
+            f"元数据未提供摘要；题名显示研究主题为《{title or '未知题名'}》，具体问题背景需要查看 DOI 正文。"
+        )
+        method = ensure_single_sentence_end(
+            f"当前仅有{source}题录信息，无法可靠抽取实验设计、模型、样品或数据来源。"
+        )
+        result = ensure_single_sentence_end("元数据未给出结果摘要，不能判断主要发现或定量结论。")
+        conclusion = ensure_single_sentence_end("保留为速读入口；后续获得摘要或开放全文后再补充精读内容。")
+    elif partial_abstract:
+        motivation = ensure_single_sentence_end(
+            f"摘要片段不完整；题名显示研究主题为《{title or '该论文'}》，不应仅凭片段判断完整研究动机。"
+        )
+        method_hint = choose_sentence(
+            sentences,
+            method_patterns,
+            min(1, len(sentences) - 1),
+            prefer="early",
+            exclude_patterns=conclusion_patterns,
+        )
+        result_hint = choose_sentence(
+            sentences,
+            result_patterns,
+            max(0, len(sentences) - 2),
+            prefer="middle",
+            exclude_patterns=conclusion_patterns,
+        )
+        conclusion_hint = choose_sentence(
+            sentences,
+            conclusion_patterns,
+            len(sentences) - 1,
+            prefer="late",
+        )
+        method = ensure_single_sentence_end(
+            "方法：" + compact_sentence(method_hint, 260)
+            if method_hint
+            else "摘要片段未明确说明实验设计、模型、样品或数据来源；需要查看正文确认方法细节。"
+        )
+        result = ensure_single_sentence_end(
+            "主要结果：" + compact_sentence(result_hint, 260)
+            if result_hint
+            else "摘要片段未明确给出可抽取的主要结果；当前不应据此推断定量发现。"
+        )
+        conclusion = ensure_single_sentence_end(
+            "结论意义：" + compact_sentence(conclusion_hint, 260)
+            if conclusion_hint
+            else "摘要片段未明确展开结论意义；后续应结合全文再判断应用价值。"
+        )
+    else:
+        used_hints: List[str] = []
+        motivation_hint = choose_sentence(
+            sentences,
+            motivation_patterns,
+            0,
+            prefer="early",
+            exclude_patterns=result_patterns + conclusion_patterns,
+            used=used_hints,
+            allow_fallback=True,
+        )
+        if motivation_hint:
+            used_hints.append(motivation_hint)
+        method_hint = choose_sentence(
+            sentences,
+            method_patterns,
+            min(1, len(sentences) - 1),
+            prefer="early",
+            exclude_patterns=conclusion_patterns,
+            used=used_hints,
+        )
+        if method_hint:
+            used_hints.append(method_hint)
+        result_hint = choose_sentence(
+            sentences,
+            result_patterns,
+            max(0, len(sentences) - 2),
+            prefer="middle",
+            used=used_hints,
+        )
+        if result_hint:
+            used_hints.append(result_hint)
+        conclusion_hint = choose_sentence(
+            sentences,
+            conclusion_patterns,
+            len(sentences) - 1,
+            prefer="late",
+            used=used_hints,
+        )
+        motivation = ensure_single_sentence_end(
+            "研究动机：" + compact_sentence(motivation_hint, 260)
+            if motivation_hint
+            else f"摘要未明确交代研究空白；题名显示主题为《{title or '该论文'}》，需结合正文判断具体动机。"
+        )
+        method = ensure_single_sentence_end(
+            "方法：" + compact_sentence(method_hint, 260)
+            if method_hint
+            else "摘要未明确说明实验设计、模型、样品或数据来源；需要查看正文确认方法细节。"
+        )
+        result = ensure_single_sentence_end(
+            "主要结果：" + compact_sentence(result_hint, 260)
+            if result_hint
+            else "摘要未明确给出可抽取的主要结果；当前不应据此推断定量发现。"
+        )
+        conclusion = ensure_single_sentence_end(
+            "结论意义：" + compact_sentence(conclusion_hint, 260)
+            if conclusion_hint
+            else "摘要未明确展开结论意义；后续应结合全文再判断应用价值。"
+        )
 
     return "\n".join(
         [
@@ -1537,6 +1766,48 @@ def upsert_front_matter_field(md_text: str, key: str, value: str) -> Tuple[str, 
     return updated, updated != normalized
 
 
+def parse_glance_fields(glance: str) -> Dict[str, str]:
+    fields = {"tldr": "", "motivation": "", "method": "", "result": "", "conclusion": ""}
+    for line in str(glance or "").split("\n"):
+        line = line.strip().rstrip("\\").strip()
+        for label, key in (
+            ("TLDR", "tldr"),
+            ("Motivation", "motivation"),
+            ("Method", "method"),
+            ("Result", "result"),
+            ("Conclusion", "conclusion"),
+        ):
+            prefix_cn = f"**{label}**："
+            prefix_en = f"**{label}**:"
+            if line.startswith(prefix_cn):
+                fields[key] = line[len(prefix_cn) :].strip()
+                break
+            if line.startswith(prefix_en):
+                fields[key] = line[len(prefix_en) :].strip()
+                break
+    return fields
+
+
+def sync_glance_front_matter(md_text: str, glance: str) -> Tuple[str, bool]:
+    fields = parse_glance_fields(glance)
+    mapping = {
+        "tldr": "tldr",
+        "motivation": "motivation",
+        "method": "method",
+        "result": "result",
+        "conclusion": "conclusion",
+    }
+    updated = md_text
+    changed_any = False
+    for field_key, yaml_key in mapping.items():
+        value = fields.get(field_key, "").strip()
+        if not value:
+            continue
+        updated, changed = upsert_front_matter_field(updated, yaml_key, yaml_escape_value(value))
+        changed_any = changed_any or changed
+    return updated, changed_any
+
+
 def build_markdown_content(
     paper: Dict[str, Any],
     section: str,
@@ -1572,25 +1843,12 @@ def build_markdown_content(
 
     # 解析速览内容
     glance = paper.get("_glance_overview", "").strip()
-    glance_tldr = ""
-    glance_motivation = ""
-    glance_method = ""
-    glance_result = ""
-    glance_conclusion = ""
-
-    if glance:
-        for line in glance.split("\n"):
-            line = line.strip().rstrip("\\").strip()
-            if line.startswith("**TLDR**：") or line.startswith("**TLDR**:"):
-                glance_tldr = line.split("：", 1)[-1].split(":", 1)[-1].strip()
-            elif line.startswith("**Motivation**：") or line.startswith("**Motivation**:"):
-                glance_motivation = line.split("：", 1)[-1].split(":", 1)[-1].strip()
-            elif line.startswith("**Method**：") or line.startswith("**Method**:"):
-                glance_method = line.split("：", 1)[-1].split(":", 1)[-1].strip()
-            elif line.startswith("**Result**：") or line.startswith("**Result**:"):
-                glance_result = line.split("：", 1)[-1].split(":", 1)[-1].strip()
-            elif line.startswith("**Conclusion**：") or line.startswith("**Conclusion**:"):
-                glance_conclusion = line.split("：", 1)[-1].split(":", 1)[-1].strip()
+    glance_fields = parse_glance_fields(glance)
+    glance_tldr = glance_fields.get("tldr", "")
+    glance_motivation = glance_fields.get("motivation", "")
+    glance_method = glance_fields.get("method", "")
+    glance_result = glance_fields.get("result", "")
+    glance_conclusion = glance_fields.get("conclusion", "")
 
     # 优先使用速览生成的 TLDR（100字左右），否则使用原来的 TLDR
     display_tldr = glance_tldr if glance_tldr else tldr
@@ -1853,6 +2111,7 @@ def process_paper(
         # 插入/替换速览内容
         if glance and (force_glance or "## 速览" not in existing):
             updated = upsert_glance_block_in_text(existing, glance)
+            updated, _ = sync_glance_front_matter(updated, glance)
             if updated != existing:
                 with open(md_path, "w", encoding="utf-8") as f:
                     f.write(updated)
@@ -2708,6 +2967,10 @@ def _parse_generated_md_to_meta(
     score_value = _fallback_meta("score", "Score")
     evidence_value = _fallback_meta("evidence", "Evidence")
     tldr_value = _fallback_meta("tldr", "TLDR")
+    motivation_value = _fallback_meta("motivation", "Motivation")
+    method_value = _fallback_meta("method", "Method")
+    result_value = _fallback_meta("result", "Result")
+    conclusion_value = _fallback_meta("conclusion", "Conclusion")
     src_value = str(selection_source or "").strip()
     if not src_value and "selection_source" in fm_meta:
         src_value = str(fm_meta.get("selection_source") or "").strip()
@@ -2732,6 +2995,10 @@ def _parse_generated_md_to_meta(
         "score": str(score_value or "").strip(),
         "evidence": str(evidence_value or "").strip(),
         "tldr": str(tldr_value or "").strip(),
+        "motivation": str(motivation_value or "").strip(),
+        "method": str(method_value or "").strip(),
+        "result": str(result_value or "").strip(),
+        "conclusion": str(conclusion_value or "").strip(),
         "tags": ", ".join(tags_compact),
         "abstract_en": abstract_en,
         "source": paper_source_value,

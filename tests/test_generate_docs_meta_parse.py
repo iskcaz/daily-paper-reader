@@ -219,6 +219,10 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
                         "journal_label: EST",
                         "open_pdf_status: no_open_pdf",
                         "open_pdf_available: false",
+                        "motivation: 元数据未提供摘要；题名显示研究主题为环境暴露。",
+                        "method: 当前仅有EST题录信息，无法可靠抽取实验设计。",
+                        "result: 元数据未给出结果摘要，不能判断主要发现。",
+                        "conclusion: 保留为速读入口；后续获得摘要后再补充。",
                         "---",
                         "",
                         "## Abstract",
@@ -237,6 +241,10 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
             self.assertEqual(item["journal_label"], "EST")
             self.assertEqual(item["open_pdf_status"], "no_open_pdf")
             self.assertEqual(item["open_pdf_available"], "false")
+            self.assertIn("题名显示研究主题", item["motivation"])
+            self.assertIn("无法可靠抽取实验设计", item["method"])
+            self.assertIn("不能判断主要发现", item["result"])
+            self.assertIn("后续获得摘要后再补充", item["conclusion"])
             self.assertIn("journal metadata sources", item["abstract_en"])
             self.assertNotIn("arXiv did not provide an abstract", item["abstract_en"])
 
@@ -385,6 +393,168 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
 
         self.assertIn("**TLDR**", out)
         self.assertIs(captured["client"], explicit_client)
+
+    def test_glance_fallback_extracts_richer_journal_fields_from_abstract(self):
+        paper = {
+            "title": "Beyond solubilization",
+            "source": "journal",
+            "journal_label": "JHM",
+            "abstract": (
+                "Biodegradation of polycyclic aromatic hydrocarbons in non-aqueous phase liquids is constrained by limited bioavailability. "
+                "We investigated how Quillaja saponin affects PAH partitioning and biodegradation in biphasic NAPL systems. "
+                "Saponin enhanced aqueous-phase PAH concentrations in all systems. "
+                "Our findings demonstrate that a dual mechanism offers a sustainable approach for remediation."
+            ),
+        }
+
+        out = self.mod.build_glance_fallback(paper)
+
+        self.assertIn("**Motivation**", out)
+        self.assertIn("研究动机：Biodegradation", out)
+        self.assertIn("方法：We investigated", out)
+        self.assertIn("主要结果：Saponin enhanced", out)
+        self.assertIn("结论意义：Our findings demonstrate", out)
+        self.assertNotIn("方法与实现细节请参考摘要与正文", out)
+        self.assertNotIn("结果与对比结论请参考摘要与正文", out)
+        self.assertNotIn("来自环境期刊监控", out)
+
+    def test_glance_fallback_keeps_result_sentence_out_of_motivation(self):
+        paper = {
+            "title": "Target and semi-quantitative non-target analysis of PFAS in Arctic animals",
+            "source": "journal",
+            "journal_label": "JHM",
+            "abstract": (
+                "Per- and polyfluoroalkyl substances (PFAS) are pervasive environmental contaminants due to their persistence, bioaccumulation potential and adverse effects. "
+                "This study applied target and non-target screening analysis in an exploratory approach to investigating emerging PFAS in Arctic animals, including polar bears, ringed seals, glaucous gulls, ptarmigans and shorthorn sculpin. "
+                "Target analysis detected 21 PFAS, with the highest PFAS in a polar bear sample. "
+                "A semi-quantification approach indicated that emerging PFAS may contribute substantially to the overall PFAS burden, highlighting the importance of expanding PFAS monitoring and conducting risk assessments."
+            ),
+        }
+
+        out = self.mod.build_glance_fallback(paper)
+
+        self.assertIn("研究动机：Per- and polyfluoroalkyl substances", out)
+        self.assertIn("方法：This study applied target and non-target screening", out)
+        self.assertIn("主要结果：Target analysis detected 21 PFAS", out)
+        self.assertIn("结论意义：A semi-quantification approach indicated", out)
+
+        motivation_line = next(line for line in out.splitlines() if line.startswith("**Motivation**"))
+        self.assertNotIn("semi-quantification", motivation_line.lower())
+        self.assertNotIn("indicated", motivation_line.lower())
+
+    def test_glance_fallback_marks_partial_abstract_as_incomplete(self):
+        paper = {
+            "title": "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+            "source": "journal",
+            "journal_label": "WR",
+            "abstract": (
+                "when normalized by the 20,000 people living in the watershed. "
+                "In winter months, higher infiltration routes a large fraction of snowmelt and deicers into shallow subsurface pathways. "
+                "By linking climate-driven deicer inputs, hydrologic connectivity, and stream water age, the framework provides a transferable basis for diagnosing and managing freshwater salinization."
+            ),
+        }
+
+        out = self.mod.build_glance_fallback(paper)
+
+        self.assertIn("摘要片段不完整", out)
+        self.assertIn("不应仅凭片段判断完整研究动机", out)
+        self.assertIn("结论意义：By linking climate-driven deicer inputs", out)
+        motivation_line = next(line for line in out.splitlines() if line.startswith("**Motivation**"))
+        self.assertNotIn("when normalized", motivation_line.lower())
+
+    def test_glance_fallback_marks_missing_journal_abstract_without_fake_details(self):
+        paper = {
+            "title": "PFAS in groundwater",
+            "source": "journal",
+            "journal_label": "EST",
+            "abstract": "No abstract was available from the journal metadata sources for this paper.",
+        }
+
+        out = self.mod.build_glance_fallback(paper)
+
+        self.assertIn("元数据没有提供摘要", out)
+        self.assertIn("具体问题背景需要查看 DOI 正文", out)
+        self.assertIn("无法可靠抽取实验设计", out)
+        self.assertIn("不能判断主要发现或定量结论", out)
+        self.assertNotIn("方法与实现细节请参考摘要与正文", out)
+        self.assertNotIn("结果与对比结论请参考摘要与正文", out)
+
+    def test_sync_glance_front_matter_updates_existing_quality_fields(self):
+        md = "\n".join(
+            [
+                "---",
+                "title: Old",
+                "tldr: old tldr",
+                "motivation: 来自环境期刊监控：WR。",
+                "method: 方法与实现细节请参考摘要与正文。",
+                "result: 结果与对比结论请参考摘要与正文。",
+                "conclusion: 总体而言，该工作在所述任务上展示了有效性。",
+                "---",
+                "",
+                "## 速览",
+                "**Motivation**：旧内容。",
+            ]
+        )
+        glance = "\n".join(
+            [
+                "**TLDR**：新的速读摘要。 \\",
+                "**Motivation**：研究动机：盐化问题需要可迁移的水龄诊断框架。 \\",
+                "**Method**：方法：作者建立 transit time modeling framework。 \\",
+                "**Result**：主要结果：模型解释了冬季融雪和融盐输入的滞后输出。 \\",
+                "**Conclusion**：结论意义：该框架可用于城市流域淡水盐化管理。",
+            ]
+        )
+
+        updated, changed = self.mod.sync_glance_front_matter(md, glance)
+
+        self.assertTrue(changed)
+        meta = self.mod._parse_front_matter(updated)
+        self.assertEqual(meta["tldr"], "新的速读摘要。")
+        self.assertIn("盐化问题", meta["motivation"])
+        self.assertIn("transit time", meta["method"])
+        self.assertIn("冬季融雪", meta["result"])
+        self.assertIn("城市流域淡水盐化管理", meta["conclusion"])
+        self.assertNotIn("方法与实现细节请参考摘要与正文", updated)
+
+    def test_upsert_glance_block_replaces_existing_block(self):
+        md = "\n".join(
+            [
+                "---",
+                "title: Old",
+                "---",
+                "",
+                "## 速览",
+                "**TLDR**：旧摘要。 \\",
+                "**Motivation**：来自环境期刊监控：WR。 \\",
+                "**Method**：方法与实现细节请参考摘要与正文。 \\",
+                "**Result**：结果与对比结论请参考摘要与正文。 \\",
+                "**Conclusion**：总体而言，该工作在所述任务上展示了有效性。",
+                "",
+                "---",
+                "",
+                "## Abstract",
+                "abstract body",
+            ]
+        )
+        glance = "\n".join(
+            [
+                "**TLDR**：新的摘要。 \\",
+                "**Motivation**：研究动机：城市流域盐化需要解释水龄与融盐输入。 \\",
+                "**Method**：方法：使用 transit time modeling framework。 \\",
+                "**Result**：主要结果：识别冬季入渗和夏季冲刷过程。 \\",
+                "**Conclusion**：结论意义：支持淡水盐化诊断和管理。",
+            ]
+        )
+
+        updated = self.mod.upsert_glance_block_in_text(md, glance)
+
+        self.assertIn("研究动机：城市流域盐化", updated)
+        self.assertIn("方法：使用 transit time", updated)
+        self.assertIn("主要结果：识别冬季入渗", updated)
+        self.assertNotIn("来自环境期刊监控：WR", updated)
+        self.assertNotIn("方法与实现细节请参考摘要与正文", updated)
+        self.assertEqual(updated.count("## 速览"), 1)
+        self.assertIn("## Abstract", updated)
 
     def test_translate_uses_16k_and_explicit_client(self):
         explicit_client = object()
