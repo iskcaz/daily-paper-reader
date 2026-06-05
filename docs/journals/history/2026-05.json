@@ -37,13 +37,14 @@
       "2328-8930",
       "2328-8930"
     ],
-    "source_weight": 9,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar"
+      "semantic_scholar",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",

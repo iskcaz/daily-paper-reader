@@ -1,0 +1,431 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-05T21:47:37.703098+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 6,
+    "quick_skim_target": 11,
+    "quick_selected": 6
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "journal-10-1016-j-watres-2026-125742",
+      "source": "journal",
+      "title": "Quantitative assessment of denitrification rates at the freshwater-saltwater interface of a limestone island based on isotopic tracers and mass balance calculation",
+      "abstract": "",
+      "authors": [
+        "Takahiro Hosono",
+        "Takatomo Ikehara",
+        "Jun Yasumoto",
+        "Yasuyuki Ueji",
+        "Ko Yasumoto",
+        "Ryogo Takada",
+        "Hiroki Yamamoto",
+        "Adina Paytan",
+        "Ryuichi Shinjo"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "water-research"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.watres.2026.125742",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.watres.2026.125742",
+      "doi": "10.1016/j.watres.2026.125742",
+      "updated_at": "2026-06-05T20:52:17.952702+00:00",
+      "abs_url": "https://doi.org/10.1016/j.watres.2026.125742",
+      "journal": "Water Research",
+      "journal_key": "water_research",
+      "journal_label": "WR",
+      "journal_issn": [
+        "0043-1354"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Denitrification",
+        "Nitrate",
+        "Environmental science",
+        "Groundwater",
+        "Nitrogen",
+        "Aquifer",
+        "Surface water",
+        "Hydrology (agriculture)"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 7.0,
+      "llm_evidence_en": "freshwater-saltwater interface process relevant to estuarine mixing",
+      "llm_evidence_cn": "淡咸水交界过程与河口混合相关",
+      "llm_evidence": "淡咸水交界过程与河口混合相关",
+      "canonical_evidence": "淡咸水交界过程与河口混合相关",
+      "llm_tldr_en": "This paper quantifies denitrification at a freshwater-saltwater interface using isotopic tracers and mass balance. Although not about PFAS, it studies mixing-zone biogeochemical processes highly relevant to estuarine fate frameworks and could inform analogous coastal PFAS transport assessments.",
+      "llm_tldr_cn": "该研究面向淡水与海水交汇带生物地球化学过程定量困难的问题，利用同位素示踪与质量平衡计算评估石灰岩岛淡咸水界面的反硝化速率。研究对象不是PFAS，但核心场景正是河口和近岸混合带。结果说明可通过过程示踪与守恒分析定量描述混合界面的反应强度。这类方法对评估PFAS在河口混合区的迁移、转化与归趋具有较强借鉴意义。",
+      "llm_tldr": "该研究面向淡水与海水交汇带生物地球化学过程定量困难的问题，利用同位素示踪与质量平衡计算评估石灰岩岛淡咸水界面的反硝化速率。研究对象不是PFAS，但核心场景正是河口和近岸混合带。结果说明可通过过程示踪与守恒分析定量描述混合界面的反应强度。这类方法对评估PFAS在河口混合区的迁移、转化与归趋具有较强借鉴意义。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "estuarine mixing and its influence on PFAS distribution and fate",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "journal-10-1021-acs-est-5c14654",
+      "source": "journal",
+      "title": "LDH-Enhanced Degradation of PFASs: Influence of Reactant Configurations within Nanoconfined Spaces on Hydrated Electron Transport",
+      "abstract": "Hydrated electron (eaq–) reduction is an efficient pathway for degrading per- and polyfluoroalkyl substances (PFASs). Nanoconfined spaces can shield eaq– from quenchers in bulk solution and shorten diffusion distances, thereby enhancing utilization efficiency. However, the role of eaq– precursors and PFASs configurations within nanoconfined domains in governing eaq– transport remains unclear. In this study, polyindole (Pind) was synthesized within layered double hydroxide (LDH) interlayers as an eaq– precursor, while perfluorooctanoic acid (PFOA) was simultaneously enriched through electrostatic interaction. Although the eaq– yield increased with Pind loading, the PFOA degradation rate followed a unimodal trend, reaching a maximum at 27.2% Pind loading, where complete degradation was achieved within 3 h. Molecular dynamics simulations revealed stronger hydrophobic interactions among Pind molecules than between Pind and PFOA, leading to a configuration where PFOA surrounded Pind aggregates. With increasing Pind loading, this arrangement forced more eaq– to travel longer distances to attack C–F bonds, reducing their utilization efficiency despite higher overall yields. This “yield-transport” self-antagonism underscores the critical role of nanoconfined configurations in eaq– transport and utilization efficiency and provides mechanistic insights for the rational design and optimization of nanoconfinement systems.",
+      "authors": [
+        "Jingyi Feng",
+        "Hao Lu",
+        "Jing Hua",
+        "Na Sun",
+        "Jing Jiang",
+        "Kun Qian",
+        "Qi Yu",
+        "Anfei He",
+        "Haoting Tian"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-03T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.5c14654",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.5c14654",
+      "doi": "10.1021/acs.est.5c14654",
+      "updated_at": "2026-06-05T20:52:14.988420+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Degradation (telecommunications)",
+        "Perfluorooctanoic acid",
+        "Diffusion",
+        "Chemistry",
+        "Chemical physics",
+        "Molecular dynamics",
+        "Yield (engineering)",
+        "Molecule"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS degradation mechanism informing environmental fate processes",
+      "llm_evidence_cn": "PFAS降解机理可支撑环境归趋过程理解",
+      "llm_evidence": "PFAS降解机理可支撑环境归趋过程理解",
+      "canonical_evidence": "PFAS降解机理可支撑环境归趋过程理解",
+      "llm_tldr_en": "The paper investigates how nanoconfined reactant configurations control hydrated-electron transport and PFAS degradation. It is not about coastal waters, but offers mechanistic insight into PFAS transformation processes that can inform broader fate studies and remediation design.",
+      "llm_tldr_cn": "该研究针对PFAS还原降解效率受限且机理不清的问题，考察纳米限域空间内反应物构型对水合电子传输和PFOA降解的影响。作者在层状双氢氧化物层间引入聚吲哚作为电子前体，同时富集PFOA，比较不同装载条件下的反应行为。结果显示电子产率提升并不必然对应最高降解速率，反应物空间构型是关键控制因素。虽然并非近海环境研究，但其对PFAS转化机理和修复过程理解具有较强参考价值。",
+      "llm_tldr": "该研究针对PFAS还原降解效率受限且机理不清的问题，考察纳米限域空间内反应物构型对水合电子传输和PFOA降解的影响。作者在层状双氢氧化物层间引入聚吲哚作为电子前体，同时富集PFOA，比较不同装载条件下的反应行为。结果显示电子产率提升并不必然对应最高降解速率，反应物空间构型是关键控制因素。虽然并非近海环境研究，但其对PFAS转化机理和修复过程理解具有较强参考价值。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-1101-2024-01-12-575367-v3",
+      "source": "biorxiv",
+      "title": "Modelling biological and resource fluxes in fluvial meta-ecosystems",
+      "abstract": "Meta-ecosystem theory predicts that cross-ecosystem flows of energy, nutrients, and organisms have important implications for local community assembly and ecosystem functioning. Developments in the theory also have the potential to enhance our understanding of biodiversity-ecosystem functioning relationships. Meta-ecosystem theory is particularly well-suited to the study of rivers, because water flow forces strong spatial interrelationships among connected ecosystems. However, models that address flows of both resources and organisms and explicitly link both are lacking. We present a model and associated R-package for cross-ecosystem flows of both resources and organisms that can be used to predict their distribution in river networks, as well as meta-ecosystem functioning. The model incorporates feedbacks between these two crucial components---resource concentrations represent niche dimensions for organisms, modifying the colonisation and extinction dynamics and different locations in the network, and organisms also consume resources, thereby modifying the concentrations that are transported downstream. To illustrate the capabilities of the model, we present an in silico experiment and analysis, as well as providing sample code.",
+      "authors": [
+        "Talluto, L.",
+        "del Campo, R.",
+        "Estevez, E.",
+        "Fuss, T.",
+        "Thuile Bistarelli, L.",
+        "Martini, J.",
+        "Singer, G. A."
+      ],
+      "primary_category": "ecology",
+      "categories": [
+        "ecology"
+      ],
+      "published": "2026-06-04T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.01.12.575367v3.full.pdf",
+      "doi": "",
+      "abs_url": "",
+      "pdf_url": "",
+      "journal": "",
+      "journal_key": "",
+      "journal_label": "",
+      "open_pdf_status": "",
+      "open_pdf_available": null,
+      "open_pdf_note": "",
+      "source_weight": null,
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "river-network flux modeling relevant to land-to-coast transport pathways",
+      "llm_evidence_cn": "河流网络通量建模可支撑陆源入海路径分析",
+      "llm_evidence": "河流网络通量建模可支撑陆源入海路径分析",
+      "canonical_evidence": "河流网络通量建模可支撑陆源入海路径分析",
+      "llm_tldr_en": "This work develops a model and R package for tracking resource and organism fluxes across river networks. It does not target PFAS, but the transport framework is transferable to studying riverine pathways moving contaminants from land to estuaries and coastal waters.",
+      "llm_tldr_cn": "该研究针对河流网络中资源与生物流动难以统一建模的问题，提出了一个同时描述两类通量的元生态系统模型，并提供配套R软件包。虽然研究对象不是PFAS，但其核心是刻画沿河流网络的跨生态系统输运与空间分布。结果表明该框架可预测河网中物质与生物通量格局。对于分析PFAS由陆地经河流输送至河口和近海的路径与通量，该方法具有直接的迁移应用价值。",
+      "llm_tldr": "该研究针对河流网络中资源与生物流动难以统一建模的问题，提出了一个同时描述两类通量的元生态系统模型，并提供配套R软件包。虽然研究对象不是PFAS，但其核心是刻画沿河流网络的跨生态系统输运与空间分布。结果表明该框架可预测河网中物质与生物通量格局。对于分析PFAS由陆地经河流输送至河口和近海的路径与通量，该方法具有直接的迁移应用价值。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "journal-10-1021-acs-est-5c17496",
+      "source": "journal",
+      "title": "Microbial Dehalogenation of 3,5,6-Trichlorooctafluorohexanoic Acid under Different Reducing Conditions",
+      "abstract": ", Paracoccaceae, and Rhodobacteraceae-related bacteria) harboring both hydrolytic dechlorination and nitrate/sulfate-reduction genes, suggesting their involvement in CTFE3 hydrolytic dechlorination and subsequent defluorination. This study demonstrates that reducing conditions play an important role in shaping CTFE3 transformation patterns and highlight hydrolytic dechlorination as a viable pathway associated with extensive microbial defluorination, thereby offering insights for sustainable Cl-PFAS remediation.",
+      "authors": [
+        "Changjie Zhao",
+        "Longlong Zhang",
+        "Yanlong Wang",
+        "Guang Yang",
+        "Chongyang Ren",
+        "Xiaoqiang Cao",
+        "Qun Yu",
+        "Bosen Jin",
+        "Yujie Men",
+        "Huaqing Liu",
+        "Jian Zhang"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-04T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.5c17496",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.5c17496",
+      "doi": "10.1021/acs.est.5c17496",
+      "updated_at": "2026-06-05T20:52:14.988085+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.5c17496",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Chemistry",
+        "Hydrolysis",
+        "Halogenation",
+        "Reductive dechlorination",
+        "Biodegradation",
+        "Biotransformation",
+        "Environmental chemistry",
+        "Human health"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS transformation under redox biogeochemical conditions",
+      "llm_evidence_cn": "PFAS在还原生物地球化学条件下的转化过程",
+      "llm_evidence": "PFAS在还原生物地球化学条件下的转化过程",
+      "canonical_evidence": "PFAS在还原生物地球化学条件下的转化过程",
+      "llm_tldr_en": "This paper studies microbial transformation of a chlorinated PFAS under different reducing conditions, identifying hydrolytic dechlorination and subsequent defluorination pathways. It is not coastal-specific, but it informs PFAS fate and biogeochemical processing relevant to estuarine and coastal systems.",
+      "llm_tldr_cn": "该研究针对含氯PFAS在环境中转化机理不清的问题，比较了不同还原条件下3,5,6-三氯八氟己酸的微生物脱卤行为。作者结合微生物群落与功能基因信息，识别出水解脱氯及后续去氟路径，并指出硝酸盐和硫酸盐还原相关菌群可能参与反应。结果表明氧化还原条件会显著塑造PFAS转化模式。虽然研究场景并非近海或河口，但对理解PFAS在复杂生物地球化学环境中的环境归趋与过程具有方法和机理参考价值。",
+      "llm_tldr": "该研究针对含氯PFAS在环境中转化机理不清的问题，比较了不同还原条件下3,5,6-三氯八氟己酸的微生物脱卤行为。作者结合微生物群落与功能基因信息，识别出水解脱氯及后续去氟路径，并指出硝酸盐和硫酸盐还原相关菌群可能参与反应。结果表明氧化还原条件会显著塑造PFAS转化模式。虽然研究场景并非近海或河口，但对理解PFAS在复杂生物地球化学环境中的环境归趋与过程具有方法和机理参考价值。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1016-j-jhazmat-2026-142173",
+      "source": "journal",
+      "title": "Target and semi-quantitative non-target analysis of per- and polyfluoroalkyl substances (PFAS) in Arctic animals",
+      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are pervasive environmental contaminants due to their persistence, bioaccumulation potential and adverse effects. This study applied target and non-target screening analysis in an exploratory approach to investigating emerging PFAS in Arctic animals, including polar bears, ringed seals, glaucous gulls, ptarmigans and shorthorn sculpin. Target analysis detected 21 PFAS, with the highest ∑PFAS in a polar bear sample (3238 ng/g wet weight (ww)). Perfluorooctane sulfonate (PFOS) was still the dominant PFAS except for shorthorn sculpin, where perfluoropentane sulfonate (PFPeS) prevailed. Several replacement PFAS (including perfluoro-4-ethylcyclohexane sulfonates (PFECHS), chlorinated polyfluoroalkylether sulfonates (Cl-PFESA) and 4,8-dioxa-3H-perfluorononanoic acid (ADONA)) and the precursor perfluorooctane sulfonamide (PFOSA) were also detected, with highest concentrations in polar bears. Non-target screening identified 16 emerging PFAS, with polar bears showing the greatest diversity (13 compounds), followed by ringed seals (4) and glaucous gulls (4) while no additional emerging PFAS were identified in ptarmigan and shorthorn sculpin. Among these PFAS, 2H,2H,3H,3H-perfluorodecanoic acid (7:3 fluorotelomercarboxylic acid; FTCA) and perfluorooctylphosphonic acid (PFOPA) were detected across multiple species. A semi-quantification approach indicated that emerging PFAS may contribute substantially to the overall PFAS burden in polar bear, ringed seal and glaucous gull samples, highlighting the importance of expanding PFAS monitoring and conducting risk assessments of emerging PFAS in Arctic ecosystems. • PFAS profiles in high-trophic level Arctic animals are still dominated by PFOS. • Perfluoropentane sulfonate (PFPeS) was the predominant PFAS in Arctic fish. • Non-target screening revealed 16 emerging PFAS in polar bears, seals and gulls. • Semi-quantified levels of emerging PFAS contributed significantly to total PFAS. • Arctic animals are exposed to complex mixtures of PFAS and other pollutants.",
+      "authors": [
+        "Linyan Zhu",
+        "Rossana Bossi",
+        "Pedro N. Carvalho",
+        "Rune Dietz",
+        "Christian Sonne",
+        "Jens Søndergaard",
+        "Katrin Vorkamp"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "hazardous-materials"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.jhazmat.2026.142173",
+      "doi": "10.1016/j.jhazmat.2026.142173",
+      "updated_at": "2026-06-05T20:52:22.199474+00:00",
+      "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+      "journal": "Journal of Hazardous Materials",
+      "journal_key": "jhm",
+      "journal_label": "JHM",
+      "journal_issn": [
+        "0304-3894"
+      ],
+      "source_weight": 8,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "openalex_concepts": [
+        "Environmental chemistry",
+        "Arctic",
+        "Environmental science",
+        "Chemistry",
+        "The arctic",
+        "Pollutant",
+        "Water pollution",
+        "Thermokarst"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS occurrence in marine Arctic biota",
+      "llm_evidence_cn": "海洋北极生物中PFAS赋存特征",
+      "llm_evidence": "海洋北极生物中PFAS赋存特征",
+      "canonical_evidence": "海洋北极生物中PFAS赋存特征",
+      "llm_tldr_en": "This study uses targeted and suspect or non-target analysis to characterize known and emerging PFAS in Arctic animals. While focused on biota rather than coastal waters, it provides occurrence evidence for PFAS in marine environments and supports understanding of marine exposure patterns.",
+      "llm_tldr_cn": "该研究针对新型PFAS在海洋高纬生态系统中的存在信息不足，采用靶向与半定量非靶向筛查相结合的方法，调查多种北极动物体内PFAS组成。结果检出21种PFAS，PFOS仍占主导，同时发现多类替代型PFAS。研究重点在生物体暴露而非近海水体过程，但为认识海洋环境中PFAS的赋存、迁移进入食物网及潜在生态风险提供了重要证据。",
+      "llm_tldr": "该研究针对新型PFAS在海洋高纬生态系统中的存在信息不足，采用靶向与半定量非靶向筛查相结合的方法，调查多种北极动物体内PFAS组成。结果检出21种PFAS，PFOS仍占主导，同时发现多类替代型PFAS。研究重点在生物体暴露而非近海水体过程，但为认识海洋环境中PFAS的赋存、迁移进入食物网及潜在生态风险提供了重要证据。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "PFAS occurrence and behavior in coastal marine environments",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2606.04392v1",
+      "source": "arxiv",
+      "title": "Physics-Informed Neural Network Modeling of Biodegradable Contaminant Transport through GCL/SL Composite Liners",
+      "abstract": "This study develops a two-domain physics-informed neural network framework for contaminant transport through a GCL/SL composite liner system, in which the thin GCL layer is treated using a steady-state advection-dispersion-biodegradation formulation and the underlying soil liner is modeled as a transient transport domain. Two formulations are evaluated against analytical and finite-element reference solutions under different leachate-head conditions: a standard PINN with soft constraint enforcement (Std-PINN) and a hard-constrained PINN (H-PINN), in which selected boundary and initial conditions are embedded directly into the trial solutions. The Std-PINN captures the overall breakthrough behavior but shows larger errors during the early transport stage, particularly under higher leachate heads where advective transport becomes more pronounced. The H-PINN reduces the optimization burden associated with penalty-based constraint enforcement and provides more accurate and stable concentration predictions, lowering the MAE from approximately 0.058-0.067 for the Std-PINN to about 0.011-0.023 for the H-PINN, while reducing the MRE from approximately 9.10%-19.16% to about 2.08%-3.14%. Parametric analyses confirm that the H-PINN with the tanh activation function and an optimized network structure provides the best predictive accuracy. The H-PINN is further extended to inverse modeling for identifying the SL degradation half-life from limited concentration observations, showing reliable convergence toward prescribed values and acceptable robustness under low-to-moderate observation noise.",
+      "authors": [
+        "Dong Li",
+        "Yapeng Cao",
+        "Haiping Zhao",
+        "Shutong Han"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "published": "2026-06-03T03:15:55+00:00",
+      "link": "https://arxiv.org/pdf/2606.04392v1",
+      "doi": "",
+      "abs_url": "",
+      "pdf_url": "",
+      "journal": "",
+      "journal_key": "",
+      "journal_label": "",
+      "open_pdf_status": "",
+      "open_pdf_available": null,
+      "open_pdf_note": "",
+      "source_weight": null,
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "contaminant transport modeling method transferable to land-to-water PFAS pathway analysis",
+      "llm_evidence_cn": "污染物运移建模方法可迁移用于陆地到水体PFAS路径分析",
+      "llm_evidence": "污染物运移建模方法可迁移用于陆地到水体PFAS路径分析",
+      "canonical_evidence": "污染物运移建模方法可迁移用于陆地到水体PFAS路径分析",
+      "llm_tldr_en": "This paper addresses limitations of conventional solvers for contaminant migration in composite liners by developing physics-informed neural networks for advection dispersion biodegradation transport; tests against analytical and finite-element references show the hard-constrained PINN improves accuracy and breakthrough prediction, offering a transferable modeling framework for contaminant pathway studies relevant to PFAS source-to-coast transport.",
+      "llm_tldr_cn": "该研究针对复合衬层中污染物迁移求解成本高、边界条件处理不稳的问题，提出了两域物理信息神经网络框架，将薄层与下伏土层分别表述为稳态和瞬态运移域。作者比较软约束与硬约束两种PINN方案，并与解析解及有限元结果对照验证。结果表明，硬约束模型在突破曲线和边界满足性上更准确稳定。虽然对象并非PFAS或海岸环境，但其对污染物迁移路径的可迁移建模能力，可为陆源PFAS向近海输运分析提供方法支撑。",
+      "llm_tldr": "该研究针对复合衬层中污染物迁移求解成本高、边界条件处理不稳的问题，提出了两域物理信息神经网络框架，将薄层与下伏土层分别表述为稳态和瞬态运移域。作者比较软约束与硬约束两种PINN方案，并与解析解及有限元结果对照验证。结果表明，硬约束模型在突破曲线和边界满足性上更准确稳定。虽然对象并非PFAS或海岸环境，但其对污染物迁移路径的可迁移建模能力，可为陆源PFAS向近海输运分析提供方法支撑。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

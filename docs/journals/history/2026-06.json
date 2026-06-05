@@ -6,7 +6,7 @@
     "source_paper_id": "10.1021/acs.est.5c13805",
     "doi": "10.1021/acs.est.5c13805",
     "title": "Factors Influencing PFAS Accumulation in Root and Leafy Vegetables under Subsistence Farming in Shanghai, China",
-    "abstract": "",
+    "abstract": "Diet, particularly the consumption of vegetables, has been suggested as one of the major human exposure pathways to per- and polyfluoroalkyl acid substances (PFAS). However, the extent of PFAS exposure among ordinary residents who consume vegetables grown under subsistence agriculture practices remains unclear, and PFAS sources in these vegetables remain unknown. In this study, 31 ionizable PFAS were analyzed in agricultural samples collected from open fields used for subsistence agriculture practices in Shanghai, China. Significant differences were observed in PFAS compositions and concentrations in leafy and root vegetables (p < 0.01) with higher total PFAS concentrations generally found in leafy vegetables (32–64 ng/g dw) than in root vegetables (23–29 ng/g dw). Comprehensive source verification analysis suggested that atmospheric deposition could be an important factor contributing to these differences. Uptake efficiency assessment further confirmed that foliar uptake was more effective for PFAS accumulation than root uptake, given a constant total exposure mass. PFAS surface uptake on vegetable leaves through epidermal permeation, as well as their translocation to the mesophyll through the apoplastic pathway, was revealed using mass spectrometry imaging. These findings enhance our understanding of PFAS contamination in vegetables and offer valuable guidance regarding the dietary safety of vegetables grown using subsistence agriculture practices.",
     "authors": [
       "Beibei Ye",
       "Jiaxi Wang",
@@ -39,7 +39,9 @@
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
-      "crossref"
+      "crossref",
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -48,7 +50,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Subsistence agriculture",
+      "Leafy vegetables",
+      "Agriculture",
+      "Contamination",
+      "Agronomy",
+      "Legume",
+      "Biology",
+      "Toxicology"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01391",
@@ -57,7 +71,7 @@
     "source_paper_id": "10.1021/acs.est.6c01391",
     "doi": "10.1021/acs.est.6c01391",
     "title": "Wastewater Surveillance to Inform Cancer Epidemiology and Evidence-Based Interventions",
-    "abstract": "",
+    "abstract": "Cancer is a leading cause of mortality worldwide. The incidence and outcomes of cancer remain unequally distributed on global and local scales, driven in part by unequal carcinogen exposures, healthcare access, socioeconomic factors, and screening compliance. Cancer surveillance systems are critical for informing resource allocation and policies for cancer prevention, screening, diagnosis, and treatment but are limited in many countries. Where they do exist, surveillance systems suffer from long latencies between disease progression, diagnosis, and data reporting as well as reporting bias due to screening disparities and evolving policies. Furthermore, integrated surveillance is lacking for cancer-related targets, including those associated with carcinogen exposure as well as those indicating cancer prevalence or risk factors. Improved geospatial surveillance of cancer-related targets could inform evidence-based screening and prevention efforts and predict future burden for an increasing global health threat. In this article, we─a team of environmental engineers and microbiologists, oncologists, cancer epidemiologists, and bioethicists─assert that wastewater surveillance of cancer-related targets holds promise for integration into existing cancer epidemiology infrastructure to enable earlier and more equitable public health decision-making. First, we highlight opportunities for wastewater surveillance to complement existing cancer surveillance. We next identify candidate targets that indicate cancer risk─including oncoviruses, bacterial carcinogens, oncogenes, and chemical carcinogens─and detail prior evidence of their detection in wastewater and potential use cases. Finally, we present research needs and ethical considerations for this technological expansion of the practice.",
     "authors": [
       "Hannah G. Healy",
       "Catherine Hoar",
@@ -105,7 +119,9 @@
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
-      "crossref"
+      "crossref",
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -114,7 +130,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental health",
+      "Psychological intervention",
+      "Epidemiology",
+      "Socioeconomic status",
+      "Medicine",
+      "Public health",
+      "Geospatial analysis",
+      "Cancer"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c18743",
@@ -153,7 +181,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -183,7 +212,7 @@
     "source_paper_id": "10.1021/acs.est.6c01273",
     "doi": "10.1021/acs.est.6c01273",
     "title": "Data-Driven Identification of Constraints and Enabling Pathways for Energy-Positive Wastewater Treatment",
-    "abstract": "",
+    "abstract": "The wastewater sector accounts for ∼1% of global electricity use, and demand will rise as countries expand treatment to meet Sustainable Development Goal 6. Transitioning wastewater treatment plants (WWTPs) from energy consumers to net producers is therefore crucial, yet the system-level feasibility of energy-positive operation remains unclear. Using a national inventory of 2961 WWTPs, we remove operational bias through Stochastic Frontier Analysis (existing in 70% of plants) and develop an efficiency-adjusted energy baseline. Energy balance modeling shows that, under conventional scenarios, energy-positive treatment is achievable only for high-strength wastewater (COD 334-426 mg/L, COD/TN ratio 8.5-11.9), excluding most global facilities. However, when evaluating two carbon-redirection pathways that integrate enhanced primary treatment with mainstream Anammox, we find such pathways can reduce entry thresholds to COD 153-198 mg/L and COD/TN 4.9-5.7, enabling low-strength systems to approach energy positivity. Medium-scale facilities are found to be the most favorable candidates. This characteristic-driven framework motivates future research and pilot demonstrations aimed at expanding the frontiers of energy-positive wastewater treatment.",
     "authors": [
       "Zi Zhang",
       "Yuqing Yan",
@@ -215,7 +244,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -281,7 +311,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -350,7 +381,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -486,7 +518,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -516,7 +549,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125798",
     "doi": "10.1016/j.watres.2026.125798",
     "title": "An attention fusion of Fourier-analysis-based transformer and CNN-BiLSTM for coastal inorganic nitrogen concentration forecasts",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Zhefeng Xu",
       "Yubo Pang",
@@ -550,7 +583,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -580,7 +614,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125752",
     "doi": "10.1016/j.watres.2026.125752",
     "title": "Atomically engineered Fe/Mn catalysts enable ultrafast self-sustaining water purification via oxidant-free Fenton-like electron-transfer reaction",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Ping Zhang",
       "Chenchen Zhao",
@@ -615,7 +649,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -645,7 +680,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125742",
     "doi": "10.1016/j.watres.2026.125742",
     "title": "Quantitative assessment of denitrification rates at the freshwater-saltwater interface of a limestone island based on isotopic tracers and mass balance calculation",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Takahiro Hosono",
       "Takatomo Ikehara",
@@ -680,7 +715,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -773,7 +809,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125841",
     "doi": "10.1016/j.watres.2026.125841",
     "title": "Synergistic bacteria-virus aggregation boosts electrochemical disinfection on LIG-based electroconductive surfaces",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Nandini Dixit",
       "Akhila M. Nair",
@@ -803,7 +839,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -866,7 +903,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1033,7 +1071,7 @@
     "source_paper_id": "10.1021/acs.estlett.6c00344",
     "doi": "10.1021/acs.estlett.6c00344",
     "title": "Satellite Observations Reveal Increasing Offshore Gas Flaring Activity and Atmospheric Emissions in the Bohai Sea, China",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Wenqi Liu",
       "Shaojie Song",
@@ -1062,12 +1100,13 @@
       "2328-8930",
       "2328-8930"
     ],
-    "source_weight": 9,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1097,7 +1136,7 @@
     "source_paper_id": "10.1016/j.jhazmat.2026.142102",
     "doi": "10.1016/j.jhazmat.2026.142102",
     "title": "A risk-nutrition duality framework for assessing drinking water suitability in an intensively cultivated Alluvial Plain: – A case study of Xiayi country, South-Center Huang-Huai Plain, China",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Ye Tian",
       "Hao Peng",
@@ -1125,12 +1164,13 @@
     "journal_issn": [
       "0304-3894"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1160,7 +1200,7 @@
     "source_paper_id": "10.1016/j.jhazmat.2026.142260",
     "doi": "10.1016/j.jhazmat.2026.142260",
     "title": "Acetaminophen inhibits denitrification in Paracoccus denitrificans: Bioenergetic constraint and periplasmic electron transfer impairment",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Zhi-Hui Dong",
       "Yu Zhang",
@@ -1189,12 +1229,13 @@
     "journal_issn": [
       "0304-3894"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1251,12 +1292,13 @@
     "journal_issn": [
       "0304-3894"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1314,12 +1356,13 @@
     "journal_issn": [
       "0304-3894"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1374,12 +1417,13 @@
     "journal_issn": [
       "0048-9697"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1435,12 +1479,13 @@
     "journal_issn": [
       "0048-9697"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1470,7 +1515,7 @@
     "source_paper_id": "10.1016/j.scitotenv.2026.181862",
     "doi": "10.1016/j.scitotenv.2026.181862",
     "title": "Wastewater-based surveillance for seasonal respiratory viruses provides a one-week lead to clinical cases and hospital admissions",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Nicole Acosta",
       "Xiaotian Dai",
@@ -1517,12 +1562,13 @@
     "journal_issn": [
       "0048-9697"
     ],
-    "source_weight": 8,
+    "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1541,6 +1587,628 @@
       "Medical emergency",
       "Respiratory system",
       "Respiratory tract infections"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03701",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03701",
+    "doi": "10.1021/acs.est.6c03701",
+    "title": "An Integrated Framework for VOC Source Apportionment Based on Chemical Transport Modeling and Observation-Constrained Optimization",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yangjun Wang",
+      "Yifei Chen",
+      "Yongtao Hu",
+      "Bingye Xu",
+      "Kasemsan Manomaiphiboon",
+      "Armistead G. Russell",
+      "Chaiwat Wilasang",
+      "Yu Shang",
+      "Sen Jiang",
+      "Ling Huang",
+      "Kun Zhang",
+      "Li Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-05T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:14.987713+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03701",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03701",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17496",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17496",
+    "doi": "10.1021/acs.est.5c17496",
+    "title": "Microbial Dehalogenation of 3,5,6-Trichlorooctafluorohexanoic Acid under Different Reducing Conditions",
+    "abstract": ", Paracoccaceae, and Rhodobacteraceae-related bacteria) harboring both hydrolytic dechlorination and nitrate/sulfate-reduction genes, suggesting their involvement in CTFE3 hydrolytic dechlorination and subsequent defluorination. This study demonstrates that reducing conditions play an important role in shaping CTFE3 transformation patterns and highlight hydrolytic dechlorination as a viable pathway associated with extensive microbial defluorination, thereby offering insights for sustainable Cl-PFAS remediation.",
+    "authors": [
+      "Changjie Zhao",
+      "Longlong Zhang",
+      "Yanlong Wang",
+      "Guang Yang",
+      "Chongyang Ren",
+      "Xiaoqiang Cao",
+      "Qun Yu",
+      "Bosen Jin",
+      "Yujie Men",
+      "Huaqing Liu",
+      "Jian Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-04T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:14.988085+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17496",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17496",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Hydrolysis",
+      "Halogenation",
+      "Reductive dechlorination",
+      "Biodegradation",
+      "Biotransformation",
+      "Environmental chemistry",
+      "Human health"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01455",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01455",
+    "doi": "10.1021/acs.est.6c01455",
+    "title": "Nanovoids Engineering for Enhancing Separation Performance and Compaction Resistance of Polyamide Reverse Osmosis Membranes",
+    "abstract": "Constructing nanovoids─rapid transport channels for water molecules─is an ideal approach to enhancing the water permeance of polyamide reverse osmosis (RO) membranes. However, their variable morphology and inconsistent size usually result in stress concentration and accelerate membrane compaction. In this study, a nanobubble-nanoparticle coupling strategy was utilized to confine the interfacial growth of nanobubbles, with sacrificial ZIF-8 nanoparticles serving as discrete pillars. This approach enabled the successful fabrication of the CO2-0.50/ZIF-8(32) membrane containing uniform, small-sized, and quasi-spherical nanovoids, which exhibited excellent water permeance (3.35 L·m–2·h–1·bar–1) and high salt rejection (99.13%) in brackish water. Compared to conventional RO membranes containing nonuniform, large-sized, and oblate spheroidal nanovoids, the CO2-0.50/ZIF-8(32) membrane demonstrated significantly enhanced compaction resistance. During accelerated compaction tests involving pressurization-depressurization cycles and long-term seawater RO experiments, its water permeance loss was only slightly higher than that of the void-free PA-pristine membrane. This study confirms that the multidimensionally finely designed nanovoids can serve as a unique zero-mass reinforcement “ingredient” to effectively disperse stresses and mitigate compaction effects in RO membranes. By enabling simultaneous improvements in permeance and physical structural stability without additional materials, this work offers an energy-efficient and sustainable membrane design strategy for desalination and freshwater production.",
+    "authors": [
+      "Houkang Pu",
+      "Hanjing Xue",
+      "Xiaojuan Wang",
+      "Weizheng Zhang",
+      "Xinyan Wang",
+      "Yuhong Wang",
+      "Congjie Gao",
+      "Xueli Gao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-04T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:14.987955+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01455",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01455",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Permeance",
+      "Polyamide",
+      "Membrane",
+      "Materials science",
+      "Reverse osmosis",
+      "Compaction",
+      "Desalination",
+      "Chemical engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06486",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06486",
+    "doi": "10.1021/acs.est.6c06486",
+    "title": "Environmental Concentrations of Herbicide Prometryn Increase the Susceptibility of Reef-Building Corals to Nitrate Stress",
+    "abstract": "Herbicide and nitrate pollution frequently co-occur in coastal waters, while their combined effect on corals has been a critical knowledge gap. Although corals can exhibit acclimation to nitrate enrichment, it is unclear whether this acclimation persists under coexposure to PSII herbicides. Here, we investigated the combined effects of nitrate and the PSII herbicide prometryn on the reef-building coralAcropora hyacinthusby integrating physiology, ultrastructure, and host-symbiont multiomics. The results demonstrate that prometryn acts as the primary driver of photodamage and photosynthetic toxicity in the symbiotic Symbiodiniaceae under costress. Transmission electron microscopy revealed that prometryn induced activated symbiophagy and chloroplast degradation with loosely stacked thylakoids in Symbiodiniaceae. Transcriptomics and proteomics analyses predicted that nitrate enrichment stimulated host glutathione-based antioxidant responses. However, prometryn-induced phototoxicity impaired photosynthate supply and disrupted this nitrate acclimation mechanism. Moreover, reduced photosynthate transfer further impaired the host energy balance and intensified oxidative stress. These findings show that PSII herbicides can override short-term acclimation to nitrate enrichment, underscoring the need for the joint regulation of herbicide and nutrient inputs in reef ecosystems.",
+    "authors": [
+      "Qiuli Li",
+      "Yanyu Zhou",
+      "Weilu Kang",
+      "Xianming Tang",
+      "Bo Hu",
+      "Zhi Tang",
+      "Fengchang Wu",
+      "Craig A. Downs",
+      "Hongwei Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:14.988392+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06486",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06486",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c06486?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Chemistry",
+      "Nitrate",
+      "Environmental chemistry",
+      "Environmental stress",
+      "Stress (linguistics)",
+      "Agronomy",
+      "Atrazine",
+      "Water pollution"
+    ],
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02538",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02538",
+    "doi": "10.1021/acs.est.6c02538",
+    "title": "Mood Altering Waters: Multidimensional Profiling and Chiral Characterization of Antidepressants in Effluent-Impacted Waterways",
+    "abstract": "Antidepressants (ADs) and their metabolites are widely reported in wastewater effluent and effluent-impacted waterways due to incomplete removal during wastewater treatment. These chemicals have been known to influence the behavior and physiology of exposed organisms, raising concerns regarding the ecological impact of this contamination. However, although 28 ADs are approved by the United States Food and Drug Administration, environmental studies commonly target only a small fraction of these chemicals, as conventional analytical approaches are hindered by coeluting isomers and structural similarity. Here, we developed a multidimensional workflow integrating liquid chromatography, drift tube ion mobility spectrometry, mass spectrometry, and fragmentation analysis to enable high-confidence identification and targeted quantification of 26 parent and 8 AD metabolites in environmental samples, while also establishing a publicly available reference library to support future studies. Selected compounds were further characterized with chiral chromatography to assess enantiomeric ADs with differing biological activity. This workflow was applied to effluent-impacted waterways, enabling the identification and quantification of 17 AD chemicals across five sites. These findings highlight the prevalence of AD contamination and the need for improved monitoring and wastewater treatment strategies to mitigate ecological and human health risks.",
+    "authors": [
+      "Emily C. Vincent",
+      "Mark W. Sumarah",
+      "Justin B. Renaud",
+      "Natasha DesRochers",
+      "Haley C. Jostes",
+      "Allison N. Fry",
+      "Jack P. Ryan",
+      "James N. Dodds",
+      "Jian Zhang",
+      "Paul A. Thiessen",
+      "Evan E. Bolton",
+      "Emma L. Schymanski",
+      "Erin S. Baker"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:14.988273+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02538",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02538",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Profiling (computer programming)",
+      "Mood",
+      "Computer science",
+      "Characterization (materials science)",
+      "Chemistry",
+      "Neuroscience",
+      "Computational biology",
+      "Mood disorders"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126242",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126242",
+    "doi": "10.1016/j.watres.2026.126242",
+    "title": "Antibiofilm Efficacy of Zwitterionic 2-methacryloloxyethyl phosphorylcholine (MPC) Polymer Coatings against Vibrio fischeri",
+    "abstract": "Preventing bacterial biofilms is crucial for maintaining water-associated infrastructure and minimizing biofouling. Biofilm formation is a significant contributor to biofouling, resulting in surface deterioration and leading to reduced operational efficiency in water-related systems. Zwitterionic amphiphilic copolymers (ZACs) combine a zwitterionic monomer unit with a hydrophobic monomer component and are well known for resisting organic fouling. However, their effects on bacterial biofouling are more complex. Understanding these interactions is essential for the rational design of next-generation antifouling materials. In this study, we investigated the antibiofilm performance of ZAC coatings against Vibrio fischeri , a well-established marine model organism for biofilm research. ZACs were prepared by copolymerizing the zwitterionic monomer 2-methacryloyloxyethyl phosphorylcholine (MPC) with either methyl methacrylate (PM: MPC) or trifluoroethyl methacrylate (PT: MPC) and compared with their corresponding homopolymer controls. The coatings containing varying MPC contents (10-30wt%) were initially screened, revealing that 30wt% MPC provided the most effective biofilm resistance and was therefore selected for detailed structural and molecular analyses. Confocal microscopy demonstrated that PM: MPC and PT: MPC coatings with 30wt% MPC reduced biofilm biomass and thickness by 90% relative to uncoated controls at 72 h, with PT: MPC 70:30 achieving the strongest overall performance (94% inhibition by crystal violet assay; 92% reduction in confocal biomass volume). Gene expression profiling further revealed strong downregulation of biofilm-associated genes on ZAC surfaces, with PT: MPC showing the most sustained suppression over the 72-hour period. Together, these results demonstrate that MPC-containing ZAC coatings strongly inhibit biofilm development and show strong potential as antifouling surfaces for water-related applications.",
+    "authors": [
+      "Murchana Sarma",
+      "Ryan P.O’ Hara",
+      "Ashfaqul Hoque Khadem",
+      "Manas D. Warke",
+      "Lihua Lou",
+      "Ayse Asatekin",
+      "Debora F. Rodrigues"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:17.952925+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126242",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126242",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Biofilm",
+      "Biofouling",
+      "Phosphorylcholine",
+      "Monomer",
+      "Chemistry",
+      "Methacrylate",
+      "Amphiphile",
+      "Polymer"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126252",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126252",
+    "doi": "10.1016/j.watres.2026.126252",
+    "title": "Wastewater Treatment Process Optimization in Stochastic Game based on Multiagent Deep Reinforcement Learning",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Guanghua Wang",
+      "Xingyu Wang",
+      "Fan Luo",
+      "Yi Man",
+      "Zhenglei He",
+      "Sai Liang",
+      "Zhifeng Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:17.952671+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126252",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126252",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142086",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142086",
+    "doi": "10.1016/j.jhazmat.2026.142086",
+    "title": "High microplastic-microalga ratios facilitate the short-term growth and dissolved organic matter transformation of marine Porphyridium",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Huankai Li",
+      "Feng Zhang",
+      "Fangfang Miao",
+      "Zhu Yang",
+      "Zongwei Cai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:22.199851+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Dissolved organic carbon",
+      "Environmental chemistry",
+      "Transformation (genetics)",
+      "Organic matter",
+      "Seawater",
+      "Algae",
+      "Biodegradation"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142614",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142614",
+    "doi": "10.1016/j.jhazmat.2026.142614",
+    "title": "Response mechanisms of enhanced biological phosphorus removal systems to microplastics stress",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Mingwan Yang",
+      "Li Tian",
+      "Qihao Li",
+      "Guijie Li",
+      "Lulu Dai",
+      "Anni Du",
+      "Liguan Li",
+      "Ke Yu",
+      "Yanping Mao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:22.199718+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142614",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142614",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Enhanced biological phosphorus removal",
+      "Microplastics",
+      "Sewage treatment",
+      "Chemistry",
+      "Environmental chemistry",
+      "Phosphorus",
+      "Wastewater",
+      "Denitrification"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142625",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142625",
+    "doi": "10.1016/j.jhazmat.2026.142625",
+    "title": "Tandemly Duplicated HmALS3 Gene Cluster Mediates Aluminum Hyperaccumulation via a Heteromeric Transport Complex in Hydrangea macrophylla",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Youwei Fan",
+      "Shuwen Luo",
+      "Xinxin Hu",
+      "Yaxin Wang",
+      "Chun Liu",
+      "Suxia Yuan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T20:52:22.199745+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142625",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142625",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

@@ -1,0 +1,1746 @@
+Title: 2606.04392v1.pdf
+
+URL Source: https://arxiv.org/pdf/2606.04392v1
+
+Published Time: Thu, 04 Jun 2026 00:29:24 GMT
+
+Number of Pages: 36
+
+Markdown Content:
+Physics -Informed Neural Network Modeling of Biodegradable Contaminant 
+
+## Transport through GCL/ SL Composite Liners    
+
+> Dong Li 1,Yapeng Cao 2*, Haiping Zhao 1,Shutong H an 3
+
+ABSTRACT 
+
+This study develops a two -domain physics -informed neural network framework for contaminant transport 
+
+through a GCL/SL composite liner system, in which the thin GCL layer is treated using a steady -state 
+
+advection -dispersion -biodegradation formulation and th e underlying soil liner is modeled as a transient 
+
+transport domain. Two formulations are evaluated against analytical and finite -element reference solutions 
+
+under different leachate -head conditions: a standard PINN with soft constraint enforcement (Std -PIN N) and 
+
+a hard -constrained PINN (H -PINN), in which selected boundary and initial conditions are embedded 
+
+directly into the trial solutions. The Std -PINN captures the overall breakthrough behavior but shows larger 
+
+errors during the early transport stage , particularly under higher leachate heads where advective transport 
+
+becomes more pronounced. The H -PINN reduces the optimization burden associated with penalty -based 
+
+constraint enforcement and provides more accurate and stable concentration predictions, loweri ng the MAE 
+
+from approximately 0.0 58 -0.06 7 for the Std -PINN to about 0.011 -0.023 for the H -PINN, while reducing 
+
+the MRE from approximately 9.10% -19 .16% to about 2.08% -3.14% . Parametric analyses confirm that the 
+
+H-PINN with the tanh activation function and an optimized network structure provides the best predictive 
+
+accuracy. The H -PINN is further extended to inverse modeling for identifying the SL degradation half -life 
+
+from limited concentration observations, showing reliable convergence toward prescribed values and 
+
+acceptable robustness under low -to -moderate observation noise .
+
+Keywords: Physics -informed deep learning , Soil liner, Geosynthetic clay liner, Advection and 
+
+diffusion, Biodegradation  
+
+> 1
+
+PhD, Department of Civil, Environmental, and Infrastructure Engineering, George Mason 
+
+University, Fairfax, VA 22030, USA  
+
+> 2*
+
+PhD, State Key Laboratory of Cryospheric Science and Frozen Soil Engineering, Northwest 
+
+Institute of Eco -Environment and Resources, Chinese Academy of Sciences, Lanzhou 730000, 
+
+China; Laboratoire Navier/CERMES, École Nationale des Ponts et Chaussées, Institut 
+
+Polytechnique de Paris, 77455 Marne -la -Vallée cedex 2, France (Corresponding author) email: 
+
+caoyapeng @lzb.ac.cn 
+
+> 3
+
+MS , Department of Civil and Environmental Engineering, the University of New South Wales, 
+
+Sydney, Australia 1. Introduction 
+
+Composite liners are generally installed at the bottom of landfills to protect the surrounding 
+
+environment and groundwater from potential contamination caused by landfill leachate (Kalbe et 
+
+al., 2002 ; Du et al., 2009; Rowe , 2011; Varank et al., 2011 ; Rowe et al., 2023) . A conventional 
+
+composite liner system commonly consists of a geomembrane (GMB) overlying a low -
+
+permeability compacted clay liner (CCL) (Rowe and Booker , 200 5; Dickinson and Brachman ,
+
+2008; Du et al. 2009 ; Zhao et al., 2025 ). In modern landfill applications, geosynthetic clay liners 
+
+(GCLs) are frequently used as an alternative or supplement to CCLs because they can provide 
+
+comparable or lower hydraulic conductivity while offering easier installation, improved 
+
+construction quali ty control, and reduced consumption of landfill airspace due to their relatively 
+
+thin thickness (typically 5 -10 mm ) (Jo et al., 2001, 2005; Kolstad et al., 2004; Bradshaw et al., 
+
+2013 ; Li et al., 2024, 2025 ). However, because GCLs are relatively thin, thei r contaminant storage, 
+
+adsorption, and degradation capacities are limited. Therefore, GCLs are commonly combined with 
+
+an underlying soil liner (SL), which provides additional thickness, sorption capacity and 
+
+attenuation potential, thereby delaying contaminant breakthrough and improving the long -term 
+
+containment performance of landfill liner systems (Foose, 2010; Guyonnet et al., 2001; Koerner, 
+
+2008). Contaminants may migrate through composite liners by leakage through geomembrane 
+
+defects and by diffusion th rough intact geomembranes, with defect leakage being strongly affected 
+
+by leachate head and defect density, while diffusive transport through intact geomembranes is 
+
+governed mainly by concentration gradients and geomembrane -contaminant interactions (Rowe 
+
+and Booker, 2005 ; Dickinson and Brachman, 2008; Du et al., 2009; Foose, 2010). Once 
+
+contaminants enter the underlying GCL/SL barrier system, their migration is further controlled not 
+
+only by advection, diffusion, and sorption, but also by attenuation processes such as biodegradatio n.
+
+Organic contaminants have been shown to undergo significant degradation in landfill liners, and biodegradation and chemical transformation within liner materials may further influence the 
+
+breakthrough behavior (Sawhney and Kozloski, 1984; Angelidaki et al., 2000; Weber et al., 2011; 
+
+Olasupo et al., 2024). 
+
+Both numerical and analytical methods have been developed to model contaminant advection and 
+
+diffusion in composite liner systems (Liu and Ball, 1998; Foose et al., 2002; Chen et al., 2009; Li 
+
+and Cleall, 2011; Guan et al., 201 4; Wu et al., 2016; Feng et al., 2019). Liu and Ball (1998) 
+
+presented an analytical solution for the solute diffusion in semi -infinite two -layer porous media 
+
+using a Laplace -transformed Green’s function approach, and the solution showed good agreement 
+
+with finite -difference results. C hen et al. (2009) and Wu et al. (2016) developed analytical 
+
+solutions for one -dimensional contaminant diffusion in multilayered systems under steady -state 
+
+flow conditions, with Wu et al. (2016) further incorporating liner degradation effects. Li and Cleall 
+
+(2011) presented analytical solutions for advective -dispersive solute transport in double -layered 
+
+finite porous media under different combinations of fixed concentration, fixed flux, and zero -
+
+concentration -gradient boundary conditions. Guan et al. (201 4) developed an analytical solution 
+
+for solute advection -dispersion transport through a GCL/SL system considering degradation in 
+
+both the GCL and SL, although solute transport through the GCL was assumed to be steady state. 
+
+Feng et al. (2019) further developed a fully transient analytical solution for degradable organic 
+
+contaminant transport through a composite liner consisting of a geomembrane (GMB), 
+
+geosynthetic clay liner (GCL), and soil liner (SL). 
+
+Although analytical solutions can provide exact or semi -analytical benchmarks, they are typically 
+
+restricted to idealized geometries, simplified boundary conditions, homogeneous or piecewise -
+
+homogeneous material properties, and linear transport processes. These assumptions may limit 
+
+their applicability to practical composite liner systems, where contaminant transport can be affected by layer -dependent properties, transient boundary conditions, degradation, sorption, and 
+
+interface continuity between different liner components. Numerical methods, such as the finite -
+
+difference method and finite -element method, provide a more fle xible approach for approximating 
+
+the governing partial differential equations under complex initial, boundary, and material 
+
+conditions (Rowe and Booker, 200 5; Zhang et al., 201 3; Feng et al., 2019). However, conventional 
+
+numerical methods generally require mesh generation, discretization, and repeated simulations for 
+
+parametric or inverse analyses, which may increase computational effort when a large number of 
+
+scenarios must be evaluate d. In addition, inverse identification of transport or degradation 
+
+parameters from sparse concentration observations often require repeated forward simulations and 
+
+may be sensitive to discretization choices and measurement noise. 
+
+Recently, physics -informed neural networks (PINNs) and related constrained neural -network 
+
+methods have gained increasing attention as mesh -free approaches for solving partial differential 
+
+equations (PDEs) (Raissi et al. , 201 9; He and Tartakovsky , 2021 ; Li et al., 2026) . The original 
+
+PINN framework introduced by Raissi et al. (2019) incorporates governing -equation residuals and 
+
+initial/boundary conditions into the neural -network loss function, allowing neural networks to 
+
+solve forward and inverse PDE problem s while respecting known physical laws. He and 
+
+Tartakovsky (2021) applied PINNs to forward and backward advection -dispersion equations 
+
+coupled with Darcy flow, demonstrating their potential for contaminant transport modeling. Saadat 
+
+et al. (2022) investigated the training behavior of PINNs for linear advection -diffusion equations 
+
+using neural tangent kernel theory and showed that PINNs may experience training difficulties due 
+
+to spectral bias and imbalance among different loss components. Faroughi et al. (2023) 
+
+investigated PINNs with periodic activation functions for transient solute transport in 
+
+heterogeneous porous media, while Berardi et al. (202 5) extended inverse PINNs to diffusion, advection -diffusion -reaction, and mobile -immobile transport models in porous materials. Ke et al. 
+
+(2025) developed pre -trained PINNs for forward and inverse contaminant transport analysis in 
+
+soils, incorporating pre -training, uncertainty quantification, and domain -decomposition strategies 
+
+Despite these advances, existing PINN -based transport studies have mainly focused on 
+
+homogeneous or simplified porous -media systems. Limited attention has been given to 
+
+contaminant transport through layered GCL/soil liner composite systems, where layer -dep endent 
+
+advection, dispersion, retardation, biodegradation, and material -interface continuity must be 
+
+considered simultaneously. In particular, the concentration and mass -flux continuity conditions at 
+
+the GCL/SL interface introduce additional physical const raints that are rarely addressed in existing 
+
+PINN transport models. This issue is especially important for GCL/SL composite liners because 
+
+the sharp contrast in hydraulic, diffusive, and degradation properties between the GCL and SL can 
+
+produce strong concentration gradients and discontinuities in transport coefficients ne ar the 
+
+material interface. 
+
+Therefore, this study develops a two -domain physics -informed neural network (PINN) framework 
+
+for biodegradable contaminant transport through a GCL/SL composite liner system. Both a 
+
+standard soft -constrained PINN (Std -PINN) and a hard -constrained PINN (H -PI NN) are 
+
+formulated and evaluated. The proposed models are validated against analytical and finite -element 
+
+reference solutions under different leachate -head conditions. In addition, parametric analyses are 
+
+conducted to investigate the effects of activation function, neural -network structure, and SL 
+
+biodegradation half -life on model performance and breakthrough behavior. Finally, the H -PINN is 
+
+extended to inverse modeling for identifying the SL degradation half -life from limited 
+
+concentration observations and assessing its robustness under noisy data. 2. Governing Equation s
+
+As shown in Fig. 1, the contaminant is assumed to migrate downward through a saturated two -
+
+layer composite liner system consisting of a geosynthetic clay liner (GCL) and an underlying soil 
+
+liner (SL). The vertical coordinate  𝑧  is measured positive downward from the top surface of the 
+
+GCL. Thus,  𝑧 = 0 corresponds to the GCL/leachate interface,  𝑧 = 𝐿 GCL  corresponds to the 
+
+GCL/SL interface, and  𝑧 = 𝐿 GCL + 𝐿 SL  corresponds to the bottom of the soil liner.  𝐿 GCL  and  𝐿 SL 
+
+are the thicknesses of the GCL and SL, respectively. The hydraulic leachate head above the GCL 
+
+is denoted as  𝐻 𝑤 , and the contaminant concentration in the overlying leachate is assumed to be 
+
+constant at  𝐶 0.
+
+The computational domain can be expressed as :
+
+ΩGCL = {𝑧 |0 < 𝑧 ≤ 𝐿 GCL } (1) 
+
+ΩSL = {𝑧 |𝐿 GCL < 𝑧 < 𝐿 GCL + 𝐿 SL } (2) 
+
+where  ΩGCL and  ΩSL denote the GCL and SL domains, respectively. 
+
+Fig. 1. Schematic diagram of transient contaminant transport through a GCL/ SL composite system 
+
+considering advection, diffusion, and biodegradation. Because the GCL is much thinner than the underlying soil layer, solute transport within the GCL 
+
+can be approximated as a steady -state process. Therefore, no initial condition is imposed within 
+
+the GCL layer. For the GCL layer ( 0 < 𝑧 ≤ 𝐿 GCL , 𝑡 > 0) , the steady advection -dispersion -
+
+biodegradation equation is written as :
+
+𝐷 GCL 
+
+∂2𝐶 GCL 
+
+∂𝑧 2 − 𝑣 GCL 
+
+∂𝐶 GCL 
+
+∂𝑧 − 𝜆 GCL 𝑅 𝑑 ,GCL 𝐶 GCL = 0 (3)
+
+where  𝐶 GCL (𝑧 , 𝑡 ) represents the pore -water solute concentration within the GCL at any position z 
+
+and any time t , 𝐷 GCL  refers to the hydrodynamic dispersion of GCL , 𝑣 GCL  is seepage velocity 
+
+through the GCL , and  𝜆 GCL  denotes the decay constant of the solute in GCL . Similarly, for the SL 
+
+layer (𝐿 GCL < 𝑧 < 𝐿 GCL + 𝐿 SL , 𝑡 > 0), the governing equation is :
+
+𝑅 𝑑 ,SL 
+
+∂𝐶 SL 
+
+∂𝑡 = 𝐷 SL 
+
+∂2𝐶 SL 
+
+∂𝑧 2 − 𝑣 SL 
+
+∂𝐶 SL 
+
+∂𝑧 − 𝜆 SL 𝑅 𝑑 ,SL 𝐶 SL  (4) 
+
+where  𝐶 SL (𝑧 , 𝑡 ), 𝐷 SL , 𝑣 SL , 𝑅 𝑑 ,SL , and  𝜆 SL  are the pore -water solute concentration , hydrodynamic 
+
+dispersion , seepage velocity , retardation factor, and decay constant of the solute in the soil liner. 
+
+The retardation factor for each layer is defined as :
+
+𝑅 𝑑 ,𝑖 = 1 + 𝜌 𝑑 ,𝑖 𝐾 𝑑 ,𝑖 
+
+𝑛 𝑖 
+
+, 𝑖 = GCL , SL  (5) 
+
+where  𝜌 𝑑 ,𝑖  is the dry density,  𝐾 𝑑 ,𝑖  is the distribution coefficient, and  𝑛 𝑖  is the porosity of GCL or 
+
+SL liner .
+
+The decay constant λGC L, λSL can be expressed as a function of the half -life t 1/2 for a first -order 
+
+biodegradation process :
+
+𝜆 𝑖 = ln 2
+
+𝑡 1/2,𝑖 
+
+, 𝑖 = GCL , SL  (6) 
+
+where  𝑡 1/2,𝑖  is the contaminant half -life in GCL or SL liner .
+
+The composite liner is assumed to contain no contaminant initially in the soil liner. Therefore, the 
+
+initial condition for the SL is expressed as: 𝐶 SL (𝑧 , 0) = 0, 𝐿 GCL < 𝑧 < 𝐿 GCL + 𝐿 SL  (7)
+
+At the top surface of the GCL, the contaminant concentration is prescribed by the leachate 
+
+concentration: 
+
+𝐶 GCL (0, 𝑡 ) = 𝐶 0, 𝑡 > 0 (8)
+
+The bottom boundary condition is assumed to be semi -infinite, can be expressed as: 
+
+∂𝑐 SL 
+
+∂𝑧 (𝐿 GCL + 𝐿 SL , 𝑡 ) = 0 (9)
+
+The continuity conditions between the GCL and SL layers can be expressed as: 
+
+𝐶 𝐺𝐶𝐿 (𝑧 = 𝐿 𝐺𝐶𝐿 , 𝑡 ) = 𝐶 𝑆𝐿 (𝑧 = 𝐿 𝐺𝐶𝐿 , 𝑡 ), (10)
+
+𝑛 𝐺𝐶𝐿 𝐷 𝐺𝐶𝐿 
+
+𝜕 𝐶 𝐺𝐶𝐿 (𝑧 = 𝐿 𝐺𝐶𝐿 , 𝑡 )
+
+𝜕𝑍 = 𝑛 𝑆𝐿 𝐷 𝑆𝐿 
+
+𝜕 𝐶 𝑆𝐿 (𝑧 = 𝐿 𝐺𝐶𝐿 , 𝑡 )
+
+𝜕𝑍  (11)
+
+# 3. PINN Methodology 
+
+## 3.1 Neural -network Architecture 
+
+In this study, physics -informed neural networks (PINNs) are developed to approximate 
+
+contaminant transport through the two -layer GCL/SL composite liner system. The schematic of 
+
+PINN -based models for analyzing contaminant transport in GCL/SL composite liner system is 
+
+shown in Fig . 2. The model output is expressed in terms of the relative concentration :
+
+𝑐 𝑖 (𝑧 , 𝑡 ) = 𝐶 𝑖 (𝑧 , 𝑡 )
+
+𝐶 0
+
+, 𝑖 = GCL , SL  (1 2)
+
+where  𝐶 𝑖 (𝑧 , 𝑡 ) is the pore -water contaminant concentration in layer  𝑖  , and  𝐶 0 is the prescribed 
+
+contaminant concentration in the overlying leachate. Because the spatial coordinate is normalized 
+
+separately in each layer, the derivatives in the governing -equation residuals must be scaled using 
+
+the corresponding layer thickness. The normalized coordinates are: 
+
+𝑧 𝑔 = 𝑧 
+
+𝐿 𝐺𝐶𝐿 
+
+, 0 ≤ 𝑧 𝑔 ≤ 1 (1 3)
+
+𝑧 𝑠 = 𝑧 − 𝐿 GCL 
+
+𝐿 SL 
+
+, 0 ≤ 𝑧 𝑠 ≤ 1 (1 4)𝜏 = 𝑡 
+
+𝑡 𝑓 
+
+(1 5)
+
+where  𝐿 GCL  and  𝐿 SL  are the thicknesses of the GCL and SL, respectively, and  𝑡 𝑓  is the final 
+
+simulation time. 
+
+Because GCL and SL have substantially different thicknesses and material properties, two separate 
+
+neural networks were adopted. The first neural network approximates the relative concentration 
+
+field in the GCL, while the second neural network approximates the relative concentration field in 
+
+the SL. This two -network structure allows the model to handle the strong contrast in material 
+
+properties between the thin GCL and the much thicker soil liner. 
+
+The GCL concentration field is approximated as :
+
+𝑐 ̂𝐺𝐶𝐿 (𝑧 𝑔 , 𝜏 ) = 𝑁 𝜃 𝑔 (𝑧 𝑔 , 𝜏 ; 𝜽 𝒈 ) (16)
+
+where  𝑐 ̂GCL  is the PINN -predicted relative concentration in the GCL,  𝑁 𝜃 𝑔  denotes the GCL neural 
+
+network, and  𝜽 𝒈  represents its trainable parameters. 
+
+Similarly, the SL concentration field is approximated as :
+
+𝑐 ̂𝑆𝐿 (𝑧 𝑠 , 𝜏 ) = 𝑁 𝜃 𝑠 (𝑧 𝑠 , 𝜏 ; 𝜽 𝒔 ) (17)
+
+where  𝑐 ̂SL  is the predicted relative concentration in the SL,  𝑁 𝜃 𝑠  denotes the SL neural network, and 
+
+𝜽 𝒔  represents its trainable parameters. 
+
+Both neural networks are fully connected feedforward neural networks. For a general network with 
+
+𝑀  hidden layers and  𝑁  neurons per hidden layer, the mapping can be expressed as :
+
+𝐡 (0) = 𝐱  (18)
+
+𝐡 (𝑚 ) = 𝜎 (𝐖 (𝑚 )𝐡 (𝑚 −1)+𝐛 (𝑚 )) , 𝑚 = 1,2, … , 𝑀  (19 )
+
+𝑐 ̂ = 𝐖 (𝑀 +1)𝐡 (𝑀 ) + 𝐛 (𝑀 +1) (20)where  𝐖 (𝑚 ) and  𝐛 (𝑚 ) are the trainable weight matrix and bias vector of the m-th layer, 
+
+respectively, and  𝜎 (⋅) is the activation function. Xavier initialization was used for the neural -
+
+network weights, and the biases were initialized as zero. 
+
+Fig. 2. The schematic of PINN -based models (a) Std -PINN, and (b) H -PINN for analyzing contaminant 
+
+transport in GCL/SL composite liner system 
+
+(a) 
+
+(b)3.2 Soft -constrained PINN Formulation 
+
+In the soft -constrained PINN, also referred to as the standard PINN or Std -PINN, the raw neural -
+
+network outputs are directly used as the approximate concentration fields in the GCL and SL. The 
+
+governing equations, initial condition, boundary conditions, an d GCL/SL interface -continuity 
+
+conditions are enforced through penalty terms in the total loss function as shown in Fig . 2 (a) .
+
+The residual of the steady advection -dispersion -biodegradation equation of GCL layer is defined 
+
+as :
+
+ℛ𝐺𝐶𝐿 = 𝐷 𝐺𝐶𝐿 
+
+𝐿 𝐺𝐶𝐿 
+
+> 2
+
+𝜕 2𝑐 ̂𝐺𝐶𝐿 
+
+𝜕 𝑧 𝑔  
+
+> 2
+
++ 𝑣 𝐺𝐶𝐿 
+
+𝐿 𝐺𝐶𝐿 
+
+𝜕 𝑐 ̂𝐺𝐶𝐿 
+
+𝜕 𝑧 𝑔 
+
++ 𝜆 𝐺𝐶𝐿 𝑅 𝐺𝐶𝐿 𝑐 ̂𝐺𝐶𝐿  (21)
+
+where  𝐷 GCL  , 𝑣 GCL  , 𝜆 GCL  are the hydrodynamic dispersion , seepage velocity, and first -order 
+
+biodegradation coefficient in the GCL, respectively. The GC L residual loss is :
+
+𝐿 𝑃𝐷𝐸 ,𝐺𝐶𝐿 = 1
+
+𝑁 𝑃𝐷𝐸 ,𝐺𝐶𝐿 
+
+∑ ∣ ℛ𝐺𝐶𝐿 (𝑧 𝑔 
+
+> 𝑘
+
+, 𝜏 𝑘 ) ∣2
+
+> 𝑁 𝑃𝐷𝐸 ,𝐺𝐶𝐿
+> 𝑘 =1
+
+(22)
+
+where  𝑁 PDE ,GCL  is the number of collocation points sampled in the GCL domain. 
+
+Similarly, for the SL layer, the PDE residual is written as :
+
+ℛ𝑆𝐿 = 𝑅 𝑆𝐿 
+
+𝑡 𝑓 
+
+𝜕 𝑐 ̂𝑆𝐿 
+
+𝜕𝜏 − 𝐷 𝑆𝐿 
+
+𝐿 𝑆𝐿 
+
+> 2
+
+𝜕 2𝑐 ̂𝑆𝐿 
+
+𝜕 𝑧 𝑠  
+
+> 2
+
++ 𝑣 𝑆𝐿 
+
+𝐿 𝑆𝐿 
+
+𝜕 𝑐 ̂𝑆𝐿 
+
+𝜕 𝑧 𝑠 
+
++ 𝜆 𝑆𝐿 𝑅 𝑆𝐿 𝑐 ̂𝑆𝐿  (2 3)
+
+where  𝐷 SL , 𝑣 SL , 𝑅 SL , and  𝜆 SL  are the corresponding transport and degradation parameters in the 
+
+soil liner. The SL residual loss is :
+
+𝐿 𝑃𝐷𝐸 ,𝑆𝐿 = 1
+
+𝑁 𝑃𝐷𝐸 ,𝑆𝐿 
+
+∑ ∣ ℛ𝑆𝐿 (𝑧 𝑠 
+
+> 𝑘
+
+, 𝜏 𝑘 ) ∣2
+
+> 𝑁 𝑃𝐷𝐸 ,𝑆𝐿
+> 𝑘 =1
+
+(2 4)
+
+At the GCL/SL interface, both concentration continuity and mass -flux continuity are imposed. The 
+
+concentration -continuity residual is defined as :
+
+ℛ𝐼𝐹 ,𝑐 = 𝑐 ̂𝐺𝐶𝐿 (𝑧 𝑔 = 1, 𝜏 ) − 𝑐 ̂𝑆𝐿 (𝑧 𝑠 = 0, 𝜏 ) (25)
+
+and the corresponding loss :𝐿 𝐼𝐹 ,𝑐 = 1
+
+𝑁 𝐼𝐹 
+
+∑ ∣ ℛ𝐼𝐹 ,𝑐 (𝜏 𝑘 ) ∣2
+
+> 𝑁 𝐼𝐹
+> 𝑘 =1
+
+(26)
+
+The mass -flux -continuity residual is expressed as :
+
+ℛ𝐼𝐹 ,𝐽 = 𝑛 𝐺𝐶𝐿 𝐷 𝐺𝐶𝐿 
+
+𝐿 𝐺𝐶𝐿 
+
+∂𝑐 ̂GCL 
+
+∂𝑧 − 𝑛 𝑆𝐿 𝐷 𝑆𝐿 
+
+𝐿 𝑆𝐿 
+
+∂𝑐 ̂SL 
+
+∂𝑧  (27)
+
+where  𝑛 GCL  and  𝑛 SL  are the porosities of the GCL and SL, respectively. The corresponding flux -
+
+continuity loss is :
+
+𝐿 𝐼𝐹 ,𝐽 = 1
+
+𝑁 𝐼𝐹 
+
+∑ ∣ ℛ𝐼𝐹 ,𝐽 (𝜏 𝑘 ) ∣2
+
+> 𝑁 𝐼𝐹
+> 𝑘 =1
+
+(28)
+
+Thus, the total interface -continuity loss is :
+
+𝐿 𝐼𝐹 = 𝐿 𝐼𝐹 ,𝑐 + 𝐿 𝐼𝐹 ,𝐽  (29 )
+
+The boundary conditions loss at the top of the GCL is imposed as 
+
+𝐿 𝐵𝐶 ,𝑡 = 1
+
+𝑁 𝐵𝐶 ,𝑡 
+
+∑ ∣ 𝑐 ̂𝐺𝐶𝐿 (𝑧 𝑔 = 0, 𝜏 𝑘 ) − 1 ∣2
+
+> 𝑁 𝐵𝐶 ,𝑡
+> 𝑘 =1
+
+(30)
+
+The bottom boundary condition of the SL is imposed as :
+
+𝐿 𝐵𝐶 ,𝑏 = 1
+
+𝑁 𝐵𝐶 ,𝑏 
+
+∑ ∣ 𝜕 𝑐 ̂𝑆𝐿 
+
+𝜕 𝑧 𝑠 
+
+(𝑧 𝑠 = 1, 𝜏 𝑘 ) ∣2
+
+> 𝑁 𝐵𝐶 ,𝑏
+> 𝑘 =1
+
+(31)
+
+The initial -condition loss of SL is imposed as 
+
+ℒIC = 1
+
+𝑁 𝐼𝐶 ,𝑆𝐿 
+
+∑ [𝑐 ̂𝑆𝐿 (𝑧 𝑖 , 0)]2
+
+> 𝑁 𝐼𝐶 ,𝑆𝐿
+> 𝑖 =1
+
+(32)
+
+The total loss function of the Std -PINN is therefore 
+
+ℒ𝑆𝑡𝑑 = 𝑤 𝐺𝐶𝐿 ℒ𝑃𝐷𝐸 ,𝐺𝐶𝐿 + 𝑤 𝑆𝐿 ℒ𝑃𝐷𝐸 ,𝑆𝐿 + 𝑤 𝐼𝐹 ℒ𝐼𝐹 + 𝑤 𝑡 ℒ𝐵𝐶 ,𝑡 + 𝑤 𝑏 ℒ𝐵𝐶 ,𝑏 + 𝑤 𝐼𝐶 ℒ𝐼𝐶  (33)
+
+where  𝑤 GCL  , 𝑤 SL  , 𝑤 IF  , 𝑤 𝑡  , 𝑤 𝑏  , and  𝑤 IC  are weighting factors used to balance the different loss 
+
+components. 3.3 H-PINN Formulation 
+
+As shown in Fig. 2(b), i n the H-PINN, selected physical constraints are embedded directly into the 
+
+neural -network trial functions instead of being imposed only through penalty terms in the loss 
+
+function. This formulation reduces the optimization burden associated with simultaneously 
+
+mini mizing multiple competing loss components. In this study, the prescribed concentration 
+
+boundary at the top of the GCL and the initial condition in the SL are imposed exactly through 
+
+output transformations. 
+
+For the GCL, the hard -constrained solution is defined as 
+
+𝑐 ̂GCL  
+
+> HC
+
+(𝑧 𝑔 , 𝜏 ) = 1 + 𝑧 ˉ𝑔 𝑁 𝜃 𝑔 (𝑧 𝑔 , 𝜏 ; 𝜽 𝒈 ) (34)
+
+When  𝑧 ˉ𝑔 = 0 at the top of the GCL, Eq. ( 34) gives :
+
+𝑐 ̂GCL  
+
+> HC
+
+(0, 𝜏 ) = 1 (35)
+
+Therefore, the prescribed source concentration at the GCL/leachate boundary is satisfied exactly 
+
+for all training iterations. No separate top -boundary loss term is required in the hard -constrained 
+
+formulation. 
+
+For the SL, the hard -constrained trial solution is constructed as :
+
+𝑐 ̂SL  
+
+> HC
+
+= 𝜏 ˉ𝑁 𝜃 𝑠 (𝑧 ˉ𝑠 , 𝜏 ; 𝜽 𝒔 ) (36)
+
+At the initial time, where  𝜏 = 0,
+
+𝑐 ̂SL 
+
+> HC
+
+(𝑧 , 0) = 0 (37)
+
+Thus, the initial contaminant -free condition in the SL is also satisfied exactly. No separate SL 
+
+initial -condition loss term is required in the hard -constrained formulation. The remaining physical constraints, including the GCL governing -equation residual, the SL 
+
+governing -equation residual, and the GCL/SL interface -continuity conditions, are still enforced 
+
+through the loss function. The interface concentration and flux condit ions are retained as soft 
+
+constraints because they couple the two neural networks and depend on the material properties of 
+
+both layers. Therefore, the total loss function for the H-PINN is written as :
+
+ℒ𝐻𝐶 = 𝑤 𝐺𝐶𝐿 ℒ𝑃𝐷𝐸 ,𝐺𝐶𝐿  
+
+> 𝐻𝐶
+
++ 𝑤 𝑆𝐿 ℒ𝑃𝐷𝐸 ,𝑆𝐿  
+
+> 𝐻𝐶
+
++ 𝑤 𝐼𝐹 ℒ𝐼𝐹  
+
+> 𝐻𝐶
+
++ 𝑤 𝑏 ℒ𝐵𝐶 ,𝑏  
+
+> 𝐻𝐶
+
+(38)
+
+where the superscript HC indicates that the residuals are evaluated using the hard -constrained trial 
+
+solutions .
+
+## 3. 4 Inverse Modeling Formulation 
+
+In addition to forward prediction, the proposed PINN framework was extended to inverse 
+
+modeling to estimate uncertain degradation parameters from limited concentration observations. 
+
+In practical GCL/SL composite liner systems, biodegradation parameters are often difficult to 
+
+determine directly because they depend on contaminant type, microbial activity, moisture 
+
+condition, temperature, and geochemical environment. Therefore, the SL biodegradation half -life, 
+
+𝑡 1/2,𝑆𝐿 , was selected as the target inverse parameter in this study. 
+
+In the inverse problem, the neural -network weights, biases, and selected physical parameters are 
+
+optimized simultaneously. The observation dataset is denoted as :
+
+𝒟 𝑜𝑏𝑠 = {𝑧 𝑗 , 𝑡 𝑗 , 𝑐 𝑗 
+
+> 𝑜𝑏𝑠
+
+}𝑗 =1 
+
+> 𝑁 𝑜𝑏𝑠
+
+(39 )
+
+where  𝑧 𝑗  and  𝑡 𝑗  are the observation location and time, respectively,  𝑐 𝑗  
+
+> 𝑜𝑏𝑠
+
+is the observed relative 
+
+concentration, and  𝑁 𝑜𝑏𝑠  is the total number of observation points. In this study, the observation 
+
+data were generated from the reference solution at selected locations within the SL layer and at the bottom of the liner system. These data represent limited monitoring information that may be 
+
+available in practical contaminant -transport assessment. 
+
+The data loss is defined as ：
+
+ℒ𝑑𝑎𝑡𝑎 = 1
+
+𝑁 𝑜𝑏𝑠 
+
+∑ [𝑐 ̂𝑃𝐼𝑁𝑁 (𝑧 𝑗 , 𝑡 𝑗 ) − 𝑐 𝑗 
+
+> 𝑜𝑏𝑠
+
+]2
+
+> 𝑁 𝑜𝑏𝑠
+> 𝑗 =1
+
+(40)
+
+where  𝑐 ̂𝑃𝐼𝑁𝑁 (𝑧 𝑗 , 𝑡 𝑗 ) is the predicted relative concentration at the observation point. For 
+
+observation points located in the SL layer, the prediction is evaluated using the SL neural -network 
+
+prediction. 
+
+For the H- PINN, the inverse loss function is written as 
+
+𝐿 𝐻𝐶 = 𝑤 𝐺𝐶𝐿 𝐿 𝑃𝐷𝐸 ,𝐺𝐶𝐿  
+
+> 𝐻𝐶
+
++ 𝑤 𝑆𝐿 𝐿 𝑃𝐷𝐸 ,𝑆𝐿  
+
+> 𝐻𝐶
+
++ 𝑤 𝐼𝐹 𝐿 𝐼𝐹  
+
+> 𝐻𝐶
+
++ 𝑤 𝑏 𝐿 𝐵𝐶 ,𝑏  
+
+> 𝐻𝐶
+
++ 𝑤 𝑑 ℒ𝑑𝑎𝑡𝑎  (41)
+
+where  ℒ𝑑𝑎𝑡𝑎 , 𝑤 𝑑𝑎𝑡𝑎  are the concentration observation loss , and weighting factors respectively. 
+
+For the noisy -observation cases, synthetic noise was added to the reference concentration data as :
+
+𝑐 𝑜𝑏𝑠  
+
+> 𝑛𝑜𝑖𝑠𝑒
+
+= 𝑐 𝑜𝑏𝑠 (1+𝛿𝜀 ) (42 )
+
+where  𝛿  is the prescribed relative noise level and  𝜀  is a random variable sampled from a standard 
+
+normal distribution. The noise levels considered in this study were 0%, 10%, 20%, 30%, and 50%. 
+
+# 4. Model Implementation 
+
+For t he proposed S td -PINN and H -PINN models , two independent fully connected neural networks 
+
+were used to approximate the relative concentration fields in the GCL and SL, respectively. Unless 
+
+otherwise stated, each neural network contained four hidden layers with 128 neurons per hidden 
+
+layer. All neural network training was executed in Python 3.12.3 with PyTorch 2.5.0, on an 
+
+NVIDIA GeForce RTX 4090 . For the forward simulations, the GCL domain was discretized from 𝑧 = 0 to 0.0138 m using 101 uniformly distributed collocation points. The SL domain was 
+
+discretized from  𝑧 = 0.0138 to 5.0138 m and from  𝑡 =0 to 100 years using a structured 401 × 401 
+
+space -time grid. The spatial and temporal inputs were normalized before being passed into the 
+
+neural networks to improve training stability. 
+
+The neural -network weights were initialized using Xavier initialization, and the biases were 
+
+initialized as zero. The Tanh activation function was adopted for both S td -PINN and H -PINN 
+
+because it is smooth and differentiable, making it suitable for automatic differentiation of the first -
+
+and second -order derivatives required in the governing transport equations. All derivatives in the 
+
+PDE residuals and interface -continuity terms were computed using PyTorch automatic 
+
+differentiation. The models were trained u sing a two -stage optimization strategy. Adam was first 
+
+used to obtain a stable initial solution, followed by L -BFGS optimization to further reduce the 
+
+physics -based residuals. The S td -PINN and H-PINN models were trained using 2 0,000 Adam 
+
+iterations followed by L -BFGS optimization .
+
+## 4.1 Model Evaluation Indices 
+
+The analytical solution of Guan et al. (2014) was used for breakthrough -curve validation, whereas 
+
+the COMSOL finite -element solution was used to generate full spatiotemporal concentration fields 
+
+for contour -level error evaluation. Unless otherwise noted, all S td -PINN and H-PINN results are 
+
+compared against these FEM and analytical solution s. 
+
+For the GCL/SL composite liner system, error indices can be calculated over the entire 
+
+computational domain or separately within the GCL and SL layers. The prediction accuracy of the 
+
+PINN models was evaluated using the mean absolute error (MAE) and mean relative error (MRE). 
+
+The MAE measures the ave rage absolute difference between the PINN prediction and the reference 
+
+solution, while the MRE quantifies the relative prediction error in percentage form. 𝑀𝐴𝐸 = 1
+
+𝑁 ∑ ∣ 𝑐 𝑖  
+
+> 𝑃𝐼𝑁𝑁
+
+− 𝑐 𝑖  
+
+> 𝑟𝑒𝑓
+
+∣
+
+> 𝑁
+> 𝑖 =1
+
+(43)
+
+𝑀𝑅𝐸 = 1
+
+𝑁 ∑ ∣ 𝑐 𝑖  
+
+> 𝑃𝐼𝑁𝑁
+
+− 𝑐 𝑖  
+
+> 𝑟𝑒𝑓
+
+∣
+
+∣ 𝑐 𝑖  
+
+> 𝑟𝑒𝑓
+
+∣ +𝜀 
+
+> 𝑁
+> 𝑖 =1
+
+∗ 100%  (44)
+
+where  𝑐 𝑖  
+
+> PINN
+
+and  𝑐 𝑖  
+
+> ref
+
+are the predicted and reference normalized concentrations at the i-th 
+
+evaluation point, respectively;  𝑁  is the total number of evaluation points; and  𝜀  is a small constant 
+
+used to avoid division by zero when the reference concentration approaches zero. 
+
+# 5. Results and Discussion 
+
+This section presents the results with reference to the analytical solution for one -dimensional solute 
+
+transport through a GCL/SL composite liner considering biodegradation, as reported by Guan et 
+
+al. (2014). The liner system consists of a 0.0138 m thick G CL overlying a 5.0 m thick soil liner. 
+
+Benzene was selected as the representative organic contaminant, and the initial contaminant 
+
+concentration in the leachate was taken as  𝐶 0 =1 mg/L . The porosities of the GCL and SL are 0.86 
+
+and 0.40, respectively, and the retardation factor of the SL is  𝑅 𝑑 = 2.134 . In the PINN simulations, 
+
+the diffusion coefficient of the GCL and SL are 3.6  ×10 -10 and .8.9  ×10 -10 m²/s, respectively. The 
+
+first -order biodegradation coefficient is .2.2  × 10 -9 s-1 corresponding to a contaminant half -life of 
+
+10 years. Three leachate heads,  𝐻 𝑤 = 0.3, 3.0, and 10.0 m, were considered to evaluate the effect 
+
+of leachate head on breakthrough behavior of GCL/SL composite liner . The seepage velocities 
+
+used in the GCL and SL layers under different leachate -head conditions were determined according 
+
+to the calculation procedure reported by Guan et al. (2014). All S td -PINN and H -PINN predictions 
+
+are compared against the analytical solution of Guan et al. (2014) and the numerical reference 
+
+solution used for verification. The parameters used in the GCL/SL contaminant -transport model 
+
+are shown in Table 1. Table 1 Material properties of the GCL/SL composite liner                                                
+
+> Parameter Symbol GCL SL Unit
+> Layer thickness L0.0138 5.0 m
+> Porosity n0.86 0.40 -
+> Diffusion coefficient D*3. 6× 10⁻¹⁰ 8.9× 10⁻ 10 m²/s
+> Retardation factor Rd-2.134 -
+> Dry density ρb-1.62 g/cm³
+> Distribution coefficient Kd-0.28 mL/g
+> First -order degradation coefficient λ2.20 × 10⁻⁹ 2.20 × 10⁻⁹ s⁻¹
+> Corresponding half -life t1/2 10 10 year
+> Initial leachate concentration C01.0 1.0 mg/L
+> Simulation duration tf100 100 year
+
+## 5.1 Training Behavior of Std -PINN and H -PINN 
+
+Fig . 3 shows the evolution of individual loss components during training for the Std -PINN and H -
+
+PINN under the representative leachate head condition of  𝐻 𝑤 = 0.3 m. Both models exhibit a rapid 
+
+decrease in total loss during the early stage of Adam optimization, indicating that the neural 
+
+networks quickly learn the dominant features of the concentration field and the associated physical 
+
+constraints. After the initial reduction, the losses enter a slower convergence stage, where small 
+
+oscillations and occasional spikes are observed, particularly in the PDE residual. These spikes are 
+
+expected in PINN training because the PDE loss involves higher -order automatic different iation 
+
+and is more sensitive to local changes in the network parameters. 
+
+For the Std -PINN, the total loss decreases rapidly at the beginning and then gradually stabilizes 
+
+during the remaining Adam iterations. The IC, PDE, and IF losses are reduced to relatively low 
+
+levels, while the BC loss remains one of the dominant component s of the total loss. This indicates 
+
+that the Std -PINN can satisfy the governing equation and interface continuity reasonably well, but 
+
+the enforcement of boundary conditions through soft penalty terms remains comparatively more 
+
+difficult. The subsequent L-BFGS optimization provides further refinement, although the 
+
+improvement is moderate because the main reduction has already been achieved during the Adam 
+
+stage. For the H -PINN, the initial condition is embedded directly into the trial solution; therefore, no 
+
+separate IC loss term is required. The PDE, BC, and IF losses generally decrease during training, 
+
+and the total loss remains stable after the early rapid redu ction. Compared with the Std -PINN, the 
+
+H-PINN shows a clearer separation of loss components, with the boundary -condition loss 
+
+contributing significantly to the total loss during most of the training process. The interface loss 
+
+remains relatively small, sug gesting that the coupling between the GCL and SL domains is 
+
+effectively maintained. Although the PDE loss exhibits several sharp fluctuations during Adam 
+
+optimization, it remains at a relatively low magnitude after convergence. The L -BFGS stage 
+
+further red uces the total loss and smooths the final convergence behavior. This behavior supports 
+
+the advantage of the hard -constrained formulation in reducing the number of competing loss terms 
+
+and improving the physical consistency of the learned solution. 10 -7             
+
+> 10 -5
+> 0.001 0.1 10 05000 1x10 41.5x10 42x10 42.5x10 4
+> PDE IC BC IF Total Loss Epoch Adam L-BFGS (a) Std-PINN 10 -7
+> 10 -5
+> 0.001 0.1 10 05000 1x10 41.5x10 42x10 42.5x10 4
+> PDE BC IF Total Loss Epoch Adam L-BFGS (b) H-PINN
+
+Fig. 3. Evolution of loss components during training: (a) Std -PINN and ( b) H-PINN with H w = 0.3 m 
+
+## 5.2 Comparison with Reference Solution 
+
+Breakthrough time is defined as the time required for the concentration of a solute, e.g., benzene, 
+
+to reach the breakthrough concentration at the bottom of the liner system (Acar and Haider, 1990) 
+
+in this case. The breakthrough concentration for benzene is 0.005 mg/L on the basis of the drinking water standard of (USEPA, 2001). Fig . 4 compares the breakthrough curves at the bottom of the 
+
+soil liner under different leachate heads. The relative concentration  𝐶 /𝐶 0 increases with time for 
+
+all cases and eventually approaches a quasi -steady value. As the leachate head increases from 
+
+𝐻 𝑤 = 0.3 m to  𝐻 𝑤 = 10.0 m, the breakthrough shifts upward and to the left, indicating that a larger 
+
+leachate head accelerates advective contaminant transport and results in earlier breakthrough. The 
+
+final relative concentration also increases with leachate head, from approximately 0.55 for  𝐻 𝑤 =
+
+0.3 m to about 0.67 for  𝐻 𝑤 = 3.0 m and 0.80 for  𝐻 𝑤 = 10.0 m . This trend confirms that leachate 
+
+head is a key factor controlling the long -term containment performance of the GCL/SL composite 
+
+liner system. The H -PINN predictions show close r agreement with both the FEM results and the 
+
+analytical solution for all three leachate -head cases. In comparison, the Std -PINN captures the 
+
+general breakthrough trend but shows larger deviations, especially for the higher leachate -head 
+
+cases. This indicates that the hard -constrained formulation improves the prediction of transient 
+
+contaminant breakthrough by better satisfying the imposed physical constraints. 00.2 0.4 0.6 0.8 11 10 100 Hw=0.3 Hw=3.0 Hw=10.0 C/C 0
+
+> Time (years) Solid line = H-PINN Dash line = PINN Dot line = FEM x = Analytical Solution
+
+Fig. 4. Breakthrough curves at the bottom of the soil liner under different leachate heads. Fig. 5 compares the FEM reference solution, Std -PINN prediction, and corresponding absolute 
+
+error for the relative concentration field C/C 0 under different leachate heads. Overall, the Std -PINN 
+
+captures the main spatiotemporal migration pattern of contaminant transport. For all three leachate 
+
+heads, the concentration remains relatively high near the GCL/leachate interface and gradually 
+
+propagates downward into the SL with time. As the leachate head increases from  𝐻 𝑤 = 0.3 m to 
+
+𝐻 𝑤 = 10 .0 m, the contaminant front advances more rapidly, indicating that a larger hydraulic 
+
+gradient accelerates advective transport through the liner system. The FEM results show a clear 
+
+transition zone between the high -concentration region near the top of GCL and the low -
+
+concentration region near the bottom of SL , and this transition becomes steeper under larger 
+
+leachate heads. 
+
+Although the Std -PINN reproduces the overall concentration distribution, noticeable discrepancies 
+
+are observed during the early to intermediate transport period. The absolute -error contours indicate 
+
+that the largest errors are mainly concentrated around the steep -gradient region rather than in the 
+
+fully contaminated or nearly uncontaminated zones. This behavior suggests that the Std -PINN can 
+
+approximate the smooth regions of the solution but has difficulty accurately resolving the sharp 
+
+concentration transi tion caused by coupled advection -diffusion transport. The error magnitude also 
+
+increases with leachate head, with the largest localized error occurring for  𝐻 𝑤 = 10.0 m , where 
+
+the concentration front develops more rapidly and the transport process becomes more advection 
+
+dominated .
+
+Fig. 6 presents the corresponding results obtained using the H -PINN model. Similar to the Std -
+
+PINN, the H -PINN successfully captures the acceleration of solute transport with increasing 
+
+leachate head. However, compared with Fig. 5, the H -PINN produces a closer agreement with the 
+
+FEM reference solution, particularly near the concentration transition front. The absolute -error contours show that the error is more localized and generally reduced, especially at later times after 
+
+the concentration profile becomes smoother. This improvement indicates that the hard -constrained 
+
+formulation enhances physical consistency by embedding pr escribed constraints directly into the 
+
+neural -network approximation, thereby reducing the burden on the loss -function optimization. 
+
+For the low and moderate leachate -head cases, the H -PINN maintains relatively small errors over 
+
+most of the computational domain, with localized discrepancies mainly appearing near the early -
+
+time concentration front. For the high leachate -head case, some errors remain near the soil liner 
+
+during the early stage, but the error decreases substantially as time progresses. These results 
+
+demonstrate that the H -PINN provides a more stable prediction than the Std -PINN under different 
+
+leachate heads , particularly w hen the transport process involves strong concentration gradients and 
+
+rapid contaminant migration.                             
+
+> (a) (b)(c)FEM (Hw=0.3 m)Std -PINN ( Hw=0.3 m) Absolute Error
+> (H w=0.3 m)
+> FEM (Hw=3.0 m)Std -PINN ( Hw=3.0 m) Absolute Error
+> (H w=3.0 m)
+> (d)(e)(f)
+
+Fig. 5. Spatiotemporal distributions of relative concentration C/C 0 and absolute error for the Std -PINN 
+
+under different leachate heads: (a -c)  𝐻 𝑤 = 0.3 m , (d -f)  𝐻 𝑤 = 3.0 m, and (g -i)  𝐻 𝑤 = 10.0 m .
+
+Fig. 6. Spatiotemporal distributions of relative concentration C/C 0 and absolute error for the H -PINN under 
+
+different leachate heads: (a -c)  𝐻 𝑤 = 0.3 m, (d -f)  𝐻 𝑤 = 3.0 m, and (g -i)  𝐻 𝑤 = 10.0 m. 
+
+Fig . 7 quantitatively compares the prediction accuracy of the Std -PINN and H -PINN models under 
+
+different leachate heads using MAE and MRE . Overall, the H -PINN produces substantially lower                                                         
+
+> FEM (Hw=10.0 m)Std -PINN ( Hw=10.0 m) Absolute Error
+> (H w=10.0 m)
+> (g)(h)(i)
+> FEM (Hw=10.0 m)H-PINN ( Hw=10.0 m) Absolute Error
+> (H w=10.0 m)
+> FEM (Hw=3.0 m)H-PINN ( Hw=3.0 m) Absolute Error
+> (H w=3.0 m)
+> FEM (Hw=0.3 m)H-PINN ( Hw=0.3 m) Absolute Error
+> (H w=0.3 m)
+> (d)(e)(f)
+> (g)(h)(i)
+> (a)(b)(c)
+
+errors than the Std -PINN for all leachate heads , confirming the improved accuracy observed in the 
+
+contour plots. For the Std -PINN, the MAE values are 0.05 8, 0.066, and 0.0 67 for leachate heads 
+
+of 0.3, 3.0, and 10.0 m, respectively, while the corresponding MRE values are 9. 10 %, 18.18%, and 
+
+19.1 6% as shown in Table 2. The relatively large MRE values indicate that the Std -PINN has 
+
+difficulty accurately resolving the concentration field, particularly during the early transport stage 
+
+when the concentration front develops rapidly and the solution gradient is steep. In contrast, the 
+
+H-PINN significantly reduces both MAE and M RE. The MAE values decreased to 0.011, 0.01 1,
+
+and 0.023 for leachate heads of 0.3, 3.0, and 10.0 m, respectively. Similarly, the M RE values of 
+
+the H -PINN remain very small, generally below 3.2 % for all c ases. This demonstrates that 
+
+embedding the physical constraints directly into the neural -network approximation improves both 
+
+global prediction accuracy and numerical stability. 
+
+The improvement is especially evident for  𝐻 𝑤 = 3.0 m, where the Std -PINN shows the largest 
+
+MRE of 18 .1 8%, while the H -PINN reduces the MRE to 2.1% . Although the H -PINN error slightly 
+
+increases under the highest leachate head, this is expected because the larger hydraulic gradient 
+
+accelerates contaminant migration and produces a sharper concentration front. Nevertheless, the 
+
+H-PINN still outperforms t he Std -PINN by a large margin, indicating that the hard -constrained 
+
+formulation is more robust for contaminant transport problems involving strong advective effects 
+
+and rapidly evolving concentration gradien ts.                            
+
+> Table 2 Quantitative comparison of Std -PINN and H -PINN prediction accuracy
+> Leachate head,
+> 𝐻 𝑤 (m) Std -PINN H-PINN
+> MAE MRE (%) MAE MRE (%)
+> 0.3 0.05 89.10 0.011 2.20
+> 3.0 0.066 18.18 0.01 12.08
+> 10.0 0.067 19.16 0.023 3.14
+> Note: MAE = mean absolute error; MRE = mean relative error. 00.02 0.04 0.06 0.08 0.1 Hw= 0.3 m Hw= 3.0 m Hw= 10.0 m MAE (a) Std-PINN H-PINN 0510 15 20 Hw= 0.3 m Hw= 3.0 m Hw= 10.0 m MRE(%)
+> (b) Std-PINN H-PINN
+
+Fig. 7. Quantitative evaluation of model accuracy for Std -PINN and H -PINN under different leachate -head 
+
+conditions: (a) MAE and (b) MRE .
+
+## 5.3 Parameter Study 
+
+5.3.1 Effect of activation functions 
+
+The effect of activation functions on the performance of the H-PINN model was evaluated in this 
+
+study . The ReLU, Sigmoid, ELU , a nd Tanh functions are four of the main nonlinear activation 
+
+functions used in deep learning ( Nwankpa et al., 2018). Fig. 8 compares the predicted normalized 
+
+concentration histories at the bottom of the SL layer and the corresponding MRE values obtained 
+
+using different activation functions. As shown in Fig. 8(a), the Tanh activation function provides 
+
+the closest agreement with the analy tical solution. ELU and Sigmoid also capture the overall 
+
+concentration evolution, but with relatively larger deviations. In contrast, the ReLU activation 
+
+function shows a delayed concentration response and noticeable oscillations near the rapid 
+
+concentration increase stage. This indicates that Tanh is suitable for representing the smooth 
+
+concentration field in the GCL/SL contaminant transport problem. The quantitative comparison in 
+
+Fig. 8(b) further confirms this observation. The Tanh activation function gives the lowest MRE, 
+
+followed by ELU, Sigmoid, and ReLU. Therefore, Tanh was selected as th e activation function for 
+
+the subsequent PINN simulations in this study. 00.2 0.4 0.6 0.8 11 10 100 Tanh ReLU Sigmoid ELU Analytical Solution C/C 0  
+
+> Time (years)
+> (a) 0246810 Tanh ReLU Sigmoid ELU MRE(%) Tanh (b) ReLU Sigmoid ELU
+
+Fig. 8. Effect of activation functions on PINN prediction accuracy: (a) normalized concentration history at 
+
+the bottom of the SL layer; and (b) comparison of MRE values for different activation functions with  𝐻 𝑤  =
+
+3.0 m 
+
+5.3. 2 Effect of neural -network structure 
+
+Fig . 9 shows the influence of neural -network structure on the prediction accuracy of the H -PINN 
+
+model for the  𝐻 𝑤 = 3.0 m . The number of hidden layers varied from 2 to 5, and the number of 
+
+neurons per hidden layer varied from 32 to 256. All other model settings, including the activation 
+
+function, collocation -point allocation, loss weights, and training procedure, were kept unchanged. 
+
+The results indicate that the network structure has a noticeable effect on prediction accuracy. When 
+
+a relatively small network is used, such as 2 hidden layers with 32 neurons per layer, the model 
+
+gives the largest error, suggesting that the network capacity is insufficient to accurately 
+
+approximate the nonlinear concentration field in th e GCL/SL composite liner system. Increasing 
+
+the network depth from 2 to 4 hidden layers generally reduces the MAE, indicating that additional 
+
+hidden layers improve the rep resentational capability of the H -PINN model. 
+
+However, further increasing the depth to 5 hidden layers does not lead to significant improvement. 
+
+When the network depth increases from 4 to 5 hidden layers, the reduction in MAE becomes 
+
+negligible. Similarly, increasing the network width from 128 to 256 neurons provides only marginal improvement in some cases and may slightly increase the error in others. This suggests 
+
+that the prediction accuracy reaches a plateau once sufficient network capacity is achieved, and 
+
+that an excessively large network may not improve model perform ance due to increased 
+
+optimization difficulty and computational cost. Among the tested structures, the H -PINN model 
+
+with 4 hidden layers and 128 neurons per hidden layer gives the lowest MAE, with a value of 
+
+0.0107.   
+
+> Fig. 9.Effect of neural -network structure on the prediction accuracy of the H -PINN model.
+
+5.3. 3 Effect of SL biodegrad ation 
+
+Fig. 10 illustrates the influence of degradation in the SL on the solute breakthrough behavior of 
+
+the GCL/SL composite liner system with  𝐻 𝑤 = 3.0 m. The degradation effect was represented by 
+
+the contaminant half -life in the SL, with half -life values of 10, 30, and 100 years. 
+
+As shown in Fig. 10, the H -PINN model accurately reproduces the FEM breakthrough curves for 
+
+all three half -life values. The breakthrough curves exhibit a clear dependence on the degradation 
+
+rate in the SL. When the half -life is relatively short, such as  𝑡 1/2 = 10 years, stronger degradation 
+
+occurs during contaminant migration through the SL, resulting in a lower normalized concentration 
+
+at the bottom boundary. In contrast, increasing the half -life to 30 and 100 years weakens the degradation effect, leading to progressively higher values of ( C/C0). This trend is well captured by 
+
+the H -PINN model, indicating that the degradation term in the governing equation is effectively 
+
+incorporated into the physics -informed learning framework. 
+
+The comparison between the H -PINN and FEM results further demonstrates that the proposed 
+
+model can capture both the timing and magnitude of solute breakthrough under different 
+
+degradation conditions. Minor deviations are mainly observed near the steep tran sition region of 
+
+the breakthrough curves, where the concentration changes rapidly with time. 00.2 0.4 0.6 0.8 1  
+
+> 110 100 t1/2 = 10 t1/2 = 30 t1/2 = 100 C/C 0
+> Time (years) Solid line: H-PINN Dash line: FEM
+
+Fig. 10 . Effect of SL degradation on solute breakthrough curves of the GCL/SL system with  𝐻 𝑤 = 3.0 m .
+
+## 5.4 Inverse Identification of Soil Liner Degradation Half -Life 
+
+To further evaluate the capability of the proposed H -PINN framework for parameter identification, 
+
+inverse simulations were conducted to estimate the degradation half -life of the soil liner. Fig. 11 
+
+shows the convergence histories of the identified SL half -life under  𝐻 𝑤 = 3.0 m, with prescribed 
+
+exact half -life values of 10, 30, and 100 years. For the case with an exact half -life of 10 years, the 
+
+estimated  𝑡 1/2 rapidly approaches the target value after a short initial fluctuation and remains close to the exact solution during the later training stage. When the exact half -life is 30 years, the 
+
+estimated  𝑡 1/2 initially overshoots the target value, reaching a higher intermediate value before 
+
+gradually decreasing and stabilizing near the prescribed value. A similar but more pronounced 
+
+overshooting behavior is observed for the case with an exact half -life of 100 years, where the 
+
+inferred  𝑡 1/2 shows a larger transient deviation before converging toward the target value. These 
+
+results indicate that the proposed inverse H -PINN can recover degradation -related transport 
+
+parameters over a broad range of half -life values. The larger overshoot and sl ower stabilization 
+
+observed for longer half -lives suggest that weak degradation conditions introduce greater 
+
+parameter sensitivity and increase the difficulty of inverse identification. 0510 15 20 25 0 5000 10000 15000 20000 t1/2  (years) Iteration            
+
+> (a) Exact value: t 1/2 = 10 010 20 30 40 50 60 05000 10000 15000 20000 t1/2  (years) Iteration
+> (b) Exact value: t 1/2 = 30 110 100 1000 05000 10000 15000 20000 t1/2  (years) Iteration
+> (c) Exact value: t 1/2 = 100
+
+Fig. 11. Convergence histories of the inversely identified soil liner degradation half -life under  𝐻 𝑤 = 3.0 m :
+
+(a) exact  𝑡 1/2 =10 years, (b) exact  𝑡 1/2 = 30 years, and (c ) exact  𝑡 1/2 = 100 years. 
+
+The robustness of the inverse PINN framework was further evaluated by introducing different 
+
+levels of observation noise into the training data. Table 3 summarizes the inverted SL half -life 
+
+values and their corresponding relative errors for exact half -li fe of 10, 30, and 100 years. As shown 
+
+in Table 3 and Fig. 12, the relative error of the identified soil liner half -life remains relatively small 
+
+when the noise magnitude is low, particularly for noise levels up to approximately 20%. For all 
+
+three target half -life cases, the relative errors remain below approximately 6.1% under noise -free 
+
+to 20% noise conditions, indicating that the inverse model can tolerate a certain degree of data 
+
+uncertainty. However, when the noise magnitude increases to 30% and 50%, the r elative error 
+
+increases noticeably. At 30% noise, the relative errors increase to 10.3%, 11.7%, and 17.2% for 
+
+exact half -li fe of 10, 30, and 100 years, respectively. At 50% noise, the errors further increased to 
+
+31.3%, 29.2%, and 27.3%, respectively. These results suggest that strong measurement noise can 
+
+reduce the reliability of parameter identification. This trend is particularly evident at higher noise 
+
+levels, where the inferred half -life becomes more sensitive to perturbations in the observed 
+
+concentration data. Overall, the results indicate that t he proposed inverse PINN framework exhibits acceptable robustness under low -to -moderate noise levels, while excessive noise may 
+
+significantly affect the accuracy of the estimated degradation parameter. 010 20 30 40 50 0 10 20 30 40 50 60 t1/2 = 10 years t1/2 = 30 years t1/2 = 100 years Relative Error (%) Magnitude of noise (%) 
+
+Fig. 12. Relative error of the inversely identified soil liner degradation half -life under different magnitudes 
+
+of observation noise when  𝐻 𝑤 = 3.0 m .
+
+Table 3 Inverted values and their corresponding relative errors (𝐻 𝑤 = 3.0 m )                                            
+
+> Noise Level
+> (%)
+> Exact 𝑡 1/2=10 years Exact 𝑡 1/2=30 years Exact 𝑡 1/2=10 0 years
+> Estimated 𝑡 1/2
+> SL (years)
+> Relative error
+> (%)
+> Estimated 𝑡 1/2
+> SL (years) Relative error (%) Estimated 𝑡 1/2
+> SL (years) Relative error (%)
+> Noise -free (0) 9.8 2.5 29.2 2.8 104.4 4. 4
+> 10 9.7 2.6 30.9 3.1 95.0 4.9
+> 20 10.5 5. 331.8 6.1 105.6 5. 6
+> 30 11.0 10. 333.5 11. 782.8 17.2
+> 506.88 31. 338.8 29.2 127.3 27. 3
+
+# 6. Summary and Conclusion 
+
+This study developed a physics -informed neural network framework for modeling biodegradable 
+
+contaminant transport through a two -layer GCL/SL composite liner system. The governing 
+
+advection -dispersion -biodegradation equations, boundary conditions, and GCL/SL interface -
+
+continuity conditions were incorporated into the PINN formulation. Both a standard soft -
+
+constrained PINN (Std -PINN) and a hard -constrained PINN (H -PINN) were evaluated for forward prediction, and the hard -constrained PINN was further extended to inverse identification of 
+
+degradation half -life. Based on the results obtained in this study, the following conclusions can be 
+
+drawn: 
+
+1.  The proposed two -network PINN framework can effectively represent contaminant 
+
+transport through the GCL and SL layers, where the two materials have distinct thicknesses 
+
+and transport properties. By using separate neural networks for the GCL and SL, the mod el 
+
+can explicitly account for the layered structure of the composite liner and enforce 
+
+concentration and flux continuity at the material interface. 
+
+2.  The H-PINN provides more stable and accurate predictions than the Std -PINN. By 
+
+embedding the prescribed concentration boundary condition and initial condition directly 
+
+into the trial solutions, the hard -constrained formulation reduces the optimization burden 
+
+associated with boundary - and initial -condition penalties. As a res ult, the model can focus 
+
+more effectively on satisfying the governing -equation residuals and interface -continuity 
+
+conditions. 
+
+3.  The selection of activation function and neural -network structure has a clear influence on 
+
+model performance. Among the activation functions considered, the Tanh function 
+
+provides the best agreement with the reference solution and was therefore selected fo r
+
+subsequent simulations. The network -structure study indicates that increasing model 
+
+capacity improves prediction accuracy up to an optimal range, while excessively deep or 
+
+wide networks provide limited additional benefit and may increase optimization dif ficulty. 
+
+4.  The inverse -modeling results demonstrate that the proposed H-PINN framework can 
+
+successfully identify the degradation of half -life of the soil liner from limited concentration observations. The inferred half -life values converge toward the prescribed exact values 
+
+under different target half -life cases . The noise -sensitivity analysis shows that the inverse 
+
+PINN framework has acceptable robustness under low -to -moderate observation noise. The 
+
+relative error of the identified half -life remains relatively small when the noise level is 
+
+moderate but increases noticeably when the noise magnitude reaches high levels. 
+
+Although the proposed H -PINN framework demonstrates improved accuracy and stability 
+
+compared with the Std -PINN model, several limitations should be acknowledged. The present 
+
+study considers an idealized one -dimensional GCL/SL composite liner system with homogeneous 
+
+or piecewise -homogeneous material properties. In actual landfill liner systems, spatial variability 
+
+in hydraulic conductivity, diffusion coefficient, poros ity, retardation factor, and degradation 
+
+behavior may influence contaminant migration. In a ddition, the current formulation assumes 
+
+prescribed material parameters and simplified transport mechanisms, while coupled hydro -chemo -
+
+mechanical effects, chemical compatibility of the GCL, clogging, desiccation, and long -term aging 
+
+of liner materials are not expl icitly considered. 
+
+Future studies should extend the proposed framework in several directions. Experimental column -
+
+test data or field monitoring data should be incorporated to further evaluate the practical 
+
+applicability of the H -PINN model for real composite liner systems. T he governing equations can 
+
+also be expanded to account for multi -species reactive transport, nonlinear adsorption, time -
+
+dependent degradation, and concentration -dependent hydraulic and diffusion properties. In 
+
+addition, future work may consider two -dimensi onal or three -dimensional contaminant migration, 
+
+including defects, wrinkles, overlap zones, and nonuniform leachate heads, which are commonly 
+
+encountered in practical liner applications. Credit Author Statement 
+
+Dong Li: Methodology, Formal analysis, Investigation, Writing the original draft, Reviewing and 
+
+editing the manuscript; Yapeng Cao: Reviewing and editing the manuscript, Funding acquisition, 
+
+Supervision, Methodology; Haiping Fu : Conceptualization, Reviewing and editing the manuscript ,
+
+Validation; Shutong H an : Visualization, Reviewing and editing the manuscript. 
+
+Competing Interests Statement 
+
+The authors declare there are no competing interests. 
+
+# Data Availability Statement 
+
+Data generated or analyzed during this study are available from the corresponding author upon 
+
+reasonable request. 
+
+# Acknowledgements 
+
+The authors gratefully acknowledge the support of National Natural Science Foundation of China 
+
+(Grant No. 42401176). 
+
+# References 
+
+Acar, Y.B. and Haider, L., 1990. Transport of low -concentration contaminants in saturated earthen 
+
+barriers. Journal of Geotechnical Engineering , 116 (7), pp.1031 -1052. 
+
+Angelidaki, I., Mogensen, A.S. and Ahring, B.K., 2000. Degradation of organic contaminants found in organic 
+
+waste. Biodegradation, 11, pp.377 -383. 
+
+Berardi, M., Difonzo, F.V. and Icardi, M., 2025. Inverse physics -informed neural networks for transport models 
+
+in porous materials. Computer Methods in Applied Mechanics and Engineering , 435 , p.117628. 
+
+Bradshaw, S. L., Benson, C. H., Scalia IV, J., 2013. Hydration and cation exchange during subgrade hydration 
+
+and effect on hydraulic conductivity of geosynthetic clay liners. Geotext. Geomembranes 139(4), 526 -538. 
+
+Chen, Y., Xie, H., Ke, H. and Chen, R., 2009. An analytical solution for one -dimensional contaminant diffusion 
+
+through multi -layered system and its applications. Environmental Geology, 58, pp.1083 -1094. Dickinson, S. and Brachman, R.W.I., 2008. Assessment of alternative protection layers for a geomembrane –
+
+geosynthetic clay liner (GM –GCL) composite liner. Canadian Geotechnical Journal, 45(11), 1594 -1610. 
+
+Du, Y.J., Shen, S.L., Liu, S.Y. and Hayashi, S., 2009. Contaminant mitigating performance of Chinese standard 
+
+municipal solid waste landfill liner systems. Geotextiles and Geomembranes, 27(3), pp.232 -239. 
+
+Faroughi, S.A., Soltanmohammadi, R., Datta, P., Mahjour, S.K. and Faroughi, S., 2023. Physics -informed neural 
+
+networks with periodic activation functions for solute transport in heterogeneous porous 
+
+media. Mathematics , 12 (1), p.63. 
+
+Feng, S.J., Peng, M.Q., Chen, H.X. and Chen, Z.L., 2019. Fully transient analytical solution for degradable 
+
+organic contaminant transport through GMB/GCL/AL composite liners. Geotextiles and 
+
+Geomembranes , 47 (3), pp.282 -294. 
+
+Foose, G.J., Benson, C.H. and Edil, T.B., 2002. Comparison of solute transport in three composite liners. Journal 
+
+of Geotechnical and Geoenvironmental Engineering, 128(5), pp.391 -403. 
+
+Foose, G.J., 2010. A steady -state approach for evaluating the impact of solute transport through composite liners 
+
+on groundwater quality. Waste Management, 30(8 -9), pp.1577 -1586. 
+
+Guan, C., Xie, H.J., Wang, Y.Z., Chen, Y.M., Jiang, Y.S. and Tang, X.W., 2014. An analytical model for solute 
+
+transport through a GCL -based two -layered liner considering biodegradation. Science of the total 
+
+environment, 466, pp.221 -231. 
+
+Guyonnet, D., Perrochet, P., Come, B., Seguin, J.J. and Parriaux, A., 2001. On the hydro -dispersive equivalence 
+
+between multi -layered mineral barriers. Journal of Contaminant Hydrology, 51(3 -4), pp.215 -231. 
+
+He, Q. and Tartakovsky, A.M., 2021. Physics‐informed neural network method for forward and backward 
+
+advection‐dispersion equations. Water Resources Research , 57 (7), p.e2020WR029479. 
+
+Jo, H. Y., Katsumi, T., Benson, C. H., Edil, T. B., 2001. Hydraulic conductivity and swelling of nonprehydrated 
+
+GCLs permeated with single -species salt solutions. J. Geotech. Geoenviron. Eng. 127(7), 557 -567. 
+
+Jo, H. Y., Benson, C. H., Shackelford, C. D., Lee, J. M., Edil, T. B., 2005. Long -term hydraulic conductivity 
+
+of a geosynthetic clay liner permeated with inorganic salt solutions. J. Geotech. Geoenviron. Eng. 131(4), 
+
+405 -417. 
+
+Kalbe, U., Mü ller, W.W., Berger, W. and Eckardt, J., 2002. Transport of organic contaminants within composite 
+
+liner systems. Applied Clay Science, 21(1 -2), pp.67 -76. 
+
+Ke, Z.W., Wei, S.J., Yao, S.Y., Chen, S., Chen, Y.M. and Li, Y.C., 2025. Pre -trained physics -informed neural 
+
+networks for analysis of contaminant transport in soils. Computers and Geotechnics, 180, p.107055. 
+
+Kolstad, D.C., Benson, C.H. Edil, T.B., 2004. Hydraulic conductivity and swell of nonprehydrated geosynthetic 
+
+clay liners permeated with multispecies inorganic solutions. Geotext. Geomembranes 130, 1236 -1249. 
+
+Koerner RM. Designing geosynthetics. 5th edition. New Jers ey: Prentice Hall; 2008. 
+
+Li, Y.C. and Cleall, P.J., 2011. Analytical solutions for advective –dispersive solute transport in double‐layered 
+
+finite porous media. International Journal for Numerical and Analytical Methods in Geomechanics, 35(4), 
+
+pp.438 -460. 
+
+Li, D., Zhao, H. and Tian, K., 2024. Hydraulic conductivity of bentonite -polymer geosynthetic clay liners to 
+
+aggressive solid waste leachates. Geotextiles and Geomembranes , 52 (5), pp.900 -911. 
+
+Li, D., Jiang, Z., Tian, K. and Ji, R., 2025. Prediction of hydraulic conductivity of sodium bentonite GCLs by 
+
+machine learning approaches. Environmental Geotechnics , 12 (2), pp.154 -173. 
+
+Li, D., Huang, S., Cao, Y., Cui, Y., Wei, X., Cao, H. , 2026. Lagged backward -compatible physics -informed 
+
+neural networks for unsaturated soil consolidation analysis. arXiv preprint. 
+
+https://doi.org/10.48550/arXiv.2602.07031 Liu, C. and Ball, W.P., 1998. Analytical modeling of diffusion -limited contamination and decontamination in a 
+
+two -layer porous medium. Advances in Water Resources, 21(4), pp.297 -313. 
+
+Nwankpa, C., Ijomah, W., Gachagan, A. and Marshall, S., 2018. Activation functions: Comparison of trends in 
+
+practice and research for deep learning. arXiv preprint arXiv:1811.03378. 
+
+Olasupo, A., Corbin, D.R. and Shiflett, M.B., 2024. Trends in low temperature and non -thermal technologies for 
+
+the degradation of persistent organic pollutants. Journal of Hazardous Materials, 468, p.133830. 
+
+Raissi, M., Perdikaris, P. and Karniadakis, G.E., 2019. Physics -informed neural networks: A deep learning 
+
+framework for solving forward and inverse problems involving nonlinear partial differential 
+
+equations. Journal of Computational physics , 378 , pp.686 -707. 
+
+Rowe, R.K. and Booker, J.R., 2005. POLLUTE v7: Pollutant migration through a non -homogeneous soil. GAEA 
+
+Environmental Engineering Ltd, Whitby, Canada. 
+
+Rowe, R.K., 2011. Systems engineering: the design and operation of municipal solid waste landfills to minimize 
+
+contamination of groundwater. Geosynthetics International, 18(6), pp.391 -404. 
+
+Rowe, R.K., Reinert, J., Li, Y. and Awad, R., 2023. The need to consider the service life of all components of a 
+
+modern MSW landfill liner system. Waste Management, 161, pp.43 -51. 
+
+Saadat, M.H., Gjorgiev, B., Das, L. and Sansavini, G., 2022. Neural tangent kernel analysis of PINN for 
+
+advection -diffusion equation. arXiv preprint arXiv:2211.11716 .
+
+Sawhney, B.L. and Kozloski, R.P., 1984. Organic pollutants in leachates from landfill sites (Vol. 13, No. 3, pp. 
+
+349 -352). American Society of Agronomy, Crop Science Society of America, and Soil Science Society of 
+
+America. 
+
+USEPA (United States Environmental Protection Agency). National primary drinking water standards. EPA 
+
+816 -F-01 -007. Cincinnati : United States Environmental Protection Agency Office of Water; 2001 
+
+Varank, G., Demir, A., Top, S., Sekman, E., Akkaya, E., Yetilmezsoy, K. and Bilgili, M.S., 2011. Migration 
+
+behavior of landfill leachate contaminants through alternative composite liners. Science of the Total 
+
+Environment, 409(17), pp.3183 -3196. 
+
+Weber, R., Watson, A., Forter, M. and Oliaei, F., 2011. Persistent organic pollutants and landfills -a review of 
+
+past experiences and future challenges. Waste Management & Research, 29(1), pp.107 -121. 
+
+Wu, X., Shi, J. and He, J., 2016. Analytical solutions for diffusion of organic contaminant through GCL triple -
+
+layer composite liner considering degradation in liner. Environmental Earth Sciences, 75, pp.1 -18. 
+
+Zhao, H., Li, D., Benavides, M.P. and Tian, K., 2025. Water uptake and water retention behaviour of bentonite -
+
+polymer geosynthetic clay liners. Environmental Geotechnics , pp.1 -15. 
+
+Zhang, H.J., Jeng, D.S., Barry, D.A., Seymour, B.R. and Li, L., 2013. Solute transport in nearly saturated porous 
+
+media under landfill clay liners: A finite deformation approach. Journal of Hydrology, 479, pp.189 -199.
