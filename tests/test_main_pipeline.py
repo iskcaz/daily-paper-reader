@@ -277,6 +277,84 @@ class MainPipelineTest(unittest.TestCase):
             latest = json.loads((latest_dir / "journal-papers.json").read_text(encoding="utf-8"))
             self.assertEqual(latest, [])
 
+    def test_sync_journal_website_data_from_docs_meta_adds_generated_journal_papers(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            docs_dir = root / "docs"
+            meta_dir = docs_dir / "202606" / "04"
+            latest_dir = docs_dir / "journals"
+            history_dir = latest_dir / "history"
+            meta_dir.mkdir(parents=True, exist_ok=True)
+            latest_dir.mkdir(parents=True, exist_ok=True)
+            history_dir.mkdir(parents=True, exist_ok=True)
+            (latest_dir / "journal-papers.json").write_text(
+                json.dumps(
+                    [
+                        {
+                            "id": "journal-old",
+                            "source": "journal",
+                            "doi": "10.1021/acs.est.5c16011",
+                            "title": "Existing EST paper",
+                            "published": "2026-06-03",
+                            "journal_label": "EST",
+                            "open_pdf_available": False,
+                            "open_pdf_status": "no_open_pdf",
+                        }
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (meta_dir / "papers.meta.json").write_text(
+                json.dumps(
+                    {
+                        "papers": [
+                            {
+                                "source": "journal",
+                                "title_en": "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+                                "authors": "Shantanu V. Bhide, Stanley B. Grant",
+                                "date": "2026-06-01",
+                                "pdf": "https://doi.org/10.1016/j.watres.2026.125692",
+                                "link": "",
+                                "abstract_en": "Urban catchment salinization abstract.",
+                                "doi": "10.1016/j.watres.2026.125692",
+                                "journal": "Water Research",
+                                "journal_label": "WR",
+                                "tags": "query:coastal-pfas",
+                            },
+                            {
+                                "source": "arxiv",
+                                "title_en": "Non journal paper",
+                                "date": "2026-06-01",
+                            },
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            with patch.object(self.mod, "ROOT_DIR", str(root)):
+                result = self.mod.sync_journal_website_data_from_docs_meta(str(docs_dir))
+
+            self.assertEqual(result["synced"], 1)
+            latest = json.loads((latest_dir / "journal-papers.json").read_text(encoding="utf-8"))
+            dois = {row["doi"] for row in latest}
+            self.assertIn("10.1021/acs.est.5c16011", dois)
+            self.assertIn("10.1016/j.watres.2026.125692", dois)
+            wr = next(row for row in latest if row["doi"] == "10.1016/j.watres.2026.125692")
+            self.assertEqual(wr["journal_label"], "WR")
+            self.assertEqual(wr["authors"], ["Shantanu V. Bhide", "Stanley B. Grant"])
+            self.assertEqual(wr["open_pdf_available"], False)
+            self.assertEqual(wr["open_pdf_status"], "no_open_pdf")
+            self.assertIsNone(wr["pdf_url"])
+            self.assertEqual(wr["abs_url"], "https://doi.org/10.1016/j.watres.2026.125692")
+
+            month_rows = json.loads((history_dir / "2026-06.json").read_text(encoding="utf-8"))
+            self.assertIn("10.1016/j.watres.2026.125692", {row["doi"] for row in month_rows})
+            index = json.loads((history_dir / "index.json").read_text(encoding="utf-8"))
+            self.assertEqual(index["latest"], "2026-06")
+
     def test_main_runs_local_rerank_without_remote_rerank_base(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

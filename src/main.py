@@ -5,6 +5,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
@@ -19,9 +20,9 @@ except Exception:  # pragma: no cover
     yaml = None
 
 try:
-    from maintain.journal_history import update_journal_history
+    from maintain.journal_history import normalize_open_pdf_fields, update_journal_history
 except Exception:  # pragma: no cover - compatible when imported as package
-    from src.maintain.journal_history import update_journal_history
+    from src.maintain.journal_history import normalize_open_pdf_fields, update_journal_history
 
 
 SRC_DIR = os.path.dirname(__file__)
@@ -182,6 +183,128 @@ def save_json(path: str, data: Any) -> None:
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def _split_meta_authors(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item or "").strip() for item in value if str(item or "").strip()]
+    text = str(value or "").strip()
+    if not text:
+        return []
+    return [item.strip() for item in text.split(",") if item.strip()]
+
+
+def _split_meta_tags(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item or "").strip() for item in value if str(item or "").strip()]
+    text = str(value or "").strip()
+    if not text:
+        return []
+    return [item.strip() for item in re.split(r"[,;]\s*", text) if item.strip()]
+
+
+def _journal_row_from_docs_meta(item: dict[str, Any]) -> dict[str, Any] | None:
+    if not isinstance(item, dict):
+        return None
+    if str(item.get("source") or "").strip().lower() != "journal":
+        return None
+
+    doi = str(item.get("doi") or "").strip()
+    title = str(item.get("title_en") or item.get("title") or "").strip()
+    if not doi and not title:
+        return None
+
+    link = str(item.get("link") or "").strip()
+    pdf = str(item.get("pdf") or item.get("pdf_url") or "").strip()
+    doi_url = f"https://doi.org/{doi}" if doi else ""
+    abs_url = link or doi_url
+    if not abs_url and pdf:
+        abs_url = pdf
+
+    row = {
+        "id": f"journal-{_slugify_doi_or_title(doi or title)}",
+        "source": "journal",
+        "source_detail": "docs-meta",
+        "source_paper_id": doi,
+        "doi": doi,
+        "title": title,
+        "abstract": str(item.get("abstract_en") or "").strip(),
+        "authors": _split_meta_authors(item.get("authors")),
+        "primary_category": "environmental-science",
+        "categories": ["environmental-science", "journal-watch"],
+        "published": str(item.get("date") or item.get("published") or "").strip(),
+        "link": abs_url,
+        "abs_url": abs_url,
+        "pdf_url": pdf or None,
+        "journal": str(item.get("journal") or "").strip(),
+        "journal_label": str(item.get("journal_label") or "").strip(),
+        "publisher": str(item.get("publisher") or "").strip(),
+        "source_weight": 10,
+        "metadata_sources": ["docs-meta"],
+        "tags": _split_meta_tags(item.get("tags")),
+    }
+    return normalize_open_pdf_fields(row)
+
+
+def _slugify_doi_or_title(value: str) -> str:
+    text = str(value or "").strip().lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+    return text or "paper"
+
+
+def load_journal_rows_from_docs_meta(docs_dir: str) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for dirpath, _, filenames in os.walk(docs_dir):
+        if "papers.meta.json" not in filenames:
+            continue
+        path = os.path.join(dirpath, "papers.meta.json")
+        payload = load_json_safe(path)
+        papers = payload.get("papers") if isinstance(payload, dict) else []
+        if not isinstance(papers, list):
+            continue
+        for item in papers:
+            row = _journal_row_from_docs_meta(item) if isinstance(item, dict) else None
+            if row:
+                rows.append(row)
+    return rows
+
+
+def sync_journal_website_data_from_docs_meta(docs_dir: str | None = None) -> dict[str, Any]:
+    safe_docs_dir = docs_dir or os.path.join(ROOT_DIR, "docs")
+    meta_rows = load_journal_rows_from_docs_meta(safe_docs_dir)
+    if not meta_rows:
+        return {"synced": 0, "month_count": 0}
+
+    latest_path = os.path.join(ROOT_DIR, "docs", "journals", "journal-papers.json")
+    history_dir = os.path.join(ROOT_DIR, "docs", "journals", "history")
+    existing_rows = load_json_safe(latest_path)
+    if not isinstance(existing_rows, list):
+        existing_rows = []
+    merged_rows = merge_paper_lists(existing_rows, meta_rows)
+
+    temp_path = ""
+    try:
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".json", delete=False) as tmp:
+            temp_path = tmp.name
+            json.dump(merged_rows, tmp, ensure_ascii=False, indent=2)
+        result = update_journal_history(
+            input_path=temp_path,
+            latest_path=latest_path,
+            history_dir=history_dir,
+        )
+    finally:
+        if temp_path:
+            try:
+                os.remove(temp_path)
+            except OSError:
+                pass
+    print(
+        f"[INFO] synced journal website data from docs meta: "
+        f"meta_rows={len(meta_rows)} latest_rows={len(merged_rows)} "
+        f"months={result['month_count']}",
+        flush=True,
+    )
+    return {"synced": len(meta_rows), **result}
 
 
 def _split_source_env(value: str) -> list[str]:
@@ -869,6 +992,8 @@ def main() -> None:
         ],
         env=resolve_summary_step_env(),
     )
+    if journal_sources_enabled(_load_full_config()):
+        sync_journal_website_data_from_docs_meta(os.path.join(ROOT_DIR, "docs"))
 
 
 if __name__ == "__main__":

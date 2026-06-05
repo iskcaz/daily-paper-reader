@@ -380,7 +380,7 @@
     "source_paper_id": "10.1021/acs.est.5c16011",
     "doi": "10.1021/acs.est.5c16011",
     "title": "Per- and Polyfluoroalkyl Substances and Total Organic Fluorine Ratios from Field-Collected Light Nonaqueous Phase Liquids and Groundwater",
-    "abstract": "",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Mireia Roig-Paul",
       "Jeff Ford",
@@ -419,7 +419,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -709,7 +710,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125669",
     "doi": "10.1016/j.watres.2026.125669",
     "title": "Redistribution of anthropogenic nitrate via artificial snowmaking to mountain aquifers: Isotopic evidence and biogeochemical pathways",
-    "abstract": "",
+    "abstract": "Artificial snow production is widely used as an adaptation strategy for winter tourism under climate warming, yet its influence on nitrogen (N) redistribution within mountain hydrological systems remains poorly constrained. Traditionally regarded as a temporary redistribution of water, technical snow may also redistribute anthropogenic nitrate contained in source waters to soils and groundwater. This study examines the influence of large-scale snowmaking on nitrogen dynamics in a temperate mountain catchment in South Korea. Seasonal monitoring showed that NO3--N concentrations in summit groundwater remained higher than background levels during snowmelt, in contrast to dilution patterns observed in stream water. Isotopic signatures of artificial snow closely resembled those of the source stream water, suggesting minimal isotopic modification during the snowmaking process. Dual isotope relationships and Monte Carlo simulations provided no clear isotopic evidence for substantial denitrification in summit groundwater. We applied a dual-isotope approach (δ18O-H2O and δ15N-NO3-), combined with Bayesian mixing, to evaluate the relative contributions of rainfall, natural snow, and artificial snow to mountain groundwater. The results suggest that artificial snow is a substantial contributor to groundwater nitrate relative to natural precipitation sources, although the magnitude of this contribution is subject to uncertainty associated with end-member characterization. Overall, these findings suggest that artificial snow primarily functions as a conduit for redistributing anthropogenic nitrogen, with implications for groundwater nitrate persistence under increasing snowmaking activity.",
     "authors": [
       "Hyejung Jung",
       "Yalalt Nyamgerel",
@@ -741,7 +742,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -933,7 +935,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -999,7 +1002,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",

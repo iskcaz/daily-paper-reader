@@ -24,7 +24,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-04T17:10:16.977046+00:00",
+    "updated_at": "2026-06-05T05:01:19.093182+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c13805",
     "abs_url": "https://doi.org/10.1021/acs.est.5c13805",
     "pdf_url": null,
@@ -47,207 +47,6 @@
       "core-journal",
       "est"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c14654",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c14654",
-    "doi": "10.1021/acs.est.5c14654",
-    "title": "LDH-Enhanced Degradation of PFASs: Influence of Reactant Configurations within Nanoconfined Spaces on Hydrated Electron Transport",
-    "abstract": "Hydrated electron (eaq–) reduction is an efficient pathway for degrading per- and polyfluoroalkyl substances (PFASs). Nanoconfined spaces can shield eaq– from quenchers in bulk solution and shorten diffusion distances, thereby enhancing utilization efficiency. However, the role of eaq– precursors and PFASs configurations within nanoconfined domains in governing eaq– transport remains unclear. In this study, polyindole (Pind) was synthesized within layered double hydroxide (LDH) interlayers as an eaq– precursor, while perfluorooctanoic acid (PFOA) was simultaneously enriched through electrostatic interaction. Although the eaq– yield increased with Pind loading, the PFOA degradation rate followed a unimodal trend, reaching a maximum at 27.2% Pind loading, where complete degradation was achieved within 3 h. Molecular dynamics simulations revealed stronger hydrophobic interactions among Pind molecules than between Pind and PFOA, leading to a configuration where PFOA surrounded Pind aggregates. With increasing Pind loading, this arrangement forced more eaq– to travel longer distances to attack C–F bonds, reducing their utilization efficiency despite higher overall yields. This “yield-transport” self-antagonism underscores the critical role of nanoconfined configurations in eaq– transport and utilization efficiency and provides mechanistic insights for the rational design and optimization of nanoconfinement systems.",
-    "authors": [
-      "Jingyi Feng",
-      "Hao Lu",
-      "Jing Hua",
-      "Na Sun",
-      "Jing Jiang",
-      "Kun Qian",
-      "Qi Yu",
-      "Anfei He",
-      "Haoting Tian"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-04T17:10:16.977352+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c14654",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Degradation (telecommunications)",
-      "Perfluorooctanoic acid",
-      "Diffusion",
-      "Chemistry",
-      "Chemical physics",
-      "Molecular dynamics",
-      "Yield (engineering)",
-      "Molecule"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c16011",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c16011",
-    "doi": "10.1021/acs.est.5c16011",
-    "title": "Per- and Polyfluoroalkyl Substances and Total Organic Fluorine Ratios from Field-Collected Light Nonaqueous Phase Liquids and Groundwater",
-    "abstract": "",
-    "authors": [
-      "Mireia Roig-Paul",
-      "Jeff Ford",
-      "Chris G. Heron",
-      "Sid Park",
-      "Patrick N. Reardon",
-      "Isabelle E. Logan",
-      "Esteban E. Hernandez",
-      "Shae Hubbard",
-      "Mitchell Kim-Fu",
-      "Ansel Moll",
-      "Gerrad D. Jones",
-      "Jennifer A. Field"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-04T17:10:16.977508+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c16011",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c16011",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Groundwater",
-      "Chemistry",
-      "Environmental chemistry",
-      "Phase (matter)",
-      "Fluorine",
-      "Chlorinated solvents",
-      "Water pollution",
-      "Dissolved organic carbon"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1016-j-jhazmat-2026-142173",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142173",
-    "doi": "10.1016/j.jhazmat.2026.142173",
-    "title": "Target and semi-quantitative non-target analysis of per- and polyfluoroalkyl substances (PFAS) in Arctic animals",
-    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are pervasive environmental contaminants due to their persistence, bioaccumulation potential and adverse effects. This study applied target and non-target screening analysis in an exploratory approach to investigating emerging PFAS in Arctic animals, including polar bears, ringed seals, glaucous gulls, ptarmigans and shorthorn sculpin. Target analysis detected 21 PFAS, with the highest ∑PFAS in a polar bear sample (3238 ng/g wet weight (ww)). Perfluorooctane sulfonate (PFOS) was still the dominant PFAS except for shorthorn sculpin, where perfluoropentane sulfonate (PFPeS) prevailed. Several replacement PFAS (including perfluoro-4-ethylcyclohexane sulfonates (PFECHS), chlorinated polyfluoroalkylether sulfonates (Cl-PFESA) and 4,8-dioxa-3H-perfluorononanoic acid (ADONA)) and the precursor perfluorooctane sulfonamide (PFOSA) were also detected, with highest concentrations in polar bears. Non-target screening identified 16 emerging PFAS, with polar bears showing the greatest diversity (13 compounds), followed by ringed seals (4) and glaucous gulls (4) while no additional emerging PFAS were identified in ptarmigan and shorthorn sculpin. Among these PFAS, 2H,2H,3H,3H-perfluorodecanoic acid (7:3 fluorotelomercarboxylic acid; FTCA) and perfluorooctylphosphonic acid (PFOPA) were detected across multiple species. A semi-quantification approach indicated that emerging PFAS may contribute substantially to the overall PFAS burden in polar bear, ringed seal and glaucous gull samples, highlighting the importance of expanding PFAS monitoring and conducting risk assessments of emerging PFAS in Arctic ecosystems. • PFAS profiles in high-trophic level Arctic animals are still dominated by PFOS. • Perfluoropentane sulfonate (PFPeS) was the predominant PFAS in Arctic fish. • Non-target screening revealed 16 emerging PFAS in polar bears, seals and gulls. • Semi-quantified levels of emerging PFAS contributed significantly to total PFAS. • Arctic animals are exposed to complex mixtures of PFAS and other pollutants.",
-    "authors": [
-      "Linyan Zhu",
-      "Rossana Bossi",
-      "Pedro N. Carvalho",
-      "Rune Dietz",
-      "Christian Sonne",
-      "Jens Søndergaard",
-      "Katrin Vorkamp"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-04T17:10:25.248513+00:00",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
-    "pdf_url": null,
-    "journal": "Journal of Hazardous Materials",
-    "journal_key": "jhm",
-    "journal_label": "JHM",
-    "journal_issn": [
-      "0304-3894"
-    ],
-    "source_weight": 8,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Environmental chemistry",
-      "Arctic",
-      "Environmental science",
-      "Chemistry",
-      "The arctic",
-      "Pollutant",
-      "Water pollution",
-      "Thermokarst"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -440,6 +239,72 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c14654",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c14654",
+    "doi": "10.1021/acs.est.5c14654",
+    "title": "LDH-Enhanced Degradation of PFASs: Influence of Reactant Configurations within Nanoconfined Spaces on Hydrated Electron Transport",
+    "abstract": "Hydrated electron (eaq–) reduction is an efficient pathway for degrading per- and polyfluoroalkyl substances (PFASs). Nanoconfined spaces can shield eaq– from quenchers in bulk solution and shorten diffusion distances, thereby enhancing utilization efficiency. However, the role of eaq– precursors and PFASs configurations within nanoconfined domains in governing eaq– transport remains unclear. In this study, polyindole (Pind) was synthesized within layered double hydroxide (LDH) interlayers as an eaq– precursor, while perfluorooctanoic acid (PFOA) was simultaneously enriched through electrostatic interaction. Although the eaq– yield increased with Pind loading, the PFOA degradation rate followed a unimodal trend, reaching a maximum at 27.2% Pind loading, where complete degradation was achieved within 3 h. Molecular dynamics simulations revealed stronger hydrophobic interactions among Pind molecules than between Pind and PFOA, leading to a configuration where PFOA surrounded Pind aggregates. With increasing Pind loading, this arrangement forced more eaq– to travel longer distances to attack C–F bonds, reducing their utilization efficiency despite higher overall yields. This “yield-transport” self-antagonism underscores the critical role of nanoconfined configurations in eaq– transport and utilization efficiency and provides mechanistic insights for the rational design and optimization of nanoconfinement systems.",
+    "authors": [
+      "Jingyi Feng",
+      "Hao Lu",
+      "Jing Hua",
+      "Na Sun",
+      "Jing Jiang",
+      "Kun Qian",
+      "Qi Yu",
+      "Anfei He",
+      "Haoting Tian"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093587+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c14654",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Degradation (telecommunications)",
+      "Perfluorooctanoic acid",
+      "Diffusion",
+      "Chemistry",
+      "Chemical physics",
+      "Molecular dynamics",
+      "Yield (engineering)",
+      "Molecule"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c15760",
     "source": "journal",
     "source_detail": "crossref",
@@ -504,6 +369,76 @@
       "Environmental chemistry",
       "Electron transfer",
       "Dissolution"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16011",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16011",
+    "doi": "10.1021/acs.est.5c16011",
+    "title": "Per- and Polyfluoroalkyl Substances and Total Organic Fluorine Ratios from Field-Collected Light Nonaqueous Phase Liquids and Groundwater",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Mireia Roig-Paul",
+      "Jeff Ford",
+      "Chris G. Heron",
+      "Sid Park",
+      "Patrick N. Reardon",
+      "Isabelle E. Logan",
+      "Esteban E. Hernandez",
+      "Shae Hubbard",
+      "Mitchell Kim-Fu",
+      "Ansel Moll",
+      "Gerrad D. Jones",
+      "Jennifer A. Field"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093783+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16011",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16011",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Groundwater",
+      "Chemistry",
+      "Environmental chemistry",
+      "Phase (matter)",
+      "Fluorine",
+      "Chlorinated solvents",
+      "Water pollution",
+      "Dissolved organic carbon"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -775,7 +710,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125669",
     "doi": "10.1016/j.watres.2026.125669",
     "title": "Redistribution of anthropogenic nitrate via artificial snowmaking to mountain aquifers: Isotopic evidence and biogeochemical pathways",
-    "abstract": "",
+    "abstract": "Artificial snow production is widely used as an adaptation strategy for winter tourism under climate warming, yet its influence on nitrogen (N) redistribution within mountain hydrological systems remains poorly constrained. Traditionally regarded as a temporary redistribution of water, technical snow may also redistribute anthropogenic nitrate contained in source waters to soils and groundwater. This study examines the influence of large-scale snowmaking on nitrogen dynamics in a temperate mountain catchment in South Korea. Seasonal monitoring showed that NO3--N concentrations in summit groundwater remained higher than background levels during snowmelt, in contrast to dilution patterns observed in stream water. Isotopic signatures of artificial snow closely resembled those of the source stream water, suggesting minimal isotopic modification during the snowmaking process. Dual isotope relationships and Monte Carlo simulations provided no clear isotopic evidence for substantial denitrification in summit groundwater. We applied a dual-isotope approach (δ18O-H2O and δ15N-NO3-), combined with Bayesian mixing, to evaluate the relative contributions of rainfall, natural snow, and artificial snow to mountain groundwater. The results suggest that artificial snow is a substantial contributor to groundwater nitrate relative to natural precipitation sources, although the magnitude of this contribution is subject to uncertainty associated with end-member characterization. Overall, these findings suggest that artificial snow primarily functions as a conduit for redistributing anthropogenic nitrogen, with implications for groundwater nitrate persistence under increasing snowmaking activity.",
     "authors": [
       "Hyejung Jung",
       "Yalalt Nyamgerel",
@@ -807,7 +742,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -999,7 +935,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1065,7 +1002,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex"
+      "openalex",
+      "docs-meta"
     ],
     "tags": [
       "environmental-science",
@@ -1337,6 +1275,69 @@
       "Biostimulation",
       "Environmental remediation",
       "Pyrene"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142173",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142173",
+    "doi": "10.1016/j.jhazmat.2026.142173",
+    "title": "Target and semi-quantitative non-target analysis of per- and polyfluoroalkyl substances (PFAS) in Arctic animals",
+    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are pervasive environmental contaminants due to their persistence, bioaccumulation potential and adverse effects. This study applied target and non-target screening analysis in an exploratory approach to investigating emerging PFAS in Arctic animals, including polar bears, ringed seals, glaucous gulls, ptarmigans and shorthorn sculpin. Target analysis detected 21 PFAS, with the highest ∑PFAS in a polar bear sample (3238 ng/g wet weight (ww)). Perfluorooctane sulfonate (PFOS) was still the dominant PFAS except for shorthorn sculpin, where perfluoropentane sulfonate (PFPeS) prevailed. Several replacement PFAS (including perfluoro-4-ethylcyclohexane sulfonates (PFECHS), chlorinated polyfluoroalkylether sulfonates (Cl-PFESA) and 4,8-dioxa-3H-perfluorononanoic acid (ADONA)) and the precursor perfluorooctane sulfonamide (PFOSA) were also detected, with highest concentrations in polar bears. Non-target screening identified 16 emerging PFAS, with polar bears showing the greatest diversity (13 compounds), followed by ringed seals (4) and glaucous gulls (4) while no additional emerging PFAS were identified in ptarmigan and shorthorn sculpin. Among these PFAS, 2H,2H,3H,3H-perfluorodecanoic acid (7:3 fluorotelomercarboxylic acid; FTCA) and perfluorooctylphosphonic acid (PFOPA) were detected across multiple species. A semi-quantification approach indicated that emerging PFAS may contribute substantially to the overall PFAS burden in polar bear, ringed seal and glaucous gull samples, highlighting the importance of expanding PFAS monitoring and conducting risk assessments of emerging PFAS in Arctic ecosystems. • PFAS profiles in high-trophic level Arctic animals are still dominated by PFOS. • Perfluoropentane sulfonate (PFPeS) was the predominant PFAS in Arctic fish. • Non-target screening revealed 16 emerging PFAS in polar bears, seals and gulls. • Semi-quantified levels of emerging PFAS contributed significantly to total PFAS. • Arctic animals are exposed to complex mixtures of PFAS and other pollutants.",
+    "authors": [
+      "Linyan Zhu",
+      "Rossana Bossi",
+      "Pedro N. Carvalho",
+      "Rune Dietz",
+      "Christian Sonne",
+      "Jens Søndergaard",
+      "Katrin Vorkamp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:29.741831+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Arctic",
+      "Environmental science",
+      "Chemistry",
+      "The arctic",
+      "Pollutant",
+      "Water pollution",
+      "Thermokarst"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
