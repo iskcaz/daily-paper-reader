@@ -250,5 +250,1298 @@
     "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01391",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01391",
+    "doi": "10.1021/acs.est.6c01391",
+    "title": "Wastewater Surveillance to Inform Cancer Epidemiology and Evidence-Based Interventions",
+    "abstract": "",
+    "authors": [
+      "Hannah G. Healy",
+      "Catherine Hoar",
+      "Warish Ahmed",
+      "Kyle Bibby",
+      "Aaron Bivins",
+      "Devin A. Bowes",
+      "Amanda Darling",
+      "Natalie C. DuPré",
+      "Raul Gonzalez",
+      "Rui Guo",
+      "George S. Grills",
+      "Christi J. Guerrini",
+      "Rochelle H. Holm",
+      "Sandra L. Kavalukas",
+      "David J. Lee",
+      "Amy L. McGuire",
+      "Cresten Mansfeldt",
+      "Anthony Maresso",
+      "Christopher E. Mason",
+      "Timothy R. Rebbeck",
+      "Ted Smith",
+      "Helena M Solo-Gabriele"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-04T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093097+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01391",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01391",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18743",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18743",
+    "doi": "10.1021/acs.est.5c18743",
+    "title": "Chemical Kinetic and Mechanistic Investigation of Cobalt and Manganese Recovery from Aqueous Solutions by Ozone Oxidative Precipitation",
+    "abstract": ", MnOOH) formed nucleation sites that promoted Co adsorption and coprecipitation, a mechanism supported by SEM-EDS, XRD, FT-IR, XPS, and Zeta Potential analyses confirming the formation of Mn oxide phases facilitating surface-mediated Co capture. Overall, these findings provide mechanistic and kinetic insight into ozone-based Co-Mn recovery and establish a basis for process design and optimization in critical metal recovery applications.",
+    "authors": [
+      "Younes Shekarian",
+      "Mohammad Rezaee",
+      "Sarma V. Pisupati"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093526+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18743",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18743",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Chemistry",
+      "Aqueous solution",
+      "Ozone",
+      "Manganese",
+      "Cobalt",
+      "Adsorption",
+      "Inorganic chemistry",
+      "Precipitation"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01273",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01273",
+    "doi": "10.1021/acs.est.6c01273",
+    "title": "Data-Driven Identification of Constraints and Enabling Pathways for Energy-Positive Wastewater Treatment",
+    "abstract": "",
+    "authors": [
+      "Zi Zhang",
+      "Yuqing Yan",
+      "Xiatong Li",
+      "Emily Mayo",
+      "Zhiyong Jason Ren"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093685+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01273",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01273",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Sewage treatment",
+      "Identification (biology)",
+      "Environmental science",
+      "Waste management",
+      "Wastewater",
+      "Water treatment",
+      "Environmental engineering",
+      "Biochemical engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c15760",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c15760",
+    "doi": "10.1021/acs.est.5c15760",
+    "title": "Molecular Evolution of Organic Matter Humification Governs Ferrihydrite Transformation: Interfacial Electron Transfer Mechanisms and Carbon Preservation Implications",
+    "abstract": "During soil humification, organic matter (OM) develops distinct compositional and chemical signatures across the progressive stages. However, how these evolving OM characteristics influence iron (hydr)oxide transformation and ultimately regulate carbon preservation remains unclear. Through controlled anaerobic incubation experiments with ferrihydrite (Fh) and straw-derived OM from sequential soil humification stages under Fe(II)-mediated conditions, we found that advancing humification increasingly inhibited Fh crystallization, reducing its transformation to lepidocrocite/goethite from 45.3% in the degradation stage to 21.5% in the maturation stage. This stage-dependent inhibition correlated strongly with the accumulation of highly unsaturated and phenolic compounds (HUPs), which disrupted interfacial electron transfer and mineral nucleation, which are key processes in secondary mineral formation. Mechanistically, HUPs facilitated ternary Fh-OM-Fe(II) complex formation via the C-O-Fe bond, enhancing Fe(II) adsorption while narrowing the Fe(II)-Fh redox potential gap to suppress interfacial electron transfer. Furthermore, HUPs reduced the mineral surface potential and impeded particle agglomeration, thereby disrupting the crystallization of nucleation precursors. Consequently, the inhibited Fh transformation facilitated the selective adsorption of HUPs and their molecular conversion to condensed aromatics, thereby preferentially preserving organic carbon from advanced humification stages. These findings highlight the stage-dependent regulation of Fh transformation by humified OM and its implication for carbon preservation, advancing our understanding of coupled carbon-iron biogeochemistry in soils.",
+    "authors": [
+      "Wenfeng Huang",
+      "Bo Chen",
+      "Jingyi Zhang",
+      "Chengpeng Yuan",
+      "Zehong Zhang",
+      "Quan Qian",
+      "Kexin Chen",
+      "Qi Liu",
+      "Xiangyang Gui",
+      "Liyang Hu",
+      "Xinde Cao",
+      "Xiaoyun Xu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-03T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093471+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c15760",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15760",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ferrihydrite",
+      "Humus",
+      "Chemistry",
+      "Organic matter",
+      "Adsorption",
+      "Environmental chemistry",
+      "Electron transfer",
+      "Dissolution"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18754",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18754",
+    "doi": "10.1021/acs.est.5c18754",
+    "title": "Improving Kinetic Prediction and Structural-Electronic Mechanistic Coherence in the Fenton Process via a Cross-Scale Machine-Learning Framework",
+    "abstract": "Accurately predicting and understanding contaminant degradation kinetics in advanced oxidation processes remains challenging due to the fragmented and even contradictory structure- and electronic-driven mechanistic interpretations, which traditional linear and isolated experimental methods fail to integrate across these multiscale drivers. This study developed a unified multiscale machine-learning framework that fused molecular fingerprints (MFs) and quantum chemical features (QCFs) of contaminants to predict the kobs of contaminant degradation in the Fenton process, aiming to link structural and electronic drivers. Compared with single-scale models, the fusion model achieved a higher predictive performance and robustness across all evaluated algorithms. More importantly, feature fusion reshaped the feature importance landscape, yielding a coherent structural–electronic mechanistic interpretation in which electronic reactivity is expressed in a structure-dependent manner rather than acting as an isolated molecular property. Interaction analyses (e.g., UMAP and t-SNE) further reveal the complementarity between MFs and QCFs by visualizing their distribution patterns. Partial dependence analyses reveal the synergistic interactions between key environmental factors (e.g., pH) and contaminant properties, defining optimal kinetic regimes for degradation kinetics. External validation experiments confirm the generalizability of the fusion model to unseen contaminants and varying reaction conditions. Overall, this proposed framework reconciles mechanistic understanding and provides a basis for rational optimization of the Fenton process.",
+    "authors": [
+      "Sheng Li",
+      "Ling Yuan",
+      "Yingying Chu",
+      "Chen Chen",
+      "Yujia Ma",
+      "Weiming Zhang",
+      "Jieshu Qian",
+      "Lu Lv",
+      "Bingcai Pan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:19.093814+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18754",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18754",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Process (computing)",
+      "Coherence (philosophical gambling strategy)",
+      "Kinetic energy",
+      "Chemistry",
+      "Biological system",
+      "Biochemical engineering",
+      "Degradation (telecommunications)",
+      "Environmental science"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125798",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125798",
+    "doi": "10.1016/j.watres.2026.125798",
+    "title": "An attention fusion of Fourier-analysis-based transformer and CNN-BiLSTM for coastal inorganic nitrogen concentration forecasts",
+    "abstract": "",
+    "authors": [
+      "Zhefeng Xu",
+      "Yubo Pang",
+      "Wenlu Lan",
+      "Yan Deng",
+      "Yucai Bai",
+      "Yang Yang",
+      "Xiaoyan Peng",
+      "Jinping Cheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.640086+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125798",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125798",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Fusion",
+      "Environmental engineering",
+      "Nitrogen",
+      "Transformer",
+      "Waste management",
+      "Environmental chemistry",
+      "Nitrogen oxides"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125752",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125752",
+    "doi": "10.1016/j.watres.2026.125752",
+    "title": "Atomically engineered Fe/Mn catalysts enable ultrafast self-sustaining water purification via oxidant-free Fenton-like electron-transfer reaction",
+    "abstract": "",
+    "authors": [
+      "Ping Zhang",
+      "Chenchen Zhao",
+      "Fei Jiang",
+      "Chuyang Wu",
+      "Tianqi Wang",
+      "Xing Xu",
+      "Mengjie Wu",
+      "Zhanli Chen",
+      "Youqin Zou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.640199+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125752",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125752",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Portable water purification",
+      "Catalysis",
+      "Ultrashort pulse",
+      "Materials science",
+      "Water treatment",
+      "Nanotechnology",
+      "Chemical engineering",
+      "Chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125742",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125742",
+    "doi": "10.1016/j.watres.2026.125742",
+    "title": "Quantitative assessment of denitrification rates at the freshwater-saltwater interface of a limestone island based on isotopic tracers and mass balance calculation",
+    "abstract": "",
+    "authors": [
+      "Takahiro Hosono",
+      "Takatomo Ikehara",
+      "Jun Yasumoto",
+      "Yasuyuki Ueji",
+      "Ko Yasumoto",
+      "Ryogo Takada",
+      "Hiroki Yamamoto",
+      "Adina Paytan",
+      "Ryuichi Shinjo"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.639713+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125742",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125742",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Denitrification",
+      "Nitrate",
+      "Environmental science",
+      "Groundwater",
+      "Nitrogen",
+      "Aquifer",
+      "Surface water",
+      "Hydrology (agriculture)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125669",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125669",
+    "doi": "10.1016/j.watres.2026.125669",
+    "title": "Redistribution of anthropogenic nitrate via artificial snowmaking to mountain aquifers: Isotopic evidence and biogeochemical pathways",
+    "abstract": "",
+    "authors": [
+      "Hyejung Jung",
+      "Yalalt Nyamgerel",
+      "Kyung-Seok Ko",
+      "Dong-Chan Koh",
+      "Weon-Seo Kee",
+      "Jeonghoon Lee"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.639766+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125669",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125669",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Snow",
+      "Nitrate",
+      "Biogeochemical cycle",
+      "Denitrification",
+      "Groundwater",
+      "Temperate climate",
+      "Hydrology (agriculture)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125841",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125841",
+    "doi": "10.1016/j.watres.2026.125841",
+    "title": "Synergistic bacteria-virus aggregation boosts electrochemical disinfection on LIG-based electroconductive surfaces",
+    "abstract": "",
+    "authors": [
+      "Nandini Dixit",
+      "Akhila M. Nair",
+      "Arnab Ghosh",
+      "Swatantra P. Singh"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.639738+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125841",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125841",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Anode",
+      "Electrochemistry",
+      "Adsorption",
+      "Chemical engineering",
+      "Electrode",
+      "Materials science",
+      "Bacteria",
+      "Chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125811",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125811",
+    "doi": "10.1016/j.watres.2026.125811",
+    "title": "The ecological gain of using bioactivated carbon and ozone sewage treatments assessed using freshwater microcosms",
+    "abstract": "/g TOC), their combinations, and an untreated control. HPLC-MS/MS analysis confirmed the high persistence of micropollutants in untreated effluents, which showed the highest predicted mixture toxicity throughout the exposure. Treatments combining BAC with ozone resulted in the lowest residual micropollutant concentrations, which continued to decline over time. Ecological responses differed across trophic levels. Algal biomass was reduced in ozone-treated effluents, reflecting combined effects of altered nutrient supply, resource availability and residual chemical stress, whereas zooplankton and macroinvertebrate communities remained structurally robust. Microbial communities in the water column showed pronounced treatment-dependent restructuring, and functional prediction indicated reduced representation of taxa involved in pollutant degradation and nitrogen cycling under high ozone conditions. Structural equation modeling supported these patterns by showing that early changes at the base of the food web were linked to shifts in micropollutant levels and nutrient availability, while pathways to higher trophic levels remained weak and did not propagate beyond microbes and primary producers. Overall, combining BAC with moderate ozonation offered the most favourable balance between micropollutant removal and ecological compatibility, whereas high ozone intensity introduced discernible functional impact to microbial communities. These findings highlight the importance of jointly considering chemical removal performance and ecological responses when selecting advanced wastewater treatment strategies.",
+    "authors": [
+      "Dailing Wu",
+      "Koen van Gijn",
+      "Lara Schuijt",
+      "Myrthe van Venetië",
+      "Guang-Guo Ying",
+      "Hauke Smidt",
+      "Paul J. van den Brink"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.640000+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125811",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125811",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Microcosm",
+      "Environmental science",
+      "Ozone",
+      "Sewage",
+      "Carbon fibers",
+      "Environmental engineering",
+      "Environmental chemistry",
+      "Ecology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125692",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125692",
+    "doi": "10.1016/j.watres.2026.125692",
+    "title": "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+    "abstract": "when normalized by the 20,000 people living in the watershed. In winter months, higher infiltration routes a large fraction of snowmelt and deicers into shallow subsurface pathways, enhancing vadose-zone and interflow contributions to stream salinity. Limited subsurface storage capacity and seasonal hydrologic turnover flush excess chloride from the vadose zone and groundwater during subsequent summer storms. By linking climate-driven deicer inputs, hydrologic connectivity, and stream water age, the framework provides a transferable basis for diagnosing and managing freshwater salinization in urban watersheds.",
+    "authors": [
+      "Shantanu V. Bhide",
+      "Stanley B. Grant",
+      "Kevin McGuire",
+      "Karen Prestegaard",
+      "Sujay S. Kaushal",
+      "Andrew J. Sekellick",
+      "Megan A. Rippy",
+      "Todd Schenk",
+      "Shannon Curtis",
+      "Jesus D. Gomez-Velez",
+      "Erin R. Hotchkiss",
+      "Peter Vikesland",
+      "Siddharth Saksena"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.639865+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125692",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125692",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Environmental science",
+      "Hydrology (agriculture)",
+      "Transit time",
+      "Soil salinity",
+      "Water resource management",
+      "Water quality",
+      "Hydrological modelling",
+      "Groundwater"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125804",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125804",
+    "doi": "10.1016/j.watres.2026.125804",
+    "title": "Yields and stormwater loads of microplastics in five urban stormwater catchments (City of Kitchener, Ontario, Canada)",
+    "abstract": "• MP concentrations, loads, and yields quantified across five stormwater catchments. • Hydrologic modeling coupled with sediment surveys and particle-mass balances. • Results reported in both particle- and mass-based units. • MP yields resolved by polymer type, size class, and particle shape. • Rubber and sediment yields covaried with MP yields and land use metrics. Urban stormwater runoff is a major pathway for microplastic (MP) pollution to aquatic environments. In this study, MPs from five stormwater catchments (SWCs) in the City of Kitchener, Ontario, Canada, were analyzed in water and sediment samples collected at their receiving stormwater ponds (SWPs). We integrated MP characterization targeting particles between 20 and 500 µm using a Laser Direct Infrared (LDIR) system with hydrological modeling, measured sediment accumulation rates, and particle to mass conversion calculations to quantify MP concentrations and loads. The LDIR data included polymer type, size class, and particle shape. Inflow concentrations to the SWPs ranged from 4.9 × 10 6 to 4 × 10 7 particles m -3 and from 5.8 × 10 -2 to 0.9 g m -3 , yielding annual loads of 9.7 × 10 11 to 3.5 × 10 12 particles yr -1 and 1.1 × 10 4 to 8 × 10 4 g yr -1 . Per unit impervious surface area MP yields fell in the range 3.6 × 10 10 to 2.1 × 10 11 particles ha -1 yr -1 and 4.2 × 10 2 to 4.9 × 10 3 g ha -1 yr -1 , while normalized to the total SWC area produced 1.7 × 10 10 -1.9 × 10 11 particles ha -1 yr -1 and 2 × 10 2 -4.3 × 10 3 g ha -1 yr -1 . Fragments were the dominant morphology (94-98% by count; 83-91% by mass). MPs smaller than 100 µm comprised 92.6-97.3% of particle counts but only 32.1-60.8% of mass, whereas MPs larger than 500 µm accounted for 0.2-0.8% of particle counts but 5.9-33.9% of mass. Yields showed no systematic differences across broad land-use categories and no correlation with total population. Instead, positive associations were observed with residential population density and with SWC imperviousness, including strong correlations with rubber and several polymer-specific yields. Annual average daily traffic was not related to total MP loads from SWCs but aligned with the relative abundances of specific polymers, particularly polystyrene and polycarbonate. Yields of rubber particles correlated with overall MP yields, reinforcing the role of road traffic as a source. Road and mixed-impervious cover considered independently were not significant predictors, but their ratio explained the relative yields of fragments, fibers, and selected polymers.",
+    "authors": [
+      "Mir Amir Mohammad Reshadi",
+      "Fereidoun Rezanezhad",
+      "Sarah Kaykhosravi",
+      "Thu Hang Nguyen",
+      "Stephanie Slowinski",
+      "Ali Reza Shahvaran",
+      "Lewis Alcott",
+      "Monica Puopolo",
+      "Buuan Lam",
+      "Philippe Van Cappellen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:25.639921+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125804",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125804",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Stormwater",
+      "Environmental science",
+      "Microplastics",
+      "Environmental engineering",
+      "Surface runoff",
+      "Hydrology (agriculture)",
+      "Stormwater management",
+      "Urban runoff"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00344",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00344",
+    "doi": "10.1021/acs.estlett.6c00344",
+    "title": "Satellite Observations Reveal Increasing Offshore Gas Flaring Activity and Atmospheric Emissions in the Bohai Sea, China",
+    "abstract": "",
+    "authors": [
+      "Wenqi Liu",
+      "Shaojie Song",
+      "Zimeng Yang",
+      "Yu Zhang",
+      "Ruiqing Huo",
+      "Linxuan Li",
+      "Yinchang Feng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:21.462052+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00344",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00344",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 9,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Satellite",
+      "Submarine pipeline",
+      "China",
+      "Remote sensing",
+      "Atmospheric sciences",
+      "Atmosphere (unit)",
+      "Greenhouse gas"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142102",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142102",
+    "doi": "10.1016/j.jhazmat.2026.142102",
+    "title": "A risk-nutrition duality framework for assessing drinking water suitability in an intensively cultivated Alluvial Plain: – A case study of Xiayi country, South-Center Huang-Huai Plain, China",
+    "abstract": "",
+    "authors": [
+      "Ye Tian",
+      "Hao Peng",
+      "Qi Fan",
+      "Jian Li",
+      "Qinyu Gong",
+      "Yongfeng Zhao",
+      "Zhiqiang Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:29.741962+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142102",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142102",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Suitability analysis",
+      "Environmental science",
+      "China",
+      "Water resource management",
+      "Hydrology (agriculture)",
+      "Water quality",
+      "Environmental engineering",
+      "Water pollution"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142260",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142260",
+    "doi": "10.1016/j.jhazmat.2026.142260",
+    "title": "Acetaminophen inhibits denitrification in Paracoccus denitrificans: Bioenergetic constraint and periplasmic electron transfer impairment",
+    "abstract": "",
+    "authors": [
+      "Zhi-Hui Dong",
+      "Yu Zhang",
+      "Jing Lu",
+      "Yi-Fan Zhu",
+      "Cheng-Jun Lu",
+      "Jian Yang",
+      "Zheng-Zhe Zhang",
+      "Ren-Cun Jin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:29.741657+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142260",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142260",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Periplasmic space",
+      "Chemistry",
+      "Denitrification",
+      "Bioenergetics",
+      "Electron transport chain",
+      "Paracoccus denitrificans",
+      "Biochemistry",
+      "Biophysics"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142169",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142169",
+    "doi": "10.1016/j.jhazmat.2026.142169",
+    "title": "Beyond solubilization: Interface PAH biodegradation in nonaqueous-phase liquids treated with a plant biosurfactant",
+    "abstract": "Biodegradation of polycyclic aromatic hydrocarbons (PAHs) in non-aqueous phase liquids (NAPLs) is constrained by limited bioavailability. Plant-derived biosurfactants offer sustainable alternatives to enhance remediation, yet their efficacy in NAPL systems remains unexplored. We investigated how Quillaja saponin affects PAH partitioning and biodegradation in biphasic NAPL systems using heptamethylnonane (HMN) and creosote/HMN mixtures with Mycobacterium gilvum and the microbial population from a creosote-polluted soil. Saponin enhanced aqueous-phase PAH concentrations in all systems. However, enhanced partitioning did not consistently translate to faster biodegradation. In HMN, saponin inhibited phenanthrene (PHE) mineralization by reducing bacterial adhesion to the NAPL interface, whereas pyrene degradation was enhanced due to slower diffusivity counteracting adhesion effects. In creosote-containing NAPLs, saponin substantially enhanced PHE partitioning but did not increase degradation rates, which remained controlled by continuous intra-NAPL diffusion of multiple high-molecular-weight PAHs sustaining interfacial bacterial activity. Community analysis revealed that saponin promoted growth of Gram-negative bacteria (primarily Pseudomonas) in the aqueous phase or enhanced Gram-positive bacterial colonization at the NAPL/water interface, at high and low saponin-to-PAH ratio, respectively. These divergent outcomes reveal a context-dependent dual mechanism: saponin simultaneously solubilizes PAHs and provides biostimulation, but efficacy depends critically on NAPL composition, PAH diffusion kinetics, and carbon availability. Our findings demonstrate that a dual mechanism combining solubilization and biostimulation offers a cost-effective, low-toxicity approach for sustainable remediation of persistent organic contaminants across diverse subsurface scenarios, from NAPL source zones to distal contamination plumes. SYNOPSIS: The dual solubilization and biostimulation mechanism of saponin determines NAPL-PAH remediation efficacy based on composition and diffusion kinetics.",
+    "authors": [
+      "Alicia Fernandez-Vazquez",
+      "Maria Jordán",
+      "Rosa Posada-Baquero",
+      "Joaquim Vila",
+      "Magdalena Grifoll",
+      "Jose-Julio Ortega-Calvo"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:29.741929+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142169",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142169",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Biodegradation",
+      "Chemistry",
+      "Phenanthrene",
+      "Rhamnolipid",
+      "Environmental chemistry",
+      "Biostimulation",
+      "Environmental remediation",
+      "Pyrene"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-scitotenv-2026-181839",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.scitotenv.2026.181839",
+    "doi": "10.1016/j.scitotenv.2026.181839",
+    "title": "Exposure of contaminated sites to landslides and floods in Switzerland",
+    "abstract": "Switzerland has around 38,000 registered contaminated sites, including deposit sites, operational sites, shooting ranges, and accident sites. Natural hazards are an effective pathway for remobilising contaminants from such sites - either by physical processes, such as erosion through landslides and dynamic floods, or by chemical processes through static floods. In this study, we assess the exposure of contaminated sites to landslides and floods by spatially intersecting maps of contaminated sites and natural hazard zones. We present examples of contaminated site types where processes of landslides and floods can trigger remobilisation of contaminants. Our exposure analysis identified around 2200 sites prone to landslides and 11,500 sites prone to flooding. In Switzerland, the exposure of contaminated sites to floods, and the associated remobilisation of contaminants, is included in the assessment of the need for remediation. Our study shows that due to the significant number of contaminated sites at risk of landslides, this natural hazard should also be considered when assessing the need for remediation. Especially landslides that remobilise contaminated soil and reach surface waters are expected to cause widespread dispersal of contaminants. The presented method for assessing the exposure of contaminated sites to natural hazards is simple and cost-effective. As long as spatial data on contaminated sites and natural hazards are available, it can be applied in other contexts. Hence, the approach may also be of interest for other countries facing multi-hazard exposure of contaminated sites.",
+    "authors": [
+      "Ariane Grimmer",
+      "Markus Mosimann",
+      "Andreas Zischg",
+      "Adrien Mestrot"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "stoten"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:28.160804+00:00",
+    "link": "https://doi.org/10.1016/j.scitotenv.2026.181839",
+    "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181839",
+    "pdf_url": null,
+    "journal": "Science of the Total Environment",
+    "journal_key": "stoten",
+    "journal_label": "STOTEN",
+    "journal_issn": [
+      "0048-9697"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "stoten"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Landslide",
+      "Contamination",
+      "Environmental science",
+      "Natural (archaeology)",
+      "Natural hazard",
+      "Erosion",
+      "Hazard",
+      "Hazard analysis"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-scitotenv-2026-181825",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.scitotenv.2026.181825",
+    "doi": "10.1016/j.scitotenv.2026.181825",
+    "title": "Genetic insights into the rise of marine turtle strandings in Denmark (1926–2025): Environmental and biogeographic context",
+    "abstract": "Marine turtles are traditionally restricted to tropical and subtropical waters, where temperature regimes support their thermoregulation, navigation, and migratory behaviour. Despite this, rare strandings have historically occurred in northern European regions, including Denmark. Here, we present the first century-scale consolidation of marine turtle stranding records in Denmark (1926-2025), revealing a sharp rise in strandings since 2020-particularly between 2024 and early 2025-exceeding all events recorded in the previous 94 years. We conducted mitochondrial DNA analysis on stranded loggerhead (Caretta caretta), leatherback (Dermochelys coriacea), and green turtles (Chelonia mydas) collected over the past 26 years. D-loop haplotypes indicate that most individuals carried lineages previously reported from rookeries in the North Atlantic and Greater Caribbean, with some haplotypes also documented in West Africa. One C. mydas carried a distinct Omani haplotype associated with the northwestern Indian Ocean lineage, consistent with anthropogenic introduction. Environmental parameters, including sea surface temperature, wind speed, and storm frequency, were analysed alongside the stranding records, suggesting associations between stranding events and seasonal climatic conditions, particularly during winter months. Our results suggest that oceanographic conditions and cold-stunning during winter months may contribute to the increasing number of strandings observed in temperate waters. The recent rise in turtle strandings in Denmark highlights the importance of monitoring marine turtle occurrences at the northern limits of their distribution. Integrating genetic data with environmental observations provides a useful framework for understanding how marine turtle movements and strandings may respond to changing marine conditions.",
+    "authors": [
+      "Tejs Gørgens Nielsen",
+      "Michael Paul Jensen",
+      "Joelly Espinoza",
+      "Morten E. Allentoft",
+      "Alonzo Alfaro-Núñez"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "stoten"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:28.160637+00:00",
+    "link": "https://doi.org/10.1016/j.scitotenv.2026.181825",
+    "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181825",
+    "pdf_url": null,
+    "journal": "Science of the Total Environment",
+    "journal_key": "stoten",
+    "journal_label": "STOTEN",
+    "journal_issn": [
+      "0048-9697"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "stoten"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Turtle (robot)",
+      "Rookery",
+      "Geography",
+      "Subtropics",
+      "Fishery",
+      "Ecology",
+      "Temperate climate",
+      "Oceanography"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-scitotenv-2026-181862",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.scitotenv.2026.181862",
+    "doi": "10.1016/j.scitotenv.2026.181862",
+    "title": "Wastewater-based surveillance for seasonal respiratory viruses provides a one-week lead to clinical cases and hospital admissions",
+    "abstract": "",
+    "authors": [
+      "Nicole Acosta",
+      "Xiaotian Dai",
+      "Xuewen Lu",
+      "Barbara J. Waddell",
+      "Kristine Du",
+      "Aito Ueno",
+      "Alexander Buchner Beaudet",
+      "María A. Bautista",
+      "Janine McCalder",
+      "Chloe Papparis",
+      "Daniela Naomi De la Torre Espinoza",
+      "Danielle A. Southern",
+      "Tyler Williamson",
+      "Rhonda G. Clark",
+      "Jia Hu",
+      "R. Benson Weyant",
+      "Jason L. Cabaj",
+      "Jamil N. Kanji",
+      "John M. Conly",
+      "Kevin Frankowski",
+      "Christine O'Grady",
+      "Bonita Lee",
+      "Judy Qiu",
+      "Xiaoli Pang",
+      "Casey R.J. Hubert",
+      "Michael D. Parkins"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "stoten"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-05T05:01:28.161001+00:00",
+    "link": "https://doi.org/10.1016/j.scitotenv.2026.181862",
+    "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181862",
+    "pdf_url": null,
+    "journal": "Science of the Total Environment",
+    "journal_key": "stoten",
+    "journal_label": "STOTEN",
+    "journal_issn": [
+      "0048-9697"
+    ],
+    "source_weight": 8,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "stoten"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Medicine",
+      "Intensive care medicine",
+      "Lead (geology)",
+      "Emergency medicine",
+      "Pneumonia",
+      "Medical emergency",
+      "Respiratory system",
+      "Respiratory tract infections"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]
