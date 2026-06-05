@@ -473,6 +473,105 @@ class GenerateDocsMetaParseTest(unittest.TestCase):
             )
             self.assertNotIn("2026-05-07 ~ 2026-06-05", content)
 
+    def test_load_journal_quick_papers_merges_history_without_duplicates(self):
+        with tempfile.TemporaryDirectory() as d:
+            docs_dir = Path(d) / "docs"
+            journals_dir = docs_dir / "journals"
+            history_dir = journals_dir / "history"
+            history_dir.mkdir(parents=True, exist_ok=True)
+            june_paper = {
+                "id": "journal-10-1016-test",
+                "source": "journal",
+                "doi": "10.1016/test",
+                "title": "Transit time modeling framework for predicting freshwater salinization in urban catchments",
+                "published": "2026-06-01T00:00:00+00:00",
+                "journal": "Water Research",
+                "journal_label": "WR",
+                "link": "https://doi.org/10.1016/test",
+                "abs_url": "https://doi.org/10.1016/test",
+                "open_pdf_available": False,
+                "open_pdf_status": "no_open_pdf",
+                "tags": ["environmental-science"],
+            }
+            may_paper = {
+                "id": "journal-10-1021-may",
+                "source": "journal",
+                "doi": "10.1021/may",
+                "title": "May journal paper",
+                "published": "2026-05-15T00:00:00+00:00",
+                "journal_label": "EST Letters",
+            }
+            old_paper = {
+                "id": "journal-10-1021-old",
+                "source": "journal",
+                "doi": "10.1021/old",
+                "title": "Old journal paper outside range",
+                "published": "2026-04-15T00:00:00+00:00",
+                "journal_label": "EST",
+            }
+            (journals_dir / "journal-papers.json").write_text(
+                json.dumps([june_paper], ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (history_dir / "2026-06.json").write_text(
+                json.dumps([june_paper], ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (history_dir / "2026-05.json").write_text(
+                json.dumps([may_paper, old_paper], ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (history_dir / "index.json").write_text(
+                json.dumps(
+                    {
+                        "months": [
+                            {"month": "2026-06", "path": "docs/journals/history/2026-06.json"},
+                            {"month": "2026-05", "path": "docs/journals/history/2026-05.json"},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            original_root = self.mod.ROOT_DIR
+            self.mod.ROOT_DIR = str(docs_dir.parent)
+            try:
+                papers = self.mod.load_journal_quick_papers(str(docs_dir), "20260507-20260605")
+            finally:
+                self.mod.ROOT_DIR = original_root
+
+            self.assertEqual(len(papers), 2)
+            self.assertEqual({paper["doi"] for paper in papers}, {"10.1016/test", "10.1021/may"})
+            self.assertEqual(papers[0]["source"], "journal")
+            self.assertIn("query:WR", papers[0]["llm_tags"])
+
+            merged = self.mod.merge_journal_papers_into_quick(
+                [{"doi": "10.1016/test", "title": "Already selected"}],
+                papers,
+            )
+            self.assertEqual(len(merged), 2)
+
+    def test_prepare_paper_paths_compacts_very_long_journal_titles(self):
+        with tempfile.TemporaryDirectory() as d:
+            long_title = (
+                "A risk nutrition duality framework for assessing drinking water suitability "
+                "in an intensively cultivated alluvial plain a case study of Xiayi country "
+                "south center Huang Huai plain China"
+            )
+            md_path, txt_path, paper_id = self.mod.prepare_paper_paths(
+                d,
+                "20260507-20260605",
+                long_title,
+                "journal-10-1016-j-jhazmat-2026-142102",
+            )
+
+            self.assertLessEqual(len(Path(md_path).name), self.mod.MAX_PAPER_BASENAME_LENGTH + 3)
+            self.assertTrue(md_path.endswith(".md"))
+            self.assertTrue(txt_path.endswith(".txt"))
+            self.assertIn("20260507-20260605/", paper_id)
+            self.assertIn("-", Path(md_path).stem[-11:])
+
 
 if __name__ == "__main__":
     unittest.main()

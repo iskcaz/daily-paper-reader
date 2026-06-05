@@ -2,6 +2,7 @@
 # Step 6：根据推荐结果生成 Docs（精读区 / 速读区），并更新侧边栏。
 
 import argparse
+import hashlib
 import html
 import json
 import math
@@ -54,6 +55,7 @@ def create_llm_client() -> DeepSeekClient | None:
 LLM_CLIENT = create_llm_client()
 
 DEFAULT_DOCS_CONCURRENCY = 4
+MAX_PAPER_BASENAME_LENGTH = 180
 
 
 def call_llm_text(
@@ -162,6 +164,15 @@ def slugify(title: str) -> str:
     s = re.sub(r"\s+", "-", s)
     s = re.sub(r"[^a-z0-9\-]+", "", s)
     return s or "paper"
+
+
+def compact_paper_basename(value: str, max_length: int = MAX_PAPER_BASENAME_LENGTH) -> str:
+    text = str(value or "").strip("-") or "paper"
+    if len(text) <= max_length:
+        return text
+    digest = hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
+    keep = max(16, max_length - len(digest) - 1)
+    return f"{text[:keep].rstrip('-')}-{digest}"
 
 
 def extract_pdf_text(pdf_path: str) -> str:
@@ -839,7 +850,7 @@ def format_date_str(date_str: str) -> str:
 
 def prepare_paper_paths(docs_dir: str, date_str: str, title: str, arxiv_id: str) -> Tuple[str, str, str]:
     slug = slugify(title)
-    basename = f"{arxiv_id}-{slug}" if arxiv_id else slug
+    basename = compact_paper_basename(f"{arxiv_id}-{slug}" if arxiv_id else slug)
     if RANGE_DATE_RE.match(date_str):
         target_dir = os.path.join(docs_dir, date_str)
         paper_id = f"{date_str}/{basename}"
@@ -1314,6 +1325,149 @@ def resolve_paper_sidebar_url(paper: Dict[str, Any], route_href: str = "") -> st
         return pdf_url
 
     return route_href
+
+
+def _journal_quick_key(paper: Dict[str, Any]) -> str:
+    doi = str(paper.get("doi") or "").strip().lower()
+    if doi:
+        return f"doi:{doi}"
+    paper_id = str(paper.get("id") or paper.get("paper_id") or "").strip().lower()
+    if paper_id:
+        return f"id:{paper_id}"
+    title = str(paper.get("title") or "").strip().lower()
+    return f"title:{title}" if title else ""
+
+
+def _date_digits(value: Any) -> str:
+    text = str(value or "").strip()
+    m = re.search(r"(\d{4})-?(\d{2})-?(\d{2})", text)
+    if not m:
+        return ""
+    return "".join(m.groups())
+
+
+def _in_date_range(published: Any, date_str: str) -> bool:
+    m = RANGE_DATE_RE.match(str(date_str or ""))
+    if not m:
+        return True
+    date_digits = _date_digits(published)
+    if not date_digits:
+        return True
+    return m.group(1) <= date_digits <= m.group(2)
+
+
+def _as_list_text(value: Any) -> List[str]:
+    if isinstance(value, list):
+        return [str(item or "").strip() for item in value if str(item or "").strip()]
+    text = str(value or "").strip()
+    if not text:
+        return []
+    return [item.strip() for item in re.split(r"[,;]\s*", text) if item.strip()]
+
+
+def _journal_row_to_quick_paper(row: Dict[str, Any]) -> Dict[str, Any] | None:
+    if not isinstance(row, dict):
+        return None
+    title = str(row.get("title") or "").strip()
+    if not title:
+        return None
+    paper_id = str(row.get("id") or row.get("source_paper_id") or row.get("doi") or "").strip()
+    if not paper_id:
+        paper_id = slugify(title)
+    journal_label = str(row.get("journal_label") or row.get("journal") or "").strip()
+    tags: List[str] = []
+    for tag in _as_list_text(row.get("tags")) + _as_list_text(row.get("categories")):
+        label = normalize_sidebar_tag(tag)
+        if label and f"query:{label}" not in tags:
+            tags.append(f"query:{label}")
+    if journal_label:
+        journal_tag = f"query:{journal_label}"
+        if journal_tag not in tags:
+            tags.append(journal_tag)
+    return {
+        "id": paper_id,
+        "paper_id": paper_id,
+        "title": title,
+        "authors": _as_list_text(row.get("authors")),
+        "published": str(row.get("published") or "").strip(),
+        "abstract": str(row.get("abstract") or "").strip(),
+        "source": "journal",
+        "doi": str(row.get("doi") or "").strip(),
+        "journal": str(row.get("journal") or "").strip(),
+        "journal_label": journal_label,
+        "publisher": str(row.get("publisher") or "").strip(),
+        "link": str(row.get("abs_url") or row.get("link") or "").strip(),
+        "abs_url": str(row.get("abs_url") or row.get("link") or "").strip(),
+        "pdf_url": str(row.get("pdf_url") or "").strip(),
+        "open_pdf_status": str(row.get("open_pdf_status") or "").strip(),
+        "open_pdf_available": row.get("open_pdf_available"),
+        "open_pdf_note": str(row.get("open_pdf_note") or "").strip(),
+        "llm_score": float(row.get("llm_score") or row.get("score") or 6.0),
+        "llm_tags": tags,
+        "canonical_evidence": f"来自环境期刊监控：{journal_label or 'Journal'}",
+        "selection_source": "journal_website_data",
+    }
+
+
+def load_journal_quick_papers(docs_dir: str, date_str: str = "") -> List[Dict[str, Any]]:
+    journals_dir = os.path.join(docs_dir, "journals")
+    history_dir = os.path.join(journals_dir, "history")
+    paths: List[str] = [os.path.join(journals_dir, "journal-papers.json")]
+    index_path = os.path.join(history_dir, "index.json")
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            index = json.load(f)
+        months = index.get("months") if isinstance(index, dict) else []
+        if isinstance(months, list):
+            for entry in months:
+                rel_path = entry.get("path") if isinstance(entry, dict) else ""
+                if rel_path:
+                    paths.append(os.path.join(ROOT_DIR, rel_path.replace("/", os.sep)))
+    except Exception:
+        pass
+
+    out: List[Dict[str, Any]] = []
+    seen: set[str] = set()
+    for path in paths:
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                rows = json.load(f)
+        except Exception:
+            continue
+        if not isinstance(rows, list):
+            continue
+        for row in rows:
+            if isinstance(row, dict) and not _in_date_range(row.get("published"), date_str):
+                continue
+            paper = _journal_row_to_quick_paper(row) if isinstance(row, dict) else None
+            if not paper:
+                continue
+            key = _journal_quick_key(paper)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            out.append(paper)
+    out.sort(key=lambda item: str(item.get("published") or ""), reverse=True)
+    return out
+
+
+def merge_journal_papers_into_quick(
+    quick_list: List[Dict[str, Any]],
+    journal_papers: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    merged: List[Dict[str, Any]] = []
+    seen: set[str] = set()
+    for paper in list(quick_list or []) + list(journal_papers or []):
+        if not isinstance(paper, dict):
+            continue
+        key = _journal_quick_key(paper)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(paper)
+    return merged
 
 
 def maybe_generate_paper_figures(
@@ -2786,6 +2940,15 @@ def main() -> None:
         log_substep("6.1", "读取 recommend 结果", "END")
     deep_list = payload.get("deep_dive") or []
     quick_list = payload.get("quick_skim") or []
+    journal_quick_list = load_journal_quick_papers(docs_dir, date_str)
+    if journal_quick_list:
+        before_count = len(quick_list)
+        quick_list = merge_journal_papers_into_quick(quick_list, journal_quick_list)
+        recommend_exists = True
+        log(
+            f"[INFO] merged journal website papers into quick skim: "
+            f"quick_before={before_count} journal={len(journal_quick_list)} quick_after={len(quick_list)}"
+        )
 
     def _paper_score(p: dict) -> float:
         try:
