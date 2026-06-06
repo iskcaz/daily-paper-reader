@@ -1,12 +1,67 @@
 [
   {
+    "id": "journal-10-1021-acs-est-5c17904",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17904",
+    "doi": "10.1021/acs.est.5c17904",
+    "title": "Aquaculture Reclamation-Induced Thermo-Carbon Pump: Enhancing Dark Carbon Fixation and Thermal Responsiveness in an Estuarine Wetland",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Min Li",
+      "Pengfei Zheng",
+      "Peng Guo",
+      "Zihao Wang",
+      "Can Wang",
+      "Qiuyu Shen",
+      "Xinyue Niu",
+      "Libang Sheng",
+      "Chengmin Luo",
+      "Xianbiao Lin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-06T00:00:00+00:00",
+    "updated_at": "2026-06-06T20:15:47.628071+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17904",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17904",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c03701",
     "source": "journal",
     "source_detail": "crossref",
     "source_paper_id": "10.1021/acs.est.6c03701",
     "doi": "10.1021/acs.est.6c03701",
     "title": "An Integrated Framework for VOC Source Apportionment Based on Chemical Transport Modeling and Observation-Constrained Optimization",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Volatile organic compounds (VOCs) undergo extensive atmospheric processing, complicating source impact quantification. In this study, we developed an integrated framework for VOC source apportionment by coupling a chemical transport model (CTM) with observation-constrained optimization and applied it to five supersites in the Yangtze River Delta (YRD), China, during May–September 2018. Index of agreement (IOA) was increased by 15–114%, and the root mean square error (RMSE) decreased by 18–71%. Except at the densely vegetated Chenchai Reservoir (CC) site, the cosine similarity between emission and receptor-derived profiles for natural sources ranged from 0.25 to 0.37 at anthropogenically influenced sites, indicating substantial profile divergence driven by complex atmospheric processing. Low-reactivity alkanes were enriched at receptor sites, whereas highly reactive species, such as alkenes and isoprene, were depleted and showed greater temporal variability, reflecting cumulative atmospheric aging. The source apportionment was substantially improved through the markedly better agreement between simulations and observations. Moreover, the receptor-derived source profiles were more environmentally representative, providing a stronger basis for robust source identification by receptor models. The integrated framework may also be extended to PM2.5 source apportionment, even in systems with substantial secondary aerosol contributions.",
     "authors": [
       "Yangjun Wang",
       "Yifei Chen",
@@ -29,7 +84,7 @@
       "est"
     ],
     "published": "2026-06-05T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.987713+00:00",
+    "updated_at": "2026-06-06T20:15:47.628131+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03701",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03701",
     "pdf_url": null,
@@ -45,6 +100,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -52,6 +108,148 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Apportionment",
+      "Environmental science",
+      "Aerosol",
+      "Chemical transport model",
+      "Environmental engineering",
+      "Environmental chemistry",
+      "Divergence (linguistics)",
+      "Chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03640",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03640",
+    "doi": "10.1021/acs.est.6c03640",
+    "title": "Zerovalent Iron-Loaded Biochar Coupled with Ball Milling for Perfluorooctanesulfonic Acid Remediation: Synergistic Capture and Mechanochemical Degradation",
+    "abstract": "Per- and polyfluoroalkyl substances (PFASs), particularly perfluorooctanesulfonic acid (PFOS), are ubiquitous persistent pollutants in environmental matrices at trace concentrations, posing long-term risks to ecological safety and human health. This study developed an integrated system coupling zerovalent iron-loaded biochar (BC-ZVI) with ball milling for simultaneous PFOS capture and degradation. Under optimal conditions, BC-ZVI achieved near-complete removal of 53.8 mg·L–1 PFOS within 60 min (residue below detection limit), with similar efficiency for PFOA, GenX, PFBA, and PFBS. Synergistic electrostatic interactions, pore diffusion, and material hydrophobicity collectively govern the efficient adsorption. Subsequent ball milling degraded 99.9% adsorbed PFOS with 57.9% defluorination within 480 min. Mechanistically, Fe-mediated electron transfer reduces C–S bond dissociation energy from 366.4 to 315.9 kJ·mol–1, facilitating PFOS cleavage to generate CF3(CF2)7· radicals. These radicals predominantly undergo defluorination via the ·OH pathway (ΔG‡ = 97.93 kJ·mol–1), whereas the alternative ·H pathway is kinetically unfavorable due to a prohibitively high energy barrier (ΔG‡ = 907.28 kJ·mol–1). Notably, BC-ZVI maintained robust adsorption capacity after aerobic aging, anaerobic aging, and sulfidation, with only minor impairments to ball milling-mediated PFOS degradation. Recyclability tests demonstrated stable adsorption performance across three consecutive cycles, with a slight decline in degradation efficiency. Integrated assessment confirms that the BC-ZVI/ball milling system represents a sustainable and cost-effective strategy for PFOS remediation.",
+    "authors": [
+      "Min Yang",
+      "Yan Wen",
+      "Shumeng An",
+      "Yiying Zhao",
+      "Zheng Fang",
+      "Ruonan Qiu",
+      "Huihui Chen",
+      "Qiang Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-05T00:00:00+00:00",
+    "updated_at": "2026-06-06T20:15:47.628230+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03640",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03640",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biochar",
+      "Adsorption",
+      "Chemistry",
+      "Chemical engineering",
+      "Radical",
+      "Pollutant",
+      "Ball mill",
+      "Dissociation (chemistry)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18731",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18731",
+    "doi": "10.1021/acs.est.5c18731",
+    "title": "Aromatic Nitrogen-Mediated Enhanced Mineralization of Dissolved Black Carbon through Microbial Dissimilatory Iron Reduction",
+    "abstract": "Microbial dissimilatory iron reduction (DIR) critically influences dissolved organic matter transformation, yet the molecular mechanisms, particularly the nitrogen (N)'s role, remain unclear. Here, we compared dissolved black carbon (DBC, pyrogenic) and leached dissolved organic carbon (LDOC, biogenic) as sole electron donors during DIR. DBC produced 3-fold more ferrous iron than LDOC and achieved higher N-containing compounds mineralization (41% versus 23%), exclusively as ammonium. Fourier-transform ion cyclotron resonance mass spectrometry with N near-edge X-ray absorption fine structure analysis revealed that DBC degradation targets polycyclic aromatic components rich in aromatic N, especially 5-membered rings, accounting for nearly half of dissolved organic nitrogen loss. The estimated electron flux from pyrrolic N degradation alone contributed at least 11% of the total ferrous iron production in DBC. LDOC preferentially removes labile amide N from lignin-like components. N-containing molecular formulas decreased by 51.6% in DBC versus 10.2% in LDOC. Thermodynamic calculations confirm aromatic N dominates degraded DBC. These electron-rich Lewis basic structures form stable iron coordination complexes that facilitate electron transfer and activate adjacent carbon bonds for oxidative ring-cleavage. In contrast, LDOC mineralization followed conventional carbon-centered anaerobic pathways. This study highlights previously overlooked high DBC reactivity in DIR, driven by N-mediated pathways centered on aromatic N.",
+    "authors": [
+      "Zhiyuan Zhang",
+      "Xiurui Cui",
+      "Shujun Yin",
+      "Langsha Yi",
+      "Shu Tao",
+      "Dongqiang Zhu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-04T00:00:00+00:00",
+    "updated_at": "2026-06-06T20:15:47.628300+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18731",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18731",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Mineralization (soil science)",
+      "Environmental chemistry",
+      "Carbon black",
+      "Dissolved organic carbon",
+      "Ferrous",
+      "Biodegradation",
+      "Carbon fibers"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -81,7 +279,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.987991+00:00",
+    "updated_at": "2026-06-06T20:15:47.628420+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c13805",
     "abs_url": "https://doi.org/10.1021/acs.est.5c13805",
     "pdf_url": null,
@@ -122,6 +320,72 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c02923",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02923",
+    "doi": "10.1021/acs.est.6c02923",
+    "title": "Integrated Machine-Learning Framework for Balanced Performance-Safety Design of Iron-Based Remediation Materials",
+    "abstract": "Optimizing iron-based materials via surface coatings and lattice engineering has been a major research focus for environmental remediation, yet higher reactivity to contaminants often elevates risks to organisms. To address this trade-off, we develop an integrated machine-learning framework for the quantitative coassessment of performance and safety. The model was trained on a literature-derived data set of 1007 cases, encompassing 80 iron-based materials, 136 target pollutants, and 50 test organisms. Using AutoGluon, a binary QSAR model was constructed to screen reaction performance and predict the direction of material-pollutant joint toxicity. Inputting molecular descriptors of materials and pollutants alongside experimental conditions, this model achieved robust remediation performance and joint toxicity predictions with balanced accuracy of 0.88 and 0.90, respectively. Feature attribution analysis predicted that material heterogeneity was a key driver of performance, while organismal attributes primarily governed toxicity outcomes, highlighting niche-targeting material doping and hybrid nanobio remediation strategies. A dominance-aware dynamic weighting scheme that integrates calibrated probabilities with an upper-zone attenuation and low-zone penalty was introduced to rank material candidates, plus an applicability-domain filter to limit overconfident extrapolation. These findings support a practical prescreening framework that generates prioritized candidate materials to inform the rational application of iron-based remediation systems.",
+    "authors": [
+      "Qiqi Chen",
+      "Xinyue Wu",
+      "Wanyi Yu",
+      "Zhenjie Li",
+      "Jiang Xu",
+      "Kun Yang",
+      "Jie Hou",
+      "Daohui Lin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-04T00:00:00+00:00",
+    "updated_at": "2026-06-06T20:15:47.628582+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02923",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02923",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Environmental remediation",
+      "Waste management",
+      "Engineering",
+      "Process engineering",
+      "Systems engineering",
+      "Computer science",
+      "Environmental engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c17496",
     "source": "journal",
     "source_detail": "crossref",
@@ -150,7 +414,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988085+00:00",
+    "updated_at": "2026-06-06T20:15:47.628521+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c17496",
     "abs_url": "https://doi.org/10.1021/acs.est.5c17496",
     "pdf_url": null,
@@ -216,7 +480,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.987955+00:00",
+    "updated_at": "2026-06-06T20:15:47.628390+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01455",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01455",
     "pdf_url": null,
@@ -296,7 +560,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.987923+00:00",
+    "updated_at": "2026-06-06T20:15:47.628351+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01391",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01391",
     "pdf_url": null,
@@ -357,7 +621,7 @@
       "est"
     ],
     "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988335+00:00",
+    "updated_at": "2026-06-06T20:15:47.628763+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18743",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18743",
     "pdf_url": null,
@@ -420,7 +684,7 @@
       "est"
     ],
     "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988507+00:00",
+    "updated_at": "2026-06-06T20:15:47.628909+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01273",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01273",
     "pdf_url": null,
@@ -487,7 +751,7 @@
       "est"
     ],
     "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988392+00:00",
+    "updated_at": "2026-06-06T20:15:47.628790+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06486",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06486",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c06486?ref=article_openPDF",
@@ -553,7 +817,7 @@
       "est"
     ],
     "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988420+00:00",
+    "updated_at": "2026-06-06T20:15:47.628824+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c14654",
     "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
     "pdf_url": null,
@@ -623,7 +887,7 @@
       "est"
     ],
     "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988310+00:00",
+    "updated_at": "2026-06-06T20:15:47.628712+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c15760",
     "abs_url": "https://doi.org/10.1021/acs.est.5c15760",
     "pdf_url": null,
@@ -694,7 +958,7 @@
       "est"
     ],
     "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:14.988273+00:00",
+    "updated_at": "2026-06-06T20:15:47.628677+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02538",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02538",
     "pdf_url": null,
@@ -760,7 +1024,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.953045+00:00",
+    "updated_at": "2026-06-06T20:15:48.690119+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125798",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125798",
     "pdf_url": null,
@@ -824,7 +1088,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952925+00:00",
+    "updated_at": "2026-06-06T20:15:48.690006+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126242",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126242",
     "pdf_url": null,
@@ -890,7 +1154,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.953127+00:00",
+    "updated_at": "2026-06-06T20:15:48.690221+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125752",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125752",
     "pdf_url": null,
@@ -956,7 +1220,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952702+00:00",
+    "updated_at": "2026-06-06T20:15:48.689782+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125742",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125742",
     "pdf_url": null,
@@ -1019,7 +1283,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952750+00:00",
+    "updated_at": "2026-06-06T20:15:48.689830+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125669",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125669",
     "pdf_url": null,
@@ -1080,7 +1344,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952725+00:00",
+    "updated_at": "2026-06-06T20:15:48.689806+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125841",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125841",
     "pdf_url": null,
@@ -1144,7 +1408,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952975+00:00",
+    "updated_at": "2026-06-06T20:15:48.690055+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125811",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125811",
     "pdf_url": null,
@@ -1214,7 +1478,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952842+00:00",
+    "updated_at": "2026-06-06T20:15:48.689930+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125692",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125692",
     "pdf_url": null,
@@ -1278,7 +1542,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952671+00:00",
+    "updated_at": "2026-06-06T20:15:48.689750+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126252",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126252",
     "pdf_url": null,
@@ -1293,6 +1557,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -1300,6 +1565,18 @@
       "journal-watch",
       "core-journal",
       "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Reinforcement learning",
+      "Computer science",
+      "Process (computing)",
+      "Sewage treatment",
+      "Stochastic optimization",
+      "Mathematical optimization",
+      "Process optimization",
+      "Game theory"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1332,7 +1609,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:17.952899+00:00",
+    "updated_at": "2026-06-06T20:15:48.689981+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125804",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125804",
     "pdf_url": null,
@@ -1396,7 +1673,7 @@
       "est-letters"
     ],
     "published": "2026-06-02T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:16.167296+00:00",
+    "updated_at": "2026-06-06T20:15:48.213004+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00344",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00344",
     "pdf_url": null,
@@ -1461,7 +1738,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199605+00:00",
+    "updated_at": "2026-06-06T20:15:49.558643+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142102",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142102",
     "pdf_url": null,
@@ -1526,7 +1803,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199301+00:00",
+    "updated_at": "2026-06-06T20:15:49.558360+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142260",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142260",
     "pdf_url": null,
@@ -1589,7 +1866,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199573+00:00",
+    "updated_at": "2026-06-06T20:15:49.558614+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142169",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142169",
     "pdf_url": null,
@@ -1629,68 +1906,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-jhazmat-2026-142086",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142086",
-    "doi": "10.1016/j.jhazmat.2026.142086",
-    "title": "High microplastic-microalga ratios facilitate the short-term growth and dissolved organic matter transformation of marine Porphyridium",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Huankai Li",
-      "Feng Zhang",
-      "Fangfang Miao",
-      "Zhu Yang",
-      "Zongwei Cai"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199851+00:00",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142086",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142086",
-    "pdf_url": null,
-    "journal": "Journal of Hazardous Materials",
-    "journal_key": "jhm",
-    "journal_label": "JHM",
-    "journal_issn": [
-      "0304-3894"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "Dissolved organic carbon",
-      "Environmental chemistry",
-      "Transformation (genetics)",
-      "Organic matter",
-      "Seawater",
-      "Algae",
-      "Biodegradation"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-jhazmat-2026-142614",
     "source": "journal",
     "source_detail": "crossref",
@@ -1717,7 +1932,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199718+00:00",
+    "updated_at": "2026-06-06T20:15:49.558754+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142614",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142614",
     "pdf_url": null,
@@ -1780,7 +1995,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199745+00:00",
+    "updated_at": "2026-06-06T20:15:49.558778+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142625",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142625",
     "pdf_url": null,
@@ -1795,6 +2010,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -1802,6 +2018,18 @@
       "journal-watch",
       "core-journal",
       "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Gene",
+      "Cluster (spacecraft)",
+      "Cell biology",
+      "Gene cluster",
+      "Biology",
+      "Genetics",
+      "Botany"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1831,7 +2059,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:22.199474+00:00",
+    "updated_at": "2026-06-06T20:15:49.558521+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
     "pdf_url": null,
@@ -1892,7 +2120,7 @@
       "stoten"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:19.973587+00:00",
+    "updated_at": "2026-06-06T20:15:49.063090+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181839",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181839",
     "pdf_url": null,
@@ -1954,7 +2182,7 @@
       "stoten"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:19.973429+00:00",
+    "updated_at": "2026-06-06T20:15:49.062894+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181825",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181825",
     "pdf_url": null,
@@ -2037,7 +2265,7 @@
       "stoten"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-05T20:52:19.973778+00:00",
+    "updated_at": "2026-06-06T20:15:49.063248+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181862",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181862",
     "pdf_url": null,
@@ -2116,6 +2344,49 @@
     ],
     "tags": [
       "query:coastal-pfas"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142086",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142086",
+    "doi": "10.1016/j.jhazmat.2026.142086",
+    "title": "High microplastic-microalga ratios facilitate the short-term growth and dissolved organic matter transformation of marine Porphyridium",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Huankai Li",
+      "Feng Zhang",
+      "Fangfang Miao",
+      "Zhu Yang",
+      "Zongwei Cai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-01",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_label": "JHM",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:hazardous-materials",
+      "query:JHM"
     ],
     "open_pdf_source": "",
     "open_pdf_status": "no_open_pdf",

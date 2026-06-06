@@ -1,0 +1,216 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-06T20:54:22.656905+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 3,
+    "quick_skim_target": 11,
+    "quick_selected": 3
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-05-29-728902-v1",
+      "source": "biorxiv",
+      "title": "PFAS exposure is associated with accelerated epigenetic ageing in a wild marine mammal",
+      "abstract": "Chronic contaminant exposure may impose hidden physiological costs long before obvious demographic or health effects become detectable in wildlife populations. Epigenetic clocks quantify biological ageing and may provide sensitive biomarkers of cumulative toxicological stress. Per-and polyfluoroalkyl substances (PFAS) are persistent contaminants that bioaccumulate in marine food webs, yet their long-term physiological consequences for wildlife remain poorly understood. Here, we tested whether PFAS exposure is associated with accelerated biological ageing in common dolphins (Delphinus delphis). We analysed liver PFAS concentrations and skin DNA methylation profiles from 30 stranded or bycaught dolphins from New Zealand waters. Epigenetic age was estimated using a recently developed species-specific epigenetic clock, and age acceleration was calculated as the residual deviation between epigenetic and chronological age. Using an information-theoretic modelling framework, we assessed the effects of total PFAS burden, sex, and their interactions on epigenetic age acceleration. Total PFAS concentrations were positively associated with epigenetic age acceleration, indicating that dolphins with higher PFAS burdens were biologically older than expected for their chronological age.\n\nEach 1 ng g{square}{superscript 1} increase in total PFAS was associated with an average increase of 0.031 years in biological age. Sex did not significantly influence age acceleration, suggesting that PFAS-associated ageing effects occur across both sexes. Although modest, this effect is consistent with PFAS acting as a chronic physiological stressor influencing molecular ageing processes. Our findings provide the first evidence linking PFAS exposure to accelerated biological ageing in a wild mammal, highlighting epigenetic ageing as an integrative biomarker of long-term contaminant effects in wildlife.",
+      "authors": [
+        "Peters, K. J.",
+        "Stockin, K. A.",
+        "Hanninger, E.-M. F.",
+        "Gerber, L."
+      ],
+      "primary_category": "ecology",
+      "categories": [
+        "ecology"
+      ],
+      "published": "2026-05-31T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.05.29.728902v1.full.pdf",
+      "doi": "",
+      "abs_url": "",
+      "pdf_url": "",
+      "journal": "",
+      "journal_key": "",
+      "journal_label": "",
+      "open_pdf_status": "",
+      "open_pdf_available": null,
+      "open_pdf_note": "",
+      "source_weight": null,
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "PFAS occurrence in a marine mammal from coastal waters",
+      "llm_evidence_cn": "近海海洋哺乳动物中的PFAS暴露",
+      "llm_evidence": "近海海洋哺乳动物中的PFAS暴露",
+      "canonical_evidence": "近海海洋哺乳动物中的PFAS暴露",
+      "llm_tldr_en": "This study is relevant because it measures PFAS burdens in a wild marine mammal from New Zealand waters and links exposure to accelerated epigenetic ageing, extending evidence on PFAS occurrence and biological consequences in marine environments.",
+      "llm_tldr_cn": "本文针对海洋环境中PFAS暴露的生态后果证据不足这一问题，研究了新西兰海域野生普通海豚体内PFAS负荷与表观遗传年龄加速之间的关系。作者测定肝脏PFAS浓度并分析皮肤DNA甲基化，利用表观遗传时钟评估长期毒理压力。结果显示，PFAS暴露与生物学衰老加速存在关联。该研究虽不聚焦输运过程，但为理解PFAS在海洋食物网中的出现及生态效应提供了重要海洋环境证据。",
+      "llm_tldr": "本文针对海洋环境中PFAS暴露的生态后果证据不足这一问题，研究了新西兰海域野生普通海豚体内PFAS负荷与表观遗传年龄加速之间的关系。作者测定肝脏PFAS浓度并分析皮肤DNA甲基化，利用表观遗传时钟评估长期毒理压力。结果显示，PFAS暴露与生物学衰老加速存在关联。该研究虽不聚焦输运过程，但为理解PFAS在海洋食物网中的出现及生态效应提供了重要海洋环境证据。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "PFAS occurrence and behavior in coastal marine environments",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "journal-10-1021-acs-est-6c03640",
+      "source": "journal",
+      "title": "Zerovalent Iron-Loaded Biochar Coupled with Ball Milling for Perfluorooctanesulfonic Acid Remediation: Synergistic Capture and Mechanochemical Degradation",
+      "abstract": "Per- and polyfluoroalkyl substances (PFASs), particularly perfluorooctanesulfonic acid (PFOS), are ubiquitous persistent pollutants in environmental matrices at trace concentrations, posing long-term risks to ecological safety and human health. This study developed an integrated system coupling zerovalent iron-loaded biochar (BC-ZVI) with ball milling for simultaneous PFOS capture and degradation. Under optimal conditions, BC-ZVI achieved near-complete removal of 53.8 mg·L–1 PFOS within 60 min (residue below detection limit), with similar efficiency for PFOA, GenX, PFBA, and PFBS. Synergistic electrostatic interactions, pore diffusion, and material hydrophobicity collectively govern the efficient adsorption. Subsequent ball milling degraded 99.9% adsorbed PFOS with 57.9% defluorination within 480 min. Mechanistically, Fe-mediated electron transfer reduces C–S bond dissociation energy from 366.4 to 315.9 kJ·mol–1, facilitating PFOS cleavage to generate CF3(CF2)7· radicals. These radicals predominantly undergo defluorination via the ·OH pathway (ΔG‡ = 97.93 kJ·mol–1), whereas the alternative ·H pathway is kinetically unfavorable due to a prohibitively high energy barrier (ΔG‡ = 907.28 kJ·mol–1). Notably, BC-ZVI maintained robust adsorption capacity after aerobic aging, anaerobic aging, and sulfidation, with only minor impairments to ball milling-mediated PFOS degradation. Recyclability tests demonstrated stable adsorption performance across three consecutive cycles, with a slight decline in degradation efficiency. Integrated assessment confirms that the BC-ZVI/ball milling system represents a sustainable and cost-effective strategy for PFOS remediation.",
+      "authors": [
+        "Min Yang",
+        "Yan Wen",
+        "Shumeng An",
+        "Yiying Zhao",
+        "Zheng Fang",
+        "Ruonan Qiu",
+        "Huihui Chen",
+        "Qiang Liu"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-05T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.6c03640",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.6c03640",
+      "doi": "10.1021/acs.est.6c03640",
+      "updated_at": "2026-06-06T20:15:47.628230+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.6c03640",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Biochar",
+        "Adsorption",
+        "Chemistry",
+        "Chemical engineering",
+        "Radical",
+        "Pollutant",
+        "Ball mill",
+        "Dissociation (chemistry)"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS capture and degradation method relevant to environmental fate control",
+      "llm_evidence_cn": "与PFAS环境归趋调控相关的捕获降解方法",
+      "llm_evidence": "与PFAS环境归趋调控相关的捕获降解方法",
+      "canonical_evidence": "与PFAS环境归趋调控相关的捕获降解方法",
+      "llm_tldr_en": "The paper develops a coupled biochar and ball-milling system for PFOS capture and mechanochemical degradation, with applicability to multiple PFAS. It is not about coastal occurrence or transport, but offers an enabling remediation approach relevant to controlling PFAS fate in environmental waters.",
+      "llm_tldr_cn": "针对PFAS尤其PFOS在环境介质中持久存在且难以兼顾去除与破坏的问题，论文构建了零价铁负载生物炭与球磨耦合体系，实现吸附捕获和机械化学降解一体化。实验表明该体系可在较短时间内近乎完全去除PFOS，并对PFOA、GenX、PFBA和PFBS同样有效。虽然并非近海环境行为研究，但其为控制水环境中PFAS归趋和风险提供了可用技术路径。",
+      "llm_tldr": "针对PFAS尤其PFOS在环境介质中持久存在且难以兼顾去除与破坏的问题，论文构建了零价铁负载生物炭与球磨耦合体系，实现吸附捕获和机械化学降解一体化。实验表明该体系可在较短时间内近乎完全去除PFOS，并对PFOA、GenX、PFBA和PFBS同样有效。虽然并非近海环境行为研究，但其为控制水环境中PFAS归趋和风险提供了可用技术路径。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1016-j-scitotenv-2026-181839",
+      "source": "journal",
+      "title": "Exposure of contaminated sites to landslides and floods in Switzerland",
+      "abstract": "Switzerland has around 38,000 registered contaminated sites, including deposit sites, operational sites, shooting ranges, and accident sites. Natural hazards are an effective pathway for remobilising contaminants from such sites - either by physical processes, such as erosion through landslides and dynamic floods, or by chemical processes through static floods. In this study, we assess the exposure of contaminated sites to landslides and floods by spatially intersecting maps of contaminated sites and natural hazard zones. We present examples of contaminated site types where processes of landslides and floods can trigger remobilisation of contaminants. Our exposure analysis identified around 2200 sites prone to landslides and 11,500 sites prone to flooding. In Switzerland, the exposure of contaminated sites to floods, and the associated remobilisation of contaminants, is included in the assessment of the need for remediation. Our study shows that due to the significant number of contaminated sites at risk of landslides, this natural hazard should also be considered when assessing the need for remediation. Especially landslides that remobilise contaminated soil and reach surface waters are expected to cause widespread dispersal of contaminants. The presented method for assessing the exposure of contaminated sites to natural hazards is simple and cost-effective. As long as spatial data on contaminated sites and natural hazards are available, it can be applied in other contexts. Hence, the approach may also be of interest for other countries facing multi-hazard exposure of contaminated sites.",
+      "authors": [
+        "Ariane Grimmer",
+        "Markus Mosimann",
+        "Andreas Zischg",
+        "Adrien Mestrot"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "stoten"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.scitotenv.2026.181839",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.scitotenv.2026.181839",
+      "doi": "10.1016/j.scitotenv.2026.181839",
+      "updated_at": "2026-06-06T20:15:49.063090+00:00",
+      "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181839",
+      "journal": "Science of the Total Environment",
+      "journal_key": "stoten",
+      "journal_label": "STOTEN",
+      "journal_issn": [
+        "0048-9697"
+      ],
+      "source_weight": 8,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "openalex_concepts": [
+        "Landslide",
+        "Contamination",
+        "Environmental science",
+        "Natural (archaeology)",
+        "Natural hazard",
+        "Erosion",
+        "Hazard",
+        "Hazard analysis"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "contaminant remobilization pathways to waters via floods",
+      "llm_evidence_cn": "洪水导致污染物向水体再迁移的路径",
+      "llm_evidence": "洪水导致污染物向水体再迁移的路径",
+      "canonical_evidence": "洪水导致污染物向水体再迁移的路径",
+      "llm_tldr_en": "This study maps how floods and landslides can remobilize contaminants from legacy contaminated sites, identifying hydrologic transport pathways that could conceptually inform land-to-coastal contaminant delivery analyses, though it is not PFAS-specific or coastal.",
+      "llm_tldr_cn": "该研究针对受污染场地在自然灾害下可能再释放污染物的问题，采用污染地块与滑坡、洪水危险区叠加分析，系统识别洪水与侵蚀触发的污染物迁移路径。结果显示瑞士约有大量污染场地暴露于滑坡和洪水风险之下，提示极端事件可显著增强陆地污染物向受纳水体转移。虽然研究对象并非PFAS且场景不在海岸带，但其关于陆源污染再动员与水文输送的框架可为PFAS入海路径评估提供方法借鉴。",
+      "llm_tldr": "该研究针对受污染场地在自然灾害下可能再释放污染物的问题，采用污染地块与滑坡、洪水危险区叠加分析，系统识别洪水与侵蚀触发的污染物迁移路径。结果显示瑞士约有大量污染场地暴露于滑坡和洪水风险之下，提示极端事件可显著增强陆地污染物向受纳水体转移。虽然研究对象并非PFAS且场景不在海岸带，但其关于陆源污染再动员与水文输送的框架可为PFAS入海路径评估提供方法借鉴。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
