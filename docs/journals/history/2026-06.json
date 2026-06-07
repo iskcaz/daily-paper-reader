@@ -182,7 +182,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -203,7 +204,9 @@
       "Precipitation"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c01273",
@@ -312,7 +315,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -333,7 +337,9 @@
       "Molecule"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-5c15760",
@@ -382,7 +388,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -403,7 +410,9 @@
       "Dissolution"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-5c16011",
@@ -584,7 +593,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -605,7 +615,9 @@
       "Nitrogen oxides"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-125752",
@@ -650,7 +662,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -671,7 +684,12 @@
       "Chemistry"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 1,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1016-j-watres-2026-125742",
@@ -716,7 +734,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -737,7 +756,9 @@
       "Hydrology (agriculture)"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-125669",
@@ -779,7 +800,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -800,7 +822,12 @@
       "Hydrology (agriculture)"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1016-j-watres-2026-125841",
@@ -840,7 +867,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -861,7 +889,9 @@
       "Chemistry"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-125811",
@@ -904,7 +934,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -925,7 +956,9 @@
       "Ecology"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-125692",
@@ -974,7 +1007,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -995,7 +1029,12 @@
       "Groundwater"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1016-j-watres-2026-125804",
@@ -1041,7 +1080,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1062,7 +1102,9 @@
       "Urban runoff"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 1,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00344",
@@ -1106,7 +1148,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1127,7 +1170,9 @@
       "Greenhouse gas"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-jhazmat-2026-142102",
@@ -1170,7 +1215,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1191,7 +1237,9 @@
       "Water pollution"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-jhazmat-2026-142260",
@@ -1298,7 +1346,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1319,7 +1368,9 @@
       "Pyrene"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-jhazmat-2026-142173",
@@ -1362,7 +1413,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1383,7 +1435,9 @@
       "Thermokarst"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-scitotenv-2026-181839",
@@ -1568,7 +1622,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1589,7 +1644,9 @@
       "Respiratory tract infections"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c03701",
@@ -1638,7 +1695,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1659,7 +1717,9 @@
       "Environmental chemistry",
       "Divergence (linguistics)",
       "Chemistry"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-5c17496",
@@ -1840,7 +1900,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1860,7 +1921,9 @@
       "Atrazine",
       "Water pollution"
     ],
-    "open_pdf_available": true
+    "open_pdf_available": true,
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c02538",
@@ -1910,7 +1973,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1931,7 +1995,9 @@
       "Mood disorders"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-126242",
@@ -1974,7 +2040,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -1995,7 +2062,9 @@
       "Polymer"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-126252",
@@ -2038,7 +2107,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -2059,7 +2129,9 @@
       "Mathematical optimization",
       "Process optimization",
       "Game theory"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-jhazmat-2026-142086",
@@ -2166,7 +2238,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -2187,7 +2260,9 @@
       "Denitrification"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-jhazmat-2026-142625",
@@ -2296,7 +2371,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -2305,7 +2381,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Aquaculture",
+      "Land reclamation",
+      "Wetland",
+      "Estuary",
+      "Habitat",
+      "Ecology",
+      "Anaerobic exercise"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03640",
@@ -2499,6 +2587,215 @@
       "Systems engineering",
       "Computer science",
       "Environmental engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126264",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126264",
+    "doi": "10.1016/j.watres.2026.126264",
+    "title": "Assessing global flood-induced occurrence and transmission risks of biological contaminants",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Ke Shi",
+      "Qian-Hang Huang",
+      "Yu-Xin Lin",
+      "Bin-Yuan Gao",
+      "Yu-Qi Wang",
+      "Shu-Hong Gao",
+      "Ai-Jie Wang",
+      "Bin Liang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-07T20:41:47.527999+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126264",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126264",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Contamination",
+      "Environmental science",
+      "Transmission (telecommunications)",
+      "Water pollution",
+      "Environmental engineering",
+      "Risk assessment",
+      "Environmental health",
+      "Environmental protection"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125682",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125682",
+    "doi": "10.1016/j.watres.2026.125682",
+    "title": "Phenoxyl radical-mediated peroxymonosulfate activation for efficient water remediation",
+    "abstract": "Radicals are central to advanced oxidation processes (AOPs). However, the formation and role of organic radicals, particularly phenoxyl radicals, during the remediation of phenolic pollutants remain largely overlooked and misunderstood, often being considered as inactive byproducts or precursors to polymerization. Herein, we demonstrate that phenol spontaneously interacts with Co3O4 to form surface-stabilized phenoxyl radicals, which, contrary to conventional wisdom, do not directly degrade pollutants but predominantly act as essential mediators for activating peroxymonosulfate (PMS). Combined experimental and theoretical analyses reveal that the phenoxyl radicals facilitate the elongation of the OO bond in PMS, thereby significantly lowering the activation barrier. Driven by this unique mediation, the system achieves a remarkable 65.2% enhancement in the pollutant degradation rate and a 70.8% increase in the PMS activation efficiency. The synergy between phenoxyl radicals and the ZnO-derived neutral microenvironment in designed Zn/Co composite oxide enables efficient pollutant degradation over a wide pH range with minimal cobalt leaching. Moreover, this synergy substantially improved the biodegradability of actual industrial wastewater. This work unveils a previously unrecognized but critical pathway in heterogeneous Fenton-like catalysis and provides a novel strategic paradigm for designing highly efficient and environmentally benign oxidation technologies.",
+    "authors": [
+      "Zhuan Chen",
+      "Yan Bao",
+      "Maoxi Ran",
+      "Jiayi Wang",
+      "Jiazhen Cao",
+      "Daqing Jia",
+      "Mingyang Xing"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-07T20:41:47.527613+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125682",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125682",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Radical",
+      "Chemistry",
+      "Pollutant",
+      "Degradation (telecommunications)",
+      "Environmental remediation",
+      "Catalysis",
+      "Phenol",
+      "Biodegradation"
+    ],
+    "citation_count": 3,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125653",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.125653",
+    "doi": "10.1016/j.watres.2026.125653",
+    "title": "Tailoring COFs for highly selective generation of singlet oxygen to boost antibiotic removal: Spatial regulation of PMS and photogenerated carriers",
+    "abstract": "The high-selectivity generation of persulfate radicals (SO5·-) is key to achieving efficient and highly selective production of singlet oxygen (1O2). In this study, we designed a covalent organic framework (COF) catalyst with triazine rings as the core component, constructing a photo-assisted Fenton-like peroxymonosulfate (PMS) activation system (PI-COF/PMS/Light) for efficient antibiotic degradation. After 10 hours of continuous operation in a flow reactor, the system maintained over 90 % removal efficiency of LVX, demonstrating excellent long-term stability and anti-interference capability. Both theoretical calculations and experimental results indicate that the triazine rings in the structure functions dually as both photogenerated hole-trapping center and PMS specific adsorption site. This dual-functional integration drives the deprotonation process of PMS. Compared to the traditional electron activation pathway, this new hole-dominated activation mechanism effectively avoids the generation of radical-based pathways and significantly reduces the high energy consumption required for the indirect conversion of superoxide radicals to 1O2, thereby achieving highly selective (99.5 %) generation of 1O2. This work proposes a novel strategy for achieving high-selectivity 1O2 generation through precise molecular structural regulation of COFs, offering new insights for research on PMS photoactivation mechanisms and the development of efficient water treatment technologies.",
+    "authors": [
+      "Yangjie Wu",
+      "Chenchen Hao",
+      "Zixuan Lu",
+      "Xinpeng Liu",
+      "Wenjun Jiang",
+      "Lei Zhou",
+      "Xuelu Wang",
+      "Liang Zhou",
+      "Juying Lei",
+      "Jinlong Zhang",
+      "Yongdi Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated_at": "2026-06-07T20:41:47.527357+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.125653",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125653",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Singlet oxygen",
+      "Persulfate",
+      "Triazine",
+      "Photochemistry",
+      "Radical",
+      "Catalysis",
+      "Combinatorial chemistry"
+    ],
+    "citation_count": 4,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
