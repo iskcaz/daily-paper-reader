@@ -1,0 +1,204 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-08T21:58:25.162560+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 3,
+    "quick_skim_target": 11,
+    "quick_selected": 3
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "journal-10-1016-j-watres-2026-125798",
+      "source": "journal",
+      "title": "An attention fusion of Fourier-analysis-based transformer and CNN-BiLSTM for coastal inorganic nitrogen concentration forecasts",
+      "abstract": "",
+      "authors": [
+        "Zhefeng Xu",
+        "Yubo Pang",
+        "Wenlu Lan",
+        "Yan Deng",
+        "Yucai Bai",
+        "Yang Yang",
+        "Xiaoyan Peng",
+        "Jinping Cheng"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "water-research"
+      ],
+      "published": "2026-06-01T00:00:00+00:00",
+      "link": "https://doi.org/10.1016/j.watres.2026.125798",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1016/j.watres.2026.125798",
+      "doi": "10.1016/j.watres.2026.125798",
+      "updated_at": "2026-06-08T21:42:37.202166+00:00",
+      "abs_url": "https://doi.org/10.1016/j.watres.2026.125798",
+      "journal": "Water Research",
+      "journal_key": "water_research",
+      "journal_label": "WR",
+      "journal_issn": [
+        "0043-1354"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Environmental science",
+        "Fusion",
+        "Environmental engineering",
+        "Nitrogen",
+        "Transformer",
+        "Waste management",
+        "Environmental chemistry",
+        "Nitrogen oxides"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "forecasting coastal water quality fields",
+      "llm_evidence_cn": "近岸水质场预测方法",
+      "llm_evidence": "近岸水质场预测方法",
+      "canonical_evidence": "近岸水质场预测方法",
+      "llm_tldr_en": "This paper develops a hybrid deep-learning model for forecasting coastal inorganic nitrogen. While not about PFAS, its coastal water-quality prediction framework could be adapted for spatiotemporal prediction of PFAS distributions in nearshore waters.",
+      "llm_tldr_cn": "近岸海域污染物浓度具有显著时空波动，准确预测往往受非线性动力过程限制。本文提出融合傅里叶分析Transformer与CNN-BiLSTM的注意力模型，用于海岸无机氮浓度预测。研究旨在提升沿海水质序列的时空建模能力并改进预报精度。尽管对象并非PFAS，但该方法对近海PFAS浓度分布和环境行为的时空预测具有较强可迁移性。",
+      "llm_tldr": "近岸海域污染物浓度具有显著时空波动，准确预测往往受非线性动力过程限制。本文提出融合傅里叶分析Transformer与CNN-BiLSTM的注意力模型，用于海岸无机氮浓度预测。研究旨在提升沿海水质序列的时空建模能力并改进预报精度。尽管对象并非PFAS，但该方法对近海PFAS浓度分布和环境行为的时空预测具有较强可迁移性。",
+      "llm_tags": [
+        "query:coastal-pfas:composite"
+      ],
+      "matched_query_tag": "query:coastal-pfas:composite",
+      "matched_query_text": "Papers central to 近海PFAS环境行为, especially work that connects or combines: PFAS occurrence and behavior in coastal marine environments; environmental fate of PFAS in marine and coastal waters; transport pathways of PFAS from land to coastal ocean; effects of salinity on PFAS sorption transport and distribution; riverine input as a source of PFAS to estuaries and coastal waters; estuarine mixing and its influence on PFAS distribution and fate; Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems.",
+      "matched_requirement_id": "req-composite-coastal-pfas",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1021-acs-est-5c12985",
+      "source": "journal",
+      "title": "Physical Controls on Coastal Hypoxia: Insights from a Novel Dual-Model Framework",
+      "abstract": "",
+      "authors": [
+        "Zheng Chen",
+        "Liuqian Yu",
+        "Jiying Li"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-08T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.5c12985",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.5c12985",
+      "doi": "10.1021/acs.est.5c12985",
+      "updated_at": "2026-06-08T21:42:33.900185+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.5c12985",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "coastal fate controlled by physical processes",
+      "llm_evidence_cn": "海岸环境归趋受物理过程控制",
+      "llm_evidence": "海岸环境归趋受物理过程控制",
+      "canonical_evidence": "海岸环境归趋受物理过程控制",
+      "llm_tldr_en": "This work analyzes physical controls on coastal hypoxia with a dual-model framework. Although it targets oxygen depletion rather than PFAS, the coastal transport and fate modeling approach is relevant for studying PFAS behavior in marine coastal systems.",
+      "llm_tldr_cn": "近岸海域物质分布与环境效应常由环流、分层和交换等物理过程主导，但相关机制需要综合建模才能识别。本文围绕海岸缺氧问题提出双模型框架，用于解析不同物理控制因子对近岸环境状态的影响。研究说明该框架能够区分多种沿海物理驱动的相对作用。虽然研究对象不是PFAS，但其海岸输运与归趋分析思路对近海PFAS环境行为研究具有方法借鉴价值。",
+      "llm_tldr": "近岸海域物质分布与环境效应常由环流、分层和交换等物理过程主导，但相关机制需要综合建模才能识别。本文围绕海岸缺氧问题提出双模型框架，用于解析不同物理控制因子对近岸环境状态的影响。研究说明该框架能够区分多种沿海物理驱动的相对作用。虽然研究对象不是PFAS，但其海岸输运与归趋分析思路对近海PFAS环境行为研究具有方法借鉴价值。",
+      "llm_tags": [
+        "query:coastal-pfas:composite"
+      ],
+      "matched_query_tag": "query:coastal-pfas:composite",
+      "matched_query_text": "Papers central to 近海PFAS环境行为, especially work that connects or combines: PFAS occurrence and behavior in coastal marine environments; environmental fate of PFAS in marine and coastal waters; transport pathways of PFAS from land to coastal ocean; effects of salinity on PFAS sorption transport and distribution; riverine input as a source of PFAS to estuaries and coastal waters; estuarine mixing and its influence on PFAS distribution and fate; Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems.",
+      "matched_requirement_id": "req-composite-coastal-pfas",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-06-02-729691-v1",
+      "source": "biorxiv",
+      "title": "Biosensor monitoring of naphthenic acids remediation in mesocosms and constructed wetlands: a head-to-head comparison with orbitrap mass spectrometry.",
+      "abstract": "Oil sands process-affected water (OSPW) contains complex mixtures of naphthenic acids (NA) that are the central targets for water treatment and reclamation. Here, we compared three whole-cell bacterial NA biosensors with Orbitrap mass spectrometry (MS) for quantifying NA remediation in greenhouse mesocosms and a pilot-scale constructed wetland. Solid-phase extracts from both systems were analyzed in parallel by Orbitrap MS and biosensor assays, enabling direct comparison of biosensor-derived NA estimates with MS-derived naphthenic acid fraction compounds (NAFC) concentrations. Across both treatment systems, biosensor outputs broadly tracked declines in NAFC measured by Orbitrap MS, and positive linear relationships were observed between methods. Biosensor 2 (3680-lux) and biosensor 3 (atuA-lux) showed, early rapid decreases in NA, whereas biosensor 1 (marR-lux) frequently remained elevated later in treatment. These differences are consistent with the distinct chemical response profiles of the biosensor panel and suggest that biosensor outputs reflect shifts in NA mixture composition as remediation proceeds. This interpretation is supported by the published Orbitrap analysis of the constructed wetland, which showed decreasing O2-NAFCs and increasing O3/O4-containing species, consistent with oxidative degradation. Together, these results support the use of NA-responsive biosensors as rapid and scalable complementary tools for tracking remediation trends, while Orbitrap MS remains the reference method for molecular-level characterization.",
+      "authors": [
+        "Bookout, T.",
+        "Vander Meulen, I.",
+        "Balabera, A.-L.",
+        "Degenhardt, D.",
+        "Headley, J. V.",
+        "Lewenza, S."
+      ],
+      "primary_category": "microbiology",
+      "categories": [
+        "microbiology"
+      ],
+      "published": "2026-06-03T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.02.729691v1.full.pdf",
+      "doi": "",
+      "abs_url": "",
+      "pdf_url": "",
+      "journal": "",
+      "journal_key": "",
+      "journal_label": "",
+      "open_pdf_status": "",
+      "open_pdf_available": null,
+      "open_pdf_note": "",
+      "source_weight": null,
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "monitoring method for aquatic contaminant remediation",
+      "llm_evidence_cn": "水体污染物修复监测方法",
+      "llm_evidence": "水体污染物修复监测方法",
+      "canonical_evidence": "水体污染物修复监测方法",
+      "llm_tldr_en": "The paper tackles the need for practical monitoring of complex aquatic contaminants by comparing whole-cell biosensors with Orbitrap MS for naphthenic acids in mesocosms and constructed wetlands. Biosensor signals tracked declines in target compounds, suggesting a transferable monitoring approach for source pathway and fate studies of emerging contaminants, though not PFAS-specific or coastal.",
+      "llm_tldr_cn": "该研究针对复杂有机污染物修复过程监测成本高、通量受限的问题，比较了三种全细胞细菌生物传感器与Orbitrap质谱在中尺度系统和人工湿地中追踪萘酸去除效果的能力。作者对两类体系的固相萃取样品进行平行分析，评估传感器输出与质谱测得目标组分下降趋势的一致性。结果显示生物传感器能够较好反映污染物衰减过程。虽然研究对象不是PFAS且不涉及海岸环境，但其监测方法对新污染物环境过程研究具有一定借鉴意义。",
+      "llm_tldr": "该研究针对复杂有机污染物修复过程监测成本高、通量受限的问题，比较了三种全细胞细菌生物传感器与Orbitrap质谱在中尺度系统和人工湿地中追踪萘酸去除效果的能力。作者对两类体系的固相萃取样品进行平行分析，评估传感器输出与质谱测得目标组分下降趋势的一致性。结果显示生物传感器能够较好反映污染物衰减过程。虽然研究对象不是PFAS且不涉及海岸环境，但其监测方法对新污染物环境过程研究具有一定借鉴意义。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

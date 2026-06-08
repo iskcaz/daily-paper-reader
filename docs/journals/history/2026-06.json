@@ -1896,7 +1896,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -2796,6 +2796,115 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c12985",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c12985",
+    "doi": "10.1021/acs.est.5c12985",
+    "title": "Physical Controls on Coastal Hypoxia: Insights from a Novel Dual-Model Framework",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Zheng Chen",
+      "Liuqian Yu",
+      "Jiying Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-08T00:00:00+00:00",
+    "updated_at": "2026-06-08T21:42:33.900185+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c12985",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c12985",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01603",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01603",
+    "doi": "10.1021/acs.est.6c01603",
+    "title": "Breaking Mass-Transfer Limits with an Innovative Spacer Design for Ultrafast Water Desalination",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jiu Luo",
+      "Hao Zhang",
+      "Yi Heng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-07T00:00:00+00:00",
+    "updated_at": "2026-06-08T21:42:33.900236+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01603",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01603",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Desalination",
+      "Ultrashort pulse",
+      "Water desalination",
+      "Materials science",
+      "Environmental science",
+      "Environmental engineering",
+      "Water treatment",
+      "Nanotechnology"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

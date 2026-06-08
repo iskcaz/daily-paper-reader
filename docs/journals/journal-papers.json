@@ -1,5 +1,114 @@
 [
   {
+    "id": "journal-10-1021-acs-est-5c12985",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c12985",
+    "doi": "10.1021/acs.est.5c12985",
+    "title": "Physical Controls on Coastal Hypoxia: Insights from a Novel Dual-Model Framework",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Zheng Chen",
+      "Liuqian Yu",
+      "Jiying Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-08T00:00:00+00:00",
+    "updated_at": "2026-06-08T21:42:33.900185+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c12985",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c12985",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01603",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01603",
+    "doi": "10.1021/acs.est.6c01603",
+    "title": "Breaking Mass-Transfer Limits with an Innovative Spacer Design for Ultrafast Water Desalination",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jiu Luo",
+      "Hao Zhang",
+      "Yi Heng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-07T00:00:00+00:00",
+    "updated_at": "2026-06-08T21:42:33.900236+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01603",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01603",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Desalination",
+      "Ultrashort pulse",
+      "Water desalination",
+      "Materials science",
+      "Environmental science",
+      "Environmental engineering",
+      "Water treatment",
+      "Nanotechnology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c17904",
     "source": "journal",
     "source_detail": "crossref",
@@ -27,7 +136,7 @@
       "est"
     ],
     "published": "2026-06-06T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.659796+00:00",
+    "updated_at": "2026-06-08T21:42:33.900355+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c17904",
     "abs_url": "https://doi.org/10.1021/acs.est.5c17904",
     "pdf_url": null,
@@ -97,7 +206,7 @@
       "est"
     ],
     "published": "2026-06-05T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.659843+00:00",
+    "updated_at": "2026-06-08T21:42:33.900387+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03701",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03701",
     "pdf_url": null,
@@ -114,7 +223,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -135,8 +243,6 @@
       "Divergence (linguistics)",
       "Chemistry"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -166,7 +272,7 @@
       "est"
     ],
     "published": "2026-06-05T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.659919+00:00",
+    "updated_at": "2026-06-08T21:42:33.900444+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03640",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03640",
     "pdf_url": null,
@@ -230,7 +336,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.659987+00:00",
+    "updated_at": "2026-06-08T21:42:33.900501+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18731",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18731",
     "pdf_url": null,
@@ -295,7 +401,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660193+00:00",
+    "updated_at": "2026-06-08T21:42:33.900607+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c13805",
     "abs_url": "https://doi.org/10.1021/acs.est.5c13805",
     "pdf_url": null,
@@ -336,141 +442,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c02923",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02923",
-    "doi": "10.1021/acs.est.6c02923",
-    "title": "Integrated Machine-Learning Framework for Balanced Performance-Safety Design of Iron-Based Remediation Materials",
-    "abstract": "Optimizing iron-based materials via surface coatings and lattice engineering has been a major research focus for environmental remediation, yet higher reactivity to contaminants often elevates risks to organisms. To address this trade-off, we develop an integrated machine-learning framework for the quantitative coassessment of performance and safety. The model was trained on a literature-derived data set of 1007 cases, encompassing 80 iron-based materials, 136 target pollutants, and 50 test organisms. Using AutoGluon, a binary QSAR model was constructed to screen reaction performance and predict the direction of material-pollutant joint toxicity. Inputting molecular descriptors of materials and pollutants alongside experimental conditions, this model achieved robust remediation performance and joint toxicity predictions with balanced accuracy of 0.88 and 0.90, respectively. Feature attribution analysis predicted that material heterogeneity was a key driver of performance, while organismal attributes primarily governed toxicity outcomes, highlighting niche-targeting material doping and hybrid nanobio remediation strategies. A dominance-aware dynamic weighting scheme that integrates calibrated probabilities with an upper-zone attenuation and low-zone penalty was introduced to rank material candidates, plus an applicability-domain filter to limit overconfident extrapolation. These findings support a practical prescreening framework that generates prioritized candidate materials to inform the rational application of iron-based remediation systems.",
-    "authors": [
-      "Qiqi Chen",
-      "Xinyue Wu",
-      "Wanyi Yu",
-      "Zhenjie Li",
-      "Jiang Xu",
-      "Kun Yang",
-      "Jie Hou",
-      "Daohui Lin"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660367+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02923",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02923",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Environmental science",
-      "Environmental remediation",
-      "Waste management",
-      "Engineering",
-      "Process engineering",
-      "Systems engineering",
-      "Computer science",
-      "Environmental engineering"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c17496",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c17496",
-    "doi": "10.1021/acs.est.5c17496",
-    "title": "Microbial Dehalogenation of 3,5,6-Trichlorooctafluorohexanoic Acid under Different Reducing Conditions",
-    "abstract": ", Paracoccaceae, and Rhodobacteraceae-related bacteria) harboring both hydrolytic dechlorination and nitrate/sulfate-reduction genes, suggesting their involvement in CTFE3 hydrolytic dechlorination and subsequent defluorination. This study demonstrates that reducing conditions play an important role in shaping CTFE3 transformation patterns and highlight hydrolytic dechlorination as a viable pathway associated with extensive microbial defluorination, thereby offering insights for sustainable Cl-PFAS remediation.",
-    "authors": [
-      "Changjie Zhao",
-      "Longlong Zhang",
-      "Yanlong Wang",
-      "Guang Yang",
-      "Chongyang Ren",
-      "Xiaoqiang Cao",
-      "Qun Yu",
-      "Bosen Jin",
-      "Yujie Men",
-      "Huaqing Liu",
-      "Jian Zhang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660302+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c17496",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c17496",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "Hydrolysis",
-      "Halogenation",
-      "Reductive dechlorination",
-      "Biodegradation",
-      "Biotransformation",
-      "Environmental chemistry",
-      "Human health"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-6c01455",
     "source": "journal",
     "source_detail": "crossref",
@@ -496,7 +467,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660103+00:00",
+    "updated_at": "2026-06-08T21:42:33.900569+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01455",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01455",
     "pdf_url": null,
@@ -576,7 +547,7 @@
       "est"
     ],
     "published": "2026-06-04T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660056+00:00",
+    "updated_at": "2026-06-08T21:42:33.900543+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01391",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01391",
     "pdf_url": null,
@@ -617,356 +588,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-5c18743",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c18743",
-    "doi": "10.1021/acs.est.5c18743",
-    "title": "Chemical Kinetic and Mechanistic Investigation of Cobalt and Manganese Recovery from Aqueous Solutions by Ozone Oxidative Precipitation",
-    "abstract": ", MnOOH) formed nucleation sites that promoted Co adsorption and coprecipitation, a mechanism supported by SEM-EDS, XRD, FT-IR, XPS, and Zeta Potential analyses confirming the formation of Mn oxide phases facilitating surface-mediated Co capture. Overall, these findings provide mechanistic and kinetic insight into ozone-based Co-Mn recovery and establish a basis for process design and optimization in critical metal recovery applications.",
-    "authors": [
-      "Younes Shekarian",
-      "Mohammad Rezaee",
-      "Sarma V. Pisupati"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660564+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c18743",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c18743",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Chemistry",
-      "Aqueous solution",
-      "Ozone",
-      "Manganese",
-      "Cobalt",
-      "Adsorption",
-      "Inorganic chemistry",
-      "Precipitation"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c06486",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c06486",
-    "doi": "10.1021/acs.est.6c06486",
-    "title": "Environmental Concentrations of Herbicide Prometryn Increase the Susceptibility of Reef-Building Corals to Nitrate Stress",
-    "abstract": "Herbicide and nitrate pollution frequently co-occur in coastal waters, while their combined effect on corals has been a critical knowledge gap. Although corals can exhibit acclimation to nitrate enrichment, it is unclear whether this acclimation persists under coexposure to PSII herbicides. Here, we investigated the combined effects of nitrate and the PSII herbicide prometryn on the reef-building coralAcropora hyacinthusby integrating physiology, ultrastructure, and host-symbiont multiomics. The results demonstrate that prometryn acts as the primary driver of photodamage and photosynthetic toxicity in the symbiotic Symbiodiniaceae under costress. Transmission electron microscopy revealed that prometryn induced activated symbiophagy and chloroplast degradation with loosely stacked thylakoids in Symbiodiniaceae. Transcriptomics and proteomics analyses predicted that nitrate enrichment stimulated host glutathione-based antioxidant responses. However, prometryn-induced phototoxicity impaired photosynthate supply and disrupted this nitrate acclimation mechanism. Moreover, reduced photosynthate transfer further impaired the host energy balance and intensified oxidative stress. These findings show that PSII herbicides can override short-term acclimation to nitrate enrichment, underscoring the need for the joint regulation of herbicide and nutrient inputs in reef ecosystems.",
-    "authors": [
-      "Qiuli Li",
-      "Yanyu Zhou",
-      "Weilu Kang",
-      "Xianming Tang",
-      "Bo Hu",
-      "Zhi Tang",
-      "Fengchang Wu",
-      "Craig A. Downs",
-      "Hongwei Zhao"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660594+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c06486",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c06486",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c06486?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Chemistry",
-      "Nitrate",
-      "Environmental chemistry",
-      "Environmental stress",
-      "Stress (linguistics)",
-      "Agronomy",
-      "Atrazine",
-      "Water pollution"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": true
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c14654",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c14654",
-    "doi": "10.1021/acs.est.5c14654",
-    "title": "LDH-Enhanced Degradation of PFASs: Influence of Reactant Configurations within Nanoconfined Spaces on Hydrated Electron Transport",
-    "abstract": "Hydrated electron (eaq–) reduction is an efficient pathway for degrading per- and polyfluoroalkyl substances (PFASs). Nanoconfined spaces can shield eaq– from quenchers in bulk solution and shorten diffusion distances, thereby enhancing utilization efficiency. However, the role of eaq– precursors and PFASs configurations within nanoconfined domains in governing eaq– transport remains unclear. In this study, polyindole (Pind) was synthesized within layered double hydroxide (LDH) interlayers as an eaq– precursor, while perfluorooctanoic acid (PFOA) was simultaneously enriched through electrostatic interaction. Although the eaq– yield increased with Pind loading, the PFOA degradation rate followed a unimodal trend, reaching a maximum at 27.2% Pind loading, where complete degradation was achieved within 3 h. Molecular dynamics simulations revealed stronger hydrophobic interactions among Pind molecules than between Pind and PFOA, leading to a configuration where PFOA surrounded Pind aggregates. With increasing Pind loading, this arrangement forced more eaq– to travel longer distances to attack C–F bonds, reducing their utilization efficiency despite higher overall yields. This “yield-transport” self-antagonism underscores the critical role of nanoconfined configurations in eaq– transport and utilization efficiency and provides mechanistic insights for the rational design and optimization of nanoconfinement systems.",
-    "authors": [
-      "Jingyi Feng",
-      "Hao Lu",
-      "Jing Hua",
-      "Na Sun",
-      "Jing Jiang",
-      "Kun Qian",
-      "Qi Yu",
-      "Anfei He",
-      "Haoting Tian"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660626+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c14654",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Degradation (telecommunications)",
-      "Perfluorooctanoic acid",
-      "Diffusion",
-      "Chemistry",
-      "Chemical physics",
-      "Molecular dynamics",
-      "Yield (engineering)",
-      "Molecule"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c15760",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c15760",
-    "doi": "10.1021/acs.est.5c15760",
-    "title": "Molecular Evolution of Organic Matter Humification Governs Ferrihydrite Transformation: Interfacial Electron Transfer Mechanisms and Carbon Preservation Implications",
-    "abstract": "During soil humification, organic matter (OM) develops distinct compositional and chemical signatures across the progressive stages. However, how these evolving OM characteristics influence iron (hydr)oxide transformation and ultimately regulate carbon preservation remains unclear. Through controlled anaerobic incubation experiments with ferrihydrite (Fh) and straw-derived OM from sequential soil humification stages under Fe(II)-mediated conditions, we found that advancing humification increasingly inhibited Fh crystallization, reducing its transformation to lepidocrocite/goethite from 45.3% in the degradation stage to 21.5% in the maturation stage. This stage-dependent inhibition correlated strongly with the accumulation of highly unsaturated and phenolic compounds (HUPs), which disrupted interfacial electron transfer and mineral nucleation, which are key processes in secondary mineral formation. Mechanistically, HUPs facilitated ternary Fh-OM-Fe(II) complex formation via the C-O-Fe bond, enhancing Fe(II) adsorption while narrowing the Fe(II)-Fh redox potential gap to suppress interfacial electron transfer. Furthermore, HUPs reduced the mineral surface potential and impeded particle agglomeration, thereby disrupting the crystallization of nucleation precursors. Consequently, the inhibited Fh transformation facilitated the selective adsorption of HUPs and their molecular conversion to condensed aromatics, thereby preferentially preserving organic carbon from advanced humification stages. These findings highlight the stage-dependent regulation of Fh transformation by humified OM and its implication for carbon preservation, advancing our understanding of coupled carbon-iron biogeochemistry in soils.",
-    "authors": [
-      "Wenfeng Huang",
-      "Bo Chen",
-      "Jingyi Zhang",
-      "Chengpeng Yuan",
-      "Zehong Zhang",
-      "Quan Qian",
-      "Kexin Chen",
-      "Qi Liu",
-      "Xiangyang Gui",
-      "Liyang Hu",
-      "Xinde Cao",
-      "Xiaoyun Xu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660509+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c15760",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c15760",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Ferrihydrite",
-      "Humus",
-      "Chemistry",
-      "Organic matter",
-      "Adsorption",
-      "Environmental chemistry",
-      "Electron transfer",
-      "Dissolution"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c02538",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02538",
-    "doi": "10.1021/acs.est.6c02538",
-    "title": "Mood Altering Waters: Multidimensional Profiling and Chiral Characterization of Antidepressants in Effluent-Impacted Waterways",
-    "abstract": "Antidepressants (ADs) and their metabolites are widely reported in wastewater effluent and effluent-impacted waterways due to incomplete removal during wastewater treatment. These chemicals have been known to influence the behavior and physiology of exposed organisms, raising concerns regarding the ecological impact of this contamination. However, although 28 ADs are approved by the United States Food and Drug Administration, environmental studies commonly target only a small fraction of these chemicals, as conventional analytical approaches are hindered by coeluting isomers and structural similarity. Here, we developed a multidimensional workflow integrating liquid chromatography, drift tube ion mobility spectrometry, mass spectrometry, and fragmentation analysis to enable high-confidence identification and targeted quantification of 26 parent and 8 AD metabolites in environmental samples, while also establishing a publicly available reference library to support future studies. Selected compounds were further characterized with chiral chromatography to assess enantiomeric ADs with differing biological activity. This workflow was applied to effluent-impacted waterways, enabling the identification and quantification of 17 AD chemicals across five sites. These findings highlight the prevalence of AD contamination and the need for improved monitoring and wastewater treatment strategies to mitigate ecological and human health risks.",
-    "authors": [
-      "Emily C. Vincent",
-      "Mark W. Sumarah",
-      "Justin B. Renaud",
-      "Natasha DesRochers",
-      "Haley C. Jostes",
-      "Allison N. Fry",
-      "Jack P. Ryan",
-      "James N. Dodds",
-      "Jian Zhang",
-      "Paul A. Thiessen",
-      "Evan E. Bolton",
-      "Emma L. Schymanski",
-      "Erin S. Baker"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-03T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:46.660474+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02538",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02538",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Profiling (computer programming)",
-      "Mood",
-      "Computer science",
-      "Characterization (materials science)",
-      "Chemistry",
-      "Neuroscience",
-      "Computational biology",
-      "Mood disorders"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-watres-2026-125798",
     "source": "journal",
     "source_detail": "crossref",
@@ -992,7 +613,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527814+00:00",
+    "updated_at": "2026-06-08T21:42:37.202166+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125798",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125798",
     "pdf_url": null,
@@ -1008,7 +629,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1029,8 +649,6 @@
       "Environmental chemistry",
       "Nitrogen oxides"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1059,7 +677,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527676+00:00",
+    "updated_at": "2026-06-08T21:42:37.202025+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126242",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126242",
     "pdf_url": null,
@@ -1075,7 +693,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1096,8 +713,6 @@
       "Amphiphile",
       "Polymer"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1127,7 +742,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527999+00:00",
+    "updated_at": "2026-06-08T21:42:37.202300+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126264",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126264",
     "pdf_url": null,
@@ -1173,7 +788,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125752",
     "doi": "10.1016/j.watres.2026.125752",
     "title": "Atomically engineered Fe/Mn catalysts enable ultrafast self-sustaining water purification via oxidant-free Fenton-like electron-transfer reaction",
-    "abstract": "Green Fenton-like reactions based on monometallic single-atom dual-reaction-center systems have emerged as promising strategies for sustainable water purification owing to their oxidant-free operation and low energy demand. However, their practical deployment is often hindered by limited degradation kinetics and unresolved mechanisms. Here, we report a carbon nitride-supported Fe/Mn bimetallic catalyst composed of Fe nanoclusters and adjacent Mn single atoms (FeMn-CN) that enables ultrafast and self-sustaining pollutant degradation under oxidant-free conditions. The catalyst achieves 99.5 % removal of bisphenol A (BPA) within 3 min, setting an ultrahigh rate to date among self-sustaining water purification systems. Combined experimental investigations and density functional theory calculations reveal that the reaction proceeds predominantly via a direct electron-transfer pathway. Fe nanoclusters serve as primary electron acceptors, extracting electrons from BPA without external oxidants, while adjacent Mn single atoms coordinated in Mn-N4 sites synergistically enhance the electron-accepting capacity of Fe and substantially lower the charge-transfer energy barrier. This atomic-level cooperation endows FeMn-CN with exceptional activity across a broad pH range (pH 2-10), strong tolerance to complex water matrices, high selectivity toward electron-rich contaminants and facile regeneration. Furthermore, continuous-flow reactor tests and life-cycle assessment collectively verify the scalability and superior environmental sustainability of the FeMn-CN process. This work establishes an atomic-level design principle for electron-transfer-dominated self-sustaining remediation materials, advancing the development of next-generation oxidant-free water purification technologies.",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Ping Zhang",
       "Chenchen Zhao",
@@ -1193,7 +808,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527940+00:00",
+    "updated_at": "2026-06-08T21:42:37.202245+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125752",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125752",
     "pdf_url": null,
@@ -1209,7 +824,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1229,81 +843,6 @@
       "Nanotechnology",
       "Chemical engineering",
       "Chemistry"
-    ],
-    "citation_count": 1,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1016-j-watres-2026-125682",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.watres.2026.125682",
-    "doi": "10.1016/j.watres.2026.125682",
-    "title": "Phenoxyl radical-mediated peroxymonosulfate activation for efficient water remediation",
-    "abstract": "Radicals are central to advanced oxidation processes (AOPs). However, the formation and role of organic radicals, particularly phenoxyl radicals, during the remediation of phenolic pollutants remain largely overlooked and misunderstood, often being considered as inactive byproducts or precursors to polymerization. Herein, we demonstrate that phenol spontaneously interacts with Co3O4 to form surface-stabilized phenoxyl radicals, which, contrary to conventional wisdom, do not directly degrade pollutants but predominantly act as essential mediators for activating peroxymonosulfate (PMS). Combined experimental and theoretical analyses reveal that the phenoxyl radicals facilitate the elongation of the OO bond in PMS, thereby significantly lowering the activation barrier. Driven by this unique mediation, the system achieves a remarkable 65.2% enhancement in the pollutant degradation rate and a 70.8% increase in the PMS activation efficiency. The synergy between phenoxyl radicals and the ZnO-derived neutral microenvironment in designed Zn/Co composite oxide enables efficient pollutant degradation over a wide pH range with minimal cobalt leaching. Moreover, this synergy substantially improved the biodegradability of actual industrial wastewater. This work unveils a previously unrecognized but critical pathway in heterogeneous Fenton-like catalysis and provides a novel strategic paradigm for designing highly efficient and environmentally benign oxidation technologies.",
-    "authors": [
-      "Zhuan Chen",
-      "Yan Bao",
-      "Maoxi Ran",
-      "Jiayi Wang",
-      "Jiazhen Cao",
-      "Daqing Jia",
-      "Mingyang Xing"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527613+00:00",
-    "link": "https://doi.org/10.1016/j.watres.2026.125682",
-    "abs_url": "https://doi.org/10.1016/j.watres.2026.125682",
-    "pdf_url": null,
-    "journal": "Water Research",
-    "journal_key": "water_research",
-    "journal_label": "WR",
-    "journal_issn": [
-      "0043-1354"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Radical",
-      "Chemistry",
-      "Pollutant",
-      "Degradation (telecommunications)",
-      "Environmental remediation",
-      "Catalysis",
-      "Phenol",
-      "Biodegradation"
-    ],
-    "citation_count": 3,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1335,7 +874,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527420+00:00",
+    "updated_at": "2026-06-08T21:42:37.201827+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125742",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125742",
     "pdf_url": null,
@@ -1351,7 +890,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1372,8 +910,6 @@
       "Surface water",
       "Hydrology (agriculture)"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1384,7 +920,7 @@
     "source_paper_id": "10.1016/j.watres.2026.125669",
     "doi": "10.1016/j.watres.2026.125669",
     "title": "Redistribution of anthropogenic nitrate via artificial snowmaking to mountain aquifers: Isotopic evidence and biogeochemical pathways",
-    "abstract": "Artificial snow production is widely used as an adaptation strategy for winter tourism under climate warming, yet its influence on nitrogen (N) redistribution within mountain hydrological systems remains poorly constrained. Traditionally regarded as a temporary redistribution of water, technical snow may also redistribute anthropogenic nitrate contained in source waters to soils and groundwater. This study examines the influence of large-scale snowmaking on nitrogen dynamics in a temperate mountain catchment in South Korea. Seasonal monitoring showed that NO3--N concentrations in summit groundwater remained higher than background levels during snowmelt, in contrast to dilution patterns observed in stream water. Isotopic signatures of artificial snow closely resembled those of the source stream water, suggesting minimal isotopic modification during the snowmaking process. Dual isotope relationships and Monte Carlo simulations provided no clear isotopic evidence for substantial denitrification in summit groundwater. We applied a dual-isotope approach (δ18O-H2O and δ15N-NO3-), combined with Bayesian mixing, to evaluate the relative contributions of rainfall, natural snow, and artificial snow to mountain groundwater. The results suggest that artificial snow is a substantial contributor to groundwater nitrate relative to natural precipitation sources, although the magnitude of this contribution is subject to uncertainty associated with end-member characterization. Overall, these findings suggest that artificial snow primarily functions as a conduit for redistributing anthropogenic nitrogen, with implications for groundwater nitrate persistence under increasing snowmaking activity.",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Hyejung Jung",
       "Yalalt Nyamgerel",
@@ -1401,7 +937,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527476+00:00",
+    "updated_at": "2026-06-08T21:42:37.201875+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125669",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125669",
     "pdf_url": null,
@@ -1417,7 +953,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1437,11 +972,6 @@
       "Groundwater",
       "Temperate climate",
       "Hydrology (agriculture)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1468,7 +998,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527447+00:00",
+    "updated_at": "2026-06-08T21:42:37.201850+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125841",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125841",
     "pdf_url": null,
@@ -1484,7 +1014,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1504,82 +1033,6 @@
       "Materials science",
       "Bacteria",
       "Chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1016-j-watres-2026-125653",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.watres.2026.125653",
-    "doi": "10.1016/j.watres.2026.125653",
-    "title": "Tailoring COFs for highly selective generation of singlet oxygen to boost antibiotic removal: Spatial regulation of PMS and photogenerated carriers",
-    "abstract": "The high-selectivity generation of persulfate radicals (SO5·-) is key to achieving efficient and highly selective production of singlet oxygen (1O2). In this study, we designed a covalent organic framework (COF) catalyst with triazine rings as the core component, constructing a photo-assisted Fenton-like peroxymonosulfate (PMS) activation system (PI-COF/PMS/Light) for efficient antibiotic degradation. After 10 hours of continuous operation in a flow reactor, the system maintained over 90 % removal efficiency of LVX, demonstrating excellent long-term stability and anti-interference capability. Both theoretical calculations and experimental results indicate that the triazine rings in the structure functions dually as both photogenerated hole-trapping center and PMS specific adsorption site. This dual-functional integration drives the deprotonation process of PMS. Compared to the traditional electron activation pathway, this new hole-dominated activation mechanism effectively avoids the generation of radical-based pathways and significantly reduces the high energy consumption required for the indirect conversion of superoxide radicals to 1O2, thereby achieving highly selective (99.5 %) generation of 1O2. This work proposes a novel strategy for achieving high-selectivity 1O2 generation through precise molecular structural regulation of COFs, offering new insights for research on PMS photoactivation mechanisms and the development of efficient water treatment technologies.",
-    "authors": [
-      "Yangjie Wu",
-      "Chenchen Hao",
-      "Zixuan Lu",
-      "Xinpeng Liu",
-      "Wenjun Jiang",
-      "Lei Zhou",
-      "Xuelu Wang",
-      "Liang Zhou",
-      "Juying Lei",
-      "Jinlong Zhang",
-      "Yongdi Liu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527357+00:00",
-    "link": "https://doi.org/10.1016/j.watres.2026.125653",
-    "abs_url": "https://doi.org/10.1016/j.watres.2026.125653",
-    "pdf_url": null,
-    "journal": "Water Research",
-    "journal_key": "water_research",
-    "journal_label": "WR",
-    "journal_issn": [
-      "0043-1354"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "Singlet oxygen",
-      "Persulfate",
-      "Triazine",
-      "Photochemistry",
-      "Radical",
-      "Catalysis",
-      "Combinatorial chemistry"
-    ],
-    "citation_count": 4,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1609,7 +1062,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527732+00:00",
+    "updated_at": "2026-06-08T21:42:37.202102+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125811",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125811",
     "pdf_url": null,
@@ -1625,7 +1078,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1646,8 +1098,6 @@
       "Environmental chemistry",
       "Ecology"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1682,7 +1132,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527585+00:00",
+    "updated_at": "2026-06-08T21:42:37.201973+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125692",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125692",
     "pdf_url": null,
@@ -1698,7 +1148,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1718,11 +1167,6 @@
       "Water quality",
       "Hydrological modelling",
       "Groundwater"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1752,7 +1196,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527388+00:00",
+    "updated_at": "2026-06-08T21:42:37.201796+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126252",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126252",
     "pdf_url": null,
@@ -1768,7 +1212,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1789,8 +1232,6 @@
       "Process optimization",
       "Game theory"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1822,7 +1263,7 @@
       "water-research"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.527646+00:00",
+    "updated_at": "2026-06-08T21:42:37.202052+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125804",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125804",
     "pdf_url": null,
@@ -1838,7 +1279,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1859,8 +1299,6 @@
       "Stormwater management",
       "Urban runoff"
     ],
-    "citation_count": 1,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1889,7 +1327,7 @@
       "est-letters"
     ],
     "published": "2026-06-02T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:47.176765+00:00",
+    "updated_at": "2026-06-08T21:42:35.306299+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00344",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00344",
     "pdf_url": null,
@@ -1906,7 +1344,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1927,8 +1364,6 @@
       "Atmosphere (unit)",
       "Greenhouse gas"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1957,7 +1392,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:49.285359+00:00",
+    "updated_at": "2026-06-08T21:42:40.885006+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142102",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142102",
     "pdf_url": null,
@@ -1973,7 +1408,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1994,8 +1428,6 @@
       "Environmental engineering",
       "Water pollution"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -2025,7 +1457,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:49.285047+00:00",
+    "updated_at": "2026-06-08T21:42:40.884719+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142260",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142260",
     "pdf_url": null,
@@ -2088,7 +1520,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:49.285327+00:00",
+    "updated_at": "2026-06-08T21:42:40.884975+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142169",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142169",
     "pdf_url": null,
@@ -2104,7 +1536,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -2125,29 +1556,23 @@
       "Environmental remediation",
       "Pyrene"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-jhazmat-2026-142614",
+    "id": "journal-10-1016-j-jhazmat-2026-142086",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142614",
-    "doi": "10.1016/j.jhazmat.2026.142614",
-    "title": "Response mechanisms of enhanced biological phosphorus removal systems to microplastics stress",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142086",
+    "doi": "10.1016/j.jhazmat.2026.142086",
+    "title": "High microplastic-microalga ratios facilitate the short-term growth and dissolved organic matter transformation of marine Porphyridium",
     "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Mingwan Yang",
-      "Li Tian",
-      "Qihao Li",
-      "Guijie Li",
-      "Lulu Dai",
-      "Anni Du",
-      "Liguan Li",
-      "Ke Yu",
-      "Yanping Mao"
+      "Huankai Li",
+      "Feng Zhang",
+      "Fangfang Miao",
+      "Zhu Yang",
+      "Zongwei Cai"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -2157,9 +1582,9 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:49.285490+00:00",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142614",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142614",
+    "updated_at": "2026-06-08T21:42:40.885237+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142086",
     "pdf_url": null,
     "journal": "Journal of Hazardous Materials",
     "journal_key": "jhm",
@@ -2173,7 +1598,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -2185,17 +1609,15 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Enhanced biological phosphorus removal",
-      "Microplastics",
-      "Sewage treatment",
       "Chemistry",
+      "Dissolved organic carbon",
       "Environmental chemistry",
-      "Phosphorus",
-      "Wastewater",
-      "Denitrification"
+      "Transformation (genetics)",
+      "Organic matter",
+      "Seawater",
+      "Algae",
+      "Biodegradation"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -2223,7 +1645,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:49.285518+00:00",
+    "updated_at": "2026-06-08T21:42:40.885113+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142625",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142625",
     "pdf_url": null,
@@ -2287,7 +1709,7 @@
       "hazardous-materials"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:49.285224+00:00",
+    "updated_at": "2026-06-08T21:42:40.884880+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142173",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142173",
     "pdf_url": null,
@@ -2303,7 +1725,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -2324,8 +1745,6 @@
       "Water pollution",
       "Thermokarst"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -2351,7 +1770,7 @@
       "stoten"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:48.708228+00:00",
+    "updated_at": "2026-06-08T21:42:39.615646+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181839",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181839",
     "pdf_url": null,
@@ -2413,7 +1832,7 @@
       "stoten"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:48.708033+00:00",
+    "updated_at": "2026-06-08T21:42:39.615462+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181825",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181825",
     "pdf_url": null,
@@ -2496,7 +1915,7 @@
       "stoten"
     ],
     "published": "2026-06-01T00:00:00+00:00",
-    "updated_at": "2026-06-07T20:41:48.708442+00:00",
+    "updated_at": "2026-06-08T21:42:39.615824+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181862",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181862",
     "pdf_url": null,
@@ -2512,7 +1931,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -2533,25 +1951,27 @@
       "Respiratory system",
       "Respiratory tract infections"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-jhazmat-2026-142086",
+    "id": "journal-10-1016-j-jhazmat-2026-142614",
     "source": "journal",
     "source_detail": "docs-meta",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142086",
-    "doi": "10.1016/j.jhazmat.2026.142086",
-    "title": "High microplastic-microalga ratios facilitate the short-term growth and dissolved organic matter transformation of marine Porphyridium",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142614",
+    "doi": "10.1016/j.jhazmat.2026.142614",
+    "title": "Response mechanisms of enhanced biological phosphorus removal systems to microplastics stress",
     "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Huankai Li",
-      "Feng Zhang",
-      "Fangfang Miao",
-      "Zhu Yang",
-      "Zongwei Cai"
+      "Mingwan Yang",
+      "Li Tian",
+      "Qihao Li",
+      "Guijie Li",
+      "Lulu Dai",
+      "Anni Du",
+      "Liguan Li",
+      "Ke Yu",
+      "Yanping Mao"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -2559,8 +1979,8 @@
       "journal-watch"
     ],
     "published": "2026-06-01",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142086",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142614",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142614",
     "pdf_url": null,
     "journal": "Journal of Hazardous Materials",
     "journal_label": "JHM",
@@ -2575,6 +1995,197 @@
       "query:core-journal",
       "query:hazardous-materials",
       "query:JHM"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125653",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.watres.2026.125653",
+    "doi": "10.1016/j.watres.2026.125653",
+    "title": "Tailoring COFs for highly selective generation of singlet oxygen to boost antibiotic removal: Spatial regulation of PMS and photogenerated carriers",
+    "abstract": "The high-selectivity generation of persulfate radicals (SO5·-) is key to achieving efficient and highly selective production of singlet oxygen (1O2). In this study, we designed a covalent organic framework (COF) catalyst with triazine rings as the core component, constructing a photo-assisted Fenton-like peroxymonosulfate (PMS) activation system (PI-COF/PMS/Light) for efficient antibiotic degradation. After 10 hours of continuous operation in a flow reactor, the system maintained over 90 % removal efficiency of LVX, demonstrating excellent long-term stability and anti-interference capability. Both theoretical calculations and experimental results indicate that the triazine rings in the structure functions dually as both photogenerated hole-trapping center and PMS specific adsorption site. This dual-functional integration drives the deprotonation process of PMS. Compared to the traditional electron activation pathway, this new hole-dominated activation mechanism effectively avoids the generation of radical-based pathways and significantly reduces the high energy consumption required for the indirect conversion of superoxide radicals to 1O2, thereby achieving highly selective (99.5 %) generation of 1O2. This work proposes a novel strategy for achieving high-selectivity 1O2 generation through precise molecular structural regulation of COFs, offering new insights for research on PMS photoactivation mechanisms and the development of efficient water treatment technologies.",
+    "authors": [
+      "Yangjie Wu",
+      "Chenchen Hao",
+      "Zixuan Lu",
+      "Xinpeng Liu",
+      "Wenjun Jiang",
+      "Lei Zhou",
+      "Xuelu Wang",
+      "Liang Zhou",
+      "Juying Lei",
+      "Jinlong Zhang",
+      "Yongdi Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-01",
+    "link": "https://doi.org/10.1016/j.watres.2026.125653",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125653",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_label": "WR",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:water-research",
+      "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125682",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.watres.2026.125682",
+    "doi": "10.1016/j.watres.2026.125682",
+    "title": "Phenoxyl radical-mediated peroxymonosulfate activation for efficient water remediation",
+    "abstract": "Radicals are central to advanced oxidation processes (AOPs). However, the formation and role of organic radicals, particularly phenoxyl radicals, during the remediation of phenolic pollutants remain largely overlooked and misunderstood, often being considered as inactive byproducts or precursors to polymerization. Herein, we demonstrate that phenol spontaneously interacts with Co3O4 to form surface-stabilized phenoxyl radicals, which, contrary to conventional wisdom, do not directly degrade pollutants but predominantly act as essential mediators for activating peroxymonosulfate (PMS). Combined experimental and theoretical analyses reveal that the phenoxyl radicals facilitate the elongation of the OO bond in PMS, thereby significantly lowering the activation barrier. Driven by this unique mediation, the system achieves a remarkable 65.2% enhancement in the pollutant degradation rate and a 70.8% increase in the PMS activation efficiency. The synergy between phenoxyl radicals and the ZnO-derived neutral microenvironment in designed Zn/Co composite oxide enables efficient pollutant degradation over a wide pH range with minimal cobalt leaching. Moreover, this synergy substantially improved the biodegradability of actual industrial wastewater. This work unveils a previously unrecognized but critical pathway in heterogeneous Fenton-like catalysis and provides a novel strategic paradigm for designing highly efficient and environmentally benign oxidation technologies.",
+    "authors": [
+      "Zhuan Chen",
+      "Yan Bao",
+      "Maoxi Ran",
+      "Jiayi Wang",
+      "Jiazhen Cao",
+      "Daqing Jia",
+      "Mingyang Xing"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-01",
+    "link": "https://doi.org/10.1016/j.watres.2026.125682",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125682",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_label": "WR",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:water-research",
+      "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c14654",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c14654",
+    "doi": "10.1021/acs.est.5c14654",
+    "title": "LDH-Enhanced Degradation of PFASs: Influence of Reactant Configurations within Nanoconfined Spaces on Hydrated Electron Transport",
+    "abstract": "Hydrated electron (eaq–) reduction is an efficient pathway for degrading per- and polyfluoroalkyl substances (PFASs). Nanoconfined spaces can shield eaq– from quenchers in bulk solution and shorten diffusion distances, thereby enhancing utilization efficiency. However, the role of eaq– precursors and PFASs configurations within nanoconfined domains in governing eaq– transport remains unclear. In this study, polyindole (Pind) was synthesized within layered double hydroxide (LDH) interlayers as an eaq– precursor, while perfluorooctanoic acid (PFOA) was simultaneously enriched through electrostatic interaction. Although the eaq– yield increased with Pind loading, the PFOA degradation rate followed a unimodal trend, reaching a maximum at 27.2% Pind loading, where complete degradation was achieved within 3 h. Molecular dynamics simulations revealed stronger hydrophobic interactions among Pind molecules than between Pind and PFOA, leading to a configuration where PFOA surrounded Pind aggregates. With increasing Pind loading, this arrangement forced more eaq– to travel longer distances to attack C–F bonds, reducing their utilization efficiency despite higher overall yields. This “yield-transport” self-antagonism underscores the critical role of nanoconfined configurations in eaq– transport and utilization efficiency and provides mechanistic insights for the rational design and optimization of nanoconfinement systems.",
+    "authors": [
+      "Jingyi Feng",
+      "Hao Lu",
+      "Jing Hua",
+      "Na Sun",
+      "Jing Jiang",
+      "Kun Qian",
+      "Qi Yu",
+      "Anfei He",
+      "Haoting Tian"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-03",
+    "link": "https://doi.org/10.1021/acs.est.5c14654",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c14654",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c15760",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c15760",
+    "doi": "10.1021/acs.est.5c15760",
+    "title": "Molecular Evolution of Organic Matter Humification Governs Ferrihydrite Transformation: Interfacial Electron Transfer Mechanisms and Carbon Preservation Implications",
+    "abstract": "During soil humification, organic matter (OM) develops distinct compositional and chemical signatures across the progressive stages. However, how these evolving OM characteristics influence iron (hydr)oxide transformation and ultimately regulate carbon preservation remains unclear. Through controlled anaerobic incubation experiments with ferrihydrite (Fh) and straw-derived OM from sequential soil humification stages under Fe(II)-mediated conditions, we found that advancing humification increasingly inhibited Fh crystallization, reducing its transformation to lepidocrocite/goethite from 45.3% in the degradation stage to 21.5% in the maturation stage. This stage-dependent inhibition correlated strongly with the accumulation of highly unsaturated and phenolic compounds (HUPs), which disrupted interfacial electron transfer and mineral nucleation, which are key processes in secondary mineral formation. Mechanistically, HUPs facilitated ternary Fh-OM-Fe(II) complex formation via the C-O-Fe bond, enhancing Fe(II) adsorption while narrowing the Fe(II)-Fh redox potential gap to suppress interfacial electron transfer. Furthermore, HUPs reduced the mineral surface potential and impeded particle agglomeration, thereby disrupting the crystallization of nucleation precursors. Consequently, the inhibited Fh transformation facilitated the selective adsorption of HUPs and their molecular conversion to condensed aromatics, thereby preferentially preserving organic carbon from advanced humification stages. These findings highlight the stage-dependent regulation of Fh transformation by humified OM and its implication for carbon preservation, advancing our understanding of coupled carbon-iron biogeochemistry in soils.",
+    "authors": [
+      "Wenfeng Huang",
+      "Bo Chen",
+      "Jingyi Zhang",
+      "Chengpeng Yuan",
+      "Zehong Zhang",
+      "Quan Qian",
+      "Kexin Chen",
+      "Qi Liu",
+      "Xiangyang Gui",
+      "Liyang Hu",
+      "Xinde Cao",
+      "Xiaoyun Xu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-03",
+    "link": "https://doi.org/10.1021/acs.est.5c15760",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15760",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
     ],
     "open_pdf_source": "",
     "open_pdf_status": "no_open_pdf",
@@ -2611,6 +2222,96 @@
     "published": "2026-06-03",
     "link": "https://doi.org/10.1021/acs.est.5c16011",
     "abs_url": "https://doi.org/10.1021/acs.est.5c16011",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17496",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c17496",
+    "doi": "10.1021/acs.est.5c17496",
+    "title": "Microbial Dehalogenation of 3,5,6-Trichlorooctafluorohexanoic Acid under Different Reducing Conditions",
+    "abstract": ", Paracoccaceae, and Rhodobacteraceae-related bacteria) harboring both hydrolytic dechlorination and nitrate/sulfate-reduction genes, suggesting their involvement in CTFE3 hydrolytic dechlorination and subsequent defluorination. This study demonstrates that reducing conditions play an important role in shaping CTFE3 transformation patterns and highlight hydrolytic dechlorination as a viable pathway associated with extensive microbial defluorination, thereby offering insights for sustainable Cl-PFAS remediation.",
+    "authors": [
+      "Changjie Zhao",
+      "Longlong Zhang",
+      "Yanlong Wang",
+      "Guang Yang",
+      "Chongyang Ren",
+      "Xiaoqiang Cao",
+      "Qun Yu",
+      "Bosen Jin",
+      "Yujie Men",
+      "Huaqing Liu",
+      "Jian Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-04",
+    "link": "https://doi.org/10.1021/acs.est.5c17496",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17496",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18743",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c18743",
+    "doi": "10.1021/acs.est.5c18743",
+    "title": "Chemical Kinetic and Mechanistic Investigation of Cobalt and Manganese Recovery from Aqueous Solutions by Ozone Oxidative Precipitation",
+    "abstract": ", MnOOH) formed nucleation sites that promoted Co adsorption and coprecipitation, a mechanism supported by SEM-EDS, XRD, FT-IR, XPS, and Zeta Potential analyses confirming the formation of Mn oxide phases facilitating surface-mediated Co capture. Overall, these findings provide mechanistic and kinetic insight into ozone-based Co-Mn recovery and establish a basis for process design and optimization in critical metal recovery applications.",
+    "authors": [
+      "Younes Shekarian",
+      "Mohammad Rezaee",
+      "Sarma V. Pisupati"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-03",
+    "link": "https://doi.org/10.1021/acs.est.5c18743",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18743",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -2720,6 +2421,149 @@
     "open_pdf_status": "no_open_pdf",
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02538",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02538",
+    "doi": "10.1021/acs.est.6c02538",
+    "title": "Mood Altering Waters: Multidimensional Profiling and Chiral Characterization of Antidepressants in Effluent-Impacted Waterways",
+    "abstract": "Antidepressants (ADs) and their metabolites are widely reported in wastewater effluent and effluent-impacted waterways due to incomplete removal during wastewater treatment. These chemicals have been known to influence the behavior and physiology of exposed organisms, raising concerns regarding the ecological impact of this contamination. However, although 28 ADs are approved by the United States Food and Drug Administration, environmental studies commonly target only a small fraction of these chemicals, as conventional analytical approaches are hindered by coeluting isomers and structural similarity. Here, we developed a multidimensional workflow integrating liquid chromatography, drift tube ion mobility spectrometry, mass spectrometry, and fragmentation analysis to enable high-confidence identification and targeted quantification of 26 parent and 8 AD metabolites in environmental samples, while also establishing a publicly available reference library to support future studies. Selected compounds were further characterized with chiral chromatography to assess enantiomeric ADs with differing biological activity. This workflow was applied to effluent-impacted waterways, enabling the identification and quantification of 17 AD chemicals across five sites. These findings highlight the prevalence of AD contamination and the need for improved monitoring and wastewater treatment strategies to mitigate ecological and human health risks.",
+    "authors": [
+      "Emily C. Vincent",
+      "Mark W. Sumarah",
+      "Justin B. Renaud",
+      "Natasha DesRochers",
+      "Haley C. Jostes",
+      "Allison N. Fry",
+      "Jack P. Ryan",
+      "James N. Dodds",
+      "Jian Zhang",
+      "Paul A. Thiessen",
+      "Evan E. Bolton",
+      "Emma L. Schymanski",
+      "Erin S. Baker"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-03",
+    "link": "https://doi.org/10.1021/acs.est.6c02538",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02538",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02923",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02923",
+    "doi": "10.1021/acs.est.6c02923",
+    "title": "Integrated Machine-Learning Framework for Balanced Performance-Safety Design of Iron-Based Remediation Materials",
+    "abstract": "Optimizing iron-based materials via surface coatings and lattice engineering has been a major research focus for environmental remediation, yet higher reactivity to contaminants often elevates risks to organisms. To address this trade-off, we develop an integrated machine-learning framework for the quantitative coassessment of performance and safety. The model was trained on a literature-derived data set of 1007 cases, encompassing 80 iron-based materials, 136 target pollutants, and 50 test organisms. Using AutoGluon, a binary QSAR model was constructed to screen reaction performance and predict the direction of material-pollutant joint toxicity. Inputting molecular descriptors of materials and pollutants alongside experimental conditions, this model achieved robust remediation performance and joint toxicity predictions with balanced accuracy of 0.88 and 0.90, respectively. Feature attribution analysis predicted that material heterogeneity was a key driver of performance, while organismal attributes primarily governed toxicity outcomes, highlighting niche-targeting material doping and hybrid nanobio remediation strategies. A dominance-aware dynamic weighting scheme that integrates calibrated probabilities with an upper-zone attenuation and low-zone penalty was introduced to rank material candidates, plus an applicability-domain filter to limit overconfident extrapolation. These findings support a practical prescreening framework that generates prioritized candidate materials to inform the rational application of iron-based remediation systems.",
+    "authors": [
+      "Qiqi Chen",
+      "Xinyue Wu",
+      "Wanyi Yu",
+      "Zhenjie Li",
+      "Jiang Xu",
+      "Kun Yang",
+      "Jie Hou",
+      "Daohui Lin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-04",
+    "link": "https://doi.org/10.1021/acs.est.6c02923",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02923",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06486",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c06486",
+    "doi": "10.1021/acs.est.6c06486",
+    "title": "Environmental Concentrations of Herbicide Prometryn Increase the Susceptibility of Reef-Building Corals to Nitrate Stress",
+    "abstract": "Herbicide and nitrate pollution frequently co-occur in coastal waters, while their combined effect on corals has been a critical knowledge gap. Although corals can exhibit acclimation to nitrate enrichment, it is unclear whether this acclimation persists under coexposure to PSII herbicides. Here, we investigated the combined effects of nitrate and the PSII herbicide prometryn on the reef-building coralAcropora hyacinthusby integrating physiology, ultrastructure, and host-symbiont multiomics. The results demonstrate that prometryn acts as the primary driver of photodamage and photosynthetic toxicity in the symbiotic Symbiodiniaceae under costress. Transmission electron microscopy revealed that prometryn induced activated symbiophagy and chloroplast degradation with loosely stacked thylakoids in Symbiodiniaceae. Transcriptomics and proteomics analyses predicted that nitrate enrichment stimulated host glutathione-based antioxidant responses. However, prometryn-induced phototoxicity impaired photosynthate supply and disrupted this nitrate acclimation mechanism. Moreover, reduced photosynthate transfer further impaired the host energy balance and intensified oxidative stress. These findings show that PSII herbicides can override short-term acclimation to nitrate enrichment, underscoring the need for the joint regulation of herbicide and nutrient inputs in reef ecosystems.",
+    "authors": [
+      "Qiuli Li",
+      "Yanyu Zhou",
+      "Weilu Kang",
+      "Xianming Tang",
+      "Bo Hu",
+      "Zhi Tang",
+      "Fengchang Wu",
+      "Craig A. Downs",
+      "Hongwei Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-03",
+    "link": "https://doi.org/10.1021/acs.est.6c06486",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06486",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c06486?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown"
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00336",
