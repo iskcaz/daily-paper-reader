@@ -2304,7 +2304,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -2325,7 +2326,9 @@
       "Biology",
       "Genetics",
       "Botany"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-5c17904",
@@ -2633,7 +2636,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -2654,7 +2658,9 @@
       "Environmental protection"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-125682",
@@ -2905,6 +2911,392 @@
       "Environmental engineering",
       "Water treatment",
       "Nanotechnology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02993",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02993",
+    "doi": "10.1021/acs.est.6c02993",
+    "title": "Pore Wall Engineered Covalent–Organic Frameworks as Size-Matched Nanotraps Enable Highly Selective Adsorption of Sulfonamide Antibiotics",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yanting Chen",
+      "Yuan Lin",
+      "Chaochen Shao",
+      "Xianda Hu",
+      "Sijia Ma",
+      "Yi Xue",
+      "Hongqiang Ren",
+      "Ke Xu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-09T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:57.690580+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02993",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02993",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03000",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03000",
+    "doi": "10.1021/acs.est.6c03000",
+    "title": "Priority Plastic Additives of Environmental Concern in Marine-Leaked Micro- and Macroplastics: Occurrence, Distribution, and Management Implications",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Go Suzuki",
+      "Kosuke Tanaka",
+      "Natsuyo Uchida",
+      "Keiichi Uchida",
+      "Yoshiki Matsushita",
+      "Tadashi Tokai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-09T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:57.690782+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03000",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03000",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18987",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18987",
+    "doi": "10.1021/acs.est.5c18987",
+    "title": "Water Quality Impacts of Legacy Ion-Adsorption Rare Earth Element Mining and Processing",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Fengping Zhou",
+      "Xiaorui Liu",
+      "Miaoyue Zhang",
+      "Quan Wan",
+      "Nan Zhao",
+      "Ruigang Wang",
+      "Kang Hu",
+      "Peihai Ju",
+      "Huimin Xie",
+      "Binfeng Chen",
+      "Xun Fu",
+      "Qingxuan Zou",
+      "Meina Guo",
+      "Weihua Zhang",
+      "Yetao Tang",
+      "Rongliang Qiu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-09T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:57.690969+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18987",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18987",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02002",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02002",
+    "doi": "10.1021/acs.est.6c02002",
+    "title": "A Synergistic Molecular Mechanism Defines Pyrogenic Dissolved Organic Matter (pyDOM) Coagulation",
+    "abstract": "Climate change is exacerbating wildfires, resulting in an increased influx of pyrogenic dissolved organic matter (pyDOM) into aquatic systems. The distinctive molecular signature of pyDOM, which is markedly different from that of conventional humic substances, is hypothesized to have an impact on its environmental fate, especially during coagulation that is a crucial process for carbon sedimentation and water purification. Nevertheless, the specific removal mechanisms and the resulting floc architectures remain unclear. Through a comparative investigation of pyDOM from subtropical burnt soils and standard humic acid (HA) during aluminum sulfate coagulation, we have discovered a selective coagulation mechanism governed by pyDOM's molecular properties. pyDOM with condensed aromatics and oxygenated aliphatics is removed via synergistic π-π stacking and Al coordination. This stands in stark contrast to the charge neutralization dominated pathway observed for HA. The pyDOM-specific pathway gives rise to larger, denser flocs with a wider size distribution. At the molecular level, aggregation initiates with the condensation of aromatic cores, and oxygen and heteroatom functional groups form stable Al-O-C complexes, acting as chemical cross-links that strengthen floc integrity. This research identifies a previously neglected coagulation paradigm unique to pyDOM, which differs fundamentally from the traditional HA-centric framework, thus enhancing our mechanistic understanding of pyDOM-driven particle assembly and carbon export. These findings are essential for precisely predicting carbon stability in fire-affected watersheds and for devising effective water treatment strategies in wildfire-prone regions.",
+    "authors": [
+      "Baoju He",
+      "Yixuan Mao",
+      "Longyi Ran",
+      "Hanqian Pan",
+      "Sheng-Ao Li",
+      "Hua Ma"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-08T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:57.691156+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02002",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02002",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Dissolved organic carbon",
+      "Coagulation",
+      "Carbon fibers",
+      "Humic acid",
+      "Environmental chemistry",
+      "Sulfate",
+      "Sedimentation"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00454",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00454",
+    "doi": "10.1021/acs.est.6c00454",
+    "title": "Clayey Sediment Compaction-Driven Structural Changes of Pyrite Trigger Iodine Enrichment in Groundwater",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Haibin Huang",
+      "Kunfu Pi",
+      "Hongyan Li",
+      "Quan Liu",
+      "Qianyong Liang",
+      "Tao Gu",
+      "Yanxin Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-08T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:57.691391+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00454",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00454",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17603",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17603",
+    "doi": "10.1021/acs.est.5c17603",
+    "title": "Legacy and Emerging Per- and Polyfluoroalkyl Substances (PFAS) in Glacial Meltwater from Mt. Everest",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yunqiao Zhou",
+      "Yanna Liu",
+      "Yueqing Zhang",
+      "Xiaoping Wang",
+      "Yanming Li",
+      "Ian T. Cousins",
+      "Bo Sha",
+      "Huike Dong",
+      "Xuerui Niu",
+      "Lei Chai",
+      "Jianjie Fu",
+      "Guangbo Qu",
+      "Guibin Jiang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-08T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:57.691223+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17603",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17603",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-5c01260",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.5c01260",
+    "doi": "10.1021/acs.estlett.5c01260",
+    "title": "Regulating Microbial-Driven Iron-Based Nanoparticles for Enhanced Pharmaceutical Contaminant Remediation",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Qianyu Xu",
+      "Lan Ling"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-08T00:00:00+00:00",
+    "updated_at": "2026-06-09T20:56:58.100453+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.5c01260",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.5c01260",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

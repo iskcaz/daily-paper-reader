@@ -1,0 +1,217 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-09T21:58:07.960268+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 3,
+    "quick_skim_target": 11,
+    "quick_selected": 3
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "journal-10-1021-acs-est-5c17603",
+      "source": "journal",
+      "title": "Legacy and Emerging Per- and Polyfluoroalkyl Substances (PFAS) in Glacial Meltwater from Mt. Everest",
+      "abstract": "",
+      "authors": [
+        "Yunqiao Zhou",
+        "Yanna Liu",
+        "Yueqing Zhang",
+        "Xiaoping Wang",
+        "Yanming Li",
+        "Ian T. Cousins",
+        "Bo Sha",
+        "Huike Dong",
+        "Xuerui Niu",
+        "Lei Chai",
+        "Jianjie Fu",
+        "Guangbo Qu",
+        "Guibin Jiang"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-08T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.5c17603",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.5c17603",
+      "doi": "10.1021/acs.est.5c17603",
+      "updated_at": "2026-06-09T20:56:57.691223+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.5c17603",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "PFAS occurrence in meltwater informs inland source pathways to downstream waters",
+      "llm_evidence_cn": "冰川融水中PFAS检出可指示内陆源向下游水体输送路径",
+      "llm_evidence": "冰川融水中PFAS检出可指示内陆源向下游水体输送路径",
+      "canonical_evidence": "冰川融水中PFAS检出可指示内陆源向下游水体输送路径",
+      "llm_tldr_en": "The study reports legacy and emerging PFAS in glacial meltwater from Mt. Everest, expanding evidence on PFAS occurrence in remote headwaters. While not coastal, it is relevant as a source-pathway paper showing PFAS presence in upstream waters that may feed riverine transport toward downstream estuarine and coastal systems.",
+      "llm_tldr_cn": "该研究针对偏远高山地区PFAS来源与分布证据不足的问题，调查了珠峰冰川融水中的传统与新兴PFAS。论文通过对冰川融水样品的检测，揭示远离直接排放区的源头水体中同样存在PFAS污染信号。虽然研究对象并非河口或近海，但其结果对理解PFAS在上游源区的出现及其经河流向下游输送具有启发意义。整体上，它为陆源输入到河口和近岸海域的路径识别补充了源头端证据。",
+      "llm_tldr": "该研究针对偏远高山地区PFAS来源与分布证据不足的问题，调查了珠峰冰川融水中的传统与新兴PFAS。论文通过对冰川融水样品的检测，揭示远离直接排放区的源头水体中同样存在PFAS污染信号。虽然研究对象并非河口或近海，但其结果对理解PFAS在上游源区的出现及其经河流向下游输送具有启发意义。整体上，它为陆源输入到河口和近岸海域的路径识别补充了源头端证据。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "journal-10-1021-acs-est-6c02002",
+      "source": "journal",
+      "title": "A Synergistic Molecular Mechanism Defines Pyrogenic Dissolved Organic Matter (pyDOM) Coagulation",
+      "abstract": "Climate change is exacerbating wildfires, resulting in an increased influx of pyrogenic dissolved organic matter (pyDOM) into aquatic systems. The distinctive molecular signature of pyDOM, which is markedly different from that of conventional humic substances, is hypothesized to have an impact on its environmental fate, especially during coagulation that is a crucial process for carbon sedimentation and water purification. Nevertheless, the specific removal mechanisms and the resulting floc architectures remain unclear. Through a comparative investigation of pyDOM from subtropical burnt soils and standard humic acid (HA) during aluminum sulfate coagulation, we have discovered a selective coagulation mechanism governed by pyDOM's molecular properties. pyDOM with condensed aromatics and oxygenated aliphatics is removed via synergistic π-π stacking and Al coordination. This stands in stark contrast to the charge neutralization dominated pathway observed for HA. The pyDOM-specific pathway gives rise to larger, denser flocs with a wider size distribution. At the molecular level, aggregation initiates with the condensation of aromatic cores, and oxygen and heteroatom functional groups form stable Al-O-C complexes, acting as chemical cross-links that strengthen floc integrity. This research identifies a previously neglected coagulation paradigm unique to pyDOM, which differs fundamentally from the traditional HA-centric framework, thus enhancing our mechanistic understanding of pyDOM-driven particle assembly and carbon export. These findings are essential for precisely predicting carbon stability in fire-affected watersheds and for devising effective water treatment strategies in wildfire-prone regions.",
+      "authors": [
+        "Baoju He",
+        "Yixuan Mao",
+        "Longyi Ran",
+        "Hanqian Pan",
+        "Sheng-Ao Li",
+        "Hua Ma"
+      ],
+      "primary_category": "environmental-science",
+      "categories": [
+        "environmental-science",
+        "journal-watch",
+        "core-journal",
+        "est"
+      ],
+      "published": "2026-06-08T00:00:00+00:00",
+      "link": "https://doi.org/10.1021/acs.est.6c02002",
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "source_detail": "crossref",
+      "source_paper_id": "10.1021/acs.est.6c02002",
+      "doi": "10.1021/acs.est.6c02002",
+      "updated_at": "2026-06-09T20:56:57.691156+00:00",
+      "abs_url": "https://doi.org/10.1021/acs.est.6c02002",
+      "journal": "Environmental Science & Technology",
+      "journal_key": "est",
+      "journal_label": "EST",
+      "journal_issn": [
+        "0013-936X",
+        "1520-5851"
+      ],
+      "source_weight": 10,
+      "open_pdf_status": "no_open_pdf",
+      "open_pdf_source": "",
+      "metadata_sources": [
+        "crossref",
+        "openalex"
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "openalex_concepts": [
+        "Chemistry",
+        "Dissolved organic carbon",
+        "Coagulation",
+        "Carbon fibers",
+        "Humic acid",
+        "Environmental chemistry",
+        "Sulfate",
+        "Sedimentation"
+      ],
+      "open_pdf_available": false,
+      "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+      "llm_score": 6.0,
+      "llm_evidence_en": "environmental fate mechanism of aquatic organic matter",
+      "llm_evidence_cn": "水体有机质环境归趋机制",
+      "llm_evidence": "水体有机质环境归趋机制",
+      "canonical_evidence": "水体有机质环境归趋机制",
+      "llm_tldr_en": "By resolving molecular mechanisms of pyrogenic dissolved organic matter coagulation, this study advances understanding of aquatic fate processes and provides mechanistic insight potentially useful for interpreting contaminant partitioning behavior in coastal systems.",
+      "llm_tldr_cn": "该研究针对火成溶解性有机质进入水体后其混凝去除机制不清的问题，比较了其与常规腐殖酸在硫酸铝混凝过程中的分子行为。结果揭示了由分子特征主导的选择性混凝机制及絮体结构差异，说明有机质组成会显著影响环境归趋。虽然并非PFAS研究，但其对水相中分配、聚集与去除机制的刻画，可为近岸PFAS与有机质相互作用及归趋解释提供概念桥梁。",
+      "llm_tldr": "该研究针对火成溶解性有机质进入水体后其混凝去除机制不清的问题，比较了其与常规腐殖酸在硫酸铝混凝过程中的分子行为。结果揭示了由分子特征主导的选择性混凝机制及絮体结构差异，说明有机质组成会显著影响环境归趋。虽然并非PFAS研究，但其对水相中分配、聚集与去除机制的刻画，可为近岸PFAS与有机质相互作用及归趋解释提供概念桥梁。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "Retrieve research on sources pathways and biogeochemical processes affecting PFAS in estuaries and coastal marine systems",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-06-03-729784-v1",
+      "source": "biorxiv",
+      "title": "Chemical Mixtures in River Basins: Combining Additive and Independent Effects with Probabilistic Risk Modelling",
+      "abstract": "Chemical mixtures and potential cocktail effects in aquatic ecosystems are recognised as a threat for river basins world-wide. Probabilistic risk approaches are becoming more common in environmental risk assessment, and offer new opportunities for metodological challenges such as of mixture risk characterisation. The Concentration Addition (CA) concept is commonly used in lower-tier risk assessment (e.g., sum of risk quotients), as a pragmatic and protective method. However, the alternative Independent Action (IA) concept can easily be implemented in probabilistic risk calculation (e.g., joint probability of threshold exceedances). We have developed a multi-level probabilistic model for integrating these two concepts, formulated as an object-oriented Bayesian network (BN). First, probabilistic risk quotients (RQ) are calculated for individual substances, as probability distributions of environmental concentrations divided by a threshold environmental value. Next, the CA concept is applied within groups of substances by summing the RQ distributions. Finally, the IA concept is applied across the different substance groups, assuming independent modes of action, to combine RQ distributions by joint probability calculation (\"OR\" expressions). Predicted exposure concentrations were obtained from the ENCORE fate model, a process-based model for simulation of chemicals in river basins across Europe. Here we present a pilot study focusing on a subset of the substances (15 pesticides) and river basins (in Belgium), as a proof-of-concept. The purpose of this pilot study was to demonstrate a novel probabilistic approach to mixture risk characterisation, by combining the CA and IA concepts in a multi-level BN. The results were consistent across scenarios as well as with literature, with CA-based risk characterisations being slightly higher the IA-based. The combined CA+IA-based risk represents a reasonable compromise. Sensitivity analysis of the BN can provide an effective ranking of the risk-driving substances and groups, to support chemical prioritisation and risk managment.",
+      "authors": [
+        "Moe, S. J.",
+        "Madsen, A. L.",
+        "Mentzel, S.",
+        "Viaene, K. P. J.",
+        "Vlaeminck, K.",
+        "Grung, M.",
+        "Martins, S. E.",
+        "Subelj, G.",
+        "Welch, S. A.",
+        "Verdonck, F."
+      ],
+      "primary_category": "ecology",
+      "categories": [
+        "ecology"
+      ],
+      "published": "2026-06-07T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.06.03.729784v1.full.pdf",
+      "doi": "",
+      "abs_url": "",
+      "pdf_url": "",
+      "journal": "",
+      "journal_key": "",
+      "journal_label": "",
+      "open_pdf_status": "",
+      "open_pdf_available": null,
+      "open_pdf_note": "",
+      "source_weight": null,
+      "tags": [
+        "keyword:coastal-pfas",
+        "query:coastal-pfas"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "river-basin contaminant risk modelling for upstream transport context",
+      "llm_evidence_cn": "流域污染物风险建模与上游输送背景相关",
+      "llm_evidence": "流域污染物风险建模与上游输送背景相关",
+      "canonical_evidence": "流域污染物风险建模与上游输送背景相关",
+      "llm_tldr_en": "This paper addresses limits in mixture-risk characterization for river basins by developing a probabilistic framework that integrates concentration addition and independent action. The model improves assessment of cocktail effects in aquatic systems and can support source-to-receiver analyses relevant to contaminant delivery from rivers toward estuaries and coastal waters.",
+      "llm_tldr_cn": "该研究针对流域尺度化学混合物风险评估中过于依赖单一加和假设的问题，提出了结合浓度加和与独立作用概念的多层次概率模型。作者将两类效应整合到河流流域水生态风险表征中，用于更稳健地刻画鸡尾酒效应及阈值超标概率。尽管论文并未聚焦PFAS或近海环境，但其框架可迁移到河流向河口和近岸海域输送污染物的风险评估。对理解陆源输入路径及上游混合污染压力具有方法支撑意义。",
+      "llm_tldr": "该研究针对流域尺度化学混合物风险评估中过于依赖单一加和假设的问题，提出了结合浓度加和与独立作用概念的多层次概率模型。作者将两类效应整合到河流流域水生态风险表征中，用于更稳健地刻画鸡尾酒效应及阈值超标概率。尽管论文并未聚焦PFAS或近海环境，但其框架可迁移到河流向河口和近岸海域输送污染物的风险评估。对理解陆源输入路径及上游混合污染压力具有方法支撑意义。",
+      "llm_tags": [
+        "query:coastal-pfas"
+      ],
+      "matched_query_tag": "query:coastal-pfas",
+      "matched_query_text": "transport pathways of PFAS from land to coastal ocean",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
