@@ -2957,7 +2957,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -2966,7 +2968,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Adsorption",
+      "van der Waals force",
+      "Density functional theory",
+      "Sulfonamide",
+      "Selectivity",
+      "Selective adsorption",
+      "Combinatorial chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03000",
@@ -3008,7 +3027,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -3017,7 +3037,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Business",
+      "Environmental planning",
+      "Environmental science",
+      "Waste management",
+      "Risk analysis (engineering)",
+      "Natural resource economics",
+      "Environmental resource management",
+      "Environmental protection"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c18987",
@@ -3069,7 +3101,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3078,7 +3112,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Lixiviant",
+      "Leaching (pedology)",
+      "Dissolution",
+      "Environmental science",
+      "Water quality",
+      "Rare earth",
+      "Sulfate",
+      "Earth science"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c02002",
@@ -3121,7 +3172,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3142,7 +3194,12 @@
       "Sedimentation"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c00454",
@@ -3243,7 +3300,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3252,7 +3311,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Meltwater",
+      "Glacial period",
+      "Glacier",
+      "Environmental science",
+      "Cryosphere",
+      "Environmental chemistry",
+      "Climate change",
+      "Geology"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-estlett-5c01260",
@@ -3290,13 +3366,149 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
       "journal-watch",
       "core-journal",
       "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Nanoparticle",
+      "Environmental remediation",
+      "Environmental science",
+      "Nanotechnology",
+      "Waste management",
+      "Materials science",
+      "Contamination"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05733",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05733",
+    "doi": "10.1021/acs.est.6c05733",
+    "title": "Enhanced Environmental PFAS Characterization Using a Virtual High-Resolution Mass Spectral Library Generated by Transfer Learning-Based Neural Network",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yi-Chi Chen",
+      "Hsin-Yi Wu",
+      "Man-Ni Zhuang",
+      "Chen-Ming Yi",
+      "Wei-Sheng Wu",
+      "Pao-Chi Liao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-10T00:00:00+00:00",
+    "updated_at": "2026-06-10T21:29:00.561676+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05733",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05733",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01697",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01697",
+    "doi": "10.1021/acs.est.6c01697",
+    "title": "Trapping and Detecting Nanoplastics Using Metal–Phenolic Networks–Functionalized Membranes with SERS",
+    "abstract": "The widespread production and disposal of plastics pose severe risks to human health and ecosystems, primarily due to the likelihood of degradation into microplastics and/or nanoplastics, which increases the probability of exposure. Traditional detection methods for these particles are often hindered by limitations in sensitivity, cost, and labor intensity of performing the analyses. Hence, our study presents a novel approach utilizing metal-phenolic networks (MPNs)-functionalized membranes combined with surface-enhanced Raman spectroscopy (SERS) for the rapid trapping and sensitive detection of polystyrene nanoplastics (PSNPs). By integrating MPNs with nitrocellulose membranes, this method can effectively trap diverse sizes of PSNPs (1 μm, 500 nm, and 50 nm) with >90% trapping efficiency and enable the sensitive SERS detection of small-sized 50 nm nanoplastics at concentrations as low as 0.1 mg/L. Quantitative analysis demonstrated a strong linear relationship between PSNPs concentration and SERS intensity, facilitating accurate monitoring in real-world samples. Notably, the method achieved a high recovery rate of >90% for the analysis of 50 nm PSNPs (10 mg/L, 1 mg/L, 0.1 mg/L) in tap water, along with a trapping efficiency >90% across different PSNP concentrations: 10 mg/L, 1 mg/L, 0.1 mg/L. These results show that the MPNs-functionalized membrane coupled with SERS provides a promising platform for effectively trapping and sensitively detecting nanoplastic contaminants in environmental systems. This innovative approach offers significant advantages over conventional methods, including low cost, user-friendliness, and practicality for effective trapping and on-site detection of nanoplastics.",
+    "authors": [
+      "Haoming Yang",
+      "Matthew Kowal",
+      "Zhiyun Liu",
+      "Tianyu Wang",
+      "Teresa M. Seifried",
+      "Edward R. Grant",
+      "David D. Kitts",
+      "Tianxi Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-09T00:00:00+00:00",
+    "updated_at": "2026-06-10T21:29:00.562207+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01697",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01697",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Trapping",
+      "Microplastics",
+      "Nitrocellulose",
+      "Membrane",
+      "Polystyrene",
+      "Chemistry",
+      "Nanotechnology",
+      "Degradation (telecommunications)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
