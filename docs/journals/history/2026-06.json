@@ -3028,7 +3028,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3049,6 +3050,11 @@
       "Natural resource economics",
       "Environmental resource management",
       "Environmental protection"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -3367,7 +3373,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3388,7 +3395,9 @@
       "Waste management",
       "Materials science",
       "Contamination"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c05733",
@@ -3430,7 +3439,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3439,7 +3450,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Characterization (materials science)",
+      "Groundwater",
+      "Artificial neural network",
+      "Computer science",
+      "Environmental science",
+      "Spectral analysis",
+      "Similarity (geometry)",
+      "Spectral properties"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01697",
@@ -3509,6 +3537,327 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c13901",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c13901",
+    "doi": "10.1021/acs.est.5c13901",
+    "title": "Effects of Iron–Organic Matter Colloids on Transport of Rare Earth Elements in Saturated Porous Medium",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Muqeet Iqbal",
+      "Justine Le Doare",
+      "Mélanie Davranche",
+      "Aline Dia",
+      "Lionel Dutruch",
+      "Benoit Maxit",
+      "Fidel Grandia",
+      "Khalil Hanna",
+      "Rémi Marsac"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-10T00:00:00+00:00",
+    "updated_at": "2026-06-11T21:47:53.967526+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c13901",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13901",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02083",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02083",
+    "doi": "10.1021/acs.est.6c02083",
+    "title": "Increasing Sea Surface Temperature Suppresses Sea Spray Aerosol-Mediated Microplastics Emission",
+    "abstract": ". These findings identify SST as a key parameter regulating the release of marine MPs, which has significant implications for improving global emission inventories and atmospheric transport modeling.",
+    "authors": [
+      "Jie Hu",
+      "Jianlong Li",
+      "Narcisse Tsona Tchinda",
+      "Lin Du"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-10T00:00:00+00:00",
+    "updated_at": "2026-06-11T21:47:53.967374+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02083",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02083",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Microplastics",
+      "Sea surface temperature",
+      "Environmental science",
+      "Seawater",
+      "Atmospheric sciences",
+      "Oceanography",
+      "Environmental chemistry",
+      "Global warming"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c12107",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c12107",
+    "doi": "10.1021/acs.est.5c12107",
+    "title": "Integrative Proteomic and In Silico Analysis of Perfluorooctanoic Acid Exposures in Primary Human Placental Cytotrophoblasts",
+    "abstract": "Perfluorooctanoic acid (PFOA), a major persistent per- and polyfluoroalkyl substance (PFAS), remains ubiquitous in humans, including pregnant women, despite regulatory actions to limit its production and use. The placenta has been proposed as a target of PFOA, however, the underlying mechanisms remain poorly defined. We exposed primary human placental cytotrophoblasts (CTBs) isolated from three second-trimester placentas to PFOA (0.1-25 μM) for 48 h. SWATH-MS identified 3,240 proteins, 274 of which were differentially expressed. Proteins involved in lipid and amino acid metabolism and innate immunity pathways were significantly enriched among these targets. Integration of protein and mRNA data sets revealed key molecules linking PFOA exposure to altered immune defense and placental dysfunction. Molecular docking and dynamic simulations predicted that PFOA and other PFAS directly interact with master regulators, including peroxisome proliferator-activated receptors α and γ (PPARα, PPARγ) and novel targets such as signal transducer and activator of transcription 1/2 (STAT1, STAT2) and interferon regulatory factor 1/3 (IRF1, IRF3). Benchmark modeling indicated that significant protein-level changes can occur at concentrations relative to reported serum concentrations and associated with placental toxicity in rodents. We propose that PFOA and other PFAS directly interact with these candidate regulators, contributing to placental dysfunction.",
+    "authors": [
+      "Mengjing Wang",
+      "Hao Chen",
+      "Mirhan Kapidzic",
+      "Matthew Gormley",
+      "Sami Tuomivaara",
+      "Amanda M. Gutierrez",
+      "Lin Li",
+      "Jessica Chen",
+      "Dimitri P. Abrahamsson",
+      "Steven Hall",
+      "Nuno M. S. Almeida",
+      "Anatoly A. Soshilov",
+      "Tracey J. Woodruff",
+      "Susan J. Fisher",
+      "Joshua F. Robinson"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-10T00:00:00+00:00",
+    "updated_at": "2026-06-11T21:47:53.967486+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c12107",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c12107",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Perfluorooctanoic acid",
+      "In silico",
+      "STAT protein",
+      "Placenta",
+      "Biology",
+      "Innate immune system",
+      "Receptor",
+      "Transcription factor"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17523",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17523",
+    "doi": "10.1021/acs.est.5c17523",
+    "title": "Tracing U.S. Fuel Life-Cycle Greenhouse Gas Emissions in a Multisector Dynamics Model Using LC-GCAM",
+    "abstract": "Model-based analysis of fuel pathways is essential for informing energy and environmental policies. Two major model types are typically used: multisector dynamics models, which capture the broader energy economy, such as GCAM (Global Change Analysis Model), and life-cycle assessment models, such as GREET (Greenhouse Gases, Regulated Emissions, and Energy Use in Transportation). Each has distinct strengths and limitations, and recent studies have increasingly adopted hybrid approaches to harness the advantages of both. However, such integration is often time-consuming and complicated by inconsistencies in the system boundaries and technology definitions. We present LC-GCAM, a new tool that enables estimation of life-cycle greenhouse gas emissions and primary energy use for any fuel pathway represented in GCAM. We apply LC-GCAM to 300 scenarios designed to explore key uncertainties affecting the life-cycle performance of future fuel options in the U.S. freight sector. To evaluate LC-GCAM, we compared its results with those from GREET for nine fuel types in a 2030 reference scenario. When input assumptions are modestly aligned, LC-GCAM and GREET estimates typically agree within 13% (aggregate absolute-sum error), although discrepancies can be larger for pathways involving large amounts of land use change emissions. LC-GCAM offers a flexible and efficient approach to generating life-cycle metrics within an integrated modeling framework, supporting robust policy analysis across a wide range of interacting energy system uncertainties.",
+    "authors": [
+      "Paul Wolfram",
+      "Page Kyle",
+      "Nawaf Nazir"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-10T00:00:00+00:00",
+    "updated_at": "2026-06-11T21:47:53.967446+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17523",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17523",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Greenhouse gas",
+      "Tracing",
+      "Range (aeronautics)",
+      "Environmental science",
+      "Key (lock)",
+      "System dynamics",
+      "Energy (signal processing)",
+      "Energy system"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00418",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00418",
+    "doi": "10.1021/acs.estlett.6c00418",
+    "title": "First Mechanistic Insights into Mammalian P450-Catalyzed Reductive Defluorination and Bioactivation of Cl-PFAS: From Halothane to a QSAR Model",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Juchen Ma",
+      "Shiyang Cheng",
+      "Houjun Qiu",
+      "Shun Liu",
+      "Fei Li",
+      "Dong-Xing Guan",
+      "Piotr Paneth",
+      "Li Ji"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-11T00:00:00+00:00",
+    "updated_at": "2026-06-11T21:47:54.429685+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00418",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00418",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
