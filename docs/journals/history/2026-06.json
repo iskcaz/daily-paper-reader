@@ -3920,7 +3920,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -3929,7 +3930,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Human decontamination",
+      "Contamination",
+      "Polyethylene terephthalate",
+      "Chemistry",
+      "Supercritical fluid",
+      "Polyethylene",
+      "Carbon fibers",
+      "Environmental chemistry"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c18695",
@@ -4044,7 +4057,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4065,7 +4079,12 @@
       "Groundwater"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01661",
@@ -4162,7 +4181,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4183,7 +4203,12 @@
       "Reaction mechanism"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c04463",
@@ -4225,7 +4250,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4246,7 +4272,12 @@
       "X-ray absorption spectroscopy"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c00979",
@@ -4725,7 +4756,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4746,7 +4778,9 @@
       "Degradation (telecommunications)"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00179",
@@ -4811,6 +4845,469 @@
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02079",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02079",
+    "doi": "10.1021/acs.est.6c02079",
+    "title": "Bridging the Gap: A Quantitative Framework Correlating Static and Dynamic Adsorption Capacities for VOCs Removal Prediction",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Zhongshen Zhang",
+      "Yuan Wang",
+      "Xinxin Wang",
+      "Boyi Hao",
+      "Gang Wang",
+      "Zeyu Zhao",
+      "Wenqing Wu",
+      "Ke Zhang",
+      "Dong Zhu",
+      "Huiqun Liu",
+      "Long Yuan",
+      "Xiaoxiao Duan",
+      "Ganggang Li",
+      "Fenglian Zhang",
+      "Jinjun Li",
+      "Hongling Yang",
+      "Zhengping Hao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:15.273139+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02079",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02079",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02389",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02389",
+    "doi": "10.1021/acs.est.6c02389",
+    "title": "Emerging Plastic-Derived Soil Contaminant AO168═O Impairs Nematode Development and Lifespan at Environmentally Relevant Concentrations",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Kaihang Deng",
+      "Haochun Shi",
+      "Peng Wang",
+      "Keqi Dong",
+      "Congcong Wang",
+      "Yu Li",
+      "Kun Zhang",
+      "Dayong Wang",
+      "Jiayin Dai",
+      "Fujun Ma",
+      "Yanbin Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:15.273218+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02389",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02389",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18126",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18126",
+    "doi": "10.1021/acs.est.5c18126",
+    "title": "Trends of Fentanyl and Oxycodone Use in Australia (2018–2022) in National Prescription and Wastewater Data Sets",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Hieu K.T. Ngo",
+      "Phong K. Thai",
+      "Jason P. Connor",
+      "Bill Loveday",
+      "Rory Verhagen",
+      "Richard Bade",
+      "Jake W. O’Brien",
+      "Cobus Gerber",
+      "Emma Keller",
+      "Bradley S. Simpson",
+      "Peter Culshaw",
+      "Wayne Hall",
+      "Keith Humphreys",
+      "Kevin V. Thomas",
+      "Jochen F. Mueller",
+      "Ben Tscharke"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:15.273026+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18126",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18126",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18865",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18865",
+    "doi": "10.1021/acs.est.5c18865",
+    "title": "Exposure Profiles and Screening-Level Risk Assessment of PCP-Related Chemicals in China: A Focus on Parabens",
+    "abstract": "Chemicals in personal care products (PCPs) are ubiquitous environmental contaminants; however, nationally representative data on population-level exposure in China remain limited. Here, we quantified urinary concentrations of PCP-related chemicals in 1,817 participants from the China National Human Biomonitoring (CNHBM) program (2017-2018), using a multistage stratified sampling design. We characterized exposure patterns and conducted a screening-level exposure assessment. Parabens (PBs) were the most frequently detected chemicals, with methyl paraben (MeP) showing the highest quantification rate, followed by ethyl paraben (EtP) and normal propyl paraben (n-PrP). Higher exposure levels were observed among northern urban residents, females, and individuals aged 3-5 and 19-39 years. Lower rice intake and higher fruit consumption were associated with increased urinary concentrations. A small proportion of participants had hazard index values exceeding 1. Population-weighted extrapolation suggests that approximately 0.738% of the Chinese population (about 9.47 million individuals) may exceed screening-level reference values under conservative assumptions, with higher proportions among females and those aged 19-59 years. This study provides the first nationally representative characterization of exposure to multiple classes of PCP-related chemicals in China and offers important context for population exposure patterns.",
+    "authors": [
+      "Wenqi Hao",
+      "Wanying Shi",
+      "Xiao Lin",
+      "Peijie Sun",
+      "Zheng Li",
+      "Wenli Zhang",
+      "Mingkun Yu",
+      "Lu Yu",
+      "Yingli Qu",
+      "Saisai Ji",
+      "Shuyang Yan",
+      "Dejin Yang",
+      "Feng Zhao",
+      "Yawei Li",
+      "Haocan Song",
+      "Jiayi Cai",
+      "Lin Wang",
+      "Ying Zhu",
+      "Yuebin Lv",
+      "Xiaoming Shi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:15.273373+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18865",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18865",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Paraben",
+      "Biomonitoring",
+      "Environmental health",
+      "Context (archaeology)",
+      "Exposure assessment",
+      "Risk assessment",
+      "Toxicology",
+      "Population"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04986",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04986",
+    "doi": "10.1021/acs.est.6c04986",
+    "title": "The Distribution of Xenobiotics of Terrigenous Origin in the Nearshore Waters of a Caribbean Island",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lisa Schellenberg",
+      "Vesna Bertoncelj",
+      "Virginia Sánchez Barranco",
+      "Meine D. Boer",
+      "Daniel Petras",
+      "Craig E. Nelson",
+      "Benjamin Mueller",
+      "Mark J. A. Vermeij",
+      "Furu Mienis",
+      "Corina P. D. Brussaard",
+      "Andreas F. Haas"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:15.273238+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04986",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04986",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Terrigenous sediment",
+      "Oceanography",
+      "Distribution (mathematics)",
+      "Xenobiotic",
+      "Caribbean region",
+      "Geology",
+      "Environmental science",
+      "Coastal zone"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00014",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00014",
+    "doi": "10.1021/acs.estlett.6c00014",
+    "title": "Large-Scale Episodic Ethylene Releases Observed from the West Ethylene Pipeline in Iran",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Hélène Massager",
+      "Lieven Clarisse",
+      "Bruno Franco",
+      "Isabelle De Smedt",
+      "Adrien Vu Van",
+      "Cathy Clerbaux",
+      "Pierre Coheur",
+      "Sophie Bauduin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:16.098872+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00014",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00014",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Pipeline (software)",
+      "Ethylene",
+      "Environmental science",
+      "Geology",
+      "Waste management",
+      "Petroleum engineering",
+      "Pipeline transport",
+      "Forensic engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00498",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00498",
+    "doi": "10.1021/acs.estlett.6c00498",
+    "title": "Direct Evidence for the Carrier Effect of Nanoplastics in Plants via In Situ Mass Spectrometry Imaging",
+    "abstract": "To provide the direct evidence for comigration of plastic particles and additives in organisms, for the first time, matrix-assisted laser desorption/ionization mass spectrometry imaging (MALDI-MSI) was employed to obtain in situ imaging characterization of the migration behaviors of nanoplastics (NPs) and additives in potted cactus stems. When polystyrene nanoplastics (PS-NPs) loaded with the antioxidant tris(2,4-di- tert -butylphenyl) phosphite (AO168) and flame retardant diphenyl phosphate (DPhP) were continuously exposed directly to the pith for 7 days, the additives comigrated with PS-NPs upward along stems. On the low cross-section, concentrations of PS, AO168 and DPhP were 84.8 ± 7.3, 1.5 ± 0.1, and 7.1 ± 1.9 μg/cm 2, respectively; the corresponding values on the high cross-section were 7.4 ± 0.8, 1.4 ± 0.1 and 3.8 ± 0.2 μg/cm 2 . In contrast, AO168 and DPhP were undetectable in high cross sections of the PS-NPs-free control under identical exposure levels. The mapping degrees of additives to PS-NPs decline from 63.1% at low cross-section to 1.0% at high cross-section, indicating progressive dissociation during translocation. In vitro experiments demonstrated that PS loading can significantly reduce the degradation efficiency of additives within the cactus bleeding sap. The PS-NPs entering the stems exert a carrier effect, thereby facilitating the long-distance translocation of additives to distal plant tissues.",
+    "authors": [
+      "Ye Li",
+      "Yanfang Zhao",
+      "Junjie Zhang",
+      "Hongmei Gong",
+      "Baoshan Xing",
+      "Xiangfeng Chen",
+      "Lei Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-16T00:00:00+00:00",
+    "updated_at": "2026-06-18T21:49:16.098896+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00498",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00498",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Mass spectrometry",
+      "Dissociation (chemistry)",
+      "Cinder",
+      "Triphenyl phosphate",
+      "Degradation (telecommunications)",
+      "Polystyrene",
+      "Nuclear chemistry"
+    ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
