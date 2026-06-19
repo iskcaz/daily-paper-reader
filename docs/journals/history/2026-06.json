@@ -3921,7 +3921,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3942,6 +3943,11 @@
       "Polyethylene",
       "Carbon fibers",
       "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -4043,7 +4049,7 @@
     "updated_at": "2026-06-17T20:40:05.734538+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18582",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18582",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c18582?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -4052,8 +4058,8 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -4078,7 +4084,7 @@
       "Water pollution",
       "Groundwater"
     ],
-    "open_pdf_available": false,
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
     "citation_count": 0,
     "influential_citation_count": 0,
@@ -4899,7 +4905,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -4908,7 +4915,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Adsorption",
+      "Saturation (graph theory)",
+      "Bridging (networking)",
+      "Penetration (warfare)",
+      "Thermodynamics",
+      "Chemistry",
+      "Partial pressure",
+      "Materials science"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c02389",
@@ -4955,7 +4974,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -4964,7 +4984,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biology",
+      "Transcriptome",
+      "Reprogramming",
+      "Nematode",
+      "Organism",
+      "Gene expression profiling",
+      "Ecology",
+      "Model organism"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c18126",
@@ -5016,7 +5048,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5025,7 +5059,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Oxycodone",
+      "Fentanyl",
+      "Medical prescription",
+      "Medicine",
+      "Wastewater",
+      "Opioid",
+      "Consumption (sociology)",
+      "Morphine"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c18865",
@@ -5143,7 +5194,7 @@
     "updated_at": "2026-06-18T21:49:15.273238+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04986",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04986",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04986?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -5152,12 +5203,13 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5165,7 +5217,7 @@
       "core-journal",
       "est"
     ],
-    "is_oa": false,
+    "is_oa": true,
     "oa_status": "closed",
     "openalex_concepts": [
       "Terrigenous sediment",
@@ -5177,8 +5229,13 @@
       "Environmental science",
       "Coastal zone"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00014",
@@ -5231,7 +5288,7 @@
       "core-journal",
       "est-letters"
     ],
-    "is_oa": false,
+    "is_oa": true,
     "oa_status": "closed",
     "openalex_concepts": [
       "Pipeline (software)",
@@ -5307,6 +5364,490 @@
       "Degradation (telecommunications)",
       "Polystyrene",
       "Nuclear chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01978",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01978",
+    "doi": "10.1021/acs.est.6c01978",
+    "title": "Mechanisms of Long-Term Nanoplastic Release in Soil and Their Interaction with Soil Colloids",
+    "abstract": "The quantification of nanoplastic retention in soils and release mechanisms mediated by soil colloids remains challenging. This study used palladium-labeled nanoplastics (Pd-NPs) in column experiments to investigate their retention and potential long-term release, focusing on interactions with soil colloids. Pd-NPs were primarily immobilized through low energy barriers related to charge heterogeneity or nanoscale roughness, but also influenced by blocking, ripening, charge reversal, and cation bridging. These interactions limited particle release under steady-state conditions or flow interruptions. However, transient changes in solution chemistry (e.g., increased pH and reduced ionic strength, IS) lowered energy barriers to detachment on some convex nanoscale roughness locations, facilitating remobilization of reversibly retained Pd-NPs. Cation exchange and IS reduction further promoted particle release (5.2%-30.7%) by decreasing charge heterogeneity and weakening cation bridging. Approximately 75.9% of the released Pd-NPs were mainly associated with soil colloids in the 0.1-2 μm range under reduced IS conditions via cotransport or heteroaggregation, and the detachment of these soil colloids was the dominant mechanism of their long-term release. In contrast, 68.7% of the released Pd-NPs under increased pH occurred independently of soil colloid release. Additionally, Pd-NPs bound to stable solid surfaces in deep primary minima were irreversibly retained (≤63.8%), preventing detachment. This study highlights the importance of understanding the interaction between Pd-NPs and soil colloids for accurate assessment of long-term environmental risks, particularly groundwater contamination.",
+    "authors": [
+      "Jinyu Li",
+      "Yan Liang",
+      "Chongyang Shen",
+      "Xiaoyan Lv",
+      "Scott A. Bradford"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536502+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01978",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01978",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Colloid",
+      "Soil water",
+      "Surface charge",
+      "Groundwater",
+      "Chemistry",
+      "Ionic strength",
+      "Particle (ecology)",
+      "Chemical engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c15794",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c15794",
+    "doi": "10.1021/acs.est.5c15794",
+    "title": "Spatially Resolved Greenhouse Gas Emissions from U.S. Dairy Products",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide As the world’s second-largest milk producer, the U.S. dairy industry aims to achieve net GHG neutrality for all dairy products by 2050. Meeting this target requires understanding emissions across the dairy supply chain, extending beyond farms to include full processing activities. While previous Life Cycle Assessments (LCAs) evaluated individual products like fluid milk and cheese, no comprehensive cradle-to-processing gate LCA exists for the industry. Moreover, prior LCAs often allocated facility-level emissions across multiple products, overlooking variations in energy and materials among coproducts. This study addresses these gaps, quantifying total cradle-to-processing gate emissions, emissions per kilogram of product, and product emissions per kilogram of fat and protein-corrected milk (FPCM) across 12 regions covering 99.96% of U.S. dairy production. In 2020, total emissions were 163.3 million tonnes CO 2 e, with raw milk production accounting for an average of 81%. Postfarm gate emissions varied regionally due to differences in product mix, energy use, electricity grid composition, and transportation distances. Results identify raw milk production as the largest emissions source across the evaluated uncertainty range, indicating that mitigation will require coordinated action across both farm and processing stages. Findings provide critical insights for policymakers and stakeholders to effectively prioritize strategies such as energy efficiency improvements and renewable energy adoption in future sustainability initiatives.",
+    "authors": [
+      "Rylie E. O. Pelton",
+      "Fabian Bernal",
+      "Tim Kurt"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536774+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c15794",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15794",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Greenhouse gas",
+      "Environmental science",
+      "Life-cycle assessment",
+      "Sustainability",
+      "Raw milk",
+      "Renewable energy",
+      "Production (economics)",
+      "Product (mathematics)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00569",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00569",
+    "doi": "10.1021/acs.est.6c00569",
+    "title": "pH Gradient at the Nanoscale Zerovalent Iron−Water Interface: Spatial Distribution, Formation Mechanism, and Impacts",
+    "abstract": "Nanoscale zerovalent iron (nZVI) shows great promise for water remediation, but the nZVI−water interfacial microenvironment, particularly the local pH distribution and dynamics, remains poorly understood. Here, ATR-FTIR and scanning electrochemical microscopy (SECM) were combined to quantify pH in the Stern and inner diffusion layers, diffusion layer, and bulk phase during anoxic nZVI−water reactions. The results reveal that the nZVI−water interface became more alkaline than the bulk solution, indicating a clear interfacial-to-bulk pH contrast. At an initial pH of 3, the pH values of the Stern and inner diffusion layers, diffusion layer, and bulk phase reached 8.27, 8.49, and 6.23, respectively, after 60 min. SECM also revealed Fe 2+ enrichment at the interface, indicating that corrosion-generated Fe 2+ was partially surface-confined, electrostatically constraining the inward diffusion of protons or the outward transport of OH − across the diffusion layer, thereby maintaining the interfacial alkaline microenvironment. The interfacial pH gradients consequently determine the reactivity and passivation of nZVI in water. nZVI passivates faster at an initial pH of 3 than at pH 7 or 11 due to a larger pH gradient and more pronounced interfacial Fe 2+ accumulation at pH 3; this is unfavorable for sustained heavy-metal removal. These findings establish a combined ATR-FTIR/SECM approach for probing interfacial pH distributions and clarify how local pH gradients regulate nZVI corrosion, passivation, and durability, providing guidance for optimizing nZVI-based remediation technologies.",
+    "authors": [
+      "Hao Zhang",
+      "Xupeng Liu",
+      "Hongwei Sun",
+      "Furong Guo",
+      "Biao Zhou",
+      "Jundi Cheng",
+      "Jingming Gong",
+      "Zhihui Ai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536600+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00569",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00569",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Diffusion",
+      "Passivation",
+      "Zerovalent iron",
+      "Chemistry",
+      "Scanning electrochemical microscopy",
+      "Phase (matter)",
+      "Anoxic waters",
+      "Reactivity (psychology)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02876",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02876",
+    "doi": "10.1021/acs.est.6c02876",
+    "title": "Attribute-Driven Maternal–Fetal Transfer of Atmospheric Magnetite Nanoparticles Revealed by Single-Particle Analysis",
+    "abstract": ", with potentially significant systemic and developmental health impacts. Here, using a whole-body inhalation model in pregnant C57BL/6 mice, we investigated the biodistribution and maternal-fetal transfer of atmospheric MNPs. Following gestational exposure, MNPs were magnetically extracted from maternal and fetal organs and characterized by high-resolution TEM and single-particle mass spectrometry. Exogenous MNPs in multiple maternal and fetal organs were investigated by TEM. Quantitative analysis revealed pronounced accumulation of MNPs in maternal serum, liver, spleen, placenta, and lung, accounting for 93% of the total burden. Approximately 0.7% of MNPs were transferred from the maternal compartment to the fetus, with over 60% of these transferred particles retained in the fetal liver. Single-particle analysis demonstrated selective enrichment of fine-sized MNP subcategories, enriched with potentially toxic metals (especially Zn and Pb), in fetal organs (like heart and brain). Multimodal network analysis further identified particle size and elemental composition as key determinants governing systemic transport and placental transfer. Our results demonstrate that inhaled atmospheric MNPs cross the placental barrier and accumulate in fetal organs, underscoring their contribution to early life exposure risks and the need for particle-specific air quality standards.",
+    "authors": [
+      "Mengyuan Wang",
+      "Li Tian",
+      "Jianong Lv",
+      "Miao Xu",
+      "Siyu Jin",
+      "Xingpan Guo",
+      "Guangming Zhan",
+      "Zhiru Liu",
+      "Kexin Zhang",
+      "Junchao Duan",
+      "Yi Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536917+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02876",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02876",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Magnetite Nanoparticles",
+      "Chemical engineering",
+      "Magnetite",
+      "Materials science",
+      "Nanoparticle",
+      "Chemistry",
+      "Environmental chemistry",
+      "Analytical Chemistry (journal)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01544",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01544",
+    "doi": "10.1021/acs.est.6c01544",
+    "title": "Long-Lived Organic Radicals Drive the Photodegradation of Plastic Additives in Microplastic-Derived Dissolved Organic Matter",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Microplastic-derived dissolved organic matter (MP-DOM) plays an important role in aquatic environments; however, its influence on the photodegradation of plastic additives remains unclear. In this study, bisphenol A (BPA) was selected as a representative plastic additive to investigate the effects of polystyrene-derived DOM (PS-DOM) on the photodegradation kinetics and mechanisms of BPA at different concentrations. PS-DOM significantly enhanced the photodegradation of BPA, with the promoting effect becoming more pronounced at lower BPA concentrations. Kinetic modeling revealed that as BPA levels decrease from high to low, the dominant contributor to BPA photodegradation shifts from the excited triplet state of PS-DOM (generated via photosensitization) to long-lived organic radicals (LLORs). This finding highlights the indispensable role of LLORs in the photodegradation of trace-level BPA (nM−μM) in surface waters. Probe experiments revealed that the one-electron reduction potentials of LLORs generated by various MP-DOM are around 1.50 V, indicating that LLORs have the potential to degrade plastic additives with oxidation potentials below this range. Furthermore, correlation analysis revealed that variations in unsaturated functional groups and electron-donating moieties (e.g., tannins and lignins) within MP-DOM were key factors controlling the quantum yield coefficients of LLORs across different MP-DOM types. This study provides novel insights into the photochemical reactivity of MP-DOM and its potential role in regulating the environmental transformation of plastic additives.",
+    "authors": [
+      "Yangjian Zhou",
+      "Yunyi Zeng",
+      "Japhet Cheuk-Fung Law",
+      "Yu Lei",
+      "Xin Yang",
+      "Kelvin Sze-Yin Leung"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536871+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01544",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01544",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c01544?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Photodegradation",
+      "Dissolved organic carbon",
+      "Chemistry",
+      "Radical",
+      "Environmental chemistry",
+      "Organic matter",
+      "Degradation (telecommunications)",
+      "Photochemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00371",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00371",
+    "doi": "10.1021/acs.est.6c00371",
+    "title": "Mechanism-Based Multitarget Modeling for Pathway-Level Prediction of PI3K/Akt Signaling Perturbation Induced by Liquid Crystal Monomers",
+    "abstract": "Liquid crystal monomers (LCMs) are emerging contaminants whose system-level toxicity mechanisms remain poorly understood. Here, we developed a pathway-centric multitarget framework to characterize coordinated toxicological perturbations at the signaling network level. KEGG enrichment identified the PI3K/Akt pathway as a key mechanistic axis, and a minimal set of 19 proteins covering upstream receptors, central kinases, and downstream effectors was constructed. A multitask deep learning model trained on ChEMBL IC 50 data (53 694 molecules; 62 440 data points) achieved strong performance (accuracy >0.85, up to 0.94) and was applied to 1412 LCMs. EGFR/JAK1 showed up to 20.18% predicted active inhibitors, followed by PIK3CA (18.06%), with some LCMs exhibiting docking energies comparable to known inhibitors. Structural analysis identified fluorinated aromatic rings, cyclohexyl and bicyclic aliphatic scaffolds, and oxygen-containing groups as key contributors to pathway perturbation. Integration of pathway-level inhibition profiles with simulated Gene Ontology enrichment linked multinode interference to cell cycle arrest, apoptosis, immunosuppression, and impaired cell migration. Transcriptomic analysis in human lung epithelial (A549) cells further confirmed the predicted disruption of the PI3K/Akt signaling pathway. This study provides a transferable framework for mechanism-informed toxicity assessment and chemical prioritization under limited experimental data.",
+    "authors": [
+      "Jiawei Cheng",
+      "Yuhe He",
+      "Yawen Yuan",
+      "Yunsong Mu",
+      "Xiaoli Zhao",
+      "Fengchang Wu",
+      "Christie M. Sayes",
+      "John P. Giesy"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536941+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00371",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00371",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "chEMBL",
+      "KEGG",
+      "Prioritization",
+      "Monomer",
+      "Effector",
+      "Crosstalk",
+      "Docking (animal)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04751",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04751",
+    "doi": "10.1021/acs.est.6c04751",
+    "title": "Selective Co-Upcycling of Waste PET Plastic and Nitrate to Glycine via C–N Coupling on a WO 3 Photocatalyst",
+    "abstract": "Photocatalytic conversion of polyols and nitrogen-containing small molecules into value-added chemicals via C–N coupling reaction represents a promising route for dual waste treatment of waste plastics and wastewater. However, precisely controlling the coupling pathway of key intermediates to achieve high product selectivity remains a significant challenge. Here, we report a WO 3 photocatalyst that enables the highly selective synthesis of glycine from waste poly(ethylene terephthalate) (PET)-derived ethylene glycol (EG) and nitrate, achieving a remarkable glycine yield of 1.87 mmol g cat –1 h –1 with 89% selectivity, which significantly outperforms conventional TiO 2 -based systems. Mechanistic studies indicate that the high selectivity stems from the distinct reaction pathway on WO 3, where glycolaldehyde is stabilized as the key intermediate to efficient C–N coupling with NH 4 + derived from NO 3 – reduction. This contrasts with the TiO 2 -catalyzed pathway that proceeds via the more oxidized glyoxal, which readily undergoes overoxidation to the byproduct formic acid. By using different plastic/biomass-derived feedstocks (methanol, ethylene glycol, and glycerol), this process can be expanded to the scale synthesis of various C–N compounds. Preliminary techno-economic analysis and life-cycle assessments suggest the potential economic viability and environmental benefits of this process. This work establishes a sustainable photocatalytic strategy for the valorization of waste plastic and wastewater by regulating key intermediates to enable a selective C–N coupling pathway.",
+    "authors": [
+      "Zongyang Ya",
+      "Dong Xu",
+      "Xiaohui Tang",
+      "Yu Zheng",
+      "Zixuan Zhang",
+      "Mei Li",
+      "Hua Wang",
+      "Shengbo Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-17T00:00:00+00:00",
+    "updated_at": "2026-06-19T20:58:04.536966+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04751",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04751",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrate",
+      "Photocatalysis",
+      "Glycine",
+      "Coupling (piping)",
+      "Chemistry",
+      "Nuclear chemistry",
+      "Inorganic chemistry",
+      "Materials science"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
