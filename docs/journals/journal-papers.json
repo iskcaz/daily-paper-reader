@@ -1,5 +1,60 @@
 [
   {
+    "id": "journal-10-1021-acs-est-5c13379",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c13379",
+    "doi": "10.1021/acs.est.5c13379",
+    "title": "Elevated N/P Ratios Enhance Arsenic Bioaccumulation and Biotransformation in Marine Microalgae",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yimei Xi",
+      "Shihao Cui",
+      "Zefang Meng",
+      "Ru Chen",
+      "Ran Bi",
+      "Xiangfeng Zeng",
+      "Shaofeng Wang",
+      "Weiming Li",
+      "Yongbin Li",
+      "Yongfeng Jia"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-20T00:00:00+00:00",
+    "updated_at": "2026-06-20T20:27:11.790740+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c13379",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13379",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02079",
     "source": "journal",
     "source_detail": "crossref",
@@ -34,7 +89,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536708+00:00",
+    "updated_at": "2026-06-20T20:27:11.790983+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02079",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02079",
     "pdf_url": null,
@@ -103,7 +158,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536798+00:00",
+    "updated_at": "2026-06-20T20:27:11.791044+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02389",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02389",
     "pdf_url": null,
@@ -166,7 +221,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536502+00:00",
+    "updated_at": "2026-06-20T20:27:11.790865+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01978",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01978",
     "pdf_url": null,
@@ -183,7 +238,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -203,11 +257,6 @@
       "Ionic strength",
       "Particle (ecology)",
       "Chemical engineering"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -233,7 +282,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536774+00:00",
+    "updated_at": "2026-06-20T20:27:11.791027+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c15794",
     "abs_url": "https://doi.org/10.1021/acs.est.5c15794",
     "pdf_url": null,
@@ -307,7 +356,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536545+00:00",
+    "updated_at": "2026-06-20T20:27:11.790887+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18126",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18126",
     "pdf_url": null,
@@ -324,7 +373,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -344,11 +392,6 @@
       "Opioid",
       "Consumption (sociology)",
       "Morphine"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -379,7 +422,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536600+00:00",
+    "updated_at": "2026-06-20T20:27:11.790916+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00569",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00569",
     "pdf_url": null,
@@ -420,165 +463,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c02876",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02876",
-    "doi": "10.1021/acs.est.6c02876",
-    "title": "Attribute-Driven Maternal–Fetal Transfer of Atmospheric Magnetite Nanoparticles Revealed by Single-Particle Analysis",
-    "abstract": ", with potentially significant systemic and developmental health impacts. Here, using a whole-body inhalation model in pregnant C57BL/6 mice, we investigated the biodistribution and maternal-fetal transfer of atmospheric MNPs. Following gestational exposure, MNPs were magnetically extracted from maternal and fetal organs and characterized by high-resolution TEM and single-particle mass spectrometry. Exogenous MNPs in multiple maternal and fetal organs were investigated by TEM. Quantitative analysis revealed pronounced accumulation of MNPs in maternal serum, liver, spleen, placenta, and lung, accounting for 93% of the total burden. Approximately 0.7% of MNPs were transferred from the maternal compartment to the fetus, with over 60% of these transferred particles retained in the fetal liver. Single-particle analysis demonstrated selective enrichment of fine-sized MNP subcategories, enriched with potentially toxic metals (especially Zn and Pb), in fetal organs (like heart and brain). Multimodal network analysis further identified particle size and elemental composition as key determinants governing systemic transport and placental transfer. Our results demonstrate that inhaled atmospheric MNPs cross the placental barrier and accumulate in fetal organs, underscoring their contribution to early life exposure risks and the need for particle-specific air quality standards.",
-    "authors": [
-      "Mengyuan Wang",
-      "Li Tian",
-      "Jianong Lv",
-      "Miao Xu",
-      "Siyu Jin",
-      "Xingpan Guo",
-      "Guangming Zhan",
-      "Zhiru Liu",
-      "Kexin Zhang",
-      "Junchao Duan",
-      "Yi Yang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536917+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02876",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02876",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Magnetite Nanoparticles",
-      "Chemical engineering",
-      "Magnetite",
-      "Materials science",
-      "Nanoparticle",
-      "Chemistry",
-      "Environmental chemistry",
-      "Analytical Chemistry (journal)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c18865",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c18865",
-    "doi": "10.1021/acs.est.5c18865",
-    "title": "Exposure Profiles and Screening-Level Risk Assessment of PCP-Related Chemicals in China: A Focus on Parabens",
-    "abstract": "Chemicals in personal care products (PCPs) are ubiquitous environmental contaminants; however, nationally representative data on population-level exposure in China remain limited. Here, we quantified urinary concentrations of PCP-related chemicals in 1,817 participants from the China National Human Biomonitoring (CNHBM) program (2017-2018), using a multistage stratified sampling design. We characterized exposure patterns and conducted a screening-level exposure assessment. Parabens (PBs) were the most frequently detected chemicals, with methyl paraben (MeP) showing the highest quantification rate, followed by ethyl paraben (EtP) and normal propyl paraben (n-PrP). Higher exposure levels were observed among northern urban residents, females, and individuals aged 3-5 and 19-39 years. Lower rice intake and higher fruit consumption were associated with increased urinary concentrations. A small proportion of participants had hazard index values exceeding 1. Population-weighted extrapolation suggests that approximately 0.738% of the Chinese population (about 9.47 million individuals) may exceed screening-level reference values under conservative assumptions, with higher proportions among females and those aged 19-59 years. This study provides the first nationally representative characterization of exposure to multiple classes of PCP-related chemicals in China and offers important context for population exposure patterns.",
-    "authors": [
-      "Wenqi Hao",
-      "Wanying Shi",
-      "Xiao Lin",
-      "Peijie Sun",
-      "Zheng Li",
-      "Wenli Zhang",
-      "Mingkun Yu",
-      "Lu Yu",
-      "Yingli Qu",
-      "Saisai Ji",
-      "Shuyang Yan",
-      "Dejin Yang",
-      "Feng Zhao",
-      "Yawei Li",
-      "Haocan Song",
-      "Jiayi Cai",
-      "Lin Wang",
-      "Ying Zhu",
-      "Yuebin Lv",
-      "Xiaoming Shi"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536996+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c18865",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c18865",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Paraben",
-      "Biomonitoring",
-      "Environmental health",
-      "Context (archaeology)",
-      "Exposure assessment",
-      "Risk assessment",
-      "Toxicology",
-      "Population"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-6c01544",
     "source": "journal",
     "source_detail": "crossref",
@@ -602,7 +486,7 @@
       "est"
     ],
     "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536871+00:00",
+    "updated_at": "2026-06-20T20:27:11.791089+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01544",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01544",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c01544?ref=article_openPDF",
@@ -619,7 +503,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -640,156 +523,7 @@
       "Degradation (telecommunications)",
       "Photochemistry"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
     "open_pdf_available": true
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c00371",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00371",
-    "doi": "10.1021/acs.est.6c00371",
-    "title": "Mechanism-Based Multitarget Modeling for Pathway-Level Prediction of PI3K/Akt Signaling Perturbation Induced by Liquid Crystal Monomers",
-    "abstract": "Liquid crystal monomers (LCMs) are emerging contaminants whose system-level toxicity mechanisms remain poorly understood. Here, we developed a pathway-centric multitarget framework to characterize coordinated toxicological perturbations at the signaling network level. KEGG enrichment identified the PI3K/Akt pathway as a key mechanistic axis, and a minimal set of 19 proteins covering upstream receptors, central kinases, and downstream effectors was constructed. A multitask deep learning model trained on ChEMBL IC 50 data (53 694 molecules; 62 440 data points) achieved strong performance (accuracy >0.85, up to 0.94) and was applied to 1412 LCMs. EGFR/JAK1 showed up to 20.18% predicted active inhibitors, followed by PIK3CA (18.06%), with some LCMs exhibiting docking energies comparable to known inhibitors. Structural analysis identified fluorinated aromatic rings, cyclohexyl and bicyclic aliphatic scaffolds, and oxygen-containing groups as key contributors to pathway perturbation. Integration of pathway-level inhibition profiles with simulated Gene Ontology enrichment linked multinode interference to cell cycle arrest, apoptosis, immunosuppression, and impaired cell migration. Transcriptomic analysis in human lung epithelial (A549) cells further confirmed the predicted disruption of the PI3K/Akt signaling pathway. This study provides a transferable framework for mechanism-informed toxicity assessment and chemical prioritization under limited experimental data.",
-    "authors": [
-      "Jiawei Cheng",
-      "Yuhe He",
-      "Yawen Yuan",
-      "Yunsong Mu",
-      "Xiaoli Zhao",
-      "Fengchang Wu",
-      "Christie M. Sayes",
-      "John P. Giesy"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536941+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00371",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00371",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "chEMBL",
-      "KEGG",
-      "Prioritization",
-      "Monomer",
-      "Effector",
-      "Crosstalk",
-      "Docking (animal)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04751",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04751",
-    "doi": "10.1021/acs.est.6c04751",
-    "title": "Selective Co-Upcycling of Waste PET Plastic and Nitrate to Glycine via C–N Coupling on a WO 3 Photocatalyst",
-    "abstract": "Photocatalytic conversion of polyols and nitrogen-containing small molecules into value-added chemicals via C–N coupling reaction represents a promising route for dual waste treatment of waste plastics and wastewater. However, precisely controlling the coupling pathway of key intermediates to achieve high product selectivity remains a significant challenge. Here, we report a WO 3 photocatalyst that enables the highly selective synthesis of glycine from waste poly(ethylene terephthalate) (PET)-derived ethylene glycol (EG) and nitrate, achieving a remarkable glycine yield of 1.87 mmol g cat –1 h –1 with 89% selectivity, which significantly outperforms conventional TiO 2 -based systems. Mechanistic studies indicate that the high selectivity stems from the distinct reaction pathway on WO 3, where glycolaldehyde is stabilized as the key intermediate to efficient C–N coupling with NH 4 + derived from NO 3 – reduction. This contrasts with the TiO 2 -catalyzed pathway that proceeds via the more oxidized glyoxal, which readily undergoes overoxidation to the byproduct formic acid. By using different plastic/biomass-derived feedstocks (methanol, ethylene glycol, and glycerol), this process can be expanded to the scale synthesis of various C–N compounds. Preliminary techno-economic analysis and life-cycle assessments suggest the potential economic viability and environmental benefits of this process. This work establishes a sustainable photocatalytic strategy for the valorization of waste plastic and wastewater by regulating key intermediates to enable a selective C–N coupling pathway.",
-    "authors": [
-      "Zongyang Ya",
-      "Dong Xu",
-      "Xiaohui Tang",
-      "Yu Zheng",
-      "Zixuan Zhang",
-      "Mei Li",
-      "Hua Wang",
-      "Shengbo Zhang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536966+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04751",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04751",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Nitrate",
-      "Photocatalysis",
-      "Glycine",
-      "Coupling (piping)",
-      "Chemistry",
-      "Nuclear chemistry",
-      "Inorganic chemistry",
-      "Materials science"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
     "id": "journal-10-1021-acs-est-6c00285",
@@ -817,7 +551,7 @@
       "est"
     ],
     "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536893+00:00",
+    "updated_at": "2026-06-20T20:27:11.791105+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00285",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00285",
     "pdf_url": null,
@@ -834,7 +568,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -854,11 +587,6 @@
       "Polyethylene",
       "Carbon fibers",
       "Environmental chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -892,7 +620,7 @@
       "est"
     ],
     "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.536825+00:00",
+    "updated_at": "2026-06-20T20:27:11.791061+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04986",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04986",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04986?ref=article_openPDF",
@@ -909,7 +637,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -930,153 +657,7 @@
       "Environmental science",
       "Coastal zone"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
     "open_pdf_available": true,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c18582",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c18582",
-    "doi": "10.1021/acs.est.5c18582",
-    "title": "Fate of Trace Organic Contaminants in the Hyporheic Zone: A Laboratory-Scale Column Experiment",
-    "abstract": "Rivers impacted by anthropogenic activities often contain numerous trace organic contaminants (TrOCs) that can infiltrate aquifers. The hyporheic zone, which is the interface between rivers and groundwater, can act as a natural attenuation barrier via sorption and biotransformation. To differentiate between these two processes, we conducted long-term laboratory column experiments using riverbed sediments from a creek downstream of wastewater treatment plants to quantify the fate of several ubiquitous TrOCs with diverse physicochemical properties. Triplicate columns were fed with either natural contaminated river water or with TrOC-free tap water to distinguish between attenuation mechanisms and to investigate potential remobilization. Mass balances and comparisons between experiments revealed a variety of attenuation behaviors. Certain hydrophobic (e.g., carbamazepine and tolyltriazole) or cationic compounds (e.g., metoprolol and sitagliptin) were retained by sediment sorption, whereas several polar anionic TrOCs remained largely mobile (e.g., hydrochlorothiazide and gabapentin), with some of them being biotransformed under prevalent reducing conditions (e.g., iopromide and oxipurinol). Overall, 10 out of 19 continuously detected TrOCs exhibited less than 25% removal over almost 300 pore volumes, reflecting limited biotransformation and the relevance of reversible sorption. These results suggest that while polluted hyporheic sediments of high organic matter content can temporarily reduce contaminant transport, their attenuation capacity is limited. Furthermore, previously sorbed pollutants may remobilize, posing long-term risks to the groundwater quality.",
-    "authors": [
-      "Edinsson Muñoz-Vega",
-      "Selina Hillmann",
-      "Mohammad Sajjad Abdighahroudi",
-      "Kai Ihle",
-      "Carolin Bertold",
-      "Christoph Schüth",
-      "Holger V. Lutze",
-      "Stephan Schulz"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-16T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.537066+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c18582",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c18582",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c18582?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Environmental chemistry",
-      "Contamination",
-      "Environmental science",
-      "Hyporheic zone",
-      "Column (typography)",
-      "TRACE (psycholinguistics)",
-      "Water pollution",
-      "Groundwater"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": true,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04463",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04463",
-    "doi": "10.1021/acs.est.6c04463",
-    "title": "Reconstruction and Dissolution of Copper Catalysts during Electrocatalytic Nitrate Reduction",
-    "abstract": "Copper-based electrocatalysts are widely explored for electrochemical nitrate remediation, yet their stability under operating conditions remains poorly understood. While nanoscale and subnanoscale Cu motifs are known to restructure during the nitrate reduction reaction (NO 3 RR), how these transformations translate into irreversible material loss remains unclear. Here, we quantify Cu dissolution during NO 3 RR as a function of catalyst architecture and electrolyte chemistry using two model systems: single-atom Cu (Cu 1 ) and Cu nanoparticles (Cu NP ). Time-resolved leaching measurements, integrated with in situ X-ray absorption spectroscopy (XAS), reveal measurable Cu loss for both catalysts during NO 3 RR. Dissolution is concentrated at the initiation of electrolysis, coinciding with rapid restructuring, and depends strongly on morphology, with Cu NP consistently exhibiting greater Cu loss than Cu 1 . In situ XAS reveals that Cu 1 forms transient metallic clusters under reduction that largely redisperse upon returning to open-circuit voltage, whereas Cu NP undergoes reduction of an oxidized surface layer accompanied by sustained Cu loss during electrolysis. Notably, the presence of nitrate significantly intensifies restructuring and Cu loss, highlighting the critical role of electrolyte composition. These findings establish a direct link between electrochemical restructuring and Cu dissolution, unveiling electrolyte-dependent interactions as key determinants of catalyst durability in electrochemical nitrate conversion.",
-    "authors": [
-      "Leslie K. Arrazolo",
-      "Kali Rigby",
-      "Jorge Moncada",
-      "Eli Stavitski",
-      "Jae-Hong Kim"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-16T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:04.537027+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04463",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04463",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Dissolution",
-      "Catalysis",
-      "Electrochemistry",
-      "Electrolyte",
-      "Inorganic chemistry",
-      "Copper",
-      "Chemistry",
-      "X-ray absorption spectroscopy"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -1105,7 +686,7 @@
       "est-letters"
     ],
     "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:05.872656+00:00",
+    "updated_at": "2026-06-20T20:27:12.347838+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00014",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00014",
     "pdf_url": null,
@@ -1170,7 +751,7 @@
       "est-letters"
     ],
     "published": "2026-06-16T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:05.872681+00:00",
+    "updated_at": "2026-06-20T20:27:12.347856+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00498",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00498",
     "pdf_url": null,
@@ -1236,7 +817,7 @@
       "est-letters"
     ],
     "published": "2026-06-15T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:05.872721+00:00",
+    "updated_at": "2026-06-20T20:27:12.347887+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00356",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00356",
     "pdf_url": null,
@@ -1253,7 +834,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1274,77 +854,6 @@
       "Atmospheric sciences",
       "Degradation (telecommunications)"
     ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-estlett-6c00418",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.estlett.6c00418",
-    "doi": "10.1021/acs.estlett.6c00418",
-    "title": "First Mechanistic Insights into Mammalian P450-Catalyzed Reductive Defluorination and Bioactivation of Cl-PFAS: From Halothane to a QSAR Model",
-    "abstract": "Chlorinated polyfluoroalkyl substances (Cl-PFAS) are widely used alternatives to legacy PFAS, but the molecular mechanism of their metabolic defluorination in mammals remains unknown. Here, we report the first atomic-level mechanistic study of P450-mediated reductive defluorination of Cl-PFAS in mammalian systems. Using halothane as a model, DFT calculations show under aerobic conditions, P450 Compound I catalyzes H-abstraction/OH-rebound followed by elimination and hydrolysis to form trifluoroacetic acid. Under hypoxic conditions (e.g., liver centrilobular regions), we elucidate the hepatotoxicity-associated reductive pathway by the Fe 2+ form of P450: rate-determining concerted electron-transfer with C–Br cleavage generates •CF 3 CHCl in a kinetic well between the first and second electron transfers; its prolonged lifetime initiates lipid peroxidation, while subsequent defluorination yields alkenes. The computed carbon kinetic isotope effect for the reductive pathway (1.076) is larger than for the oxidative pathway (1.020), providing an experimental signature for distinction. A QSAR model using vertical electron affinity and molar refractivity predicts the rate-determining electron-transfer barrier for diverse compounds, particularly long-chain Cl-PFAS (R 2 = 0.95), suggesting this reductive mode generalizes to other Cl-PFAS, consistent with their emerging hepatotoxicity. These findings reveal, for the first time, a molecular-level reductive defluorination pathway for Cl-PFAS in mammals, providing a mechanistic basis for bioactivation risk assessment.",
-    "authors": [
-      "Juchen Ma",
-      "Shiyang Cheng",
-      "Houjun Qiu",
-      "Shun Liu",
-      "Fei Li",
-      "Dong-Xing Guan",
-      "Piotr Paneth",
-      "Li Ji"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "published": "2026-06-11T00:00:00+00:00",
-    "updated_at": "2026-06-19T20:58:05.872823+00:00",
-    "link": "https://doi.org/10.1021/acs.estlett.6c00418",
-    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00418",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology Letters",
-    "journal_key": "est_letters",
-    "journal_label": "EST Letters",
-    "journal_issn": [
-      "2328-8930",
-      "2328-8930"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "Quantitative structure–activity relationship",
-      "Halothane",
-      "Stereochemistry",
-      "Biochemistry",
-      "Oxidation reduction",
-      "Benzene derivatives",
-      "Biological activity"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -3217,6 +2726,52 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c18582",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c18582",
+    "doi": "10.1021/acs.est.5c18582",
+    "title": "Fate of Trace Organic Contaminants in the Hyporheic Zone: A Laboratory-Scale Column Experiment",
+    "abstract": "Rivers impacted by anthropogenic activities often contain numerous trace organic contaminants (TrOCs) that can infiltrate aquifers. The hyporheic zone, which is the interface between rivers and groundwater, can act as a natural attenuation barrier via sorption and biotransformation. To differentiate between these two processes, we conducted long-term laboratory column experiments using riverbed sediments from a creek downstream of wastewater treatment plants to quantify the fate of several ubiquitous TrOCs with diverse physicochemical properties. Triplicate columns were fed with either natural contaminated river water or with TrOC-free tap water to distinguish between attenuation mechanisms and to investigate potential remobilization. Mass balances and comparisons between experiments revealed a variety of attenuation behaviors. Certain hydrophobic (e.g., carbamazepine and tolyltriazole) or cationic compounds (e.g., metoprolol and sitagliptin) were retained by sediment sorption, whereas several polar anionic TrOCs remained largely mobile (e.g., hydrochlorothiazide and gabapentin), with some of them being biotransformed under prevalent reducing conditions (e.g., iopromide and oxipurinol). Overall, 10 out of 19 continuously detected TrOCs exhibited less than 25% removal over almost 300 pore volumes, reflecting limited biotransformation and the relevance of reversible sorption. These results suggest that while polluted hyporheic sediments of high organic matter content can temporarily reduce contaminant transport, their attenuation capacity is limited. Furthermore, previously sorbed pollutants may remobilize, posing long-term risks to the groundwater quality.",
+    "authors": [
+      "Edinsson Muñoz-Vega",
+      "Selina Hillmann",
+      "Mohammad Sajjad Abdighahroudi",
+      "Kai Ihle",
+      "Carolin Bertold",
+      "Christoph Schüth",
+      "Holger V. Lutze",
+      "Stephan Schulz"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-16",
+    "link": "https://doi.org/10.1021/acs.est.5c18582",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18582",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c18582?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown",
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c18695",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -3305,6 +2860,64 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c18865",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c18865",
+    "doi": "10.1021/acs.est.5c18865",
+    "title": "Exposure Profiles and Screening-Level Risk Assessment of PCP-Related Chemicals in China: A Focus on Parabens",
+    "abstract": "Chemicals in personal care products (PCPs) are ubiquitous environmental contaminants; however, nationally representative data on population-level exposure in China remain limited. Here, we quantified urinary concentrations of PCP-related chemicals in 1,817 participants from the China National Human Biomonitoring (CNHBM) program (2017-2018), using a multistage stratified sampling design. We characterized exposure patterns and conducted a screening-level exposure assessment. Parabens (PBs) were the most frequently detected chemicals, with methyl paraben (MeP) showing the highest quantification rate, followed by ethyl paraben (EtP) and normal propyl paraben (n-PrP). Higher exposure levels were observed among northern urban residents, females, and individuals aged 3-5 and 19-39 years. Lower rice intake and higher fruit consumption were associated with increased urinary concentrations. A small proportion of participants had hazard index values exceeding 1. Population-weighted extrapolation suggests that approximately 0.738% of the Chinese population (about 9.47 million individuals) may exceed screening-level reference values under conservative assumptions, with higher proportions among females and those aged 19-59 years. This study provides the first nationally representative characterization of exposure to multiple classes of PCP-related chemicals in China and offers important context for population exposure patterns.",
+    "authors": [
+      "Wenqi Hao",
+      "Wanying Shi",
+      "Xiao Lin",
+      "Peijie Sun",
+      "Zheng Li",
+      "Wenli Zhang",
+      "Mingkun Yu",
+      "Lu Yu",
+      "Yingli Qu",
+      "Saisai Ji",
+      "Shuyang Yan",
+      "Dejin Yang",
+      "Feng Zhao",
+      "Yawei Li",
+      "Haocan Song",
+      "Jiayi Cai",
+      "Lin Wang",
+      "Ying Zhu",
+      "Yuebin Lv",
+      "Xiaoming Shi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-17",
+    "link": "https://doi.org/10.1021/acs.est.5c18865",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18865",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c18987",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -3338,6 +2951,52 @@
     "published": "2026-06-09",
     "link": "https://doi.org/10.1021/acs.est.5c18987",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18987",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00371",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00371",
+    "doi": "10.1021/acs.est.6c00371",
+    "title": "Mechanism-Based Multitarget Modeling for Pathway-Level Prediction of PI3K/Akt Signaling Perturbation Induced by Liquid Crystal Monomers",
+    "abstract": "Liquid crystal monomers (LCMs) are emerging contaminants whose system-level toxicity mechanisms remain poorly understood. Here, we developed a pathway-centric multitarget framework to characterize coordinated toxicological perturbations at the signaling network level. KEGG enrichment identified the PI3K/Akt pathway as a key mechanistic axis, and a minimal set of 19 proteins covering upstream receptors, central kinases, and downstream effectors was constructed. A multitask deep learning model trained on ChEMBL IC 50 data (53 694 molecules; 62 440 data points) achieved strong performance (accuracy >0.85, up to 0.94) and was applied to 1412 LCMs. EGFR/JAK1 showed up to 20.18% predicted active inhibitors, followed by PIK3CA (18.06%), with some LCMs exhibiting docking energies comparable to known inhibitors. Structural analysis identified fluorinated aromatic rings, cyclohexyl and bicyclic aliphatic scaffolds, and oxygen-containing groups as key contributors to pathway perturbation. Integration of pathway-level inhibition profiles with simulated Gene Ontology enrichment linked multinode interference to cell cycle arrest, apoptosis, immunosuppression, and impaired cell migration. Transcriptomic analysis in human lung epithelial (A549) cells further confirmed the predicted disruption of the PI3K/Akt signaling pathway. This study provides a transferable framework for mechanism-informed toxicity assessment and chemical prioritization under limited experimental data.",
+    "authors": [
+      "Jiawei Cheng",
+      "Yuhe He",
+      "Yawen Yuan",
+      "Yunsong Mu",
+      "Xiaoli Zhao",
+      "Fengchang Wu",
+      "Christie M. Sayes",
+      "John P. Giesy"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-17",
+    "link": "https://doi.org/10.1021/acs.est.6c00371",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00371",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -3948,6 +3607,55 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c02876",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02876",
+    "doi": "10.1021/acs.est.6c02876",
+    "title": "Attribute-Driven Maternal–Fetal Transfer of Atmospheric Magnetite Nanoparticles Revealed by Single-Particle Analysis",
+    "abstract": ", with potentially significant systemic and developmental health impacts. Here, using a whole-body inhalation model in pregnant C57BL/6 mice, we investigated the biodistribution and maternal-fetal transfer of atmospheric MNPs. Following gestational exposure, MNPs were magnetically extracted from maternal and fetal organs and characterized by high-resolution TEM and single-particle mass spectrometry. Exogenous MNPs in multiple maternal and fetal organs were investigated by TEM. Quantitative analysis revealed pronounced accumulation of MNPs in maternal serum, liver, spleen, placenta, and lung, accounting for 93% of the total burden. Approximately 0.7% of MNPs were transferred from the maternal compartment to the fetus, with over 60% of these transferred particles retained in the fetal liver. Single-particle analysis demonstrated selective enrichment of fine-sized MNP subcategories, enriched with potentially toxic metals (especially Zn and Pb), in fetal organs (like heart and brain). Multimodal network analysis further identified particle size and elemental composition as key determinants governing systemic transport and placental transfer. Our results demonstrate that inhaled atmospheric MNPs cross the placental barrier and accumulate in fetal organs, underscoring their contribution to early life exposure risks and the need for particle-specific air quality standards.",
+    "authors": [
+      "Mengyuan Wang",
+      "Li Tian",
+      "Jianong Lv",
+      "Miao Xu",
+      "Siyu Jin",
+      "Xingpan Guo",
+      "Guangming Zhan",
+      "Zhiru Liu",
+      "Kexin Zhang",
+      "Junchao Duan",
+      "Yi Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-17",
+    "link": "https://doi.org/10.1021/acs.est.6c02876",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02876",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02923",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -4159,6 +3867,95 @@
     "published": "2026-06-05",
     "link": "https://doi.org/10.1021/acs.est.6c03701",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03701",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04463",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04463",
+    "doi": "10.1021/acs.est.6c04463",
+    "title": "Reconstruction and Dissolution of Copper Catalysts during Electrocatalytic Nitrate Reduction",
+    "abstract": "Copper-based electrocatalysts are widely explored for electrochemical nitrate remediation, yet their stability under operating conditions remains poorly understood. While nanoscale and subnanoscale Cu motifs are known to restructure during the nitrate reduction reaction (NO 3 RR), how these transformations translate into irreversible material loss remains unclear. Here, we quantify Cu dissolution during NO 3 RR as a function of catalyst architecture and electrolyte chemistry using two model systems: single-atom Cu (Cu 1 ) and Cu nanoparticles (Cu NP ). Time-resolved leaching measurements, integrated with in situ X-ray absorption spectroscopy (XAS), reveal measurable Cu loss for both catalysts during NO 3 RR. Dissolution is concentrated at the initiation of electrolysis, coinciding with rapid restructuring, and depends strongly on morphology, with Cu NP consistently exhibiting greater Cu loss than Cu 1 . In situ XAS reveals that Cu 1 forms transient metallic clusters under reduction that largely redisperse upon returning to open-circuit voltage, whereas Cu NP undergoes reduction of an oxidized surface layer accompanied by sustained Cu loss during electrolysis. Notably, the presence of nitrate significantly intensifies restructuring and Cu loss, highlighting the critical role of electrolyte composition. These findings establish a direct link between electrochemical restructuring and Cu dissolution, unveiling electrolyte-dependent interactions as key determinants of catalyst durability in electrochemical nitrate conversion.",
+    "authors": [
+      "Leslie K. Arrazolo",
+      "Kali Rigby",
+      "Jorge Moncada",
+      "Eli Stavitski",
+      "Jae-Hong Kim"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-16",
+    "link": "https://doi.org/10.1021/acs.est.6c04463",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04463",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04751",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04751",
+    "doi": "10.1021/acs.est.6c04751",
+    "title": "Selective Co-Upcycling of Waste PET Plastic and Nitrate to Glycine via C–N Coupling on a WO 3 Photocatalyst",
+    "abstract": "Photocatalytic conversion of polyols and nitrogen-containing small molecules into value-added chemicals via C–N coupling reaction represents a promising route for dual waste treatment of waste plastics and wastewater. However, precisely controlling the coupling pathway of key intermediates to achieve high product selectivity remains a significant challenge. Here, we report a WO 3 photocatalyst that enables the highly selective synthesis of glycine from waste poly(ethylene terephthalate) (PET)-derived ethylene glycol (EG) and nitrate, achieving a remarkable glycine yield of 1.87 mmol g cat –1 h –1 with 89% selectivity, which significantly outperforms conventional TiO 2 -based systems. Mechanistic studies indicate that the high selectivity stems from the distinct reaction pathway on WO 3, where glycolaldehyde is stabilized as the key intermediate to efficient C–N coupling with NH 4 + derived from NO 3 – reduction. This contrasts with the TiO 2 -catalyzed pathway that proceeds via the more oxidized glyoxal, which readily undergoes overoxidation to the byproduct formic acid. By using different plastic/biomass-derived feedstocks (methanol, ethylene glycol, and glycerol), this process can be expanded to the scale synthesis of various C–N compounds. Preliminary techno-economic analysis and life-cycle assessments suggest the potential economic viability and environmental benefits of this process. This work establishes a sustainable photocatalytic strategy for the valorization of waste plastic and wastewater by regulating key intermediates to enable a selective C–N coupling pathway.",
+    "authors": [
+      "Zongyang Ya",
+      "Dong Xu",
+      "Xiaohui Tang",
+      "Yu Zheng",
+      "Zixuan Zhang",
+      "Mei Li",
+      "Hua Wang",
+      "Shengbo Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-17",
+    "link": "https://doi.org/10.1021/acs.est.6c04751",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04751",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -4427,6 +4224,52 @@
     "published": "2026-06-10",
     "link": "https://doi.org/10.1021/acs.estlett.6c00179",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00179",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_label": "EST Letters",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est-letters",
+      "query:EST Letters"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00418",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.estlett.6c00418",
+    "doi": "10.1021/acs.estlett.6c00418",
+    "title": "First Mechanistic Insights into Mammalian P450-Catalyzed Reductive Defluorination and Bioactivation of Cl-PFAS: From Halothane to a QSAR Model",
+    "abstract": "Chlorinated polyfluoroalkyl substances (Cl-PFAS) are widely used alternatives to legacy PFAS, but the molecular mechanism of their metabolic defluorination in mammals remains unknown. Here, we report the first atomic-level mechanistic study of P450-mediated reductive defluorination of Cl-PFAS in mammalian systems. Using halothane as a model, DFT calculations show under aerobic conditions, P450 Compound I catalyzes H-abstraction/OH-rebound followed by elimination and hydrolysis to form trifluoroacetic acid. Under hypoxic conditions (e.g., liver centrilobular regions), we elucidate the hepatotoxicity-associated reductive pathway by the Fe 2+ form of P450: rate-determining concerted electron-transfer with C–Br cleavage generates •CF 3 CHCl in a kinetic well between the first and second electron transfers; its prolonged lifetime initiates lipid peroxidation, while subsequent defluorination yields alkenes. The computed carbon kinetic isotope effect for the reductive pathway (1.076) is larger than for the oxidative pathway (1.020), providing an experimental signature for distinction. A QSAR model using vertical electron affinity and molar refractivity predicts the rate-determining electron-transfer barrier for diverse compounds, particularly long-chain Cl-PFAS (R 2 = 0.95), suggesting this reductive mode generalizes to other Cl-PFAS, consistent with their emerging hepatotoxicity. These findings reveal, for the first time, a molecular-level reductive defluorination pathway for Cl-PFAS in mammals, providing a mechanistic basis for bioactivation risk assessment.",
+    "authors": [
+      "Juchen Ma",
+      "Shiyang Cheng",
+      "Houjun Qiu",
+      "Shun Liu",
+      "Fei Li",
+      "Dong-Xing Guan",
+      "Piotr Paneth",
+      "Li Ji"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-11",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00418",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00418",
     "pdf_url": null,
     "journal": "Environmental Science & Technology Letters",
     "journal_label": "EST Letters",

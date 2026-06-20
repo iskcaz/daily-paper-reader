@@ -4059,7 +4059,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5848,6 +5848,61 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c13379",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c13379",
+    "doi": "10.1021/acs.est.5c13379",
+    "title": "Elevated N/P Ratios Enhance Arsenic Bioaccumulation and Biotransformation in Marine Microalgae",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yimei Xi",
+      "Shihao Cui",
+      "Zefang Meng",
+      "Ru Chen",
+      "Ran Bi",
+      "Xiangfeng Zeng",
+      "Shaofeng Wang",
+      "Weiming Li",
+      "Yongbin Li",
+      "Yongfeng Jia"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-20T00:00:00+00:00",
+    "updated_at": "2026-06-20T20:27:11.790740+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c13379",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13379",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
