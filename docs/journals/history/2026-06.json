@@ -5461,7 +5461,7 @@
     "updated_at": "2026-06-19T20:58:04.536774+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c15794",
     "abs_url": "https://doi.org/10.1021/acs.est.5c15794",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c15794?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -5470,8 +5470,8 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5495,7 +5495,7 @@
       "Production (economics)",
       "Product (mathematics)"
     ],
-    "open_pdf_available": false,
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -5896,6 +5896,73 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "docs-meta",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biotransformation",
+      "Bioaccumulation",
+      "Arsenic",
+      "Chemistry",
+      "Environmental chemistry",
+      "Pollutant",
+      "Water pollution",
+      "Inorganic arsenic"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05186",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05186",
+    "doi": "10.1021/acs.est.6c05186",
+    "title": "Anthropogenic Black Carbon Signatures in Antarctic Fjords: Implications for Carbon Cycling",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Black carbon (BC) dynamics in polar fjords remain poorly understood despite their importance in organic carbon (OC) cycling. We investigated BC dynamics in the water column and sediments of Antarctic fjords. Dissolved BC concentrations in Marian Cove and Maxwell Bay ranged from 0.10–2.71 and 0.70–2.70 μM, respectively, with molecular characteristics indicating highly condensed, locally anthropogenic BC rather than photochemically aged biomass-burning sources. Bayesian mixing model analyses showed that fossil-fuel-derived BC increased 2.7-fold, from 6% in 2019 to 16% in 2023, reflecting intensified tourism and research activities following COVID-19-related restrictions. Sedimentary BC (73–85% C 3 -derived) suggests local combustion sources, although minor contributions from natural biomass burning cannot be excluded. In contrast, Arctic Kongsfjorden sediments showed 53% C 4 contribution, indicating long-range wildfire BC transport. Marian Cove sediment traps yielded a BC flux of 0.04 g m –2 d –1 (22% of OC flux). Higher apparent burial efficiency of BC (89–114%) relative to OC (75–95%), together with elevated Δ(SBC:OC) values (1.20) and millennial-scale radiocarbon ages (4700–5120 yr), indicate preferential BC preservation. These findings show that Antarctic fjords effectively sequester anthropogenic BC and highlight the importance of incorporating BC dynamics into polar coastal carbon budgets.",
+    "authors": [
+      "Jun-Oh Min",
+      "Boyeon Lee",
+      "Chorom Shim",
+      "Young Wook Ko",
+      "Seung-Hee Kim",
+      "Sujin Kang",
+      "Jisoo Park",
+      "Sun-Yong Ha"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-20T00:00:00+00:00",
+    "updated_at": "2026-06-21T21:12:34.924546+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05186",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05186",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -5903,6 +5970,151 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Environmental science",
+      "Carbon cycle",
+      "Carbon black",
+      "Cycling",
+      "Carbon fibers",
+      "Carbon flux",
+      "Environmental chemistry",
+      "Climate change"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02377",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02377",
+    "doi": "10.1021/acs.est.6c02377",
+    "title": "FeS Colloids Trigger Antimony Redox Cycling, Colloid Formation, and Ultimate Fate during the Anoxic–Oxic Transition",
+    "abstract": "Antimony (Sb) mobility in subsurface environments is tightly coupled to iron (Fe) geochemistry, yet the roles of ferrous sulfide (FeS) colloids in controlling Sb fate across anoxic–oxic interfaces is not well understood. Here, we systematically elucidate how FeS colloids trigger Sb redox transformation, colloidal formation, and ultimate sequestration during anoxic–oxic transition at circumneutral pH. Experiments and theoretical calculations indicate that FeS both reduce Sb(V) and promote Sb(III) oxidation, with the dominant pathway determined by system redox conditions. We identify that transient labile Fe(III) intermediates, generated during FeS oxidation, serve as the oxidants for Sb(III) oxidation. During early-stage FeS oxidation, a substantial fraction of Sb is associated with stable colloidal particles (150–350 nm) composed of FeS and newly formed ferrihydrite, underpinning a transient, colloid-facilitated transport pathway that may enhance Sb mobility. Upon complete oxidation, all colloidal Sb exists in larger aggregates (>1000 nm), thus reducing mobility. Spectroscopic analyses confirm that complete FeS oxidation results in the production of secondary Fe(III) (oxyhydr-)oxides, which sequester Sb(V) through combined surface adsorption and structural incorporation via isomorphous substitution. Collectively, this work reveals previously unrecognized multifunctionality of FeS colloids at anoxic–oxic interfaces, providing a mechanistic framework for more accurate prediction of Sb mobility and fate in FeS-rich, redox-dynamic subsurface environments.",
+    "authors": [
+      "Yanxiang Yuan",
+      "John D. Fortner",
+      "Chenggang Ci",
+      "Anxu Sheng",
+      "Peng Liu",
+      "Hai-Bo Qin",
+      "Yi Jiang",
+      "Peng Liao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-20T00:00:00+00:00",
+    "updated_at": "2026-06-21T21:12:34.924441+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02377",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02377",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Colloid",
+      "Antimony",
+      "Redox",
+      "Chemistry",
+      "Transition metal",
+      "Inorganic chemistry",
+      "Colloidal particle",
+      "Chemical engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03782",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03782",
+    "doi": "10.1021/acs.est.6c03782",
+    "title": "Phenolics-Reengineered Electron Flow in the Electro-Fenton Process for Energy-Conserving Decontamination",
+    "abstract": "Electro-Fenton (EF) process suffers from energy and electron inefficiencies arising from residual H 2 O 2 or excess Fe II due to the stoichiometric mismatch between the two-electron oxygen reduction reaction (2e – ORR) and ferric ion reduction (FRR) at a shared cathode. Here, we reengineered electron flow in the EF system to achieve on-demand Fe II supply synchronized with H 2 O 2 generation. A specific cathode spatially decouples 2e – ORR from FRR, while phenolic coordination modulates the spin state of Fe III to accelerate ferric–peroxide interactions. Quantum-chemical-calculation-assisted in situ spectroscopy reveals a ligand-to-metal charge-transfer chromogenic pathway involving a transient, high-spin phenolics-Fe III -OOH intermediate, which undergoes homolytic Fe–O bond cleavage to yield Fe II and HO 2 · /O 2 ·– . This establishes a directional flow of cathodic electron toward H 2 O 2 and subsequently to Fe III (H 2 O 2 as shuttle), sustaining autonomous · OH generation until H 2 O 2 is exhausted. The reengineered EF system thereby achieves a 17-fold enhancement in · OH production at mg-level iron dosage, concomitant with 53.4% reduction in energy consumption relative to conventional EF systems. Finally, pairing this process with anodic hydroxylation of aromatics extends its applicability to the cost-effective treatment of wastewater containing diverse aromatic pollutants. Overall, this work provides a framework for integrating advanced 2e – ORR cathodes into energy-efficient, redox-neutral systems for scalable wastewater decontamination.",
+    "authors": [
+      "Zhipeng Luo",
+      "Yue Cheng",
+      "Fangkun Lin",
+      "Junjie Li",
+      "Yilei Fang",
+      "Diyong Tang",
+      "Xin Yu",
+      "Gong Zhang",
+      "Huabin Zeng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-19T00:00:00+00:00",
+    "updated_at": "2026-06-21T21:12:34.924697+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03782",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03782",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Human decontamination",
+      "Process (computing)",
+      "Flow (mathematics)",
+      "Materials science",
+      "Waste management",
+      "Process engineering",
+      "Environmental science",
+      "Chemistry"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
