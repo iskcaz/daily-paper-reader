@@ -1,5 +1,123 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c02533",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02533",
+    "doi": "10.1021/acs.est.6c02533",
+    "title": "Acidification Dominates over Hypoxia in Controlling Estuarine Nitrogen Removal Dynamics under Coupled Stressors",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Cheng Yao",
+      "Yixuan Wang",
+      "Jie Zhou",
+      "Bolin Liu",
+      "Lin Qi",
+      "Bin Wang",
+      "Feiyang Chen",
+      "Lijun Hou",
+      "Min Liu",
+      "Yanling Zheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-22T00:00:00+00:00",
+    "updated_at": "2026-06-22T21:57:04.380720+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02533",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02533",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18166",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18166",
+    "doi": "10.1021/acs.est.5c18166",
+    "title": "Exposure to Per- and Polyfluoroalkyl Substances (PFAS) Causes Dental Developmental Anomalies: Underrecognized Risk of Fluoride Bioaccumulation",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Motoki Okamoto",
+      "Shohei Yamashita",
+      "Nanako Kuriki",
+      "Susanne Brueckner",
+      "Ria Achong-Bowe",
+      "Melanie Mendonca",
+      "Juliana Sanches Trevizol",
+      "Natsumi Fujiwara",
+      "Shin Nakamura",
+      "Satoru Shindo",
+      "Takumi Memida",
+      "Manabu Mizuhira",
+      "Navi Gill Dhillon",
+      "Xiaozhe Han",
+      "Toshihisa Kawai",
+      "Marília Afonso Rabelo Buzalaf",
+      "Eric T. Everett",
+      "Maiko Suzuki"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-22T00:00:00+00:00",
+    "updated_at": "2026-06-22T21:57:04.380801+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18166",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18166",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c05186",
     "source": "journal",
     "source_detail": "crossref",
@@ -25,7 +143,7 @@
       "est"
     ],
     "published": "2026-06-20T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924546+00:00",
+    "updated_at": "2026-06-22T21:57:04.381122+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05186",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05186",
     "pdf_url": null,
@@ -42,6 +160,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -62,6 +181,8 @@
       "Environmental chemistry",
       "Climate change"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -93,7 +214,7 @@
       "est"
     ],
     "published": "2026-06-20T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924482+00:00",
+    "updated_at": "2026-06-22T21:57:04.381063+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c13379",
     "abs_url": "https://doi.org/10.1021/acs.est.5c13379",
     "pdf_url": null,
@@ -110,6 +231,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -130,6 +252,8 @@
       "Water pollution",
       "Inorganic arsenic"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -159,7 +283,7 @@
       "est"
     ],
     "published": "2026-06-20T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924441+00:00",
+    "updated_at": "2026-06-22T21:57:04.381023+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02377",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02377",
     "pdf_url": null,
@@ -176,6 +300,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -196,6 +321,8 @@
       "Colloidal particle",
       "Chemical engineering"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -226,7 +353,7 @@
       "est"
     ],
     "published": "2026-06-19T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924697+00:00",
+    "updated_at": "2026-06-22T21:57:04.381241+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03782",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03782",
     "pdf_url": null,
@@ -243,6 +370,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -263,149 +391,10 @@
       "Environmental science",
       "Chemistry"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c02079",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02079",
-    "doi": "10.1021/acs.est.6c02079",
-    "title": "Bridging the Gap: A Quantitative Framework Correlating Static and Dynamic Adsorption Capacities for VOCs Removal Prediction",
-    "abstract": "Volatile organic compounds (VOCs) pose substantial environmental and health hazards. Adsorption is a crucial VOCs control technology, and the advancement of adsorbents is highly dependent on precise characterization via both static and dynamic adsorption measurements. Theoretically, a specific conversion relationship should exist between these two measurement methods. However, due to discrepancies in focus and testing conditions, the differences in adsorption capacities obtained by the two methods often vary considerably and lack regularity. In this study, a quantitative framework was established to bridge the gap between static and dynamic adsorption capacities by correlating them under identical partial pressures. Results indicate that the dynamic saturation adsorption capacity ( Q ds ) is ca. 0.93 times the static adsorption capacity ( Q s ) at the matched partial pressure ( Q ds = 0.93 × Q s ). Additionally, the dynamic penetration capacity ( Q dp ) is systematically related to Q ds through the slope ( k ) of the adsorption isotherm. Furthermore, by normalizing partial pressures ( P/P 0 ), a unified predictive equation ( Q dp = (1–0.15 × k ) × Q ds ) was derived. This equation can predict the concentration-dependent evolution of penetration capacity directly from equilibrium isotherms, effectively eliminating temperature effects and ensuring universal applicability. This research establishes a universal approach for calculating dynamic adsorption performance from static isotherm data, which can guide the development of tailored adsorbents for various industrial scenarios.",
-    "authors": [
-      "Zhongshen Zhang",
-      "Yuan Wang",
-      "Xinxin Wang",
-      "Boyi Hao",
-      "Gang Wang",
-      "Zeyu Zhao",
-      "Wenqing Wu",
-      "Ke Zhang",
-      "Dong Zhu",
-      "Huiqun Liu",
-      "Long Yuan",
-      "Xiaoxiao Duan",
-      "Ganggang Li",
-      "Fenglian Zhang",
-      "Jinjun Li",
-      "Hongling Yang",
-      "Zhengping Hao"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924939+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02079",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02079",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Adsorption",
-      "Saturation (graph theory)",
-      "Bridging (networking)",
-      "Penetration (warfare)",
-      "Thermodynamics",
-      "Chemistry",
-      "Partial pressure",
-      "Materials science"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c02389",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02389",
-    "doi": "10.1021/acs.est.6c02389",
-    "title": "Emerging Plastic-Derived Soil Contaminant AO168═O Impairs Nematode Development and Lifespan at Environmentally Relevant Concentrations",
-    "abstract": "Emerging environmental contaminants increasingly accumulate in soil ecosystems, yet their chronic biological impacts on soil-dwelling organisms remain poorly understood. Here, we demonstrate that tris(2,4-di tert -butylphenyl) phosphate (AO168═O), a prevalent soil-borne contaminant formed through the oxidative transformation of the widely used plastic antioxidant (AO168), compromises nematode fitness at relatively low concentrations. Exposure of C. elegans to AO168═O induces pronounced developmental and physiological impairments, including suppressed somatic growth, delayed developmental progression, disrupted energy homeostasis, and reduced reproductive output at 400–10,000 ng/g. Transcriptomic profiling reveals a robust reprogramming of gene expression that molecularly corroborates growth and developmental restriction. Notably, longevity-regulating pathways centered on the conserved insulin/IGF-1 signaling (IIS) are consistently and significantly enriched. Integrated gene-set enrichment analyses further demonstrate that AO168═O-associated transcriptional signatures closely recapitulate established IIS- and DAF-16-regulated expression programs, which were functionally validated by pharmacological inhibition and genetic ablation. Furthermore, early-life exposure leads to persistent and long-lasting fitness deficits, such as impaired locomotor performance and a marked reduction in adult lifespan, detectable even at the lowest exposure concentration. Together, these findings identify AO168═O as a previously underrecognized factor compromising nematode fitness, providing essential laboratory-based evidence that highlights the potential vulnerability of soil biota to ubiquitous soil-borne contaminants.",
-    "authors": [
-      "Kaihang Deng",
-      "Haochun Shi",
-      "Peng Wang",
-      "Keqi Dong",
-      "Congcong Wang",
-      "Yu Li",
-      "Kun Zhang",
-      "Dayong Wang",
-      "Jiayin Dai",
-      "Fujun Ma",
-      "Yanbin Zhao"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.925098+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02389",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02389",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Biology",
-      "Transcriptome",
-      "Reprogramming",
-      "Nematode",
-      "Organism",
-      "Gene expression profiling",
-      "Ecology",
-      "Model organism"
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -433,7 +422,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924722+00:00",
+    "updated_at": "2026-06-22T21:57:04.381269+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01978",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01978",
     "pdf_url": null,
@@ -450,6 +439,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -470,68 +460,12 @@
       "Particle (ecology)",
       "Chemical engineering"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c15794",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c15794",
-    "doi": "10.1021/acs.est.5c15794",
-    "title": "Spatially Resolved Greenhouse Gas Emissions from U.S. Dairy Products",
-    "abstract": "High Resolution Image Download MS PowerPoint Slide As the world’s second-largest milk producer, the U.S. dairy industry aims to achieve net GHG neutrality for all dairy products by 2050. Meeting this target requires understanding emissions across the dairy supply chain, extending beyond farms to include full processing activities. While previous Life Cycle Assessments (LCAs) evaluated individual products like fluid milk and cheese, no comprehensive cradle-to-processing gate LCA exists for the industry. Moreover, prior LCAs often allocated facility-level emissions across multiple products, overlooking variations in energy and materials among coproducts. This study addresses these gaps, quantifying total cradle-to-processing gate emissions, emissions per kilogram of product, and product emissions per kilogram of fat and protein-corrected milk (FPCM) across 12 regions covering 99.96% of U.S. dairy production. In 2020, total emissions were 163.3 million tonnes CO 2 e, with raw milk production accounting for an average of 81%. Postfarm gate emissions varied regionally due to differences in product mix, energy use, electricity grid composition, and transportation distances. Results identify raw milk production as the largest emissions source across the evaluated uncertainty range, indicating that mitigation will require coordinated action across both farm and processing stages. Findings provide critical insights for policymakers and stakeholders to effectively prioritize strategies such as energy efficiency improvements and renewable energy adoption in future sustainability initiatives.",
-    "authors": [
-      "Rylie E. O. Pelton",
-      "Fabian Bernal",
-      "Tim Kurt"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.925023+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c15794",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c15794",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c15794?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Greenhouse gas",
-      "Environmental science",
-      "Life-cycle assessment",
-      "Sustainability",
-      "Raw milk",
-      "Renewable energy",
-      "Production (economics)",
-      "Product (mathematics)"
-    ],
-    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -568,7 +502,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924761+00:00",
+    "updated_at": "2026-06-22T21:57:04.381308+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18126",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18126",
     "pdf_url": null,
@@ -585,6 +519,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -604,6 +539,11 @@
       "Opioid",
       "Consumption (sociology)",
       "Morphine"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -634,7 +574,7 @@
       "est"
     ],
     "published": "2026-06-18T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.924817+00:00",
+    "updated_at": "2026-06-22T21:57:04.381389+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00569",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00569",
     "pdf_url": null,
@@ -651,6 +591,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -671,139 +612,12 @@
       "Anoxic waters",
       "Reactivity (psychology)"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c01544",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c01544",
-    "doi": "10.1021/acs.est.6c01544",
-    "title": "Long-Lived Organic Radicals Drive the Photodegradation of Plastic Additives in Microplastic-Derived Dissolved Organic Matter",
-    "abstract": "High Resolution Image Download MS PowerPoint Slide Microplastic-derived dissolved organic matter (MP-DOM) plays an important role in aquatic environments; however, its influence on the photodegradation of plastic additives remains unclear. In this study, bisphenol A (BPA) was selected as a representative plastic additive to investigate the effects of polystyrene-derived DOM (PS-DOM) on the photodegradation kinetics and mechanisms of BPA at different concentrations. PS-DOM significantly enhanced the photodegradation of BPA, with the promoting effect becoming more pronounced at lower BPA concentrations. Kinetic modeling revealed that as BPA levels decrease from high to low, the dominant contributor to BPA photodegradation shifts from the excited triplet state of PS-DOM (generated via photosensitization) to long-lived organic radicals (LLORs). This finding highlights the indispensable role of LLORs in the photodegradation of trace-level BPA (nM−μM) in surface waters. Probe experiments revealed that the one-electron reduction potentials of LLORs generated by various MP-DOM are around 1.50 V, indicating that LLORs have the potential to degrade plastic additives with oxidation potentials below this range. Furthermore, correlation analysis revealed that variations in unsaturated functional groups and electron-donating moieties (e.g., tannins and lignins) within MP-DOM were key factors controlling the quantum yield coefficients of LLORs across different MP-DOM types. This study provides novel insights into the photochemical reactivity of MP-DOM and its potential role in regulating the environmental transformation of plastic additives.",
-    "authors": [
-      "Yangjian Zhou",
-      "Yunyi Zeng",
-      "Japhet Cheuk-Fung Law",
-      "Yu Lei",
-      "Xin Yang",
-      "Kelvin Sze-Yin Leung"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.925219+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c01544",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c01544",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c01544?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Photodegradation",
-      "Dissolved organic carbon",
-      "Chemistry",
-      "Radical",
-      "Environmental chemistry",
-      "Organic matter",
-      "Degradation (telecommunications)",
-      "Photochemistry"
-    ],
-    "open_pdf_available": true
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04986",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04986",
-    "doi": "10.1021/acs.est.6c04986",
-    "title": "The Distribution of Xenobiotics of Terrigenous Origin in the Nearshore Waters of a Caribbean Island",
-    "abstract": "Anthropogenic pollutants known as xenobiotics, such as pharmaceuticals, pesticides, or human metabolites, primarily originate on land and accumulate near populated coasts, where rainfall further increases their transport and harmful impacts on marine ecosystems. However, empirical evidence for such dynamics remains limited. Here, we investigate spatial and seasonal patterns of terrigenous xenobiotics along the land-sea continuum of Curaçao. Using solid-phase extraction and untargeted LC-HR-MS/MS metabolomics, we detected approximately 30,000 molecular features, including 1,394 xenobiotics that were most abundant in terrestrial waters, declined offshore, and correlated strongly with other terrestrial input indicators (fDOM). Results from three cross-seasonal campaigns (2021-2022) revealed that rainfall and increased water residence times were dominant drivers for xenobiotic abundances along the shore, with 3.5 times higher abundances during the 2022 wet season compared to drier periods. Additional factors were local landscape features, distance to fluvial runoff, hydrodynamic connectivity, and, for specific substance groups (e.g., human metabolites or personal care products), human activities in proximity to sampling locations. Our findings show that terrigenous xenobiotics spread island-wide, making them a broader concern beyond discharge sites. This first island-wide, seasonally resolved assessment provides a baseline for managing emerging contaminants and understanding their wider impact on Caribbean coastal ecosystems.",
-    "authors": [
-      "Lisa Schellenberg",
-      "Vesna Bertoncelj",
-      "Virginia Sánchez Barranco",
-      "Meine D. Boer",
-      "Daniel Petras",
-      "Craig E. Nelson",
-      "Benjamin Mueller",
-      "Mark J. A. Vermeij",
-      "Furu Mienis",
-      "Corina P. D. Brussaard",
-      "Andreas F. Haas"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:34.925164+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04986",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04986",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04986?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Terrigenous sediment",
-      "Oceanography",
-      "Distribution (mathematics)",
-      "Xenobiotic",
-      "Caribbean region",
-      "Geology",
-      "Environmental science",
-      "Coastal zone"
-    ],
-    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -832,7 +646,7 @@
       "est-letters"
     ],
     "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:35.395298+00:00",
+    "updated_at": "2026-06-22T21:57:05.050963+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00014",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00014",
     "pdf_url": null,
@@ -849,6 +663,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -869,6 +684,8 @@
       "Pipeline transport",
       "Forensic engineering"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -897,7 +714,7 @@
       "est-letters"
     ],
     "published": "2026-06-16T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:35.395331+00:00",
+    "updated_at": "2026-06-22T21:57:05.051002+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00498",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00498",
     "pdf_url": null,
@@ -914,6 +731,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -934,6 +752,8 @@
       "Polystyrene",
       "Nuclear chemistry"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -963,7 +783,7 @@
       "est-letters"
     ],
     "published": "2026-06-15T00:00:00+00:00",
-    "updated_at": "2026-06-21T21:12:35.395385+00:00",
+    "updated_at": "2026-06-22T21:57:05.051068+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00356",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00356",
     "pdf_url": null,
@@ -980,6 +800,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1000,6 +821,8 @@
       "Atmospheric sciences",
       "Degradation (telecommunications)"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -2683,6 +2506,47 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c15794",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c15794",
+    "doi": "10.1021/acs.est.5c15794",
+    "title": "Spatially Resolved Greenhouse Gas Emissions from U.S. Dairy Products",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide As the world’s second-largest milk producer, the U.S. dairy industry aims to achieve net GHG neutrality for all dairy products by 2050. Meeting this target requires understanding emissions across the dairy supply chain, extending beyond farms to include full processing activities. While previous Life Cycle Assessments (LCAs) evaluated individual products like fluid milk and cheese, no comprehensive cradle-to-processing gate LCA exists for the industry. Moreover, prior LCAs often allocated facility-level emissions across multiple products, overlooking variations in energy and materials among coproducts. This study addresses these gaps, quantifying total cradle-to-processing gate emissions, emissions per kilogram of product, and product emissions per kilogram of fat and protein-corrected milk (FPCM) across 12 regions covering 99.96% of U.S. dairy production. In 2020, total emissions were 163.3 million tonnes CO 2 e, with raw milk production accounting for an average of 81%. Postfarm gate emissions varied regionally due to differences in product mix, energy use, electricity grid composition, and transportation distances. Results identify raw milk production as the largest emissions source across the evaluated uncertainty range, indicating that mitigation will require coordinated action across both farm and processing stages. Findings provide critical insights for policymakers and stakeholders to effectively prioritize strategies such as energy efficiency improvements and renewable energy adoption in future sustainability initiatives.",
+    "authors": [
+      "Rylie E. O. Pelton",
+      "Fabian Bernal",
+      "Tim Kurt"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-18",
+    "link": "https://doi.org/10.1021/acs.est.5c15794",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15794",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c15794?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "unknown",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c17496",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -3387,6 +3251,49 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c01544",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c01544",
+    "doi": "10.1021/acs.est.6c01544",
+    "title": "Long-Lived Organic Radicals Drive the Photodegradation of Plastic Additives in Microplastic-Derived Dissolved Organic Matter",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Microplastic-derived dissolved organic matter (MP-DOM) plays an important role in aquatic environments; however, its influence on the photodegradation of plastic additives remains unclear. In this study, bisphenol A (BPA) was selected as a representative plastic additive to investigate the effects of polystyrene-derived DOM (PS-DOM) on the photodegradation kinetics and mechanisms of BPA at different concentrations. PS-DOM significantly enhanced the photodegradation of BPA, with the promoting effect becoming more pronounced at lower BPA concentrations. Kinetic modeling revealed that as BPA levels decrease from high to low, the dominant contributor to BPA photodegradation shifts from the excited triplet state of PS-DOM (generated via photosensitization) to long-lived organic radicals (LLORs). This finding highlights the indispensable role of LLORs in the photodegradation of trace-level BPA (nM−μM) in surface waters. Probe experiments revealed that the one-electron reduction potentials of LLORs generated by various MP-DOM are around 1.50 V, indicating that LLORs have the potential to degrade plastic additives with oxidation potentials below this range. Furthermore, correlation analysis revealed that variations in unsaturated functional groups and electron-donating moieties (e.g., tannins and lignins) within MP-DOM were key factors controlling the quantum yield coefficients of LLORs across different MP-DOM types. This study provides novel insights into the photochemical reactivity of MP-DOM and its potential role in regulating the environmental transformation of plastic additives.",
+    "authors": [
+      "Yangjian Zhou",
+      "Yunyi Zeng",
+      "Japhet Cheuk-Fung Law",
+      "Yu Lei",
+      "Xin Yang",
+      "Kelvin Sze-Yin Leung"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-17",
+    "link": "https://doi.org/10.1021/acs.est.6c01544",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01544",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c01544?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown"
+  },
+  {
     "id": "journal-10-1021-acs-est-6c01603",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -3611,6 +3518,61 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c02079",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02079",
+    "doi": "10.1021/acs.est.6c02079",
+    "title": "Bridging the Gap: A Quantitative Framework Correlating Static and Dynamic Adsorption Capacities for VOCs Removal Prediction",
+    "abstract": "Volatile organic compounds (VOCs) pose substantial environmental and health hazards. Adsorption is a crucial VOCs control technology, and the advancement of adsorbents is highly dependent on precise characterization via both static and dynamic adsorption measurements. Theoretically, a specific conversion relationship should exist between these two measurement methods. However, due to discrepancies in focus and testing conditions, the differences in adsorption capacities obtained by the two methods often vary considerably and lack regularity. In this study, a quantitative framework was established to bridge the gap between static and dynamic adsorption capacities by correlating them under identical partial pressures. Results indicate that the dynamic saturation adsorption capacity ( Q ds ) is ca. 0.93 times the static adsorption capacity ( Q s ) at the matched partial pressure ( Q ds = 0.93 × Q s ). Additionally, the dynamic penetration capacity ( Q dp ) is systematically related to Q ds through the slope ( k ) of the adsorption isotherm. Furthermore, by normalizing partial pressures ( P/P 0 ), a unified predictive equation ( Q dp = (1–0.15 × k ) × Q ds ) was derived. This equation can predict the concentration-dependent evolution of penetration capacity directly from equilibrium isotherms, effectively eliminating temperature effects and ensuring universal applicability. This research establishes a universal approach for calculating dynamic adsorption performance from static isotherm data, which can guide the development of tailored adsorbents for various industrial scenarios.",
+    "authors": [
+      "Zhongshen Zhang",
+      "Yuan Wang",
+      "Xinxin Wang",
+      "Boyi Hao",
+      "Gang Wang",
+      "Zeyu Zhao",
+      "Wenqing Wu",
+      "Ke Zhang",
+      "Dong Zhu",
+      "Huiqun Liu",
+      "Long Yuan",
+      "Xiaoxiao Duan",
+      "Ganggang Li",
+      "Fenglian Zhang",
+      "Jinjun Li",
+      "Hongling Yang",
+      "Zhengping Hao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-18",
+    "link": "https://doi.org/10.1021/acs.est.6c02079",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02079",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02083",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -3678,6 +3640,55 @@
     "published": "2026-06-15",
     "link": "https://doi.org/10.1021/acs.est.6c02210",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02210",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02389",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02389",
+    "doi": "10.1021/acs.est.6c02389",
+    "title": "Emerging Plastic-Derived Soil Contaminant AO168═O Impairs Nematode Development and Lifespan at Environmentally Relevant Concentrations",
+    "abstract": "Emerging environmental contaminants increasingly accumulate in soil ecosystems, yet their chronic biological impacts on soil-dwelling organisms remain poorly understood. Here, we demonstrate that tris(2,4-di tert -butylphenyl) phosphate (AO168═O), a prevalent soil-borne contaminant formed through the oxidative transformation of the widely used plastic antioxidant (AO168), compromises nematode fitness at relatively low concentrations. Exposure of C. elegans to AO168═O induces pronounced developmental and physiological impairments, including suppressed somatic growth, delayed developmental progression, disrupted energy homeostasis, and reduced reproductive output at 400–10,000 ng/g. Transcriptomic profiling reveals a robust reprogramming of gene expression that molecularly corroborates growth and developmental restriction. Notably, longevity-regulating pathways centered on the conserved insulin/IGF-1 signaling (IIS) are consistently and significantly enriched. Integrated gene-set enrichment analyses further demonstrate that AO168═O-associated transcriptional signatures closely recapitulate established IIS- and DAF-16-regulated expression programs, which were functionally validated by pharmacological inhibition and genetic ablation. Furthermore, early-life exposure leads to persistent and long-lasting fitness deficits, such as impaired locomotor performance and a marked reduction in adult lifespan, detectable even at the lowest exposure concentration. Together, these findings identify AO168═O as a previously underrecognized factor compromising nematode fitness, providing essential laboratory-based evidence that highlights the potential vulnerability of soil biota to ubiquitous soil-borne contaminants.",
+    "authors": [
+      "Kaihang Deng",
+      "Haochun Shi",
+      "Peng Wang",
+      "Keqi Dong",
+      "Congcong Wang",
+      "Yu Li",
+      "Kun Zhang",
+      "Dayong Wang",
+      "Jiayin Dai",
+      "Fujun Ma",
+      "Yanbin Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-18",
+    "link": "https://doi.org/10.1021/acs.est.6c02389",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02389",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -4213,6 +4224,55 @@
     "open_pdf_source": "",
     "open_pdf_status": "no_open_pdf",
     "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04986",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04986",
+    "doi": "10.1021/acs.est.6c04986",
+    "title": "The Distribution of Xenobiotics of Terrigenous Origin in the Nearshore Waters of a Caribbean Island",
+    "abstract": "Anthropogenic pollutants known as xenobiotics, such as pharmaceuticals, pesticides, or human metabolites, primarily originate on land and accumulate near populated coasts, where rainfall further increases their transport and harmful impacts on marine ecosystems. However, empirical evidence for such dynamics remains limited. Here, we investigate spatial and seasonal patterns of terrigenous xenobiotics along the land-sea continuum of Curaçao. Using solid-phase extraction and untargeted LC-HR-MS/MS metabolomics, we detected approximately 30,000 molecular features, including 1,394 xenobiotics that were most abundant in terrestrial waters, declined offshore, and correlated strongly with other terrestrial input indicators (fDOM). Results from three cross-seasonal campaigns (2021-2022) revealed that rainfall and increased water residence times were dominant drivers for xenobiotic abundances along the shore, with 3.5 times higher abundances during the 2022 wet season compared to drier periods. Additional factors were local landscape features, distance to fluvial runoff, hydrodynamic connectivity, and, for specific substance groups (e.g., human metabolites or personal care products), human activities in proximity to sampling locations. Our findings show that terrigenous xenobiotics spread island-wide, making them a broader concern beyond discharge sites. This first island-wide, seasonally resolved assessment provides a baseline for managing emerging contaminants and understanding their wider impact on Caribbean coastal ecosystems.",
+    "authors": [
+      "Lisa Schellenberg",
+      "Vesna Bertoncelj",
+      "Virginia Sánchez Barranco",
+      "Meine D. Boer",
+      "Daniel Petras",
+      "Craig E. Nelson",
+      "Benjamin Mueller",
+      "Mark J. A. Vermeij",
+      "Furu Mienis",
+      "Corina P. D. Brussaard",
+      "Andreas F. Haas"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-17",
+    "link": "https://doi.org/10.1021/acs.est.6c04986",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04986",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04986?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown",
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
