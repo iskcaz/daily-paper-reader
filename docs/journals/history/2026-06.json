@@ -5933,7 +5933,10 @@
       "Inorganic arsenic"
     ],
     "citation_count": 0,
-    "influential_citation_count": 0
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c05186",
@@ -6002,7 +6005,10 @@
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
     "citation_count": 0,
-    "influential_citation_count": 0
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c02377",
@@ -6071,7 +6077,10 @@
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
     "citation_count": 0,
-    "influential_citation_count": 0
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03782",
@@ -6190,7 +6199,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -6199,7 +6210,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Estuary",
+      "Hypoxia (environmental)",
+      "Biogeochemical cycle",
+      "Environmental science",
+      "Ecology",
+      "Nitrogen cycle",
+      "Environmental chemistry",
+      "Climate change"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c18166",
@@ -6253,6 +6281,82 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Perfluorooctanoic acid",
+      "Bioaccumulation",
+      "Chemistry",
+      "Environmental chemistry",
+      "Fluoride",
+      "Biotransformation",
+      "Dentin",
+      "Dental fluorosis"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07199",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07199",
+    "doi": "10.1021/acs.est.6c07199",
+    "title": "50th Anniversary of the Discovery of Drinking Water Disinfection Byproducts: A Special Issue in ES&T and ES&T Letters",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Susan D. Richardson",
+      "William A. Mitch",
+      "Jonathan W. Martin",
+      "Xing-Fang Li",
+      "Xin Yang",
+      "Xiangru Zhang",
+      "Baiyang Chen",
+      "Huiyu Dong",
+      "Jiafu Li",
+      "Yang Pan",
+      "Wei Wang",
+      "Mengting Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-23T21:27:21.298052+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07199",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07199",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
       "docs-meta"
     ],
     "tags": [
@@ -6260,6 +6364,274 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01336",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01336",
+    "doi": "10.1021/acs.est.6c01336",
+    "title": "Joint Associations of Prenatal Per- and Polyfluoroalkyl Substances and Metal Mixtures with Adiposity in Childhood and Adolescence",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Ixel Hernandez-Castro",
+      "Sheryl L. Rifas-Shiman",
+      "Anna Smith",
+      "Pi-I Debby Lin",
+      "Abby Fleisch",
+      "Diane R. Gold",
+      "Mingyu Zhang",
+      "Izzuddin M. Aris",
+      "Brent Coull",
+      "Marie-France Hivert",
+      "Emily Oken",
+      "Andres Cardenas"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-23T21:27:21.297923+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01336",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01336",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01670",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01670",
+    "doi": "10.1021/acs.est.6c01670",
+    "title": "A Physics-Guided Machine Learning Framework Enabling Interpretable and Transferable Cascade Reactor Modeling: Application to Metal Recovery Process",
+    "abstract": "Cascade reactors are vital for separation and purification processes such as metal recovery and wastewater treatment, owing to their enhanced reaction efficiency compared to single-stage systems. Yet, their simulation and optimization remain challenging. First-principles models are prohibitively complex, and purely data-driven approaches suffer from data scarcity and inadequate transferability across reactor configurations. To address these challenges, we propose a physics-guided reactor network (PG-RN), a hybrid machine-learning framework that structurally embeds residence time distribution (RTD) theory into machine learning. PG-RN achieved predictive accuracy comparable to widely used baselines in data-rich scenarios and outperformed them under data scarcity, while providing interpretable RTD profiles consistent with theoretical expectations. Building on this framework, a differentiated transfer learning strategy guided by physical knowledge was introduced to enable efficient transfer across reactor configurations. It was successfully validated on both simulated nonideal reactors and a real-world metal recovery process for spent lithium-ion batteries, demonstrating improved predictive accuracy and reduced data requirements for characterizing complex cascade reactor systems. Notably, it achieved a 22% performance improvement on experimental data compared to the nontransfer baseline. Overall, this work establishes a data-efficient, interpretable, and transferable modeling framework for complex cascade reactor systems, offering a promising pathway to the development of sustainable metal recovery and related separation processes.",
+    "authors": [
+      "Yan Li",
+      "Chunbo Xue",
+      "Yuehong Zhao",
+      "Zhiqiang Li",
+      "Pengge Ning",
+      "Hongbin Cao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-22T00:00:00+00:00",
+    "updated_at": "2026-06-23T21:27:21.298336+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01670",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01670",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Cascade",
+      "Process (computing)",
+      "Computer science",
+      "Machine learning",
+      "Artificial intelligence",
+      "Key (lock)",
+      "Process engineering",
+      "Transferability"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03988",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03988",
+    "doi": "10.1021/acs.est.6c03988",
+    "title": "Kinetics-Controlled Secondary Grafting Regulates Charge and Pore Architecture in Polyamide Nanofiltration Membranes",
+    "abstract": "Precise nanofiltration requires control over the distributions of charge, pore architecture, and hydration environments throughout active layers with thickness of tens of nanometers, yet most postmodification strategies remain confined to the outermost surface. Here, we transform secondary grafting into a kinetics-controlled reaction–diffusion process that regulates the spatial distribution of functional groups within the polyamide (PA) matrix. Bis(aminomethyl)pyridinium (BAMP) isomers with systematically varied intrinsic reactivity and diffusivity were synthesized to control grafting localization. Highly reactive isomers undergo interfacial kinetic capture, enhancing surface charge and sharpening pore size distribution to achieve Li + /Mg 2+ selectivity up to 67.4, desirable for lithium recovery from complex brines. In contrast, more diffusive but less reactive isomers penetrate the PA network prior to grafting, redistributing internal charge and increasing transport-effective free volume, yielding high water permeance (51.8 LMH/bar) together with strong SO 4 2– /dye selectivity (108) and improved antifouling and antibacterial performance. Depth-resolved functionalization is confirmed experimentally and interpreted using density functional theory calculations, molecular dynamics simulations, and a grafting Damköhler framework that links molecular reactivity and diffusivity to spatial localization and membrane transport behavior. This work establishes a mechanistic strategy for controlling internal transport environments in nanofiltration membranes and offers a scalable approach for environmental separations, including brine resource recovery and treatment of diverse source waters and wastewaters.",
+    "authors": [
+      "Zhiying Li",
+      "Ruiqi Zheng",
+      "Sihan Li",
+      "Chenyang Wang",
+      "Yangying Zhao",
+      "Xin Yu",
+      "Xiaomao Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-22T00:00:00+00:00",
+    "updated_at": "2026-06-23T21:27:21.298403+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03988",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03988",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nanofiltration",
+      "Polyamide",
+      "Membrane",
+      "Chemical engineering",
+      "Chemistry",
+      "Permeance",
+      "Surface modification",
+      "Polyurea"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c15172",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c15172",
+    "doi": "10.1021/acs.est.5c15172",
+    "title": "Trade-Offs between Sulfuric Acid Aerosol Precursors for Stratospheric Aerosol Geoengineering",
+    "abstract": "Solar geoengineering with sulfuric acid aerosols in the lower stratosphere might be used to reduce the impacts of climate change. Almost all studies have assumed sulfur is transported aloft as sulfur dioxide; several other sulfur compounds are plausible. We evaluated elemental sulfur (S 8 ), hydrogen sulfide (H 2 S), sulfur dioxide (SO 2 ), carbon disulfide (CS 2 ), sulfur trioxide (SO 3 ), and sulfuric acid (H 2 SO 4 ), examining the mechanisms of dispersal in liquid form, safety, and costs for materials supply and deployment with a 20 km altitude aircraft. Levelized, combined costs for material production and lofting at 100 ktonne/year scale range from $1140 to $5150/tonne-S. We find that the cost to loft H 2 S is about half that of SO 2, but the production cost of H 2 S is more uncertain and could be high enough to change this conclusion. The additional oxidation step required for H 2 S adds <20% to the aerosol formation time scale, so H 2 S and SO 2 should produce similar aerosol size distributions if new particle formation is negligible. H 2 S and SO 2 have high and roughly equivalent toxicity. H 2 S presents a further flammability risk that SO 2 does not. S 8 would be much safer than H 2 S or SO 2, but it requires airborne combustor technology that is not yet developed. CS 2 is not preferred on any metric. SO 3 and H 2 SO 4 are ∼4 times more expensive than H 2 S to loft but offer additional control over the aerosol size distribution that will likely reduce some side effects of sulfuric acid aerosol geoengineering.",
+    "authors": [
+      "James Franke",
+      "Wake Smith",
+      "Angela Slavens",
+      "Frank N. Keutsch",
+      "Fangqun Yu",
+      "David Keith"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-22T00:00:00+00:00",
+    "updated_at": "2026-06-23T21:27:21.298307+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c15172",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15172",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Sulfuric acid",
+      "Aerosol",
+      "Sulfur",
+      "Sulfur trioxide",
+      "Sulfate aerosol",
+      "Sulfur dioxide",
+      "Chemistry",
+      "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
