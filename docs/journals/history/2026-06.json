@@ -6357,7 +6357,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -6366,7 +6368,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Water disinfection",
+      "Environmental science",
+      "Waste management",
+      "Water treatment",
+      "Water pollution",
+      "Waterborne diseases",
+      "Environmental engineering",
+      "Environmental protection"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01336",
@@ -6414,7 +6433,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -6423,7 +6444,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Medicine",
+      "Joint (building)",
+      "Prenatal exposure",
+      "Body mass index",
+      "Late childhood",
+      "Prenatal development",
+      "Endocrinology",
+      "Physiology"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01670",
@@ -6627,6 +6665,449 @@
       "Sulfur dioxide",
       "Chemistry",
       "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03043",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03043",
+    "doi": "10.1021/acs.est.6c03043",
+    "title": "A Spatiotemporal Decomposition Framework for Temporal Persistence and Regional Transport in PM 2.5 Variability",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Zhengyi Cui",
+      "Aodong Mei",
+      "Yingjie Liu",
+      "Yang Liu",
+      "Yun Hang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.294306+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03043",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03043",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16272",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16272",
+    "doi": "10.1021/acs.est.5c16272",
+    "title": "Bifunctional Organosilane-Grafted Kaolinite for Enhanced PFAS Adsorption via Synergistic Mechanisms",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Ze-Wei Ke",
+      "Yu-Xin Liu",
+      "Ying-Le Wan",
+      "Yu-Chao Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.294079+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16272",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16272",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Adsorption",
+      "Bifunctional",
+      "Chemistry",
+      "Kaolinite",
+      "Chemical engineering",
+      "Inorganic chemistry",
+      "Nuclear chemistry",
+      "Environmental chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17630",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17630",
+    "doi": "10.1021/acs.est.5c17630",
+    "title": "Cross-Media Cycling of Tropospheric Reactive Nitrogen and Its Implications for Sulfur Chemistry",
+    "abstract": "Reactive nitrogen (Nr) species serve as a pivotal catalytic engine in tropospheric oxidation processes. Furthermore, their multiphase transport and interfacial conversions can also perturb biogeochemical equilibria across marine, terrestrial, and atmospheric systems. This review integrates groundbreaking advances in the cycling and conversion of Nr at multimedia surfaces (gas-aqueous, gas-particle, and gas-soil interfaces), revealing their key role in driving the formation of atmospheric fine particulate matter and enhancing atmospheric oxidizing capacity. The critical environmental factors affecting the cycle at each active interface were also systematically investigated and comprehensively analyzed. By integrating laboratory studies, field campaigns, and modeling simulations, we reveal how aerosol-mediated Nr-S chemistry creates self-amplifying positive feedback that exacerbates haze formation. These mechanisms partly explain why the advanced model often underestimates sulfate concentrations in megacities, providing direct support for pollution control strategies. Our analysis bridges molecular-scale interfacial processes with the fast increase in regional fine particles, offering actionable insights for scientists, policymakers, and engineers combating atmospheric complex pollution, particularly in developing countries.",
+    "authors": [
+      "Shuying Wang",
+      "Ziqi Meng",
+      "Peng Zhang",
+      "Tianzeng Chen",
+      "Biwu Chu",
+      "Qingxin Ma",
+      "Yonghong Wang",
+      "Chuncheng Chen",
+      "Shuxiao Wang",
+      "Jincai Zhao",
+      "Hong He"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.294056+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17630",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17630",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biogeochemical cycle",
+      "Atmospheric chemistry",
+      "Chemistry",
+      "Environmental chemistry",
+      "Particulates",
+      "Troposphere",
+      "Oxidizing agent",
+      "Sulfur"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18959",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18959",
+    "doi": "10.1021/acs.est.5c18959",
+    "title": "Diet-Driven Rapid and Selective Accumulation of Per- and Polyfluoroalkyl Substances in Black-Tailed Gull Nestlings",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jiachen Sun",
+      "Jinye Cheng",
+      "Jiansong Chu",
+      "Yanhui Dai",
+      "Zhenyu Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.294199+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18959",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18959",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16257",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16257",
+    "doi": "10.1021/acs.est.5c16257",
+    "title": "Meeting U.S. Light-Duty Vehicle Fleet Climate Targets under Battery Critical Material Supply Constraints",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Dijuan Liang",
+      "Nadine Alzaghrini",
+      "Amir F. N. Abdul-Manan",
+      "I. Daniel Posen",
+      "Heather L. MacLean"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.294250+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16257",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16257",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Battery (electricity)",
+      "Environmental science",
+      "Automotive engineering",
+      "Engineering",
+      "Computer science",
+      "Transport engineering",
+      "Fleet management",
+      "Waste management"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18930",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18930",
+    "doi": "10.1021/acs.est.5c18930",
+    "title": "Sequential Reduction–Oxidation Coupling Process for the Sustainable Remediation of Pollutants Containing Electron-Withdrawing Groups",
+    "abstract": "Persistent and toxic organic pollutants containing strong electron-withdrawing groups (EWGs) pose a major bottleneck to ecological security and sustainable wastewater treatment. Conventional advanced oxidation processes (AOPs) struggle to degrade these pollutants because EWGs intrinsically inhibit electrophilic attack and electron transfer, whereas advanced reduction processes (ARPs) often yield highly toxic, partially reduced byproducts. While both technologies exhibit suboptimal performance when applied alone, sequential reduction-oxidation coupling (ROC) can fundamentally break through this thermodynamic bottleneck. By utilizing targeted reduction to systematically lower activation barriers, ROC enables the near-complete mineralization of recalcitrant pollutants, offering a highly promising and sustainable approach for water remediation. This review summarizes the electronic properties of EWGs and systematically evaluates recent advances in ROC technologies based on their fundamental reaction configurations. Going beyond a mere mechanistic overview, we propose a universal, descriptor-driven engineering framework to guide ROC system design. It dissects the core synergistic mechanisms, introduces predictive optimization strategies for precise reaction control, and establishes multidimensional techno-economic analysis (TEA) and life-cycle assessment (LCA) benchmarks pivotal for industrial scale-up. Ultimately, this work lays out a roadmap to guide the development of ROC technologies toward a sustainable and carbon-neutral future. Furthermore, the redox coupling paradigm elaborated herein holds promise for extending its utility beyond water treatment, providing foundational guidance for the design of next-generation sequential catalytic systems across diverse environmental and industrial applications.",
+    "authors": [
+      "Yueshuang Mao",
+      "Dongpeng Zhang",
+      "Huifang Sun",
+      "Jianfeng Li",
+      "Huazhang Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.293981+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18930",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18930",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Bottleneck",
+      "Biochemical engineering",
+      "Computer science",
+      "Pollutant",
+      "Process (computing)",
+      "Sustainable development",
+      "Work (physics)",
+      "Risk analysis (engineering)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01654",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01654",
+    "doi": "10.1021/acs.est.6c01654",
+    "title": "XAFS and DFT Insights into the Kinetics and Mechanisms of Technetium Reduction by Nanoparticulate Magnetite",
+    "abstract": ", keeping the charge balanced by creating a vacancy.",
+    "authors": [
+      "Thomas Zimmermann",
+      "Natalia Mayordomo",
+      "Augusto F. Oliveira",
+      "Felix Brandt",
+      "Martina Klinkenberg",
+      "Juri Barthel",
+      "Dieter Schild",
+      "Kerstin Hockmann",
+      "Thorsten Stumpf",
+      "Andreas C. Scheinost"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-23T00:00:00+00:00",
+    "updated_at": "2026-06-24T21:14:32.294227+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01654",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01654",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "X-ray absorption fine structure",
+      "Kinetics",
+      "Magnetite",
+      "Reduction (mathematics)",
+      "Technetium",
+      "Chemistry",
+      "Materials science",
+      "Magnetite Nanoparticles"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
