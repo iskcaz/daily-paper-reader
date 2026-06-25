@@ -1,5 +1,73 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c05551",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05551",
+    "doi": "10.1021/acs.est.6c05551",
+    "title": "Catalytic Waste Valorization Must Move beyond Model Systems",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shuai Yue",
+      "Guanshu Zhao",
+      "Pengfei Wang",
+      "Sihui Zhan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-24T00:00:00+00:00",
+    "updated_at": "2026-06-25T20:50:37.911060+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05551",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05551",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Waste management",
+      "Environmental science",
+      "Waste treatment",
+      "Environmental engineering",
+      "Wastewater",
+      "Municipal solid waste",
+      "Engineering",
+      "Process engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c07199",
     "source": "journal",
     "source_detail": "crossref",
@@ -29,7 +97,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294124+00:00",
+    "updated_at": "2026-06-25T20:50:37.911395+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c07199",
     "abs_url": "https://doi.org/10.1021/acs.est.6c07199",
     "pdf_url": null,
@@ -76,63 +144,13 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c03043",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03043",
-    "doi": "10.1021/acs.est.6c03043",
-    "title": "A Spatiotemporal Decomposition Framework for Temporal Persistence and Regional Transport in PM 2.5 Variability",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Zhengyi Cui",
-      "Aodong Mei",
-      "Yingjie Liu",
-      "Yang Liu",
-      "Yun Hang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294306+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03043",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03043",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-5c16272",
     "source": "journal",
     "source_detail": "crossref",
     "source_paper_id": "10.1021/acs.est.5c16272",
     "doi": "10.1021/acs.est.5c16272",
     "title": "Bifunctional Organosilane-Grafted Kaolinite for Enhanced PFAS Adsorption via Synergistic Mechanisms",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "The widespread presence of per- and polyfluoroalkyl substances (PFAS) at industrial and military sites threatens subsurface environments and human health. Conventional barrier materials, such as those used in cutoff walls and compacted clay liners, retain PFAS poorly due to their low adsorption affinity. To address this, we engineered a robust functionalized clay (DMOAP-Kao) by covalently grafting dimethyloctadecyl[3-(trimethoxysilyl)propyl]ammonium onto kaolinite. This grafting strategy ensures superior stability compared to modification by cation exchange. The resulting DMOAP-Kao exhibited a high PFAS adsorption capacity and sustained strong adsorption performance under various aqueous chemistry conditions. Permeation tests further confirmed that incorporating DMOAP-Kao as an amendment into soil-bentonite barrier materials enhances PFAS retardation performance. Molecular dynamics simulations identified three distinct PFAS adsorption morphologies, corresponding to their binding with the outer organosilane shell, the inner organosilane shell, and the kaolinite surface. Free energy calculations revealed a three-stage adsorption process synergistically governed by electrostatic attraction and hydrophobic interactions. The positively charged quaternary ammonium groups of the grafted DMOAP enable long-range electrostatic attraction, effectively \"capturing\" anionic PFAS species from water and drawing them toward the modified clay surface for subsequent binding. This study establishes a conceptual framework for designing high-affinity clay adsorbents by selecting functionalized organosilanes based on the specific physicochemical properties of target contaminants and grafting them via condensation with the hydroxyl groups on clay surfaces and edges.",
     "authors": [
       "Ze-Wei Ke",
       "Yu-Xin Liu",
@@ -147,7 +165,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294079+00:00",
+    "updated_at": "2026-06-25T20:50:37.911350+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c16272",
     "abs_url": "https://doi.org/10.1021/acs.est.5c16272",
     "pdf_url": null,
@@ -164,6 +182,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -183,6 +202,11 @@
       "Inorganic chemistry",
       "Nuclear chemistry",
       "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -216,7 +240,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294056+00:00",
+    "updated_at": "2026-06-25T20:50:37.911324+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c17630",
     "abs_url": "https://doi.org/10.1021/acs.est.5c17630",
     "pdf_url": null,
@@ -269,7 +293,7 @@
     "source_paper_id": "10.1021/acs.est.5c18959",
     "doi": "10.1021/acs.est.5c18959",
     "title": "Diet-Driven Rapid and Selective Accumulation of Per- and Polyfluoroalkyl Substances in Black-Tailed Gull Nestlings",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Poorly characterized dietary exposure in predators often leads to inconsistent field-based bioaccumulation metrics for per- and polyfluoroalkyl substances (PFAS). This study evaluated PFAS accumulation in the plasma of black-tailed gull ( Larus crassirostris ) nestlings subjected to contrasting marine (wild; n = 26) and freshwater (captive; n = 30) diets. Stable isotope mixing models (δ 13 C and δ 15 N) were employed to reconstruct wild nestling diets and calculate mixed-diet biomagnification factors (BMFs). Nestlings on freshwater diets exhibited higher concentrations of most PFAS groups than those on marine diets (ΣPFAS = 265 and 124 ng/g ww, respectively), except for sulfonamide-based precursors (FASAs). This pattern suggests a higher contamination risk in freshwater systems, likely from agricultural runoff, as indicated by elevated PFAS levels and δ 15 N in freshwater prey. Despite contrasting prey PFAS profiles, both nestling groups preferentially accumulated greater proportions of C 7 –C 9 perfluoroalkyl sulfonic acids (PFSAs) and 6:2 chlorinated polyfluoroalkyl ether sulfonate (6:2 Cl-PFESA). Mixed-diet BMFs were consistently below one for FASAs, C 4 –C 6 perfluoroalkyl carboxylic acids (PFCAs), and PFDS, while exceeding one for C 9 –C 14 PFCAs, C 7 –C 9 PFSAs, and 6:2 Cl-PFESA. Observed discrepancies in PFOA, PFBS, and PFHxS biomagnification between nestling groups further implicate the role of in vivo precursor transformation. These findings emphasize the need for further monitoring within freshwater ecosystems, and integrating mixed-diet approaches to assess PFAS bioaccumulation in field studies.",
     "authors": [
       "Jiachen Sun",
       "Jinye Cheng",
@@ -285,7 +309,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294199+00:00",
+    "updated_at": "2026-06-25T20:50:37.911473+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18959",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18959",
     "pdf_url": null,
@@ -301,6 +325,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -308,6 +334,23 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biomagnification",
+      "Bioaccumulation",
+      "Environmental chemistry",
+      "Biology",
+      "Predation",
+      "Chemistry",
+      "Contamination",
+      "Ecology"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -342,7 +385,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294022+00:00",
+    "updated_at": "2026-06-25T20:50:37.911290+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01336",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01336",
     "pdf_url": null,
@@ -389,69 +432,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-5c16257",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c16257",
-    "doi": "10.1021/acs.est.5c16257",
-    "title": "Meeting U.S. Light-Duty Vehicle Fleet Climate Targets under Battery Critical Material Supply Constraints",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Dijuan Liang",
-      "Nadine Alzaghrini",
-      "Amir F. N. Abdul-Manan",
-      "I. Daniel Posen",
-      "Heather L. MacLean"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294250+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c16257",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c16257",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Battery (electricity)",
-      "Environmental science",
-      "Automotive engineering",
-      "Engineering",
-      "Computer science",
-      "Transport engineering",
-      "Fleet management",
-      "Waste management"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-5c18930",
     "source": "journal",
     "source_detail": "crossref",
@@ -474,7 +454,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.293981+00:00",
+    "updated_at": "2026-06-25T20:50:37.911247+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18930",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18930",
     "pdf_url": null,
@@ -548,7 +528,7 @@
       "est"
     ],
     "published": "2026-06-23T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294227+00:00",
+    "updated_at": "2026-06-25T20:50:37.911505+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01654",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01654",
     "pdf_url": null,
@@ -595,232 +575,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c02533",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02533",
-    "doi": "10.1021/acs.est.6c02533",
-    "title": "Acidification Dominates over Hypoxia in Controlling Estuarine Nitrogen Removal Dynamics under Coupled Stressors",
-    "abstract": "As critical transitional zones between land and sea, estuaries are confronting the dual threats of increasing acidification and hypoxia driven by human activities and climate change. However, the combined effects of these stressors on estuarine nitrogen removal processes remain poorly understood. In this study, using stable-isotope tracing and molecular techniques in the Yangtze estuary, we found that hypoxia promoted N removal, yet concurrent acidification can override this effect, leading to net inhibition and a consequent reduction in estuarine nitrogen removal capacity. However, in seasonally hypoxic zones, these combined stressors generally enhanced nitrogen removal rates (by up to 34.4%), which suggests a degree of resilience under such perturbations. Nevertheless, the concurrent acidification–hypoxia in seasonally hypoxic areas stimulated N 2 O emissions (8.5–44.4%), which may intensify climate forcing and thereby further exacerbate these environmental stressors. Metagenomic and quantitative PCR analyses corroborated these response patterns, revealing coordinated changes in the abundance and expression of key nitrogen-removal genes, as well as divergent microbial response strategies and niche differentiation under acidification–hypoxia stress. This study elucidates the previously overlooked interactive effects of acidification and hypoxia on estuarine nitrogen removal, providing a mechanistic basis for refining biogeochemical models to improve the reliability of simulations under multiple stressors.",
-    "authors": [
-      "Cheng Yao",
-      "Yixuan Wang",
-      "Jie Zhou",
-      "Bolin Liu",
-      "Lin Qi",
-      "Bin Wang",
-      "Feiyang Chen",
-      "Lijun Hou",
-      "Min Liu",
-      "Yanling Zheng"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-22T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294460+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02533",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02533",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Estuary",
-      "Hypoxia (environmental)",
-      "Biogeochemical cycle",
-      "Environmental science",
-      "Ecology",
-      "Nitrogen cycle",
-      "Environmental chemistry",
-      "Climate change"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c18166",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c18166",
-    "doi": "10.1021/acs.est.5c18166",
-    "title": "Exposure to Per- and Polyfluoroalkyl Substances (PFAS) Causes Dental Developmental Anomalies: Underrecognized Risk of Fluoride Bioaccumulation",
-    "abstract": "High Resolution Image Download MS PowerPoint Slide Per- and polyfluoroalkyl substances (PFAS) are synthetic chemicals that persist in the environment and have potential health risks. Among them, 8:2 fluorotelomer alcohol (FTOH) undergoes microbial biotransformation in the environment into perfluorooctanoic acid (PFOA) and releases fluoride. While PFOA’s toxic effects have been well-studied, the impact of PFOA (and its precursor 8:2 FTOH) on dental health is largely unknown. Moreover, it is not established whether, and to what extent, defluorination and fluoride bioaccumulation occur during the in vivo 8:2 FTOH metabolism. This study is the first to comprehensively demonstrate the pathophysiology of PFAS-associated developmental dental anomalies─enamel and dentin hypoplasia─in the context of fluoride bioaccumulation after exposure to 8:2 FTOH in mice. Over 90 days, mice (male and female C57BL/6J) received daily oral doses of 8:2 FTOH. At the high dose, the levels of PFOA and 7:3 FTCA (the main 8:2 FTOH metabolites) in blood increased significantly, reaching PFOA concentrations comparable to those in occupationally exposed humans, underscoring the relevance of high-exposure scenarios. Fluoride levels significantly increased in the blood, urine, and bone, approaching levels linked to dental fluorosis in animal models. Dental defects included enamel and dentin hypoplasia, discoloration, reduced mineral density, and structural abnormalities, including damaged ameloblasts and immature mineral composition. Although some features resembled fluorosis, the defects were distinct. 8:2 FTOH and other PFAS capable of similar metabolic conversion may represent an understudied source of fluorine accumulation and a potential, previously unrecognized contributor to cryptogenic odontogenic abnormalities.",
-    "authors": [
-      "Motoki Okamoto",
-      "Shohei Yamashita",
-      "Nanako Kuriki",
-      "Susanne Brueckner",
-      "Ria Achong-Bowe",
-      "Melanie Mendonca",
-      "Juliana Sanches Trevizol",
-      "Natsumi Fujiwara",
-      "Shin Nakamura",
-      "Satoru Shindo",
-      "Takumi Memida",
-      "Manabu Mizuhira",
-      "Navi Gill Dhillon",
-      "Xiaozhe Han",
-      "Toshihisa Kawai",
-      "Marília Afonso Rabelo Buzalaf",
-      "Eric T. Everett",
-      "Maiko Suzuki"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-22T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294523+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c18166",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c18166",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Perfluorooctanoic acid",
-      "Bioaccumulation",
-      "Chemistry",
-      "Environmental chemistry",
-      "Fluoride",
-      "Biotransformation",
-      "Dentin",
-      "Dental fluorosis"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c15172",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c15172",
-    "doi": "10.1021/acs.est.5c15172",
-    "title": "Trade-Offs between Sulfuric Acid Aerosol Precursors for Stratospheric Aerosol Geoengineering",
-    "abstract": "Solar geoengineering with sulfuric acid aerosols in the lower stratosphere might be used to reduce the impacts of climate change. Almost all studies have assumed sulfur is transported aloft as sulfur dioxide; several other sulfur compounds are plausible. We evaluated elemental sulfur (S 8 ), hydrogen sulfide (H 2 S), sulfur dioxide (SO 2 ), carbon disulfide (CS 2 ), sulfur trioxide (SO 3 ), and sulfuric acid (H 2 SO 4 ), examining the mechanisms of dispersal in liquid form, safety, and costs for materials supply and deployment with a 20 km altitude aircraft. Levelized, combined costs for material production and lofting at 100 ktonne/year scale range from $1140 to $5150/tonne-S. We find that the cost to loft H 2 S is about half that of SO 2, but the production cost of H 2 S is more uncertain and could be high enough to change this conclusion. The additional oxidation step required for H 2 S adds <20% to the aerosol formation time scale, so H 2 S and SO 2 should produce similar aerosol size distributions if new particle formation is negligible. H 2 S and SO 2 have high and roughly equivalent toxicity. H 2 S presents a further flammability risk that SO 2 does not. S 8 would be much safer than H 2 S or SO 2, but it requires airborne combustor technology that is not yet developed. CS 2 is not preferred on any metric. SO 3 and H 2 SO 4 are ∼4 times more expensive than H 2 S to loft but offer additional control over the aerosol size distribution that will likely reduce some side effects of sulfuric acid aerosol geoengineering.",
-    "authors": [
-      "James Franke",
-      "Wake Smith",
-      "Angela Slavens",
-      "Frank N. Keutsch",
-      "Fangqun Yu",
-      "David Keith"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-22T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:32.294484+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c15172",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c15172",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Sulfuric acid",
-      "Aerosol",
-      "Sulfur",
-      "Sulfur trioxide",
-      "Sulfate aerosol",
-      "Sulfur dioxide",
-      "Chemistry",
-      "Environmental chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-estlett-6c00014",
     "source": "journal",
     "source_detail": "crossref",
@@ -846,7 +600,7 @@
       "est-letters"
     ],
     "published": "2026-06-17T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:35.785340+00:00",
+    "updated_at": "2026-06-25T20:50:38.838400+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00014",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00014",
     "pdf_url": null,
@@ -883,74 +637,6 @@
       "Petroleum engineering",
       "Pipeline transport",
       "Forensic engineering"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-estlett-6c00498",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.estlett.6c00498",
-    "doi": "10.1021/acs.estlett.6c00498",
-    "title": "Direct Evidence for the Carrier Effect of Nanoplastics in Plants via In Situ Mass Spectrometry Imaging",
-    "abstract": "To provide the direct evidence for comigration of plastic particles and additives in organisms, for the first time, matrix-assisted laser desorption/ionization mass spectrometry imaging (MALDI-MSI) was employed to obtain in situ imaging characterization of the migration behaviors of nanoplastics (NPs) and additives in potted cactus stems. When polystyrene nanoplastics (PS-NPs) loaded with the antioxidant tris(2,4-di- tert -butylphenyl) phosphite (AO168) and flame retardant diphenyl phosphate (DPhP) were continuously exposed directly to the pith for 7 days, the additives comigrated with PS-NPs upward along stems. On the low cross-section, concentrations of PS, AO168 and DPhP were 84.8 ± 7.3, 1.5 ± 0.1, and 7.1 ± 1.9 μg/cm 2, respectively; the corresponding values on the high cross-section were 7.4 ± 0.8, 1.4 ± 0.1 and 3.8 ± 0.2 μg/cm 2 . In contrast, AO168 and DPhP were undetectable in high cross sections of the PS-NPs-free control under identical exposure levels. The mapping degrees of additives to PS-NPs decline from 63.1% at low cross-section to 1.0% at high cross-section, indicating progressive dissociation during translocation. In vitro experiments demonstrated that PS loading can significantly reduce the degradation efficiency of additives within the cactus bleeding sap. The PS-NPs entering the stems exert a carrier effect, thereby facilitating the long-distance translocation of additives to distal plant tissues.",
-    "authors": [
-      "Ye Li",
-      "Yanfang Zhao",
-      "Junjie Zhang",
-      "Hongmei Gong",
-      "Baoshan Xing",
-      "Xiangfeng Chen",
-      "Lei Wang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "published": "2026-06-16T00:00:00+00:00",
-    "updated_at": "2026-06-24T21:14:35.785383+00:00",
-    "link": "https://doi.org/10.1021/acs.estlett.6c00498",
-    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00498",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology Letters",
-    "journal_key": "est_letters",
-    "journal_label": "EST Letters",
-    "journal_issn": [
-      "2328-8930",
-      "2328-8930"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "Mass spectrometry",
-      "Dissociation (chemistry)",
-      "Cinder",
-      "Triphenyl phosphate",
-      "Degradation (telecommunications)",
-      "Polystyrene",
-      "Nuclear chemistry"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
@@ -4863,6 +4549,51 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-estlett-6c00498",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.estlett.6c00498",
+    "doi": "10.1021/acs.estlett.6c00498",
+    "title": "Direct Evidence for the Carrier Effect of Nanoplastics in Plants via In Situ Mass Spectrometry Imaging",
+    "abstract": "To provide the direct evidence for comigration of plastic particles and additives in organisms, for the first time, matrix-assisted laser desorption/ionization mass spectrometry imaging (MALDI-MSI) was employed to obtain in situ imaging characterization of the migration behaviors of nanoplastics (NPs) and additives in potted cactus stems. When polystyrene nanoplastics (PS-NPs) loaded with the antioxidant tris(2,4-di- tert -butylphenyl) phosphite (AO168) and flame retardant diphenyl phosphate (DPhP) were continuously exposed directly to the pith for 7 days, the additives comigrated with PS-NPs upward along stems. On the low cross-section, concentrations of PS, AO168 and DPhP were 84.8 ± 7.3, 1.5 ± 0.1, and 7.1 ± 1.9 μg/cm 2, respectively; the corresponding values on the high cross-section were 7.4 ± 0.8, 1.4 ± 0.1 and 3.8 ± 0.2 μg/cm 2 . In contrast, AO168 and DPhP were undetectable in high cross sections of the PS-NPs-free control under identical exposure levels. The mapping degrees of additives to PS-NPs decline from 63.1% at low cross-section to 1.0% at high cross-section, indicating progressive dissociation during translocation. In vitro experiments demonstrated that PS loading can significantly reduce the degradation efficiency of additives within the cactus bleeding sap. The PS-NPs entering the stems exert a carrier effect, thereby facilitating the long-distance translocation of additives to distal plant tissues.",
+    "authors": [
+      "Ye Li",
+      "Yanfang Zhao",
+      "Junjie Zhang",
+      "Hongmei Gong",
+      "Baoshan Xing",
+      "Xiangfeng Chen",
+      "Lei Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-16",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00498",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00498",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_label": "EST Letters",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est-letters",
+      "query:EST Letters"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c13379",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -4911,6 +4642,62 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c18166",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c18166",
+    "doi": "10.1021/acs.est.5c18166",
+    "title": "Exposure to Per- and Polyfluoroalkyl Substances (PFAS) Causes Dental Developmental Anomalies: Underrecognized Risk of Fluoride Bioaccumulation",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Motoki Okamoto",
+      "Shohei Yamashita",
+      "Nanako Kuriki",
+      "Susanne Brueckner",
+      "Ria Achong-Bowe",
+      "Melanie Mendonca",
+      "Juliana Sanches Trevizol",
+      "Natsumi Fujiwara",
+      "Shin Nakamura",
+      "Satoru Shindo",
+      "Takumi Memida",
+      "Manabu Mizuhira",
+      "Navi Gill Dhillon",
+      "Xiaozhe Han",
+      "Toshihisa Kawai",
+      "Marília Afonso Rabelo Buzalaf",
+      "Eric T. Everett",
+      "Maiko Suzuki"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-22",
+    "link": "https://doi.org/10.1021/acs.est.5c18166",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18166",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02377",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -4936,6 +4723,54 @@
     "published": "2026-06-20",
     "link": "https://doi.org/10.1021/acs.est.6c02377",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02377",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02533",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02533",
+    "doi": "10.1021/acs.est.6c02533",
+    "title": "Acidification Dominates over Hypoxia in Controlling Estuarine Nitrogen Removal Dynamics under Coupled Stressors",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Cheng Yao",
+      "Yixuan Wang",
+      "Jie Zhou",
+      "Bolin Liu",
+      "Lin Qi",
+      "Bin Wang",
+      "Feiyang Chen",
+      "Lijun Hou",
+      "Min Liu",
+      "Yanling Zheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-22",
+    "link": "https://doi.org/10.1021/acs.est.6c02533",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02533",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -5050,6 +4885,50 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c15172",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c15172",
+    "doi": "10.1021/acs.est.5c15172",
+    "title": "Trade-Offs between Sulfuric Acid Aerosol Precursors for Stratospheric Aerosol Geoengineering",
+    "abstract": "Solar geoengineering with sulfuric acid aerosols in the lower stratosphere might be used to reduce the impacts of climate change. Almost all studies have assumed sulfur is transported aloft as sulfur dioxide; several other sulfur compounds are plausible. We evaluated elemental sulfur (S 8 ), hydrogen sulfide (H 2 S), sulfur dioxide (SO 2 ), carbon disulfide (CS 2 ), sulfur trioxide (SO 3 ), and sulfuric acid (H 2 SO 4 ), examining the mechanisms of dispersal in liquid form, safety, and costs for materials supply and deployment with a 20 km altitude aircraft. Levelized, combined costs for material production and lofting at 100 ktonne/year scale range from $1140 to $5150/tonne-S. We find that the cost to loft H 2 S is about half that of SO 2, but the production cost of H 2 S is more uncertain and could be high enough to change this conclusion. The additional oxidation step required for H 2 S adds <20% to the aerosol formation time scale, so H 2 S and SO 2 should produce similar aerosol size distributions if new particle formation is negligible. H 2 S and SO 2 have high and roughly equivalent toxicity. H 2 S presents a further flammability risk that SO 2 does not. S 8 would be much safer than H 2 S or SO 2, but it requires airborne combustor technology that is not yet developed. CS 2 is not preferred on any metric. SO 3 and H 2 SO 4 are ∼4 times more expensive than H 2 S to loft but offer additional control over the aerosol size distribution that will likely reduce some side effects of sulfuric acid aerosol geoengineering.",
+    "authors": [
+      "James Franke",
+      "Wake Smith",
+      "Angela Slavens",
+      "Frank N. Keutsch",
+      "Fangqun Yu",
+      "David Keith"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-22",
+    "link": "https://doi.org/10.1021/acs.est.5c15172",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15172",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c01670",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -5118,6 +4997,92 @@
     "published": "2026-06-22",
     "link": "https://doi.org/10.1021/acs.est.6c03988",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03988",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16257",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c16257",
+    "doi": "10.1021/acs.est.5c16257",
+    "title": "Meeting U.S. Light-Duty Vehicle Fleet Climate Targets under Battery Critical Material Supply Constraints",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Dijuan Liang",
+      "Nadine Alzaghrini",
+      "Amir F. N. Abdul-Manan",
+      "I. Daniel Posen",
+      "Heather L. MacLean"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-23",
+    "link": "https://doi.org/10.1021/acs.est.5c16257",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16257",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03043",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03043",
+    "doi": "10.1021/acs.est.6c03043",
+    "title": "A Spatiotemporal Decomposition Framework for Temporal Persistence and Regional Transport in PM 2.5 Variability",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Zhengyi Cui",
+      "Aodong Mei",
+      "Yingjie Liu",
+      "Yang Liu",
+      "Yun Hang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-23",
+    "link": "https://doi.org/10.1021/acs.est.6c03043",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03043",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
