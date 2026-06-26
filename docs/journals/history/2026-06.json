@@ -7167,7 +7167,7 @@
     "updated_at": "2026-06-25T20:50:37.911060+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05551",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05551",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05551?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -7176,8 +7176,8 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -7190,7 +7190,7 @@
       "core-journal",
       "est"
     ],
-    "is_oa": false,
+    "is_oa": true,
     "oa_status": "closed",
     "openalex_concepts": [
       "Waste management",
@@ -7206,6 +7206,448 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02534",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02534",
+    "doi": "10.1021/acs.est.6c02534",
+    "title": "Climate Change Accelerates Nitrate Delivery to Groundwater",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shaoqing Chen",
+      "Baojing Gu",
+      "Puyu Feng",
+      "Hao Liang",
+      "Fangzheng Chen",
+      "Yong Chen",
+      "William D Batchelor",
+      "Guilong Zhang",
+      "Baoguo Li",
+      "Kelin Hu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-26T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.614815+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02534",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02534",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03708",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03708",
+    "doi": "10.1021/acs.est.6c03708",
+    "title": "Unlocking the Potential of Metal Sulfides and Edge Plane Engineering for High-Capacity Thallium Adsorption from Non-ferrous Smelting Gas",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Fenghua Shen",
+      "Yu Zou",
+      "LeLe Liu",
+      "ZiXi Zhang",
+      "Xingyuan Yu",
+      "Chaolong Liu",
+      "Kaisong Xiang",
+      "Hui Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-26T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.614852+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03708",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03708",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18024",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18024",
+    "doi": "10.1021/acs.est.5c18024",
+    "title": "Better Data, Better Outcomes: Unified Macroplastic Ingestion Reporting Methods to Inform Risk Assessment",
+    "abstract": "Addressing the impacts of plastic pollution, particularly plastic ingestion, on wildlife and ecosystems has become a priority for decision-makers developing management strategies. As nations design national action plans, the need for science-based targets to guide management objectives is increasingly urgent. Despite decades of evidence showing plastic ingestion in more than 1,500 species, our understanding of how ingestion affects organisms, populations, and ecosystems remains limited. Ecological risk assessments, which estimate the likelihood that a stressor will cause adverse effects at various biological levels, offer a pathway for identifying environmental thresholds. However, for macroplastic ingestion─an exposure pathway that cannot be ethically or feasibly studied in the laboratory─harmonized, large-scale environmental datasets are essential. Existing frameworks for reporting plastic ingestion are well suited for characterizing exposure in marine species, yet researchers often do not document observed harm in ways that support risk assessments. Here, we present a framework for collecting and reporting data on plastic ingestion in wildlife that better captures effects relevant to macroplastic risk assessment. Our framework builds on established ingestion protocols and introduces new approaches for measuring and reporting acute wildlife mortality and injuries attributable to plastic ingestion. Implementing this framework will continue to support long-term monitoring efforts, while improving our understanding of lethal and sublethal ingestion thresholds.",
+    "authors": [
+      "Erin Murphy",
+      "Britta R. Baechler",
+      "Robson G. Santos",
+      "Jennifer F. Provencher",
+      "Matthew S. Savoca",
+      "Jennifer Lynch",
+      "Katherine Shaw",
+      "Chelsea M. Rochman"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-25T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.615138+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18024",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18024",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Risk assessment",
+      "Ingestion",
+      "Harm",
+      "Wildlife",
+      "Stressor",
+      "Environmental health",
+      "Risk management",
+      "Environmental planning"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03440",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03440",
+    "doi": "10.1021/acs.est.6c03440",
+    "title": "Boosting Permanganate-Initiated Pollutant Polymerization via Synergistic Dual-Oxidant Activation by In Situ-Formed Nascent MnO 2",
+    "abstract": "Polymerization-oriented moderate oxidation mediated by high-valent metals offers a promising low-carbon pathway for wastewater remediation. However, current polymerization strategies largely depend on heterogeneous catalysts that require precise coordination and energy-intensive synthesis, while permanganate (Mn(VII)) alone exhibits limited polymerization capability. Here, we demonstrate that coupling Mn(VII) with supplementary oxidants (e.g., periodate, peroxymonosulfate, and peroxydisulfate) significantly enhances polymer precursor formation and polymeric product yield. This enhancement is governed by in situ-formed nascent MnO 2 (nMnO 2 ), which synergistically activates both Mn(VII) and the co-oxidant without generating radicals. Theoretical and experimental analyses reveal that electron transfer-mediated activation of Mn(VII) by nMnO 2 elevates the Mn 3dz 2 energy level and compresses the MnO 6 lattice. The resulting structural strain lowers electron transfer resistance and enhances interfacial affinity toward the supplementary oxidant, enabling dual-oxidant synergy. This mechanism is universal across various MnO 2 materials and oxidant combinations. The developed nMnO 2 -dominated dual-oxidant system achieves complete bisphenol F removal, over 80% total organic carbon elimination, effective detoxification, and strong anti-interference performance. This work presents a practical pathway to implement Mn(VII)-initiated polymerization in water treatment and offers a generalizable catalyst–substrate interaction-driven framework for designing efficient oxidation technologies.",
+    "authors": [
+      "Mengfan Luo",
+      "Heng Zhang",
+      "Hongyu Zhou",
+      "Jia Zhao",
+      "Jialong Yin",
+      "Yanbiao Shi",
+      "Bo Lai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-25T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.615037+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03440",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03440",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Polymerization",
+      "Chemistry",
+      "Catalysis",
+      "Bisphenol A",
+      "Polymer",
+      "Permanganate",
+      "Chemical engineering",
+      "Electron transfer"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00018",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00018",
+    "doi": "10.1021/acs.est.6c00018",
+    "title": "Mineralization of Trifluoromethanesulfonate via Subcritical Hydrothermal Reaction: Reaction Mechanism and Transformation Pathways",
+    "abstract": "Hydrothermal alkaline treatment (HALT) is an innovative approach that was developed for the destruction of per- and polyfluoroalkyl substances (PFAS). While HALT has been shown to effectively destroy a wide range of PFAS detected in various sample matrices, a comprehensive understanding of the controlling reaction mechanisms and transformation pathways remains limited. Herein, we selected trifluoromethanesulfonate (TFMS), the shortest-chain and likely one of the most recalcitrant PFAS reported to date, to probe degradation mechanisms and identify transformation products. The results indicate that HALT of TFMS proceeds via general nucleophilic substitution and base-promoted pathways, leading to 65.7% mineralization of the parent compound after a 180 min reaction of 0.1 M TFMS at 350 °C in 1 M NaOH. For the degraded TFMS, approximately 100% of fluorine and sulfur were converted to fluoride and sulfate, respectively, while carbon was distributed mainly as carbonate (95%) and formate (5%), along with the production of hydrogen. These findings are supported by both experimental and computational evidence. Hydroxide plays dual roles by initiating the reaction as the nucleophile and promoting subsequent steps by maintaining strongly basic conditions. The initial degradation step is rate-determining, with an estimated energy barrier of 27.8 kcal/mol. Similar mechanisms are proposed for reactions of longer-chain perfluoroalkyl sulfonic acids (PFSAs). Finally, the key factors governing PFSA reactivity across chain lengths from C1 to C8 were identified as reaction temperature, nucleophile type and concentration, and reaction time. This study addresses a critical knowledge gap in PFAS hydrothermal reactions and further establishes HALT as an effective technology for PFAS destruction and defluorination.",
+    "authors": [
+      "Shilai Hao",
+      "Benjamin Payton",
+      "Ori Soker",
+      "Anderson Ellis",
+      "Sean Brooks",
+      "Patrick Reardon",
+      "Shubham Vyas",
+      "Ilja Popovs",
+      "Igor Novosselov",
+      "Christopher P. Higgins",
+      "Timothy J. Strathmann"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-25T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.614979+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00018",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00018",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Chemistry",
+      "Nucleophile",
+      "Formate",
+      "Hydroxide",
+      "Reactivity (psychology)",
+      "Hydrothermal circulation",
+      "Trifluoromethanesulfonate",
+      "Mineralization (soil science)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01521",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01521",
+    "doi": "10.1021/acs.est.6c01521",
+    "title": "The Dynamic Mechanism of Ozone Decomposition over Layered Nickel Catalysts: Crystalline Phase Evolution Dictates Activity",
+    "abstract": "Nickel-based layered materials have attracted considerable attention due to their high efficiency in ozone decomposition and related advantages. Despite unclear ozone decomposition mechanisms, this study synthesized nickel hydroxide to systematically investigate their catalytic performance and structural evolution, aiming to elucidate the critical relationship between the catalyst’s crystalline structure and its activity. The results indicate that Ni(OH) 2 transforms into NiOOH during ozone decomposition, with catalytic activity determined by the crystalline phase of the resultant NiOOH species. Ni(OH) 2 enriched with hydroxyl groups tends to experience deep oxidation, yielding γ-NiOOH characterized by an expanded interlayer spacing. This phase exhibits superior ozone decomposition efficiency, sustaining an ozone conversion rate exceeding 93% under conditions of 80% relative humidity and a space velocity of 840 L·g –1 ·h –1 . Conversely, catalysts that form β-NiOOH demonstrate lower activity. DFT calculations confirm that γ-NiOOH significantly lowers the energy barrier for ozone decomposition. The surface oxygen sites of γ-NiOOH facilitate rapid desorption of oxygen intermediates, effectively mitigating catalyst deactivation. Moreover, DFT analyses indicate that γ-NiOOH possesses a more favorable ozone decomposition mechanism relative to β-NiOOH. This study elucidates the dynamic transformation mechanism of layered nickel hydroxide catalysts during ozone decomposition and underscores the pivotal role of γ-NiOOH in this process.",
+    "authors": [
+      "Miaomiao Xiao",
+      "Jiaqi Li",
+      "Ruixin Mao",
+      "Qian Zhang",
+      "Xueqian Wang",
+      "Langlang Wang",
+      "Xin Sun",
+      "Kunlin Li",
+      "Yixing Ma",
+      "Ping Ning"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-25T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.614948+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01521",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01521",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ozone",
+      "Decomposition",
+      "Catalysis",
+      "Nickel",
+      "Space velocity",
+      "Hydroxide",
+      "Phase (matter)",
+      "Oxygen"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04557",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04557",
+    "doi": "10.1021/acs.est.6c04557",
+    "title": "In Situ Quorum Quenching Effect Induced by Negative Potential on Electro-Conductive Membranes for Membrane Fouling Control in Membrane Bioreactors",
+    "abstract": "Membrane fouling is a major impediment to the widespread application of membrane bioreactors (MBRs) for water treatment. In recent years, the electro-conductive membrane bioreactor (E-MBR) has demonstrated efficacy in mitigating membrane fouling. The application of a negative potential to the electro-conductive membrane promotes electrostatic repulsion, effectively displacing negatively charged extracellular polymeric substances (EPS) away from the membrane surface. However, given the established vital role of quorum sensing (QS) in membrane fouling development, the interference of the negative potential on QS-mediated EPS secretion and biofilm formation has been largely overlooked. Herein, we found that the negative potential applied to the electro-conductive membrane could effectively suppress the QS process, thereby inducing the in situ quorum quenching (QQ) effect. The application of negative potential significantly reduced the levels of the signal molecule C14-HSL as well as EPS. Metagenomic analysis indicated that the relative abundance of the \"signal transduction mechanism\" pathway was suppressed, and the functional genes encoding C14-HSL receptor proteins belonging to \"LuxR family\" was downregulated in the cake layer of E-MBR. Density functional theory calculations and molecular dynamics simulation results revealed that the application of negative potential enhanced the electrostatic repulsion between the membrane and C14-HSL and induced the conformational changes of the LuxR protein, which synergistically induced the in situ QQ effect. This study provides a novel perspective on the antifouling mechanism in E-MBR.",
+    "authors": [
+      "Guangze He",
+      "Tao Liu",
+      "Jiajian Xing",
+      "Linhua Rao",
+      "Shuo Chen",
+      "Chenxin Xie",
+      "Gaoliang Wei",
+      "Xie Quan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-24T00:00:00+00:00",
+    "updated_at": "2026-06-26T20:48:20.615195+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04557",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04557",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Membrane",
+      "Chemistry",
+      "Bioreactor",
+      "In situ",
+      "Quorum Quenching",
+      "Fouling",
+      "Membrane fouling",
+      "Quenching (fluorescence)"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
