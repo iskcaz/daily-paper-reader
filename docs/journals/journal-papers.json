@@ -6,7 +6,7 @@
     "source_paper_id": "10.1021/acs.est.6c02534",
     "doi": "10.1021/acs.est.6c02534",
     "title": "Climate Change Accelerates Nitrate Delivery to Groundwater",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Rising precipitation under climate change can increase groundwater recharge in many regions and accelerate the mobilization of legacy nitrate stored in the vadose zone. We couple a machine learning emulator of a global hydrological model with the nitrate time bomb (NTB) model to quantify nitrate migration from 1958 to 2100. Nitrate migration velocity increases across all climate zones except the tropics, with the most pronounced gains in the cold (+0.20/+0.25 m year –1 under SSP2–4.5/SSP5–8.5) and temperate (+0.17/+0.15 m year –1 ) zones. Groundwater table shallowing further shortens transport distance; in the arid zone, climate change advances nitrate peak arrival by about 6/8 years (locally >20 years). Among grid cells where nitrate peaks reach groundwater before 2100, more than 60% show shortened NTB countdowns under both scenarios. After the first global nitrate accumulation peak, depth-projected leaching shows renewed increase by 2019, suggesting a second phase of nitrate loading to the vadose zone. Integrating legacy nitrate mass with climate-adjusted transport identifies the North China Plain, South Asia, and Western Europe as NTB hotspots. These results show that climate forcing can accelerate the release of long buried agricultural pollutants, underscoring the urgency of proactive groundwater protection.",
     "authors": [
       "Shaoqing Chen",
       "Baojing Gu",
@@ -27,7 +27,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.614815+00:00",
+    "updated_at": "2026-06-27T20:47:12.679815+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02534",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02534",
     "pdf_url": null,
@@ -43,6 +43,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -50,6 +51,155 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrate",
+      "Environmental science",
+      "Groundwater",
+      "Water table",
+      "Climate change",
+      "Vadose zone",
+      "Hydrology (agriculture)",
+      "Groundwater recharge"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03869",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03869",
+    "doi": "10.1021/acs.est.6c03869",
+    "title": "Diversity of Iodinated Water Disinfection Byproducts and Their Formation Dynamics Discovered Using Exposome-Scale Nontargeted Analysis and Machine Learning",
+    "abstract": "Water disinfection is critical to minimizing microbial risk, but unintentionally produces disinfection byproducts (DBPs). Exposure to the currently regulated chloro- and bromo-DBPs in water cannot fully account for the health effects observed from epidemiological studies. Iodinated disinfection byproducts (I-DBPs) are among the most toxic DBPs, but they have not been fully characterized because of significant technical challenges. We report here the first exposome-scale study of iodinated disinfection byproducts formed under environmentally relevant conditions. Here, “exposome-scale” refers to broad-scope, nontargeted profiling of exposure-relevant environmental contaminants. The machine-learning-assisted nontargeted analysis of chloramine-treated water enabled detection and characterization of 8551 and 1541 high-confidence iodinated molecular features, generated under the negative and positive ionization modes, respectively. Sixty-two new iodinated disinfection byproducts were identified, with 11 I-DBPs confirmed using authentic standards. Across four Environmental Protection Agency toxicity prediction end points (fathead minnow, Daphnia magna, Tetrahymena pyriformis, and rat), the 11 I-DBPs consistently showed higher or comparable toxicities relative to both the regulated DBPs and the four known I-DBPs, with predicted toxicities reaching up to 2–3 orders of magnitude greater than benchmark compounds such as chloroform and iodoacetic acid. This study demonstrates improved understanding of the diversity and formation dynamics of highly toxic I-DBPs, enabled by advances in integrating exposomics with machine learning techniques.",
+    "authors": [
+      "Qiming Shen",
+      "Di Zhang",
+      "Tingting Zhao",
+      "K. N. Minh Chau",
+      "Garrett Grubisa",
+      "Tao Huan",
+      "X. Chris Le",
+      "Xing-Fang Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-26T00:00:00+00:00",
+    "updated_at": "2026-06-27T20:47:12.679581+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03869",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03869",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Water disinfection",
+      "Chemistry",
+      "Environmental chemistry",
+      "Water treatment",
+      "Daphnia",
+      "Geobacillus stearothermophilus",
+      "Biochemical engineering",
+      "Aquatic environment"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04723",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04723",
+    "doi": "10.1021/acs.est.6c04723",
+    "title": "Elucidating the Adverse Outcome Pathway for Grain-Quality Deterioration Induced by Brominated Flame Retardants in Rice: A Multiomics and Lifecycle Analysis",
+    "abstract": "Brominated flame retardants (BFRs) pose a growing threat to agricultural safety, yet their dynamic transfer mechanisms and interference with crop metabolism remain poorly understood. This study systematically unravels the lifecycle translocation of BFRs in rice and deciphers the signaling-mediated cascade leading to grain-quality deterioration. BFR accumulation did not follow a simple xylem-mediated transport pattern; instead, secondary enrichment occurred during grain filling, inversely correlated with their log K ow and molecular weight. In particular, the concentration of 2,2′,4,4′-tetrabromodiphenyl ether (BDE-47) in the panicles increased sharply from ∼1 ng/g at the heading stage to 16.5 ng/g at the filling stage, reaching 42.0 ng/g at maturity, representing an order-of-magnitude increase. This accumulation critically coincided with a marked depletion of nutritional components: amylopectin and total protein decreased by 10.3–17.7%, accompanied by a 12.5% reduction in 1000-grain weight. Through integrated transcriptomic, proteomic, and metabolomic analyses, along with a novel motif-based unbiased screening method, we deciphered the core adverse outcome pathway (AOP). BFRs advanced the abscisic acid (ABA) peak by 5 days and increasing its concentration ∼20% compared to the control. This intensified ABA signaling pathway upregulated tricarboxylic acid cycle enzymes by 2–5-fold, and redirected carbon flux from starch synthesis toward energy production. This metabolic shift accelerates the cotransport of selected BFRs (e.g., BDE-47) into the developing grain, driving premature maturation and nutritional loss. By establishing a complete “signal activation → metabolic reprogramming → pollutant co-transport → quality deterioration” AOP framework, this study provides a mechanistic foundation for understanding the potential dietary implications of BFRs in rice, offering crucial insights for safeguarding food safety and controlling agricultural contamination.",
+    "authors": [
+      "Jie Chen",
+      "Zhiheng Li",
+      "Jianfang Wu",
+      "Yinuo Xing",
+      "Shichong He",
+      "Yaqi Sheng",
+      "Lizhong Zhu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-26T00:00:00+00:00",
+    "updated_at": "2026-06-27T20:47:12.679883+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04723",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04723",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Metabolic pathway",
+      "Chemistry",
+      "Metabolomics",
+      "Citric acid cycle",
+      "Metabolism",
+      "Tricarboxylic acid",
+      "Biochemistry",
+      "Biofortification"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -80,7 +230,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.614852+00:00",
+    "updated_at": "2026-06-27T20:47:12.679852+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03708",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03708",
     "pdf_url": null,
@@ -96,6 +246,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -103,6 +254,18 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Adsorption",
+      "Metal",
+      "Materials science",
+      "Smelting",
+      "Thallium",
+      "Enhanced Data Rates for GSM Evolution",
+      "Metallurgy",
+      "Plane (geometry)"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -133,7 +296,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.615138+00:00",
+    "updated_at": "2026-06-27T20:47:12.680150+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18024",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18024",
     "pdf_url": null,
@@ -150,6 +313,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -169,6 +333,11 @@
       "Environmental health",
       "Risk management",
       "Environmental planning"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -198,7 +367,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.615037+00:00",
+    "updated_at": "2026-06-27T20:47:12.680038+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03440",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03440",
     "pdf_url": null,
@@ -215,6 +384,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -234,6 +404,84 @@
       "Permanganate",
       "Chemical engineering",
       "Electron transfer"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01180",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01180",
+    "doi": "10.1021/acs.est.6c01180",
+    "title": "Gradient-Driven Galvanic Effect Enables Self-Sustained Peroxymonosulfate Activation in a Stacked Flow Reactor",
+    "abstract": "Efficient elimination of emerging contaminants (ECs) from complex water matrices remains a challenge for peroxymonosulfate (PMS)-based advanced oxidation processes, which typically require high PMS dosages and suffer from poor oxidant utilization. Here, we report a Fenton-like flow reactor (FFR) composed of stacked layers of immobilized catalysts (Co-carbon nanotube/carbon fiber, Co-CNT/CF). Unlike conventional PMS-activating batch reactors, the FFR harnesses in situ-generated concentration and potential gradients to induce a spontaneous galvanic effect (GE). This macroscale GE enables self-sustained PMS activation, dissolved oxygen reduction, and radical generation without external energy input, thereby overcoming mass transfer limitations inherent to batch reactors. Additionally, it endows the FFR with exceptional adaptability under a wide range of EC concentration, salinity, natural organic matter (NOM), and pH. Notably, increasing wastewater conductivity boosted the treatment capacity by several times, achieving the removal of nearly 100% ECs at a flux rate >1000 mL min –1 . Furthermore, the enhanced microcosmic charge transfer at the catalyst/wastewater interface enabled extremely low PMS usage (≤0.08 mM) and high utilization efficiency (77.5–96.3%). This work introduces a gradient-driven, galvanic-enabled PMS activation pathway that establishes a new design paradigm for cost-effective and energy-saving continuous-flow water purification technologies.",
+    "authors": [
+      "Qingyi Zeng",
+      "Jiahua Ni",
+      "Qingyan Zhang",
+      "Ping Cao",
+      "Chun Hu",
+      "Xiaoyang Huang",
+      "Baiwen Ma",
+      "Yanbiao Liu",
+      "Wonyong Choi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-25T00:00:00+00:00",
+    "updated_at": "2026-06-27T20:47:12.680068+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01180",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01180",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Materials science",
+      "Galvanic cell",
+      "Flow (mathematics)",
+      "Chemical engineering",
+      "Chemistry",
+      "Volumetric flow rate",
+      "Activation energy",
+      "Reaction mechanism"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -267,10 +515,10 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.614979+00:00",
+    "updated_at": "2026-06-27T20:47:12.679980+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00018",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00018",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00018?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -279,11 +527,12 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -304,7 +553,12 @@
       "Trifluoromethanesulfonate",
       "Mineralization (soil science)"
     ],
-    "open_pdf_available": false,
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -335,7 +589,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.614948+00:00",
+    "updated_at": "2026-06-27T20:47:12.679944+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01521",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01521",
     "pdf_url": null,
@@ -352,6 +606,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -371,6 +626,11 @@
       "Hydroxide",
       "Phase (matter)",
       "Oxygen"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -397,7 +657,7 @@
       "est"
     ],
     "published": "2026-06-24T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.615294+00:00",
+    "updated_at": "2026-06-27T20:47:12.680311+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05551",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05551",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05551?ref=article_openPDF",
@@ -414,6 +674,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -433,6 +694,11 @@
       "Municipal solid waste",
       "Engineering",
       "Process engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -463,7 +729,7 @@
       "est"
     ],
     "published": "2026-06-24T00:00:00+00:00",
-    "updated_at": "2026-06-26T20:48:20.615195+00:00",
+    "updated_at": "2026-06-27T20:47:12.680208+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04557",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04557",
     "pdf_url": null,
@@ -480,6 +746,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -499,6 +766,11 @@
       "Fouling",
       "Membrane fouling",
       "Quenching (fluorescence)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
