@@ -7255,7 +7255,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7276,6 +7277,11 @@
       "Vadose zone",
       "Hydrology (agriculture)",
       "Groundwater recharge"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -7321,7 +7327,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7342,6 +7349,11 @@
       "Enhanced Data Rates for GSM Evolution",
       "Metallurgy",
       "Plane (geometry)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -7822,7 +7834,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7843,7 +7856,12 @@
       "Biofortification"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01180",
@@ -7914,6 +7932,70 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04593",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04593",
+    "doi": "10.1021/acs.est.6c04593",
+    "title": "Toward a Low-Energy Direct-Air Capture Cycle by Reversible Proton-Intercalation-Mediated Alkalization",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Paul G. Rozzi",
+      "JeongA Lee",
+      "Vu Quoc Do",
+      "Timothy S. Arthur",
+      "Charles A. Roberts",
+      "Kyle C. Smith"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-27T00:00:00+00:00",
+    "updated_at": "2026-06-28T20:37:38.360297+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04593",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04593",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Biophysics",
+      "Process (computing)",
+      "Biochemistry",
+      "Adsorption",
+      "Chemical engineering",
+      "Degradation (telecommunications)",
+      "Nuclear chemistry"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

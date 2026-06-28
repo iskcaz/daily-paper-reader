@@ -1,5 +1,69 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c04593",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04593",
+    "doi": "10.1021/acs.est.6c04593",
+    "title": "Toward a Low-Energy Direct-Air Capture Cycle by Reversible Proton-Intercalation-Mediated Alkalization",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Paul G. Rozzi",
+      "JeongA Lee",
+      "Vu Quoc Do",
+      "Timothy S. Arthur",
+      "Charles A. Roberts",
+      "Kyle C. Smith"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-27T00:00:00+00:00",
+    "updated_at": "2026-06-28T20:37:38.360297+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04593",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04593",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Biophysics",
+      "Process (computing)",
+      "Biochemistry",
+      "Adsorption",
+      "Chemical engineering",
+      "Degradation (telecommunications)",
+      "Nuclear chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02534",
     "source": "journal",
     "source_detail": "crossref",
@@ -27,7 +91,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.679815+00:00",
+    "updated_at": "2026-06-28T20:37:38.360571+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02534",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02534",
     "pdf_url": null,
@@ -44,6 +108,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -63,6 +128,11 @@
       "Vadose zone",
       "Hydrology (agriculture)",
       "Groundwater recharge"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -93,7 +163,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.679581+00:00",
+    "updated_at": "2026-06-28T20:37:38.360396+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03869",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03869",
     "pdf_url": null,
@@ -164,7 +234,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.679883+00:00",
+    "updated_at": "2026-06-28T20:37:38.360635+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04723",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04723",
     "pdf_url": null,
@@ -181,6 +251,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -201,6 +272,11 @@
       "Biochemistry",
       "Biofortification"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -211,7 +287,7 @@
     "source_paper_id": "10.1021/acs.est.6c03708",
     "doi": "10.1021/acs.est.6c03708",
     "title": "Unlocking the Potential of Metal Sulfides and Edge Plane Engineering for High-Capacity Thallium Adsorption from Non-ferrous Smelting Gas",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "species, which ensures its stability for TlCl adsorption under smelting gas. This work establishes metal sulfides as promising sorbents for gaseous Tl removal and introduces new insights into the design of high-performance sorbents for heavy metal control.",
     "authors": [
       "Fenghua Shen",
       "Yu Zou",
@@ -230,7 +306,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.679852+00:00",
+    "updated_at": "2026-06-28T20:37:38.360604+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03708",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03708",
     "pdf_url": null,
@@ -247,6 +323,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -266,6 +343,11 @@
       "Enhanced Data Rates for GSM Evolution",
       "Metallurgy",
       "Plane (geometry)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -296,7 +378,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.680150+00:00",
+    "updated_at": "2026-06-28T20:37:38.360941+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18024",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18024",
     "pdf_url": null,
@@ -367,7 +449,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.680038+00:00",
+    "updated_at": "2026-06-28T20:37:38.360817+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03440",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03440",
     "pdf_url": null,
@@ -440,7 +522,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.680068+00:00",
+    "updated_at": "2026-06-28T20:37:38.360849+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01180",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01180",
     "pdf_url": null,
@@ -515,7 +597,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.679980+00:00",
+    "updated_at": "2026-06-28T20:37:38.360730+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00018",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00018",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00018?ref=article_openPDF",
@@ -589,7 +671,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.679944+00:00",
+    "updated_at": "2026-06-28T20:37:38.360698+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01521",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01521",
     "pdf_url": null,
@@ -657,7 +739,7 @@
       "est"
     ],
     "published": "2026-06-24T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.680311+00:00",
+    "updated_at": "2026-06-28T20:37:38.361104+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05551",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05551",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05551?ref=article_openPDF",
@@ -729,7 +811,7 @@
       "est"
     ],
     "published": "2026-06-24T00:00:00+00:00",
-    "updated_at": "2026-06-27T20:47:12.680208+00:00",
+    "updated_at": "2026-06-28T20:37:38.360998+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04557",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04557",
     "pdf_url": null,
