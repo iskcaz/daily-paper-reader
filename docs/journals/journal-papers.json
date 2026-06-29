@@ -1,12 +1,286 @@
 [
   {
+    "id": "journal-10-1021-acs-est-5c16148",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16148",
+    "doi": "10.1021/acs.est.5c16148",
+    "title": "Iron Plaque Formation in Mollisols Following Irrigation with Groundwater: Effects on Organic Matter Biotransformation and Selenium Biogeochemistry",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Qianyong Liang",
+      "Kunfu Pi",
+      "Lifen Liu",
+      "Chunlan Li",
+      "Hongyan Li",
+      "Yaping Zhang",
+      "Yanxin Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382489+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16148",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16148",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17571",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17571",
+    "doi": "10.1021/acs.est.5c17571",
+    "title": "Population-Specific Probabilistic Risk Assessment of PFOA for Ovarian Function Using PBTK Translation of Data from Subacute Exposure of Mice",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jelena Vukcevic",
+      "Ivana Ivelja",
+      "Livia Vajda",
+      "Nemanja Todorovic",
+      "Mladena Lalic-Popovic",
+      "Jelena Markovic Filipovic",
+      "Nebojsa Andric"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382638+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17571",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17571",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03461",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03461",
+    "doi": "10.1021/acs.est.6c03461",
+    "title": "Foliar-Applied EDTA–Zn Reduces Grain Cd Content in Triticum aestivum L. Grown in Alkaline Fields with Cd Contamination by Regulating Vascular Bundle–Mediated Transport and Sequestration of Cd in Nodes and Rachises",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Ding Hao Li",
+      "Gui Li Hua",
+      "Pei Pei Gao",
+      "Shu Shen Yang",
+      "Li Ping Geng",
+      "Yi Dan Zhao",
+      "Liu Xu Feng",
+      "Tong Wu",
+      "Quan Li Zhao",
+      "Pei Ying Xue",
+      "Wen Ju Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382827+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03461",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03461",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03098",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03098",
+    "doi": "10.1021/acs.est.6c03098",
+    "title": "Occurrence, Bioaccumulation, and Prioritization of Display-Related Organic Compounds in Sediments and Freshwater Fish in a Major Display Manufacturing Region",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jihyun Cha",
+      "Mungi Kim",
+      "Jiyun Gwak",
+      "Sujung Kwon",
+      "Bohyung Choi",
+      "Yeonjung Lee",
+      "Hyo-Bang Moon",
+      "Seongjin Hong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382734+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03098",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03098",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05455",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05455",
+    "doi": "10.1021/acs.est.6c05455",
+    "title": "Turning Motion into Methane: Electromagnetic Induction in Microbial Aggregates Enhances Wastewater Resource Recovery",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Pengyu Chen",
+      "Hemin Ma",
+      "Huige Xing",
+      "Jiaqi Wang",
+      "Jiawei Lu",
+      "Hancheng Lyu",
+      "Shuai Tang",
+      "Yukai Zhang",
+      "Qiang Zhong",
+      "Weizhong Jiang",
+      "Chaoyuan Wang",
+      "Junting Pan",
+      "Bing-Jie Ni",
+      "Xinkun Ren",
+      "Ming Xu",
+      "Buchun Si"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382782+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05455",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05455",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c04593",
     "source": "journal",
     "source_detail": "crossref",
     "source_paper_id": "10.1021/acs.est.6c04593",
     "doi": "10.1021/acs.est.6c04593",
     "title": "Toward a Low-Energy Direct-Air Capture Cycle by Reversible Proton-Intercalation-Mediated Alkalization",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Mitigation strategies to avoid climate change impacts rely on direct-air capture (DAC) of CO 2 . We demonstrate absorption of CO 2 at 400 ppm and its desorption by using solid proton-intercalation electrodes to swing the pH of an alkaline electrolyte. 1.76 ± 0.16 GJ tonne –1 of electrical energy is used when enriching CO 2 2-fold, extrapolating to 25.3 ± 0.16 GJ tonne –1 to include water condensation and compression energy. 20-fold enrichment requires 5.81 ± 2.42 GJ tonne –1 of electrical energy, extrapolating to 7.81 ± 2.42 GJ tonne –1 . Here, symmetric potassium-stabilized α-phase manganese dioxide electrodes are used to (de)intercalate protons from two separate electrolyte streams, thereby swinging dissolved inorganic carbon (DIC) solubility in an asynchronous cycle wherein electrochemical steps occur in sequence with CO 2 transfer steps. Mixing among aqueous streams is shown by theory to reduce CO 2 transfer, where the retention of DIC concentration during alkalizing/dealkalizing steps is affected by mixing more so than alkali-ion concentration swing. Experimental energy use is further reduced by premixing postabsorption and postdesorption electrolytes. Theory predicts that alkali-ion concentration swing increases with increasing electrode specific capacity and decreasing mixing volume, motivating the codesign of active materials and their electrode microstructures to enhance efficiency, productivity, and enrichment. The present DAC cycle may also be implemented using other electrochemical architectures.",
     "authors": [
       "Paul G. Rozzi",
       "JeongA Lee",
@@ -23,7 +297,7 @@
       "est"
     ],
     "published": "2026-06-27T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360297+00:00",
+    "updated_at": "2026-06-29T21:13:19.382964+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04593",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04593",
     "pdf_url": null,
@@ -40,6 +314,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -59,6 +334,11 @@
       "Chemical engineering",
       "Degradation (telecommunications)",
       "Nuclear chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -91,7 +371,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360571+00:00",
+    "updated_at": "2026-06-29T21:13:19.383165+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02534",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02534",
     "pdf_url": null,
@@ -163,7 +443,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360396+00:00",
+    "updated_at": "2026-06-29T21:13:19.383030+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03869",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03869",
     "pdf_url": null,
@@ -234,7 +514,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360635+00:00",
+    "updated_at": "2026-06-29T21:13:19.383230+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04723",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04723",
     "pdf_url": null,
@@ -306,7 +586,7 @@
       "est"
     ],
     "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360604+00:00",
+    "updated_at": "2026-06-29T21:13:19.383197+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03708",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03708",
     "pdf_url": null,
@@ -353,222 +633,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-5c18024",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c18024",
-    "doi": "10.1021/acs.est.5c18024",
-    "title": "Better Data, Better Outcomes: Unified Macroplastic Ingestion Reporting Methods to Inform Risk Assessment",
-    "abstract": "Addressing the impacts of plastic pollution, particularly plastic ingestion, on wildlife and ecosystems has become a priority for decision-makers developing management strategies. As nations design national action plans, the need for science-based targets to guide management objectives is increasingly urgent. Despite decades of evidence showing plastic ingestion in more than 1,500 species, our understanding of how ingestion affects organisms, populations, and ecosystems remains limited. Ecological risk assessments, which estimate the likelihood that a stressor will cause adverse effects at various biological levels, offer a pathway for identifying environmental thresholds. However, for macroplastic ingestion─an exposure pathway that cannot be ethically or feasibly studied in the laboratory─harmonized, large-scale environmental datasets are essential. Existing frameworks for reporting plastic ingestion are well suited for characterizing exposure in marine species, yet researchers often do not document observed harm in ways that support risk assessments. Here, we present a framework for collecting and reporting data on plastic ingestion in wildlife that better captures effects relevant to macroplastic risk assessment. Our framework builds on established ingestion protocols and introduces new approaches for measuring and reporting acute wildlife mortality and injuries attributable to plastic ingestion. Implementing this framework will continue to support long-term monitoring efforts, while improving our understanding of lethal and sublethal ingestion thresholds.",
-    "authors": [
-      "Erin Murphy",
-      "Britta R. Baechler",
-      "Robson G. Santos",
-      "Jennifer F. Provencher",
-      "Matthew S. Savoca",
-      "Jennifer Lynch",
-      "Katherine Shaw",
-      "Chelsea M. Rochman"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360941+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c18024",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c18024",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Risk assessment",
-      "Ingestion",
-      "Harm",
-      "Wildlife",
-      "Stressor",
-      "Environmental health",
-      "Risk management",
-      "Environmental planning"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03440",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03440",
-    "doi": "10.1021/acs.est.6c03440",
-    "title": "Boosting Permanganate-Initiated Pollutant Polymerization via Synergistic Dual-Oxidant Activation by In Situ-Formed Nascent MnO 2",
-    "abstract": "Polymerization-oriented moderate oxidation mediated by high-valent metals offers a promising low-carbon pathway for wastewater remediation. However, current polymerization strategies largely depend on heterogeneous catalysts that require precise coordination and energy-intensive synthesis, while permanganate (Mn(VII)) alone exhibits limited polymerization capability. Here, we demonstrate that coupling Mn(VII) with supplementary oxidants (e.g., periodate, peroxymonosulfate, and peroxydisulfate) significantly enhances polymer precursor formation and polymeric product yield. This enhancement is governed by in situ-formed nascent MnO 2 (nMnO 2 ), which synergistically activates both Mn(VII) and the co-oxidant without generating radicals. Theoretical and experimental analyses reveal that electron transfer-mediated activation of Mn(VII) by nMnO 2 elevates the Mn 3dz 2 energy level and compresses the MnO 6 lattice. The resulting structural strain lowers electron transfer resistance and enhances interfacial affinity toward the supplementary oxidant, enabling dual-oxidant synergy. This mechanism is universal across various MnO 2 materials and oxidant combinations. The developed nMnO 2 -dominated dual-oxidant system achieves complete bisphenol F removal, over 80% total organic carbon elimination, effective detoxification, and strong anti-interference performance. This work presents a practical pathway to implement Mn(VII)-initiated polymerization in water treatment and offers a generalizable catalyst–substrate interaction-driven framework for designing efficient oxidation technologies.",
-    "authors": [
-      "Mengfan Luo",
-      "Heng Zhang",
-      "Hongyu Zhou",
-      "Jia Zhao",
-      "Jialong Yin",
-      "Yanbiao Shi",
-      "Bo Lai"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360817+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03440",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03440",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Polymerization",
-      "Chemistry",
-      "Catalysis",
-      "Bisphenol A",
-      "Polymer",
-      "Permanganate",
-      "Chemical engineering",
-      "Electron transfer"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c01180",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c01180",
-    "doi": "10.1021/acs.est.6c01180",
-    "title": "Gradient-Driven Galvanic Effect Enables Self-Sustained Peroxymonosulfate Activation in a Stacked Flow Reactor",
-    "abstract": "Efficient elimination of emerging contaminants (ECs) from complex water matrices remains a challenge for peroxymonosulfate (PMS)-based advanced oxidation processes, which typically require high PMS dosages and suffer from poor oxidant utilization. Here, we report a Fenton-like flow reactor (FFR) composed of stacked layers of immobilized catalysts (Co-carbon nanotube/carbon fiber, Co-CNT/CF). Unlike conventional PMS-activating batch reactors, the FFR harnesses in situ-generated concentration and potential gradients to induce a spontaneous galvanic effect (GE). This macroscale GE enables self-sustained PMS activation, dissolved oxygen reduction, and radical generation without external energy input, thereby overcoming mass transfer limitations inherent to batch reactors. Additionally, it endows the FFR with exceptional adaptability under a wide range of EC concentration, salinity, natural organic matter (NOM), and pH. Notably, increasing wastewater conductivity boosted the treatment capacity by several times, achieving the removal of nearly 100% ECs at a flux rate >1000 mL min –1 . Furthermore, the enhanced microcosmic charge transfer at the catalyst/wastewater interface enabled extremely low PMS usage (≤0.08 mM) and high utilization efficiency (77.5–96.3%). This work introduces a gradient-driven, galvanic-enabled PMS activation pathway that establishes a new design paradigm for cost-effective and energy-saving continuous-flow water purification technologies.",
-    "authors": [
-      "Qingyi Zeng",
-      "Jiahua Ni",
-      "Qingyan Zhang",
-      "Ping Cao",
-      "Chun Hu",
-      "Xiaoyang Huang",
-      "Baiwen Ma",
-      "Yanbiao Liu",
-      "Wonyong Choi"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360849+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c01180",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c01180",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Materials science",
-      "Galvanic cell",
-      "Flow (mathematics)",
-      "Chemical engineering",
-      "Chemistry",
-      "Volumetric flow rate",
-      "Activation energy",
-      "Reaction mechanism"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-6c00018",
     "source": "journal",
     "source_detail": "crossref",
@@ -597,7 +661,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360730+00:00",
+    "updated_at": "2026-06-29T21:13:19.383323+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00018",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00018",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00018?ref=article_openPDF",
@@ -671,7 +735,7 @@
       "est"
     ],
     "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360698+00:00",
+    "updated_at": "2026-06-29T21:13:19.383291+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01521",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01521",
     "pdf_url": null,
@@ -718,141 +782,59 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c05551",
+    "id": "journal-10-1021-acs-estlett-6c00490",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c05551",
-    "doi": "10.1021/acs.est.6c05551",
-    "title": "Catalytic Waste Valorization Must Move beyond Model Systems",
-    "abstract": "A mid growing resource scarcity and environmental pressure, waste recycling is becoming a core pillar of green development. 1Policy frameworks in China, the European Union, and the United States have all emphasized recyclable-resource utilization, secondary raw-material markets and improved recycling systems. [2][3]3][4] Together, these efforts reflect a broader shift: waste is increasingly viewed not as a disposal burden, but as a strategic resource base linked to resource security, industrial resilience, and carbon mitigation.Yet current recycling systems remain dominated by physical and metallurgical routes.Plastics are still mainly recycled through sorting, washing, shredding, and melt reprocessing, while spent batteries and electronic waste generally require pretreatment, separation, and pyro-or hydrometallurgical recovery of valuable metals. [5][6]6][7] Although indispensable, these routes often involve high-temperature processing, intensive reagent use, and repeated separation steps, which reduce economic margins and value retention.The key challenge is therefore not simply to recover matter, but to recover it in forms suitable for high-value reintegration into manufacturing.",
+    "source_paper_id": "10.1021/acs.estlett.6c00490",
+    "doi": "10.1021/acs.estlett.6c00490",
+    "title": "Membrane Aging by Chemical Cleaning Drives the Overlooked Release of Per- and Polyfluoroalkyl Substances from Polyvinylidene Fluoride (PVDF) Ultrafiltration Membranes in Drinking Water Treatment",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Shuai Yue",
-      "Guanshu Zhao",
-      "Pengfei Wang",
-      "Sihui Zhan"
+      "Timing Jiang",
+      "Huying Li",
+      "Jing Chen",
+      "Xiaofeng Bai",
+      "Shushan Yuan",
+      "Wenbo Yu",
+      "Sha Liang",
+      "Huabo Duan",
+      "Jingping Hu",
+      "Huijie Hou",
+      "Lu Peng",
+      "Nan Wang",
+      "Jiakuan Yang"
     ],
     "primary_category": "environmental-science",
     "categories": [
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est"
+      "est-letters"
     ],
-    "published": "2026-06-24T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.361104+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c05551",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c05551",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05551?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "bronze",
-    "openalex_concepts": [
-      "Waste management",
-      "Environmental science",
-      "Waste treatment",
-      "Environmental engineering",
-      "Wastewater",
-      "Municipal solid waste",
-      "Engineering",
-      "Process engineering"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": true,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04557",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04557",
-    "doi": "10.1021/acs.est.6c04557",
-    "title": "In Situ Quorum Quenching Effect Induced by Negative Potential on Electro-Conductive Membranes for Membrane Fouling Control in Membrane Bioreactors",
-    "abstract": "Membrane fouling is a major impediment to the widespread application of membrane bioreactors (MBRs) for water treatment. In recent years, the electro-conductive membrane bioreactor (E-MBR) has demonstrated efficacy in mitigating membrane fouling. The application of a negative potential to the electro-conductive membrane promotes electrostatic repulsion, effectively displacing negatively charged extracellular polymeric substances (EPS) away from the membrane surface. However, given the established vital role of quorum sensing (QS) in membrane fouling development, the interference of the negative potential on QS-mediated EPS secretion and biofilm formation has been largely overlooked. Herein, we found that the negative potential applied to the electro-conductive membrane could effectively suppress the QS process, thereby inducing the in situ quorum quenching (QQ) effect. The application of negative potential significantly reduced the levels of the signal molecule C14-HSL as well as EPS. Metagenomic analysis indicated that the relative abundance of the \"signal transduction mechanism\" pathway was suppressed, and the functional genes encoding C14-HSL receptor proteins belonging to \"LuxR family\" was downregulated in the cake layer of E-MBR. Density functional theory calculations and molecular dynamics simulation results revealed that the application of negative potential enhanced the electrostatic repulsion between the membrane and C14-HSL and induced the conformational changes of the LuxR protein, which synergistically induced the in situ QQ effect. This study provides a novel perspective on the antifouling mechanism in E-MBR.",
-    "authors": [
-      "Guangze He",
-      "Tao Liu",
-      "Jiajian Xing",
-      "Linhua Rao",
-      "Shuo Chen",
-      "Chenxin Xie",
-      "Gaoliang Wei",
-      "Xie Quan"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-24T00:00:00+00:00",
-    "updated_at": "2026-06-28T20:37:38.360998+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04557",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04557",
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:21.466447+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00490",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
     "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
     "journal_issn": [
-      "0013-936X",
-      "1520-5851"
+      "2328-8930",
+      "2328-8930"
     ],
     "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Membrane",
-      "Chemistry",
-      "Bioreactor",
-      "In situ",
-      "Quorum Quenching",
-      "Fouling",
-      "Membrane fouling",
-      "Quenching (fluorescence)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
+      "est-letters"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -5512,6 +5494,52 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c18024",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c18024",
+    "doi": "10.1021/acs.est.5c18024",
+    "title": "Better Data, Better Outcomes: Unified Macroplastic Ingestion Reporting Methods to Inform Risk Assessment",
+    "abstract": "Addressing the impacts of plastic pollution, particularly plastic ingestion, on wildlife and ecosystems has become a priority for decision-makers developing management strategies. As nations design national action plans, the need for science-based targets to guide management objectives is increasingly urgent. Despite decades of evidence showing plastic ingestion in more than 1,500 species, our understanding of how ingestion affects organisms, populations, and ecosystems remains limited. Ecological risk assessments, which estimate the likelihood that a stressor will cause adverse effects at various biological levels, offer a pathway for identifying environmental thresholds. However, for macroplastic ingestion─an exposure pathway that cannot be ethically or feasibly studied in the laboratory─harmonized, large-scale environmental datasets are essential. Existing frameworks for reporting plastic ingestion are well suited for characterizing exposure in marine species, yet researchers often do not document observed harm in ways that support risk assessments. Here, we present a framework for collecting and reporting data on plastic ingestion in wildlife that better captures effects relevant to macroplastic risk assessment. Our framework builds on established ingestion protocols and introduces new approaches for measuring and reporting acute wildlife mortality and injuries attributable to plastic ingestion. Implementing this framework will continue to support long-term monitoring efforts, while improving our understanding of lethal and sublethal ingestion thresholds.",
+    "authors": [
+      "Erin Murphy",
+      "Britta R. Baechler",
+      "Robson G. Santos",
+      "Jennifer F. Provencher",
+      "Matthew S. Savoca",
+      "Jennifer Lynch",
+      "Katherine Shaw",
+      "Chelsea M. Rochman"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-25",
+    "link": "https://doi.org/10.1021/acs.est.5c18024",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18024",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-5c18930",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -5577,6 +5605,53 @@
     "published": "2026-06-23",
     "link": "https://doi.org/10.1021/acs.est.5c18959",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18959",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01180",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c01180",
+    "doi": "10.1021/acs.est.6c01180",
+    "title": "Gradient-Driven Galvanic Effect Enables Self-Sustained Peroxymonosulfate Activation in a Stacked Flow Reactor",
+    "abstract": "Efficient elimination of emerging contaminants (ECs) from complex water matrices remains a challenge for peroxymonosulfate (PMS)-based advanced oxidation processes, which typically require high PMS dosages and suffer from poor oxidant utilization. Here, we report a Fenton-like flow reactor (FFR) composed of stacked layers of immobilized catalysts (Co-carbon nanotube/carbon fiber, Co-CNT/CF). Unlike conventional PMS-activating batch reactors, the FFR harnesses in situ-generated concentration and potential gradients to induce a spontaneous galvanic effect (GE). This macroscale GE enables self-sustained PMS activation, dissolved oxygen reduction, and radical generation without external energy input, thereby overcoming mass transfer limitations inherent to batch reactors. Additionally, it endows the FFR with exceptional adaptability under a wide range of EC concentration, salinity, natural organic matter (NOM), and pH. Notably, increasing wastewater conductivity boosted the treatment capacity by several times, achieving the removal of nearly 100% ECs at a flux rate >1000 mL min –1 . Furthermore, the enhanced microcosmic charge transfer at the catalyst/wastewater interface enabled extremely low PMS usage (≤0.08 mM) and high utilization efficiency (77.5–96.3%). This work introduces a gradient-driven, galvanic-enabled PMS activation pathway that establishes a new design paradigm for cost-effective and energy-saving continuous-flow water purification technologies.",
+    "authors": [
+      "Qingyi Zeng",
+      "Jiahua Ni",
+      "Qingyan Zhang",
+      "Ping Cao",
+      "Chun Hu",
+      "Xiaoyang Huang",
+      "Baiwen Ma",
+      "Yanbiao Liu",
+      "Wonyong Choi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-25",
+    "link": "https://doi.org/10.1021/acs.est.6c01180",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01180",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -5686,6 +5761,139 @@
     "open_pdf_source": "",
     "open_pdf_status": "no_open_pdf",
     "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03440",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03440",
+    "doi": "10.1021/acs.est.6c03440",
+    "title": "Boosting Permanganate-Initiated Pollutant Polymerization via Synergistic Dual-Oxidant Activation by In Situ-Formed Nascent MnO 2",
+    "abstract": "Polymerization-oriented moderate oxidation mediated by high-valent metals offers a promising low-carbon pathway for wastewater remediation. However, current polymerization strategies largely depend on heterogeneous catalysts that require precise coordination and energy-intensive synthesis, while permanganate (Mn(VII)) alone exhibits limited polymerization capability. Here, we demonstrate that coupling Mn(VII) with supplementary oxidants (e.g., periodate, peroxymonosulfate, and peroxydisulfate) significantly enhances polymer precursor formation and polymeric product yield. This enhancement is governed by in situ-formed nascent MnO 2 (nMnO 2 ), which synergistically activates both Mn(VII) and the co-oxidant without generating radicals. Theoretical and experimental analyses reveal that electron transfer-mediated activation of Mn(VII) by nMnO 2 elevates the Mn 3dz 2 energy level and compresses the MnO 6 lattice. The resulting structural strain lowers electron transfer resistance and enhances interfacial affinity toward the supplementary oxidant, enabling dual-oxidant synergy. This mechanism is universal across various MnO 2 materials and oxidant combinations. The developed nMnO 2 -dominated dual-oxidant system achieves complete bisphenol F removal, over 80% total organic carbon elimination, effective detoxification, and strong anti-interference performance. This work presents a practical pathway to implement Mn(VII)-initiated polymerization in water treatment and offers a generalizable catalyst–substrate interaction-driven framework for designing efficient oxidation technologies.",
+    "authors": [
+      "Mengfan Luo",
+      "Heng Zhang",
+      "Hongyu Zhou",
+      "Jia Zhao",
+      "Jialong Yin",
+      "Yanbiao Shi",
+      "Bo Lai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-25",
+    "link": "https://doi.org/10.1021/acs.est.6c03440",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03440",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04557",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04557",
+    "doi": "10.1021/acs.est.6c04557",
+    "title": "In Situ Quorum Quenching Effect Induced by Negative Potential on Electro-Conductive Membranes for Membrane Fouling Control in Membrane Bioreactors",
+    "abstract": "Membrane fouling is a major impediment to the widespread application of membrane bioreactors (MBRs) for water treatment. In recent years, the electro-conductive membrane bioreactor (E-MBR) has demonstrated efficacy in mitigating membrane fouling. The application of a negative potential to the electro-conductive membrane promotes electrostatic repulsion, effectively displacing negatively charged extracellular polymeric substances (EPS) away from the membrane surface. However, given the established vital role of quorum sensing (QS) in membrane fouling development, the interference of the negative potential on QS-mediated EPS secretion and biofilm formation has been largely overlooked. Herein, we found that the negative potential applied to the electro-conductive membrane could effectively suppress the QS process, thereby inducing the in situ quorum quenching (QQ) effect. The application of negative potential significantly reduced the levels of the signal molecule C14-HSL as well as EPS. Metagenomic analysis indicated that the relative abundance of the \"signal transduction mechanism\" pathway was suppressed, and the functional genes encoding C14-HSL receptor proteins belonging to \"LuxR family\" was downregulated in the cake layer of E-MBR. Density functional theory calculations and molecular dynamics simulation results revealed that the application of negative potential enhanced the electrostatic repulsion between the membrane and C14-HSL and induced the conformational changes of the LuxR protein, which synergistically induced the in situ QQ effect. This study provides a novel perspective on the antifouling mechanism in E-MBR.",
+    "authors": [
+      "Guangze He",
+      "Tao Liu",
+      "Jiajian Xing",
+      "Linhua Rao",
+      "Shuo Chen",
+      "Chenxin Xie",
+      "Gaoliang Wei",
+      "Xie Quan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-24",
+    "link": "https://doi.org/10.1021/acs.est.6c04557",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04557",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05551",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c05551",
+    "doi": "10.1021/acs.est.6c05551",
+    "title": "Catalytic Waste Valorization Must Move beyond Model Systems",
+    "abstract": "A mid growing resource scarcity and environmental pressure, waste recycling is becoming a core pillar of green development. 1Policy frameworks in China, the European Union, and the United States have all emphasized recyclable-resource utilization, secondary raw-material markets and improved recycling systems. [2][3]3][4] Together, these efforts reflect a broader shift: waste is increasingly viewed not as a disposal burden, but as a strategic resource base linked to resource security, industrial resilience, and carbon mitigation.Yet current recycling systems remain dominated by physical and metallurgical routes.Plastics are still mainly recycled through sorting, washing, shredding, and melt reprocessing, while spent batteries and electronic waste generally require pretreatment, separation, and pyro-or hydrometallurgical recovery of valuable metals. [5][6]6][7] Although indispensable, these routes often involve high-temperature processing, intensive reagent use, and repeated separation steps, which reduce economic margins and value retention.The key challenge is therefore not simply to recover matter, but to recover it in forms suitable for high-value reintegration into manufacturing.",
+    "authors": [
+      "Shuai Yue",
+      "Guanshu Zhao",
+      "Pengfei Wang",
+      "Sihui Zhan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-24",
+    "link": "https://doi.org/10.1021/acs.est.6c05551",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05551",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05551?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown",
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]

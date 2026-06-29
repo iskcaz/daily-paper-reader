@@ -7177,7 +7177,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -7977,7 +7977,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7996,6 +7997,343 @@
       "Chemical engineering",
       "Degradation (telecommunications)",
       "Nuclear chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16148",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16148",
+    "doi": "10.1021/acs.est.5c16148",
+    "title": "Iron Plaque Formation in Mollisols Following Irrigation with Groundwater: Effects on Organic Matter Biotransformation and Selenium Biogeochemistry",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Qianyong Liang",
+      "Kunfu Pi",
+      "Lifen Liu",
+      "Chunlan Li",
+      "Hongyan Li",
+      "Yaping Zhang",
+      "Yanxin Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382489+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16148",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16148",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17571",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17571",
+    "doi": "10.1021/acs.est.5c17571",
+    "title": "Population-Specific Probabilistic Risk Assessment of PFOA for Ovarian Function Using PBTK Translation of Data from Subacute Exposure of Mice",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jelena Vukcevic",
+      "Ivana Ivelja",
+      "Livia Vajda",
+      "Nemanja Todorovic",
+      "Mladena Lalic-Popovic",
+      "Jelena Markovic Filipovic",
+      "Nebojsa Andric"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382638+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17571",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17571",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03461",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03461",
+    "doi": "10.1021/acs.est.6c03461",
+    "title": "Foliar-Applied EDTA–Zn Reduces Grain Cd Content in Triticum aestivum L. Grown in Alkaline Fields with Cd Contamination by Regulating Vascular Bundle–Mediated Transport and Sequestration of Cd in Nodes and Rachises",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Ding Hao Li",
+      "Gui Li Hua",
+      "Pei Pei Gao",
+      "Shu Shen Yang",
+      "Li Ping Geng",
+      "Yi Dan Zhao",
+      "Liu Xu Feng",
+      "Tong Wu",
+      "Quan Li Zhao",
+      "Pei Ying Xue",
+      "Wen Ju Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382827+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03461",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03461",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03098",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03098",
+    "doi": "10.1021/acs.est.6c03098",
+    "title": "Occurrence, Bioaccumulation, and Prioritization of Display-Related Organic Compounds in Sediments and Freshwater Fish in a Major Display Manufacturing Region",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jihyun Cha",
+      "Mungi Kim",
+      "Jiyun Gwak",
+      "Sujung Kwon",
+      "Bohyung Choi",
+      "Yeonjung Lee",
+      "Hyo-Bang Moon",
+      "Seongjin Hong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382734+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03098",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03098",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05455",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05455",
+    "doi": "10.1021/acs.est.6c05455",
+    "title": "Turning Motion into Methane: Electromagnetic Induction in Microbial Aggregates Enhances Wastewater Resource Recovery",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Pengyu Chen",
+      "Hemin Ma",
+      "Huige Xing",
+      "Jiaqi Wang",
+      "Jiawei Lu",
+      "Hancheng Lyu",
+      "Shuai Tang",
+      "Yukai Zhang",
+      "Qiang Zhong",
+      "Weizhong Jiang",
+      "Chaoyuan Wang",
+      "Junting Pan",
+      "Bing-Jie Ni",
+      "Xinkun Ren",
+      "Ming Xu",
+      "Buchun Si"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:19.382782+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05455",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05455",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00490",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00490",
+    "doi": "10.1021/acs.estlett.6c00490",
+    "title": "Membrane Aging by Chemical Cleaning Drives the Overlooked Release of Per- and Polyfluoroalkyl Substances from Polyvinylidene Fluoride (PVDF) Ultrafiltration Membranes in Drinking Water Treatment",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Timing Jiang",
+      "Huying Li",
+      "Jing Chen",
+      "Xiaofeng Bai",
+      "Shushan Yuan",
+      "Wenbo Yu",
+      "Sha Liang",
+      "Huabo Duan",
+      "Jingping Hu",
+      "Huijie Hou",
+      "Lu Peng",
+      "Nan Wang",
+      "Jiakuan Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-29T21:13:21.466447+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00490",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
