@@ -1,20 +1,18 @@
 [
   {
-    "id": "journal-10-1021-acs-est-5c16148",
+    "id": "journal-10-1021-acs-est-6c00882",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c16148",
-    "doi": "10.1021/acs.est.5c16148",
-    "title": "Iron Plaque Formation in Mollisols Following Irrigation with Groundwater: Effects on Organic Matter Biotransformation and Selenium Biogeochemistry",
+    "source_paper_id": "10.1021/acs.est.6c00882",
+    "doi": "10.1021/acs.est.6c00882",
+    "title": "Where Machine Learning Fails in Predicting Emerging Contaminant Adsorption: A Decision-Oriented Framework for Model Credibility and Transferability",
     "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Qianyong Liang",
-      "Kunfu Pi",
-      "Lifen Liu",
-      "Chunlan Li",
-      "Hongyan Li",
-      "Yaping Zhang",
-      "Yanxin Wang"
+      "Yina Fan",
+      "Jun Li",
+      "Yi Ren",
+      "Chao Liu",
+      "Weiming Zhang"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -23,10 +21,10 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-06-29T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.382489+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c16148",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c16148",
+    "published": "2026-06-30T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985490+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00882",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00882",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -47,6 +45,143 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c16148",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c16148",
+    "doi": "10.1021/acs.est.5c16148",
+    "title": "Iron Plaque Formation in Mollisols Following Irrigation with Groundwater: Effects on Organic Matter Biotransformation and Selenium Biogeochemistry",
+    "abstract": "The widespread expansion and intensive irrigation of paddy wetlands exert substantial impacts on elemental cycling and health status of agroecosystems. In cold-region Mollisol paddy wetlands particularly, strong perturbations by periodic irrigation using groundwater with an elevated Fe(II) concentration may modify the speciation and mobility of essential micronutrients, e.g., selenium (Se), in the vadose zone. Nonetheless, the underlying mechanisms driving Se fate remain unclear. Combining field investigations and column experiments, this study reveals that periodic Fe(II)-rich groundwater irrigation drives widespread iron plaque formation in plow-layer Mollisols, which are distinct from pristine soils. The raised Fe(II) concentration in the irrigation water caused aggregation of high-molecular-weight aromatic compounds, thereby preventing their degradation under an anaerobic-aerobic cycle. Furthermore, the amorphous Fe oxide-organic matter (OM)-Se conglomerates formed during the aerated period of groundwater irrigation created a new Se pool, as opposed to organic-bound Se in pristine soils. Consequently, the iron barrier developed after a short-term anaerobic-aerobic cycle becomes a new hidden factor, decreasing Se bioavailability to food crops by temporarily depleting the highly mobile inorganic Se oxyanions. Ultimately, elucidating Se cycling driven by coupled Fe-OM biotransformation provides a scientific basis for managing Se bioavailability in Mollisol agroecosystems to mitigate dietary Se deficiency and safeguard human health.",
+    "authors": [
+      "Qianyong Liang",
+      "Kunfu Pi",
+      "Lifen Liu",
+      "Chunlan Li",
+      "Hongyan Li",
+      "Yaping Zhang",
+      "Yanxin Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985684+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c16148",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c16148",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Mollisol",
+      "Irrigation",
+      "Groundwater",
+      "Organic matter",
+      "Chemistry",
+      "Wetland",
+      "Biogeochemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02101",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02101",
+    "doi": "10.1021/acs.est.6c02101",
+    "title": "Mobility and Income: Policy Insights to Support Public Electric Vehicle Charging Access",
+    "abstract": "Widespread electric vehicle use is a key step to tackling transportation emissions, but adoption has yet to take off beyond high-income communities. A lack of access to public charging stations can be a major barrier to adoption. In this paper, we analyze the distribution and typology of public charging stations found in low-, mid-, and high-income communities across the US. Our results describe a robust neighborhood advantage, where high income in the surrounding area coincides with higher numbers of public stations in lower income block groups. We further show that station types in lower income areas are associated with shorter stops, suggesting they are designed to serve pass-through demand. Future income-based policies for public charging infrastructure should consider how new stations fit local residents' mobility patterns and should use both local and neighborhood income to better target their support toward equal access for all future electric vehicle drivers.",
+    "authors": [
+      "Siobhan Powell",
+      "Marie-Louise Arlt"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985910+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02101",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02101",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Electric vehicle",
+      "Typology",
+      "Charging station",
+      "Business",
+      "Distribution (mathematics)",
+      "Key (lock)",
+      "Transport engineering",
+      "Environmental economics"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -76,7 +211,7 @@
       "est"
     ],
     "published": "2026-06-29T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.382638+00:00",
+    "updated_at": "2026-06-30T21:12:11.985836+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c17571",
     "abs_url": "https://doi.org/10.1021/acs.est.5c17571",
     "pdf_url": null,
@@ -92,6 +227,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -99,6 +235,90 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Risk assessment",
+      "Medicine",
+      "Probabilistic logic",
+      "Function (biology)",
+      "Translation (biology)",
+      "Biology",
+      "Computational biology",
+      "Bioinformatics"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04551",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04551",
+    "doi": "10.1021/acs.est.6c04551",
+    "title": "Soil Properties Regulate the Fate and Accumulation of Atmospherically Deposited Trace Metals in Rice across Six Major Growing Regions of China",
+    "abstract": "Atmospheric deposition is a pathway of trace metal contamination in agroecosystems, yet how divergent soils regulate the behavior and crop uptake of newly deposited trace metals remains incompletely understood. Here, we combined a field soil-transplantation experiment and a greenhouse pot experiment that separately imposed foliar and root exposure using six paddy soils from six major growing regions of China. Results showed that soil properties governed the speciation, mobility, and rice accumulation of deposited metals. Copper (Cu), lead (Pb), and zinc (Zn) exhibited greater solubility and grain accumulation in lower-pH, lower-sorption, and southern-provenance soils, whereas arsenic (As) was more mobile and accumulated preferentially in higher-pH, SOM-rich northern-provenance soils with finer texture. The pot experiment indicated that foliar exposure dominated trace metal enrichment in leaves and husks, whereas root exposure contributed more strongly to grain As in several soils. Elemental mapping of the flag leaf-node junction measured by LA-ICP-MS revealed distinct tissue-association patterns under the two pathways. Soil redox fluctuations further differentiated metal behavior: Cu increased after drainage, whereas As peaked under flooding. These findings show that element- and soil-property-specific responses shape food-safety risks posed by atmospheric deposition and support region-specific soil and emission management.",
+    "authors": [
+      "Yuran He",
+      "Huixian Yang",
+      "Rongjuan Fang",
+      "Zhaoyi Wen",
+      "Peiyun Gong",
+      "Ruizhi Xia",
+      "Jing Zhou",
+      "Jun Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985713+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04551",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04551",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Soil water",
+      "Deposition (geology)",
+      "Trace metal",
+      "Environmental science",
+      "Arsenic",
+      "Contamination",
+      "Zinc"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -110,7 +330,7 @@
     "source_paper_id": "10.1021/acs.est.6c03461",
     "doi": "10.1021/acs.est.6c03461",
     "title": "Foliar-Applied EDTA–Zn Reduces Grain Cd Content in Triticum aestivum L. Grown in Alkaline Fields with Cd Contamination by Regulating Vascular Bundle–Mediated Transport and Sequestration of Cd in Nodes and Rachises",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Foliar application of zinc (Zn) compounds is a promising strategy for mitigating cadmium (Cd) accumulation in wheat grains in pot experiments. However, its inconsistent field efficacy, especially in alkaline soils with long-term Cd contamination, poses a unique challenge. Herein, field experiments and demonstrations were conducted at three sites across four wheat-growing winter seasons to evaluate the efficacy of foliar Zn application in reducing grain Cd accumulation in typical Cd-contaminated alkaline soils. Foliar application of EDTA–Zn at the booting and milk stages increased grain yield by 0.65%–6.71% and significantly reduced grain Cd concentrations by 36.03% to 46.45%, ensuring that National Food Safety Standard requirements (GB 2762–2022, 0.1 mg·kg –1 ) are met. Three hydroponic experiments were conducted to uncover the underlying mechanisms. Foliar-applied EDTA–Zn reduced xylem Cd loading by 23.60% by downregulating the expression of genes associated with Cd transport (such as TaHMA2 and TaNramp5 ) in the root. It also increased Cd content in the phloem sap by 33.34%–46.12%, promoting the downward but suppressing the upward transport of Cd, thereby mitigating the reallocation of leaf Cd. Finally, it enhanced Cd retention at transport barriers (first node and rachis) by upregulating vacuolar sequestration–associated genes ( TaHMA3 and TaVP1 ), increasing phytochelatin synthesis (by 10.65%–11.27%), and downregulating genes associated with rachis-to-grain transport of Cd ( TaLCT1, TaHMA2, and TaNramp5 ) by 21.36%–41.19%. Our findings establish foliar-applied EDTA–Zn as a reliable, economical, and ecofriendly strategy for ensuring wheat safety in alkaline farmlands with mild-to-moderate Cd contamination.",
     "authors": [
       "Ding Hao Li",
       "Gui Li Hua",
@@ -132,7 +352,7 @@
       "est"
     ],
     "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.382827+00:00",
+    "updated_at": "2026-06-30T21:12:11.986109+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03461",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03461",
     "pdf_url": null,
@@ -148,6 +368,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -155,6 +377,23 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Xylem",
+      "Cadmium",
+      "Chemistry",
+      "Phloem",
+      "Contamination",
+      "Zinc",
+      "Phytochelatin",
+      "Alkali soil"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -166,7 +405,7 @@
     "source_paper_id": "10.1021/acs.est.6c03098",
     "doi": "10.1021/acs.est.6c03098",
     "title": "Occurrence, Bioaccumulation, and Prioritization of Display-Related Organic Compounds in Sediments and Freshwater Fish in a Major Display Manufacturing Region",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "As of 2024, South Korea accounts for approximately 33% of the global display market; however, the environmental occurrence, bioaccumulation, and ecological risks of organic compounds associated with the display industry remain poorly understood. This study investigated the occurrence of display-related organic compounds (DROCs) in sediments from Asan Bay and four adjacent artificial lakes, as well as in freshwater fish collected seasonally from Lake Asan, Korea, and identified priority pollutants. Target compounds included 15 liquid crystal monomers and one organic light-emitting material, quantified using gas chromatography-tandem mass spectrometry (GC-MS/MS). Mean DROC concentrations were 5.8 ng g –1 dry mass (dm) in artificial lakes and 4.7 ng g –1 dm in Asan Bay. Benzo[ b ]anthracene (BbA, 0.56 ng g –1 dm) exhibited the highest median concentration. Dilution factor analysis revealed that BbA and 4′-hexyloxy-4-biphenylcarbonitrile (6OCB) showed high mobility from freshwater to marine environments. Hazard quotient analysis identified 4,4′-bis(4-propylcyclohexyl)biphenyl (BPCHB) as the primary contributor to predicted ecological risk. DROC concentrations in fish declined seasonally from 860 ng g –1 lipid mass (lm) in April to 65 ng g –1 lm in October. Concentrations of all DROCs in fish decreased with increasing trophic position. Multicriteria decision analysis, based on the results of this study, identified BbA, BPCHB, and 6OCB as priority pollutants. These findings provide new insights into the environmental behavior of DROCs and inform their prioritization for environmental management in a global display manufacturing hotspot.",
     "authors": [
       "Jihyun Cha",
       "Mungi Kim",
@@ -185,7 +424,7 @@
       "est"
     ],
     "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.382734+00:00",
+    "updated_at": "2026-06-30T21:12:11.986032+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03098",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03098",
     "pdf_url": null,
@@ -201,6 +440,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -208,6 +449,90 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Freshwater fish",
+      "Hazard quotient",
+      "Trophic level",
+      "Environmental science",
+      "Environmental chemistry",
+      "Prioritization",
+      "Bay",
+      "Fish <Actinopterygii>"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02194",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02194",
+    "doi": "10.1021/acs.est.6c02194",
+    "title": "Targeted Acclimation Unlocks Adaptive Evolution of a Methanotrophic Consortium Enabling 3A5MI Elimination and Enhanced Sulfamethoxazole Biodegradation",
+    "abstract": "Targeted pollutant exposure is widely used to acclimate microbial communities for enhanced biodegradation of recalcitrant contaminants, yet the evolutionary mechanisms underlying functional reinforcement remain poorly understood. Here, we acclimated a methanotrophic consortium achieving efficient removal of 3-amino-5-methyl-isoxazole (3A5MI) (>90%, >5 mg/L/d) and elucidated the adaptive evolutionary processes behind it. Analyses of mobile genetic elements (MGEs) and horizontal gene transfer (HGT) revealed that dominant Methylococcaceae members served as genetic exchange hubs in the acclimation bioreactor. Integrated metagenomic and metatranscriptomic analyses showed that prolonged 3A5MI exposure activated their MGEs and promoted extensive HGT of genes related to energy generation, oxidative stress defense, and biosynthesis. This adaptive evolution enabled community-level metabolic rewiring, including optimized carbon metabolism to relieve energy limitation, niche differentiation, and specialized transcription of C–N bond catalytic functions. Furthermore, batch experiments and transformation product analyses confirmed that 3A5MI-induced functional traits (e.g., heterocycle hydroxylation and C–N bond catalysis) facilitated complete sulfamethoxazole (SMX) biodegradation. Overall, this study demonstrates the evolutionary plasticity of methanotrophic consortia under targeted acclimation and highlights MGE-driven genetic exchange and metabolic adaptation as key mechanisms that both underpin functional enhancement and support the development of methanotroph-based strategies for the biodegradation of recalcitrant isoxazole-based pollutants.",
+    "authors": [
+      "Xu Guo",
+      "Chun-Yu Lai",
+      "He-Ping Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.986135+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02194",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02194",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biodegradation",
+      "Acclimatization",
+      "Metagenomics",
+      "Adaptation (eye)",
+      "Biology",
+      "Horizontal gene transfer",
+      "Metabolic pathway",
+      "Gene"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -219,7 +544,7 @@
     "source_paper_id": "10.1021/acs.est.6c05455",
     "doi": "10.1021/acs.est.6c05455",
     "title": "Turning Motion into Methane: Electromagnetic Induction in Microbial Aggregates Enhances Wastewater Resource Recovery",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Microbial aggregates in wastewater treatment systems generate substantial kinetic energy through their motion, which constitutes ubiquitous but untapped energy. Here, we demonstrate that this kinetic energy can be harvested and converted into bioavailable electrochemical potential to drive the microbial metabolism. In anaerobic reactors, aggregates moving perpendicular to a designed magnetic field generate an in situ electrical potential via electromagnetic induction through their conductive pili networks, thereby enabling the direct conversion of microbial motion into methane via metabolic energy capture. Integrated multi-omics, microbial community, and electrochemical analyses showed that the continuous conductive network formed between electroactive microorganisms and methanogens via e-pili was key to the conversion of kinetic energy into electrical potential through electromagnetic processes. The induced potential not only enhanced the electrochemical activity and conductivity of microbial aggregates but also stimulated respiratory electron transfer in electroactive microorganisms and activated energy-conserving electron bifurcation in methanogens. Energy, economic, and carbon footprint analyses showed that kinetic energy recovery increased net energy recovery by 226%, reduced greenhouse gas emissions by 25%, and improved economic returns. Our work establishes a direct pathway to convert microbial motion into biochemical energy, advancing sustainable resource recovery from wastewater.",
     "authors": [
       "Pengyu Chen",
       "Hemin Ma",
@@ -246,7 +571,7 @@
       "est"
     ],
     "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.382782+00:00",
+    "updated_at": "2026-06-30T21:12:11.986067+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05455",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05455",
     "pdf_url": null,
@@ -262,57 +587,6 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04593",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04593",
-    "doi": "10.1021/acs.est.6c04593",
-    "title": "Toward a Low-Energy Direct-Air Capture Cycle by Reversible Proton-Intercalation-Mediated Alkalization",
-    "abstract": "Mitigation strategies to avoid climate change impacts rely on direct-air capture (DAC) of CO 2 . We demonstrate absorption of CO 2 at 400 ppm and its desorption by using solid proton-intercalation electrodes to swing the pH of an alkaline electrolyte. 1.76 ± 0.16 GJ tonne –1 of electrical energy is used when enriching CO 2 2-fold, extrapolating to 25.3 ± 0.16 GJ tonne –1 to include water condensation and compression energy. 20-fold enrichment requires 5.81 ± 2.42 GJ tonne –1 of electrical energy, extrapolating to 7.81 ± 2.42 GJ tonne –1 . Here, symmetric potassium-stabilized α-phase manganese dioxide electrodes are used to (de)intercalate protons from two separate electrolyte streams, thereby swinging dissolved inorganic carbon (DIC) solubility in an asynchronous cycle wherein electrochemical steps occur in sequence with CO 2 transfer steps. Mixing among aqueous streams is shown by theory to reduce CO 2 transfer, where the retention of DIC concentration during alkalizing/dealkalizing steps is affected by mixing more so than alkali-ion concentration swing. Experimental energy use is further reduced by premixing postabsorption and postdesorption electrolytes. Theory predicts that alkali-ion concentration swing increases with increasing electrode specific capacity and decreasing mixing volume, motivating the codesign of active materials and their electrode microstructures to enhance efficiency, productivity, and enrichment. The present DAC cycle may also be implemented using other electrochemical architectures.",
-    "authors": [
-      "Paul G. Rozzi",
-      "JeongA Lee",
-      "Vu Quoc Do",
-      "Timothy S. Arthur",
-      "Charles A. Roberts",
-      "Kyle C. Smith"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-27T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.382964+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04593",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04593",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
       "openalex",
       "semantic_scholar",
       "docs-meta"
@@ -326,14 +600,14 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
+      "Methane",
+      "Kinetic energy",
+      "Resource recovery",
       "Chemistry",
-      "Biophysics",
-      "Process (computing)",
-      "Biochemistry",
-      "Adsorption",
-      "Chemical engineering",
-      "Degradation (telecommunications)",
-      "Nuclear chemistry"
+      "Microbial fuel cell",
+      "Electrochemistry",
+      "Chemical energy",
+      "Wastewater"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
@@ -344,43 +618,83 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c02534",
+    "id": "journal-10-1021-acs-estlett-6c00543",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02534",
-    "doi": "10.1021/acs.est.6c02534",
-    "title": "Climate Change Accelerates Nitrate Delivery to Groundwater",
-    "abstract": "Rising precipitation under climate change can increase groundwater recharge in many regions and accelerate the mobilization of legacy nitrate stored in the vadose zone. We couple a machine learning emulator of a global hydrological model with the nitrate time bomb (NTB) model to quantify nitrate migration from 1958 to 2100. Nitrate migration velocity increases across all climate zones except the tropics, with the most pronounced gains in the cold (+0.20/+0.25 m year –1 under SSP2–4.5/SSP5–8.5) and temperate (+0.17/+0.15 m year –1 ) zones. Groundwater table shallowing further shortens transport distance; in the arid zone, climate change advances nitrate peak arrival by about 6/8 years (locally >20 years). Among grid cells where nitrate peaks reach groundwater before 2100, more than 60% show shortened NTB countdowns under both scenarios. After the first global nitrate accumulation peak, depth-projected leaching shows renewed increase by 2019, suggesting a second phase of nitrate loading to the vadose zone. Integrating legacy nitrate mass with climate-adjusted transport identifies the North China Plain, South Asia, and Western Europe as NTB hotspots. These results show that climate forcing can accelerate the release of long buried agricultural pollutants, underscoring the urgency of proactive groundwater protection.",
+    "source_paper_id": "10.1021/acs.estlett.6c00543",
+    "doi": "10.1021/acs.estlett.6c00543",
+    "title": "Urgency to Propose Normative Soil Limits for Per- and Polyfluoroalkyl Substances Targeting PFOA and PFOS",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Shaoqing Chen",
-      "Baojing Gu",
-      "Puyu Feng",
-      "Hao Liang",
-      "Fangzheng Chen",
-      "Yong Chen",
-      "William D Batchelor",
-      "Guilong Zhang",
-      "Baoguo Li",
-      "Kelin Hu"
+      "Sébastien Sauvé",
+      "Hans Peter H. Arp"
     ],
     "primary_category": "environmental-science",
     "categories": [
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est"
+      "est-letters"
     ],
-    "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.383165+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02534",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02534",
+    "published": "2026-06-30T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:19.721338+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00543",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
     "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
     "journal_issn": [
-      "0013-936X",
-      "1520-5851"
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00520",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00520",
+    "doi": "10.1021/acs.estlett.6c00520",
+    "title": "Weekly Monitoring Reveals the Dynamics, Sources, and Loads of Pesticides, Pharmaceuticals, and Tire-Derived Chemicals in the Mississippi River",
+    "abstract": "Understanding the sources and transport of contaminants in large rivers is often constrained by low-frequency monitoring that fails to resolve short-duration hydrologic effects. Weekly water samples were collected for one year from the Upper Mississippi River to quantify the occurrence, temporal dynamics, sources, and mass loadings of pesticides, a pharmaceutical, a corrosion inhibitor, and tire-derived chemicals. Distinct temporal patterns were observed. Tire-derived chemicals exhibited pronounced concentration peaks during spring snowmelt. Pesticide concentrations were highest in early summer following agricultural application. Pesticides showed strong positive correlations with river discharge (e.g., for metolachlor, ρ = 0.78 and p < 0.001), indicating inputs from increased runoff, while the wastewater indicator metformin had a negative correlation, consistent with dilution of point-source inputs. Cross-compound correlations indicated dominant contributions from urban runoff (tire-derived chemicals), agricultural runoff (pesticides), wastewater effluent (metformin), and mixed sources (benzotriazole). Load estimates showed tire-derived chemicals had mass loadings comparable to those of neonicotinoid insecticides. These results indicate that weekly sampling leads to improved characterization of contaminant sources and load contributions in large river systems.",
+    "authors": [
+      "Zihang Wang",
+      "Andrew J. Erickson",
+      "William A. Arnold"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:19.721450+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00520",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
     ],
     "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
@@ -388,395 +702,25 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est"
+      "est-letters"
     ],
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Nitrate",
       "Environmental science",
-      "Groundwater",
-      "Water table",
-      "Climate change",
-      "Vadose zone",
+      "Effluent",
       "Hydrology (agriculture)",
-      "Groundwater recharge"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03869",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03869",
-    "doi": "10.1021/acs.est.6c03869",
-    "title": "Diversity of Iodinated Water Disinfection Byproducts and Their Formation Dynamics Discovered Using Exposome-Scale Nontargeted Analysis and Machine Learning",
-    "abstract": "Water disinfection is critical to minimizing microbial risk, but unintentionally produces disinfection byproducts (DBPs). Exposure to the currently regulated chloro- and bromo-DBPs in water cannot fully account for the health effects observed from epidemiological studies. Iodinated disinfection byproducts (I-DBPs) are among the most toxic DBPs, but they have not been fully characterized because of significant technical challenges. We report here the first exposome-scale study of iodinated disinfection byproducts formed under environmentally relevant conditions. Here, “exposome-scale” refers to broad-scope, nontargeted profiling of exposure-relevant environmental contaminants. The machine-learning-assisted nontargeted analysis of chloramine-treated water enabled detection and characterization of 8551 and 1541 high-confidence iodinated molecular features, generated under the negative and positive ionization modes, respectively. Sixty-two new iodinated disinfection byproducts were identified, with 11 I-DBPs confirmed using authentic standards. Across four Environmental Protection Agency toxicity prediction end points (fathead minnow, Daphnia magna, Tetrahymena pyriformis, and rat), the 11 I-DBPs consistently showed higher or comparable toxicities relative to both the regulated DBPs and the four known I-DBPs, with predicted toxicities reaching up to 2–3 orders of magnitude greater than benchmark compounds such as chloroform and iodoacetic acid. This study demonstrates improved understanding of the diversity and formation dynamics of highly toxic I-DBPs, enabled by advances in integrating exposomics with machine learning techniques.",
-    "authors": [
-      "Qiming Shen",
-      "Di Zhang",
-      "Tingting Zhao",
-      "K. N. Minh Chau",
-      "Garrett Grubisa",
-      "Tao Huan",
-      "X. Chris Le",
-      "Xing-Fang Li"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.383030+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03869",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03869",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Water disinfection",
-      "Chemistry",
-      "Environmental chemistry",
-      "Water treatment",
-      "Daphnia",
-      "Geobacillus stearothermophilus",
-      "Biochemical engineering",
-      "Aquatic environment"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04723",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04723",
-    "doi": "10.1021/acs.est.6c04723",
-    "title": "Elucidating the Adverse Outcome Pathway for Grain-Quality Deterioration Induced by Brominated Flame Retardants in Rice: A Multiomics and Lifecycle Analysis",
-    "abstract": "Brominated flame retardants (BFRs) pose a growing threat to agricultural safety, yet their dynamic transfer mechanisms and interference with crop metabolism remain poorly understood. This study systematically unravels the lifecycle translocation of BFRs in rice and deciphers the signaling-mediated cascade leading to grain-quality deterioration. BFR accumulation did not follow a simple xylem-mediated transport pattern; instead, secondary enrichment occurred during grain filling, inversely correlated with their log K ow and molecular weight. In particular, the concentration of 2,2′,4,4′-tetrabromodiphenyl ether (BDE-47) in the panicles increased sharply from ∼1 ng/g at the heading stage to 16.5 ng/g at the filling stage, reaching 42.0 ng/g at maturity, representing an order-of-magnitude increase. This accumulation critically coincided with a marked depletion of nutritional components: amylopectin and total protein decreased by 10.3–17.7%, accompanied by a 12.5% reduction in 1000-grain weight. Through integrated transcriptomic, proteomic, and metabolomic analyses, along with a novel motif-based unbiased screening method, we deciphered the core adverse outcome pathway (AOP). BFRs advanced the abscisic acid (ABA) peak by 5 days and increasing its concentration ∼20% compared to the control. This intensified ABA signaling pathway upregulated tricarboxylic acid cycle enzymes by 2–5-fold, and redirected carbon flux from starch synthesis toward energy production. This metabolic shift accelerates the cotransport of selected BFRs (e.g., BDE-47) into the developing grain, driving premature maturation and nutritional loss. By establishing a complete “signal activation → metabolic reprogramming → pollutant co-transport → quality deterioration” AOP framework, this study provides a mechanistic foundation for understanding the potential dietary implications of BFRs in rice, offering crucial insights for safeguarding food safety and controlling agricultural contamination.",
-    "authors": [
-      "Jie Chen",
-      "Zhiheng Li",
-      "Jianfang Wu",
-      "Yinuo Xing",
-      "Shichong He",
-      "Yaqi Sheng",
-      "Lizhong Zhu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.383230+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04723",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04723",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Metabolic pathway",
-      "Chemistry",
-      "Metabolomics",
-      "Citric acid cycle",
-      "Metabolism",
-      "Tricarboxylic acid",
-      "Biochemistry",
-      "Biofortification"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03708",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03708",
-    "doi": "10.1021/acs.est.6c03708",
-    "title": "Unlocking the Potential of Metal Sulfides and Edge Plane Engineering for High-Capacity Thallium Adsorption from Non-ferrous Smelting Gas",
-    "abstract": "species, which ensures its stability for TlCl adsorption under smelting gas. This work establishes metal sulfides as promising sorbents for gaseous Tl removal and introduces new insights into the design of high-performance sorbents for heavy metal control.",
-    "authors": [
-      "Fenghua Shen",
-      "Yu Zou",
-      "LeLe Liu",
-      "ZiXi Zhang",
-      "Xingyuan Yu",
-      "Chaolong Liu",
-      "Kaisong Xiang",
-      "Hui Liu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-26T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.383197+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03708",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03708",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Adsorption",
-      "Metal",
-      "Materials science",
-      "Smelting",
-      "Thallium",
-      "Enhanced Data Rates for GSM Evolution",
-      "Metallurgy",
-      "Plane (geometry)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c00018",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00018",
-    "doi": "10.1021/acs.est.6c00018",
-    "title": "Mineralization of Trifluoromethanesulfonate via Subcritical Hydrothermal Reaction: Reaction Mechanism and Transformation Pathways",
-    "abstract": "Hydrothermal alkaline treatment (HALT) is an innovative approach that was developed for the destruction of per- and polyfluoroalkyl substances (PFAS). While HALT has been shown to effectively destroy a wide range of PFAS detected in various sample matrices, a comprehensive understanding of the controlling reaction mechanisms and transformation pathways remains limited. Herein, we selected trifluoromethanesulfonate (TFMS), the shortest-chain and likely one of the most recalcitrant PFAS reported to date, to probe degradation mechanisms and identify transformation products. The results indicate that HALT of TFMS proceeds via general nucleophilic substitution and base-promoted pathways, leading to 65.7% mineralization of the parent compound after a 180 min reaction of 0.1 M TFMS at 350 °C in 1 M NaOH. For the degraded TFMS, approximately 100% of fluorine and sulfur were converted to fluoride and sulfate, respectively, while carbon was distributed mainly as carbonate (95%) and formate (5%), along with the production of hydrogen. These findings are supported by both experimental and computational evidence. Hydroxide plays dual roles by initiating the reaction as the nucleophile and promoting subsequent steps by maintaining strongly basic conditions. The initial degradation step is rate-determining, with an estimated energy barrier of 27.8 kcal/mol. Similar mechanisms are proposed for reactions of longer-chain perfluoroalkyl sulfonic acids (PFSAs). Finally, the key factors governing PFSA reactivity across chain lengths from C1 to C8 were identified as reaction temperature, nucleophile type and concentration, and reaction time. This study addresses a critical knowledge gap in PFAS hydrothermal reactions and further establishes HALT as an effective technology for PFAS destruction and defluorination.",
-    "authors": [
-      "Shilai Hao",
-      "Benjamin Payton",
-      "Ori Soker",
-      "Anderson Ellis",
-      "Sean Brooks",
-      "Patrick Reardon",
-      "Shubham Vyas",
-      "Ilja Popovs",
-      "Igor Novosselov",
-      "Christopher P. Higgins",
-      "Timothy J. Strathmann"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.383323+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00018",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00018",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00018?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Chemistry",
-      "Nucleophile",
-      "Formate",
-      "Hydroxide",
-      "Reactivity (psychology)",
-      "Hydrothermal circulation",
-      "Trifluoromethanesulfonate",
-      "Mineralization (soil science)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": true,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c01521",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c01521",
-    "doi": "10.1021/acs.est.6c01521",
-    "title": "The Dynamic Mechanism of Ozone Decomposition over Layered Nickel Catalysts: Crystalline Phase Evolution Dictates Activity",
-    "abstract": "Nickel-based layered materials have attracted considerable attention due to their high efficiency in ozone decomposition and related advantages. Despite unclear ozone decomposition mechanisms, this study synthesized nickel hydroxide to systematically investigate their catalytic performance and structural evolution, aiming to elucidate the critical relationship between the catalyst’s crystalline structure and its activity. The results indicate that Ni(OH) 2 transforms into NiOOH during ozone decomposition, with catalytic activity determined by the crystalline phase of the resultant NiOOH species. Ni(OH) 2 enriched with hydroxyl groups tends to experience deep oxidation, yielding γ-NiOOH characterized by an expanded interlayer spacing. This phase exhibits superior ozone decomposition efficiency, sustaining an ozone conversion rate exceeding 93% under conditions of 80% relative humidity and a space velocity of 840 L·g –1 ·h –1 . Conversely, catalysts that form β-NiOOH demonstrate lower activity. DFT calculations confirm that γ-NiOOH significantly lowers the energy barrier for ozone decomposition. The surface oxygen sites of γ-NiOOH facilitate rapid desorption of oxygen intermediates, effectively mitigating catalyst deactivation. Moreover, DFT analyses indicate that γ-NiOOH possesses a more favorable ozone decomposition mechanism relative to β-NiOOH. This study elucidates the dynamic transformation mechanism of layered nickel hydroxide catalysts during ozone decomposition and underscores the pivotal role of γ-NiOOH in this process.",
-    "authors": [
-      "Miaomiao Xiao",
-      "Jiaqi Li",
-      "Ruixin Mao",
-      "Qian Zhang",
-      "Xueqian Wang",
-      "Langlang Wang",
-      "Xin Sun",
-      "Kunlin Li",
-      "Yixing Ma",
-      "Ping Ning"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-25T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:19.383291+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c01521",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c01521",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Ozone",
-      "Decomposition",
-      "Catalysis",
-      "Nickel",
-      "Space velocity",
-      "Hydroxide",
-      "Phase (matter)",
-      "Oxygen"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
+      "Surface runoff",
+      "Wastewater",
+      "Pesticide",
+      "Urban runoff",
+      "Pollution"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -788,7 +732,7 @@
     "source_paper_id": "10.1021/acs.estlett.6c00490",
     "doi": "10.1021/acs.estlett.6c00490",
     "title": "Membrane Aging by Chemical Cleaning Drives the Overlooked Release of Per- and Polyfluoroalkyl Substances from Polyvinylidene Fluoride (PVDF) Ultrafiltration Membranes in Drinking Water Treatment",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "The application of polyvinylidene fluoride (PVDF) ultrafiltration (UF) membranes in drinking water treatment plants (DWTPs) is increasing rapidly. However, as a class of fluoropolymer materials, PVDF membranes might be a source of per- and polyfluoroalkyl substances (PFAS) in drinking water systems. In this work, we identified the occurrence of PFAS in commercial PVDF UF membranes, with PFOA as the dominant species (82–97% of ∑PFAS). Subsequently, we explored their release behavior during chemical cleaning and membrane aging. NaOH/NaClO solutions induced sustained and enhanced release of C 4 –C 6 and C 8 perfluorocarboxylic acids (PFCAs) (up to 104 ng/L), significantly higher than the leached levels from virgin membranes. Apart from short-term release of leachable PFCA residues, structural degradation of PVDF led to long-term release of PFCAs that were previously nonleachable from virgin membranes. In the chemical-cleaning wastewater from PVDF UF units at a full-scale DWTP, PFAS levels were much higher (up to 371 ng/L) than those observed in laboratory experiments, with similar dominant PFAS species. This study provides evidence that PVDF membrane aging by chemical cleaning induces persistent PFAS release, highlighting these membranes as an overlooked source of PFAS in DWTPs.",
     "authors": [
       "Timing Jiang",
       "Huying Li",
@@ -812,7 +756,7 @@
       "est-letters"
     ],
     "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-06-29T21:13:21.466447+00:00",
+    "updated_at": "2026-06-30T21:12:19.721485+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00490",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
     "pdf_url": null,
@@ -828,6 +772,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -835,6 +780,18 @@
       "journal-watch",
       "core-journal",
       "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Polyvinylidene fluoride",
+      "Membrane",
+      "Ultrafiltration (renal)",
+      "Fluoropolymer",
+      "Chemistry",
+      "Water treatment",
+      "Chromatography",
+      "Environmental chemistry"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -5626,6 +5583,55 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c00018",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00018",
+    "doi": "10.1021/acs.est.6c00018",
+    "title": "Mineralization of Trifluoromethanesulfonate via Subcritical Hydrothermal Reaction: Reaction Mechanism and Transformation Pathways",
+    "abstract": "Hydrothermal alkaline treatment (HALT) is an innovative approach that was developed for the destruction of per- and polyfluoroalkyl substances (PFAS). While HALT has been shown to effectively destroy a wide range of PFAS detected in various sample matrices, a comprehensive understanding of the controlling reaction mechanisms and transformation pathways remains limited. Herein, we selected trifluoromethanesulfonate (TFMS), the shortest-chain and likely one of the most recalcitrant PFAS reported to date, to probe degradation mechanisms and identify transformation products. The results indicate that HALT of TFMS proceeds via general nucleophilic substitution and base-promoted pathways, leading to 65.7% mineralization of the parent compound after a 180 min reaction of 0.1 M TFMS at 350 °C in 1 M NaOH. For the degraded TFMS, approximately 100% of fluorine and sulfur were converted to fluoride and sulfate, respectively, while carbon was distributed mainly as carbonate (95%) and formate (5%), along with the production of hydrogen. These findings are supported by both experimental and computational evidence. Hydroxide plays dual roles by initiating the reaction as the nucleophile and promoting subsequent steps by maintaining strongly basic conditions. The initial degradation step is rate-determining, with an estimated energy barrier of 27.8 kcal/mol. Similar mechanisms are proposed for reactions of longer-chain perfluoroalkyl sulfonic acids (PFSAs). Finally, the key factors governing PFSA reactivity across chain lengths from C1 to C8 were identified as reaction temperature, nucleophile type and concentration, and reaction time. This study addresses a critical knowledge gap in PFAS hydrothermal reactions and further establishes HALT as an effective technology for PFAS destruction and defluorination.",
+    "authors": [
+      "Shilai Hao",
+      "Benjamin Payton",
+      "Ori Soker",
+      "Anderson Ellis",
+      "Sean Brooks",
+      "Patrick Reardon",
+      "Shubham Vyas",
+      "Ilja Popovs",
+      "Igor Novosselov",
+      "Christopher P. Higgins",
+      "Timothy J. Strathmann"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-25",
+    "link": "https://doi.org/10.1021/acs.est.6c00018",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00018",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00018?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown",
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c01180",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -5652,6 +5658,54 @@
     "published": "2026-06-25",
     "link": "https://doi.org/10.1021/acs.est.6c01180",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01180",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01521",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c01521",
+    "doi": "10.1021/acs.est.6c01521",
+    "title": "The Dynamic Mechanism of Ozone Decomposition over Layered Nickel Catalysts: Crystalline Phase Evolution Dictates Activity",
+    "abstract": "Nickel-based layered materials have attracted considerable attention due to their high efficiency in ozone decomposition and related advantages. Despite unclear ozone decomposition mechanisms, this study synthesized nickel hydroxide to systematically investigate their catalytic performance and structural evolution, aiming to elucidate the critical relationship between the catalyst’s crystalline structure and its activity. The results indicate that Ni(OH) 2 transforms into NiOOH during ozone decomposition, with catalytic activity determined by the crystalline phase of the resultant NiOOH species. Ni(OH) 2 enriched with hydroxyl groups tends to experience deep oxidation, yielding γ-NiOOH characterized by an expanded interlayer spacing. This phase exhibits superior ozone decomposition efficiency, sustaining an ozone conversion rate exceeding 93% under conditions of 80% relative humidity and a space velocity of 840 L·g –1 ·h –1 . Conversely, catalysts that form β-NiOOH demonstrate lower activity. DFT calculations confirm that γ-NiOOH significantly lowers the energy barrier for ozone decomposition. The surface oxygen sites of γ-NiOOH facilitate rapid desorption of oxygen intermediates, effectively mitigating catalyst deactivation. Moreover, DFT analyses indicate that γ-NiOOH possesses a more favorable ozone decomposition mechanism relative to β-NiOOH. This study elucidates the dynamic transformation mechanism of layered nickel hydroxide catalysts during ozone decomposition and underscores the pivotal role of γ-NiOOH in this process.",
+    "authors": [
+      "Miaomiao Xiao",
+      "Jiaqi Li",
+      "Ruixin Mao",
+      "Qian Zhang",
+      "Xueqian Wang",
+      "Langlang Wang",
+      "Xin Sun",
+      "Kunlin Li",
+      "Yixing Ma",
+      "Ping Ning"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-25",
+    "link": "https://doi.org/10.1021/acs.est.6c01521",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01521",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -5700,6 +5754,54 @@
     "published": "2026-06-23",
     "link": "https://doi.org/10.1021/acs.est.6c01654",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01654",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02534",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02534",
+    "doi": "10.1021/acs.est.6c02534",
+    "title": "Climate Change Accelerates Nitrate Delivery to Groundwater",
+    "abstract": "Rising precipitation under climate change can increase groundwater recharge in many regions and accelerate the mobilization of legacy nitrate stored in the vadose zone. We couple a machine learning emulator of a global hydrological model with the nitrate time bomb (NTB) model to quantify nitrate migration from 1958 to 2100. Nitrate migration velocity increases across all climate zones except the tropics, with the most pronounced gains in the cold (+0.20/+0.25 m year –1 under SSP2–4.5/SSP5–8.5) and temperate (+0.17/+0.15 m year –1 ) zones. Groundwater table shallowing further shortens transport distance; in the arid zone, climate change advances nitrate peak arrival by about 6/8 years (locally >20 years). Among grid cells where nitrate peaks reach groundwater before 2100, more than 60% show shortened NTB countdowns under both scenarios. After the first global nitrate accumulation peak, depth-projected leaching shows renewed increase by 2019, suggesting a second phase of nitrate loading to the vadose zone. Integrating legacy nitrate mass with climate-adjusted transport identifies the North China Plain, South Asia, and Western Europe as NTB hotspots. These results show that climate forcing can accelerate the release of long buried agricultural pollutants, underscoring the urgency of proactive groundwater protection.",
+    "authors": [
+      "Shaoqing Chen",
+      "Baojing Gu",
+      "Puyu Feng",
+      "Hao Liang",
+      "Fangzheng Chen",
+      "Yong Chen",
+      "William D Batchelor",
+      "Guilong Zhang",
+      "Baoguo Li",
+      "Kelin Hu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-26",
+    "link": "https://doi.org/10.1021/acs.est.6c02534",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02534",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -5809,6 +5911,98 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c03708",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03708",
+    "doi": "10.1021/acs.est.6c03708",
+    "title": "Unlocking the Potential of Metal Sulfides and Edge Plane Engineering for High-Capacity Thallium Adsorption from Non-ferrous Smelting Gas",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Fenghua Shen",
+      "Yu Zou",
+      "LeLe Liu",
+      "ZiXi Zhang",
+      "Xingyuan Yu",
+      "Chaolong Liu",
+      "Kaisong Xiang",
+      "Hui Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-26",
+    "link": "https://doi.org/10.1021/acs.est.6c03708",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03708",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03869",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03869",
+    "doi": "10.1021/acs.est.6c03869",
+    "title": "Diversity of Iodinated Water Disinfection Byproducts and Their Formation Dynamics Discovered Using Exposome-Scale Nontargeted Analysis and Machine Learning",
+    "abstract": "Water disinfection is critical to minimizing microbial risk, but unintentionally produces disinfection byproducts (DBPs). Exposure to the currently regulated chloro- and bromo-DBPs in water cannot fully account for the health effects observed from epidemiological studies. Iodinated disinfection byproducts (I-DBPs) are among the most toxic DBPs, but they have not been fully characterized because of significant technical challenges. We report here the first exposome-scale study of iodinated disinfection byproducts formed under environmentally relevant conditions. Here, “exposome-scale” refers to broad-scope, nontargeted profiling of exposure-relevant environmental contaminants. The machine-learning-assisted nontargeted analysis of chloramine-treated water enabled detection and characterization of 8551 and 1541 high-confidence iodinated molecular features, generated under the negative and positive ionization modes, respectively. Sixty-two new iodinated disinfection byproducts were identified, with 11 I-DBPs confirmed using authentic standards. Across four Environmental Protection Agency toxicity prediction end points (fathead minnow, Daphnia magna, Tetrahymena pyriformis, and rat), the 11 I-DBPs consistently showed higher or comparable toxicities relative to both the regulated DBPs and the four known I-DBPs, with predicted toxicities reaching up to 2–3 orders of magnitude greater than benchmark compounds such as chloroform and iodoacetic acid. This study demonstrates improved understanding of the diversity and formation dynamics of highly toxic I-DBPs, enabled by advances in integrating exposomics with machine learning techniques.",
+    "authors": [
+      "Qiming Shen",
+      "Di Zhang",
+      "Tingting Zhao",
+      "K. N. Minh Chau",
+      "Garrett Grubisa",
+      "Tao Huan",
+      "X. Chris Le",
+      "Xing-Fang Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-26",
+    "link": "https://doi.org/10.1021/acs.est.6c03869",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03869",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c04557",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -5834,6 +6028,51 @@
     "published": "2026-06-24",
     "link": "https://doi.org/10.1021/acs.est.6c04557",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04557",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04723",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04723",
+    "doi": "10.1021/acs.est.6c04723",
+    "title": "Elucidating the Adverse Outcome Pathway for Grain-Quality Deterioration Induced by Brominated Flame Retardants in Rice: A Multiomics and Lifecycle Analysis",
+    "abstract": "Brominated flame retardants (BFRs) pose a growing threat to agricultural safety, yet their dynamic transfer mechanisms and interference with crop metabolism remain poorly understood. This study systematically unravels the lifecycle translocation of BFRs in rice and deciphers the signaling-mediated cascade leading to grain-quality deterioration. BFR accumulation did not follow a simple xylem-mediated transport pattern; instead, secondary enrichment occurred during grain filling, inversely correlated with their log K ow and molecular weight. In particular, the concentration of 2,2′,4,4′-tetrabromodiphenyl ether (BDE-47) in the panicles increased sharply from ∼1 ng/g at the heading stage to 16.5 ng/g at the filling stage, reaching 42.0 ng/g at maturity, representing an order-of-magnitude increase. This accumulation critically coincided with a marked depletion of nutritional components: amylopectin and total protein decreased by 10.3–17.7%, accompanied by a 12.5% reduction in 1000-grain weight. Through integrated transcriptomic, proteomic, and metabolomic analyses, along with a novel motif-based unbiased screening method, we deciphered the core adverse outcome pathway (AOP). BFRs advanced the abscisic acid (ABA) peak by 5 days and increasing its concentration ∼20% compared to the control. This intensified ABA signaling pathway upregulated tricarboxylic acid cycle enzymes by 2–5-fold, and redirected carbon flux from starch synthesis toward energy production. This metabolic shift accelerates the cotransport of selected BFRs (e.g., BDE-47) into the developing grain, driving premature maturation and nutritional loss. By establishing a complete “signal activation → metabolic reprogramming → pollutant co-transport → quality deterioration” AOP framework, this study provides a mechanistic foundation for understanding the potential dietary implications of BFRs in rice, offering crucial insights for safeguarding food safety and controlling agricultural contamination.",
+    "authors": [
+      "Jie Chen",
+      "Zhiheng Li",
+      "Jianfang Wu",
+      "Yinuo Xing",
+      "Shichong He",
+      "Yaqi Sheng",
+      "Lizhong Zhu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-26",
+    "link": "https://doi.org/10.1021/acs.est.6c04723",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04723",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -5894,6 +6133,50 @@
     "open_pdf_status": "open_pdf",
     "open_pdf_available": true,
     "open_pdf_source": "unknown",
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04593",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04593",
+    "doi": "10.1021/acs.est.6c04593",
+    "title": "Toward a Low-Energy Direct-Air Capture Cycle by Reversible Proton-Intercalation-Mediated Alkalization",
+    "abstract": "Mitigation strategies to avoid climate change impacts rely on direct-air capture (DAC) of CO 2 . We demonstrate absorption of CO 2 at 400 ppm and its desorption by using solid proton-intercalation electrodes to swing the pH of an alkaline electrolyte. 1.76 ± 0.16 GJ tonne –1 of electrical energy is used when enriching CO 2 2-fold, extrapolating to 25.3 ± 0.16 GJ tonne –1 to include water condensation and compression energy. 20-fold enrichment requires 5.81 ± 2.42 GJ tonne –1 of electrical energy, extrapolating to 7.81 ± 2.42 GJ tonne –1 . Here, symmetric potassium-stabilized α-phase manganese dioxide electrodes are used to (de)intercalate protons from two separate electrolyte streams, thereby swinging dissolved inorganic carbon (DIC) solubility in an asynchronous cycle wherein electrochemical steps occur in sequence with CO 2 transfer steps. Mixing among aqueous streams is shown by theory to reduce CO 2 transfer, where the retention of DIC concentration during alkalizing/dealkalizing steps is affected by mixing more so than alkali-ion concentration swing. Experimental energy use is further reduced by premixing postabsorption and postdesorption electrolytes. Theory predicts that alkali-ion concentration swing increases with increasing electrode specific capacity and decreasing mixing volume, motivating the codesign of active materials and their electrode microstructures to enhance efficiency, productivity, and enrichment. The present DAC cycle may also be implemented using other electrochemical architectures.",
+    "authors": [
+      "Paul G. Rozzi",
+      "JeongA Lee",
+      "Vu Quoc Do",
+      "Timothy S. Arthur",
+      "Charles A. Roberts",
+      "Kyle C. Smith"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-27",
+    "link": "https://doi.org/10.1021/acs.est.6c04593",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04593",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]

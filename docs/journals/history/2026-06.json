@@ -7541,7 +7541,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -8047,7 +8047,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8056,7 +8058,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Mollisol",
+      "Irrigation",
+      "Groundwater",
+      "Organic matter",
+      "Chemistry",
+      "Wetland",
+      "Biogeochemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-5c17571",
@@ -8099,7 +8118,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -8108,7 +8128,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Risk assessment",
+      "Medicine",
+      "Probabilistic logic",
+      "Function (biology)",
+      "Translation (biology)",
+      "Biology",
+      "Computational biology",
+      "Bioinformatics"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03461",
@@ -8155,7 +8187,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8164,7 +8198,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Xylem",
+      "Cadmium",
+      "Chemistry",
+      "Phloem",
+      "Contamination",
+      "Zinc",
+      "Phytochelatin",
+      "Alkali soil"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03098",
@@ -8208,7 +8259,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8217,7 +8270,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Freshwater fish",
+      "Hazard quotient",
+      "Trophic level",
+      "Environmental science",
+      "Environmental chemistry",
+      "Prioritization",
+      "Bay",
+      "Fish <Actinopterygii>"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c05455",
@@ -8269,7 +8339,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8278,7 +8350,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Methane",
+      "Kinetic energy",
+      "Resource recovery",
+      "Chemistry",
+      "Microbial fuel cell",
+      "Electrochemistry",
+      "Chemical energy",
+      "Wastewater"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00490",
@@ -8327,6 +8416,321 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "docs-meta",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Polyvinylidene fluoride",
+      "Membrane",
+      "Ultrafiltration (renal)",
+      "Fluoropolymer",
+      "Chemistry",
+      "Water treatment",
+      "Chromatography",
+      "Environmental chemistry"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00882",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00882",
+    "doi": "10.1021/acs.est.6c00882",
+    "title": "Where Machine Learning Fails in Predicting Emerging Contaminant Adsorption: A Decision-Oriented Framework for Model Credibility and Transferability",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yina Fan",
+      "Jun Li",
+      "Yi Ren",
+      "Chao Liu",
+      "Weiming Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-30T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985490+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00882",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00882",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02101",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02101",
+    "doi": "10.1021/acs.est.6c02101",
+    "title": "Mobility and Income: Policy Insights to Support Public Electric Vehicle Charging Access",
+    "abstract": "Widespread electric vehicle use is a key step to tackling transportation emissions, but adoption has yet to take off beyond high-income communities. A lack of access to public charging stations can be a major barrier to adoption. In this paper, we analyze the distribution and typology of public charging stations found in low-, mid-, and high-income communities across the US. Our results describe a robust neighborhood advantage, where high income in the surrounding area coincides with higher numbers of public stations in lower income block groups. We further show that station types in lower income areas are associated with shorter stops, suggesting they are designed to serve pass-through demand. Future income-based policies for public charging infrastructure should consider how new stations fit local residents' mobility patterns and should use both local and neighborhood income to better target their support toward equal access for all future electric vehicle drivers.",
+    "authors": [
+      "Siobhan Powell",
+      "Marie-Louise Arlt"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985910+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02101",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02101",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Electric vehicle",
+      "Typology",
+      "Charging station",
+      "Business",
+      "Distribution (mathematics)",
+      "Key (lock)",
+      "Transport engineering",
+      "Environmental economics"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04551",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04551",
+    "doi": "10.1021/acs.est.6c04551",
+    "title": "Soil Properties Regulate the Fate and Accumulation of Atmospherically Deposited Trace Metals in Rice across Six Major Growing Regions of China",
+    "abstract": "Atmospheric deposition is a pathway of trace metal contamination in agroecosystems, yet how divergent soils regulate the behavior and crop uptake of newly deposited trace metals remains incompletely understood. Here, we combined a field soil-transplantation experiment and a greenhouse pot experiment that separately imposed foliar and root exposure using six paddy soils from six major growing regions of China. Results showed that soil properties governed the speciation, mobility, and rice accumulation of deposited metals. Copper (Cu), lead (Pb), and zinc (Zn) exhibited greater solubility and grain accumulation in lower-pH, lower-sorption, and southern-provenance soils, whereas arsenic (As) was more mobile and accumulated preferentially in higher-pH, SOM-rich northern-provenance soils with finer texture. The pot experiment indicated that foliar exposure dominated trace metal enrichment in leaves and husks, whereas root exposure contributed more strongly to grain As in several soils. Elemental mapping of the flag leaf-node junction measured by LA-ICP-MS revealed distinct tissue-association patterns under the two pathways. Soil redox fluctuations further differentiated metal behavior: Cu increased after drainage, whereas As peaked under flooding. These findings show that element- and soil-property-specific responses shape food-safety risks posed by atmospheric deposition and support region-specific soil and emission management.",
+    "authors": [
+      "Yuran He",
+      "Huixian Yang",
+      "Rongjuan Fang",
+      "Zhaoyi Wen",
+      "Peiyun Gong",
+      "Ruizhi Xia",
+      "Jing Zhou",
+      "Jun Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.985713+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04551",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04551",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Soil water",
+      "Deposition (geology)",
+      "Trace metal",
+      "Environmental science",
+      "Arsenic",
+      "Contamination",
+      "Zinc"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02194",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02194",
+    "doi": "10.1021/acs.est.6c02194",
+    "title": "Targeted Acclimation Unlocks Adaptive Evolution of a Methanotrophic Consortium Enabling 3A5MI Elimination and Enhanced Sulfamethoxazole Biodegradation",
+    "abstract": "Targeted pollutant exposure is widely used to acclimate microbial communities for enhanced biodegradation of recalcitrant contaminants, yet the evolutionary mechanisms underlying functional reinforcement remain poorly understood. Here, we acclimated a methanotrophic consortium achieving efficient removal of 3-amino-5-methyl-isoxazole (3A5MI) (>90%, >5 mg/L/d) and elucidated the adaptive evolutionary processes behind it. Analyses of mobile genetic elements (MGEs) and horizontal gene transfer (HGT) revealed that dominant Methylococcaceae members served as genetic exchange hubs in the acclimation bioreactor. Integrated metagenomic and metatranscriptomic analyses showed that prolonged 3A5MI exposure activated their MGEs and promoted extensive HGT of genes related to energy generation, oxidative stress defense, and biosynthesis. This adaptive evolution enabled community-level metabolic rewiring, including optimized carbon metabolism to relieve energy limitation, niche differentiation, and specialized transcription of C–N bond catalytic functions. Furthermore, batch experiments and transformation product analyses confirmed that 3A5MI-induced functional traits (e.g., heterocycle hydroxylation and C–N bond catalysis) facilitated complete sulfamethoxazole (SMX) biodegradation. Overall, this study demonstrates the evolutionary plasticity of methanotrophic consortia under targeted acclimation and highlights MGE-driven genetic exchange and metabolic adaptation as key mechanisms that both underpin functional enhancement and support the development of methanotroph-based strategies for the biodegradation of recalcitrant isoxazole-based pollutants.",
+    "authors": [
+      "Xu Guo",
+      "Chun-Yu Lai",
+      "He-Ping Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-28T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:11.986135+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02194",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02194",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biodegradation",
+      "Acclimatization",
+      "Metagenomics",
+      "Adaptation (eye)",
+      "Biology",
+      "Horizontal gene transfer",
+      "Metabolic pathway",
+      "Gene"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00543",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00543",
+    "doi": "10.1021/acs.estlett.6c00543",
+    "title": "Urgency to Propose Normative Soil Limits for Per- and Polyfluoroalkyl Substances Targeting PFOA and PFOS",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Sébastien Sauvé",
+      "Hans Peter H. Arp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-30T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:19.721338+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00543",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
       "docs-meta"
     ],
     "tags": [
@@ -8334,6 +8738,67 @@
       "journal-watch",
       "core-journal",
       "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00520",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00520",
+    "doi": "10.1021/acs.estlett.6c00520",
+    "title": "Weekly Monitoring Reveals the Dynamics, Sources, and Loads of Pesticides, Pharmaceuticals, and Tire-Derived Chemicals in the Mississippi River",
+    "abstract": "Understanding the sources and transport of contaminants in large rivers is often constrained by low-frequency monitoring that fails to resolve short-duration hydrologic effects. Weekly water samples were collected for one year from the Upper Mississippi River to quantify the occurrence, temporal dynamics, sources, and mass loadings of pesticides, a pharmaceutical, a corrosion inhibitor, and tire-derived chemicals. Distinct temporal patterns were observed. Tire-derived chemicals exhibited pronounced concentration peaks during spring snowmelt. Pesticide concentrations were highest in early summer following agricultural application. Pesticides showed strong positive correlations with river discharge (e.g., for metolachlor, ρ = 0.78 and p < 0.001), indicating inputs from increased runoff, while the wastewater indicator metformin had a negative correlation, consistent with dilution of point-source inputs. Cross-compound correlations indicated dominant contributions from urban runoff (tire-derived chemicals), agricultural runoff (pesticides), wastewater effluent (metformin), and mixed sources (benzotriazole). Load estimates showed tire-derived chemicals had mass loadings comparable to those of neonicotinoid insecticides. These results indicate that weekly sampling leads to improved characterization of contaminant sources and load contributions in large river systems.",
+    "authors": [
+      "Zihang Wang",
+      "Andrew J. Erickson",
+      "William A. Arnold"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-06-29T00:00:00+00:00",
+    "updated_at": "2026-06-30T21:12:19.721450+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00520",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Effluent",
+      "Hydrology (agriculture)",
+      "Surface runoff",
+      "Wastewater",
+      "Pesticide",
+      "Urban runoff",
+      "Pollution"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
