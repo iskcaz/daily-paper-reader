@@ -8417,7 +8417,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8438,7 +8439,9 @@
       "Water treatment",
       "Chromatography",
       "Environmental chemistry"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c00882",
@@ -8718,7 +8721,7 @@
     "updated_at": "2026-06-30T21:12:19.721338+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00543",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00543?ref=article_openPDF",
     "journal": "Environmental Science & Technology Letters",
     "journal_key": "est_letters",
     "journal_label": "EST Letters",
@@ -8727,11 +8730,13 @@
       "2328-8930"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8739,8 +8744,22 @@
       "core-journal",
       "est-letters"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": true,
+    "oa_status": "bronze",
+    "openalex_concepts": [
+      "Perfluorooctanoic acid",
+      "Environmental chemistry",
+      "Environmental science",
+      "Surface water",
+      "Contamination",
+      "Leaching (pedology)",
+      "Soil water",
+      "Water quality"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00520",
@@ -8780,7 +8799,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -8801,6 +8821,148 @@
       "Pollution"
     ],
     "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00236",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00236",
+    "doi": "10.1021/acs.est.6c00236",
+    "title": "Integrating Experiments and Models To Unravel Interactions between Soil Organic Matter and Enhanced Weathering",
+    "abstract": "Key uncertainties remain in predicting carbon sequestration through enhanced weathering (EW), particularly regarding secondary mineral formation and interactions with the organic matter. We compared a coupled inorganic–organic geochemical model (PHREEQCENTURY) with soil measurements and CO 2 efflux from a 389-day mesocosm experiment using soils amended with varying alkaline manure, basalt, and dunite inputs. Silicate amendments did not enhance dissolved inorganic C leaching or significantly increase pedogenic carbonate accumulation. PHREEQC simulations indicated that base cations preferentially precipitated as secondary clays rather than carbonates, inhibiting CO 2 removal. Sequential extractions suggested that Al, Fe and base cations were mainly retained via adsorption to (hydr)oxides and organic matter, with additional retention in secondary clays indicated by models. Higher organic matter addition did not increase element release from basalt─and reduced leached K and Fe─while decreasing the reactive surface area of basalt, indicating a counteractive effect of manure on rock weathering. Alkaline manure addition also likely decreased weathering of pyroxene and olivine minerals. Cumulative soil CO 2 efflux did not differ significantly among treatments, consistent with PHREEQCENTURY simulations, predicting limited treatment effects due to minor changes in soil pH, moisture and organic C stabilization as mineral-associated organic matter in this soil.",
+    "authors": [
+      "Arthur Vienne",
+      "Tom Cox",
+      "Harun Niron",
+      "Bertrand Guenet",
+      "Reinaldy Poetra",
+      "Laura Steinwidder",
+      "Charline Vandenhove",
+      "Sara Vicca"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-30T00:00:00+00:00",
+    "updated_at": "2026-07-02T20:26:28.824309+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00236",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00236",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Weathering",
+      "Organic matter",
+      "Chemistry",
+      "Leaching (pedology)",
+      "Pedogenesis",
+      "Soil water",
+      "Soil production function"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17872",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17872",
+    "doi": "10.1021/acs.est.5c17872",
+    "title": "Research Pathways for Automotive Exhaust Catalysts during the Transition to Electric Mobility",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide The global automotive market has long been dominated by internal combustion vehicles (ICVs), which have provided essential mobility but also emitted air pollutants that harm human health and environment. Exhaust treatment catalysts have played a central role in mitigating these emissions, allowing ICVs to remain viable for decades. However, despite advances in catalyst technology, the continued reliance on fossil-fuel vehicles has driven steady increases in atmospheric CO 2, contributing to climate change and intensifying global environmental risks. In recent years, the rapid rise of electric vehicles (EVs), which eliminate tailpipe emissions, has prompted renewed discussion about the future relevance of automotive catalysts. This transition raises key questions: How quickly can EVs replace ICVs? What environmental challenges will persist during this shift? What role will catalytic technologies play in the evolving transportation landscape? In this contribution, we examine the environmental motivations behind EV adoption and assess their benefits and limitations using recent market and emissions data. We highlight constraints, including adoption barriers, hybrid vehicle cold-start emissions, and the difficulty of electrifying heavy-duty transport, that ensure catalysts will remain essential. Finally, we outline pathways for catalyst researchers to redefine their focus and remain impactful in the coming decades.",
+    "authors": [
+      "Jueon Kim",
+      "Seong Yeol Jang",
+      "Jae Hyeon Yu",
+      "Soo Chool Lee",
+      "Jaeha Lee"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-06-30T00:00:00+00:00",
+    "updated_at": "2026-07-02T20:26:28.824333+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17872",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17872",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c17872?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Automotive industry",
+      "Relevance (law)",
+      "Key (lock)",
+      "Electric vehicle",
+      "Business",
+      "Focus (optics)",
+      "Climate change",
+      "Electric cars"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
   }
 ]
