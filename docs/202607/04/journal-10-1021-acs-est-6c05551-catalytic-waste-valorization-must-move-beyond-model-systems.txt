@@ -1,0 +1,93 @@
+Title: Catalytic Waste Valorization Must Move beyond Model Systems
+
+URL Source: https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05551?ref=article_openPDF
+
+Number of Pages: 4
+
+Markdown Content:
+# Catalytic Waste Valorization Must Move beyond Model Systems 
+
+# Shuai Yue, Guanshu Zhao, * Pengfei Wang, * and Sihui Zhan *
+
+Cite This: https://doi.org/10.1021/acs.est.6c05551 Read Online 
+
+# ACCESS Metrics & More Article Recommendations 
+
+KEYWORDS: waste recycling, resource security, industrial resilience, carbon mitigation 
+
+# Amid growing resource scarcity and environmental pressure, waste recycling is becoming a core pillar of green development. 1 Policy frameworks in China, the Euro-pean Union, and the United States have all emphasized recyclable-resource utilization, secondary raw-material markets and improved recycling systems. 2−4 Together, these efforts reflect a broader shift: waste is increasingly viewed not as a disposal burden, but as a strategic resource base linked to resource security, industrial resilience, and carbon mitigation. Yet current recycling systems remain dominated by physical and metallurgical routes. Plastics are still mainly recycled through sorting, washing, shredding, and melt reprocessing, while spent batteries and electronic waste generally require pretreatment, separation, and pyro- or hydrometallurgical recovery of valuable metals. 5−7 Although indispensable, these routes often involve high-temperature processing, intensive reagent use, and repeated separation steps, which reduce economic margins and value retention. The key challenge is therefore not simply to recover matter, but to recover it in forms suitable for high-value reintegration into manufacturing. This is why emerging catalytic technologies deserve greater attention. Compared with conventional recycling routes, catalytic processes can reduce energy demand, chemical consumption, and secondary pollution while improving product selectivity (Figure 1). By controlling bond activation, interfacial electron transfer, and local reaction environments, catalytic systems offer opportunities to convert heterogeneous wastes into targeted chemicals, fuels, and reusable precursors with greater precision. In plastics recycling, catalytic routes are expanding chemical recycling beyond mechanical reprocessing and nonselective cracking. Thermocatalysis can convert polyethylene into long-chain alkylaromatics through tandem hydrogenolysis or aromatization, while photocatalytic and photothermal ap-  
+
+> Viewpoint pubs.acs.org/est
+> © XXXX American Chemical Society A
+> https://doi.org/10.1021/acs.est.6c05551
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX Downloaded via 34.96.52.104 on July 4, 2026 at 21:37:46 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+proaches enable solar-driven H2 production or selective conversion of waste polyolefins into liquid fuels. 8−10 Electro-catalysis further upgrades plastic-derived intermediates, as shown by waste-plastic reforming to chemicals and H 2 and the selective conversion of PET-derived ethylene glycol to glycolic acid. 11,12 These advances indicate that plastic valorization will not rely on a single platform. Instead, thermocatalysis, photocatalysis, photothermal catalysis, and electrocatalysis should play complementary roles according to polymer type, contamination level, target product, and energy context. Catalytic innovation is also reshaping battery recycling by shifting the field from bulk metallurgical extraction toward selective recovery and functional regeneration. Emerging electrochemical and interfacial strategies have enabled near-complete extraction of Li, Ni, Mn, and Co from spent cathodes, as well as high-efficiency, high-purity lithium recovery. 13,14 These approaches may reduce acid consumption and energy intensity while preserving more of the structural and compositional value embedded in cathode materials. A similar transition is emerging in electronic waste. Conventional routes still rely on dismantling, crushing, sorting, and metallurgical extraction, but catalytic methods are opening new possibilities for selective recovery under milder con-ditions. Su et al. 15 used contact-electro-catalysis as a metal-free and recyclable strategy for selective gold extraction from e-waste leachates. This direction is particularly significant because e-waste contains precious, base, and critical metals in highly complex matrices, and bulk extraction often sacrifices selectivity while generating additional residues. Catalytic strategies could therefore help shift e-waste recycling from mass extraction toward precision separation of scarce elements. Taken together, plastics, batteries, and e-waste reveal a unifying theme: the transformative value of catalysis lies not only in accelerating reactions, but in controlling where atoms go, which bonds are broken or preserved, and whether waste is converted into low-grade secondary material or high-value functional products. That conceptual shift distinguishes next-generation waste valorization from conventional end-of-pipe treatment. However, catalytic waste valorization remains far from practical deployment. The key challenge is not whether catalysts can activate bonds or recover elements in model systems, but whether they can do so reproducibly, selectively, and economically in heterogeneous waste streams. Many studies still rely on pure substrates, simplified feeds, or tightly controlled conditions, whereas real wastes contain impurities  
+
+> Figure 1. Overview of catalytic waste upcycling pathways and the integration of techno-economic analysis and life-cycle assessment.
+
+Environmental Science & Technology pubs.acs.org/est Viewpoint  
+
+> https://doi.org/10.1021/acs.est.6c05551
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> B
+
+that can reshape reaction pathways and accelerate deactivation. For example, chlorine-containing plastics, additives, pigments, and food residues in postconsumer plastics can alter product distributions or poison active sites; graphite, Al/Cu current collectors, binders, and electrolyte residues in industrial black mass can hinder selective metal recovery; and base metals, halides, and organic residues in e-waste leachates can compete with precious-metal recovery. 16 −18 This gap explains why many elegant laboratory demonstrations have not matured into pilot-scale or commercially relevant processes. To close this gap, three shifts are urgently needed. First, catalytic technologies must be designed around real waste streams rather than idealized model systems. This requires tolerance to mixed polymers, additives, pigments, aged cathodes, variable battery chemistries, industrial black mass, competing metals, halides, organics, and fluctuating solids loading. Stability under variable moisture, pretreatment history, and impurity accumulation will also be essential. Second, catalytic waste recovery must be judged not only by conversion, selectivity, or product value, but also by measurable environmental and economic benefits at the system level. LCA and TEA should therefore be used early to determine whether catalytic routes reduce energy use, emissions, reagent demand, and secondary pollution relative to incumbent processes, and whether catalyst cost, lifetime, regeneration, feedstock variability, and downstream separation can support practical deployment. Third, governments and industry should accelerate trans-lation through pilot-scale demonstrations, standardized testing protocols, and shared infrastructure for waste characterization, process benchmarking, and product certification. Progress will require closer coordination among catalysis researchers, process engineers, recyclers, manufacturers, and regulators, because no catalytic platform can be deployed independently of feedstock logistics, separation technology, or market specifications. Catalytic waste valorization should also be embedded into circular economy governance frameworks that reward high-value, low-impact resource recovery. More broadly, catalytic recycling should be designed as an integrated process rather than an isolated reaction step. Pretreatment, reaction engineering, separation, and product use should be co-optimized from the outset. In many cases, the most attractive catalyst may not be the one with the highest intrinsic activity, but the one that tolerates impure feeds, simplifies separation, or produces outputs that can directly re-enter supply chains. Ultimately, the future of catalytic waste recycling will depend less on record conversion or selectivity in model systems than on performance under realistic environmental and economic constraints. The next phase of the field should therefore be judged by catalyst durability, continuous-process validation, system integration, and evidence that recovered products can re-enter manufacturing chains at meaningful scale. 
+
+# ■ AUTHOR INFORMATION 
+
+Corresponding Authors 
+
+Sihui Zhan − MOE Key Laboratory of Pollution Processes and Environmental Criteria Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, P. R. China; Tianjin Key Laboratory of Molecular Optoelectronic Sciences, Department of Chemistry, School of Science, Tianjin University, Tianjin 300072, P. R. China; orcid.org/0000-0002-1575-5946; Email: sihuizhan@nankai.edu.cn 
+
+Pengfei Wang − MOE Key Laboratory of Pollution Processes and Environmental Criteria Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, P. R. China ; Email: pengfeiwang@ nankai.edu.cn 
+
+Guanshu Zhao − Department of Chemistry, University of Toronto, Toronto, ON M5S2E8, Canada ;Email: guanshu.zhao@mail.utoronto.ca 
+
+Author 
+
+Shuai Yue − MOE Key Laboratory of Pollution Processes and Environmental Criteria Tianjin Key Laboratory of Environmental Remediation and Pollution Control, College of Environmental Science and Engineering, Nankai University, Tianjin 300350, P. R. China; Department of Chemistry, University of Toronto, Toronto, ON M5S2E8, Canada; 
+
+orcid.org/0000-0001-7257-8539 Complete contact information is available at: https://pubs.acs.org/10.1021/acs.est.6c05551 
+
+Notes 
+
+The authors declare no competing financial interest. 
+
+Biographies         
+
+> Guanshu Zhao received his Ph.D. in environmental science and engineering from Harbin Institute of Technology. He is currently a postdoctoral fellow in the Department of Chemistry at the University of Toronto. His research focuses on solar-driven catalysis and environmental chemistry.
+
+Environmental Science & Technology pubs.acs.org/est Viewpoint  
+
+> https://doi.org/10.1021/acs.est.6c05551
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> C
+
+Pengfei Wang received his Ph.D. at Nankai University. He joined the College of Environmental Science and Engineering at Nankai University as an Associate Professor. His research interests focus on environmental catalysis and waste plastic valorization. 
+
+Sihui Zhan received his Ph.D. in inorganic chemistry from Shandong University. He is currently a Chair Professor in the School of Environmental Science and Engineering at Tianjin University. His research focuses on environmental engineering, environmental chemistry, and emerging strategies for contaminant control, particularly the efficient removal and resource recovery of environ-mental pollutants. 
+
+# ■ ACKNOWLEDGMENTS 
+
+This work was supported by the National Natural Science Foundation of China (Grants 22225604, U24A20518, and 22422605), the Tianjin Commission of Science and Technol-ogy as key critical technologies R&D projects (Grant 24YFZCSN00050), the Frontiers Science Center for New Organic Matter (Grant 63181206), Young Scientific and Technological Talents (Level Two) in Tianjin (QN20230206), the Tianjin Natural Science Foundation Project (25JCYBJC01450), and the Haihe Laboratory of Sustainable Chemical Transformations. S.Y. is funded by the Shanghai Tongji Gao Tingyao Environmental Science &Technology Development Foundation. 
+
+# ■ REFERENCES 
+
+(1) Meys, R.; Kätelhön, A.; Bachmann, M.; Winter, B.; Zibunas, C.; Suh, S.; Bardow, A. Achieving net-zero greenhouse gas emission plastics by a circular carbon economy. Science 2021 , 374 (6563), 71 −
+
+76. (2) General Office of the State Council of the People’s Republic of China. Opinions on accelerating the construction of a waste recycling system. https://www.gov.cn/zhengce/content/202402/content_ 6931079.htm (accessed 2024-02-06). (3) European Commission. A new circular economy action plan: For a cleaner and more competitive europe. COM(2020) 98 final. https://eur-lex.europa.eu/legal-content/EN/TXT/?uri= CELEX:52020DC0098 (accessed 2020-03-11). (4) U.S. Environmental Protection Agency. National recycling strategy: Part one of a series on building a circular economy for all. https://www.epa.gov/circulareconomy/national-recycling-strategy (accessed 2021-11-15). (5) Vollmer, I.; Jenks, M. J. F.; Roelands, M. C. P.; White, R. J.; van Harmelen, T.; de Wild, P.; van der Laan, G. P.; Meirer, F.; Keurentjes, J. T. F.; Weckhuysen, B. M. Beyond mechanical recycling: Giving new life to plastic waste. Angew. Chem., Int. Ed. 2020 , 59 (36), 15402 −
+
+15423. (6) Harper, G.; Sommerville, R.; Kendrick, E.; Driscoll, L.; Slater, P.; Stolkin, R.; Walton, A.; Christensen, P.; Heidrich, O.; Lambert, S.; Abbott, A.; Ryder, K.; Gaines, L.; Anderson, P. Recycling lithium-ion batteries from electric vehicles. Nature 2019 , 575 (7781), 75 −86. (7) Sun, B.; Schnoor, J. L.; Zeng, E. Y. Decadal journey of e-waste recycling: What has it achieved? Environ. Sci. & Technol. 2022 , 56 
+
+(18), 12785 −12792. (8) Zhang, F.; Zeng, M.; Yappert, R. D.; Sun, J.; Lee, Y.-H.; LaPointe, A. M.; Peters, B.; Abu-Omar, M. M.; Scott, S. L. Polyethylene upcycling to long-chain alkylaromatics by tandem hydrogenolysis/aromatization. Science 2020 , 370 (6515), 437 −441. (9) Uekert, T.; Kuehnel, M. F.; Wakerley, D. W.; Reisner, E. Plastic waste as a feedstock for solar-driven H 2 generation. Energy Environ. Sci. 2018 , 11 (10), 2853 −2857. (10) Miao, Y.; Zhao, Y.; Waterhouse, G. I. N.; Shi, R.; Wu, L.-Z.; Zhang, T. Photothermal recycling of waste polyolefin plastics into liquid fuels with high selectivity under solvent-free conditions. Nat. Commun. 2023 , 14 (1), 4242. (11) Shi, R.; Liu, K.-S.; Liu, F.; Yang, X.; Hou, C. C.; Chen, Y. Electrocatalytic reforming of waste plastics into high value-added chemicals and hydrogen fuel. Chem. Commun. 2021 , 57 (94), 12595 −
+
+12598. (12) Yue, S.; Zhao, Z.; Liu, Y.; Yang, M.; Zhang, T.; Li, F.; Liu, K.; Wang, P.; Zhan, S. Dual-site synergistic electrocatalysis enables highly selective upcycling of real-world plastic waste to glycolic acid. Adv. Funct. Mater. 2025 , 35 (49), No. 202509766. (13) Li, H.; Berbille, A.; Zhao, X.; Wang, Z.; Tang, W.; Wang, Z. L. A contact-electro-catalytic cathode recycling method for spent lithium-ion batteries. Nat. Energy 2023 , 8 (10), 1137 −1144. (14) Yang, L.; Gao, Z.; Liu, T.; Huang, M.; Liu, G.; Feng, Y.; Shao, P.; Luo, X. Direct electrochemical leaching method for high-purity lithium recovery from spent lithium batteries. Environ. Sci. & Technol. 
+
+2023 , 57 (11), 4591 −4597. (15) Su, Y.; Berbille, A.; Li, X.-F.; Zhang, J.; PourhosseiniAsl, M.; Li, H.; Liu, Z.; Li, S.; Liu, J.; Zhu, L.; Wang, Z. L. Reduction of precious metal ions in aqueous solutions by contact-electro-catalysis on water-solid interfaces. Nat. Commun. 2024 , 15 (1), 4625. (16) Ragaert, K.; Delva, L.; Van Geem, K. Mechanical and chemical recycling of solid plastic waste. Waste Manage. 2017 , 69 , 24 −58. (17) Tembo, P.; Dyer, C.; Subramanian, V. Lithium-ion battery recycling: A review of the material supply and policy infrastructure. 
+
+NPG Asia Mater. 2024 , 16 (1), 43. (18) Li, J.; Zeng, X.; Chen, M.; Ogunseitan, O. A.; Stevels, A. “Control-alt-delete”: Rebooting solutions for the e-waste problem. 
+
+Environ. Sci. & Technol. 2015 , 49 (12), 7095 −7108. 
+
+Environmental Science & Technology pubs.acs.org/est Viewpoint

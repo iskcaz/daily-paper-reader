@@ -40,7 +40,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -49,7 +51,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ecology",
+      "Coral reef",
+      "Biodiversity",
+      "Biology",
+      "Reef",
+      "Ecosystem",
+      "Algae",
+      "Sediment"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03801",
@@ -164,7 +183,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -185,7 +205,12 @@
       "Environmental engineering"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1016-j-watres-2026-125853",
@@ -644,7 +669,7 @@
       "Nitrogen",
       "Extracellular polymeric substance"
     ],
-    "citation_count": 0,
+    "citation_count": 1,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -2798,6 +2823,496 @@
       "Probabilistic risk assessment",
       "Impact assessment",
       "Environmental impact assessment"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06193",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06193",
+    "doi": "10.1021/acs.est.6c06193",
+    "title": "Distinct Source-Sink Patterns and Vertical Consumption of Alkyl and Aryl Organophosphate Esters in the Remote Ocean and Its Marginal Sea",
+    "abstract": "Organophosphorus esters (OPEs) have been widely used as flame retardants and plasticizers and are globally ubiquitous. In the marine environment, OPEs primarily originate from continental sources and are initially confined to marginal seas before reaching remote oceans. However, their differing biogeochemical fates in these two regions remain unclear. This study investigated regional variations in the biogeochemical regulation mechanisms of OPEs (alkyl and aryl) across the Western Pacific and the South China Sea (112°E to 163°E) by analyzing their air-sea interface processes and vertical profiles. Results revealed that the South China Sea exhibited net inputs of OPEs (1.66 ± 1.36 μg m –2 d –1 ), while the Western Pacific mainly showed outputs (0.41 ± 1.15 μg m –2 d –1 ) to the atmosphere, forming patterns characterized by remote sources and marginal sinks. In vertical profiles, OPE consumption in the upper water column of the South China Sea was mainly driven by biodegradation, in contrast to the Western Pacific, where it was primarily controlled by the biological pump. This study reveals the distinct OPE fates in the remote ocean versus the marginal sea, highlighting the Western Pacific Warm Pool as a source of OPEs. Future research should address their marine coexistence with precursors and transformation products.",
+    "authors": [
+      "Jingwen Shi",
+      "Mengyang Liu",
+      "Yiming Wang",
+      "Jiandong Ye",
+      "Mingjun Feng",
+      "Zi-Feng Zhang",
+      "Yixue Jiang",
+      "Lin Zhang",
+      "Xiaohua Wang",
+      "Yanjian Jin",
+      "Yan Lin",
+      "Hongwei Ke",
+      "Zhaoguang Xu",
+      "Xuke Chen",
+      "Junge Wang",
+      "Yi-Fan Li",
+      "Minggang Cai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-03T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428268+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06193",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06193",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biogeochemical cycle",
+      "Environmental science",
+      "Oceanography",
+      "Pacific ocean",
+      "China",
+      "Water column",
+      "Seawater",
+      "Alkyl"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03733",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03733",
+    "doi": "10.1021/acs.est.6c03733",
+    "title": "Can Data Mining Improve Methane Correction Factors for Urban, Nonsewered Sanitation?",
+    "abstract": "Nearly half of the world's population relies on nonsewered sanitation, and in urban areas, intermittent onsite storage of wastewater prior to road-based transport to treatment is common. Anerobic biological activity during storage generates methane, contributing to greenhouse gas emissions and posing challenges for climate mitigation. Current estimates of methane emissions rely on methane correction factors (MCFs) in the Intergovernmental Panel on Climate Change (IPCC) guidelines that are based on theoretical assumptions and increasingly viewed as not valid. In this Perspective, we use 1349 data points from onsite storage of wastewater in 11 cities to show that obtaining accurate city-wide estimates is complicated by highly variable properties of in situ wastewater and storage conditions and hence biological production of methane. When it comes to greenhouse gas emissions from nonsewered sanitation, the sector has so far focused on storage, but as evidence suggests these estimates are too high, we propose that emphasis should in fact be placed on the entire service chain.",
+    "authors": [
+      "Michael Vogel",
+      "Linda Strande"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428449+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03733",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03733",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03733?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Greenhouse gas",
+      "Environmental science",
+      "Methane emissions",
+      "Methane",
+      "Climate change",
+      "Wastewater",
+      "Environmental engineering",
+      "Population"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06775",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06775",
+    "doi": "10.1021/acs.est.6c06775",
+    "title": "Generalizable and Transferable Machine Learning Enables Accelerated Metal–Organic Framework Discovery in Gas Separations",
+    "abstract": "Gas separation is central to industrial processes that drive climate mitigation, clean energy, and sustainable technologies. Metal–organic frameworks (MOFs) offer remarkable tunability for adsorption-based separations, yet identifying optimal materials remains challenging due to their vast structural diversity, costly simulations, and the difficulty of achieving a full range of desired properties. Existing machine learning approaches have accelerated screening but often lack generalizability across diverse gas pairs and operating conditions. Herein, we present BiMix-Bench, a curated database comprising ∼125,900 MOFs and five binary gas mixtures. Leveraging this dataset, LightGBM regressor (LGBMR) models are developed to achieve high predictive accuracy for gas uptakes ( R 2 = 0.93 and 0.92) and selectivity ( R 2 = 0.95) under strict robustness controls, including seed randomness and cross validation. Using CO 2 /H 2 as a case study, we evaluate both zero-shot and few-shot transfer performance. While zero-shot predictions provide limited out-of-distribution accuracy, the pretrained LGBMR models can be efficiently adapted with a small number of new simulations ( N = 204) through transfer learning. This data-efficient adaptation enables the rapid identification of top-performing MOFs, which are subsequently validated through grand canonical Monte Carlo simulations. This generalizable and interpretable framework enables scalable, data-driven discovery of advanced adsorbents for complex and evolving separation tasks.",
+    "authors": [
+      "Meiqi Yang",
+      "Jianhao Qian",
+      "Ruoyu Wang",
+      "Menachem Elimelech"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428740+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06775",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06775",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Computer science",
+      "Machine learning",
+      "Artificial intelligence",
+      "Key (lock)",
+      "Engineering",
+      "Support vector machine",
+      "Data mining",
+      "Artificial neural network"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00641",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00641",
+    "doi": "10.1021/acs.est.6c00641",
+    "title": "Microalgae-Mediated Electron Transfer and Allocation in Paracoccus denitrificans for Efficient Nitrate Removal",
+    "abstract": "Microalgal-bacterial systems provide a promising strategy to enhance the nitrate removal performance of denitrifiers via the traditionally assumed provision of electron donors or enrichment of functional microorganisms, while the single-species regulatory mechanism remains unclear. Chlorella vulgaris ( C. vulgaris ) could markedly improve the nitrate removal by Paracoccus denitrificans ( P. denitrificans ) even under nutrient-replete conditions, contributing to a 2.48-fold increase in the nitrate removal rate constant compared to the sum of monocultures, indicating non-nutritional regulatory effects. Transcriptomics showed glycolytic genes in P. denitrificans were upregulated by 1.65 to 10.1-fold, accompanied by a 51.0% increase in NADH production. Lactate, as a key intermediate, activated the bacterial electron transport chain (ETC), with ETC-related gene expression upregulated by 2.83 to 2.95-fold. Furthermore, bacterial ammonium induced microalgal glutamate synthesis and release, which likely acted as a signaling molecule to upregulate bacterial nitrate reductase expression. These interactions redirected electrons toward nitrate reduction, increasing carbon utilization efficiency for nitrate removal by 82.75%. Microalgae coordinately optimized bacterial carbon and nitrogen metabolism, reprogramming electron generation, transfer, and allocation to achieve efficient nitrate conversion. This work provides molecular-level mechanistic insights and supports the design of controllable strategies for environmental remediation.",
+    "authors": [
+      "Yue Li",
+      "Chungui Yu",
+      "Shiyu Miao",
+      "Huachun Lan",
+      "Xiaoqiang An",
+      "Huijuan Liu",
+      "Jiuhui Qu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428479+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00641",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00641",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrate",
+      "Chemistry",
+      "Electron transfer",
+      "Environmental chemistry",
+      "Environmental science",
+      "Water pollution",
+      "Mass transfer",
+      "Inorganic chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02572",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02572",
+    "doi": "10.1021/acs.est.6c02572",
+    "title": "Self-Regenerating PFOA Defluorination in Groundwater via Endogenous Electron Feedback in Biomimetic Molecular Trap",
+    "abstract": "CoPc achieved >80% defluorination at 30 °C and >30% at 10 °C, highlighting the potential of molecular template engineering as a biomimetic strategy for groundwater remediation and for overcoming C-F activation and metal-center deactivation.",
+    "authors": [
+      "Le Wang",
+      "Qing Han",
+      "Xiaojun Ma",
+      "Yongxin Li",
+      "Jun Dong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428682+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02572",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02572",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Groundwater",
+      "Environmental remediation",
+      "Chemistry",
+      "Groundwater remediation",
+      "Environmental chemistry",
+      "Trap (plumbing)",
+      "Human decontamination",
+      "Groundwater pollution"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142532",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142532",
+    "doi": "10.1016/j.jhazmat.2026.142532",
+    "title": "Changing pH, organic matter, and redox state govern contaminant mobility during waste stabilization in landfill simulation reactors",
+    "abstract": "Landfills remain an important endpoint for waste and waste residues, yet current management in the Netherlands requires eternal aftercare to protect public health and the environment. Enhanced waste stabilization in landfills through active treatment, i.e. aeration and leachate recirculation, has potential as a sustainable alternative to current landfill management. However, the influence of active treatment on solid waste properties and subsequent leaching of hazardous contaminants has only received limited investigation. This study investigates these influences in landfill simulation reactors containing 30 kg of waste from different origins, which were treated using aeration, leachate recirculation, and their combination. Large differences in leachate contaminant concentrations were found between treatments. A shift from leachate recirculation to aeration changed prevailing redox conditions from anaerobic to aerobic and decreased pH and dissolved organic and inorganic carbon. Consequently, concentrations of ammonium and inorganic contaminants with a high organic matter binding affinity decreased, whereas other inorganic contaminants first increased in concentration due to mineral dissolution followed by a decrease due to mineral precipitation or binding to reactive surfaces. The underlying mechanisms of these trends were identified based on geochemical modelling. The observed changes during aeration were accelerated when aeration was preceded by leachate recirculation, and concentrations rebounded when anaerobic conditions were reintroduced. Our findings ultimately demonstrate that active treatment of landfills requires careful consideration of the most effective strategy, as trade-offs in contaminant leaching mean their potential risks should be weighed against each other.",
+    "authors": [
+      "Nick Quist",
+      "Frank van Raffe",
+      "Joris J. Dijkstra",
+      "Rob N.J. Comans"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:11.948958+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142532",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142532",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Leachate",
+      "Aeration",
+      "Leaching (pedology)",
+      "Waste management",
+      "Environmental science",
+      "Municipal solid waste",
+      "Bioreactor landfill",
+      "Contamination"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142342",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142342",
+    "doi": "10.1016/j.jhazmat.2026.142342",
+    "title": "Silica-coated nanosized zero-valent iron/persulfate system for sequential reduction–oxidation remediation of subsurface contamination: A feasibility study",
+    "abstract": "Sequential reduction and oxidation processes are promising for mineralizing recalcitrant contaminants with high oxidation states. The reduction step transforms such contaminants into oxidizable intermediates that are subsequently mineralized in the oxidation step. In this study, we assessed a sequential reduction-oxidation system using silica-coated nanosized zero-valent iron particles (nZVI@SiO2) and persulfate to establish in situ reactive zones (IRZs) for groundwater remediation. A sequential column and a physical aquifer model were used to simulate groundwater environments in the field. The silica coating made the nZVI@SiO2 markedly more mobile and selective than bare nZVI. In the column reactor, strong positive correlations were found between the consumption of nZVI@SiO2 (being a consumable reductive material) and the amounts of nitrobenzene reduced and aniline formed. The sequential reduction-oxidation process induced by the combination of the nZVI@SiO2 reductive column and the persulfate oxidative column markedly enhanced contaminant mineralization, which could not be achieved effectively through only reduction or only oxidation. A more practical test of the treatment process for in situ reactive zone remediation was performed using a three-dimensional physical aquifer model reactor. The removal efficiencies achieved using nZVI@SiO2 in reactors of different sizes were determined, and extrapolations were performed to determine a quantitative baseline for designing effective nZVI@SiO2 treatment systems for field applications.",
+    "authors": [
+      "Quoc Bien Nguyen",
+      "Cheolyong Kim",
+      "Van Quyet Nguyen",
+      "Thi Hai Nguyen",
+      "Son Hai Truong-Lam",
+      "Inseong Hwang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:11.948932+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142342",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142342",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Persulfate",
+      "Nitrobenzene",
+      "Environmental remediation",
+      "Aquifer",
+      "Zerovalent iron",
+      "Groundwater",
+      "Permeable reactive barrier",
+      "Groundwater remediation"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,

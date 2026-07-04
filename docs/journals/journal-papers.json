@@ -1,12 +1,366 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c06193",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06193",
+    "doi": "10.1021/acs.est.6c06193",
+    "title": "Distinct Source-Sink Patterns and Vertical Consumption of Alkyl and Aryl Organophosphate Esters in the Remote Ocean and Its Marginal Sea",
+    "abstract": "Organophosphorus esters (OPEs) have been widely used as flame retardants and plasticizers and are globally ubiquitous. In the marine environment, OPEs primarily originate from continental sources and are initially confined to marginal seas before reaching remote oceans. However, their differing biogeochemical fates in these two regions remain unclear. This study investigated regional variations in the biogeochemical regulation mechanisms of OPEs (alkyl and aryl) across the Western Pacific and the South China Sea (112°E to 163°E) by analyzing their air-sea interface processes and vertical profiles. Results revealed that the South China Sea exhibited net inputs of OPEs (1.66 ± 1.36 μg m –2 d –1 ), while the Western Pacific mainly showed outputs (0.41 ± 1.15 μg m –2 d –1 ) to the atmosphere, forming patterns characterized by remote sources and marginal sinks. In vertical profiles, OPE consumption in the upper water column of the South China Sea was mainly driven by biodegradation, in contrast to the Western Pacific, where it was primarily controlled by the biological pump. This study reveals the distinct OPE fates in the remote ocean versus the marginal sea, highlighting the Western Pacific Warm Pool as a source of OPEs. Future research should address their marine coexistence with precursors and transformation products.",
+    "authors": [
+      "Jingwen Shi",
+      "Mengyang Liu",
+      "Yiming Wang",
+      "Jiandong Ye",
+      "Mingjun Feng",
+      "Zi-Feng Zhang",
+      "Yixue Jiang",
+      "Lin Zhang",
+      "Xiaohua Wang",
+      "Yanjian Jin",
+      "Yan Lin",
+      "Hongwei Ke",
+      "Zhaoguang Xu",
+      "Xuke Chen",
+      "Junge Wang",
+      "Yi-Fan Li",
+      "Minggang Cai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-03T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428268+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06193",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06193",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biogeochemical cycle",
+      "Environmental science",
+      "Oceanography",
+      "Pacific ocean",
+      "China",
+      "Water column",
+      "Seawater",
+      "Alkyl"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03733",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03733",
+    "doi": "10.1021/acs.est.6c03733",
+    "title": "Can Data Mining Improve Methane Correction Factors for Urban, Nonsewered Sanitation?",
+    "abstract": "Nearly half of the world's population relies on nonsewered sanitation, and in urban areas, intermittent onsite storage of wastewater prior to road-based transport to treatment is common. Anerobic biological activity during storage generates methane, contributing to greenhouse gas emissions and posing challenges for climate mitigation. Current estimates of methane emissions rely on methane correction factors (MCFs) in the Intergovernmental Panel on Climate Change (IPCC) guidelines that are based on theoretical assumptions and increasingly viewed as not valid. In this Perspective, we use 1349 data points from onsite storage of wastewater in 11 cities to show that obtaining accurate city-wide estimates is complicated by highly variable properties of in situ wastewater and storage conditions and hence biological production of methane. When it comes to greenhouse gas emissions from nonsewered sanitation, the sector has so far focused on storage, but as evidence suggests these estimates are too high, we propose that emphasis should in fact be placed on the entire service chain.",
+    "authors": [
+      "Michael Vogel",
+      "Linda Strande"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428449+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03733",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03733",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03733?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Greenhouse gas",
+      "Environmental science",
+      "Methane emissions",
+      "Methane",
+      "Climate change",
+      "Wastewater",
+      "Environmental engineering",
+      "Population"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06775",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06775",
+    "doi": "10.1021/acs.est.6c06775",
+    "title": "Generalizable and Transferable Machine Learning Enables Accelerated Metal–Organic Framework Discovery in Gas Separations",
+    "abstract": "Gas separation is central to industrial processes that drive climate mitigation, clean energy, and sustainable technologies. Metal–organic frameworks (MOFs) offer remarkable tunability for adsorption-based separations, yet identifying optimal materials remains challenging due to their vast structural diversity, costly simulations, and the difficulty of achieving a full range of desired properties. Existing machine learning approaches have accelerated screening but often lack generalizability across diverse gas pairs and operating conditions. Herein, we present BiMix-Bench, a curated database comprising ∼125,900 MOFs and five binary gas mixtures. Leveraging this dataset, LightGBM regressor (LGBMR) models are developed to achieve high predictive accuracy for gas uptakes ( R 2 = 0.93 and 0.92) and selectivity ( R 2 = 0.95) under strict robustness controls, including seed randomness and cross validation. Using CO 2 /H 2 as a case study, we evaluate both zero-shot and few-shot transfer performance. While zero-shot predictions provide limited out-of-distribution accuracy, the pretrained LGBMR models can be efficiently adapted with a small number of new simulations ( N = 204) through transfer learning. This data-efficient adaptation enables the rapid identification of top-performing MOFs, which are subsequently validated through grand canonical Monte Carlo simulations. This generalizable and interpretable framework enables scalable, data-driven discovery of advanced adsorbents for complex and evolving separation tasks.",
+    "authors": [
+      "Meiqi Yang",
+      "Jianhao Qian",
+      "Ruoyu Wang",
+      "Menachem Elimelech"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428740+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06775",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06775",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Computer science",
+      "Machine learning",
+      "Artificial intelligence",
+      "Key (lock)",
+      "Engineering",
+      "Support vector machine",
+      "Data mining",
+      "Artificial neural network"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00641",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00641",
+    "doi": "10.1021/acs.est.6c00641",
+    "title": "Microalgae-Mediated Electron Transfer and Allocation in Paracoccus denitrificans for Efficient Nitrate Removal",
+    "abstract": "Microalgal-bacterial systems provide a promising strategy to enhance the nitrate removal performance of denitrifiers via the traditionally assumed provision of electron donors or enrichment of functional microorganisms, while the single-species regulatory mechanism remains unclear. Chlorella vulgaris ( C. vulgaris ) could markedly improve the nitrate removal by Paracoccus denitrificans ( P. denitrificans ) even under nutrient-replete conditions, contributing to a 2.48-fold increase in the nitrate removal rate constant compared to the sum of monocultures, indicating non-nutritional regulatory effects. Transcriptomics showed glycolytic genes in P. denitrificans were upregulated by 1.65 to 10.1-fold, accompanied by a 51.0% increase in NADH production. Lactate, as a key intermediate, activated the bacterial electron transport chain (ETC), with ETC-related gene expression upregulated by 2.83 to 2.95-fold. Furthermore, bacterial ammonium induced microalgal glutamate synthesis and release, which likely acted as a signaling molecule to upregulate bacterial nitrate reductase expression. These interactions redirected electrons toward nitrate reduction, increasing carbon utilization efficiency for nitrate removal by 82.75%. Microalgae coordinately optimized bacterial carbon and nitrogen metabolism, reprogramming electron generation, transfer, and allocation to achieve efficient nitrate conversion. This work provides molecular-level mechanistic insights and supports the design of controllable strategies for environmental remediation.",
+    "authors": [
+      "Yue Li",
+      "Chungui Yu",
+      "Shiyu Miao",
+      "Huachun Lan",
+      "Xiaoqiang An",
+      "Huijuan Liu",
+      "Jiuhui Qu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428479+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00641",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00641",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrate",
+      "Chemistry",
+      "Electron transfer",
+      "Environmental chemistry",
+      "Environmental science",
+      "Water pollution",
+      "Mass transfer",
+      "Inorganic chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02572",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02572",
+    "doi": "10.1021/acs.est.6c02572",
+    "title": "Self-Regenerating PFOA Defluorination in Groundwater via Endogenous Electron Feedback in Biomimetic Molecular Trap",
+    "abstract": "CoPc achieved >80% defluorination at 30 °C and >30% at 10 °C, highlighting the potential of molecular template engineering as a biomimetic strategy for groundwater remediation and for overcoming C-F activation and metal-center deactivation.",
+    "authors": [
+      "Le Wang",
+      "Qing Han",
+      "Xiaojun Ma",
+      "Yongxin Li",
+      "Jun Dong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-02T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:06.428682+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02572",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02572",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Groundwater",
+      "Environmental remediation",
+      "Chemistry",
+      "Groundwater remediation",
+      "Environmental chemistry",
+      "Trap (plumbing)",
+      "Human decontamination",
+      "Groundwater pollution"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c04506",
     "source": "journal",
     "source_detail": "crossref",
     "source_paper_id": "10.1021/acs.est.6c04506",
     "doi": "10.1021/acs.est.6c04506",
     "title": "The Influences of Sediment Load on the Biodiversity of Algal Turfs in Coral Reef Ecosystems through Environmental DNA Analysis",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Sediment input is one of the most significant threats to coral reef ecosystems globally, yet its ecological impacts on biodiversity and community structure remain underappreciated. In this study, we utilized a multimarker environmental DNA (eDNA) metabarcoding technique to investigate how sediment load affects diverse taxa within algal turfs in coral reefs of the South China Sea. Using three assays (16S rRNA, nuclear 18S rRNA, and mitochondrial COI), we identified 1,143 genera, dominated by Proteobacteria, Cyanobacteria, Rhodophyta, Dinoflagellata, Mollusca, and Arthropoda. The diversity and species compositions of prokaryotes and eukaryotes varied across algal turf types subjected to different sediment load levels. Prokaryotic and eukaryotic diversity were higher in short algal turfs, whereas cyanobacteria dominated long, sediment-laden algal turfs (up to 62.30% of 16S sequences), revealing a clear shift in the dominance of primary producers from diverse eukaryotic algae to unique photosynthetic cyanobacteria. Sediment-related variables (algal canopy height, sediment mass, and grain size) were critical, explaining 25.42% and 28.00% of the variation in prokaryotes and eukaryotes, respectively─far more than other eco-environmental variables. These findings indicate that sediment load is strongly associated with the community structure of algal turfs and may be linked to reduced diversity of primary producers.",
     "authors": [
       "Xianzhi Lin",
       "Yang Liu",
@@ -24,7 +378,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:28.823824+00:00",
+    "updated_at": "2026-07-04T20:22:06.428656+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04506",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04506",
     "pdf_url": null,
@@ -40,64 +394,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03801",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03801",
-    "doi": "10.1021/acs.est.6c03801",
-    "title": "PFAS in Fast Foods with Hot-Contact to Food-Contact Materials: Occurrence, Packaging Influence, and Risk Priority",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Xiaomin Li",
-      "Nannan Zhao",
-      "Xin Liu",
-      "Tong Li",
-      "Yuxin Liu",
-      "Ruiguo Wang",
-      "Shang Du",
-      "Xu Wang",
-      "Peilong Wang",
-      "Guangbo Qu",
-      "Jianjie Fu",
-      "Guibin Jiang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:28.824107+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03801",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03801",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -109,14 +407,19 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Environmental science",
-      "Environmental health",
-      "Risk analysis (engineering)",
-      "Risk assessment",
-      "Business",
-      "Food contaminant",
-      "Waste management",
-      "Food packaging"
+      "Ecology",
+      "Coral reef",
+      "Biodiversity",
+      "Biology",
+      "Reef",
+      "Ecosystem",
+      "Algae",
+      "Sediment"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -128,7 +431,7 @@
     "source_paper_id": "10.1021/acs.est.6c02605",
     "doi": "10.1021/acs.est.6c02605",
     "title": "Source-Specific Dynamics of Emerging Contaminants in a Megacity River Basin Revealed by Targeted and Nontargeted Analysis",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Urban rivers in megacities serve as major sinks for diverse emerging contaminants (ECs). However, a comprehensive understanding of their sources and dynamics remains limited. This study employs an integrated targeted and nontargeted analysis to investigate ECs in the Wenyu River basin of Beijing and its associated sewage treatment plant (STP) effluents. We identified/tentatively identified and quantified 480 ECs, with household chemicals dominating the contaminant profile. Hierarchical cluster analysis delineated five distinct anthropogenic source types: influenza prevention compounds, daily lifestyle chemicals, sunscreen/insecticide residues, rural diffuse inputs, and traffic/waterfront landscape emissions. Results indicate that STP effluents constitute the primary intermediary for the first three categories, exerting a dominant influence on riverine EC levels, demonstrated by path coefficients of 0.736 in spring and 0.585 in summer. Seasonal variations revealed clear patterns: influenza- and sunscreen-related sources showed pronounced fluctuations corresponding to flu season and sunlight exposure periods, whereas traffic-landscape sources peaked during summer rainfall events. Ecological risk assessment indicated that 91.4% of the total environmental risk originated from STP-derived ECs, with telmisartan and fipronil identified as the compounds posing the highest ecological risk. This study provides new insights into the source-specific dynamics and seasonal drivers of ECs in urban rivers, offering a scientific basis for targeted pollution control strategies.",
     "authors": [
       "Tianchang Huang",
       "Yitao Lyu",
@@ -147,7 +450,7 @@
       "est"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:28.823991+00:00",
+    "updated_at": "2026-07-04T20:22:06.428804+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02605",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02605",
     "pdf_url": null,
@@ -164,6 +467,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -183,6 +487,11 @@
       "Hydrology (agriculture)",
       "Water resource management",
       "Environmental engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -209,7 +518,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472228+00:00",
+    "updated_at": "2026-07-04T20:22:09.084552+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125853",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125853",
     "pdf_url": null,
@@ -278,7 +587,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.471960+00:00",
+    "updated_at": "2026-07-04T20:22:09.084142+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125891",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125891",
     "pdf_url": null,
@@ -349,7 +658,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.471832+00:00",
+    "updated_at": "2026-07-04T20:22:09.084009+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125893",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125893",
     "pdf_url": null,
@@ -417,7 +726,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472174+00:00",
+    "updated_at": "2026-07-04T20:22:09.084367+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125886",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125886",
     "pdf_url": null,
@@ -487,7 +796,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472411+00:00",
+    "updated_at": "2026-07-04T20:22:09.084578+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125887",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125887",
     "pdf_url": null,
@@ -533,57 +842,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-watres-2026-126400",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.watres.2026.126400",
-    "doi": "10.1016/j.watres.2026.126400",
-    "title": "Development of an electronic nose to characterize geosmin and 2-methylisoborneol of water collected from different phases in water treatment plants",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Bingyang Wang",
-      "Yu Yan",
-      "Xiaodan Li",
-      "Hongwei Zhai",
-      "Xia Han",
-      "Gang Lu",
-      "Zhiyong Chang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472126+00:00",
-    "link": "https://doi.org/10.1016/j.watres.2026.126400",
-    "abs_url": "https://doi.org/10.1016/j.watres.2026.126400",
-    "pdf_url": null,
-    "journal": "Water Research",
-    "journal_key": "water_research",
-    "journal_label": "WR",
-    "journal_issn": [
-      "0043-1354"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-watres-2026-125888",
     "source": "journal",
     "source_detail": "crossref",
@@ -607,7 +865,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.471990+00:00",
+    "updated_at": "2026-07-04T20:22:09.084175+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125888",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125888",
     "pdf_url": null,
@@ -644,7 +902,7 @@
       "Nitrogen",
       "Extracellular polymeric substance"
     ],
-    "citation_count": 0,
+    "citation_count": 1,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -674,7 +932,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472045+00:00",
+    "updated_at": "2026-07-04T20:22:09.084232+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125922",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125922",
     "pdf_url": null,
@@ -740,7 +998,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472069+00:00",
+    "updated_at": "2026-07-04T20:22:09.084258+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125872",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125872",
     "pdf_url": null,
@@ -809,7 +1067,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472020+00:00",
+    "updated_at": "2026-07-04T20:22:09.084206+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125880",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125880",
     "pdf_url": null,
@@ -883,7 +1141,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472311+00:00",
+    "updated_at": "2026-07-04T20:22:09.084499+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125857",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125857",
     "pdf_url": null,
@@ -955,7 +1213,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472339+00:00",
+    "updated_at": "2026-07-04T20:22:09.084527+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125837",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125837",
     "pdf_url": null,
@@ -1024,7 +1282,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472507+00:00",
+    "updated_at": "2026-07-04T20:22:09.084695+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125851",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125851",
     "pdf_url": null,
@@ -1094,7 +1352,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472438+00:00",
+    "updated_at": "2026-07-04T20:22:09.084605+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125904",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125904",
     "pdf_url": null,
@@ -1162,7 +1420,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:34.472383+00:00",
+    "updated_at": "2026-07-04T20:22:09.084392+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125822",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125822",
     "pdf_url": null,
@@ -1208,146 +1466,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c00236",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00236",
-    "doi": "10.1021/acs.est.6c00236",
-    "title": "Integrating Experiments and Models To Unravel Interactions between Soil Organic Matter and Enhanced Weathering",
-    "abstract": "Key uncertainties remain in predicting carbon sequestration through enhanced weathering (EW), particularly regarding secondary mineral formation and interactions with the organic matter. We compared a coupled inorganic–organic geochemical model (PHREEQCENTURY) with soil measurements and CO 2 efflux from a 389-day mesocosm experiment using soils amended with varying alkaline manure, basalt, and dunite inputs. Silicate amendments did not enhance dissolved inorganic C leaching or significantly increase pedogenic carbonate accumulation. PHREEQC simulations indicated that base cations preferentially precipitated as secondary clays rather than carbonates, inhibiting CO 2 removal. Sequential extractions suggested that Al, Fe and base cations were mainly retained via adsorption to (hydr)oxides and organic matter, with additional retention in secondary clays indicated by models. Higher organic matter addition did not increase element release from basalt─and reduced leached K and Fe─while decreasing the reactive surface area of basalt, indicating a counteractive effect of manure on rock weathering. Alkaline manure addition also likely decreased weathering of pyroxene and olivine minerals. Cumulative soil CO 2 efflux did not differ significantly among treatments, consistent with PHREEQCENTURY simulations, predicting limited treatment effects due to minor changes in soil pH, moisture and organic C stabilization as mineral-associated organic matter in this soil.",
-    "authors": [
-      "Arthur Vienne",
-      "Tom Cox",
-      "Harun Niron",
-      "Bertrand Guenet",
-      "Reinaldy Poetra",
-      "Laura Steinwidder",
-      "Charline Vandenhove",
-      "Sara Vicca"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-30T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:28.824309+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00236",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00236",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Environmental chemistry",
-      "Weathering",
-      "Organic matter",
-      "Chemistry",
-      "Leaching (pedology)",
-      "Pedogenesis",
-      "Soil water",
-      "Soil production function"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c17872",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c17872",
-    "doi": "10.1021/acs.est.5c17872",
-    "title": "Research Pathways for Automotive Exhaust Catalysts during the Transition to Electric Mobility",
-    "abstract": "High Resolution Image Download MS PowerPoint Slide The global automotive market has long been dominated by internal combustion vehicles (ICVs), which have provided essential mobility but also emitted air pollutants that harm human health and environment. Exhaust treatment catalysts have played a central role in mitigating these emissions, allowing ICVs to remain viable for decades. However, despite advances in catalyst technology, the continued reliance on fossil-fuel vehicles has driven steady increases in atmospheric CO 2, contributing to climate change and intensifying global environmental risks. In recent years, the rapid rise of electric vehicles (EVs), which eliminate tailpipe emissions, has prompted renewed discussion about the future relevance of automotive catalysts. This transition raises key questions: How quickly can EVs replace ICVs? What environmental challenges will persist during this shift? What role will catalytic technologies play in the evolving transportation landscape? In this contribution, we examine the environmental motivations behind EV adoption and assess their benefits and limitations using recent market and emissions data. We highlight constraints, including adoption barriers, hybrid vehicle cold-start emissions, and the difficulty of electrifying heavy-duty transport, that ensure catalysts will remain essential. Finally, we outline pathways for catalyst researchers to redefine their focus and remain impactful in the coming decades.",
-    "authors": [
-      "Jueon Kim",
-      "Seong Yeol Jang",
-      "Jae Hyeon Yu",
-      "Soo Chool Lee",
-      "Jaeha Lee"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-06-30T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:28.824333+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c17872",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c17872",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c17872?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Automotive industry",
-      "Relevance (law)",
-      "Key (lock)",
-      "Electric vehicle",
-      "Business",
-      "Focus (optics)",
-      "Climate change",
-      "Electric cars"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": true
-  },
-  {
     "id": "journal-10-1021-acs-estlett-6c00543",
     "source": "journal",
     "source_detail": "crossref",
@@ -1367,7 +1485,7 @@
       "est-letters"
     ],
     "published": "2026-06-30T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:31.516120+00:00",
+    "updated_at": "2026-07-04T20:22:08.070755+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00543",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00543?ref=article_openPDF",
@@ -1431,7 +1549,7 @@
       "est-letters"
     ],
     "published": "2026-06-29T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:31.516256+00:00",
+    "updated_at": "2026-07-04T20:22:08.070897+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00520",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
     "pdf_url": null,
@@ -1505,7 +1623,7 @@
       "est-letters"
     ],
     "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:31.516291+00:00",
+    "updated_at": "2026-07-04T20:22:08.070933+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00490",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
     "pdf_url": null,
@@ -1575,7 +1693,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774002+00:00",
+    "updated_at": "2026-07-04T20:22:11.948487+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "pdf_url": null,
@@ -1645,7 +1763,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.773858+00:00",
+    "updated_at": "2026-07-04T20:22:11.948251+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "pdf_url": null,
@@ -1691,6 +1809,73 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1016-j-jhazmat-2026-142532",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142532",
+    "doi": "10.1016/j.jhazmat.2026.142532",
+    "title": "Changing pH, organic matter, and redox state govern contaminant mobility during waste stabilization in landfill simulation reactors",
+    "abstract": "Landfills remain an important endpoint for waste and waste residues, yet current management in the Netherlands requires eternal aftercare to protect public health and the environment. Enhanced waste stabilization in landfills through active treatment, i.e. aeration and leachate recirculation, has potential as a sustainable alternative to current landfill management. However, the influence of active treatment on solid waste properties and subsequent leaching of hazardous contaminants has only received limited investigation. This study investigates these influences in landfill simulation reactors containing 30 kg of waste from different origins, which were treated using aeration, leachate recirculation, and their combination. Large differences in leachate contaminant concentrations were found between treatments. A shift from leachate recirculation to aeration changed prevailing redox conditions from anaerobic to aerobic and decreased pH and dissolved organic and inorganic carbon. Consequently, concentrations of ammonium and inorganic contaminants with a high organic matter binding affinity decreased, whereas other inorganic contaminants first increased in concentration due to mineral dissolution followed by a decrease due to mineral precipitation or binding to reactive surfaces. The underlying mechanisms of these trends were identified based on geochemical modelling. The observed changes during aeration were accelerated when aeration was preceded by leachate recirculation, and concentrations rebounded when anaerobic conditions were reintroduced. Our findings ultimately demonstrate that active treatment of landfills requires careful consideration of the most effective strategy, as trade-offs in contaminant leaching mean their potential risks should be weighed against each other.",
+    "authors": [
+      "Nick Quist",
+      "Frank van Raffe",
+      "Joris J. Dijkstra",
+      "Rob N.J. Comans"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:11.948958+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142532",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142532",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Leachate",
+      "Aeration",
+      "Leaching (pedology)",
+      "Waste management",
+      "Environmental science",
+      "Municipal solid waste",
+      "Bioreactor landfill",
+      "Contamination"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1016-j-jhazmat-2026-142474",
     "source": "journal",
     "source_detail": "crossref",
@@ -1715,7 +1900,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774420+00:00",
+    "updated_at": "2026-07-04T20:22:11.948655+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "pdf_url": null,
@@ -1787,7 +1972,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774260+00:00",
+    "updated_at": "2026-07-04T20:22:11.948719+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "pdf_url": null,
@@ -1858,7 +2043,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774316+00:00",
+    "updated_at": "2026-07-04T20:22:11.948843+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "pdf_url": null,
@@ -1932,7 +2117,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774142+00:00",
+    "updated_at": "2026-07-04T20:22:11.948406+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "pdf_url": null,
@@ -2003,7 +2188,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.773819+00:00",
+    "updated_at": "2026-07-04T20:22:11.948343+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "pdf_url": null,
@@ -2049,84 +2234,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-jhazmat-2026-142354",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142354",
-    "doi": "10.1016/j.jhazmat.2026.142354",
-    "title": "Low-dose PFOS exposure exacerbates rheumatoid arthritis via SIRT2–PAD4–mediated macrophage pyroptosis",
-    "abstract": "Perfluorooctane sulfonic acid (PFOS), a ubiquitous and persistent environmental pollutant, has been linked to diverse diseases in epidemiological studies; however, its role in rheumatoid arthritis (RA) progression at low exposure levels remains to be elucidated. In this article, we found a significant positive association between serum PFOS concentrations and RA prevalence, based on data from the National Health and Nutrition Examination Survey (NHANES). Consistent with these findings, chronic exposure to an environmentally relevant dose of PFOS via drinking water for 6 weeks aggravated joint swelling, inflammatory cell infiltration, and bone erosion in a collagen-induced arthritis (CIA) mouse model. Mechanistically, peptidyl arginine deiminase 4 (PAD4), identified as a significantly upregulated protein in synovial fluid through proteomic profiling, is induced by PFOS in macrophages. Consistently, the knockdown of PAD4 was shown to attenuate both PFOS-triggered macrophage pyroptosis in vitro and CIA progression in vivo. Further analyses demonstrated that PFOS suppressed the epigenetic regulator SIRT2, thereby inducing PAD4 transcriptional upregulation. Therefore, macrophage-specific overexpression of SIRT2 rescued PFOS-promoted pyroptosis and mitigated joint inflammation and structural damage in CIA mice. Taken together, these findings demonstrate that low dose PFOS exposure exacerbates RA progression through activation of a SIRT2-PAD4 pathway-dependent macrophage pyroptosis. This not only provides a novel mechanistic link between environmental pollutants and chronic inflammatory joint diseases but also highlights SIRT2/PAD4 axis as a potential therapeutic target for mitigating PFOS-associated immunopathology.",
-    "authors": [
-      "Zeqing Sun",
-      "Linghui Yu",
-      "Yun Li",
-      "Haoran Guo",
-      "Mengyao Li",
-      "Yuting Wen",
-      "Shasha Yao",
-      "Qiuju Liang",
-      "Zhijie Xu",
-      "Jiaqi Zhang",
-      "Ming Yang",
-      "Sijin Liu",
-      "Yuanliang Yan",
-      "Changying Li",
-      "Ming Gao"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774535+00:00",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142354",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142354",
-    "pdf_url": null,
-    "journal": "Journal of Hazardous Materials",
-    "journal_key": "jhm",
-    "journal_label": "JHM",
-    "journal_issn": [
-      "0304-3894"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Rheumatoid arthritis",
-      "Pyroptosis",
-      "Medicine",
-      "Macrophage",
-      "Immunology",
-      "Arthritis",
-      "Pathogenesis",
-      "Autoimmune disease"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-jhazmat-2026-142390",
     "source": "journal",
     "source_detail": "crossref",
@@ -2148,7 +2255,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.773917+00:00",
+    "updated_at": "2026-07-04T20:22:11.948312+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "pdf_url": null,
@@ -2218,7 +2325,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.773890+00:00",
+    "updated_at": "2026-07-04T20:22:11.948208+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "pdf_url": null,
@@ -2264,6 +2371,75 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1016-j-jhazmat-2026-142342",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142342",
+    "doi": "10.1016/j.jhazmat.2026.142342",
+    "title": "Silica-coated nanosized zero-valent iron/persulfate system for sequential reduction–oxidation remediation of subsurface contamination: A feasibility study",
+    "abstract": "Sequential reduction and oxidation processes are promising for mineralizing recalcitrant contaminants with high oxidation states. The reduction step transforms such contaminants into oxidizable intermediates that are subsequently mineralized in the oxidation step. In this study, we assessed a sequential reduction-oxidation system using silica-coated nanosized zero-valent iron particles (nZVI@SiO2) and persulfate to establish in situ reactive zones (IRZs) for groundwater remediation. A sequential column and a physical aquifer model were used to simulate groundwater environments in the field. The silica coating made the nZVI@SiO2 markedly more mobile and selective than bare nZVI. In the column reactor, strong positive correlations were found between the consumption of nZVI@SiO2 (being a consumable reductive material) and the amounts of nitrobenzene reduced and aniline formed. The sequential reduction-oxidation process induced by the combination of the nZVI@SiO2 reductive column and the persulfate oxidative column markedly enhanced contaminant mineralization, which could not be achieved effectively through only reduction or only oxidation. A more practical test of the treatment process for in situ reactive zone remediation was performed using a three-dimensional physical aquifer model reactor. The removal efficiencies achieved using nZVI@SiO2 in reactors of different sizes were determined, and extrapolations were performed to determine a quantitative baseline for designing effective nZVI@SiO2 treatment systems for field applications.",
+    "authors": [
+      "Quoc Bien Nguyen",
+      "Cheolyong Kim",
+      "Van Quyet Nguyen",
+      "Thi Hai Nguyen",
+      "Son Hai Truong-Lam",
+      "Inseong Hwang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-04T20:22:11.948932+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142342",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142342",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Persulfate",
+      "Nitrobenzene",
+      "Environmental remediation",
+      "Aquifer",
+      "Zerovalent iron",
+      "Groundwater",
+      "Permeable reactive barrier",
+      "Groundwater remediation"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1016-j-jhazmat-2026-142435",
     "source": "journal",
     "source_detail": "crossref",
@@ -2288,7 +2464,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774084+00:00",
+    "updated_at": "2026-07-04T20:22:11.948599+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "pdf_url": null,
@@ -2354,7 +2530,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:40.774342+00:00",
+    "updated_at": "2026-07-04T20:22:11.948870+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "pdf_url": null,
@@ -2421,7 +2597,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452428+00:00",
+    "updated_at": "2026-07-04T20:22:10.086191+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "pdf_url": null,
@@ -2490,7 +2666,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452128+00:00",
+    "updated_at": "2026-07-04T20:22:10.085938+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "pdf_url": null,
@@ -2558,7 +2734,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452518+00:00",
+    "updated_at": "2026-07-04T20:22:10.086343+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "pdf_url": null,
@@ -2626,7 +2802,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452050+00:00",
+    "updated_at": "2026-07-04T20:22:10.085829+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "pdf_url": null,
@@ -2696,7 +2872,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452234+00:00",
+    "updated_at": "2026-07-04T20:22:10.086017+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "pdf_url": null,
@@ -2762,7 +2938,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452156+00:00",
+    "updated_at": "2026-07-04T20:22:10.085963+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "pdf_url": null,
@@ -2828,7 +3004,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.451916+00:00",
+    "updated_at": "2026-07-04T20:22:10.085762+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "pdf_url": null,
@@ -2896,7 +3072,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452181+00:00",
+    "updated_at": "2026-07-04T20:22:10.085989+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "pdf_url": null,
@@ -2966,7 +3142,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452023+00:00",
+    "updated_at": "2026-07-04T20:22:10.085857+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "pdf_url": null,
@@ -3033,7 +3209,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452074+00:00",
+    "updated_at": "2026-07-04T20:22:10.085881+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "pdf_url": null,
@@ -3103,7 +3279,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-02T20:26:37.452100+00:00",
+    "updated_at": "2026-07-04T20:22:10.085909+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "pdf_url": null,
@@ -4366,6 +4542,59 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1016-j-jhazmat-2026-142354",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142354",
+    "doi": "10.1016/j.jhazmat.2026.142354",
+    "title": "Low-dose PFOS exposure exacerbates rheumatoid arthritis via SIRT2–PAD4–mediated macrophage pyroptosis",
+    "abstract": "Perfluorooctane sulfonic acid (PFOS), a ubiquitous and persistent environmental pollutant, has been linked to diverse diseases in epidemiological studies; however, its role in rheumatoid arthritis (RA) progression at low exposure levels remains to be elucidated. In this article, we found a significant positive association between serum PFOS concentrations and RA prevalence, based on data from the National Health and Nutrition Examination Survey (NHANES). Consistent with these findings, chronic exposure to an environmentally relevant dose of PFOS via drinking water for 6 weeks aggravated joint swelling, inflammatory cell infiltration, and bone erosion in a collagen-induced arthritis (CIA) mouse model. Mechanistically, peptidyl arginine deiminase 4 (PAD4), identified as a significantly upregulated protein in synovial fluid through proteomic profiling, is induced by PFOS in macrophages. Consistently, the knockdown of PAD4 was shown to attenuate both PFOS-triggered macrophage pyroptosis in vitro and CIA progression in vivo. Further analyses demonstrated that PFOS suppressed the epigenetic regulator SIRT2, thereby inducing PAD4 transcriptional upregulation. Therefore, macrophage-specific overexpression of SIRT2 rescued PFOS-promoted pyroptosis and mitigated joint inflammation and structural damage in CIA mice. Taken together, these findings demonstrate that low dose PFOS exposure exacerbates RA progression through activation of a SIRT2-PAD4 pathway-dependent macrophage pyroptosis. This not only provides a novel mechanistic link between environmental pollutants and chronic inflammatory joint diseases but also highlights SIRT2/PAD4 axis as a potential therapeutic target for mitigating PFOS-associated immunopathology.",
+    "authors": [
+      "Zeqing Sun",
+      "Linghui Yu",
+      "Yun Li",
+      "Haoran Guo",
+      "Mengyao Li",
+      "Yuting Wen",
+      "Shasha Yao",
+      "Qiuju Liang",
+      "Zhijie Xu",
+      "Jiaqi Zhang",
+      "Ming Yang",
+      "Sijin Liu",
+      "Yuanliang Yan",
+      "Changying Li",
+      "Ming Gao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142354",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142354",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_label": "JHM",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:hazardous-materials",
+      "query:JHM"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1016-j-jhazmat-2026-142614",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -4666,6 +4895,51 @@
     "published": "2026-06-01",
     "link": "https://doi.org/10.1016/j.watres.2026.126264",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126264",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_label": "WR",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:water-research",
+      "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126400",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.watres.2026.126400",
+    "doi": "10.1016/j.watres.2026.126400",
+    "title": "Development of an electronic nose to characterize geosmin and 2-methylisoborneol of water collected from different phases in water treatment plants",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Bingyang Wang",
+      "Yu Yan",
+      "Xiaodan Li",
+      "Hongwei Zhai",
+      "Xia Han",
+      "Gang Lu",
+      "Zhiyong Chang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.watres.2026.126400",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126400",
     "pdf_url": null,
     "journal": "Water Research",
     "journal_label": "WR",
@@ -5326,6 +5600,48 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-5c17872",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c17872",
+    "doi": "10.1021/acs.est.5c17872",
+    "title": "Research Pathways for Automotive Exhaust Catalysts during the Transition to Electric Mobility",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide The global automotive market has long been dominated by internal combustion vehicles (ICVs), which have provided essential mobility but also emitted air pollutants that harm human health and environment. Exhaust treatment catalysts have played a central role in mitigating these emissions, allowing ICVs to remain viable for decades. However, despite advances in catalyst technology, the continued reliance on fossil-fuel vehicles has driven steady increases in atmospheric CO 2, contributing to climate change and intensifying global environmental risks. In recent years, the rapid rise of electric vehicles (EVs), which eliminate tailpipe emissions, has prompted renewed discussion about the future relevance of automotive catalysts. This transition raises key questions: How quickly can EVs replace ICVs? What environmental challenges will persist during this shift? What role will catalytic technologies play in the evolving transportation landscape? In this contribution, we examine the environmental motivations behind EV adoption and assess their benefits and limitations using recent market and emissions data. We highlight constraints, including adoption barriers, hybrid vehicle cold-start emissions, and the difficulty of electrifying heavy-duty transport, that ensure catalysts will remain essential. Finally, we outline pathways for catalyst researchers to redefine their focus and remain impactful in the coming decades.",
+    "authors": [
+      "Jueon Kim",
+      "Seong Yeol Jang",
+      "Jae Hyeon Yu",
+      "Soo Chool Lee",
+      "Jaeha Lee"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-30",
+    "link": "https://doi.org/10.1021/acs.est.5c17872",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17872",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.5c17872?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown"
+  },
+  {
     "id": "journal-10-1021-acs-est-5c17904",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -5908,6 +6224,52 @@
     "open_pdf_status": "open_pdf",
     "open_pdf_available": true,
     "open_pdf_source": "unknown",
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00236",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00236",
+    "doi": "10.1021/acs.est.6c00236",
+    "title": "Integrating Experiments and Models To Unravel Interactions between Soil Organic Matter and Enhanced Weathering",
+    "abstract": "Key uncertainties remain in predicting carbon sequestration through enhanced weathering (EW), particularly regarding secondary mineral formation and interactions with the organic matter. We compared a coupled inorganic–organic geochemical model (PHREEQCENTURY) with soil measurements and CO 2 efflux from a 389-day mesocosm experiment using soils amended with varying alkaline manure, basalt, and dunite inputs. Silicate amendments did not enhance dissolved inorganic C leaching or significantly increase pedogenic carbonate accumulation. PHREEQC simulations indicated that base cations preferentially precipitated as secondary clays rather than carbonates, inhibiting CO 2 removal. Sequential extractions suggested that Al, Fe and base cations were mainly retained via adsorption to (hydr)oxides and organic matter, with additional retention in secondary clays indicated by models. Higher organic matter addition did not increase element release from basalt─and reduced leached K and Fe─while decreasing the reactive surface area of basalt, indicating a counteractive effect of manure on rock weathering. Alkaline manure addition also likely decreased weathering of pyroxene and olivine minerals. Cumulative soil CO 2 efflux did not differ significantly among treatments, consistent with PHREEQCENTURY simulations, predicting limited treatment effects due to minor changes in soil pH, moisture and organic C stabilization as mineral-associated organic matter in this soil.",
+    "authors": [
+      "Arthur Vienne",
+      "Tom Cox",
+      "Harun Niron",
+      "Bertrand Guenet",
+      "Reinaldy Poetra",
+      "Laura Steinwidder",
+      "Charline Vandenhove",
+      "Sara Vicca"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-30",
+    "link": "https://doi.org/10.1021/acs.est.6c00236",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00236",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -7867,6 +8229,56 @@
     "published": "2026-06-19",
     "link": "https://doi.org/10.1021/acs.est.6c03782",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03782",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03801",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03801",
+    "doi": "10.1021/acs.est.6c03801",
+    "title": "PFAS in Fast Foods with Hot-Contact to Food-Contact Materials: Occurrence, Packaging Influence, and Risk Priority",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Xiaomin Li",
+      "Nannan Zhao",
+      "Xin Liu",
+      "Tong Li",
+      "Yuxin Liu",
+      "Ruiguo Wang",
+      "Shang Du",
+      "Xu Wang",
+      "Peilong Wang",
+      "Guangbo Qu",
+      "Jianjie Fu",
+      "Guibin Jiang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1021/acs.est.6c03801",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03801",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
