@@ -2617,7 +2617,7 @@
       "Ecotoxicology",
       "Aquatic toxicology"
     ],
-    "citation_count": 0,
+    "citation_count": 1,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -3318,6 +3318,193 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06924",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06924",
+    "doi": "10.1021/acs.est.6c06924",
+    "title": "Investigating Ultrafine Aerosol Turbulent Fluxes during Atmospheric New Particle Formation Events",
+    "abstract": "Quantitatively predicting new particle formation (NPF) remains challenging, largely because the true origin of events observed on the surface is often ambiguous. This potential for misattributing particles formed aloft as ground-level events fundamentally compromises predictive models built on local measurements. Here, we propose and validate an analytical framework using airborne eddy covariance and continuous wavelet transform to directly quantify the vertical turbulent flux of newly formed particles and determine their dominant vertical transport direction. Analyzing data from a dedicated airborne campaign over the Southern Great Plains, we observed a consistent and strong downward turbulent flux of ultrafine aerosols during NPF events, with a mean value of −133.8 cm –3 m s –1 in the entrainment zone, whereas fluxes on non-NPF days were negligible. Our spectral analysis further confirms that these directional fluxes can be reliably captured by using standard 1 Hz aerosol instrumentation. These findings suggest that NPF events associated with entrainment from the overlying residual/stable layer during planetary boundary layer growth represent a significant and potentially underestimated source of boundary layer aerosols. The framework presented here provides a new methodology to correctly attribute NPF events to specific altitudes, thereby improving our process-level understanding of particle formation in the atmosphere.",
+    "authors": [
+      "Ruoyu Zhang",
+      "Damao Zhang",
+      "Fan Mei",
+      "Manisha Mehra",
+      "Jiaxuan Cai",
+      "Haofei Yu",
+      "Ajmal Rasheeda Satheesh",
+      "Gerardo Carillo-Cardenas",
+      "Anna Gannet Hallar",
+      "Nicholas Meskhidze",
+      "Yang Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-04T00:00:00+00:00",
+    "updated_at": "2026-07-05T20:48:02.783595+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06924",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06924",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Entrainment (biomusicology)",
+      "Aerosol",
+      "Planetary boundary layer",
+      "Atmospheric sciences",
+      "Turbulence",
+      "Boundary layer",
+      "Environmental science",
+      "Flux (metallurgy)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04737",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04737",
+    "doi": "10.1021/acs.est.6c04737",
+    "title": "The Efficiencies and Products of Dilute Methane Oxidation in a Chlorine Radical Photoreactor",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide A potential approach for mitigating the climate impact of hard-to-abate, dilute (less than 1000 ppm; ppm) methane (CH 4 ) is gas-phase advanced oxidation (GPAO). Here, we present experimental results from a benchtop GPAO reactor oxidizing CH 4 with chlorine radicals (Cl · ) produced from the photolysis of chlorine gas (Cl 2 ), a process we term “Cl 2 -GPAO.” We find that at CH 4 concentrations from 2 to 90 ppm, supplying Cl 2 in a ratio of 1:1 with CH 4 uses photogenerated Cl · efficiently, with 3 Cl · photogenerated for each CH 4 oxidized with only 20% of Cl · recombining to Cl 2 . When more Cl 2 is added, the product balance shifts from mainly carbon monoxide to mainly carbon dioxide. Cl 2 -GPAO performs similarly under relative humidities between 5 and 60%. In the presence of ppm-level ammonia, toluene, nitric oxide, and hydrogen sulfide, CH 4 conversion decreases, suggesting that gaseous contaminants compete with CH 4 for Cl · . Gas chromatography–mass spectrometry revealed that Cl 2 -GPAO with 30 ppm CH 4 and Cl 2 produces 1.05 ± 0.32 part per billion (ppb) methyl chloride and 1.25 ± 0.38 ppb chloroform. Methylene chloride and carbon tetrachloride were not detected. We discuss the implications for cost-effective and climate-beneficial Cl 2 -GPAO at scale.",
+    "authors": [
+      "Richard Randall",
+      "Max I. Kessler",
+      "Robert B. Jackson",
+      "Arun Majumdar"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-04T00:00:00+00:00",
+    "updated_at": "2026-07-05T20:48:02.783529+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04737",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04737",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Chemistry",
+      "Chlorine",
+      "Hydrogen chloride",
+      "Oxidizing agent",
+      "Carbon monoxide",
+      "Methane",
+      "Chloride",
+      "Inorganic chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126423",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126423",
+    "doi": "10.1016/j.watres.2026.126423",
+    "title": "Reshaping Geochemical Fate of Gold-Mining-Derived Arsenic in Jiehe River Sediments from Molecular to Field Scales via an Innovative Iron-Based Mineralization Strategy",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Weichen Luo",
+      "Ting Li",
+      "Yujun Zhou",
+      "Baoting Ding",
+      "Xing Du",
+      "Xuan Liu",
+      "Yongpeng Zhang",
+      "Zhaodi Wu",
+      "Jianru Liang",
+      "Shuqing Li",
+      "Jun Chen",
+      "Lixiang Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-05T20:48:04.710322+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126423",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126423",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

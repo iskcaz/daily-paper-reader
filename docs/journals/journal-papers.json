@@ -1,5 +1,136 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c06924",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06924",
+    "doi": "10.1021/acs.est.6c06924",
+    "title": "Investigating Ultrafine Aerosol Turbulent Fluxes during Atmospheric New Particle Formation Events",
+    "abstract": "Quantitatively predicting new particle formation (NPF) remains challenging, largely because the true origin of events observed on the surface is often ambiguous. This potential for misattributing particles formed aloft as ground-level events fundamentally compromises predictive models built on local measurements. Here, we propose and validate an analytical framework using airborne eddy covariance and continuous wavelet transform to directly quantify the vertical turbulent flux of newly formed particles and determine their dominant vertical transport direction. Analyzing data from a dedicated airborne campaign over the Southern Great Plains, we observed a consistent and strong downward turbulent flux of ultrafine aerosols during NPF events, with a mean value of −133.8 cm –3 m s –1 in the entrainment zone, whereas fluxes on non-NPF days were negligible. Our spectral analysis further confirms that these directional fluxes can be reliably captured by using standard 1 Hz aerosol instrumentation. These findings suggest that NPF events associated with entrainment from the overlying residual/stable layer during planetary boundary layer growth represent a significant and potentially underestimated source of boundary layer aerosols. The framework presented here provides a new methodology to correctly attribute NPF events to specific altitudes, thereby improving our process-level understanding of particle formation in the atmosphere.",
+    "authors": [
+      "Ruoyu Zhang",
+      "Damao Zhang",
+      "Fan Mei",
+      "Manisha Mehra",
+      "Jiaxuan Cai",
+      "Haofei Yu",
+      "Ajmal Rasheeda Satheesh",
+      "Gerardo Carillo-Cardenas",
+      "Anna Gannet Hallar",
+      "Nicholas Meskhidze",
+      "Yang Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-04T00:00:00+00:00",
+    "updated_at": "2026-07-05T20:48:02.783595+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06924",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06924",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Entrainment (biomusicology)",
+      "Aerosol",
+      "Planetary boundary layer",
+      "Atmospheric sciences",
+      "Turbulence",
+      "Boundary layer",
+      "Environmental science",
+      "Flux (metallurgy)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04737",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04737",
+    "doi": "10.1021/acs.est.6c04737",
+    "title": "The Efficiencies and Products of Dilute Methane Oxidation in a Chlorine Radical Photoreactor",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide A potential approach for mitigating the climate impact of hard-to-abate, dilute (less than 1000 ppm; ppm) methane (CH 4 ) is gas-phase advanced oxidation (GPAO). Here, we present experimental results from a benchtop GPAO reactor oxidizing CH 4 with chlorine radicals (Cl · ) produced from the photolysis of chlorine gas (Cl 2 ), a process we term “Cl 2 -GPAO.” We find that at CH 4 concentrations from 2 to 90 ppm, supplying Cl 2 in a ratio of 1:1 with CH 4 uses photogenerated Cl · efficiently, with 3 Cl · photogenerated for each CH 4 oxidized with only 20% of Cl · recombining to Cl 2 . When more Cl 2 is added, the product balance shifts from mainly carbon monoxide to mainly carbon dioxide. Cl 2 -GPAO performs similarly under relative humidities between 5 and 60%. In the presence of ppm-level ammonia, toluene, nitric oxide, and hydrogen sulfide, CH 4 conversion decreases, suggesting that gaseous contaminants compete with CH 4 for Cl · . Gas chromatography–mass spectrometry revealed that Cl 2 -GPAO with 30 ppm CH 4 and Cl 2 produces 1.05 ± 0.32 part per billion (ppb) methyl chloride and 1.25 ± 0.38 ppb chloroform. Methylene chloride and carbon tetrachloride were not detected. We discuss the implications for cost-effective and climate-beneficial Cl 2 -GPAO at scale.",
+    "authors": [
+      "Richard Randall",
+      "Max I. Kessler",
+      "Robert B. Jackson",
+      "Arun Majumdar"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-04T00:00:00+00:00",
+    "updated_at": "2026-07-05T20:48:02.783529+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04737",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04737",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Chemistry",
+      "Chlorine",
+      "Hydrogen chloride",
+      "Oxidizing agent",
+      "Carbon monoxide",
+      "Methane",
+      "Chloride",
+      "Inorganic chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c06193",
     "source": "journal",
     "source_detail": "crossref",
@@ -34,7 +165,7 @@
       "est"
     ],
     "published": "2026-07-03T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428268+00:00",
+    "updated_at": "2026-07-05T20:48:02.783800+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06193",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06193",
     "pdf_url": null,
@@ -100,7 +231,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428449+00:00",
+    "updated_at": "2026-07-05T20:48:02.783951+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03733",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03733",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03733?ref=article_openPDF",
@@ -167,7 +298,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428740+00:00",
+    "updated_at": "2026-07-05T20:48:02.784237+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06775",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06775",
     "pdf_url": null,
@@ -238,7 +369,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428479+00:00",
+    "updated_at": "2026-07-05T20:48:02.783980+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00641",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00641",
     "pdf_url": null,
@@ -307,7 +438,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428682+00:00",
+    "updated_at": "2026-07-05T20:48:02.784180+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02572",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02572",
     "pdf_url": null,
@@ -378,7 +509,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428656+00:00",
+    "updated_at": "2026-07-05T20:48:02.784153+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04506",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04506",
     "pdf_url": null,
@@ -450,7 +581,7 @@
       "est"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:06.428804+00:00",
+    "updated_at": "2026-07-05T20:48:02.784299+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02605",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02605",
     "pdf_url": null,
@@ -518,7 +649,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084552+00:00",
+    "updated_at": "2026-07-05T20:48:04.710401+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125853",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125853",
     "pdf_url": null,
@@ -587,7 +718,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084142+00:00",
+    "updated_at": "2026-07-05T20:48:04.710121+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125891",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125891",
     "pdf_url": null,
@@ -658,7 +789,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084009+00:00",
+    "updated_at": "2026-07-05T20:48:04.709994+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125893",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125893",
     "pdf_url": null,
@@ -695,7 +826,7 @@
       "Water quality",
       "Water resource management"
     ],
-    "citation_count": 1,
+    "citation_count": 2,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -726,7 +857,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084367+00:00",
+    "updated_at": "2026-07-05T20:48:04.710347+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125886",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125886",
     "pdf_url": null,
@@ -796,7 +927,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084578+00:00",
+    "updated_at": "2026-07-05T20:48:04.710567+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125887",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125887",
     "pdf_url": null,
@@ -865,7 +996,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084175+00:00",
+    "updated_at": "2026-07-05T20:48:04.710151+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125888",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125888",
     "pdf_url": null,
@@ -932,7 +1063,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084232+00:00",
+    "updated_at": "2026-07-05T20:48:04.710209+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125922",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125922",
     "pdf_url": null,
@@ -998,7 +1129,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084258+00:00",
+    "updated_at": "2026-07-05T20:48:04.710234+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125872",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125872",
     "pdf_url": null,
@@ -1067,7 +1198,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084206+00:00",
+    "updated_at": "2026-07-05T20:48:04.710182+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125880",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125880",
     "pdf_url": null,
@@ -1141,7 +1272,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084499+00:00",
+    "updated_at": "2026-07-05T20:48:04.710486+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125857",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125857",
     "pdf_url": null,
@@ -1213,7 +1344,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084527+00:00",
+    "updated_at": "2026-07-05T20:48:04.710514+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125837",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125837",
     "pdf_url": null,
@@ -1259,20 +1390,26 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-watres-2026-125851",
+    "id": "journal-10-1016-j-watres-2026-126423",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.watres.2026.125851",
-    "doi": "10.1016/j.watres.2026.125851",
-    "title": "Repurposing aluminum-based water treatment residual (WTR) as a filtration medium for microplastic removal: Performance, mechanisms, and real-water applicability",
-    "abstract": "Valorizing water treatment residual (WTR) aligns with circular-economy objectives by transforming water treatment sludge waste into value-added products. For the first time, we evaluated the performance and mechanisms of aluminum-based WTR as a cost-effective and environmentally benign filtration medium for MP removal. Our column experiments removed up to 97.47% of 10-µm carboxylated polypropylene microplastics (PP-COOH MPs) from synthetic water. MP removal increased with ionic strength and the presence of mono/multivalent cations (Na + , Ca 2+ ), primarily through charge neutralization, double-layer compression, and pore straining. WTR-based filtration also effectively removed MPs from the primary influent (95.6%) and final effluent (86.9%) of a full-scale wastewater treatment plant, as well as from the influent of a full-scale water treatment plant (97.1%). In addition, dissolved Al leached from WTR enhanced electrostatic attraction and MP aggregation, thereby promoting MP deposition on WTR surfaces. Overall, these findings demonstrate that WTR can be repurposed as a valuable material to control MP pollution, offering attractive opportunities to turn this waste into a beneficial resource. Given its potential to remove MP and other pollutants, WTR can be used as a filter medium to polish WWTP effluent, improve stormwater quality, or serve as a functional layer in landfill sites to mitigate leachate pollution.",
+    "source_paper_id": "10.1016/j.watres.2026.126423",
+    "doi": "10.1016/j.watres.2026.126423",
+    "title": "Reshaping Geochemical Fate of Gold-Mining-Derived Arsenic in Jiehe River Sediments from Molecular to Field Scales via an Innovative Iron-Based Mineralization Strategy",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Jianfei Chen",
-      "Lin Zhang",
-      "Seyed Hesam-Aldin Samaei",
-      "Zhenyu Li",
-      "Guohe Huang",
-      "Jinkai Xue"
+      "Weichen Luo",
+      "Ting Li",
+      "Yujun Zhou",
+      "Baoting Ding",
+      "Xing Du",
+      "Xuan Liu",
+      "Yongpeng Zhang",
+      "Zhaodi Wu",
+      "Jianru Liang",
+      "Shuqing Li",
+      "Jun Chen",
+      "Lixiang Zhou"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -1282,9 +1419,9 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084695+00:00",
-    "link": "https://doi.org/10.1016/j.watres.2026.125851",
-    "abs_url": "https://doi.org/10.1016/j.watres.2026.125851",
+    "updated_at": "2026-07-05T20:48:04.710322+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126423",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126423",
     "pdf_url": null,
     "journal": "Water Research",
     "journal_key": "water_research",
@@ -1297,8 +1434,6 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1306,23 +1441,6 @@
       "journal-watch",
       "core-journal",
       "water-research"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Water treatment",
-      "Filtration (mathematics)",
-      "Residual",
-      "Chemistry",
-      "Backwashing",
-      "Environmental science",
-      "Repurposing",
-      "Sewage treatment"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1352,7 +1470,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084605+00:00",
+    "updated_at": "2026-07-05T20:48:04.710615+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125904",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125904",
     "pdf_url": null,
@@ -1420,7 +1538,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:09.084392+00:00",
+    "updated_at": "2026-07-05T20:48:04.710540+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125822",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125822",
     "pdf_url": null,
@@ -1485,7 +1603,7 @@
       "est-letters"
     ],
     "published": "2026-06-30T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:08.070755+00:00",
+    "updated_at": "2026-07-05T20:48:03.578608+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00543",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00543?ref=article_openPDF",
@@ -1549,7 +1667,7 @@
       "est-letters"
     ],
     "published": "2026-06-29T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:08.070897+00:00",
+    "updated_at": "2026-07-05T20:48:03.578745+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00520",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
     "pdf_url": null,
@@ -1623,7 +1741,7 @@
       "est-letters"
     ],
     "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:08.070933+00:00",
+    "updated_at": "2026-07-05T20:48:03.578780+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00490",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
     "pdf_url": null,
@@ -1693,7 +1811,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948487+00:00",
+    "updated_at": "2026-07-05T20:48:07.172113+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "pdf_url": null,
@@ -1763,7 +1881,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948251+00:00",
+    "updated_at": "2026-07-05T20:48:07.171986+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "pdf_url": null,
@@ -1809,73 +1927,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-jhazmat-2026-142532",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142532",
-    "doi": "10.1016/j.jhazmat.2026.142532",
-    "title": "Changing pH, organic matter, and redox state govern contaminant mobility during waste stabilization in landfill simulation reactors",
-    "abstract": "Landfills remain an important endpoint for waste and waste residues, yet current management in the Netherlands requires eternal aftercare to protect public health and the environment. Enhanced waste stabilization in landfills through active treatment, i.e. aeration and leachate recirculation, has potential as a sustainable alternative to current landfill management. However, the influence of active treatment on solid waste properties and subsequent leaching of hazardous contaminants has only received limited investigation. This study investigates these influences in landfill simulation reactors containing 30 kg of waste from different origins, which were treated using aeration, leachate recirculation, and their combination. Large differences in leachate contaminant concentrations were found between treatments. A shift from leachate recirculation to aeration changed prevailing redox conditions from anaerobic to aerobic and decreased pH and dissolved organic and inorganic carbon. Consequently, concentrations of ammonium and inorganic contaminants with a high organic matter binding affinity decreased, whereas other inorganic contaminants first increased in concentration due to mineral dissolution followed by a decrease due to mineral precipitation or binding to reactive surfaces. The underlying mechanisms of these trends were identified based on geochemical modelling. The observed changes during aeration were accelerated when aeration was preceded by leachate recirculation, and concentrations rebounded when anaerobic conditions were reintroduced. Our findings ultimately demonstrate that active treatment of landfills requires careful consideration of the most effective strategy, as trade-offs in contaminant leaching mean their potential risks should be weighed against each other.",
-    "authors": [
-      "Nick Quist",
-      "Frank van Raffe",
-      "Joris J. Dijkstra",
-      "Rob N.J. Comans"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948958+00:00",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142532",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142532",
-    "pdf_url": null,
-    "journal": "Journal of Hazardous Materials",
-    "journal_key": "jhm",
-    "journal_label": "JHM",
-    "journal_issn": [
-      "0304-3894"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Leachate",
-      "Aeration",
-      "Leaching (pedology)",
-      "Waste management",
-      "Environmental science",
-      "Municipal solid waste",
-      "Bioreactor landfill",
-      "Contamination"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-jhazmat-2026-142474",
     "source": "journal",
     "source_detail": "crossref",
@@ -1900,7 +1951,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948655+00:00",
+    "updated_at": "2026-07-05T20:48:07.172372+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "pdf_url": null,
@@ -1972,7 +2023,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948719+00:00",
+    "updated_at": "2026-07-05T20:48:07.172403+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "pdf_url": null,
@@ -2043,7 +2094,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948843+00:00",
+    "updated_at": "2026-07-05T20:48:07.172492+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "pdf_url": null,
@@ -2117,7 +2168,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948406+00:00",
+    "updated_at": "2026-07-05T20:48:07.172315+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "pdf_url": null,
@@ -2188,7 +2239,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948343+00:00",
+    "updated_at": "2026-07-05T20:48:07.172079+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "pdf_url": null,
@@ -2255,7 +2306,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948312+00:00",
+    "updated_at": "2026-07-05T20:48:07.172048+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "pdf_url": null,
@@ -2325,7 +2376,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948208+00:00",
+    "updated_at": "2026-07-05T20:48:07.171943+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "pdf_url": null,
@@ -2377,7 +2428,7 @@
     "source_paper_id": "10.1016/j.jhazmat.2026.142342",
     "doi": "10.1016/j.jhazmat.2026.142342",
     "title": "Silica-coated nanosized zero-valent iron/persulfate system for sequential reduction–oxidation remediation of subsurface contamination: A feasibility study",
-    "abstract": "Sequential reduction and oxidation processes are promising for mineralizing recalcitrant contaminants with high oxidation states. The reduction step transforms such contaminants into oxidizable intermediates that are subsequently mineralized in the oxidation step. In this study, we assessed a sequential reduction-oxidation system using silica-coated nanosized zero-valent iron particles (nZVI@SiO2) and persulfate to establish in situ reactive zones (IRZs) for groundwater remediation. A sequential column and a physical aquifer model were used to simulate groundwater environments in the field. The silica coating made the nZVI@SiO2 markedly more mobile and selective than bare nZVI. In the column reactor, strong positive correlations were found between the consumption of nZVI@SiO2 (being a consumable reductive material) and the amounts of nitrobenzene reduced and aniline formed. The sequential reduction-oxidation process induced by the combination of the nZVI@SiO2 reductive column and the persulfate oxidative column markedly enhanced contaminant mineralization, which could not be achieved effectively through only reduction or only oxidation. A more practical test of the treatment process for in situ reactive zone remediation was performed using a three-dimensional physical aquifer model reactor. The removal efficiencies achieved using nZVI@SiO2 in reactors of different sizes were determined, and extrapolations were performed to determine a quantitative baseline for designing effective nZVI@SiO2 treatment systems for field applications.",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Quoc Bien Nguyen",
       "Cheolyong Kim",
@@ -2394,7 +2445,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948932+00:00",
+    "updated_at": "2026-07-05T20:48:07.172656+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142342",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142342",
     "pdf_url": null,
@@ -2410,7 +2461,6 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -2430,11 +2480,6 @@
       "Groundwater",
       "Permeable reactive barrier",
       "Groundwater remediation"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -2464,7 +2509,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948599+00:00",
+    "updated_at": "2026-07-05T20:48:07.172141+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "pdf_url": null,
@@ -2530,7 +2575,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:11.948870+00:00",
+    "updated_at": "2026-07-05T20:48:07.172518+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "pdf_url": null,
@@ -2597,7 +2642,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.086191+00:00",
+    "updated_at": "2026-07-05T20:48:06.259667+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "pdf_url": null,
@@ -2666,7 +2711,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085938+00:00",
+    "updated_at": "2026-07-05T20:48:06.259390+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "pdf_url": null,
@@ -2734,7 +2779,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.086343+00:00",
+    "updated_at": "2026-07-05T20:48:06.259819+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "pdf_url": null,
@@ -2802,7 +2847,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085829+00:00",
+    "updated_at": "2026-07-05T20:48:06.259284+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "pdf_url": null,
@@ -2872,7 +2917,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.086017+00:00",
+    "updated_at": "2026-07-05T20:48:06.259469+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "pdf_url": null,
@@ -2938,7 +2983,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085963+00:00",
+    "updated_at": "2026-07-05T20:48:06.259415+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "pdf_url": null,
@@ -3004,7 +3049,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085762+00:00",
+    "updated_at": "2026-07-05T20:48:06.259217+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "pdf_url": null,
@@ -3072,7 +3117,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085989+00:00",
+    "updated_at": "2026-07-05T20:48:06.259441+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "pdf_url": null,
@@ -3109,7 +3154,7 @@
       "Ecotoxicology",
       "Aquatic toxicology"
     ],
-    "citation_count": 0,
+    "citation_count": 1,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -3142,7 +3187,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085857+00:00",
+    "updated_at": "2026-07-05T20:48:06.259312+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "pdf_url": null,
@@ -3209,7 +3254,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085881+00:00",
+    "updated_at": "2026-07-05T20:48:06.259336+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "pdf_url": null,
@@ -3279,7 +3324,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-04T20:22:10.085909+00:00",
+    "updated_at": "2026-07-05T20:48:06.259362+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "pdf_url": null,
@@ -4595,6 +4640,48 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1016-j-jhazmat-2026-142532",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142532",
+    "doi": "10.1016/j.jhazmat.2026.142532",
+    "title": "Changing pH, organic matter, and redox state govern contaminant mobility during waste stabilization in landfill simulation reactors",
+    "abstract": "Landfills remain an important endpoint for waste and waste residues, yet current management in the Netherlands requires eternal aftercare to protect public health and the environment. Enhanced waste stabilization in landfills through active treatment, i.e. aeration and leachate recirculation, has potential as a sustainable alternative to current landfill management. However, the influence of active treatment on solid waste properties and subsequent leaching of hazardous contaminants has only received limited investigation. This study investigates these influences in landfill simulation reactors containing 30 kg of waste from different origins, which were treated using aeration, leachate recirculation, and their combination. Large differences in leachate contaminant concentrations were found between treatments. A shift from leachate recirculation to aeration changed prevailing redox conditions from anaerobic to aerobic and decreased pH and dissolved organic and inorganic carbon. Consequently, concentrations of ammonium and inorganic contaminants with a high organic matter binding affinity decreased, whereas other inorganic contaminants first increased in concentration due to mineral dissolution followed by a decrease due to mineral precipitation or binding to reactive surfaces. The underlying mechanisms of these trends were identified based on geochemical modelling. The observed changes during aeration were accelerated when aeration was preceded by leachate recirculation, and concentrations rebounded when anaerobic conditions were reintroduced. Our findings ultimately demonstrate that active treatment of landfills requires careful consideration of the most effective strategy, as trade-offs in contaminant leaching mean their potential risks should be weighed against each other.",
+    "authors": [
+      "Nick Quist",
+      "Frank van Raffe",
+      "Joris J. Dijkstra",
+      "Rob N.J. Comans"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142532",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142532",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_label": "JHM",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:hazardous-materials",
+      "query:JHM"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1016-j-jhazmat-2026-142614",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -4759,6 +4846,50 @@
     "published": "2026-06-01",
     "link": "https://doi.org/10.1016/j.watres.2026.125682",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125682",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_label": "WR",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:water-research",
+      "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125851",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.watres.2026.125851",
+    "doi": "10.1016/j.watres.2026.125851",
+    "title": "Repurposing aluminum-based water treatment residual (WTR) as a filtration medium for microplastic removal: Performance, mechanisms, and real-water applicability",
+    "abstract": "Valorizing water treatment residual (WTR) aligns with circular-economy objectives by transforming water treatment sludge waste into value-added products. For the first time, we evaluated the performance and mechanisms of aluminum-based WTR as a cost-effective and environmentally benign filtration medium for MP removal. Our column experiments removed up to 97.47% of 10-µm carboxylated polypropylene microplastics (PP-COOH MPs) from synthetic water. MP removal increased with ionic strength and the presence of mono/multivalent cations (Na + , Ca 2+ ), primarily through charge neutralization, double-layer compression, and pore straining. WTR-based filtration also effectively removed MPs from the primary influent (95.6%) and final effluent (86.9%) of a full-scale wastewater treatment plant, as well as from the influent of a full-scale water treatment plant (97.1%). In addition, dissolved Al leached from WTR enhanced electrostatic attraction and MP aggregation, thereby promoting MP deposition on WTR surfaces. Overall, these findings demonstrate that WTR can be repurposed as a valuable material to control MP pollution, offering attractive opportunities to turn this waste into a beneficial resource. Given its potential to remove MP and other pollutants, WTR can be used as a filter medium to polish WWTP effluent, improve stormwater quality, or serve as a functional layer in landfill sites to mitigate leachate pollution.",
+    "authors": [
+      "Jianfei Chen",
+      "Lin Zhang",
+      "Seyed Hesam-Aldin Samaei",
+      "Zhenyu Li",
+      "Guohe Huang",
+      "Jinkai Xue"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.watres.2026.125851",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125851",
     "pdf_url": null,
     "journal": "Water Research",
     "journal_label": "WR",
