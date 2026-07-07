@@ -3511,7 +3511,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3532,6 +3533,343 @@
       "Adsorption",
       "Goethite",
       "Laterite"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08080",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08080",
+    "doi": "10.1021/acs.est.6c08080",
+    "title": "60 Years of Science on Contaminants of Emerging Concern in ES&T : From Serendipitous Discoveries to a More Systematic Understanding",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Juliane Hollender",
+      "Pablo Gago-Ferrero",
+      "Frederic D. L. Leusch",
+      "Susan D. Richardson",
+      "Huahong Shi",
+      "Zhanyun Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:18.115867+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08080",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08080",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03127",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03127",
+    "doi": "10.1021/acs.est.6c03127",
+    "title": "Conversion of Gaseous Hg 0 Capture by CuS from Surface Adsorption to the Replacement Reaction through Intermittent Acid Washing",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jialiang Zhou",
+      "Pengjian Lv",
+      "Yu Bin",
+      "Shangchao Xiong",
+      "Shijian Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-06T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:18.115912+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03127",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03127",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126453",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126453",
+    "doi": "10.1016/j.watres.2026.126453",
+    "title": "Nature-based solution for treating pesticide-contaminated groundwater: performance of a combined two-stage biofilm system",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Andrea Mongelli",
+      "Johanna L Kruse",
+      "Tiago Carvalho",
+      "Jessica Subirats",
+      "Víctor Matamoros",
+      "Kai Bester"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:27.130735+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126453",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126453",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126438",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126438",
+    "doi": "10.1016/j.watres.2026.126438",
+    "title": "Thiocyanate-driven denitrification with mixotrophic flexibility for real coking wastewater treatment: Novel insights into nitrogen cycling",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yu Zhang",
+      "Yu-Tong Li",
+      "Quan Zhang",
+      "Xue-Ting Wang",
+      "Wei Wang",
+      "Aijie Wang",
+      "Jun Ma",
+      "Duu-Jong Lee",
+      "Nanqi Ren",
+      "Chuan Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:27.131172+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126438",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126438",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Denitrification",
+      "Cycling",
+      "Wastewater",
+      "Chemistry",
+      "Environmental science",
+      "Nitrogen",
+      "Nitrogen cycle",
+      "Waste management"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126425",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126425",
+    "doi": "10.1016/j.watres.2026.126425",
+    "title": "Utilising Adaptive Real-Time Control in Removing Organic Chemicals in Stormwater Biofilters",
+    "abstract": "Real-time control (RTC) can improve pollutant removal in stormwater biofilters, but existing strategies are largely static and rule-based, limiting their ability to respond to naturally variable rainfall conditions. This study developed and evaluated an adaptive RTC strategy ( Adaptive-RTC ) for stormwater biofilters, combining rolling-window rainfall forecasting with redox-based operational thresholds to improve water quality. Performance of Adaptive-RTC was compared with that of conventional biofilters ( Non-RTC ) across 11 historical rainfall events with diverse hydrologic characteristics, monitoring ten trace-level organic chemicals (TrOCs) and four common stormwater pollutants ( e.g. , nutrients). The Adaptive-RTC increased the proportion of time under favourable aerobic and anoxic conditions by up to 51.6% under short antecedent dry weather periods (< 4 days). These redox improvements translated into improved treatment performance, with removal of aerobically biodegradable TrOCs increasing from 75.8 ± 22.5% in Non-RTC biofilters to 89.9 ± 13.7% under Adaptive-RTC (p < 0.01). Significant improvements were also observed for total nitrogen (TN) and total organic carbon (TOC) (p < 0.01). Forecast uncertainty influenced outcomes: under false-positive forecasts, removal of aerobically biodegradable TrOCs declined to as low as 75.4% because of unnecessary early releases and shortened retention times. Nevertheless, Adaptive-RTC still achieved higher overall pollutant removal than Non-RTC across pollutant groups, indicating resilience under the forecast inaccuracies observed in this study. Practical considerations for implementation include ensuring long-term sensor reliability, optimising sedimentation pond and outlet design, and accounting for forecast uncertainty. Overall, this study highlights the potential of Adaptive-RTC as a practical stormwater management strategy and supports its future implementation.",
+    "authors": [
+      "Jiadong Zhang",
+      "Veljko Prodanovic",
+      "Denis M. O’Carroll",
+      "David T. McCarthy",
+      "Kefeng Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:27.131144+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126425",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126425",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0043135426011048/pdf",
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Biofilter",
+      "Environmental science",
+      "Stormwater",
+      "Environmental engineering",
+      "Waste management",
+      "Organic chemicals",
+      "Filtration (mathematics)",
+      "Retention basin"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00601",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00601",
+    "doi": "10.1021/acs.estlett.6c00601",
+    "title": "Marine Plastic Debris Entrapped in Tube Decorations of Plumed Worm: Evidence of a Novel Biological Sink in Intertidal Mudflats",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Harim Jeong",
+      "Jun-Hyuk Shin",
+      "Bhavya Kachiprath",
+      "Kyu-Young Shim",
+      "In-Cheol Yeo",
+      "Sung-Eun Hong",
+      "Seung-Kyu Kim",
+      "Chang-Bum Jeong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:22.489701+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00601",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00601",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]

@@ -1,5 +1,106 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c08080",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08080",
+    "doi": "10.1021/acs.est.6c08080",
+    "title": "60 Years of Science on Contaminants of Emerging Concern in ES&T : From Serendipitous Discoveries to a More Systematic Understanding",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Juliane Hollender",
+      "Pablo Gago-Ferrero",
+      "Frederic D. L. Leusch",
+      "Susan D. Richardson",
+      "Huahong Shi",
+      "Zhanyun Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:18.115867+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08080",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08080",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03127",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03127",
+    "doi": "10.1021/acs.est.6c03127",
+    "title": "Conversion of Gaseous Hg 0 Capture by CuS from Surface Adsorption to the Replacement Reaction through Intermittent Acid Washing",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jialiang Zhou",
+      "Pengjian Lv",
+      "Yu Bin",
+      "Shangchao Xiong",
+      "Shijian Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-06T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:18.115912+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03127",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03127",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c06924",
     "source": "journal",
     "source_detail": "crossref",
@@ -28,7 +129,7 @@
       "est"
     ],
     "published": "2026-07-04T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.965735+00:00",
+    "updated_at": "2026-07-07T20:51:18.116199+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06924",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06924",
     "pdf_url": null,
@@ -96,7 +197,7 @@
       "est"
     ],
     "published": "2026-07-04T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.965700+00:00",
+    "updated_at": "2026-07-07T20:51:18.116168+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04737",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04737",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04737?ref=article_openPDF",
@@ -177,7 +278,7 @@
       "est"
     ],
     "published": "2026-07-03T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.965907+00:00",
+    "updated_at": "2026-07-07T20:51:18.116347+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06193",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06193",
     "pdf_url": null,
@@ -243,7 +344,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.966055+00:00",
+    "updated_at": "2026-07-07T20:51:18.116487+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03733",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03733",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03733?ref=article_openPDF",
@@ -313,7 +414,7 @@
       "est"
     ],
     "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.966087+00:00",
+    "updated_at": "2026-07-07T20:51:18.116517+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00641",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00641",
     "pdf_url": null,
@@ -360,146 +461,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c02572",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02572",
-    "doi": "10.1021/acs.est.6c02572",
-    "title": "Self-Regenerating PFOA Defluorination in Groundwater via Endogenous Electron Feedback in Biomimetic Molecular Trap",
-    "abstract": "CoPc achieved >80% defluorination at 30 °C and >30% at 10 °C, highlighting the potential of molecular template engineering as a biomimetic strategy for groundwater remediation and for overcoming C-F activation and metal-center deactivation.",
-    "authors": [
-      "Le Wang",
-      "Qing Han",
-      "Xiaojun Ma",
-      "Yongxin Li",
-      "Jun Dong"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.966299+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02572",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02572",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Groundwater",
-      "Environmental remediation",
-      "Chemistry",
-      "Groundwater remediation",
-      "Environmental chemistry",
-      "Trap (plumbing)",
-      "Human decontamination",
-      "Groundwater pollution"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04506",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04506",
-    "doi": "10.1021/acs.est.6c04506",
-    "title": "The Influences of Sediment Load on the Biodiversity of Algal Turfs in Coral Reef Ecosystems through Environmental DNA Analysis",
-    "abstract": "Sediment input is one of the most significant threats to coral reef ecosystems globally, yet its ecological impacts on biodiversity and community structure remain underappreciated. In this study, we utilized a multimarker environmental DNA (eDNA) metabarcoding technique to investigate how sediment load affects diverse taxa within algal turfs in coral reefs of the South China Sea. Using three assays (16S rRNA, nuclear 18S rRNA, and mitochondrial COI), we identified 1,143 genera, dominated by Proteobacteria, Cyanobacteria, Rhodophyta, Dinoflagellata, Mollusca, and Arthropoda. The diversity and species compositions of prokaryotes and eukaryotes varied across algal turf types subjected to different sediment load levels. Prokaryotic and eukaryotic diversity were higher in short algal turfs, whereas cyanobacteria dominated long, sediment-laden algal turfs (up to 62.30% of 16S sequences), revealing a clear shift in the dominance of primary producers from diverse eukaryotic algae to unique photosynthetic cyanobacteria. Sediment-related variables (algal canopy height, sediment mass, and grain size) were critical, explaining 25.42% and 28.00% of the variation in prokaryotes and eukaryotes, respectively─far more than other eco-environmental variables. These findings indicate that sediment load is strongly associated with the community structure of algal turfs and may be linked to reduced diversity of primary producers.",
-    "authors": [
-      "Xianzhi Lin",
-      "Yang Liu",
-      "Yanyan Zhou",
-      "Simin Hu",
-      "Chen Zhang",
-      "Sheng Liu",
-      "Li Zhang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:08.966272+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04506",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04506",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Ecology",
-      "Coral reef",
-      "Biodiversity",
-      "Biology",
-      "Reef",
-      "Ecosystem",
-      "Algae",
-      "Sediment"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-watres-2026-125853",
     "source": "journal",
     "source_detail": "crossref",
@@ -521,7 +482,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.719061+00:00",
+    "updated_at": "2026-07-07T20:51:27.131195+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125853",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125853",
     "pdf_url": null,
@@ -590,7 +551,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718637+00:00",
+    "updated_at": "2026-07-07T20:51:27.130846+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125891",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125891",
     "pdf_url": null,
@@ -661,7 +622,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718503+00:00",
+    "updated_at": "2026-07-07T20:51:27.130692+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125893",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125893",
     "pdf_url": null,
@@ -729,7 +690,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718868+00:00",
+    "updated_at": "2026-07-07T20:51:27.131093+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125886",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125886",
     "pdf_url": null,
@@ -775,76 +736,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-watres-2026-125887",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.watres.2026.125887",
-    "doi": "10.1016/j.watres.2026.125887",
-    "title": "Cyanobacteria bloom suppression by quagga mussels disappears with global warming",
-    "abstract": "Climate warming and biological invasions are global stressors that jointly influence harmful algal blooms (HABs) in freshwaters. Quagga mussels (Dreissena rostriformis bugensis), a major invasive species in the Northern Hemisphere, may suppress HABs, but this effect disappears above critical temperatures. The combined effects of these stressors remain poorly quantified. We used 10 years of monitoring data from a temperate lake, before and after quagga mussel invasion, to calibrate, parametrize and modify the ecosystem model PCLake+ and simulate combined effects of mussel invasions and warming on HABs. We tested whether (1) incorporating mussels into PCLake+ improves model performance and captures mussel-mediated HAB suppression, (2) suppression is lost under future climate projections, and (3) strong nutrient reduction is required to compensate. Including mussels substantially improved post-invasion model performance, reducing RMSE by 25% for chlorophyll a and 67% for cyanobacteria biomass. After invasion, summer cyanochlorophyll concentrations declined by 40% under ambient conditions. Under moderate warming (RCP 4.5 and 2.6), HAB suppression persisted. However, it was lost when epilimnion temperature increased by ∼2.6 °C in the unmitigated scenario (RCP 8.5) by 2100, causing a fivefold increase in cyanochlorophyll and 50% of summer days exceeding WHO bathing water thresholds. Mussel filtration collapse increasingly drove HAB resurgence with rising temperature under RCP 8.5. External nutrient load reductions of 90% were required to prevent HABs, securing recreational and drinking water safety. Positive ambient effects of quagga mussel invasions on HABs will be lost with future warming, highlighting the need for integrated local nutrient reduction and global climate mitigation.",
-    "authors": [
-      "Jonas Mauch",
-      "Sven Teurlincx",
-      "Robert Schwefel",
-      "Jan Köhler",
-      "Lilith Kramer",
-      "Tobias Goldhammer",
-      "Sabine Hilt"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.719141+00:00",
-    "link": "https://doi.org/10.1016/j.watres.2026.125887",
-    "abs_url": "https://doi.org/10.1016/j.watres.2026.125887",
-    "pdf_url": null,
-    "journal": "Water Research",
-    "journal_key": "water_research",
-    "journal_label": "WR",
-    "journal_issn": [
-      "0043-1354"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Global warming",
-      "Cyanobacteria",
-      "Bloom",
-      "Environmental science",
-      "Algal bloom",
-      "Global change",
-      "Ecology",
-      "Effects of global warming on oceans"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-watres-2026-125888",
     "source": "journal",
     "source_detail": "crossref",
@@ -868,7 +759,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718668+00:00",
+    "updated_at": "2026-07-07T20:51:27.130875+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125888",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125888",
     "pdf_url": null,
@@ -905,7 +796,7 @@
       "Nitrogen",
       "Extracellular polymeric substance"
     ],
-    "citation_count": 1,
+    "citation_count": 2,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -935,7 +826,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718726+00:00",
+    "updated_at": "2026-07-07T20:51:27.130951+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125922",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125922",
     "pdf_url": null,
@@ -1001,7 +892,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718752+00:00",
+    "updated_at": "2026-07-07T20:51:27.130974+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125872",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125872",
     "pdf_url": null,
@@ -1070,7 +961,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718699+00:00",
+    "updated_at": "2026-07-07T20:51:27.130905+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125880",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125880",
     "pdf_url": null,
@@ -1144,7 +1035,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.719036+00:00",
+    "updated_at": "2026-07-07T20:51:27.131274+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125857",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125857",
     "pdf_url": null,
@@ -1190,6 +1081,56 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1016-j-watres-2026-126453",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126453",
+    "doi": "10.1016/j.watres.2026.126453",
+    "title": "Nature-based solution for treating pesticide-contaminated groundwater: performance of a combined two-stage biofilm system",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Andrea Mongelli",
+      "Johanna L Kruse",
+      "Tiago Carvalho",
+      "Jessica Subirats",
+      "Víctor Matamoros",
+      "Kai Bester"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:27.130735+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126453",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126453",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1016-j-watres-2026-125837",
     "source": "journal",
     "source_detail": "crossref",
@@ -1216,7 +1157,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.719090+00:00",
+    "updated_at": "2026-07-07T20:51:27.131346+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125837",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125837",
     "pdf_url": null,
@@ -1291,73 +1232,9 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718842+00:00",
+    "updated_at": "2026-07-07T20:51:27.131069+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126423",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126423",
-    "pdf_url": null,
-    "journal": "Water Research",
-    "journal_key": "water_research",
-    "journal_label": "WR",
-    "journal_issn": [
-      "0043-1354"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Arsenic",
-      "Environmental remediation",
-      "Environmental chemistry",
-      "Leaching (pedology)",
-      "Sediment",
-      "Adsorption",
-      "Goethite",
-      "Laterite"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1016-j-watres-2026-125904",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.watres.2026.125904",
-    "doi": "10.1016/j.watres.2026.125904",
-    "title": "Shift of nitrogen metabolism drives the evolution of multidrug resistance in wastewater microbiomes under long-term fluoride stress",
-    "abstract": "The discharge of fluoride-containing industrial wastewater poses novel challenges to biological wastewater treatment systems. In particular, the long-term impacts of fluoride (F-) stress on key metabolic fluxes (e.g., nitrogen transformation) and the dissemination risk of biological pollutants (e.g., antibiotic resistance genes) in biological treatment systems remain unclear. This study systematically investigated the nitrogen removal performance, microbial community structure, and resistome evolution in a sequencing batch bioreactor under prolonged (120-day) stress from 20 mg/L F-. The results indicated that long-term F- exposure severely inhibited nitrification, decreasing the ammonia removal efficiency from 99.6% to 74.7%. Conversely, the significant enrichment of denitrifying bacteria under F- stress enhanced the denitrification process, elevating the specific nitrate reduction rate by 48.4% and thereby maintaining a stable total inorganic nitrogen removal efficiency (∼ 64.5%). To counteract F- toxicity, the microbial community exhibited multi-level adaptations, including enhanced secretion of extracellular polymeric substances, upregulation of antioxidant and energy metabolism genes, and increased F- efflux capacity. Crucially, F- stress co-selected for the proliferation of broad-spectrum antibiotic resistance genes and heavy metal resistance genes in the activated sludge system, with total abundances significantly increasing by 20.3% and 56.9%, respectively, compared to the seed sludge. Network analysis confirmed that denitrifying bacteria, which had gained a competitive advantage under F- stress, were the primary hosts of these resistance genes. This study reveals the evolutionary mechanisms of nitrogen-converting microbes during the treatment of fluoride-containing wastewater and highlights the potential risks of resistance gene proliferation induced by F- pollution.",
-    "authors": [
-      "Yun-Tian He",
-      "Fei Wang",
-      "Shu-Yu Yu",
-      "Chen-Xin Xie",
-      "Li Yuan",
-      "Zheng-Hao Li",
-      "Guo-Ping Sheng"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "water-research"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.719169+00:00",
-    "link": "https://doi.org/10.1016/j.watres.2026.125904",
-    "abs_url": "https://doi.org/10.1016/j.watres.2026.125904",
     "pdf_url": null,
     "journal": "Water Research",
     "journal_key": "water_research",
@@ -1383,22 +1260,150 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
+      "Arsenic",
+      "Environmental remediation",
+      "Environmental chemistry",
+      "Leaching (pedology)",
+      "Sediment",
+      "Adsorption",
+      "Goethite",
+      "Laterite"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126438",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126438",
+    "doi": "10.1016/j.watres.2026.126438",
+    "title": "Thiocyanate-driven denitrification with mixotrophic flexibility for real coking wastewater treatment: Novel insights into nitrogen cycling",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yu Zhang",
+      "Yu-Tong Li",
+      "Quan Zhang",
+      "Xue-Ting Wang",
+      "Wei Wang",
+      "Aijie Wang",
+      "Jun Ma",
+      "Duu-Jong Lee",
+      "Nanqi Ren",
+      "Chuan Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:27.131172+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126438",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126438",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Denitrification",
+      "Cycling",
       "Wastewater",
       "Chemistry",
-      "Microbiome",
-      "Fluoride",
-      "Multiple drug resistance",
-      "Metabolism",
+      "Environmental science",
       "Nitrogen",
-      "Nitrogen cycle"
-    ],
-    "citation_count": 1,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
+      "Nitrogen cycle",
+      "Waste management"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-126425",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.watres.2026.126425",
+    "doi": "10.1016/j.watres.2026.126425",
+    "title": "Utilising Adaptive Real-Time Control in Removing Organic Chemicals in Stormwater Biofilters",
+    "abstract": "Real-time control (RTC) can improve pollutant removal in stormwater biofilters, but existing strategies are largely static and rule-based, limiting their ability to respond to naturally variable rainfall conditions. This study developed and evaluated an adaptive RTC strategy ( Adaptive-RTC ) for stormwater biofilters, combining rolling-window rainfall forecasting with redox-based operational thresholds to improve water quality. Performance of Adaptive-RTC was compared with that of conventional biofilters ( Non-RTC ) across 11 historical rainfall events with diverse hydrologic characteristics, monitoring ten trace-level organic chemicals (TrOCs) and four common stormwater pollutants ( e.g. , nutrients). The Adaptive-RTC increased the proportion of time under favourable aerobic and anoxic conditions by up to 51.6% under short antecedent dry weather periods (< 4 days). These redox improvements translated into improved treatment performance, with removal of aerobically biodegradable TrOCs increasing from 75.8 ± 22.5% in Non-RTC biofilters to 89.9 ± 13.7% under Adaptive-RTC (p < 0.01). Significant improvements were also observed for total nitrogen (TN) and total organic carbon (TOC) (p < 0.01). Forecast uncertainty influenced outcomes: under false-positive forecasts, removal of aerobically biodegradable TrOCs declined to as low as 75.4% because of unnecessary early releases and shortened retention times. Nevertheless, Adaptive-RTC still achieved higher overall pollutant removal than Non-RTC across pollutant groups, indicating resilience under the forecast inaccuracies observed in this study. Practical considerations for implementation include ensuring long-term sensor reliability, optimising sedimentation pond and outlet design, and accounting for forecast uncertainty. Overall, this study highlights the potential of Adaptive-RTC as a practical stormwater management strategy and supports its future implementation.",
+    "authors": [
+      "Jiadong Zhang",
+      "Veljko Prodanovic",
+      "Denis M. O’Carroll",
+      "David T. McCarthy",
+      "Kefeng Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "published": "2026-07-01T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:27.131144+00:00",
+    "link": "https://doi.org/10.1016/j.watres.2026.126425",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.126425",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0043135426011048/pdf",
+    "journal": "Water Research",
+    "journal_key": "water_research",
+    "journal_label": "WR",
+    "journal_issn": [
+      "0043-1354"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Biofilter",
+      "Environmental science",
+      "Stormwater",
+      "Environmental engineering",
+      "Waste management",
+      "Organic chemicals",
+      "Filtration (mathematics)",
+      "Retention basin"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": true
   },
   {
     "id": "journal-10-1016-j-watres-2026-125822",
@@ -1423,7 +1428,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:22.718950+00:00",
+    "updated_at": "2026-07-07T20:51:27.131297+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125822",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125822",
     "pdf_url": null,
@@ -1469,6 +1474,59 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-estlett-6c00601",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00601",
+    "doi": "10.1021/acs.estlett.6c00601",
+    "title": "Marine Plastic Debris Entrapped in Tube Decorations of Plumed Worm: Evidence of a Novel Biological Sink in Intertidal Mudflats",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Harim Jeong",
+      "Jun-Hyuk Shin",
+      "Bhavya Kachiprath",
+      "Kyu-Young Shim",
+      "In-Cheol Yeo",
+      "Sung-Eun Hong",
+      "Seung-Kyu Kim",
+      "Chang-Bum Jeong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-07T20:51:22.489701+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00601",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00601",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-estlett-6c00543",
     "source": "journal",
     "source_detail": "crossref",
@@ -1488,7 +1546,7 @@
       "est-letters"
     ],
     "published": "2026-06-30T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:14.978260+00:00",
+    "updated_at": "2026-07-07T20:51:22.489757+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00543",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00543?ref=article_openPDF",
@@ -1552,7 +1610,7 @@
       "est-letters"
     ],
     "published": "2026-06-29T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:14.978384+00:00",
+    "updated_at": "2026-07-07T20:51:22.489867+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00520",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
     "pdf_url": null,
@@ -1596,80 +1654,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-estlett-6c00490",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.estlett.6c00490",
-    "doi": "10.1021/acs.estlett.6c00490",
-    "title": "Membrane Aging by Chemical Cleaning Drives the Overlooked Release of Per- and Polyfluoroalkyl Substances from Polyvinylidene Fluoride (PVDF) Ultrafiltration Membranes in Drinking Water Treatment",
-    "abstract": "The application of polyvinylidene fluoride (PVDF) ultrafiltration (UF) membranes in drinking water treatment plants (DWTPs) is increasing rapidly. However, as a class of fluoropolymer materials, PVDF membranes might be a source of per- and polyfluoroalkyl substances (PFAS) in drinking water systems. In this work, we identified the occurrence of PFAS in commercial PVDF UF membranes, with PFOA as the dominant species (82–97% of ∑PFAS). Subsequently, we explored their release behavior during chemical cleaning and membrane aging. NaOH/NaClO solutions induced sustained and enhanced release of C 4 –C 6 and C 8 perfluorocarboxylic acids (PFCAs) (up to 104 ng/L), significantly higher than the leached levels from virgin membranes. Apart from short-term release of leachable PFCA residues, structural degradation of PVDF led to long-term release of PFCAs that were previously nonleachable from virgin membranes. In the chemical-cleaning wastewater from PVDF UF units at a full-scale DWTP, PFAS levels were much higher (up to 371 ng/L) than those observed in laboratory experiments, with similar dominant PFAS species. This study provides evidence that PVDF membrane aging by chemical cleaning induces persistent PFAS release, highlighting these membranes as an overlooked source of PFAS in DWTPs.",
-    "authors": [
-      "Timing Jiang",
-      "Huying Li",
-      "Jing Chen",
-      "Xiaofeng Bai",
-      "Shushan Yuan",
-      "Wenbo Yu",
-      "Sha Liang",
-      "Huabo Duan",
-      "Jingping Hu",
-      "Huijie Hou",
-      "Lu Peng",
-      "Nan Wang",
-      "Jiakuan Yang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "published": "2026-06-28T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:14.978420+00:00",
-    "link": "https://doi.org/10.1021/acs.estlett.6c00490",
-    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology Letters",
-    "journal_key": "est_letters",
-    "journal_label": "EST Letters",
-    "journal_issn": [
-      "2328-8930",
-      "2328-8930"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Polyvinylidene fluoride",
-      "Membrane",
-      "Ultrafiltration (renal)",
-      "Fluoropolymer",
-      "Chemistry",
-      "Water treatment",
-      "Chromatography",
-      "Environmental chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-jhazmat-2026-142291",
     "source": "journal",
     "source_detail": "crossref",
@@ -1696,7 +1680,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540243+00:00",
+    "updated_at": "2026-07-07T20:51:36.442207+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "pdf_url": null,
@@ -1766,7 +1750,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.539977+00:00",
+    "updated_at": "2026-07-07T20:51:36.442065+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "pdf_url": null,
@@ -1836,7 +1820,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540365+00:00",
+    "updated_at": "2026-07-07T20:51:36.442422+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "pdf_url": null,
@@ -1908,7 +1892,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540462+00:00",
+    "updated_at": "2026-07-07T20:51:36.442506+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "pdf_url": null,
@@ -1979,7 +1963,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540432+00:00",
+    "updated_at": "2026-07-07T20:51:36.442478+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "pdf_url": null,
@@ -2053,7 +2037,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540162+00:00",
+    "updated_at": "2026-07-07T20:51:36.442342+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "pdf_url": null,
@@ -2124,7 +2108,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540071+00:00",
+    "updated_at": "2026-07-07T20:51:36.442152+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "pdf_url": null,
@@ -2191,7 +2175,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540041+00:00",
+    "updated_at": "2026-07-07T20:51:36.442125+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "pdf_url": null,
@@ -2261,7 +2245,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.539934+00:00",
+    "updated_at": "2026-07-07T20:51:36.442021+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "pdf_url": null,
@@ -2330,7 +2314,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540672+00:00",
+    "updated_at": "2026-07-07T20:51:36.442705+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142342",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142342",
     "pdf_url": null,
@@ -2400,7 +2384,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540100+00:00",
+    "updated_at": "2026-07-07T20:51:36.442179+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "pdf_url": null,
@@ -2466,7 +2450,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:43.540492+00:00",
+    "updated_at": "2026-07-07T20:51:36.442535+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "pdf_url": null,
@@ -2533,7 +2517,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906459+00:00",
+    "updated_at": "2026-07-07T20:51:30.006182+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "pdf_url": null,
@@ -2602,7 +2586,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906162+00:00",
+    "updated_at": "2026-07-07T20:51:30.005937+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "pdf_url": null,
@@ -2670,7 +2654,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906581+00:00",
+    "updated_at": "2026-07-07T20:51:30.006324+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "pdf_url": null,
@@ -2738,7 +2722,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906056+00:00",
+    "updated_at": "2026-07-07T20:51:30.005804+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "pdf_url": null,
@@ -2808,7 +2792,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906260+00:00",
+    "updated_at": "2026-07-07T20:51:30.006021+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "pdf_url": null,
@@ -2874,7 +2858,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906202+00:00",
+    "updated_at": "2026-07-07T20:51:30.005960+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "pdf_url": null,
@@ -2940,7 +2924,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.905989+00:00",
+    "updated_at": "2026-07-07T20:51:30.005737+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "pdf_url": null,
@@ -3008,7 +2992,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906232+00:00",
+    "updated_at": "2026-07-07T20:51:30.005995+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "pdf_url": null,
@@ -3078,7 +3062,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906083+00:00",
+    "updated_at": "2026-07-07T20:51:30.005829+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "pdf_url": null,
@@ -3145,7 +3129,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906108+00:00",
+    "updated_at": "2026-07-07T20:51:30.005851+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "pdf_url": null,
@@ -3215,7 +3199,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-06T20:56:32.906135+00:00",
+    "updated_at": "2026-07-07T20:51:30.005874+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "pdf_url": null,
@@ -4781,6 +4765,96 @@
     "published": "2026-07-01",
     "link": "https://doi.org/10.1016/j.watres.2026.125851",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125851",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_label": "WR",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:water-research",
+      "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125887",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.watres.2026.125887",
+    "doi": "10.1016/j.watres.2026.125887",
+    "title": "Cyanobacteria bloom suppression by quagga mussels disappears with global warming",
+    "abstract": "Climate warming and biological invasions are global stressors that jointly influence harmful algal blooms (HABs) in freshwaters. Quagga mussels (Dreissena rostriformis bugensis), a major invasive species in the Northern Hemisphere, may suppress HABs, but this effect disappears above critical temperatures. The combined effects of these stressors remain poorly quantified. We used 10 years of monitoring data from a temperate lake, before and after quagga mussel invasion, to calibrate, parametrize and modify the ecosystem model PCLake+ and simulate combined effects of mussel invasions and warming on HABs. We tested whether (1) incorporating mussels into PCLake+ improves model performance and captures mussel-mediated HAB suppression, (2) suppression is lost under future climate projections, and (3) strong nutrient reduction is required to compensate. Including mussels substantially improved post-invasion model performance, reducing RMSE by 25% for chlorophyll a and 67% for cyanobacteria biomass. After invasion, summer cyanochlorophyll concentrations declined by 40% under ambient conditions. Under moderate warming (RCP 4.5 and 2.6), HAB suppression persisted. However, it was lost when epilimnion temperature increased by ∼2.6 °C in the unmitigated scenario (RCP 8.5) by 2100, causing a fivefold increase in cyanochlorophyll and 50% of summer days exceeding WHO bathing water thresholds. Mussel filtration collapse increasingly drove HAB resurgence with rising temperature under RCP 8.5. External nutrient load reductions of 90% were required to prevent HABs, securing recreational and drinking water safety. Positive ambient effects of quagga mussel invasions on HABs will be lost with future warming, highlighting the need for integrated local nutrient reduction and global climate mitigation.",
+    "authors": [
+      "Jonas Mauch",
+      "Sven Teurlincx",
+      "Robert Schwefel",
+      "Jan Köhler",
+      "Lilith Kramer",
+      "Tobias Goldhammer",
+      "Sabine Hilt"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.watres.2026.125887",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125887",
+    "pdf_url": null,
+    "journal": "Water Research",
+    "journal_label": "WR",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:water-research",
+      "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-watres-2026-125904",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.watres.2026.125904",
+    "doi": "10.1016/j.watres.2026.125904",
+    "title": "Shift of nitrogen metabolism drives the evolution of multidrug resistance in wastewater microbiomes under long-term fluoride stress",
+    "abstract": "The discharge of fluoride-containing industrial wastewater poses novel challenges to biological wastewater treatment systems. In particular, the long-term impacts of fluoride (F-) stress on key metabolic fluxes (e.g., nitrogen transformation) and the dissemination risk of biological pollutants (e.g., antibiotic resistance genes) in biological treatment systems remain unclear. This study systematically investigated the nitrogen removal performance, microbial community structure, and resistome evolution in a sequencing batch bioreactor under prolonged (120-day) stress from 20 mg/L F-. The results indicated that long-term F- exposure severely inhibited nitrification, decreasing the ammonia removal efficiency from 99.6% to 74.7%. Conversely, the significant enrichment of denitrifying bacteria under F- stress enhanced the denitrification process, elevating the specific nitrate reduction rate by 48.4% and thereby maintaining a stable total inorganic nitrogen removal efficiency (∼ 64.5%). To counteract F- toxicity, the microbial community exhibited multi-level adaptations, including enhanced secretion of extracellular polymeric substances, upregulation of antioxidant and energy metabolism genes, and increased F- efflux capacity. Crucially, F- stress co-selected for the proliferation of broad-spectrum antibiotic resistance genes and heavy metal resistance genes in the activated sludge system, with total abundances significantly increasing by 20.3% and 56.9%, respectively, compared to the seed sludge. Network analysis confirmed that denitrifying bacteria, which had gained a competitive advantage under F- stress, were the primary hosts of these resistance genes. This study reveals the evolutionary mechanisms of nitrogen-converting microbes during the treatment of fluoride-containing wastewater and highlights the potential risks of resistance gene proliferation induced by F- pollution.",
+    "authors": [
+      "Yun-Tian He",
+      "Fei Wang",
+      "Shu-Yu Yu",
+      "Chen-Xin Xie",
+      "Li Yuan",
+      "Zheng-Hao Li",
+      "Guo-Ping Sheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.watres.2026.125904",
+    "abs_url": "https://doi.org/10.1016/j.watres.2026.125904",
     "pdf_url": null,
     "journal": "Water Research",
     "journal_label": "WR",
@@ -7715,6 +7789,49 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c02572",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02572",
+    "doi": "10.1021/acs.est.6c02572",
+    "title": "Self-Regenerating PFOA Defluorination in Groundwater via Endogenous Electron Feedback in Biomimetic Molecular Trap",
+    "abstract": "CoPc achieved >80% defluorination at 30 °C and >30% at 10 °C, highlighting the potential of molecular template engineering as a biomimetic strategy for groundwater remediation and for overcoming C-F activation and metal-center deactivation.",
+    "authors": [
+      "Le Wang",
+      "Qing Han",
+      "Xiaojun Ma",
+      "Yongxin Li",
+      "Jun Dong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-02",
+    "link": "https://doi.org/10.1021/acs.est.6c02572",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02572",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02605",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -8481,6 +8598,51 @@
     "published": "2026-06-16",
     "link": "https://doi.org/10.1021/acs.est.6c04463",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04463",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04506",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04506",
+    "doi": "10.1021/acs.est.6c04506",
+    "title": "The Influences of Sediment Load on the Biodiversity of Algal Turfs in Coral Reef Ecosystems through Environmental DNA Analysis",
+    "abstract": "Sediment input is one of the most significant threats to coral reef ecosystems globally, yet its ecological impacts on biodiversity and community structure remain underappreciated. In this study, we utilized a multimarker environmental DNA (eDNA) metabarcoding technique to investigate how sediment load affects diverse taxa within algal turfs in coral reefs of the South China Sea. Using three assays (16S rRNA, nuclear 18S rRNA, and mitochondrial COI), we identified 1,143 genera, dominated by Proteobacteria, Cyanobacteria, Rhodophyta, Dinoflagellata, Mollusca, and Arthropoda. The diversity and species compositions of prokaryotes and eukaryotes varied across algal turf types subjected to different sediment load levels. Prokaryotic and eukaryotic diversity were higher in short algal turfs, whereas cyanobacteria dominated long, sediment-laden algal turfs (up to 62.30% of 16S sequences), revealing a clear shift in the dominance of primary producers from diverse eukaryotic algae to unique photosynthetic cyanobacteria. Sediment-related variables (algal canopy height, sediment mass, and grain size) were critical, explaining 25.42% and 28.00% of the variation in prokaryotes and eukaryotes, respectively─far more than other eco-environmental variables. These findings indicate that sediment load is strongly associated with the community structure of algal turfs and may be linked to reduced diversity of primary producers.",
+    "authors": [
+      "Xianzhi Lin",
+      "Yang Liu",
+      "Yanyan Zhou",
+      "Simin Hu",
+      "Chen Zhang",
+      "Sheng Liu",
+      "Li Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-02",
+    "link": "https://doi.org/10.1021/acs.est.6c04506",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04506",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -9397,6 +9559,57 @@
     "published": "2026-06-11",
     "link": "https://doi.org/10.1021/acs.estlett.6c00418",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00418",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_label": "EST Letters",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est-letters",
+      "query:EST Letters"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00490",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.estlett.6c00490",
+    "doi": "10.1021/acs.estlett.6c00490",
+    "title": "Membrane Aging by Chemical Cleaning Drives the Overlooked Release of Per- and Polyfluoroalkyl Substances from Polyvinylidene Fluoride (PVDF) Ultrafiltration Membranes in Drinking Water Treatment",
+    "abstract": "The application of polyvinylidene fluoride (PVDF) ultrafiltration (UF) membranes in drinking water treatment plants (DWTPs) is increasing rapidly. However, as a class of fluoropolymer materials, PVDF membranes might be a source of per- and polyfluoroalkyl substances (PFAS) in drinking water systems. In this work, we identified the occurrence of PFAS in commercial PVDF UF membranes, with PFOA as the dominant species (82–97% of ∑PFAS). Subsequently, we explored their release behavior during chemical cleaning and membrane aging. NaOH/NaClO solutions induced sustained and enhanced release of C 4 –C 6 and C 8 perfluorocarboxylic acids (PFCAs) (up to 104 ng/L), significantly higher than the leached levels from virgin membranes. Apart from short-term release of leachable PFCA residues, structural degradation of PVDF led to long-term release of PFCAs that were previously nonleachable from virgin membranes. In the chemical-cleaning wastewater from PVDF UF units at a full-scale DWTP, PFAS levels were much higher (up to 371 ng/L) than those observed in laboratory experiments, with similar dominant PFAS species. This study provides evidence that PVDF membrane aging by chemical cleaning induces persistent PFAS release, highlighting these membranes as an overlooked source of PFAS in DWTPs.",
+    "authors": [
+      "Timing Jiang",
+      "Huying Li",
+      "Jing Chen",
+      "Xiaofeng Bai",
+      "Shushan Yuan",
+      "Wenbo Yu",
+      "Sha Liang",
+      "Huabo Duan",
+      "Jingping Hu",
+      "Huijie Hou",
+      "Lu Peng",
+      "Nan Wang",
+      "Jiakuan Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-28",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00490",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00490",
     "pdf_url": null,
     "journal": "Environmental Science & Technology Letters",
     "journal_label": "EST Letters",
