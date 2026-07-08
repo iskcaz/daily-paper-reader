@@ -1,5 +1,170 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c07055",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07055",
+    "doi": "10.1021/acs.est.6c07055",
+    "title": "Eco-Corona of Microplastics in Soil Inhibits Their Role as a Contaminant Vector While Enhancing Their Role as a Microorganism Vector",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shi Yao",
+      "Tao Wang",
+      "Qicheng Bei",
+      "Xiangwei Wu",
+      "Xin Jiang",
+      "Yongming Luo",
+      "Yang Song",
+      "Scott X. Chang",
+      "Hans Peter H. Arp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-08T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461200+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07055",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07055",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18921",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18921",
+    "doi": "10.1021/acs.est.5c18921",
+    "title": "In Situ Single-Cell Raman Isotope Analysis Quantifies Cell-to-Cell Metabolic Heterogeneity within Individual Cable Bacteria Filaments in Sediments",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lu Zhang",
+      "Ji Zhan",
+      "Junhui Guo",
+      "Tianqi Lin",
+      "Wei Yang",
+      "Guohong Liu",
+      "Zhiying Liu",
+      "Xing Liu",
+      "Shungui Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-08T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.460976+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18921",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18921",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c13915",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c13915",
+    "doi": "10.1021/acs.est.5c13915",
+    "title": "Unraveling the Historical Trajectory and Dynamic Mechanisms of Microplastic Degradation in Sediment Cores over the Last Century",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jiatian Huang",
+      "Haiwei Li",
+      "Yunlong Li",
+      "Jun Zhu",
+      "Ruikun Sun",
+      "Zhengqing Dai",
+      "Rijian Mo",
+      "Shiqi Jiang",
+      "Lei He",
+      "Liming Song",
+      "Muhammad Usman Amin",
+      "Chengyong Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-08T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.460874+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c13915",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13915",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c08080",
     "source": "journal",
     "source_detail": "crossref",
@@ -23,9 +188,145 @@
       "est"
     ],
     "published": "2026-07-07T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.115867+00:00",
+    "updated_at": "2026-07-08T20:17:12.461442+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c08080",
     "abs_url": "https://doi.org/10.1021/acs.est.6c08080",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Engineering ethics",
+      "Environmental planning",
+      "Contamination",
+      "Environmental science",
+      "Environmental ethics",
+      "Environmental protection",
+      "Political science",
+      "Environmental health"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08214",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08214",
+    "doi": "10.1021/acs.est.6c08214",
+    "title": "Emerging Contaminants in Treated Wastewater Reuse under Water Scarcity: A Hidden Risk in the Middle East, North Africa, and Türkiye",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Imen Haddaoui",
+      "Ramona Marasco",
+      "Lucy Semerjian",
+      "Yasemin Dilsad Yilmazel",
+      "Olfa Mahjoub",
+      "Pei-Ying Hong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461380+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08214",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08214",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Wastewater",
+      "Environmental science",
+      "Reuse",
+      "Contamination",
+      "Waste management",
+      "Wastewater reuse",
+      "Environmental engineering",
+      "Water pollution"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07049",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07049",
+    "doi": "10.1021/acs.est.6c07049",
+    "title": "Temperate Phages Mediate Dual Adaptive Mechanisms That Enhance Microbial Resilience in Antibiotic-Contaminated Wastewater Treatment Systems",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jie Li",
+      "Peng Liu",
+      "Qifeng Zhang",
+      "Renxin Zhao",
+      "Jiayu Zhang",
+      "Xiulin Zheng",
+      "Bing Li",
+      "Xu-Xiang Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461508+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07049",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07049",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -57,7 +358,7 @@
     "source_paper_id": "10.1021/acs.est.6c03127",
     "doi": "10.1021/acs.est.6c03127",
     "title": "Conversion of Gaseous Hg 0 Capture by CuS from Surface Adsorption to the Replacement Reaction through Intermittent Acid Washing",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Metal sulfides are promising for capturing gaseous Hg 0, but their adsorption capacities are limited due to Hg 0 adsorption only on superficial unsaturated sulfur (S) coordination. Therefore, enabling saturated S coordination beneath the surface to participate in Hg 0 adsorption is an innovative and effective strategy. In this study, surface adsorption of Hg 0 on CuS was converted into a replacement reaction with a stoichiometric ratio of 1:6 through intermittent acid washing, allowing 2/3 of sulfur in CuS to contribute to Hg 0 adsorption, significantly increasing the capacity theoretically to 348 mg g –1 . The formation of a Cu vacancy due to the dissociation of four-coordinated Cu1 with one dangling bond and the transformation of four-coordinated Cu0 without a dangling bond to Cu1 alternately happened during each acid washing and Hg 0 adsorption, respectively, resulting in a chain reaction of the substitution of Cu in CuS by Hg 0 . Ultimately, 1/4 of four-coordinated Cu 1.5+ in CuS can be isomerous-substituted by Hg and dissociated into the acid washing solution, resulting in the growth of one-dimensional HgS in destroyed CuS crystals. CuS with intermittent acid washing demonstrates significant potential for recovering gaseous Hg 0 from flue gas, with Hg content in spent CuS exceeding 20%, offering a valuable approach for resource recycling.",
     "authors": [
       "Jialiang Zhou",
       "Pengjian Lv",
@@ -73,7 +374,7 @@
       "est"
     ],
     "published": "2026-07-06T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.115912+00:00",
+    "updated_at": "2026-07-08T20:17:12.461571+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03127",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03127",
     "pdf_url": null,
@@ -89,62 +390,6 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c06924",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c06924",
-    "doi": "10.1021/acs.est.6c06924",
-    "title": "Investigating Ultrafine Aerosol Turbulent Fluxes during Atmospheric New Particle Formation Events",
-    "abstract": "Quantitatively predicting new particle formation (NPF) remains challenging, largely because the true origin of events observed on the surface is often ambiguous. This potential for misattributing particles formed aloft as ground-level events fundamentally compromises predictive models built on local measurements. Here, we propose and validate an analytical framework using airborne eddy covariance and continuous wavelet transform to directly quantify the vertical turbulent flux of newly formed particles and determine their dominant vertical transport direction. Analyzing data from a dedicated airborne campaign over the Southern Great Plains, we observed a consistent and strong downward turbulent flux of ultrafine aerosols during NPF events, with a mean value of −133.8 cm –3 m s –1 in the entrainment zone, whereas fluxes on non-NPF days were negligible. Our spectral analysis further confirms that these directional fluxes can be reliably captured by using standard 1 Hz aerosol instrumentation. These findings suggest that NPF events associated with entrainment from the overlying residual/stable layer during planetary boundary layer growth represent a significant and potentially underestimated source of boundary layer aerosols. The framework presented here provides a new methodology to correctly attribute NPF events to specific altitudes, thereby improving our process-level understanding of particle formation in the atmosphere.",
-    "authors": [
-      "Ruoyu Zhang",
-      "Damao Zhang",
-      "Fan Mei",
-      "Manisha Mehra",
-      "Jiaxuan Cai",
-      "Haofei Yu",
-      "Ajmal Rasheeda Satheesh",
-      "Gerardo Carillo-Cardenas",
-      "Anna Gannet Hallar",
-      "Nicholas Meskhidze",
-      "Yang Wang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-04T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.116199+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c06924",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c06924",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
       "openalex",
       "semantic_scholar",
       "docs-meta"
@@ -157,118 +402,46 @@
     ],
     "is_oa": false,
     "oa_status": "closed",
-    "openalex_concepts": [
-      "Entrainment (biomusicology)",
-      "Aerosol",
-      "Planetary boundary layer",
-      "Atmospheric sciences",
-      "Turbulence",
-      "Boundary layer",
-      "Environmental science",
-      "Flux (metallurgy)"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04737",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04737",
-    "doi": "10.1021/acs.est.6c04737",
-    "title": "The Efficiencies and Products of Dilute Methane Oxidation in a Chlorine Radical Photoreactor",
-    "abstract": "High Resolution Image Download MS PowerPoint Slide A potential approach for mitigating the climate impact of hard-to-abate, dilute (less than 1000 ppm; ppm) methane (CH 4 ) is gas-phase advanced oxidation (GPAO). Here, we present experimental results from a benchtop GPAO reactor oxidizing CH 4 with chlorine radicals (Cl · ) produced from the photolysis of chlorine gas (Cl 2 ), a process we term “Cl 2 -GPAO.” We find that at CH 4 concentrations from 2 to 90 ppm, supplying Cl 2 in a ratio of 1:1 with CH 4 uses photogenerated Cl · efficiently, with 3 Cl · photogenerated for each CH 4 oxidized with only 20% of Cl · recombining to Cl 2 . When more Cl 2 is added, the product balance shifts from mainly carbon monoxide to mainly carbon dioxide. Cl 2 -GPAO performs similarly under relative humidities between 5 and 60%. In the presence of ppm-level ammonia, toluene, nitric oxide, and hydrogen sulfide, CH 4 conversion decreases, suggesting that gaseous contaminants compete with CH 4 for Cl · . Gas chromatography–mass spectrometry revealed that Cl 2 -GPAO with 30 ppm CH 4 and Cl 2 produces 1.05 ± 0.32 part per billion (ppb) methyl chloride and 1.25 ± 0.38 ppb chloroform. Methylene chloride and carbon tetrachloride were not detected. We discuss the implications for cost-effective and climate-beneficial Cl 2 -GPAO at scale.",
-    "authors": [
-      "Richard Randall",
-      "Max I. Kessler",
-      "Robert B. Jackson",
-      "Arun Majumdar"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-04T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.116168+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04737",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04737",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04737?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
     "openalex_concepts": [
       "Chemistry",
-      "Chlorine",
-      "Hydrogen chloride",
-      "Oxidizing agent",
-      "Carbon monoxide",
-      "Methane",
-      "Chloride",
-      "Inorganic chemistry"
+      "Adsorption",
+      "Inorganic chemistry",
+      "Stoichiometry",
+      "Sulfur",
+      "Dissociation (chemistry)",
+      "Flue gas",
+      "Metal"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
     ],
-    "open_pdf_available": true,
+    "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c06193",
+    "id": "journal-10-1021-acs-est-6c02727",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c06193",
-    "doi": "10.1021/acs.est.6c06193",
-    "title": "Distinct Source-Sink Patterns and Vertical Consumption of Alkyl and Aryl Organophosphate Esters in the Remote Ocean and Its Marginal Sea",
-    "abstract": "Organophosphorus esters (OPEs) have been widely used as flame retardants and plasticizers and are globally ubiquitous. In the marine environment, OPEs primarily originate from continental sources and are initially confined to marginal seas before reaching remote oceans. However, their differing biogeochemical fates in these two regions remain unclear. This study investigated regional variations in the biogeochemical regulation mechanisms of OPEs (alkyl and aryl) across the Western Pacific and the South China Sea (112°E to 163°E) by analyzing their air-sea interface processes and vertical profiles. Results revealed that the South China Sea exhibited net inputs of OPEs (1.66 ± 1.36 μg m –2 d –1 ), while the Western Pacific mainly showed outputs (0.41 ± 1.15 μg m –2 d –1 ) to the atmosphere, forming patterns characterized by remote sources and marginal sinks. In vertical profiles, OPE consumption in the upper water column of the South China Sea was mainly driven by biodegradation, in contrast to the Western Pacific, where it was primarily controlled by the biological pump. This study reveals the distinct OPE fates in the remote ocean versus the marginal sea, highlighting the Western Pacific Warm Pool as a source of OPEs. Future research should address their marine coexistence with precursors and transformation products.",
+    "source_paper_id": "10.1021/acs.est.6c02727",
+    "doi": "10.1021/acs.est.6c02727",
+    "title": "Industrial Condensable Particulate Matter: A Missing Source in PM 2.5 Source Apportionment Driving Winter Pollution in China",
+    "abstract": "Fine particulate matter (PM 2.5 ) from industrial sources remains a major health concern. However, current emission controls and source apportionment models ignore condensable particulate matter (CPM). Here, we provide the first nationwide quantification of industrial CPM contributions to atmospheric PM 2.5 in China through an integrated framework of field measurements, receptor modeling, and chemical transport simulations. Industrial CPM exhibits a chemical profile dominated by sulfate and ammonium, distinct from filterable PM, which creates a risk that its contribution may be misattributed to secondary aerosols in traditional source apportionment. Across industrial sources, CPM mass proportions vary significantly ( p < 0.01) for NH 4 +, NO 3 –, and Cl – . Based on receptor modeling, CPM contributes a median of 3.6% (95% CI: 0.9%–14.5%) to urban PM 2.5 across all four seasons in 2023, in the industrialized cities examined (Shanghai, Xi’an, Hefei, Shijiazhuang). The contribution peaks in winter (9.5%, 95% Monte Carlo-derived intervals: 2.4%–23.1%) due to enhanced gas-to-particle condensation at low temperature in these cities. From 2014 to 2023, the iron and steel sector emerged as the dominant CPM source, with its contribution increasing by up to 31.0% in key regions during winter. This overlooked source appears to substantially compress the apportioned contribution of secondary inorganics (by an estimated 5.6%–16.6%), suggesting that omission of CPM may lead to overestimation of secondary inorganic aerosol in traditional source apportionment. The results underscore the priority control of CPM emissions from industrial sources.",
     "authors": [
-      "Jingwen Shi",
-      "Mengyang Liu",
-      "Yiming Wang",
-      "Jiandong Ye",
-      "Mingjun Feng",
-      "Zi-Feng Zhang",
-      "Yixue Jiang",
-      "Lin Zhang",
-      "Xiaohua Wang",
-      "Yanjian Jin",
-      "Yan Lin",
-      "Hongwei Ke",
-      "Zhaoguang Xu",
-      "Xuke Chen",
-      "Junge Wang",
-      "Yi-Fan Li",
-      "Minggang Cai"
+      "Yi Su",
+      "Xiwen Song",
+      "Di Wu",
+      "Yuanzheng Chen",
+      "Huantao Wang",
+      "Yang Li",
+      "Wei Cui",
+      "Hongmei Xu",
+      "Shuibing Wang",
+      "Jianhu Yang",
+      "Xiang Ding",
+      "Hongli Wang",
+      "Qing Li"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -277,10 +450,10 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-07-03T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.116347+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c06193",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c06193",
+    "published": "2026-07-06T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461609+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02727",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02727",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -307,150 +480,14 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Biogeochemical cycle",
+      "Apportionment",
       "Environmental science",
-      "Oceanography",
-      "Pacific ocean",
-      "China",
-      "Water column",
-      "Seawater",
-      "Alkyl"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03733",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03733",
-    "doi": "10.1021/acs.est.6c03733",
-    "title": "Can Data Mining Improve Methane Correction Factors for Urban, Nonsewered Sanitation?",
-    "abstract": "Nearly half of the world's population relies on nonsewered sanitation, and in urban areas, intermittent onsite storage of wastewater prior to road-based transport to treatment is common. Anerobic biological activity during storage generates methane, contributing to greenhouse gas emissions and posing challenges for climate mitigation. Current estimates of methane emissions rely on methane correction factors (MCFs) in the Intergovernmental Panel on Climate Change (IPCC) guidelines that are based on theoretical assumptions and increasingly viewed as not valid. In this Perspective, we use 1349 data points from onsite storage of wastewater in 11 cities to show that obtaining accurate city-wide estimates is complicated by highly variable properties of in situ wastewater and storage conditions and hence biological production of methane. When it comes to greenhouse gas emissions from nonsewered sanitation, the sector has so far focused on storage, but as evidence suggests these estimates are too high, we propose that emphasis should in fact be placed on the entire service chain.",
-    "authors": [
-      "Michael Vogel",
-      "Linda Strande"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.116487+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03733",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03733",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03733?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Greenhouse gas",
-      "Environmental science",
-      "Methane emissions",
-      "Methane",
-      "Climate change",
-      "Wastewater",
+      "Particulates",
+      "Pollution",
+      "Air pollution",
       "Environmental engineering",
-      "Population"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": true
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c00641",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00641",
-    "doi": "10.1021/acs.est.6c00641",
-    "title": "Microalgae-Mediated Electron Transfer and Allocation in Paracoccus denitrificans for Efficient Nitrate Removal",
-    "abstract": "Microalgal-bacterial systems provide a promising strategy to enhance the nitrate removal performance of denitrifiers via the traditionally assumed provision of electron donors or enrichment of functional microorganisms, while the single-species regulatory mechanism remains unclear. Chlorella vulgaris ( C. vulgaris ) could markedly improve the nitrate removal by Paracoccus denitrificans ( P. denitrificans ) even under nutrient-replete conditions, contributing to a 2.48-fold increase in the nitrate removal rate constant compared to the sum of monocultures, indicating non-nutritional regulatory effects. Transcriptomics showed glycolytic genes in P. denitrificans were upregulated by 1.65 to 10.1-fold, accompanied by a 51.0% increase in NADH production. Lactate, as a key intermediate, activated the bacterial electron transport chain (ETC), with ETC-related gene expression upregulated by 2.83 to 2.95-fold. Furthermore, bacterial ammonium induced microalgal glutamate synthesis and release, which likely acted as a signaling molecule to upregulate bacterial nitrate reductase expression. These interactions redirected electrons toward nitrate reduction, increasing carbon utilization efficiency for nitrate removal by 82.75%. Microalgae coordinately optimized bacterial carbon and nitrogen metabolism, reprogramming electron generation, transfer, and allocation to achieve efficient nitrate conversion. This work provides molecular-level mechanistic insights and supports the design of controllable strategies for environmental remediation.",
-    "authors": [
-      "Yue Li",
-      "Chungui Yu",
-      "Shiyu Miao",
-      "Huachun Lan",
-      "Xiaoqiang An",
-      "Huijuan Liu",
-      "Jiuhui Qu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-02T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:18.116517+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00641",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00641",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Nitrate",
-      "Chemistry",
-      "Electron transfer",
-      "Environmental chemistry",
-      "Environmental science",
-      "Water pollution",
-      "Mass transfer",
-      "Inorganic chemistry"
+      "China",
+      "Pollution prevention"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
@@ -482,7 +519,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131195+00:00",
+    "updated_at": "2026-07-08T20:17:13.776283+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125853",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125853",
     "pdf_url": null,
@@ -551,7 +588,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130846+00:00",
+    "updated_at": "2026-07-08T20:17:13.775832+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125891",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125891",
     "pdf_url": null,
@@ -622,7 +659,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130692+00:00",
+    "updated_at": "2026-07-08T20:17:13.775641+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125893",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125893",
     "pdf_url": null,
@@ -690,7 +727,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131093+00:00",
+    "updated_at": "2026-07-08T20:17:13.776148+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125886",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125886",
     "pdf_url": null,
@@ -759,7 +796,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130875+00:00",
+    "updated_at": "2026-07-08T20:17:13.775864+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125888",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125888",
     "pdf_url": null,
@@ -826,7 +863,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130951+00:00",
+    "updated_at": "2026-07-08T20:17:13.775946+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125922",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125922",
     "pdf_url": null,
@@ -892,7 +929,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130974+00:00",
+    "updated_at": "2026-07-08T20:17:13.775972+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125872",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125872",
     "pdf_url": null,
@@ -961,7 +998,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130905+00:00",
+    "updated_at": "2026-07-08T20:17:13.775895+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125880",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125880",
     "pdf_url": null,
@@ -1035,7 +1072,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131274+00:00",
+    "updated_at": "2026-07-08T20:17:13.776258+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125857",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125857",
     "pdf_url": null,
@@ -1087,7 +1124,7 @@
     "source_paper_id": "10.1016/j.watres.2026.126453",
     "doi": "10.1016/j.watres.2026.126453",
     "title": "Nature-based solution for treating pesticide-contaminated groundwater: performance of a combined two-stage biofilm system",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Biological treatment represents an alternative to conventional adsorption technologies for the removal of pesticides from contaminated groundwater and landfill leachates. A pilot-scale treatment combining moving bed biofilm reactors (MBBRs) and downstream biofilters was operated for two years to evaluate the removal of the chlorophenoxy herbicides mecoprop (MCPP) and dichlorprop (DCPP) under realistic field conditions. After establishing famine operation and aeration, removals were 78 ± 3% (MCPP) and 73 ± 4% (DCPP) in one treatment line, while the other one achieved lower but consistent removal (47–51%). Mass balance analyses demonstrated that decreases in parent compounds were not solely due to production of known transformation products, indicating effective sequential biodegradation (mineralisation). The upstream MBBR primarily improved iron and particle management to protect the downstream biofilters from, whereas biofilters accounted for most of the removal of both parents and metabolites. Removal was largely independent of hydraulic retention time when varying this between 10–25 h but strongly linked to dissolved oxygen concentrations, highlighting aerobic biofilm activity as the key controlling factor. Microbial community analysis revealed biofilms dominated by Pseudomonadota , with higher abundance of putative phenoxyacid degraders and fewer anaerobic taxa in the better-performing line, supporting an oxygen-driven biodegradation mechanism. An in silico full-scale assessment indicated substantially lower life-cycle and monetary expenditures compared to granular activated carbon treatment.",
     "authors": [
       "Andrea Mongelli",
       "Johanna L Kruse",
@@ -1104,7 +1141,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.130735+00:00",
+    "updated_at": "2026-07-08T20:17:13.775686+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126453",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126453",
     "pdf_url": null,
@@ -1119,6 +1156,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -1126,6 +1164,18 @@
       "journal-watch",
       "core-journal",
       "water-research"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Biofilter",
+      "Biofilm",
+      "Biodegradation",
+      "Chemistry",
+      "Bioaugmentation",
+      "Environmental chemistry",
+      "Extracellular polymeric substance",
+      "Hydraulic retention time"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -1157,7 +1207,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131346+00:00",
+    "updated_at": "2026-07-08T20:17:13.776311+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125837",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125837",
     "pdf_url": null,
@@ -1194,7 +1244,7 @@
       "Chemistry",
       "Performic acid"
     ],
-    "citation_count": 0,
+    "citation_count": 1,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -1232,7 +1282,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131069+00:00",
+    "updated_at": "2026-07-08T20:17:13.776036+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126423",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126423",
     "pdf_url": null,
@@ -1302,7 +1352,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131172+00:00",
+    "updated_at": "2026-07-08T20:17:13.776122+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126438",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126438",
     "pdf_url": null,
@@ -1318,6 +1368,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -1338,6 +1389,8 @@
       "Nitrogen cycle",
       "Waste management"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1364,7 +1417,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131144+00:00",
+    "updated_at": "2026-07-08T20:17:13.776091+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.126425",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.126425",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0043135426011048/pdf",
@@ -1428,7 +1481,7 @@
       "water-research"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:27.131297+00:00",
+    "updated_at": "2026-07-08T20:17:13.776172+00:00",
     "link": "https://doi.org/10.1016/j.watres.2026.125822",
     "abs_url": "https://doi.org/10.1016/j.watres.2026.125822",
     "pdf_url": null,
@@ -1480,7 +1533,7 @@
     "source_paper_id": "10.1021/acs.estlett.6c00601",
     "doi": "10.1021/acs.estlett.6c00601",
     "title": "Marine Plastic Debris Entrapped in Tube Decorations of Plumed Worm: Evidence of a Novel Biological Sink in Intertidal Mudflats",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Marine plastic pollution research has focused primarily on debris in water columns and sediments, as well as plastics ingested by marine organisms, while the incorporation of plastics into biogenic structures by habitat-engineering organisms remains underexplored. Here, we investigated the tube-decorating polychaete Diopatra sp. on intertidal mudflats of Hanagae Beach, South Korea, to assess whether plastic debris is utilized as tube-building material. While no plastic particles (> 2 mm) were detected in surface sediments, all examined Diopatra tubes ( n = 48) contained plastics, averaging 4.73 plastic particles per tube. Both Diopatra abundance and tube-entrapped plastics increased with distance from the shoreline, suggesting hydrodynamic mediation of habitat suitability and plastic retention. FTIR spectroscopy revealed that fibers dominated the incorporated plastics, primarily derived from Abandoned, Lost, or otherwise Discarded Fishing Gear (ALDFG). Notably, per-tube plastic loads substantially exceeded ingestion-based accumulation levels reported for other benthic invertebrates, underscoring bioconstruction as a distinct and more efficient retention mechanism. We propose that, at least within intertidal systems, tube-decorating polychaetes may act as a biological reservoir for plastic debris through tube construction, whereby their biogenic structures can reflect pollution levels that may be overlooked by conventional sampling approaches.",
     "authors": [
       "Harim Jeong",
       "Jun-Hyuk Shin",
@@ -1499,7 +1552,7 @@
       "est-letters"
     ],
     "published": "2026-07-07T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:22.489701+00:00",
+    "updated_at": "2026-07-08T20:17:12.967998+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00601",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00601",
     "pdf_url": null,
@@ -1515,6 +1568,7 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
       "docs-meta"
     ],
     "tags": [
@@ -1523,6 +1577,87 @@
       "core-journal",
       "est-letters"
     ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Intertidal zone",
+      "Debris",
+      "Plastic pollution",
+      "Microplastics",
+      "Environmental science",
+      "Benthic zone",
+      "Marine debris",
+      "Polychaete"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00517",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00517",
+    "doi": "10.1021/acs.estlett.6c00517",
+    "title": "Beyond Hindered Phenolic Antioxidants: Aromatic Amine Antioxidants Dominate Hazard Profiles in Municipal Sludge across China",
+    "abstract": "Synthetic antioxidants (AOs) can accumulate in municipal sludge during wastewater treatment, yet current occurrence-based assessments remain largely focused on hindered phenolic antioxidants (HPAs), potentially overlooking other AO classes and transformation products (TPs) with distinct hazard characteristics. Here, we conducted a nationwide assessment of four major AO classes comprising 60 AOs and TPs in municipal sludge across China by integrating occurrence and hazard information. Forty-seven compounds were detected nationwide, including 17 compounds reported in sludge for the first time (e.g., AO 3052, PANA/PBNA, AO 168═O, and DLTP). HPAs overwhelmingly dominated AO occurrence, accounting for 94.0% of total AO concentrations nationwide, with BHT and DBP as the major contributors. In contrast, hazard-informed prioritization revealed that aromatic amine antioxidants (AAs) and their TPs, particularly 6PPD, DPA, and 6PPD-quinone, disproportionately dominated hazard profiles despite their substantially lower abundance. The high rankings of TPs further suggest an important role of environmental transformation in shaping AO-related hazards in sludge. These findings reveal a pronounced mismatch between abundance and hazard profiles across AO classes, suggesting that concentration-driven monitoring strategies may overlook lower-abundance but highly hazardous contaminants in municipal sludge.",
+    "authors": [
+      "Bowen Liang",
+      "Qing Deng",
+      "Xu Han",
+      "Jiali Ge",
+      "Sihan Ji",
+      "Huan Yi",
+      "Bibai Du",
+      "Lixi Zeng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-06T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.968031+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00517",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00517",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Environmental science",
+      "Environmental chemistry",
+      "Hazard",
+      "Waste management",
+      "Sewage sludge",
+      "Pulp and paper industry",
+      "Amine gas treating"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -1546,7 +1681,7 @@
       "est-letters"
     ],
     "published": "2026-06-30T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:22.489757+00:00",
+    "updated_at": "2026-07-08T20:17:12.968056+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00543",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00543",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00543?ref=article_openPDF",
@@ -1590,70 +1725,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-estlett-6c00520",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.estlett.6c00520",
-    "doi": "10.1021/acs.estlett.6c00520",
-    "title": "Weekly Monitoring Reveals the Dynamics, Sources, and Loads of Pesticides, Pharmaceuticals, and Tire-Derived Chemicals in the Mississippi River",
-    "abstract": "Understanding the sources and transport of contaminants in large rivers is often constrained by low-frequency monitoring that fails to resolve short-duration hydrologic effects. Weekly water samples were collected for one year from the Upper Mississippi River to quantify the occurrence, temporal dynamics, sources, and mass loadings of pesticides, a pharmaceutical, a corrosion inhibitor, and tire-derived chemicals. Distinct temporal patterns were observed. Tire-derived chemicals exhibited pronounced concentration peaks during spring snowmelt. Pesticide concentrations were highest in early summer following agricultural application. Pesticides showed strong positive correlations with river discharge (e.g., for metolachlor, ρ = 0.78 and p < 0.001), indicating inputs from increased runoff, while the wastewater indicator metformin had a negative correlation, consistent with dilution of point-source inputs. Cross-compound correlations indicated dominant contributions from urban runoff (tire-derived chemicals), agricultural runoff (pesticides), wastewater effluent (metformin), and mixed sources (benzotriazole). Load estimates showed tire-derived chemicals had mass loadings comparable to those of neonicotinoid insecticides. These results indicate that weekly sampling leads to improved characterization of contaminant sources and load contributions in large river systems.",
-    "authors": [
-      "Zihang Wang",
-      "Andrew J. Erickson",
-      "William A. Arnold"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "published": "2026-06-29T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:22.489867+00:00",
-    "link": "https://doi.org/10.1021/acs.estlett.6c00520",
-    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology Letters",
-    "journal_key": "est_letters",
-    "journal_label": "EST Letters",
-    "journal_issn": [
-      "2328-8930",
-      "2328-8930"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Environmental science",
-      "Effluent",
-      "Hydrology (agriculture)",
-      "Surface runoff",
-      "Wastewater",
-      "Pesticide",
-      "Urban runoff",
-      "Pollution"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-jhazmat-2026-142291",
     "source": "journal",
     "source_detail": "crossref",
@@ -1680,7 +1751,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442207+00:00",
+    "updated_at": "2026-07-08T20:17:15.100533+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142291",
     "pdf_url": null,
@@ -1750,7 +1821,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442065+00:00",
+    "updated_at": "2026-07-08T20:17:15.100331+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142309",
     "pdf_url": null,
@@ -1820,7 +1891,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442422+00:00",
+    "updated_at": "2026-07-08T20:17:15.100875+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142474",
     "pdf_url": null,
@@ -1892,7 +1963,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442506+00:00",
+    "updated_at": "2026-07-08T20:17:15.100906+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142412",
     "pdf_url": null,
@@ -1963,7 +2034,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442478+00:00",
+    "updated_at": "2026-07-08T20:17:15.100816+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142438",
     "pdf_url": null,
@@ -2037,7 +2108,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442342+00:00",
+    "updated_at": "2026-07-08T20:17:15.100698+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142439",
     "pdf_url": null,
@@ -2108,7 +2179,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442152+00:00",
+    "updated_at": "2026-07-08T20:17:15.100422+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142378",
     "pdf_url": null,
@@ -2175,7 +2246,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442125+00:00",
+    "updated_at": "2026-07-08T20:17:15.100393+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142390",
     "pdf_url": null,
@@ -2245,7 +2316,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442021+00:00",
+    "updated_at": "2026-07-08T20:17:15.100290+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142521",
     "pdf_url": null,
@@ -2291,75 +2362,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1016-j-jhazmat-2026-142342",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1016/j.jhazmat.2026.142342",
-    "doi": "10.1016/j.jhazmat.2026.142342",
-    "title": "Silica-coated nanosized zero-valent iron/persulfate system for sequential reduction–oxidation remediation of subsurface contamination: A feasibility study",
-    "abstract": "Sequential reduction and oxidation processes are promising for mineralizing recalcitrant contaminants with high oxidation states. The reduction step transforms such contaminants into oxidizable intermediates that are subsequently mineralized in the oxidation step. In this study, we assessed a sequential reduction-oxidation system using silica-coated nanosized zero-valent iron particles (nZVI@SiO2) and persulfate to establish in situ reactive zones (IRZs) for groundwater remediation. A sequential column and a physical aquifer model were used to simulate groundwater environments in the field. The silica coating made the nZVI@SiO2 markedly more mobile and selective than bare nZVI. In the column reactor, strong positive correlations were found between the consumption of nZVI@SiO2 (being a consumable reductive material) and the amounts of nitrobenzene reduced and aniline formed. The sequential reduction-oxidation process induced by the combination of the nZVI@SiO2 reductive column and the persulfate oxidative column markedly enhanced contaminant mineralization, which could not be achieved effectively through only reduction or only oxidation. A more practical test of the treatment process for in situ reactive zone remediation was performed using a three-dimensional physical aquifer model reactor. The removal efficiencies achieved using nZVI@SiO2 in reactors of different sizes were determined, and extrapolations were performed to determine a quantitative baseline for designing effective nZVI@SiO2 treatment systems for field applications.",
-    "authors": [
-      "Quoc Bien Nguyen",
-      "Cheolyong Kim",
-      "Van Quyet Nguyen",
-      "Thi Hai Nguyen",
-      "Son Hai Truong-Lam",
-      "Inseong Hwang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442705+00:00",
-    "link": "https://doi.org/10.1016/j.jhazmat.2026.142342",
-    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142342",
-    "pdf_url": null,
-    "journal": "Journal of Hazardous Materials",
-    "journal_key": "jhm",
-    "journal_label": "JHM",
-    "journal_issn": [
-      "0304-3894"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "hazardous-materials"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Persulfate",
-      "Nitrobenzene",
-      "Environmental remediation",
-      "Aquifer",
-      "Zerovalent iron",
-      "Groundwater",
-      "Permeable reactive barrier",
-      "Groundwater remediation"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1016-j-jhazmat-2026-142435",
     "source": "journal",
     "source_detail": "crossref",
@@ -2384,7 +2386,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442179+00:00",
+    "updated_at": "2026-07-08T20:17:15.100503+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142435",
     "pdf_url": null,
@@ -2450,7 +2452,7 @@
       "hazardous-materials"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:36.442535+00:00",
+    "updated_at": "2026-07-08T20:17:15.100844+00:00",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142478",
     "pdf_url": null,
@@ -2517,7 +2519,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.006182+00:00",
+    "updated_at": "2026-07-08T20:17:14.336832+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181889",
     "pdf_url": null,
@@ -2586,7 +2588,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005937+00:00",
+    "updated_at": "2026-07-08T20:17:14.336560+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181884",
     "pdf_url": null,
@@ -2654,7 +2656,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.006324+00:00",
+    "updated_at": "2026-07-08T20:17:14.336981+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181888",
     "pdf_url": null,
@@ -2722,7 +2724,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005804+00:00",
+    "updated_at": "2026-07-08T20:17:14.336413+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181867",
     "pdf_url": null,
@@ -2792,7 +2794,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.006021+00:00",
+    "updated_at": "2026-07-08T20:17:14.336662+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181910",
     "pdf_url": null,
@@ -2858,7 +2860,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005960+00:00",
+    "updated_at": "2026-07-08T20:17:14.336586+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181893",
     "pdf_url": null,
@@ -2924,7 +2926,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005737+00:00",
+    "updated_at": "2026-07-08T20:17:14.336345+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181907",
     "pdf_url": null,
@@ -2992,7 +2994,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005995+00:00",
+    "updated_at": "2026-07-08T20:17:14.336612+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181901",
     "pdf_url": null,
@@ -3062,7 +3064,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005829+00:00",
+    "updated_at": "2026-07-08T20:17:14.336440+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181899",
     "pdf_url": null,
@@ -3129,7 +3131,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005851+00:00",
+    "updated_at": "2026-07-08T20:17:14.336464+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181887",
     "pdf_url": null,
@@ -3199,7 +3201,7 @@
       "stoten"
     ],
     "published": "2026-07-01T00:00:00+00:00",
-    "updated_at": "2026-07-07T20:51:30.005874+00:00",
+    "updated_at": "2026-07-08T20:17:14.336496+00:00",
     "link": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "abs_url": "https://doi.org/10.1016/j.scitotenv.2026.181906",
     "pdf_url": null,
@@ -4441,6 +4443,50 @@
     "published": "2026-06-01",
     "link": "https://doi.org/10.1016/j.jhazmat.2026.142086",
     "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142086",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_label": "JHM",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:hazardous-materials",
+      "query:JHM"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-142342",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1016/j.jhazmat.2026.142342",
+    "doi": "10.1016/j.jhazmat.2026.142342",
+    "title": "Silica-coated nanosized zero-valent iron/persulfate system for sequential reduction–oxidation remediation of subsurface contamination: A feasibility study",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Quoc Bien Nguyen",
+      "Cheolyong Kim",
+      "Van Quyet Nguyen",
+      "Thi Hai Nguyen",
+      "Son Hai Truong-Lam",
+      "Inseong Hwang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-01",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.142342",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.142342",
     "pdf_url": null,
     "journal": "Journal of Hazardous Materials",
     "journal_label": "JHM",
@@ -6596,6 +6642,51 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c00641",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00641",
+    "doi": "10.1021/acs.est.6c00641",
+    "title": "Microalgae-Mediated Electron Transfer and Allocation in Paracoccus denitrificans for Efficient Nitrate Removal",
+    "abstract": "Microalgal-bacterial systems provide a promising strategy to enhance the nitrate removal performance of denitrifiers via the traditionally assumed provision of electron donors or enrichment of functional microorganisms, while the single-species regulatory mechanism remains unclear. Chlorella vulgaris ( C. vulgaris ) could markedly improve the nitrate removal by Paracoccus denitrificans ( P. denitrificans ) even under nutrient-replete conditions, contributing to a 2.48-fold increase in the nitrate removal rate constant compared to the sum of monocultures, indicating non-nutritional regulatory effects. Transcriptomics showed glycolytic genes in P. denitrificans were upregulated by 1.65 to 10.1-fold, accompanied by a 51.0% increase in NADH production. Lactate, as a key intermediate, activated the bacterial electron transport chain (ETC), with ETC-related gene expression upregulated by 2.83 to 2.95-fold. Furthermore, bacterial ammonium induced microalgal glutamate synthesis and release, which likely acted as a signaling molecule to upregulate bacterial nitrate reductase expression. These interactions redirected electrons toward nitrate reduction, increasing carbon utilization efficiency for nitrate removal by 82.75%. Microalgae coordinately optimized bacterial carbon and nitrogen metabolism, reprogramming electron generation, transfer, and allocation to achieve efficient nitrate conversion. This work provides molecular-level mechanistic insights and supports the design of controllable strategies for environmental remediation.",
+    "authors": [
+      "Yue Li",
+      "Chungui Yu",
+      "Shiyu Miao",
+      "Huachun Lan",
+      "Xiaoqiang An",
+      "Huijuan Liu",
+      "Jiuhui Qu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-02",
+    "link": "https://doi.org/10.1021/acs.est.6c00641",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00641",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c00882",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -8388,6 +8479,45 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c03733",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03733",
+    "doi": "10.1021/acs.est.6c03733",
+    "title": "Can Data Mining Improve Methane Correction Factors for Urban, Nonsewered Sanitation?",
+    "abstract": "Nearly half of the world's population relies on nonsewered sanitation, and in urban areas, intermittent onsite storage of wastewater prior to road-based transport to treatment is common. Anerobic biological activity during storage generates methane, contributing to greenhouse gas emissions and posing challenges for climate mitigation. Current estimates of methane emissions rely on methane correction factors (MCFs) in the Intergovernmental Panel on Climate Change (IPCC) guidelines that are based on theoretical assumptions and increasingly viewed as not valid. In this Perspective, we use 1349 data points from onsite storage of wastewater in 11 cities to show that obtaining accurate city-wide estimates is complicated by highly variable properties of in situ wastewater and storage conditions and hence biological production of methane. When it comes to greenhouse gas emissions from nonsewered sanitation, the sector has so far focused on storage, but as evidence suggests these estimates are too high, we propose that emphasis should in fact be placed on the entire service chain.",
+    "authors": [
+      "Michael Vogel",
+      "Linda Strande"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-02",
+    "link": "https://doi.org/10.1021/acs.est.6c03733",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03733",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03733?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown"
+  },
+  {
     "id": "journal-10-1021-acs-est-6c03782",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -8845,6 +8975,48 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c04737",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04737",
+    "doi": "10.1021/acs.est.6c04737",
+    "title": "The Efficiencies and Products of Dilute Methane Oxidation in a Chlorine Radical Photoreactor",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide A potential approach for mitigating the climate impact of hard-to-abate, dilute (less than 1000 ppm; ppm) methane (CH 4 ) is gas-phase advanced oxidation (GPAO). Here, we present experimental results from a benchtop GPAO reactor oxidizing CH 4 with chlorine radicals (Cl · ) produced from the photolysis of chlorine gas (Cl 2 ), a process we term “Cl 2 -GPAO.” We find that at CH 4 concentrations from 2 to 90 ppm, supplying Cl 2 in a ratio of 1:1 with CH 4 uses photogenerated Cl · efficiently, with 3 Cl · photogenerated for each CH 4 oxidized with only 20% of Cl · recombining to Cl 2 . When more Cl 2 is added, the product balance shifts from mainly carbon monoxide to mainly carbon dioxide. Cl 2 -GPAO performs similarly under relative humidities between 5 and 60%. In the presence of ppm-level ammonia, toluene, nitric oxide, and hydrogen sulfide, CH 4 conversion decreases, suggesting that gaseous contaminants compete with CH 4 for Cl · . Gas chromatography–mass spectrometry revealed that Cl 2 -GPAO with 30 ppm CH 4 and Cl 2 produces 1.05 ± 0.32 part per billion (ppb) methyl chloride and 1.25 ± 0.38 ppb chloroform. Methylene chloride and carbon tetrachloride were not detected. We discuss the implications for cost-effective and climate-beneficial Cl 2 -GPAO at scale.",
+    "authors": [
+      "Richard Randall",
+      "Max I. Kessler",
+      "Robert B. Jackson",
+      "Arun Majumdar"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-04",
+    "link": "https://doi.org/10.1021/acs.est.6c04737",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04737",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04737?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "unknown",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c04751",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -9173,6 +9345,61 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c06193",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c06193",
+    "doi": "10.1021/acs.est.6c06193",
+    "title": "Distinct Source-Sink Patterns and Vertical Consumption of Alkyl and Aryl Organophosphate Esters in the Remote Ocean and Its Marginal Sea",
+    "abstract": "Organophosphorus esters (OPEs) have been widely used as flame retardants and plasticizers and are globally ubiquitous. In the marine environment, OPEs primarily originate from continental sources and are initially confined to marginal seas before reaching remote oceans. However, their differing biogeochemical fates in these two regions remain unclear. This study investigated regional variations in the biogeochemical regulation mechanisms of OPEs (alkyl and aryl) across the Western Pacific and the South China Sea (112°E to 163°E) by analyzing their air-sea interface processes and vertical profiles. Results revealed that the South China Sea exhibited net inputs of OPEs (1.66 ± 1.36 μg m –2 d –1 ), while the Western Pacific mainly showed outputs (0.41 ± 1.15 μg m –2 d –1 ) to the atmosphere, forming patterns characterized by remote sources and marginal sinks. In vertical profiles, OPE consumption in the upper water column of the South China Sea was mainly driven by biodegradation, in contrast to the Western Pacific, where it was primarily controlled by the biological pump. This study reveals the distinct OPE fates in the remote ocean versus the marginal sea, highlighting the Western Pacific Warm Pool as a source of OPEs. Future research should address their marine coexistence with precursors and transformation products.",
+    "authors": [
+      "Jingwen Shi",
+      "Mengyang Liu",
+      "Yiming Wang",
+      "Jiandong Ye",
+      "Mingjun Feng",
+      "Zi-Feng Zhang",
+      "Yixue Jiang",
+      "Lin Zhang",
+      "Xiaohua Wang",
+      "Yanjian Jin",
+      "Yan Lin",
+      "Hongwei Ke",
+      "Zhaoguang Xu",
+      "Xuke Chen",
+      "Junge Wang",
+      "Yi-Fan Li",
+      "Minggang Cai"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-03",
+    "link": "https://doi.org/10.1021/acs.est.6c06193",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06193",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c06486",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -9288,6 +9515,55 @@
     "published": "2026-07-02",
     "link": "https://doi.org/10.1021/acs.est.6c06775",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06775",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06924",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c06924",
+    "doi": "10.1021/acs.est.6c06924",
+    "title": "Investigating Ultrafine Aerosol Turbulent Fluxes during Atmospheric New Particle Formation Events",
+    "abstract": "Quantitatively predicting new particle formation (NPF) remains challenging, largely because the true origin of events observed on the surface is often ambiguous. This potential for misattributing particles formed aloft as ground-level events fundamentally compromises predictive models built on local measurements. Here, we propose and validate an analytical framework using airborne eddy covariance and continuous wavelet transform to directly quantify the vertical turbulent flux of newly formed particles and determine their dominant vertical transport direction. Analyzing data from a dedicated airborne campaign over the Southern Great Plains, we observed a consistent and strong downward turbulent flux of ultrafine aerosols during NPF events, with a mean value of −133.8 cm –3 m s –1 in the entrainment zone, whereas fluxes on non-NPF days were negligible. Our spectral analysis further confirms that these directional fluxes can be reliably captured by using standard 1 Hz aerosol instrumentation. These findings suggest that NPF events associated with entrainment from the overlying residual/stable layer during planetary boundary layer growth represent a significant and potentially underestimated source of boundary layer aerosols. The framework presented here provides a new methodology to correctly attribute NPF events to specific altitudes, thereby improving our process-level understanding of particle formation in the atmosphere.",
+    "authors": [
+      "Ruoyu Zhang",
+      "Damao Zhang",
+      "Fan Mei",
+      "Manisha Mehra",
+      "Jiaxuan Cai",
+      "Haofei Yu",
+      "Ajmal Rasheeda Satheesh",
+      "Gerardo Carillo-Cardenas",
+      "Anna Gannet Hallar",
+      "Nicholas Meskhidze",
+      "Yang Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-04",
+    "link": "https://doi.org/10.1021/acs.est.6c06924",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06924",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -9655,6 +9931,47 @@
     "published": "2026-06-16",
     "link": "https://doi.org/10.1021/acs.estlett.6c00498",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00498",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_label": "EST Letters",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est-letters",
+      "query:EST Letters"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00520",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.estlett.6c00520",
+    "doi": "10.1021/acs.estlett.6c00520",
+    "title": "Weekly Monitoring Reveals the Dynamics, Sources, and Loads of Pesticides, Pharmaceuticals, and Tire-Derived Chemicals in the Mississippi River",
+    "abstract": "Understanding the sources and transport of contaminants in large rivers is often constrained by low-frequency monitoring that fails to resolve short-duration hydrologic effects. Weekly water samples were collected for one year from the Upper Mississippi River to quantify the occurrence, temporal dynamics, sources, and mass loadings of pesticides, a pharmaceutical, a corrosion inhibitor, and tire-derived chemicals. Distinct temporal patterns were observed. Tire-derived chemicals exhibited pronounced concentration peaks during spring snowmelt. Pesticide concentrations were highest in early summer following agricultural application. Pesticides showed strong positive correlations with river discharge (e.g., for metolachlor, ρ = 0.78 and p < 0.001), indicating inputs from increased runoff, while the wastewater indicator metformin had a negative correlation, consistent with dilution of point-source inputs. Cross-compound correlations indicated dominant contributions from urban runoff (tire-derived chemicals), agricultural runoff (pesticides), wastewater effluent (metformin), and mixed sources (benzotriazole). Load estimates showed tire-derived chemicals had mass loadings comparable to those of neonicotinoid insecticides. These results indicate that weekly sampling leads to improved characterization of contaminant sources and load contributions in large river systems.",
+    "authors": [
+      "Zihang Wang",
+      "Andrew J. Erickson",
+      "William A. Arnold"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-06-29",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00520",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00520",
     "pdf_url": null,
     "journal": "Environmental Science & Technology Letters",
     "journal_label": "EST Letters",

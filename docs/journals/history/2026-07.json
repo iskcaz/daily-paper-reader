@@ -1017,7 +1017,7 @@
       "Chemistry",
       "Performic acid"
     ],
-    "citation_count": 0,
+    "citation_count": 1,
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
@@ -2946,7 +2946,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -3432,7 +3432,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -3577,7 +3577,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3586,7 +3588,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Engineering ethics",
+      "Environmental planning",
+      "Contamination",
+      "Environmental science",
+      "Environmental ethics",
+      "Environmental protection",
+      "Political science",
+      "Environmental health"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03127",
@@ -3627,7 +3646,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3636,7 +3657,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Adsorption",
+      "Inorganic chemistry",
+      "Stoichiometry",
+      "Sulfur",
+      "Dissociation (chemistry)",
+      "Flue gas",
+      "Metal"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1016-j-watres-2026-126453",
@@ -3677,7 +3715,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -3686,7 +3725,19 @@
       "water-research"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Biofilter",
+      "Biofilm",
+      "Biodegradation",
+      "Chemistry",
+      "Bioaugmentation",
+      "Environmental chemistry",
+      "Extracellular polymeric substance",
+      "Hydraulic retention time"
+    ]
   },
   {
     "id": "journal-10-1016-j-watres-2026-126438",
@@ -3732,7 +3783,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3753,7 +3805,9 @@
       "Waste management"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1016-j-watres-2026-126425",
@@ -3861,6 +3915,433 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "docs-meta",
+      "openalex"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Intertidal zone",
+      "Debris",
+      "Plastic pollution",
+      "Microplastics",
+      "Environmental science",
+      "Benthic zone",
+      "Marine debris",
+      "Polychaete"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07055",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07055",
+    "doi": "10.1021/acs.est.6c07055",
+    "title": "Eco-Corona of Microplastics in Soil Inhibits Their Role as a Contaminant Vector While Enhancing Their Role as a Microorganism Vector",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shi Yao",
+      "Tao Wang",
+      "Qicheng Bei",
+      "Xiangwei Wu",
+      "Xin Jiang",
+      "Yongming Luo",
+      "Yang Song",
+      "Scott X. Chang",
+      "Hans Peter H. Arp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-08T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461200+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07055",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07055",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18921",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18921",
+    "doi": "10.1021/acs.est.5c18921",
+    "title": "In Situ Single-Cell Raman Isotope Analysis Quantifies Cell-to-Cell Metabolic Heterogeneity within Individual Cable Bacteria Filaments in Sediments",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lu Zhang",
+      "Ji Zhan",
+      "Junhui Guo",
+      "Tianqi Lin",
+      "Wei Yang",
+      "Guohong Liu",
+      "Zhiying Liu",
+      "Xing Liu",
+      "Shungui Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-08T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.460976+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18921",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18921",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c13915",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c13915",
+    "doi": "10.1021/acs.est.5c13915",
+    "title": "Unraveling the Historical Trajectory and Dynamic Mechanisms of Microplastic Degradation in Sediment Cores over the Last Century",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jiatian Huang",
+      "Haiwei Li",
+      "Yunlong Li",
+      "Jun Zhu",
+      "Ruikun Sun",
+      "Zhengqing Dai",
+      "Rijian Mo",
+      "Shiqi Jiang",
+      "Lei He",
+      "Liming Song",
+      "Muhammad Usman Amin",
+      "Chengyong Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-08T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.460874+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c13915",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13915",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08214",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08214",
+    "doi": "10.1021/acs.est.6c08214",
+    "title": "Emerging Contaminants in Treated Wastewater Reuse under Water Scarcity: A Hidden Risk in the Middle East, North Africa, and Türkiye",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Imen Haddaoui",
+      "Ramona Marasco",
+      "Lucy Semerjian",
+      "Yasemin Dilsad Yilmazel",
+      "Olfa Mahjoub",
+      "Pei-Ying Hong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461380+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08214",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08214",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Wastewater",
+      "Environmental science",
+      "Reuse",
+      "Contamination",
+      "Waste management",
+      "Wastewater reuse",
+      "Environmental engineering",
+      "Water pollution"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07049",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07049",
+    "doi": "10.1021/acs.est.6c07049",
+    "title": "Temperate Phages Mediate Dual Adaptive Mechanisms That Enhance Microbial Resilience in Antibiotic-Contaminated Wastewater Treatment Systems",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jie Li",
+      "Peng Liu",
+      "Qifeng Zhang",
+      "Renxin Zhao",
+      "Jiayu Zhang",
+      "Xiulin Zheng",
+      "Bing Li",
+      "Xu-Xiang Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-07T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461508+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07049",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07049",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02727",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02727",
+    "doi": "10.1021/acs.est.6c02727",
+    "title": "Industrial Condensable Particulate Matter: A Missing Source in PM 2.5 Source Apportionment Driving Winter Pollution in China",
+    "abstract": "Fine particulate matter (PM 2.5 ) from industrial sources remains a major health concern. However, current emission controls and source apportionment models ignore condensable particulate matter (CPM). Here, we provide the first nationwide quantification of industrial CPM contributions to atmospheric PM 2.5 in China through an integrated framework of field measurements, receptor modeling, and chemical transport simulations. Industrial CPM exhibits a chemical profile dominated by sulfate and ammonium, distinct from filterable PM, which creates a risk that its contribution may be misattributed to secondary aerosols in traditional source apportionment. Across industrial sources, CPM mass proportions vary significantly ( p < 0.01) for NH 4 +, NO 3 –, and Cl – . Based on receptor modeling, CPM contributes a median of 3.6% (95% CI: 0.9%–14.5%) to urban PM 2.5 across all four seasons in 2023, in the industrialized cities examined (Shanghai, Xi’an, Hefei, Shijiazhuang). The contribution peaks in winter (9.5%, 95% Monte Carlo-derived intervals: 2.4%–23.1%) due to enhanced gas-to-particle condensation at low temperature in these cities. From 2014 to 2023, the iron and steel sector emerged as the dominant CPM source, with its contribution increasing by up to 31.0% in key regions during winter. This overlooked source appears to substantially compress the apportioned contribution of secondary inorganics (by an estimated 5.6%–16.6%), suggesting that omission of CPM may lead to overestimation of secondary inorganic aerosol in traditional source apportionment. The results underscore the priority control of CPM emissions from industrial sources.",
+    "authors": [
+      "Yi Su",
+      "Xiwen Song",
+      "Di Wu",
+      "Yuanzheng Chen",
+      "Huantao Wang",
+      "Yang Li",
+      "Wei Cui",
+      "Hongmei Xu",
+      "Shuibing Wang",
+      "Jianhu Yang",
+      "Xiang Ding",
+      "Hongli Wang",
+      "Qing Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-06T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.461609+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02727",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02727",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Apportionment",
+      "Environmental science",
+      "Particulates",
+      "Pollution",
+      "Air pollution",
+      "Environmental engineering",
+      "China",
+      "Pollution prevention"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00517",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00517",
+    "doi": "10.1021/acs.estlett.6c00517",
+    "title": "Beyond Hindered Phenolic Antioxidants: Aromatic Amine Antioxidants Dominate Hazard Profiles in Municipal Sludge across China",
+    "abstract": "Synthetic antioxidants (AOs) can accumulate in municipal sludge during wastewater treatment, yet current occurrence-based assessments remain largely focused on hindered phenolic antioxidants (HPAs), potentially overlooking other AO classes and transformation products (TPs) with distinct hazard characteristics. Here, we conducted a nationwide assessment of four major AO classes comprising 60 AOs and TPs in municipal sludge across China by integrating occurrence and hazard information. Forty-seven compounds were detected nationwide, including 17 compounds reported in sludge for the first time (e.g., AO 3052, PANA/PBNA, AO 168═O, and DLTP). HPAs overwhelmingly dominated AO occurrence, accounting for 94.0% of total AO concentrations nationwide, with BHT and DBP as the major contributors. In contrast, hazard-informed prioritization revealed that aromatic amine antioxidants (AAs) and their TPs, particularly 6PPD, DPA, and 6PPD-quinone, disproportionately dominated hazard profiles despite their substantially lower abundance. The high rankings of TPs further suggest an important role of environmental transformation in shaping AO-related hazards in sludge. These findings reveal a pronounced mismatch between abundance and hazard profiles across AO classes, suggesting that concentration-driven monitoring strategies may overlook lower-abundance but highly hazardous contaminants in municipal sludge.",
+    "authors": [
+      "Bowen Liang",
+      "Qing Deng",
+      "Xu Han",
+      "Jiali Ge",
+      "Sihan Ji",
+      "Huan Yi",
+      "Bibai Du",
+      "Lixi Zeng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-06T00:00:00+00:00",
+    "updated_at": "2026-07-08T20:17:12.968031+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00517",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00517",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -3869,6 +4350,20 @@
       "core-journal",
       "est-letters"
     ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Environmental science",
+      "Environmental chemistry",
+      "Hazard",
+      "Waste management",
+      "Sewage sludge",
+      "Pulp and paper industry",
+      "Amine gas treating"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
