@@ -1,0 +1,333 @@
+Title: The Efficiencies and Products of Dilute Methane Oxidation in a Chlorine Radical Photoreactor
+
+URL Source: https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c04737?ref=article_openPDF
+
+Number of Pages: 10
+
+Markdown Content:
+# The Efficiencies and Products of Dilute Methane Oxidation in a Chlorine Radical Photoreactor 
+
+# Richard Randall, ○ Max I. Kessler, ○ Robert B. Jackson, and Arun Majumdar *
+
+Cite This: https://doi.org/10.1021/acs.est.6c04737 Read Online 
+
+# ACCESS Metrics & More Article Recommendations *sı Supporting Information 
+
+ABSTRACT: A potential approach for mitigating the climate impact of hard-to-abate, dilute (less than 1000 ppm; ppm) methane (CH 4) is gas-phase advanced oxidation (GPAO). Here, we present experimental results from a benchtop GPAO reactor oxidizing CH 4 with chlorine radicals (Cl ·) produced from the photolysis of chlorine gas (Cl 2), a process we term “Cl 2-GPAO.” We find that at CH 4 concentrations from 2 to 90 ppm, supplying Cl 2 in a ratio of 1:1 with CH 4 uses photogenerated Cl · efficiently, with 3 Cl ·
+
+photogenerated for each CH 4 oxidized with only 20% of Cl · recombining to Cl 2. When more Cl 2 is added, the product balance shifts from mainly carbon monoxide to mainly carbon dioxide. Cl 2-GPAO performs similarly under relative humidities between 5 and 60%. In the presence of ppm-level ammonia, toluene, nitric oxide, and hydrogen sulfide, CH 4 conversion decreases, suggesting that gaseous contaminants compete with CH 4 for Cl ·. Gas chromatography −mass spectrometry revealed that Cl 2-GPAO with 30 ppm CH 4 and Cl 2 produces 1.05 ± 0.32 part per billion (ppb) methyl chloride and 1.25 ± 0.38 ppb chloroform. Methylene chloride and carbon tetrachloride were not detected. We discuss the implications for cost-effective and climate-beneficial Cl 2-GPAO at scale. 
+
+KEYWORDS: 
+
+methane removal, methane oxidation, gas-phase oxidation, chlorine radicals, byproducts, halomethane, chlorinated methane, methyl chloride, chloroform, methane mitigation, climate change 
+
+1. INTRODUCTION 
+
+Methane (CH 4) is a potent greenhouse gas that has contributed ∼0.5 °C (or ∼30%) to the Earth’s global average temperature rise from preindustrial times. 1 Mitigating ongoing emissions of CH 4, which has a global warming potential (GWP) of 120 at the time of its emission and a mean lifetime of 12 years in the atmosphere, is particularly critical to meeting a temperature target below 2 °C and to shaving the peak of the planet’s warming this century. 2,3 While cost-effective emis-sions-avoidance strategies exist for some CH 4 sources and emissions-control devices (such as flares, thermal oxidizers, and biofilters) are available for relatively concentrated sources of CH 4, most sources of CH 4 occur at concentrations so dilute (less than 1000 ppm; ppm) that no commercial technologies exist for mitigating them cost effectively. 4−6 Continuously oxidizing all CH 4 to carbon dioxide (CO 2) that is currently emitted from point sources at 10 to 1000 ppm would avoid 
+
+∼0.2 °C of global warming while developing a safe and cost-effective ‘atmospheric methane removal’ process to oxidize 2 ppm CH 4 in the ambient air could offset any remaining CH 4
+
+emissions, both human and natural. 4 Approaches to cost-effectively oxidize dilute CH 4 into CO 2, the eventual fate of all CH 4 emitted to the atmosphere, could therefore be a valuable tool for climate change mitigation. Despite this opportunity and the need, cost-effective oxidation of dilute (let alone atmospheric) CH 4 remains an open engineering challenge. Very large volumes of air must be processed per unit of CH 4 converted, eliminating options for high-temperature oxidation and thus requiring systems to operate at near-ambient temperatures with high reaction rates and low pressure drops. 7,8 However, CH 4’s chemical stability, low solubility in water (22 mg/L at standard conditions, less than that of many other hydrocarbons), and weak interaction with many sorbents and catalysts make it difficult for such systems to achieve high reaction rates under ambient conditions. 9,10 Commonly discussed options for dilute CH 4
+
+oxidation in closed systems include thermocatalysis, 11 −14 
+
+photocatalysis, 11,15 −18 biological methanotrophy, 19 −22 and gas-phase advanced oxidation. 23,24 Each has its own appeals and challenges, and research and development are underway to reveal which, if any, can cost-effectively oxidize dilute CH 4 in real-world gas streams. 25 
+
+Gas-phase advanced oxidation (GPAO) stands out as an appealing approach due to its fast reaction chemistry and operation near ambient temperature and pressure. In GPAO, a precursor gas is mixed into an air stream and then photolyzed by ultraviolet (UV) light into oxidizing radicals. This strategy 
+
+Received: April 3, 2026 
+
+Revised: June 11, 2026 
+
+Accepted: June 12, 2026   
+
+> Article pubs.acs.org/est
+> © XXXX The Authors. Published by American Chemical Society A
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> This article is licensed under CC-BY-NC-ND 4.0 Downloaded via 34.96.52.40 on July 10, 2026 at 21:29:35 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+generally mimics the radical chemistry by which CH 4 is naturally removed from the atmosphere by the hydroxyl radical (·OH) and the chlorine radical (Cl ·). 23 Since radicals oxidize CH 4 in the bulk gas, the reaction is not limited by the transport of CH 4 onto a surface or into solution, circumventing a major barrier to rapid conversion of dilute CH 4 via other approaches. 24 However, radical precursors and artificial light tend to be costly, and highly efficient usage of each is required for a practical process. 24,26 Possible precursors include ozone (O 3) and hydrogen peroxide (H 2O2), which form ·OH, and molecular chlorine (Cl 2), which forms Cl ·.23,24,27 A process using the moisture in air as a precursor to form ·OH has also been demonstrated. 28 
+
+This study focuses on GPAO with Cl 2 as a radical precursor, which we term ‘Cl 2-GPAO’ and has elsewhere been referred to as the ‘methane eradication photochemical system’ (MEPS). 24 
+
+Compared to ·OH, Cl · is more reactive toward CH 4, has fewer quenching mechanisms besides the desired reaction with CH 4,and has a lower rate of self-recombination. 24 These features enable high steady-state radical concentrations in the photo-reactor, potentially allowing faster CH 4 conversion, shorter residence times, and/or smaller reactor volumes than would be expected with ·OH-based systems. 24 However, there are safety concerns related to hydrogen chloride (HCl) and carbon monoxide (CO) that may be produced as reaction products; scrubbing these products would increase the system cost and raise the pressure drop that air-handling equipment would need to overcome. Additionally, chlorine-based aqueous advanced oxidation processes are known to produce halocarbon byproducts such as chloroform, which would be undesirable in a CH 4-oxidizing process for reasons of both air quality and global warming potential. 24,29,30 
+
+Existing studies have confirmed Cl 2-GPAO’s effectiveness on dilute and atmospheric CH 4; however, many questions remain unanswered. Polat et al. first explored the process, using ∼50 ppm Cl 2 to remove ambient ( ∼2 ppm) CH 4 that would otherwise interfere with spectrometric analysis of nitrous oxide in air. 31 Krogsbo ̷ ll et al. then proposed applying the same chemistry to control CH 4 emissions from point sources, describing the overall system layout for Cl 2-GPAO (with an electrolyzer, a UV photolysis chamber, and a caustic scrubber), using ∼100 ppm Cl 2 and UV radiation to oxidize ∼50% of 50 ppm CH 4, and proposing a reaction mechanism. 24 They also found CH 4 conversion to vary approximately linearly with inlet Cl 2 concentration. The same study modeled that CH 4 would be converted into a combination of CO and CO 2 in a roughly 2:1 ratio, with expected minimal (less than 0.01%) conversion of CH 4 into chlorinated methanes (methyl chloride (CH 3Cl), methylene chloride (CH 3Cl 2), chloroform (CHCl 3), and carbon tetrachloride (CCl 4)). The authors recently conducted a field trial at a livestock facility with total flow rates of 120 to 240 L/min, finding the process to effectively convert CH 4,ammonia (NH 3), and other odorous compounds. 26 
+
+Despite these promising results, numerous uncertainties remain, making it difficult to judge whether and how Cl 2-GPAO might be practical at a large scale. For instance, to our knowledge, no experiments have quantified the production of chlorinated methanes, and, to date, the ratio of oxidized CH 4
+
+to photogenerated Cl · has not been reported. The inlet Cl 2
+
+concentration required to oxidize a certain CH 4 concentration at a specified conversion efficiency has also not been studied in detail. Quantifying these values can help to set a lower bound for the input costs of a full-scale photoreactor. Finally, the effects of process parameters such as light intensity, flow rate, CH 4 concentration, Cl 2 concentration, humidity, and con-taminant gases on all of the above metrics have remained largely unexplored. In this work, we explored the effect of various parameters and operating conditions on Cl 2-GPAO’s efficiencies and reaction products. We employed a benchtop reactor with a residence time representative of large-scale applications, in which inlet CH 4, Cl 2, H 2O, NH 3, nitric oxide (NO), hydrogen sulfide (H 2S), and toluene (C 6H5CH 3) concentrations were finely tuned. Infrared spectroscopy was used to measure the CH 4 conversions and major reaction products. For a subset of operating conditions, a flask sample of effluent was collected and analyzed in an off-site gas chromatography −mass spectrometry lab to check for chlorinated methane production at parts per billion (ppb) levels. By measuring the reactor’s total Cl · production rate, we report the process’s efficiency under various conditions in terms of ‘CH 4 oxidized per supplied Cl 2’ and ‘CH 4 oxidized per photogenerated Cl ·’. We conclude by discussing these metrics’ implications for the scale-up of Cl 2-GPAO. 
+
+2. MATERIALS AND METHODS 
+
+2.1. Experimental Setup and Procedure 
+
+Cl 2-GPAO experiments were conducted in a glass flow photoreactor with an internal volume of ∼600 cm 3. The setup and procedures are described in detail in Supporting Information (SI) Note S1. Each experiment used a total of 200 mL/min of flow to obtain a 3 min average residence time, comparable to that used by Krogsbo ̷ll et al. 24 
+
+Unlike in that study, our small reactor and slow flow rates created a laminar flow regime, resulting in some variability in the residence times experienced by different parcels of gas. This behavior is discussed in Note S2, in which we calculate that around 87% of the gas experienced residence times between 1.5 and 4 min. Although, for cost reasons, large-scale reactors will likely use chemical-resistant plastic walls with internal lighting, 26 a UV-transparent glass reactor with external illumination is more practical at a lab scale. These differences from scaled-up Cl 2-GPAO reactors were worthwhile in order to have a small system on which operating conditions could be rapidly changed and parametrically tested. The gas composition was set by mass flow controllers (MFCs) to be 20% O 2, 1% H 2O ( ∼35% relative humidity), various concen-trations of CH 4 and Cl 2 and balanced in N 2. A 50 W array of 368 nm UV LEDs (spectrum in Figure S1.3a) and a set of UV reflectors were assembled such that, in the presence of excess CH 4, ∼75% of Cl 2 was photolyzed during the gas’s residence time in the reactor, as measured by an electrochemical Cl 2 sensor (Membrapor Cl/C-200) at the reactor outlet. A UV radiometer probe (UV-Design Germany) measured the incident light flux within the reactor to be 15 mW/cm 2.The outlet gas optionally passed through a scrubber system (comprising a bubbler of 1 M sodium hydroxide, a molecular sieve, and an activated carbon filter) to remove Cl 2 and HCl, and finally to a pair of infrared spectrometers. CH 4 concentrations below 35 ppm were measured with a Picarro g2210-i cavity ringdown spectrometer sampling at 1 Hz with a detection limit of 0.1 ppm. Higher CH 4
+
+concentrations and all other gases besides Cl 2 were measured with an MKS MultiGas 2000 Fourier-transform infrared (FTIR) spectrometer sampling at 0.08 Hz. For each gas, the FTIR had a detection limit less than 0.5 ppm. Neither instrument had substantial cross-sensitivities among the gases present. For each experimental condition, a desired inlet gas composition was set, and the UV light was cycled on and off while measuring the change in gas concentrations exiting the photoreactor. While the light was on, the scrubber system was bypassed for 10 min in order to sample the full range of gases exiting the reactor (Table S1.2). Bypassing the scrubber had a negligible effect on the measured CH 4
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> B
+
+concentration. We report the CH 4 conversion ( −Δ CH 4) and the production of CO and CO 2. In no experiment did the FTIR spectrometer detect the C 1 products formaldehyde (CH 2O) or formic acid (CH 2O2) at levels above those gases’ 0.5-ppm detection limit. To measure the total amount of Cl · produced, we conducted a separate ‘radical-counting’ experiment for each inlet Cl 2 concentration used. In these tests, we matched all parameters to the corresponding CH 4 conversion experiment but supplied an excess (12,500 ppm) of CH 4 as a Cl · scavenger. Due to the much higher concentration of CH 4
+
+than of Cl ·, each generated Cl · was much more likely to oxidize a C −
+
+H bond and become HCl than to recombine into Cl 2, unlike the CH 4
+
+conversion experiments in which non-negligible Cl · recombination occurred. Two times the Cl 2 conversion in a radical-counting experiment is therefore an indirect estimate of the reactor’s total Cl ·
+
+production at a given flow rate and Cl 2 concentration. Note S3 describes the excess-CH 4-based radical-counting procedure in greater detail. It also describes how the method was validated by using excess toluene as an alternate radical scavenger. Finally, Figure S3.2 shows the measured Cl · production values at inlet Cl 2 concentrations ranging from 1 to 90 ppm for a flow rate of 200 mL/min. In each experimental condition, we report the number of CH 4
+
+molecules oxidized per chlorine radical produced by the reactor, a figure of merit we term the ‘Cl · usage efficiency’ ( ηCl ·). This value is the quotient of the CH 4 conversion, measured in a CH 4 conversion experiment, and the total Cl · production, measured in a radical-counting experiment. Prior studies on Cl 2-GPAO have reported the process’s apparent quantum yield (AQY), defined as moles of CH 4
+
+oxidized per mole of incident UV photons. 24,26 AQY can be determined from measurements of the molecules of CH 4 oxidized (nCH4 ; molecules/s) and the incident light flux ( φ; W/m 2): n rL hc AQY ( 2 / )CH4 = ÷ · ·
+
+(1) where 2 r = 0.05 m is the reactor diameter, L = 0.3 m is the reactor length, λ = 368 × 10 −9 m is the LED wavelength, h = 6.626 × 10 −34 J·
+
+s is Planck’s constant, and c = 2.998 × 10 8 m/s is the speed of light. AQY can also be expressed in terms of ηCl ·:AQY QY 2Cl2 abs Cl2 photolysis Cl 
+
+= · · ·
+
+(2) where ηCl2 ‑abs is the fraction of generated photons that are absorbed by a Cl 2 molecule (a parameter that depends on the light’s wavelength and flux and the photoreactor’s geometry and reflector setup) and QY Cl2 ‑photolysis is the quantum yield of Cl 2 photolysis (the fraction of generated photons that photolyze a Cl 2 molecule into 2Cl ·). Benchtop reactors have low values of ηCl2 ‑abs and correspondingly low AQYs due to the long optical paths required for ppm-level Cl 2 to absorb large fractions of incident UV light. However, in a well-designed photoreactor and reflector for deployment where ηCl2 ‑abs ≈ 1, the upper bound on AQY is 2 ηCl ·.Values of ηCl · do not depend on photoreactor size except where wall effects are involved. Thus, ηCl · values measured at the bench scale can be used to estimate the efficiencies and costs of scaled-up Cl 2-GPAO systems, making ηCl · a useful figure of merit. Though wall effects are more important in small reactors, they did not appear to substantially affect our system’s CH 4 oxidation and CO or CO 2 yields. This was evidenced by its similar performance across flow rates spanning 75 to 300 mL/min (discussed below in the Results section) since one would expect any present wall effects to affect the measurements more at lower flow rates. 
+
+2.2. Experiments 
+
+A first experimental campaign tested Cl 2-GPAO under a ‘base case’ of 30 ppm each of inlet CH 4 and Cl 2. We chose 30 ppm CH 4 as the base case because it is within the range of interest for real-world Cl 2-GPAO deployment 26 and, additionally, was the highest CH 4 concentration that our most sensitive CH 4 analyzer could measure. We chose 30 ppm Cl 2 for the base case because a 1:1 Cl 2−CH 4 ratio was found to give a good CH 4 conversion and a good Cl · usage efficiency (discussed below in Section 3). A concern of Cl 2-GPAO is the potential production of chlorinated methanes, some of which are toxic and have ppm-level exposure limits. To test for chlorinated methanes, samples of reactor effluent from the base-case experiment were collected in evacuated canisters and sent to Atmospheric Analysis & Consulting Inc. (Ventura, CA) for gas chromatography −mass spectrometry (GC-MS) analysis. The EPA Method TO-15 for organic compound analysis was used. 32 AGC-MS analyzer (Agilent 5890E Series II) was calibrated with certified source standards of 10 ppb. The method’s detection limit was 0.5 or 1.0 ppb for most compounds screened, and the measurement uncertainty was ±30%. A second experimental campaign explored the effects of changing the base-case parameters of inlet Cl 2, CH 4, and H 2O concentrations. First, the inlet Cl 2 concentration was varied for a fixed 30-ppm inlet CH 4 concentration. This experiment’s results helped justify the use of a 1:1 Cl 2−CH 4 ratio in the base case and in most other experiments. Next, the inlet CH 4 and Cl 2 concentrations were varied from 5 to 90 ppm while maintaining a fixed 1:1 CH 4−Cl 2 ratio. Last, the inlet gas’s moisture was varied from 5% to 60% relative humidity (RH) to test any effects of humidity on reaction efficiencies. A third experimental campaign tested the effects of four gaseous contaminants: ammonia (NH 3), hydrogen sulfide (H 2S), toluene (C 6H5CH 3), and nitric oxide (NO). The first three may be present at parts per million levels at emission sources on which Cl 2-GPAO might be deployed, such as dairy barns and wastewater treatment plants (WWTPs). 33,34 Toluene was used as a proxy for volatile organic compounds. NO was of interest for its potential to aid CH 4 oxidation through reactions with intermediate hydrocarbons and to promote radical chain reactions. 24 Four CH 4 conversion experiments were conducted, each varying the concentration of one contaminant gas while keeping base case values for the inlet Cl 2, CH 4, and humidity. A fourth experimental campaign tested Cl 2-GPAO using ‘application-based’ gas mixtures representative of three deployment scenarios. Variants of Cl 2-GPAO have been discussed as a possible tool for atmospheric methane removal; hence, one experiment used simulated atmospheric air with 1.9 ppm CH 4. Additionally, dairy operations and WWTPs release substantial amounts of low-concentration (less than 1000 ppm) CH 4 and are, as such, possible candidates for Cl 2-GPAO deployment. Two further experiments used CH 4 concentrations typical of these applications and included common contaminants at high-but-realistic concentrations to simulate challenging scenarios for Cl 2-GPAO to address. Toluene was again used as a representative volatile organic compound. Table 1 shows the gas compositions used in the three experiments, with a 1:1 Cl 2−CH 4
+
+ratio used throughout. Because Ar and CO 2 were supplied from the same tank, their concentrations are coupled, causing the Ar concentrations to be slightly different from the air’s true value of 
+
+∼0.9%. 
+
+Table 1. Gas Concentrations at the Reactor Inlet for Three Simulated Deployment Scenarios                                  
+
+> application CH 4
+> (ppm) Cl 2
+> (ppm) aCO 2
+> (ppm) Ar (%) O2
+> (%) NH 3
+> (ppm) H2S(ppm) C6H5CH 3
+> (ppm) N2
+> RH (%) references
+> atmosphere 1.9 1.9 425 0.8 20 balance 35 35
+> dairy barn 50 50 1000 1.9 20 25 51balance 35 33,36 −40
+> wastewater treatment plant (WWTP) 300 300 1000 1.9 20 25 51balance 55 34,41,42
+> a
+
+Cl 2 concentration was chosen to match CH 4 concentration. 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> C
+
+2.3. Cost and Emissions Model 
+
+To assess Cl 2-GPAO’s feasibility, we explored the implications of our results on a full-scale system’s cost and process emissions. We measured cost-effectiveness in $ per metric ton CH 4 oxidized, $/tCH 4
+
+(or per metric ton CO 2 equivalent, $/tCO 2e) and emission intensity in metric ton CO 2 emitted per metric ton CH 4 oxidized, tCO 2e/tCH 4.We developed a basic cost and emissions model of three process inputs: chlorine precursor, electrical energy for lighting, and UV LED hardware. Embodied carbon, non-LED capital costs, Cl 2/HCl scrubbing costs, and other operating and energy costs were excluded; hence, these values are best interpreted as a floor on, rather than an estimate of, deployed Cl 2-GPAO costs and emissions. The model is derived in Note S4. 
+
+3. RESULTS AND DISCUSSION 
+
+3.1. Base Case 
+
+In the base-case experiment, Cl 2-GPAO oxidized more than half of the CH 4 in the gas stream; Figure 1a shows a time series 
+
+Figure 1. Chlorine-based gas-phase advanced oxidation of CH 4. Base-case experiment cofeeding 30 ppm CH 4, 30 ppm Cl 2, 20% O 2, 1% H 2O(∼35% RH), and balance N 2 into the reactor inlet. (a) Time series showing gas concentrations measured at the reactor outlet during two cycles of turning a 50 W UV light off/on. The visible transient behaviors are discussed in Note S2. (b) Carbon balance illustrating the conversion of CH 4 to CO and CO 2, consumed Cl 2, and gross Cl · production in the same base-case experiment. Delta ( Δ) refers to the change in a gas’s measured concentration between the light-off and light-on conditions, averaged over the two light cycles in panel (a). Error bars show 95% confidence intervals based on instrument accuracy, as discussed in Note S1. Gross Cl · production was measured in a separate radical-counting experiment with the same inlet Cl 2 concentration and residence time. 
+
+Figure 2. Effects of varying inlet Cl 2, CH 4, and humidity. (a) 10 to 90 ppm Cl 2 while holding fixed 30 ppm CH 4 and 35% RH. (b) 5 to 90 ppm CH 4 and Cl 2 at a 1:1 ratio while holding fixed 35% RH. (c) 5 to 60% RH while holding fixed 30 ppm CH 4 and 30 ppm Cl 2. The left axis shows changes in steady-state gas concentrations of CH 4, CO, and CO 2 across one light-off/light-on cycle, denoted by deltas ( Δ) in the plots. The right axis shows Cl · usage efficiency ηCl ·. Error bars show 95% confidence intervals based on instrument accuracy, as discussed in Note S1. 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> D
+
+of gas concentrations at the reactor outlet. When the light was turned on, Cl 2 and CH 4 were removed while CO and CO 2
+
+were produced. Figure 1b shows the mass balance of carbon, whereby CH 4 was converted entirely to CO and CO 2. 62% (17.1 ppm) of the 30-ppm inlet CH 4 was converted during the 3 min average residence time, consistent with Krogsbo ̷ll et al., who observed 58% CH 4 conversion for the same residence time. 24 The measured product yields, 68% CO and 32% CO 2,are close to those predicted by that study’s chemical kinetics model (61% and 39%, respectively). Although the proposed mechanism (see Note S5) predicts the formation of HCl and ClO as byproducts, neither gas was detected in the reactor effluent. Any produced HCl and ClO likely reacted with or adsorbed on plastic pipe fittings and metal analyzer components before they reached the FTIR analyzer’s optical cavity; future study of these acid gas byproducts should therefore be done on higher-flow systems where such effects are minimal. These measurements, as well as the results from the corresponding radical-counting experiment (see Note S3), allow the computation of several figures of merit for the base case. First, the observed CH 4 conversion and light character-istics give an AQY of 0.035% (eq 1). For the small size of the photoreactor, a low AQY is expected. Indeed, larger Cl 2-GPAO reactors have reported higher AQYs (up to 0.8% in a 30 L/min reactor, 1.5% in a 200 L/min reactor). 24,26 Second, based on the radical-counting experiment, the measured Cl · usage efficiency ( ηCl ·) was 0.34 oxidized CH 4 per photogenerated Cl ·, corresponding to a 3:1 ratio of the reactor’s gross Cl ·
+
+production to its net CH 4 conversion. Due to its better transferability to larger reactors, hereafter, we report ηCl · rather than AQY for CH 4 conversion experiments. The ratio of the reactor’s net Cl 2 conversion to its gross Cl 2 photolysis was about 4:5, indicating that about 20% of photogenerated Cl ·
+
+recombined to Cl 2 while the rest ended up in other products such as HCl or ClO. The GC-MS analysis on the effluent of the base-case experiment measured 1.05 ± 0.32 ppb CH 3Cl and 1.25 ± 0.38 ppb CHCl 3. Given the 17.1 ppm CH 4 converted in the base case, these are yields of 6 × 10 −5 CH 3Cl and 7 × 10 −5 CHCl 3
+
+per CH 4 oxidized. Dilution from injecting the samples into the instrument resulted in a sample detection limit of 0.8 ppb for both compounds. CH 2Cl 2 and CCl 4 were not detected above their detection limits of 0.8 and 1.6 ppb, respectively. See Note S6 for a report of all compounds detected with the EPA TO-15 Method. The concentrations of all detected compounds were well within safe levels (Table S6.1). For example, CH 3Cl and CHCl 3 were several orders of magnitude below their 8-h workplace exposure limits of 100 and 50 ppm, respectively. 43 
+
+Given the 20-year GWPs of 45 for CH 3Cl and 60 for CHCl 3,such low concentrations would negligibly affect Cl 2-GPAO’s climate benefit. 24 The low or undetected levels of chlorinated methanes despite the known production of halocarbons in chlorine-based aqueous advanced oxidation can be explained by GPAO’s abundance of O 2 and absence of the humic substances and halide salts that drive halocarbon production in such applications as wastewater treatment. 29,30,44 Future work with an online GC-MS could further elucidate Cl 2-GPAO’s byproduct yields. 
+
+3.2. Effects of Varying CH 4, Cl 2, Humidity, and Residence Times 
+
+As the inlet Cl 2 concentration increased in successive experiments with all other parameters held constant, the observed CH 4 conversion rose. Beyond a 1:1 inlet Cl 2−CH 4
+
+ratio, there were diminishing returns of CH 4 oxidized per Cl 2
+
+supplied (Figure 2a); correspondingly, the highest ηCl · was observed for inlet Cl 2 concentrations of 10 to 30 ppm. The decrease of ηCl · at higher inlet Cl 2 concentrations likely occurs because of the competitive reaction of Cl · recombining with itself to form Cl 2. Since Cl · recombination is second-order with respect to Cl · concentration, while Cl ·’s reactions with CH 4
+
+and C 1 oxidation products are first-order in Cl · concentration, a greater fraction of Cl · undergoes recombination at elevated Cl · production rates. 45 The consistent observation of Cl 2
+
+conversion being 1.2 times the CH 4 conversion, regardless of the gross Cl · production, provides further evidence that most Cl · not participating in CH 4 oxidation ultimately recombined to Cl 2. An analogous phenomenon with ·OH −·OH recombi-nation has been posited to limit the efficacy of hydroxyl radical-based GPAO on CH 4.23,24 
+
+The engineering implication is that increasing the Cl 2 feed rate to a 1:1 ratio to CH 4 seems to be a downside-free way to boost CH 4 conversion, while beyond that ratio, additional conversion comes at the cost of reagent and/or energy efficiency. Applying a cost and emissions model to the efficiency results of this sweep showed that for 30 ppm inlet CH 4, a Cl 2/CH 4 feed ratio up to 1:1 gave the lowest projected costs and emissions per unit of CH 4 oxidized (Table S4.1). A 1:1 Cl 2/CH 4 feed ratio was therefore used for all subsequent experiments. As the inlet ratio of Cl 2 to CH 4 increased, the balance of products shifted from CO to CO 2 (Figures 2a and S3.3a). This behavior is consistent with the reaction pathways proposed by Krogsbo ̷ ll et al., the relevant parts of which are shown in Figure S5.1. 24 Since neither 368 nm light nor Cl · is expected to activate H 2O to OH · in substantial quantities, ·OH activity is an unlikely explanation for CO-to-CO 2 conversion. 28,46 Rather, in the absence of ·OH, one or more pathways via ClCO can transform CO into CO 2, consuming and rereleasing Cl · and/or Cl 2.The measured Cl 2 conversion was consistently ∼1.2 times the CH 4 conversion, regardless of the inlet Cl 2 concentration or the Cl · production (Figure S3.2). Based on the proposed reaction mechanism (Figure S5.1), one might expect to observe a Cl 2 conversion equal to 1.5 times the CH 4
+
+conversion, with Cl · activating CH 4, CH 3O2·, and CH 2O and ending up as HCl, ClO, and HCl, respectively. Our observation of at least 3 consumed Cl · per oxidized CH 4
+
+(i.e., ηCl · ≤ 0.36) is consistent with Cl · initiating the above three reactions. The lower-than-expected Cl 2 conversion could be from self-reactions of ClO to reproduce Cl 2 or from other reaction paths proposed by Krogsbo ̷ ll et al. 24 Further modeling work would help to clarify these phenomena. Cl 2-GPAO appears to work well at a variety of inlet CH 4
+
+concentrations and humidities. Varying the inlet CH 4 and Cl 2
+
+in a 1:1 proportion to one another at concentrations above 10 ppm did not substantially change the percent CH 4 conversion, product yields, or Cl · usage efficiency (Figure 2b). This result is unsurprising given that the main reactions involved are first-order with respect to CH 4 and its downstream products. The reduced efficiency at very low CH 4 concentrations may be due to Cl · scavenging by sub-ppm, reducing impurities in the gas 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> E
+
+tanks. A test varying the inlet gas’s moisture from 5 to 60% relative humidity (RH) found humidity to have a minimal effect on the product composition and ηCl · (Figure 2c). We additionally found that varying the ultraviolet light intensity and the residence time of gas through the reactor did not greatly affect ηCl • for a fixed budget of photogenerated Cl ·
+
+(see Note S7). Specifically, ηCl · varied by less than 15% among the experiments with 2-, 3-, and 8-min average residence times with corresponding light fluxes of 21, 15, and 5.2 mW/cm 2,respectively (Figure S7.1). Thus, within the range studied, using higher light intensities and shorter residence times appears to be a drawback-free way to intensify the Cl 2-GPAO process and improve its economics. However, since about 75% of Cl 2 in the reactor already undergoes photolysis (see Note S3), simply increasing the light flux or slowing the residence time has limited potential to increase the gross Cl · production and CH 4 conversion. Rather, if substantially higher CH 4
+
+conversions than the base case’s 62% are desired, increasing the Cl 2-to-CH 4 feed ratio is likely the best way to do so. The 2 min experiment showed an apparent first-order rate constant ( k) of 0.40 min −1, and the 3 min base case had k =0.32 min −1. For comparison, the only other GPAO process that has been demonstrated on dilute CH 4 (using 185 nm photolysis of O2 and H2O to form ·OH) achieves 50% conversion in residence times ranging from 10 s to 2 min 28 (k
+
+= 0.35 to 4.1 min −1), while thermal catalytic CH 4 oxidation requires under 30 s 12 (k ≥ 1.4 min −1) and biofilters require more than 4 min ( k ≤ 0.17 min −1). 19 While pressure-drop limitations in the system prevented us from increasing the flow to achieve residence times below 2 min, lower residence times would be desirable in scaled-up systems, and probing the minimum practical residence time for Cl 2-GPAO with higher light fluxes is a clear area for future work. 
+
+3.3. Effect of Contaminants 
+
+Increasing the amount of each contaminant gas caused the CH 4 conversion to decrease, with toluene causing the sharpest decrease, followed by H 2S, NO, and NH 3 (Figure 3). Although high levels of each contaminant can severely inhibit Cl 2-GPAO, sufficiently low levels still allow practically relevant CH 4 conversions. The contaminants’ inhibitory effects are likely the result of two mechanisms: first, contaminants scavenging Cl · that might otherwise have reacted with CH 4,and second, contaminants reacting with Cl 2 in the dark before it could photolyze. Most of the observed inhibition is likely due to contaminants scavenging Cl ·. The sizes of the inhibitory effects correlate somewhat with the contaminants’ reaction rates with Cl ·. The second-order rates of Cl · with CH 4, NH 3, NO, toluene, and H2S are 1.0 × 10 −13 , 1.2 × 10 −13 , 2.4 × 10 −12 , 5.0 × 10 −11 , and 7.4 × 10 −11 cm 3/molecule s, respectively. 45 Each contaminant has a higher rate with Cl · than does CH 4. NH 3 has the lowest rate with respect to Cl · and was observed to have the least effect on CH 4 oxidation. Toluene, with a Cl · reaction rate 2 orders of magnitude higher than that with CH 4 and NH 3, had by far the largest inhibitory effect. Toluene’s larger inhibitory effect than H 2S, despite its slightly lower rate, may be because 
+
+Figure 3. Effect of contaminants. (a) 1 to 50 ppm ammonia (NH 3). (b) 0 to 15 ppm toluene (C 6H5CH 3). (c) 0.5 to 12.5 ppm hydrogen sulfide (H 2S). (d) 0.5 to 15 ppm nitric oxide (NO). The left axis shows changes in steady-state gas concentrations of CH 4, CO, and CO 2 across one light-off/light-on cycle, denoted by deltas ( Δ) in the plot. The right axis shows Cl · usage efficiency ηCl ·. Error bars show 95% confidence intervals based on instrument accuracy, as discussed in Note S1. 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> F
+
+the organic products of the toluene-Cl · reaction have many C −
+
+H bonds that can continue to scavenge Cl ·. The continued oxidation of these products by Cl · is evidenced by the high CO 2 production during the toluene trials (Figure 3b). Dark reactions of Cl 2 with contaminants may also have contributed to the observed inhibition. NH 3, H 2S, and NO are known to react with Cl 2 in the dark to, respectively, produce ammonium chloride or chloramine, sulfur, and nitrosyl chloride. 47 −49 However, only in the case of cofed NH 3 was there evidence of Cl 2 consumption in dark reactions, with 1 to 1.5 ppm Cl 2 consumed in the dark per ppm of cofed NH 3. It thus seems likely that toluene, NO, and H 2S mainly inhibit Cl 2-GPAO by competitively scavenging Cl ·, while NH 3 does so both by scavenging Cl · and Cl 2.
+
+3.4. Application-Based Experiments 
+
+Three application-based experiments simulating real-world deployment scenarios showed substantial CH 4 conversion (Figure 4a). The barn air experiment exhibited modestly poorer performance than the base case, which can be attributed to the combined effects of several contaminants at once. The wastewater plant air’s much poorer performance is likely due in part to contaminants and in part to the effect of chlorine on fittings and reactor components at high inlet Cl 2
+
+concentrations (300 ppm, more than three times higher than any other experiment). Finally, the relatively low CH 4
+
+conversion in the atmospheric air trial, to which no contaminants were added, agrees with the trend in Figure 2b of decreasing CH 4 conversion and ηCl · at inlet CH 4 and Cl 2
+
+concentrations below 10 ppm. Applying the cost model to the results of the base case and application-based experiments resulted in projected input (Cl 2
+
+and lighting) costs ranging from $4300/tCH 4 for the base case to $8100/tCH 4 for the WWTP scenario (Figure 4b). These values can be considered lower bounds on the system's overall CH 4 mitigation costs. Using CH 4’s 20-year GWP of 81, that range corresponds to $53 to $100 per equivalent ton of CO 2
+
+(tCO 2e), while using a 100-year GWP of 28, it corresponds to $154 to $289/tCO 2e. 50 Critically, the above cost values are underestimates because they exclude capital costs such as fans, reactor framing, and wall materials, as well as acid-gas scrubbing costs. Accurately projecting the cost of CH 4
+
+mitigation via Cl 2-GPAO would require a detailed cost model that accounts for those and other expenses. However, the modeled input costs alone are already higher than published social costs of CH 4, raising concerns over the economics of the system as a whole. For example, in 2022, the U.S. Environmental Protection Agency estimated the social cost of CH 4 to be $1600/tCH 4 in 2020, $2400/tCH 4 in 2030, and $3300/tCH 4 in 2040 (all in 2020 dollars). 51 Some estimates have placed the social cost of CH 4 to be higher than the EPA’s values. 52 
+
+Estimates of the specific energy required for a full-scale system ranged from 32000 kWh/tCH 4 for the base case to 61000 kWh/tCH 4 for the WWTP scenario (Table S4.2). These values are an order of magnitude less than the lowest specific energy reported in the literature for the first field-scale prototype of Cl 2-GPAO, indicating the potential benefits of optically efficient reactors that minimize the waste of UV photons. 26 On a per tCO 2e basis, the values are comparable to the energy usage for the direct air capture of CO 2.53 
+
+However, such large minimum energy demands may be challenging from a lifecycle perspective (Note S4). The base-case Cl 2-GPAO system, if powered by the current U.S. electrical grid, would incur 12 tCO 2e of lifecycle emissions due to electrical demand alone for each ton of CH 4 oxidized. On the contrary, if it were powered entirely by solar energy, only 1.4 tCO 2e/tCH 4 of electrical lifecycle emissions would be incurred. Table S4.2 contains the corresponding values for the other application-based experiments. Though these values do not preclude climate-beneficial operation of Cl 2-GPAO, they suggest that lifecycle emissions should be carefully scrutinized for any proposed Cl 2-GPAO deployment, as in some situations, a substantial fraction of the process’s climate benefit might be negated. 
+
+Figure 4. Application-based experiments for atmospheric methane, a dairy barn, and a wastewater treatment plant (WWTP). (a) CH 4 conversion (left axis; conversion observed in one light-off/light-on cycle) and ηCl · (right axis; computed from the CH 4 conversion) for each application. Error bars show 95% confidence intervals based on instrument accuracy, as discussed in Note S1. (b) ηCl · versus ηCl2 , overlapped by the cost (in thousands of dollars) of selected inputs per metric ton CH 4 converted. Costs include only chlorine, electrical energy for lighting, and lighting hardware. ηCl2 is defined as the ratio of the CH 4 conversion to the inlet Cl 2 concentration in a given experiment, i.e., the amount of Cl 2 that must be supplied per unit of CH 4 converted. The modeled costs of the barn, WWTP, and atmosphere in panel (b) assume the inlet gas composition and CH 4 conversion observed in the application-based trials in panel (a). 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> G
+
+3.5. Implications 
+
+In summary, Cl 2-GPAO was able to convert substantial fractions of dilute CH 4 streams across a range of operating conditions. After testing a variety of inlet Cl 2-to-CH 4 ratios, a 1:1 ratio gave a high (62%) CH 4 conversion while avoiding Cl ·
+
+wastage, making that ratio a good starting point for future studies. We made, to our knowledge, the first measurement of Cl · use efficiencies in a Cl 2-GPAO reactor, finding that the reactor had to produce a minimum of about 3 photogenerated Cl · for each CH 4 that was oxidized. The process behaved similarly at a variety of humidities, residence times, and inlet CH 4 concentrations (with equimolar inlet Cl 2). Our results were consistent with the reaction mechanism proposed by Krogsbo ̷ll et al. 24 and indicated the importance of chlorine-mediated CO-to-CO 2 conversion pathways via ClCO. The production of CH 3Cl and CHCl 3 in the base case was extremely small ( ∼1 ppb), suggesting that chlorinated methane production may not be a critical barrier to safe deployment. Even with low production of chlorinated methanes, other byproducts of Cl 2-GPAO must be carefully managed. Wet scrubbers will be necessary in any deployment scenario to remove HCl and residual Cl 2 from the exiting gas stream. However, these scrubbers do not remove CO, which can constitute more than two-thirds of the CH 4 oxidation products and is also toxic to humans and animals. Regulations on CO emissions vary, with occupational exposure limits in the tens of ppm of CO and industrial emission limits in the hundreds of ppm of CO. 54,55 In cases where the process’s outlet CO concentration must be reduced, the inlet Cl 2-to-CH 4 ratio could be increased (lowering the radical usage efficiency) or a downstream thermal or catalytic CO oxidizer could be installed (incurring additional cost). The Cl 2-GPAO process was fairly resilient to the gas-phase contaminants H 2S, NH 3, NO, and toluene. Low levels of the contaminants did not greatly affect CH 4 conversions and Cl ·
+
+usage efficiencies compared to the base case, although sufficient levels of each contaminant gas caused the CH 4
+
+conversion to drop by half or more. This inhibition was due to contaminants either scavenging Cl · or reacting with Cl 2
+
+before it could photolyze. We additionally conducted application-based experiments with gas mixtures representing three possible Cl 2-GPAO deployment locations �the open atmosphere, a dairy barn, and a wastewater treatment plant �
+
+finding that in each case, the percent CH 4 conversion was substantial although lower than in the base case. Finally, we projected the costs and process emissions of the main inputs to a deployed Cl 2-GPAO process (Cl 2 production and UV light) to be relatively high, despite excluding fans, reactor hardware, and HCl/Cl 2 scrubbers. Using the outputs of the base case and application-based experiments, we estimated costs to range from $4300 to $8100 per ton of CH 4 oxidized. These values already exceed the published social costs of methane. Furthermore, powering Cl 2-GPAO with today’s grid electricity would produce emissions equivalent to more than half of the abated CH 4’s 100-year GWP, though low-carbon electricity could mitigate that effect. This study’s results do not reveal clear pathways toward substantially lower chlorine and light consumption, besides minimizing inlet contaminant levels. Given the costs associated with these inputs, commercializing Cl 2-GPAO may be challenging. While additional, more detailed cost and lifecycle analyses may be informative, they are unlikely to decrease estimates of Cl 2-GPAO deployment cost and lifecycle emissions. One useful area of future research would be to quantify and value Cl 2-GPAO’s destruction of odorants and other contaminants, providing another value stream to subsidize CH 4 destruction. Any process improvements that reduce the Cl · demand to well below 3 Cl · per CH 4 oxidized would also be highly valuable. Given the scarcity of chemical processes that might cost-effectively oxidize low-concentration CH 4, moving Cl 2-GPAO closer to real-world practicality remains a worthy goal. 
+
+# ■ ASSOCIATED CONTENT 
+
+Data Availability Statement 
+
+This work did not generate new materials. The data and code to generate this work’s results are available at https://github. com/richardsrandall/Fall-2024-Cl2. 
+
+## *sı Supporting Information 
+
+Notes on (PDF). The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/ac-s.est.6c04737. Experiment setup, flow calculations, chlorine radical counting, cost and emissions model, reaction mecha-nism, GC-MS results, and residence time experiments (PDF) 
+
+# ■ AUTHOR INFORMATION 
+
+Corresponding Author 
+
+Arun Majumdar − Department of Mechanical Engineering, Woods Institute for the Environment, Precourt Institute for Energy, and Department of Energy Science and Engineering, Stanford University, Stanford, California 94305, United States; SLAC National Accelerator Laboratory, Menlo Park, California 94025, United States; orcid.org/0000-0003-4226-9705; Email: amajumdar@stanford.edu 
+
+Authors 
+
+Richard Randall − Department of Mechanical Engineering, Stanford University, Stanford, California 94305, United States; orcid.org/0009-0007-2485-1837 
+
+Max I. Kessler − Department of Mechanical Engineering, Stanford University, Stanford, California 94305, United States; orcid.org/0000-0003-1001-6375 
+
+Robert B. Jackson − Department of Earth System Science, Woods Institute for the Environment, and Precourt Institute for Energy, Stanford University, Stanford, California 94305, United States; orcid.org/0000-0001-8846-7147 Complete contact information is available at: https://pubs.acs.org/10.1021/acs.est.6c04737 
+
+Author Contributions 
+
+> ○
+
+M.K. and R.R. contributed equally to this work. M.K. and R.R. designed, built, and tested the reactor setup; performed experiments; processed data; and generated plots. R.J. and A.M. supervised the project. M.K. and R.R. wrote the manuscript with contributions and feedback from R.J. and A.M. 
+
+Notes 
+
+The authors declare no competing financial interest. 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> H
+
+# ■ ACKNOWLEDGMENTS 
+
+The authors would like to thank Prof. Matt Johnson, Dr. Hugo Russell, and Morten Krogsbo ̷ ll for their expertise on setting up a Cl 2-GPAO reactor and for generative discussions at various stages of this work. M.K. and R.R. acknowledge financial support by National Science Foundation Graduate Research Fellowships under Grant No. DGE-165651. M.K. acknowl-edges support by a graduate fellowship award from the Knight-Hennessy Scholars program at Stanford University. R.B.J. acknowledges support from the Stanford Woods Institute for the Environment (SPO-164153-WTAQE), the Gordon and Betty Moore Foundation (Grant No. GBMF5439, ‘Advancing Understanding of the Global Methane Cycle’, Stanford University), UNEP (DTIE21-EN3143, Improving Estimates of Industrial Emissions in the Global Methane Cycle), and the Stanford Natural Gas Initiative (Natural Gas Leak Detection, Quantification, and Mitigation focus area). Funding of this work was provided by the U.S. Department of Energy (DOE) Office of Fossil Energy and Carbon Management under Contract DE-FE0031867, the Novo Nordisk Foundation CO 2
+
+Research Center (CORC), and the Stanford Sustainability Accelerator. Any opinion, findings, and conclusions or recommendations expressed in this material are those of the authors(s) and do not necessarily reflect the views of Stanford University, the National Science Foundation, the Gordon and Betty Moore Foundation, UNEP, the United States govern-ment, or any agency thereof. 
+
+# ■ REFERENCES 
+
+(1) Chapter 7: The Earth’s Energy Budget, Climate Feedbacks, and Climate Sensitivity. https://www.ipcc.ch/report/ar6/wg1/chapter/ chapter-7/ (accessed June 28, 2023). (2) Chapter 3: Mitigation pathways compatible with long-term goals. https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-3/ (ac-cessed Oct 29, 2024). (3) Abernethy, S.; O’Connor, F. M.; Jones, C. D.; Jackson, R. B. Methane Removal and the Proportional Reductions in Surface Temperature and Ozone. Philos. Trans. R. Soc. A 2021 , 379 (2210), 20210104. (4) Abernethy, S.; Kessler, M. I.; Jackson, R. B. Assessing the Potential Benefits of Methane Oxidation Technologies Using aConcentration-Based Framework. Environ. Res. Lett. 2023 , 18 (9), No. 094064. (5) Jackson, R. B.; Saunois, M.; Martinez, A.; Canadell, J. G.; Yu, X.; Li, M.; Poulter, B.; Raymond, P. A.; Regnier, P.; Ciais, P.; Davis, S. J.; Patra, P. K. Human Activities Now Fuel Two-Thirds of Global Methane Emissions. Environ. Res. Lett. 2024 , 19 (10), 101002. (6) Technical potentials and costs for reducing global anthropogenic methane emissions in the 2050 timeframe − results from the GAINS model - IOPscience. https://iopscience-iop-org.stanford.idm.oclc. org/article/10.1088/2515-7620/ab7457 (accessed Oct 30, 2024). (7) Lackner, K. S. Practical Constraints on Atmospheric Methane Removal. Nat. Sustain 2020 , 3 (5), 357 −357. (8) Randall, R.; Jackson, R. B.; Majumdar, A. Cost Modeling of Photocatalytic Decomposition of Atmospheric Methane and Nitrous Oxide. Environ. Res. Lett. 2024 , 19 (6), No. 064015. (9) Yalkowsky, S. H.; He, Y.; Jain, P. Handbook of Aqueous Solubility Data , 2nd ed.; CRC Press: Boca Raton, 2016. (10) Jackson, R. B.; Abernethy, S.; Canadell, J. G.; Cargnello, M.; Davis, S. J.; Féron, S.; Fuss, S.; Heyer, A. J.; Hong, C.; Jones, C. D.; Damon Matthews, H.; O’Connor, F. M.; Pisciotta, M.; Rhoda, H. M.; de Richter, R.; Solomon, E. I.; Wilcox, J. L.; Zickfeld, K. Atmospheric Methane Removal: A Research Agenda. Philos. Trans. R. Soc. A 2021 ,
+
+379 (2210), 20200454. (11) Tsopelakou, A. M.; Stallard, J.; Archibald, A. T.; Fitzgerald, S.; Boies, A. M. Exploring the Bounds of Methane Catalysis in the Context of Atmospheric Methane Removal. Environ. Res. Lett. 2024 ,
+
+19 (5), No. 054020. (12) Brenneis, R. J.; Johnson, E. P.; Shi, W.; Plata, D. L. Atmospheric- and Low-Level Methane Abatement via an Earth-Abundant Catalyst. ACS Environ. Au 2022 , 2 (3), 223 −231. (13) Oh, J.; Boucly, A.; van Bokhoven, J. A.; Artiglia, L.; Cargnello, M. Palladium Catalysts for Methane Oxidation: Old Materials. New Challenges. Acc. Chem. Res. 2024 , 57 (1), 23 −36. (14) Parker, A. C.; Sawyer, W. J.; Riedinger, K. A.; Bugher, N. A.; Hart, A. J.; Plata, D. L. Dairy Barn Methane Levels and Feasibility of Thermal Catalytic Oxidation for Net Climate Benefit. Environ. Sci. Technol. 2025 , 59 , 26428. (15) Xiong, H.; Ming, T.; Wang, Y.; Wu, Y.; Li, W.; de Richter, R.; Zhang, Q.; Mu, L.; Peng, C. Experimental and Kinetic Studies on the Photocatalysis of UV −Vis Light Irradiation for Low Concentrations of the Methane. Applied Energy 2025 , 377 , No. 124388. (16) Chen, X.; Li, Y.; Pan, X.; Cortie, D.; Huang, X.; Yi, Z. Photocatalytic Oxidation of Methane over Silver Decorated Zinc Oxide Nanocatalysts. Nat. Commun. 2016 , 7 (1), 12273. (17) Li, Z.; Pan, X.; Yi, Z. Photocatalytic Oxidation of Methane over CuO-Decorated ZnO Nanocatalysts. J. Mater. Chem. A 2019 , 7 (2), 469 −475. (18) Kessler, M. I.; Randall, R.; Wan, G.; Xu, K.; Zhang, Y.; Dionne, J. A.; Jackson, R. B.; Majumdar, A. A Humidity-Tolerant Photo-catalyst for Methane Removal. Environ. Sci. Technol. 2026 , 60 (7), 5442 −5452. (19) La, H.; Hettiaratchi, J. P. A.; Achari, G.; Dunfield, P. F. Biofiltration of Methane. Bioresour. Technol. 2018 , 268 , 759 −772. (20) Capture of Methane by Fungi: Evidence from Laboratory-Scale Biofilter and Chromatographic Isotherm Studies. (21) He, L.; Groom, J. D.; Wilson, E. H.; Fernandez, J.; Konopka, M. C.; Beck, D. A. C.; Lidstrom, M. E. A Methanotrophic Bacterium to Enable Methane Removal for Climate Mitigation. Proc. Natl. Acad. Sci. U. S. A. 2023 , 120 (35), No. e2310046120. (22) Landgren, W.; Handler, R. M.; Shonnard, D. R.; Lidstrom, M. E. Treating Low-Concentration Methane Emissions via a Methano-troph-Based Biotrickling Filter: Techno-Economic and Life Cycle Assessment. Methane 2025 , 4 (4), 23. (23) Johnson, M. S.; Nilsson, E. J. K.; Svensson, E. A.; Langer, S. Gas-Phase Advanced Oxidation for Effective, Efficient in Situ Control of Pollution. Environ. Sci. Technol. 2014 , 48 (15), 8768 −8776. (24) Krogsbo ̷ll, M.; Russell, H. S.; Johnson, M. S. A High Efficiency Gas Phase Photoreactor for Eradication of Methane from Low-Concentration Sources. Environ. Res. Lett. 2023 , 19 (1), No. 014017. (25) Committee on Atmospheric Methane Removal: Development of a Research Agenda; Board on Atmospheric Sciences and Climate; Board on Chemical Sciences and Technology; Division on Earth and Life Studies; Board on Energy and Environmental Systems; Division on Engineering and Physical Sciences; National Academies of Sciences, Engineering, and Medicine. A Research Agenda Toward Atmospheric Methane Removal ; National Academies Press: Wash-ington, D.C., 2024; p 27157. (26) Krogsbo ̷ ll, M.; Rezaei, M.; Fogde, N.; Weiss, N. D.; Russell, H. S.; Feilberg, A.; Johnson, M. S. Efficient Mitigation of Dilute Methane, Ammonia, and Odor in Ventilation Air from Cow and Pig Barns and a Biogas Plant: Photoreactor Field Demonstration. ACS EST Air 2025 ,
+
+2 (8), 1648 −1655. (27) Mayhew, A. W.; Haskins, J. D. Potential Air Quality Side-Effects of Emitting H2O2 to Enhance Methane Oxidation as a Climate Solution. Environ. Sci. Technol. 2025 , 59 (1), 679 −688. (28) Iversen, N.; Roslev, P. Mitigation of Atmospheric and Elevated Methane by Photochemical Oxidation at Ambient Conditions. Science of The Total Environment 2025 , 976 , No. 179338. (29) Li, X.-F.; Mitch, W. A. Drinking Water Disinfection Byproducts (DBPs) and Human Health Effects: Multidisciplinary Challenges and Opportunities. Environ. Sci. Technol. 2018 , 52 (4), 1681 −1689. (30) Szczuka, A.; Parker, K. M.; Harvey, C.; Hayes, E.; Vengosh, A.; Mitch, W. A. Regulated and Unregulated Halogenated Disinfection 
+
+Environmental Science & Technology pubs.acs.org/est Article  
+
+> https://doi.org/10.1021/acs.est.6c04737
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> I
+
+Byproduct Formation from Chlorination of Saline Groundwater. 
+
+Water Res. 2017 , 122 , 633 −644. (31) Polat, M.; Liisberg, J. B.; Krogsbo ̷ ll, M.; Blunier, T.; Johnson, M. S. Photochemical Method for Removing Methane Interference for Improved Gas Analysis. Atmos. Meas. Tech. 2021 , 14 (12), 8041 −
+
+8067. (32) US EPA. EPA Air Method, Toxic Organics - 15 (TO-15): Determination of Volatile Organic Compounds (VOCs) in Air Collected in Specially-Prepared Canisters and Analyzed by Gas Chromatography/ Mass Spectrometry (GC/MS) ; EPA 625/R-96/010b; 1999. (33) Shi, Z.; Sun, X.; Lu, Y.; Xi, L.; Zhao, X. Emissions of Ammonia and Hydrogen Sulfide from Typical Dairy Barns in Central China and Major Factors Influencing the Emissions. Sci. Rep 2019 , 9 (1), 13821. (34) Ho, C.-F. H.; Jolis, D.; Tansel, B. Gaseous Emissions from Wastewater Facilities. Water Environment Research 2008 , 80 (10), 1262 −1280. (35) NOAA. The Atmosphere. https://www.noaa.gov/jetstream/ atmosphere (accessed Feb 27, 2025). (36) Hempel, S.; Willink, D.; Janke, D.; Ammon, C.; Amon, B.; Amon, T. Methane Emission Characteristics of Naturally Ventilated Cattle Buildings. Sustainability 2020 , 12 (10), 4314. (37) Herbut, P.; Angrecka, S. Ammonia Concentrations in a Free-Stall Dairy Barn. Annals of Animal Science 2014 , 14 (1), 153 −166. (38) Kilic ̧, I ̇.; Onuk, A.; S ̧ims ̧ek, E.; Yasl ıog ̆lu, E. Ammonia and Carbon Dioxide Concentrations in a Sheep Barn. KAHRAMANMA-RAS SUTCU IMAM UNIVERSITY JOURNAL OF NATURAL SCIENCES 2017 , 20 (3), 218 −226. (39) Jannat, A.; Johnson, A.; Manriquez, D. Air Quality Monitoring in Dairy Farms: Description of Air Quality Dynamics in a Tunnel-Ventilated Housing Barn and Milking Parlor of a Commercial Dairy Farm. Journal of Dairy Science 2025 , 108 (8), 8567 −8581. (40) Yuan, B.; Coggon, M. M.; Koss, A. R.; Warneke, C.; Eilerman, S.; Peischl, J.; Aikin, K. C.; Ryerson, T. B.; de Gouw, J. A. Emissions of Volatile Organic Compounds (VOCs) from Concentrated Animal Feeding Operations (CAFOs): Chemical Compositions and Separa-tion of Sources. Atmospheric Chemistry and Physics 2017 , 17 (8), 4945 −4956. (41) He, X.; Li, H.; Chen, J.; Wang, H.; Lu, L. Quantifying Greenhouse Gas Emissions from Wastewater Treatment Plants: A Critical Review. Environmental Science and Ecotechnology 2025 , 27 ,No. 100606. (42) Austigard, Å. D.; Svendsen, K.; Heldal, K. K. Hydrogen Sulphide Exposure in Waste Water Treatment. Journal of Occupational Medicine and Toxicology 2018 , 13 (1), 10. (43) OSHA. Occupational Chemical Database . https://www.osha. gov/chemicaldata (accessed Jan 29, 2026). (44) Bond, T.; Graham, N. Predicting Chloroform Production from Organic Precursors. Water Res. 2017 , 124 , 167 −176. (45) NIST Chemical Kinetics Database. National Institute of Standards and Technology. https://kinetics.nist.gov/kinetics/index. jsp (accessed Oct 28, 2025). (46) Bryukov, M. G.; Dellinger, B.; Knyazev, V. D. Kinetics of the Gas-Phase Reaction of OH with HCl. J. Phys. Chem. A 2006 , 110 ,936 −943. (accessed Jan 9, 2026) (47) Sisler, H. H.; Neth, F. T.; Drago, R. S.; Yaney, D. The Synthesis of Chloramine by the Ammonia-Chlorine Reaction in the Gas Phase. 
+
+J. Am. Chem. Soc. 1954 , 76 (15), 3906 −3909. (48) Wiesehahn, M.; Zimmermann, E. M.; Agar, D. W. Experimental Splitting of Hydrogen Sulfide by Halogens for Application in Reaction Cycles. Chemie Ingenieur Technik 2022 , 94 (8), 1088 −1095. (49) Ashmore, P. G.; Spencer, M. S. Concurrent Molecular and Chlorine Atom Mechanisms in the Reversible Dissociation of Nitrosyl Chloride. Trans. Faraday Soc. 1959 , 55 (0), 1868 −1883. (50) Intergovernmental Panel On Climate Change (Ipcc). The Earth’s Energy Budget, Climate Feedbacks and Climate Sensitivity Supplementary Material. In Climate Change 2021 − The Physical Science Basis: Working Group I Contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change ; Cambridge University Press, 2023. (51) US EPA, O. EPA’s “Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances.” https:// www.epa.gov/environmental-economics/scghg (accessed Feb 21, 2025). (52) Errickson, F. C.; Keller, K.; Collins, W. D.; Srikrishnan, V.; Anthoff, D. Equity Is More Important for the Social Cost of Methane than Climate Uncertainty. Nature 2021 , 592 (7855), 564 −570. (53) Hu, Y.; Gani, R.; Sundmacher, K.; Zhou, T. Assessing the Future Impact of 12 Direct Air Capture Technologies. Chem. Eng. Sci. 
+
+2024 , 298 , No. 120423. (54) US EPA. Carbon Monoxide’s Impact on Indoor Air Quality. https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality (accessed Jan 24, 2026). (55) US EPA. National Emission Standards for Hazardous Air Pollutants for Major Sources: Industrial, Commercial, and Institu-tional Boilers and Process Heaters. Federal Register. https://www. federalregister.gov/documents/2022/10/06/2022-19612/national-emission-standards-for-hazardous-air-pollutants-for-major-sources-industrial-commercial-and (accessed Jan 8, 2026). 
+
+Environmental Science & Technology pubs.acs.org/est Article
