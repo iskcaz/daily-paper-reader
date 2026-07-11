@@ -1,15 +1,17 @@
 [
   {
-    "id": "journal-10-1021-acs-est-6c00157",
+    "id": "journal-10-1021-acs-est-6c02999",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00157",
-    "doi": "10.1021/acs.est.6c00157",
-    "title": "Impact of Manganese Mineral Transformations on Nanoplastic Transport and Sedimentation in Surface and Subsurface Aqueous Systems",
+    "source_paper_id": "10.1021/acs.est.6c02999",
+    "doi": "10.1021/acs.est.6c02999",
+    "title": "Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
     "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Aniket Choudhary",
-      "Gopala Krishna Darbha"
+      "J. Rafael Bermúdez-Monsalve",
+      "Stella A. Berger",
+      "Gülce Yalçın",
+      "Jens C. Nejstgaard"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -18,93 +20,10 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366373+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00157",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00157",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03391",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03391",
-    "doi": "10.1021/acs.est.6c03391",
-    "title": "A Framework for Antimicrobial Resistance Risk Assessment, Monitoring, and Risk-Reduction Practices along the Reused Water–Soil–Crop–Human Continuum",
-    "abstract": "Food security in many parts of the world is threatened by reduced water availability, resulting from population growth and climate change. Under these circumstances, irrigating crops with reclaimed water is becoming an increasingly important agricultural practice. A framework is proposed to address these concerns, evaluate how effectively current regulations ensure safe and sustainable water reuse in the context of antimicrobial resistance (AMR), and identify opportunities for more targeted guidance. The paper proposes indicators for water quality assessment that take into account risks specific to AMR and define primary contamination entry points, potential amplification points, and barriers (e.g., contaminant dissipation in soil, delay between irrigation and harvest, postharvest management), along the wastewater-irrigation, water-crop, and production-consumer continuum. In terms of risk management, an overview of the range of water and wastewater treatment options is provided, from secondary sewage treatments to advanced treatments, including weighing the costs and benefits of interventions in the context of local needs and constraints and the availability and quality of alternative irrigation water sources. The recommendations herein were developed through a consensus at an international multidisciplinary expert workshop and literature review.",
-    "authors": [
-      "Laura Álvarez-Fraga",
-      "Mohan Amarasiri",
-      "Charlotte Arnal",
-      "Xavier Bellanger",
-      "Pierre Benoit",
-      "Thomas Berendonk",
-      "Thibault Bourdin",
-      "Carolee Anne Carson",
-      "Eddie Cytryn",
-      "Oriane Della-Negra",
-      "Andrea Di Cesare",
-      "Steven P. Djordjevic",
-      "Barbara Drigo",
-      "Erica Donner",
-      "Pietro Drei",
-      "Dominic Frigon",
-      "Pablo Gago-Ferrero",
-      "William H. Gaze",
-      "Karina Yew-Hoong Gin",
-      "Danny Greenwald",
-      "Bing Guo",
-      "Didier Hocquet",
-      "Ryo Honda",
-      "Jeffrey LeJeune",
-      "Caroline Le Maréchal",
-      "Roberta Maffettone",
-      "Célia M. Manaia",
-      "Daniel Martak",
-      "Fabrice Martin-Laurent",
-      "Christophe Merlin",
-      "Alexandre Mrozinski",
-      "Dominique Patureau",
-      "Alfieri Pollice",
-      "Amy Pruden",
-      "Ben van den Akker",
-      "Sotirios Vasileiadis",
-      "Nathalie Wéry",
-      "Edward Topp"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366762+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03391",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03391",
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417254+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02999",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02999",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -130,36 +49,32 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Reuse",
-      "Context (archaeology)",
-      "Risk analysis (engineering)",
-      "Environmental planning",
-      "Water quality",
-      "Water security",
-      "Food security",
-      "Population"
+      "Environmental science",
+      "Microplastics",
+      "Ecology",
+      "Geography",
+      "Oceanography",
+      "Water pollution",
+      "Geology",
+      "Coastal zone"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c07055",
+    "id": "journal-10-1021-acs-est-6c03636",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c07055",
-    "doi": "10.1021/acs.est.6c07055",
-    "title": "Eco-Corona of Microplastics in Soil Inhibits Their Role as a Contaminant Vector While Enhancing Their Role as a Microorganism Vector",
-    "abstract": "Microplastics are an environmental vector for both chemical contaminants and microorganisms. Key to this role is the formation of an eco-corona on microplastic surfaces, which influences surface interactions with the surrounding environment. To better understand this, we investigated the composition and formation mechanism of the eco-corona on the surface of microplastics from soil metabolites, and how this affected the sorption of organic contaminants and the colonization of early biofilms. Soil metabolites formed an eco-corona on microplastics primarily through van der Waals interactions, resulting in hard and soft eco-corona layers via multilayer adsorption. The eco-corona not only acted as a barrier, partially preventing exogenous organic contaminants sorbing onto microplastics, but also functioned as a novel sorption layer for organic contaminants. Through this combined effect, the eco-corona reduced organic contaminant sorption by 14.4-19.8%. Additionally, the eco-corona accelerated and enhanced the biotic vector role of microplastics by regulating their initial microbial colonization, thereby enhancing deterministic processes in community assembly. Our findings demonstrate that the eco-corona, a surficial component of microplastics, serves as a \"second surface\" in governing the environmental behavior of microplastics, necessitating its incorporation in risk assessments of microplastics in terrestrial environments.",
+    "source_paper_id": "10.1021/acs.est.6c03636",
+    "doi": "10.1021/acs.est.6c03636",
+    "title": "Decomposition-Induced Change in Stranded Megafauna: Decoupling Postmortem Impacts from the Isotopic Niche",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Diet throughout an animal’s lifetime can be reconstructed using stable isotope analyses of tissues with different turnover times, yet postmortem changes affecting these measurements remain understudied. Here, we investigate bulk δ 13 C, δ 15 N, and δ 34 S, and amino acid δ 13 C and δ 15 N values from multiple tissue types sampled from stranded harbor porpoises across a range of initial decomposition states. Decomposition caused a consistent decline in δ 13 C values across tissues and amino acid classifications, indicating anaerobic microbial fermentation as a dominant metabolism driving changes in early decomposition. δ 15 N and δ 34 S values were largely stable, suggesting limited microbial transformation of nitrogen and sulfur pools prior to more advanced decomposition. Tissue-specific isotopic differences were larger for both bulk and amino acids values, likely driven by metabolic differences between tissue types as well as differences in elemental turnover from diet. Our findings highlight predictable isotopic carbon shifts during early decomposition and call for caution when interpreting stable isotope data from potentially degraded samples. Moderately decomposed marine mammal tissues reflect diet if tissue-specific discrimination is applied, and amino acid selection impacts both nitrogen and carbon interpretations due to varying differences between metabolic classifications.",
     "authors": [
-      "Shi Yao",
-      "Tao Wang",
-      "Qicheng Bei",
-      "Xiangwei Wu",
-      "Xin Jiang",
-      "Yongming Luo",
-      "Yang Song",
-      "Scott X. Chang",
-      "Hans Peter H. Arp"
+      "Philip M. Riekenberg",
+      "Lonneke L. IJsseldijk",
+      "Mardik Leopold",
+      "Andrea Gröne",
+      "Marcel T.J. van der Meer"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -168,10 +83,10 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366972+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c07055",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c07055",
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417075+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03636",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03636",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -197,14 +112,281 @@
     "is_oa": true,
     "oa_status": "hybrid",
     "openalex_concepts": [
-      "Microplastics",
-      "Sorption",
-      "Environmental chemistry",
-      "Contamination",
-      "Microorganism",
+      "Amino acid",
+      "Stable isotope ratio",
+      "δ13C",
+      "Isotope",
+      "Isotope analysis",
+      "Decomposition",
+      "Isotopes of carbon",
+      "Sulfur"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06012",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06012",
+    "doi": "10.1021/acs.est.6c06012",
+    "title": "Electrochemical Generation of Nonradical Hydrotrioxide for Sustainable Water Purification",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Daoyuan Zu",
+      "Jianbo Liu",
+      "Yang Zhou",
+      "Xianhui Li",
+      "Xueye Wang",
+      "Kui Yang",
+      "Xiangtong Kong",
+      "Jinxing Ma",
+      "Han-Qing Yu",
+      "Zhifeng Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417190+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06012",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06012",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Portable water purification",
+      "Water treatment",
       "Chemistry",
+      "Waste management",
+      "Electrochemistry",
       "Environmental science",
-      "Soil water"
+      "Water pollution",
+      "Environmental engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08027",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08027",
+    "doi": "10.1021/acs.est.6c08027",
+    "title": "Rebuttal to Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Kentaro Miyazono",
+      "Kazuaki Tadokoro",
+      "Gajahin G. N. Thushari",
+      "Hiroomi Miyamoto",
+      "Akinori Takasuka",
+      "Mikio Watai",
+      "Tohya Yasuda",
+      "Takuya Sato",
+      "Rei Yamashita",
+      "Taketoshi Kodama",
+      "Kazutaka Takahashi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417150+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08027",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08027",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Rebuttal",
+      "Environmental science",
+      "Oceanography",
+      "Geology",
+      "Geography",
+      "Fishery",
+      "Environmental ethics",
+      "Ecology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00157",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00157",
+    "doi": "10.1021/acs.est.6c00157",
+    "title": "Impact of Manganese Mineral Transformations on Nanoplastic Transport and Sedimentation in Surface and Subsurface Aqueous Systems",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Aniket Choudhary",
+      "Gopala Krishna Darbha"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-09T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417422+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00157",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00157",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Manganese",
+      "Sedimentation",
+      "Mineral",
+      "Aqueous solution",
+      "Mineralogy",
+      "Geology",
+      "Surface (topology)",
+      "Materials science"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06976",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06976",
+    "doi": "10.1021/acs.est.6c06976",
+    "title": "Toxicokinetic Differences between Dermal and Oral Exposure to Ultraviolet Absorbers: Exploring Pathway-Specific Biomarkers",
+    "abstract": "Ultraviolet absorbers (UVAs) are a group of emerging contaminants with high production volumes. Their applications include but are not limited to sunscreens and food contact materials. Dermal and oral exposures are generally regarded as the main human exposure pathways, but pathway-specific toxicokinetics of UVAs are still unclear. Here, major metabolites and pathway-specific toxicokinetics of five typical UVAs were investigated using in vitro experiments, animal administration experiments, and consecutively collected 24 h human urine. Unlike other UVAs, 2-ethylhexyl p -methoxycinnamate (EHMC) exhibited a significantly longer biological elimination half-life ( T 1/2β ) and a larger volume of distribution (Vd) following oral administration compared to dermal exposure, suggesting a potentially higher risk via the oral pathway. 2-(2 H -Benzotriazol-2-yl)-4,6-ditertpentylphenol (UV-328) showed the greatest bioaccumulation but limited systematic absorption and restricted tissue distribution for both pathways. It indicated entrapment of UV-328 in the enterohepatic circulation, which was also supported by its high lipophilicity and low metabolic rate. The oxidative metabolite of UV-328 was found to be indicative of oral exposure. Further monitoring of 24 h human urine ( n = 220 from environmentally exposed participants) shows that non-oral exposure is probably the main exposure pathway for UV-328 in the general population. In summary, this study addresses a key gap in understanding pathway-specific toxicokinetics of UVAs and provides valuable data to improve the accuracy of assessing systemic exposure levels from multiple pathways.",
+    "authors": [
+      "Ruosi Li",
+      "Haitao Shen",
+      "Qingqing Liu",
+      "Xuanqi Zhao",
+      "Shuai Wu",
+      "Yiyi Chen",
+      "Siyu Fu",
+      "Shiyi Wang",
+      "Jing Zhan",
+      "Bing Lyu",
+      "Jingguang Li",
+      "Jiaying Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-09T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417400+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06976",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06976",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Toxicokinetics",
+      "Metabolite",
+      "Bioaccumulation",
+      "Chemistry",
+      "Bioavailability",
+      "Pharmacology",
+      "Oral administration",
+      "Lipophilicity"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -232,7 +414,7 @@
       "est"
     ],
     "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366636+00:00",
+    "updated_at": "2026-07-11T19:52:49.417649+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03665",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03665",
     "pdf_url": null,
@@ -249,6 +431,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -269,138 +452,10 @@
       "Environmental engineering",
       "Water pollution"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03802",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03802",
-    "doi": "10.1021/acs.est.6c03802",
-    "title": "Evaluation of an Improved Reactive Mercury Active System: Uncertainties and Applicability in Polluted Environments",
-    "abstract": "Reactive mercury (RM) has a short atmospheric residence time of hours to weeks, leading to primarily local deposition. Gaseous elemental mercury (GEM) has a residence time of 0.3–1 year, resulting in long-range transport. The Reactive Mercury Active System (RMAS) developed by the University of Nevada, Reno (UNR) is a membrane-based Hg-monitoring system. This study presents the first independent evaluation of RMAS outside the UNR group, focusing on its performance in polluted environments. The impacts of key factors on the accuracy of RMAS and the deconvolution method for thermal desorption profiles were evaluated. Nylon membranes exhibit variable capture efficiencies (12–81%) of RM across compounds. Consequently, corrections based on multiple linear regression were utilized to enhance RM compound identification. In polluted environments with high fine particulate matter (PM 2.5 ) concentrations (annual average concentration >10 μg m –3 ), the sampling flow rate did not affect the RM concentration but could alter its chemistry via ion exchange. Uncertainties were estimated to be ±19% for the overall concentration and ±6–47% for dominant RM forms. This work showed that RMAS is a promising tool for speciated RM monitoring, supporting the effectiveness evaluation of the Minamata Convention.",
-    "authors": [
-      "Wenqi Wang",
-      "Weikang Zhang",
-      "Lei Zhang",
-      "Hangtian Zhou",
-      "Chaojie Zhang",
-      "Mae Sexauer Gustin",
-      "Sarrah M. Dunham-Cheatham",
-      "Guichen Zhang",
-      "Peisheng Zhou",
-      "Zheng Wang",
-      "Qin’geng Wang",
-      "Yu Zhao"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366868+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03802",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03802",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Environmental science",
-      "Mercury (programming language)",
-      "Environmental chemistry",
-      "Environmental engineering",
-      "Waste management",
-      "Pollution",
-      "Water pollution",
-      "Pollutant"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c04125",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04125",
-    "doi": "10.1021/acs.est.6c04125",
-    "title": "Fragmentation-Driven Optical Darkening of Nanoplastics during Atmospheric Microplastic Photoaging",
-    "abstract": "Atmospheric photoaging can fragment microplastics into secondary microplastics and nanoplastics with potentially important radiative effects, while the coupled changes in particle size, oxidation, and light absorption during this process remain poorly resolved. Here, we systematically investigate the photofragmentation of microplastics and characterize the resulting micro/nanoplastics to resolve the relationships among fragment size, oxygenation, and visible-light absorption. Photoaging promotes progressive fragmentation toward the submicron regime, with smaller initial particles tending to fragment more rapidly. At the same time, oxidation intensifies as particle diameter decreases, yielding a pronounced size-dependent increase in the O/C ratio below ∼500 nm. This chemical evolution is accompanied by strong optical darkening: the imaginary refractive index ( k ) and mass absorption cross-section (MAC) increase markedly with decreasing particle diameter and increasing oxygenation, while the single-scattering albedo (SSA) decreases. A strong relationship is observed between fragment size, oxidative aging, and light absorption across the visible spectrum (450–650 nm). Atmospheric photoaging transforms weakly absorbing microplastics into highly absorbing nanoplastics, whose size-dependent optical properties and chemical evolution provide a basis for integrating them into atmospheric and climate models.",
-    "authors": [
-      "Qi An",
-      "Yu Liu",
-      "Yin Yang",
-      "Chengwei Liu",
-      "Hongbo Fu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366934+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04125",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04125",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Photoaging",
-      "Chemistry",
-      "Environmental chemistry",
-      "Ultraviolet radiation",
-      "Food science",
-      "Reflectivity",
-      "Visible spectrum",
-      "Ozone"
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -432,7 +487,7 @@
       "est"
     ],
     "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366606+00:00",
+    "updated_at": "2026-07-11T19:52:49.417624+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18921",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18921",
     "pdf_url": null,
@@ -449,6 +504,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -468,6 +524,11 @@
       "Sediment",
       "Stable isotope ratio",
       "Bacteria"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -494,7 +555,7 @@
       "est"
     ],
     "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366677+00:00",
+    "updated_at": "2026-07-11T19:52:49.417673+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02260",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02260",
     "pdf_url": null,
@@ -511,6 +572,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -530,6 +592,11 @@
       "Chemical engineering",
       "Colloidal crystal",
       "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -564,7 +631,7 @@
       "est"
     ],
     "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.366536+00:00",
+    "updated_at": "2026-07-11T19:52:49.417562+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c13915",
     "abs_url": "https://doi.org/10.1021/acs.est.5c13915",
     "pdf_url": null,
@@ -581,6 +648,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -601,6 +669,11 @@
       "Species richness",
       "Microplastics"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -611,7 +684,7 @@
     "source_paper_id": "10.1021/acs.estlett.6c00529",
     "doi": "10.1021/acs.estlett.6c00529",
     "title": "Early Warning from Wastewater: Detection of Emerging Opioid Cychlorphine in Rural Tennessee",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide The rapid succession of synthetic drug waves in the United States─from the rise of fentanyl in 2013 to the xylazine and nitazene adulterants in 2019 and recent emergence of cychlorphine in 2025─underscores the highly dynamic and continuously evolving illicit drug market. Since November 2025, public health authorities have reported the emergence of cychlorphine across multiple jurisdictions despite limited analytical capability. In this study, wastewater collected from 12 catchments in East Tennessee─ an area reporting most cychlorphine-involved overdose cases─was analyzed using a validated liquid chromatography mass spectrometry method. Cychlorphine was detected in seven samples and quantified in four samples from one rural community situated along Interstate 75, with a mean concentration of 8.69 ± 1.60 ng/L. Population and flow normalized mass loads ranged from 2.61 to 5.48 mg/day/1000 people, indicating sustained community-level exposure. To our knowledge, this study provides the first evidence of cychlorphine occurrence in wastewater samples. These findings demonstrate the wastewater-based epidemiology as an early warning system for emerging synthetic opioids. Implementing comprehensive and continuous wastewater monitoring can provide near-real-time insights into drug use trends, enabling proactive public health responses, informing harm-reduction strategies, and strengthening emergency preparedness to mitigate the impact of highly potent synthetic opioids.",
     "authors": [
       "Bikram Subedi",
       "Ramesh Sapkota",
@@ -625,10 +698,10 @@
       "est-letters"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.795998+00:00",
+    "updated_at": "2026-07-11T19:52:49.894649+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00529",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00529",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00529?ref=article_openPDF",
     "journal": "Environmental Science & Technology Letters",
     "journal_key": "est_letters",
     "journal_label": "EST Letters",
@@ -637,11 +710,12 @@
       "2328-8930"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -662,7 +736,9 @@
       "Early warning system",
       "Opioid abuse"
     ],
-    "open_pdf_available": false,
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -672,7 +748,7 @@
     "source_paper_id": "10.1021/acs.estlett.6c00404",
     "doi": "10.1021/acs.estlett.6c00404",
     "title": "Trifluoroacetic Acid (TFA) Exceeds All Other Extractable Organofluorine in Drinking Water from Eastern Massachusetts, United States",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Per- and polyfluoroalkyl substances (PFAS) are present in drinking water consumed by ∼200 million United States (US) residents, but many are not detected by routine monitoring methods. Here, we aimed to better characterize the organofluorine mass budget in US drinking water samples from 19 sites in eastern Massachusetts. Extractable organofluorine (EOF) was detected at 16/17 sites served by community water systems (CWS) using conventional treatment techniques (coagulation, flocculation, clarification, and filtration). At these sites, a suite of 37 targeted PFAS accounted for 6–68% of the EOF and suspect screening identified fluorinated agrochemicals in almost all samples. High EOF concentrations in untreated source waters for two CWS that used granular activated carbon (GAC) and ion-exchange (IX) treatment, were reduced below detection in finished drinking water samples. Our EOF measurements were not selective for trifluoroacetic acid (TFA), so we measured concentrations in triplicate samples at one conventional treatment site and from the IX and GAC sites. At these sites, TFA concentrations were higher than those of EOF and were unaffected by the treatment type. Results of this pilot study show GAC and IX treatment removed virtually all organofluorine in drinking water other than TFA.",
     "authors": [
       "Jahred M. Liddie",
       "Euna Kim",
@@ -689,10 +765,10 @@
       "est-letters"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.796035+00:00",
+    "updated_at": "2026-07-11T19:52:49.894675+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00404",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00404",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00404?ref=article_openPDF",
     "journal": "Environmental Science & Technology Letters",
     "journal_key": "est_letters",
     "journal_label": "EST Letters",
@@ -701,11 +777,12 @@
       "2328-8930"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -714,8 +791,8 @@
       "core-journal",
       "est-letters"
     ],
-    "is_oa": false,
-    "oa_status": "closed",
+    "is_oa": true,
+    "oa_status": "hybrid",
     "openalex_concepts": [
       "Chemistry",
       "Environmental chemistry",
@@ -726,7 +803,9 @@
       "Organic solvent",
       "Waste management"
     ],
-    "open_pdf_available": false,
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -755,7 +834,7 @@
       "est-letters"
     ],
     "published": "2026-07-07T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.796101+00:00",
+    "updated_at": "2026-07-11T19:52:49.894725+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00601",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00601",
     "pdf_url": null,
@@ -772,6 +851,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -792,6 +872,8 @@
       "Marine debris",
       "Polychaete"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -821,7 +903,7 @@
       "est-letters"
     ],
     "published": "2026-07-06T00:00:00+00:00",
-    "updated_at": "2026-07-10T20:13:49.796133+00:00",
+    "updated_at": "2026-07-11T19:52:49.894751+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00517",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00517",
     "pdf_url": null,
@@ -838,6 +920,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -858,6 +941,8 @@
       "Pulp and paper industry",
       "Amine gas treating"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -9429,6 +9514,53 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c07055",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c07055",
+    "doi": "10.1021/acs.est.6c07055",
+    "title": "Eco-Corona of Microplastics in Soil Inhibits Their Role as a Contaminant Vector While Enhancing Their Role as a Microorganism Vector",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shi Yao",
+      "Tao Wang",
+      "Qicheng Bei",
+      "Xiangwei Wu",
+      "Xin Jiang",
+      "Yongming Luo",
+      "Yang Song",
+      "Scott X. Chang",
+      "Hans Peter H. Arp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c07055",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07055",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c08080",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -9496,6 +9628,175 @@
     "published": "2026-07-07",
     "link": "https://doi.org/10.1021/acs.est.6c08214",
     "abs_url": "https://doi.org/10.1021/acs.est.6c08214",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03391",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03391",
+    "doi": "10.1021/acs.est.6c03391",
+    "title": "A Framework for Antimicrobial Resistance Risk Assessment, Monitoring, and Risk-Reduction Practices along the Reused Water–Soil–Crop–Human Continuum",
+    "abstract": "Food security in many parts of the world is threatened by reduced water availability, resulting from population growth and climate change. Under these circumstances, irrigating crops with reclaimed water is becoming an increasingly important agricultural practice. A framework is proposed to address these concerns, evaluate how effectively current regulations ensure safe and sustainable water reuse in the context of antimicrobial resistance (AMR), and identify opportunities for more targeted guidance. The paper proposes indicators for water quality assessment that take into account risks specific to AMR and define primary contamination entry points, potential amplification points, and barriers (e.g., contaminant dissipation in soil, delay between irrigation and harvest, postharvest management), along the wastewater-irrigation, water-crop, and production-consumer continuum. In terms of risk management, an overview of the range of water and wastewater treatment options is provided, from secondary sewage treatments to advanced treatments, including weighing the costs and benefits of interventions in the context of local needs and constraints and the availability and quality of alternative irrigation water sources. The recommendations herein were developed through a consensus at an international multidisciplinary expert workshop and literature review.",
+    "authors": [
+      "Laura Álvarez-Fraga",
+      "Mohan Amarasiri",
+      "Charlotte Arnal",
+      "Xavier Bellanger",
+      "Pierre Benoit",
+      "Thomas Berendonk",
+      "Thibault Bourdin",
+      "Carolee Anne Carson",
+      "Eddie Cytryn",
+      "Oriane Della-Negra",
+      "Andrea Di Cesare",
+      "Steven P. Djordjevic",
+      "Barbara Drigo",
+      "Erica Donner",
+      "Pietro Drei",
+      "Dominic Frigon",
+      "Pablo Gago-Ferrero",
+      "William H. Gaze",
+      "Karina Yew-Hoong Gin",
+      "Danny Greenwald",
+      "Bing Guo",
+      "Didier Hocquet",
+      "Ryo Honda",
+      "Jeffrey LeJeune",
+      "Caroline Le Maréchal",
+      "Roberta Maffettone",
+      "Célia M. Manaia",
+      "Daniel Martak",
+      "Fabrice Martin-Laurent",
+      "Christophe Merlin",
+      "Alexandre Mrozinski",
+      "Dominique Patureau",
+      "Alfieri Pollice",
+      "Amy Pruden",
+      "Ben van den Akker",
+      "Sotirios Vasileiadis",
+      "Nathalie Wéry",
+      "Edward Topp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c03391",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03391",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03802",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03802",
+    "doi": "10.1021/acs.est.6c03802",
+    "title": "Evaluation of an Improved Reactive Mercury Active System: Uncertainties and Applicability in Polluted Environments",
+    "abstract": "Reactive mercury (RM) has a short atmospheric residence time of hours to weeks, leading to primarily local deposition. Gaseous elemental mercury (GEM) has a residence time of 0.3–1 year, resulting in long-range transport. The Reactive Mercury Active System (RMAS) developed by the University of Nevada, Reno (UNR) is a membrane-based Hg-monitoring system. This study presents the first independent evaluation of RMAS outside the UNR group, focusing on its performance in polluted environments. The impacts of key factors on the accuracy of RMAS and the deconvolution method for thermal desorption profiles were evaluated. Nylon membranes exhibit variable capture efficiencies (12–81%) of RM across compounds. Consequently, corrections based on multiple linear regression were utilized to enhance RM compound identification. In polluted environments with high fine particulate matter (PM 2.5 ) concentrations (annual average concentration >10 μg m –3 ), the sampling flow rate did not affect the RM concentration but could alter its chemistry via ion exchange. Uncertainties were estimated to be ±19% for the overall concentration and ±6–47% for dominant RM forms. This work showed that RMAS is a promising tool for speciated RM monitoring, supporting the effectiveness evaluation of the Minamata Convention.",
+    "authors": [
+      "Wenqi Wang",
+      "Weikang Zhang",
+      "Lei Zhang",
+      "Hangtian Zhou",
+      "Chaojie Zhang",
+      "Mae Sexauer Gustin",
+      "Sarrah M. Dunham-Cheatham",
+      "Guichen Zhang",
+      "Peisheng Zhou",
+      "Zheng Wang",
+      "Qin’geng Wang",
+      "Yu Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c03802",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03802",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04125",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04125",
+    "doi": "10.1021/acs.est.6c04125",
+    "title": "Fragmentation-Driven Optical Darkening of Nanoplastics during Atmospheric Microplastic Photoaging",
+    "abstract": "Atmospheric photoaging can fragment microplastics into secondary microplastics and nanoplastics with potentially important radiative effects, while the coupled changes in particle size, oxidation, and light absorption during this process remain poorly resolved. Here, we systematically investigate the photofragmentation of microplastics and characterize the resulting micro/nanoplastics to resolve the relationships among fragment size, oxygenation, and visible-light absorption. Photoaging promotes progressive fragmentation toward the submicron regime, with smaller initial particles tending to fragment more rapidly. At the same time, oxidation intensifies as particle diameter decreases, yielding a pronounced size-dependent increase in the O/C ratio below ∼500 nm. This chemical evolution is accompanied by strong optical darkening: the imaginary refractive index ( k ) and mass absorption cross-section (MAC) increase markedly with decreasing particle diameter and increasing oxygenation, while the single-scattering albedo (SSA) decreases. A strong relationship is observed between fragment size, oxidative aging, and light absorption across the visible spectrum (450–650 nm). Atmospheric photoaging transforms weakly absorbing microplastics into highly absorbing nanoplastics, whose size-dependent optical properties and chemical evolution provide a basis for integrating them into atmospheric and climate models.",
+    "authors": [
+      "Qi An",
+      "Yu Liu",
+      "Yin Yang",
+      "Chengwei Liu",
+      "Hongbo Fu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c04125",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04125",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",

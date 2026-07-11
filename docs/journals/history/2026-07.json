@@ -3916,7 +3916,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -3937,7 +3938,9 @@
       "Benthic zone",
       "Marine debris",
       "Polychaete"
-    ]
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c07055",
@@ -4050,7 +4053,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4071,6 +4075,11 @@
       "Sediment",
       "Stable isotope ratio",
       "Bacteria"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -4120,7 +4129,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4141,6 +4151,11 @@
       "Mangrove",
       "Species richness",
       "Microplastics"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -4442,7 +4457,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -4451,7 +4467,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Manganese",
+      "Sedimentation",
+      "Mineral",
+      "Aqueous solution",
+      "Mineralogy",
+      "Geology",
+      "Surface (topology)",
+      "Materials science"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03391",
@@ -4589,7 +4617,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4610,7 +4639,12 @@
       "Water pollution"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03802",
@@ -4784,7 +4818,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4805,7 +4840,12 @@
       "Environmental chemistry"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00529",
@@ -4831,7 +4871,7 @@
     "updated_at": "2026-07-10T20:13:49.795998+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00529",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00529",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00529?ref=article_openPDF",
     "journal": "Environmental Science & Technology Letters",
     "journal_key": "est_letters",
     "journal_label": "EST Letters",
@@ -4840,12 +4880,13 @@
       "2328-8930"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4865,8 +4906,10 @@
       "Early warning system",
       "Opioid abuse"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-estlett-6c00404",
@@ -4895,13 +4938,78 @@
     "updated_at": "2026-07-10T20:13:49.796035+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00404",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00404",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00404?ref=article_openPDF",
     "journal": "Environmental Science & Technology Letters",
     "journal_key": "est_letters",
     "journal_label": "EST Letters",
     "journal_issn": [
       "2328-8930",
       "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta",
+      "semantic_scholar"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": true,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Environmental chemistry",
+      "Water pollution",
+      "Trifluoroacetic acid",
+      "Environmental science",
+      "Chlorine",
+      "Organic solvent",
+      "Waste management"
+    ],
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02999",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02999",
+    "doi": "10.1021/acs.est.6c02999",
+    "title": "Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "J. Rafael Bermúdez-Monsalve",
+      "Stella A. Berger",
+      "Gülce Yalçın",
+      "Jens C. Nejstgaard"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417254+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02999",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02999",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
     ],
     "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
@@ -4915,19 +5023,289 @@
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est-letters"
+      "est"
     ],
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Chemistry",
-      "Environmental chemistry",
-      "Water pollution",
-      "Trifluoroacetic acid",
       "Environmental science",
-      "Chlorine",
-      "Organic solvent",
-      "Waste management"
+      "Microplastics",
+      "Ecology",
+      "Geography",
+      "Oceanography",
+      "Water pollution",
+      "Geology",
+      "Coastal zone"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03636",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03636",
+    "doi": "10.1021/acs.est.6c03636",
+    "title": "Decomposition-Induced Change in Stranded Megafauna: Decoupling Postmortem Impacts from the Isotopic Niche",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Diet throughout an animal’s lifetime can be reconstructed using stable isotope analyses of tissues with different turnover times, yet postmortem changes affecting these measurements remain understudied. Here, we investigate bulk δ 13 C, δ 15 N, and δ 34 S, and amino acid δ 13 C and δ 15 N values from multiple tissue types sampled from stranded harbor porpoises across a range of initial decomposition states. Decomposition caused a consistent decline in δ 13 C values across tissues and amino acid classifications, indicating anaerobic microbial fermentation as a dominant metabolism driving changes in early decomposition. δ 15 N and δ 34 S values were largely stable, suggesting limited microbial transformation of nitrogen and sulfur pools prior to more advanced decomposition. Tissue-specific isotopic differences were larger for both bulk and amino acids values, likely driven by metabolic differences between tissue types as well as differences in elemental turnover from diet. Our findings highlight predictable isotopic carbon shifts during early decomposition and call for caution when interpreting stable isotope data from potentially degraded samples. Moderately decomposed marine mammal tissues reflect diet if tissue-specific discrimination is applied, and amino acid selection impacts both nitrogen and carbon interpretations due to varying differences between metabolic classifications.",
+    "authors": [
+      "Philip M. Riekenberg",
+      "Lonneke L. IJsseldijk",
+      "Mardik Leopold",
+      "Andrea Gröne",
+      "Marcel T.J. van der Meer"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417075+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03636",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03636",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Amino acid",
+      "Stable isotope ratio",
+      "δ13C",
+      "Isotope",
+      "Isotope analysis",
+      "Decomposition",
+      "Isotopes of carbon",
+      "Sulfur"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06012",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06012",
+    "doi": "10.1021/acs.est.6c06012",
+    "title": "Electrochemical Generation of Nonradical Hydrotrioxide for Sustainable Water Purification",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Daoyuan Zu",
+      "Jianbo Liu",
+      "Yang Zhou",
+      "Xianhui Li",
+      "Xueye Wang",
+      "Kui Yang",
+      "Xiangtong Kong",
+      "Jinxing Ma",
+      "Han-Qing Yu",
+      "Zhifeng Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417190+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06012",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06012",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Portable water purification",
+      "Water treatment",
+      "Chemistry",
+      "Waste management",
+      "Electrochemistry",
+      "Environmental science",
+      "Water pollution",
+      "Environmental engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08027",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08027",
+    "doi": "10.1021/acs.est.6c08027",
+    "title": "Rebuttal to Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Kentaro Miyazono",
+      "Kazuaki Tadokoro",
+      "Gajahin G. N. Thushari",
+      "Hiroomi Miyamoto",
+      "Akinori Takasuka",
+      "Mikio Watai",
+      "Tohya Yasuda",
+      "Takuya Sato",
+      "Rei Yamashita",
+      "Taketoshi Kodama",
+      "Kazutaka Takahashi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417150+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08027",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08027",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Rebuttal",
+      "Environmental science",
+      "Oceanography",
+      "Geology",
+      "Geography",
+      "Fishery",
+      "Environmental ethics",
+      "Ecology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06976",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06976",
+    "doi": "10.1021/acs.est.6c06976",
+    "title": "Toxicokinetic Differences between Dermal and Oral Exposure to Ultraviolet Absorbers: Exploring Pathway-Specific Biomarkers",
+    "abstract": "Ultraviolet absorbers (UVAs) are a group of emerging contaminants with high production volumes. Their applications include but are not limited to sunscreens and food contact materials. Dermal and oral exposures are generally regarded as the main human exposure pathways, but pathway-specific toxicokinetics of UVAs are still unclear. Here, major metabolites and pathway-specific toxicokinetics of five typical UVAs were investigated using in vitro experiments, animal administration experiments, and consecutively collected 24 h human urine. Unlike other UVAs, 2-ethylhexyl p -methoxycinnamate (EHMC) exhibited a significantly longer biological elimination half-life ( T 1/2β ) and a larger volume of distribution (Vd) following oral administration compared to dermal exposure, suggesting a potentially higher risk via the oral pathway. 2-(2 H -Benzotriazol-2-yl)-4,6-ditertpentylphenol (UV-328) showed the greatest bioaccumulation but limited systematic absorption and restricted tissue distribution for both pathways. It indicated entrapment of UV-328 in the enterohepatic circulation, which was also supported by its high lipophilicity and low metabolic rate. The oxidative metabolite of UV-328 was found to be indicative of oral exposure. Further monitoring of 24 h human urine ( n = 220 from environmentally exposed participants) shows that non-oral exposure is probably the main exposure pathway for UV-328 in the general population. In summary, this study addresses a key gap in understanding pathway-specific toxicokinetics of UVAs and provides valuable data to improve the accuracy of assessing systemic exposure levels from multiple pathways.",
+    "authors": [
+      "Ruosi Li",
+      "Haitao Shen",
+      "Qingqing Liu",
+      "Xuanqi Zhao",
+      "Shuai Wu",
+      "Yiyi Chen",
+      "Siyu Fu",
+      "Shiyi Wang",
+      "Jing Zhan",
+      "Bing Lyu",
+      "Jingguang Li",
+      "Jiaying Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-09T00:00:00+00:00",
+    "updated_at": "2026-07-11T19:52:49.417400+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06976",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06976",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Toxicokinetics",
+      "Metabolite",
+      "Bioaccumulation",
+      "Chemistry",
+      "Bioavailability",
+      "Pharmacology",
+      "Oral administration",
+      "Lipophilicity"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
