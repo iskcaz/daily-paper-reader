@@ -1,17 +1,23 @@
 [
   {
-    "id": "journal-10-1021-acs-est-6c02999",
+    "id": "journal-10-1021-acs-est-6c04963",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02999",
-    "doi": "10.1021/acs.est.6c02999",
-    "title": "Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
+    "source_paper_id": "10.1021/acs.est.6c04963",
+    "doi": "10.1021/acs.est.6c04963",
+    "title": "Knowledge-Based Feature Selection Substantially Enhances Data-Driven Wastewater Treatment Modeling",
     "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "J. Rafael Bermúdez-Monsalve",
-      "Stella A. Berger",
-      "Gülce Yalçın",
-      "Jens C. Nejstgaard"
+      "Senyuan Gu",
+      "Shuting Wang",
+      "Ruihong Qiu",
+      "Kaili Li",
+      "Jaswinder Manjeet Singh",
+      "Jue Zhang",
+      "Bing-Jie Ni",
+      "T. David Waite",
+      "Liu Ye",
+      "Haoran Duan"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -20,10 +26,57 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417254+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02999",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02999",
+    "published": "2026-07-12T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871479+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04963",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04963",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02006",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02006",
+    "doi": "10.1021/acs.est.6c02006",
+    "title": "CRISPR Biosensing for Environmental Monitoring: Workflow Design and Performance Benchmarking",
+    "abstract": "CRISPR-based biosensing has rapidly emerged as a promising platform for environmental monitoring due to its high specificity, programmability, and compatibility with portable readouts. However, translation from biomedical diagnostics to environmental matrices remains challenging because of diverse sample types, complex inhibitors, and the breadth of biological and chemical targets. This Review provides a comprehensive analysis of CRISPR-based sensing technologies tailored for environmental contaminant detection, spanning both biological and chemical targets. We systematically evaluate published studies across target classes, Cas effectors, recognition mediators, sample matrices, pretreatment strategies, preamplification or signal-gain approaches, readout modalities, and reported performance metrics. To support practical implementation, we summarize a five-step experimental framework for environmental CRISPR sensing. We then propose a decision-guided design flowchart that links monitoring goals and matrix constraints to the selection of effectors, mediator-enabled transduction routes, pretreatment modules, amplification strategies, readouts, and validation controls. We further benchmark reported detection limits by normalizing units and comparing trends across preamplification-aided versus preamplification-free designs and by contextualizing performance against relevant regulatory or guideline thresholds when available. Across the literature, most studies rely on spiked-matrix validation, highlighting the need for broader nonspiked real environmental sample testing and more transparent reporting of sampling, pretreatment, and performance evaluation. Finally, we advocate standardized data reporting, including consistent units, workflow metadata, and matrix-matched validation, to enable cross-study comparison and accelerate the deployment of CRISPR-based sensors for real-world environmental monitoring.",
+    "authors": [
+      "Siwen Wang",
+      "Rakibul Hasan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-11T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871635+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02006",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02006",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -49,6 +102,140 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
+      "Workflow",
+      "Benchmarking",
+      "Computer science",
+      "Software deployment",
+      "Environmental monitoring",
+      "Systems engineering",
+      "Benchmark (surveying)",
+      "CRISPR"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04882",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04882",
+    "doi": "10.1021/acs.est.6c04882",
+    "title": "Carbon–Iodine Coordination Activates Co–N 4 Sites for Efficient Peroxymonosulfate Activation toward Mass-Transfer-Accelerated Singlet Oxygen Oxidation of Electron-Rich Pollutants",
+    "abstract": "Mass transfer limitations and inefficient nonradical oxidant generation often constrain the practical performance of Fenton-like catalysts for micropollutant removal. Here, we develop a synergistic architectural strategy to construct carbon-supported cobalt single-atom catalysts (Co-INC) via ammonium iodide-assisted chemical vapor deposition, integrating atomically dispersed Co–N 4 sites with carbon–iodine (C–I) coordination motifs to simultaneously enhance reactant transport and singlet oxygen ( 1 O 2 ) production. Benefiting from in situ NH 3 -mediated etching, the architecture enhances active-site accessibility while achieving a high Co density of 0.165 mmol g –1, facilitating peroxymonosulfate (PMS) diffusion. Additionally, iodine incorporation creates an asymmetric Co–N 4 /C–I coordination environment that upshifts Co d -band center to −0.54 eV, strengthening PMS adsorption (−2.54 eV). This configuration promotes interfacial electron transfer and reduces the rate-determining energy barrier to −0.84 eV, substantially boosting 1 O 2 generation and achieving a steady-state concentration of 0.295 mM. Furthermore, the optimized pore architecture alleviates mass-transfer constraints, enabling efficient 1 O 2 utilization and a 2.3-fold increase in the ciprofloxacin mass-transfer coefficient. Consequently, Co-INC exhibits an exceptional normalized rate constant of 507 min –1 ·M –1 for ciprofloxacin degradation, outperforming pristine Co-NC by 10.3 times and surpassing most PMS-based catalysts. This study demonstrates that coupling active-site coordination with mass-transfer enhancement is pivotal for maximizing nonradical oxidation pathways in water treatment.",
+    "authors": [
+      "Junjun Pei",
+      "Xinyu Zhou",
+      "Kaixing Fu",
+      "Kai Yin",
+      "Shenglian Luo",
+      "Deyou Yu",
+      "Jinming Luo"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871782+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04882",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04882",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Singlet oxygen",
+      "Pollutant",
+      "Photochemistry",
+      "Oxygen",
+      "Catalysis",
+      "Inorganic chemistry",
+      "Reaction mechanism"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02999",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02999",
+    "doi": "10.1021/acs.est.6c02999",
+    "title": "Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "J. Rafael Bermúdez-Monsalve",
+      "Stella A. Berger",
+      "Gülce Yalçın",
+      "Jens C. Nejstgaard"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871920+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02999",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02999",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c02999?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "bronze",
+    "openalex_concepts": [
       "Environmental science",
       "Microplastics",
       "Ecology",
@@ -58,7 +245,12 @@
       "Geology",
       "Coastal zone"
     ],
-    "open_pdf_available": false,
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -84,10 +276,10 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417075+00:00",
+    "updated_at": "2026-07-12T20:06:16.871713+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03636",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03636",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03636?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -96,11 +288,12 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -121,7 +314,12 @@
       "Isotopes of carbon",
       "Sulfur"
     ],
-    "open_pdf_available": false,
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -131,7 +329,7 @@
     "source_paper_id": "10.1021/acs.est.6c06012",
     "doi": "10.1021/acs.est.6c06012",
     "title": "Electrochemical Generation of Nonradical Hydrotrioxide for Sustainable Water Purification",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Sustainable water purification demands oxidation processes that are both highly efficient and chemically self-sufficient. Electrochemical advanced oxidation is inherently green, yet the reactivity of hydroxyl radicals (*OH) is typically confined to the electrode interface, limiting overall treatment efficiency. Here we report the discovery of a putative nonradical hydrotrioxide species, – O 3 SOOOH, generated in situ by coupling surface-bound *OH with asymmetric peroxides ( − O 3 SOOH) on commercial Pt electrodes. This mediator relays oxidative equivalents from the anode into the bulk solution without reagent consumption, increasing pollutant-degradation rates by 231–856%. Operando spectroscopy, isotope tracing, differential electrochemical mass spectrometry, and density functional theory calculations reveal a pseudo-oxidative, two-electron oxygen-transfer pathway distinct from radical or direct-electron-transfer routes. The putative – O 3 SOOOH exhibits exceptional product selectivity while maintaining a high oxidative potential. The process proceeds under mild potentials, resists interference from common anions, and can be integrated with reverse-osmosis membranes for continuous, zero-reagent purification. The discovery of hydrotrioxide-mediated oxidation establishes a scalable and low-carbon electrochemical platform for sustainable water treatment.",
     "authors": [
       "Daoyuan Zu",
       "Jianbo Liu",
@@ -152,7 +350,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417190+00:00",
+    "updated_at": "2026-07-12T20:06:16.871855+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06012",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06012",
     "pdf_url": null,
@@ -169,6 +367,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -189,6 +388,162 @@
       "Water pollution",
       "Environmental engineering"
     ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03881",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03881",
+    "doi": "10.1021/acs.est.6c03881",
+    "title": "H 2 O-Enabled Reversible SO 2 Resistance on Separately Dual-Functional Pd–W Sites for Low-Temperature Hydrocarbon Oxidation",
+    "abstract": "Sulfur dioxide (SO 2 ) poisoning remains a critical challenge for noble-metal catalysts in hydrocarbon oxidation, particularly under industrial humid conditions. H 2 O is commonly regarded as a detrimental component in SO 2 -containing exhaust streams where sulfur-water synergistic deactivation prevails. Here we prove that, when combined with rational active-site design, H 2 O molecules can instead promote SO 2 -resistance in hydrocarbon oxidation catalysis. A Pd/W–Al 2 O 3 catalyst with spatially separated Pd and W sites exhibits superior low-temperature methyl ethyl ketone (MEK) oxidation activity and unprecedented resistance to SO 2 poisoning under both dry and humid conditions. In the absence of water, SO 2 is selectively immobilized as SO 3 2– species on W sites, preventing competitive adsorption on Pd and preserving MEK oxidation pathways. Under humid conditions, however, SO 2 can be transformed into HSO 3 – species that interact directly with Pd-bound ketone intermediates. Spectroscopic and theoretical investigations reveal that HSO 3 – functions as a dynamic proton shuttle, enabling a proton-bridge-assisted C–C bond cleavage pathway that facilitates intermediate conversion and drives reversible recovery from SO 2 poisoning. This work demonstrates how H 2 O molecules fundamentally reshape SO 2 -catalyst interactions and highlights a general strategy for converting SO 2 poisons into reaction promoters through spatially separated dual-functional active sites.",
+    "authors": [
+      "Chunli Ai",
+      "Fan Dang",
+      "Yani Wu",
+      "Zeyu Jiang",
+      "Mingjiao Tian",
+      "Yujie Shi",
+      "Han Xu",
+      "Yanfei Jian",
+      "Changwei Chen",
+      "Chi He"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871679+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03881",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03881",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Hydrocarbon",
+      "Environmental chemistry",
+      "Nuclear chemistry",
+      "Organic chemistry",
+      "Oxidation reduction",
+      "Inorganic chemistry",
+      "Redox"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04954",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04954",
+    "doi": "10.1021/acs.est.6c04954",
+    "title": "Identifying Tracing Species from Source Regions of PM 2.5 on the Tibetan Plateau by Integrating Measurement and Modeling",
+    "abstract": "The atmospheric environment of the Tibetan Plateau is significantly sensitive to pollutants transported from regions with intensive anthropogenic activity. It is therefore critical to identify source regions and transported air pollutants on the Tibetan Plateau. The present study developed a method to link multiple pollutants measured at receptor sites on the Tibetan Plateau to their source regions by integrating measurements and modeling. Ground-based measurements of over 150 species in fine particulate matter (PM 2.5 ) at the Nam Co Station were conducted for one year. Meanwhile, contributions from different source regions to PM 2.5 in each sample were quantified by using an emission inventory-coupled Lagrangian box model. The findings indicated that specific source regions were associated with distinct chemical species and sources. In the premonsoon season, transport from the northwestern South Asia was related to enhanced concentrations of black carbon, organic carbon, K +, anhydrosugars, Pb, and Zn. This suggested a strong influence from intensive biomass burning and industrial activities. However, increased contribution from the northwestern China to PM 2.5 was associated with increased concentrations of low-molecular-weight polycyclic aromatic hydrocarbons, Cl –, and several anthropogenic metals, reflecting impacts from mixed industrial and residential sources. During the monsoon season, concentrations of highly oxidized secondary organic aerosol (SOA) species increased with contribution from regions south of the receptor site, highlighting the importance of aged SOA in this season. The findings in this study not only improve our understanding of how transport from different regions shapes atmospheric composition in the Tibetan Plateau but also offer a new approach to investigate impacts of long-range transport on remote environments.",
+    "authors": [
+      "Yaxin Xiang",
+      "Meiyu Zhao",
+      "Weihao Xiao",
+      "Tianle Zhang",
+      "Qi Zhou",
+      "Jiaying Liu",
+      "Caiqing Yan",
+      "Shunyao Wang",
+      "Guofeng Shen",
+      "Shichang Kang",
+      "Xiang Ding",
+      "Qi Ying",
+      "Mei Zheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871891+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04954",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04954",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Plateau (mathematics)",
+      "Tracing",
+      "Environmental science",
+      "Remote sensing",
+      "Geology",
+      "Physical geography",
+      "Climatology",
+      "Hydrology (agriculture)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -199,7 +554,7 @@
     "source_paper_id": "10.1021/acs.est.6c08027",
     "doi": "10.1021/acs.est.6c08027",
     "title": "Rebuttal to Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "our article 1 and for reanalyzing our long-term floatingplastic data set from the western North Pacific.We disagree that the multidecadal \"stagnation period\" (more precisely, a high-abundance, low-growth regime) and size/morphotype changes are primarily artifacts of sampling-gear changes.This regime, with annual mean abundance broadly within 10 4 -10 5 pieces km -2 , spans the late Maruchi-, Shin-Chigyo-, and early new-neuston-net periods from the late 1970s to 2011. 1 If the regime primarily resulted from gear replacement, one would expect an abrupt discontinuity, or at least a marked shift, near net transitions; instead, the pattern emerged gradually and persisted across multiple net protocols (Figure 1).A clogging-based explanation does not adequately account for net-series intercalibration, design, and field validation.Maruchi-net data were corrected using a selection curve derived from Maruchi-Shin-Chigyo transition-period data, including concurrent-use years, addressing the lower catch",
     "authors": [
       "Kentaro Miyazono",
       "Kazuaki Tadokoro",
@@ -221,10 +576,10 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417150+00:00",
+    "updated_at": "2026-07-12T20:06:16.871823+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c08027",
     "abs_url": "https://doi.org/10.1021/acs.est.6c08027",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c08027?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -233,11 +588,12 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -246,8 +602,8 @@
       "core-journal",
       "est"
     ],
-    "is_oa": false,
-    "oa_status": "closed",
+    "is_oa": true,
+    "oa_status": "bronze",
     "openalex_concepts": [
       "Rebuttal",
       "Environmental science",
@@ -258,7 +614,12 @@
       "Environmental ethics",
       "Ecology"
     ],
-    "open_pdf_available": false,
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -268,7 +629,7 @@
     "source_paper_id": "10.1021/acs.est.6c00157",
     "doi": "10.1021/acs.est.6c00157",
     "title": "Impact of Manganese Mineral Transformations on Nanoplastic Transport and Sedimentation in Surface and Subsurface Aqueous Systems",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "in controlling NP mobility in aqueous environments.",
     "authors": [
       "Aniket Choudhary",
       "Gopala Krishna Darbha"
@@ -281,7 +642,7 @@
       "est"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417422+00:00",
+    "updated_at": "2026-07-12T20:06:16.872090+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00157",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00157",
     "pdf_url": null,
@@ -298,6 +659,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -317,6 +679,11 @@
       "Geology",
       "Surface (topology)",
       "Materials science"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -351,72 +718,9 @@
       "est"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417400+00:00",
+    "updated_at": "2026-07-12T20:06:16.872068+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06976",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06976",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Toxicokinetics",
-      "Metabolite",
-      "Bioaccumulation",
-      "Chemistry",
-      "Bioavailability",
-      "Pharmacology",
-      "Oral administration",
-      "Lipophilicity"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03665",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03665",
-    "doi": "10.1021/acs.est.6c03665",
-    "title": "Efficient Diagnosis of Spatiotemporal Evolution and Driving Factors of Surface Ozone Pollution Episodes: An Application in Jiangsu Province, China",
-    "abstract": "Severe ozone (O 3 ) pollution is a major challenge for air quality improvement in China, primarily due to its spatiotemporal heterogeneity and nonlinear formation regimes. Here, we developed a novel framework to illustrate the spatiotemporal evolution of pollution episodes and to identify their recurrent driver modes and formation sensitivities in Jiangsu Province during the warm season from 2020 to 2023. The framework integrated joint analysis of the synoptic weather type (WT) and the regional spatiotemporal pattern (SP) of O 3 episodes, explainable machine learning, and geostationary satellite observation of O 3 precursors. We showed that O 3 pollution episodes occurred preferentially with a limited number of WT × SP combinations, particularly those involving subtropical high-pressure systems coincident with pollutant accumulation patterns in southern Jiangsu. Three key driver modes (thermal-driven, radiation–moisture synergy, and transport-accumulation) were identified, with significant associations with specific WT × SP combinations. The transport-accumulation mode commonly corresponded to the VOC-limited regime, while thermal-driven and radiation–moisture synergy modes shifted O 3 formation toward the NO x -limited regime more frequently. This work demonstrated an effective, efficient, and adaptable tool of detecting the source and evolution of multiple O 3 episodes and could support flexible and timely design of the pollution control strategy, with an improved understanding of heterogeneous and changing causes of O 3 episodes.",
-    "authors": [
-      "Hanying Wang",
-      "Lei Zhang",
-      "Yutong Wang",
-      "Yiting Li",
-      "Yu Zhao"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417649+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03665",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03665",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -443,14 +747,14 @@
     "is_oa": false,
     "oa_status": "closed",
     "openalex_concepts": [
-      "Environmental science",
-      "Ozone",
-      "China",
-      "Pollution",
-      "Air pollution",
-      "Pollutant",
-      "Environmental engineering",
-      "Water pollution"
+      "Toxicokinetics",
+      "Metabolite",
+      "Bioaccumulation",
+      "Chemistry",
+      "Bioavailability",
+      "Pharmacology",
+      "Oral administration",
+      "Lipophilicity"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
@@ -487,7 +791,7 @@
       "est"
     ],
     "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417624+00:00",
+    "updated_at": "2026-07-12T20:06:16.872310+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c18921",
     "abs_url": "https://doi.org/10.1021/acs.est.5c18921",
     "pdf_url": null,
@@ -534,74 +838,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c02260",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02260",
-    "doi": "10.1021/acs.est.6c02260",
-    "title": "Molecular Mechanisms of Dissolved Organic Matter in Controlling Cr(III) Colloidal Deposition and Reversibility",
-    "abstract": "Transport of Cr(III) colloids in the subsurface poses environmental risks because they can be reoxidized to carcinogenic Cr(VI). Although dissolved organic matter (DOM) is known to determine the fate of colloidal Cr(III) via organic-mineral interactions, the molecular mechanisms controlling its mobility and deposition remain unclear. This study investigated changes in the deposition kinetics and characteristics of Cr(III) colloids in response to DOM composition and concentration. Quartz crystal microbalance with dissipation showed a nonmonotonic deposition pattern of Cr(III)-DOM colloids across DOM concentrations and types. Specifically, the deposition efficiency decreased to a minimum at a critical DOM concentration, above which it increased significantly with the irreversible fraction. This phenomenon was driven by dynamic interactions between silica and the multilayer corona of Cr(III) colloids, arising from the self-assembly of aliphatic compounds with condensed polyaromatics or polyphenols. The mechanism was supported by Fourier transform ion cyclotron resonance mass spectrometry, scanning transmission electron microscopy with electron energy loss spectroscopy, and molecular dynamics simulation. A mechanistic dimensionless model based on normalized deposition mass and sorbed aliphatic abundance successfully predicted the deposition of crystalline Cr(III) colloids under soil, sediment, and aquatic DOM. These findings highlight the importance of the DOM molecular composition in assessing heavy metal colloidal transport and Cr contamination risks.",
-    "authors": [
-      "Wendan Luo",
-      "Yijun Mo",
-      "Shishu Zhu",
-      "Chao Jin"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417673+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02260",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02260",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Deposition (geology)",
-      "Colloid",
-      "Chemistry",
-      "Quartz crystal microbalance",
-      "Dissolved organic carbon",
-      "Chemical engineering",
-      "Colloidal crystal",
-      "Environmental chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-5c13915",
     "source": "journal",
     "source_detail": "crossref",
@@ -631,7 +867,7 @@
       "est"
     ],
     "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.417562+00:00",
+    "updated_at": "2026-07-12T20:06:16.872249+00:00",
     "link": "https://doi.org/10.1021/acs.est.5c13915",
     "abs_url": "https://doi.org/10.1021/acs.est.5c13915",
     "pdf_url": null,
@@ -698,7 +934,7 @@
       "est-letters"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.894649+00:00",
+    "updated_at": "2026-07-12T20:06:17.429628+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00529",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00529",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00529?ref=article_openPDF",
@@ -765,7 +1001,7 @@
       "est-letters"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.894675+00:00",
+    "updated_at": "2026-07-12T20:06:17.429654+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00404",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00404",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00404?ref=article_openPDF",
@@ -834,7 +1070,7 @@
       "est-letters"
     ],
     "published": "2026-07-07T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.894725+00:00",
+    "updated_at": "2026-07-12T20:06:17.429707+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00601",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00601",
     "pdf_url": null,
@@ -903,7 +1139,7 @@
       "est-letters"
     ],
     "published": "2026-07-06T00:00:00+00:00",
-    "updated_at": "2026-07-11T19:52:49.894751+00:00",
+    "updated_at": "2026-07-12T20:06:17.429754+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00517",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00517",
     "pdf_url": null,
@@ -9649,6 +9885,48 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c02260",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02260",
+    "doi": "10.1021/acs.est.6c02260",
+    "title": "Molecular Mechanisms of Dissolved Organic Matter in Controlling Cr(III) Colloidal Deposition and Reversibility",
+    "abstract": "Transport of Cr(III) colloids in the subsurface poses environmental risks because they can be reoxidized to carcinogenic Cr(VI). Although dissolved organic matter (DOM) is known to determine the fate of colloidal Cr(III) via organic-mineral interactions, the molecular mechanisms controlling its mobility and deposition remain unclear. This study investigated changes in the deposition kinetics and characteristics of Cr(III) colloids in response to DOM composition and concentration. Quartz crystal microbalance with dissipation showed a nonmonotonic deposition pattern of Cr(III)-DOM colloids across DOM concentrations and types. Specifically, the deposition efficiency decreased to a minimum at a critical DOM concentration, above which it increased significantly with the irreversible fraction. This phenomenon was driven by dynamic interactions between silica and the multilayer corona of Cr(III) colloids, arising from the self-assembly of aliphatic compounds with condensed polyaromatics or polyphenols. The mechanism was supported by Fourier transform ion cyclotron resonance mass spectrometry, scanning transmission electron microscopy with electron energy loss spectroscopy, and molecular dynamics simulation. A mechanistic dimensionless model based on normalized deposition mass and sorbed aliphatic abundance successfully predicted the deposition of crystalline Cr(III) colloids under soil, sediment, and aquatic DOM. These findings highlight the importance of the DOM molecular composition in assessing heavy metal colloidal transport and Cr contamination risks.",
+    "authors": [
+      "Wendan Luo",
+      "Yijun Mo",
+      "Shishu Zhu",
+      "Chao Jin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c02260",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02260",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c03391",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -9704,6 +9982,49 @@
     "published": "2026-07-08",
     "link": "https://doi.org/10.1021/acs.est.6c03391",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03391",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03665",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03665",
+    "doi": "10.1021/acs.est.6c03665",
+    "title": "Efficient Diagnosis of Spatiotemporal Evolution and Driving Factors of Surface Ozone Pollution Episodes: An Application in Jiangsu Province, China",
+    "abstract": "Severe ozone (O 3 ) pollution is a major challenge for air quality improvement in China, primarily due to its spatiotemporal heterogeneity and nonlinear formation regimes. Here, we developed a novel framework to illustrate the spatiotemporal evolution of pollution episodes and to identify their recurrent driver modes and formation sensitivities in Jiangsu Province during the warm season from 2020 to 2023. The framework integrated joint analysis of the synoptic weather type (WT) and the regional spatiotemporal pattern (SP) of O 3 episodes, explainable machine learning, and geostationary satellite observation of O 3 precursors. We showed that O 3 pollution episodes occurred preferentially with a limited number of WT × SP combinations, particularly those involving subtropical high-pressure systems coincident with pollutant accumulation patterns in southern Jiangsu. Three key driver modes (thermal-driven, radiation–moisture synergy, and transport-accumulation) were identified, with significant associations with specific WT × SP combinations. The transport-accumulation mode commonly corresponded to the VOC-limited regime, while thermal-driven and radiation–moisture synergy modes shifted O 3 formation toward the NO x -limited regime more frequently. This work demonstrated an effective, efficient, and adaptable tool of detecting the source and evolution of multiple O 3 episodes and could support flexible and timely design of the pollution control strategy, with an improved understanding of heterogeneous and changing causes of O 3 episodes.",
+    "authors": [
+      "Hanying Wang",
+      "Lei Zhang",
+      "Yutong Wang",
+      "Yiting Li",
+      "Yu Zhao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c03665",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03665",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",

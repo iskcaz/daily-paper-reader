@@ -4458,7 +4458,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -4479,6 +4480,11 @@
       "Geology",
       "Surface (topology)",
       "Materials science"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -5003,7 +5009,7 @@
     "updated_at": "2026-07-11T19:52:49.417254+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02999",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02999",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c02999?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -5012,12 +5018,13 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5025,7 +5032,7 @@
       "core-journal",
       "est"
     ],
-    "is_oa": false,
+    "is_oa": true,
     "oa_status": "closed",
     "openalex_concepts": [
       "Environmental science",
@@ -5037,8 +5044,13 @@
       "Geology",
       "Coastal zone"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c03636",
@@ -5066,7 +5078,7 @@
     "updated_at": "2026-07-11T19:52:49.417075+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03636",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03636",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03636?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -5075,12 +5087,13 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5100,8 +5113,13 @@
       "Isotopes of carbon",
       "Sulfur"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c06012",
@@ -5148,7 +5166,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5169,7 +5188,12 @@
       "Environmental engineering"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c08027",
@@ -5203,7 +5227,7 @@
     "updated_at": "2026-07-11T19:52:49.417150+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c08027",
     "abs_url": "https://doi.org/10.1021/acs.est.6c08027",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c08027?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -5212,12 +5236,13 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5225,7 +5250,7 @@
       "core-journal",
       "est"
     ],
-    "is_oa": false,
+    "is_oa": true,
     "oa_status": "closed",
     "openalex_concepts": [
       "Rebuttal",
@@ -5237,8 +5262,13 @@
       "Environmental ethics",
       "Ecology"
     ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c06976",
@@ -5287,7 +5317,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5306,6 +5337,348 @@
       "Pharmacology",
       "Oral administration",
       "Lipophilicity"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04963",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04963",
+    "doi": "10.1021/acs.est.6c04963",
+    "title": "Knowledge-Based Feature Selection Substantially Enhances Data-Driven Wastewater Treatment Modeling",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Senyuan Gu",
+      "Shuting Wang",
+      "Ruihong Qiu",
+      "Kaili Li",
+      "Jaswinder Manjeet Singh",
+      "Jue Zhang",
+      "Bing-Jie Ni",
+      "T. David Waite",
+      "Liu Ye",
+      "Haoran Duan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-12T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871479+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04963",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04963",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02006",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02006",
+    "doi": "10.1021/acs.est.6c02006",
+    "title": "CRISPR Biosensing for Environmental Monitoring: Workflow Design and Performance Benchmarking",
+    "abstract": "CRISPR-based biosensing has rapidly emerged as a promising platform for environmental monitoring due to its high specificity, programmability, and compatibility with portable readouts. However, translation from biomedical diagnostics to environmental matrices remains challenging because of diverse sample types, complex inhibitors, and the breadth of biological and chemical targets. This Review provides a comprehensive analysis of CRISPR-based sensing technologies tailored for environmental contaminant detection, spanning both biological and chemical targets. We systematically evaluate published studies across target classes, Cas effectors, recognition mediators, sample matrices, pretreatment strategies, preamplification or signal-gain approaches, readout modalities, and reported performance metrics. To support practical implementation, we summarize a five-step experimental framework for environmental CRISPR sensing. We then propose a decision-guided design flowchart that links monitoring goals and matrix constraints to the selection of effectors, mediator-enabled transduction routes, pretreatment modules, amplification strategies, readouts, and validation controls. We further benchmark reported detection limits by normalizing units and comparing trends across preamplification-aided versus preamplification-free designs and by contextualizing performance against relevant regulatory or guideline thresholds when available. Across the literature, most studies rely on spiked-matrix validation, highlighting the need for broader nonspiked real environmental sample testing and more transparent reporting of sampling, pretreatment, and performance evaluation. Finally, we advocate standardized data reporting, including consistent units, workflow metadata, and matrix-matched validation, to enable cross-study comparison and accelerate the deployment of CRISPR-based sensors for real-world environmental monitoring.",
+    "authors": [
+      "Siwen Wang",
+      "Rakibul Hasan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-11T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871635+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02006",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02006",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Workflow",
+      "Benchmarking",
+      "Computer science",
+      "Software deployment",
+      "Environmental monitoring",
+      "Systems engineering",
+      "Benchmark (surveying)",
+      "CRISPR"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04882",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04882",
+    "doi": "10.1021/acs.est.6c04882",
+    "title": "Carbon–Iodine Coordination Activates Co–N 4 Sites for Efficient Peroxymonosulfate Activation toward Mass-Transfer-Accelerated Singlet Oxygen Oxidation of Electron-Rich Pollutants",
+    "abstract": "Mass transfer limitations and inefficient nonradical oxidant generation often constrain the practical performance of Fenton-like catalysts for micropollutant removal. Here, we develop a synergistic architectural strategy to construct carbon-supported cobalt single-atom catalysts (Co-INC) via ammonium iodide-assisted chemical vapor deposition, integrating atomically dispersed Co–N 4 sites with carbon–iodine (C–I) coordination motifs to simultaneously enhance reactant transport and singlet oxygen ( 1 O 2 ) production. Benefiting from in situ NH 3 -mediated etching, the architecture enhances active-site accessibility while achieving a high Co density of 0.165 mmol g –1, facilitating peroxymonosulfate (PMS) diffusion. Additionally, iodine incorporation creates an asymmetric Co–N 4 /C–I coordination environment that upshifts Co d -band center to −0.54 eV, strengthening PMS adsorption (−2.54 eV). This configuration promotes interfacial electron transfer and reduces the rate-determining energy barrier to −0.84 eV, substantially boosting 1 O 2 generation and achieving a steady-state concentration of 0.295 mM. Furthermore, the optimized pore architecture alleviates mass-transfer constraints, enabling efficient 1 O 2 utilization and a 2.3-fold increase in the ciprofloxacin mass-transfer coefficient. Consequently, Co-INC exhibits an exceptional normalized rate constant of 507 min –1 ·M –1 for ciprofloxacin degradation, outperforming pristine Co-NC by 10.3 times and surpassing most PMS-based catalysts. This study demonstrates that coupling active-site coordination with mass-transfer enhancement is pivotal for maximizing nonradical oxidation pathways in water treatment.",
+    "authors": [
+      "Junjun Pei",
+      "Xinyu Zhou",
+      "Kaixing Fu",
+      "Kai Yin",
+      "Shenglian Luo",
+      "Deyou Yu",
+      "Jinming Luo"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871782+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04882",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04882",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Singlet oxygen",
+      "Pollutant",
+      "Photochemistry",
+      "Oxygen",
+      "Catalysis",
+      "Inorganic chemistry",
+      "Reaction mechanism"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03881",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03881",
+    "doi": "10.1021/acs.est.6c03881",
+    "title": "H 2 O-Enabled Reversible SO 2 Resistance on Separately Dual-Functional Pd–W Sites for Low-Temperature Hydrocarbon Oxidation",
+    "abstract": "Sulfur dioxide (SO 2 ) poisoning remains a critical challenge for noble-metal catalysts in hydrocarbon oxidation, particularly under industrial humid conditions. H 2 O is commonly regarded as a detrimental component in SO 2 -containing exhaust streams where sulfur-water synergistic deactivation prevails. Here we prove that, when combined with rational active-site design, H 2 O molecules can instead promote SO 2 -resistance in hydrocarbon oxidation catalysis. A Pd/W–Al 2 O 3 catalyst with spatially separated Pd and W sites exhibits superior low-temperature methyl ethyl ketone (MEK) oxidation activity and unprecedented resistance to SO 2 poisoning under both dry and humid conditions. In the absence of water, SO 2 is selectively immobilized as SO 3 2– species on W sites, preventing competitive adsorption on Pd and preserving MEK oxidation pathways. Under humid conditions, however, SO 2 can be transformed into HSO 3 – species that interact directly with Pd-bound ketone intermediates. Spectroscopic and theoretical investigations reveal that HSO 3 – functions as a dynamic proton shuttle, enabling a proton-bridge-assisted C–C bond cleavage pathway that facilitates intermediate conversion and drives reversible recovery from SO 2 poisoning. This work demonstrates how H 2 O molecules fundamentally reshape SO 2 -catalyst interactions and highlights a general strategy for converting SO 2 poisons into reaction promoters through spatially separated dual-functional active sites.",
+    "authors": [
+      "Chunli Ai",
+      "Fan Dang",
+      "Yani Wu",
+      "Zeyu Jiang",
+      "Mingjiao Tian",
+      "Yujie Shi",
+      "Han Xu",
+      "Yanfei Jian",
+      "Changwei Chen",
+      "Chi He"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871679+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03881",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03881",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Hydrocarbon",
+      "Environmental chemistry",
+      "Nuclear chemistry",
+      "Organic chemistry",
+      "Oxidation reduction",
+      "Inorganic chemistry",
+      "Redox"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04954",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04954",
+    "doi": "10.1021/acs.est.6c04954",
+    "title": "Identifying Tracing Species from Source Regions of PM 2.5 on the Tibetan Plateau by Integrating Measurement and Modeling",
+    "abstract": "The atmospheric environment of the Tibetan Plateau is significantly sensitive to pollutants transported from regions with intensive anthropogenic activity. It is therefore critical to identify source regions and transported air pollutants on the Tibetan Plateau. The present study developed a method to link multiple pollutants measured at receptor sites on the Tibetan Plateau to their source regions by integrating measurements and modeling. Ground-based measurements of over 150 species in fine particulate matter (PM 2.5 ) at the Nam Co Station were conducted for one year. Meanwhile, contributions from different source regions to PM 2.5 in each sample were quantified by using an emission inventory-coupled Lagrangian box model. The findings indicated that specific source regions were associated with distinct chemical species and sources. In the premonsoon season, transport from the northwestern South Asia was related to enhanced concentrations of black carbon, organic carbon, K +, anhydrosugars, Pb, and Zn. This suggested a strong influence from intensive biomass burning and industrial activities. However, increased contribution from the northwestern China to PM 2.5 was associated with increased concentrations of low-molecular-weight polycyclic aromatic hydrocarbons, Cl –, and several anthropogenic metals, reflecting impacts from mixed industrial and residential sources. During the monsoon season, concentrations of highly oxidized secondary organic aerosol (SOA) species increased with contribution from regions south of the receptor site, highlighting the importance of aged SOA in this season. The findings in this study not only improve our understanding of how transport from different regions shapes atmospheric composition in the Tibetan Plateau but also offer a new approach to investigate impacts of long-range transport on remote environments.",
+    "authors": [
+      "Yaxin Xiang",
+      "Meiyu Zhao",
+      "Weihao Xiao",
+      "Tianle Zhang",
+      "Qi Zhou",
+      "Jiaying Liu",
+      "Caiqing Yan",
+      "Shunyao Wang",
+      "Guofeng Shen",
+      "Shichang Kang",
+      "Xiang Ding",
+      "Qi Ying",
+      "Mei Zheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-10T00:00:00+00:00",
+    "updated_at": "2026-07-12T20:06:16.871891+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04954",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04954",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Plateau (mathematics)",
+      "Tracing",
+      "Environmental science",
+      "Remote sensing",
+      "Geology",
+      "Physical geography",
+      "Climatology",
+      "Hydrology (agriculture)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
