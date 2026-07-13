@@ -1,23 +1,21 @@
 [
   {
-    "id": "journal-10-1021-acs-est-6c04963",
+    "id": "journal-10-1021-acs-est-6c01501",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04963",
-    "doi": "10.1021/acs.est.6c04963",
-    "title": "Knowledge-Based Feature Selection Substantially Enhances Data-Driven Wastewater Treatment Modeling",
+    "source_paper_id": "10.1021/acs.est.6c01501",
+    "doi": "10.1021/acs.est.6c01501",
+    "title": "Nitrifiers Drive Different N 2 O Production Patterns in Tropical River Sediments",
     "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Senyuan Gu",
-      "Shuting Wang",
-      "Ruihong Qiu",
-      "Kaili Li",
-      "Jaswinder Manjeet Singh",
-      "Jue Zhang",
-      "Bing-Jie Ni",
-      "T. David Waite",
-      "Liu Ye",
-      "Haoran Duan"
+      "Dongdan Yuan",
+      "Xiaoyu Cui",
+      "Sibo Zhang",
+      "Yuantao Wang",
+      "Yu Sun",
+      "Mengnan Xiao",
+      "Menglin Zhang",
+      "Lei Zheng"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -26,10 +24,10 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-07-12T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871479+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04963",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04963",
+    "published": "2026-07-13T00:00:00+00:00",
+    "updated_at": "2026-07-13T20:18:21.039155+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01501",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01501",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
@@ -55,6 +53,131 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c08566",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08566",
+    "doi": "10.1021/acs.est.6c08566",
+    "title": "Advancing a Decision-Ready Road Map for Operational Groundwater Artificial Intelligence",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jialun Xie",
+      "Yaqiang Wei",
+      "Yiran Chen",
+      "Wenzhi Xie",
+      "Jian Chen",
+      "Hui Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-12T00:00:00+00:00",
+    "updated_at": "2026-07-13T20:18:21.039394+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08566",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08566",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04963",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04963",
+    "doi": "10.1021/acs.est.6c04963",
+    "title": "Knowledge-Based Feature Selection Substantially Enhances Data-Driven Wastewater Treatment Modeling",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Data-driven modeling in wastewater treatment is increasingly constrained by the reality of small, high-dimensional data, where the abundant monitoring parameters in small-sized data sets obscure fundamental mechanistic understandings. This study proposes a knowledge-driven feature selection framework that integrates mechanistic insights with statistical correlations to identify the most informative predictive features. Using nitrous oxide (N 2 O) emission prediction at a full-scale plant as a case study, we compared classic deep-learning feature selection algorithms using attention mechanisms against two new knowledge-based approaches: (i) expert-guided feature selection and (ii) large language model (LLM)-augmented feature selection. Expert-knowledge-guided feature selection substantially enhances predictive accuracy, achieving a mean R 2 of 0.723 and an MAE of 0.033, compared to R 2 = 0.712 and MAE = 0.033 for the best-performing attention-based architecture. More importantly, the proposed framework markedly improves model generalizability: under out-of-distribution high-flow conditions where the attention-based model fails to capture N 2 O emission patterns, the expert-selected model continues to reproduce the dominant temporal dynamics of N 2 O emissions. The LLM-assisted approach also delivers competitive accuracy (mean R 2 = 0.596, MAE = 0.041) and similarly preserves generalizability under an input distributional shift. By introducing mechanistic understanding into the feature selection process, this framework offers a generalizable pathway for addressing complex wastewater treatment challenges while maintaining a computational efficiency.",
+    "authors": [
+      "Senyuan Gu",
+      "Shuting Wang",
+      "Ruihong Qiu",
+      "Kaili Li",
+      "Jaswinder Manjeet Singh",
+      "Jue Zhang",
+      "Bing-Jie Ni",
+      "T. David Waite",
+      "Liu Ye",
+      "Haoran Duan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-12T00:00:00+00:00",
+    "updated_at": "2026-07-13T20:18:21.039367+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04963",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04963",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Feature selection",
+      "Feature (linguistics)",
+      "Generalizability theory",
+      "Computer science",
+      "Selection (genetic algorithm)",
+      "Artificial intelligence",
+      "Machine learning",
+      "Data mining"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02006",
     "source": "journal",
     "source_detail": "crossref",
@@ -74,7 +197,7 @@
       "est"
     ],
     "published": "2026-07-11T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871635+00:00",
+    "updated_at": "2026-07-13T20:18:21.039507+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02006",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02006",
     "pdf_url": null,
@@ -91,6 +214,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -110,6 +234,11 @@
       "Systems engineering",
       "Benchmark (surveying)",
       "CRISPR"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -139,7 +268,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871782+00:00",
+    "updated_at": "2026-07-13T20:18:21.039595+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04882",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04882",
     "pdf_url": null,
@@ -207,7 +336,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871920+00:00",
+    "updated_at": "2026-07-13T20:18:21.039719+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02999",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02999",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c02999?ref=article_openPDF",
@@ -276,7 +405,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871713+00:00",
+    "updated_at": "2026-07-13T20:18:21.039566+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03636",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03636",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c03636?ref=article_openPDF",
@@ -350,7 +479,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871855+00:00",
+    "updated_at": "2026-07-13T20:18:21.039656+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06012",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06012",
     "pdf_url": null,
@@ -424,7 +553,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871679+00:00",
+    "updated_at": "2026-07-13T20:18:21.039540+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03881",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03881",
     "pdf_url": null,
@@ -501,7 +630,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871891+00:00",
+    "updated_at": "2026-07-13T20:18:21.039692+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04954",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04954",
     "pdf_url": null,
@@ -576,7 +705,7 @@
       "est"
     ],
     "published": "2026-07-10T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.871823+00:00",
+    "updated_at": "2026-07-13T20:18:21.039628+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c08027",
     "abs_url": "https://doi.org/10.1021/acs.est.6c08027",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c08027?ref=article_openPDF",
@@ -623,72 +752,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c00157",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00157",
-    "doi": "10.1021/acs.est.6c00157",
-    "title": "Impact of Manganese Mineral Transformations on Nanoplastic Transport and Sedimentation in Surface and Subsurface Aqueous Systems",
-    "abstract": "in controlling NP mobility in aqueous environments.",
-    "authors": [
-      "Aniket Choudhary",
-      "Gopala Krishna Darbha"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.872090+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00157",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00157",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Manganese",
-      "Sedimentation",
-      "Mineral",
-      "Aqueous solution",
-      "Mineralogy",
-      "Geology",
-      "Surface (topology)",
-      "Materials science"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-est-6c06976",
     "source": "journal",
     "source_detail": "crossref",
@@ -718,7 +781,7 @@
       "est"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.872068+00:00",
+    "updated_at": "2026-07-13T20:18:21.039902+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06976",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06976",
     "pdf_url": null,
@@ -765,150 +828,50 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-5c18921",
+    "id": "journal-10-1021-acs-estlett-6c00495",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c18921",
-    "doi": "10.1021/acs.est.5c18921",
-    "title": "In Situ Single-Cell Raman Isotope Analysis Quantifies Cell-to-Cell Metabolic Heterogeneity within Individual Cable Bacteria Filaments in Sediments",
-    "abstract": "Cable bacteria are multicellular, electrogenic filamentous microorganisms that oxidize sulfide in anoxic sediments while reducing oxygen near the surface, driving crucial redox transformations in aquatic environments. However, the metabolic diversity and growth dynamics of individual cells within a single filament remain poorly understood. Here, we developed an in situ single-cell Raman microspectroscopy method coupled with dual stable isotope ( 2 H/ 13 C) labeling to quantify cell-to-cell metabolic heterogeneity within individual cable bacteria filaments in intact sediment microcosms. Quantitative analysis of the diagnostic Ni–S Raman bands enabled unambiguous identification of cable bacteria among coexisting non-cable filamentous microbes. Combined D 2 O and 13 C tracers revealed prevalent metabolic activity but pronounced variation in anabolic growth: approximately 48% of suboxic-zone cells displayed concurrent 2 H and 13 C incorporation, indicative of biomass synthesis, whereas the remaining ∼52% incorporated only deuterium, reflecting maintenance metabolism. Oxic-zone cells exhibited consistent 2 H incorporation but negligible 13 C labeling, signifying active energy metabolism yet minimal anabolic growth. Suboxic cells within the same filaments showed heterogeneous growth, with actively growing cells directly interspersed with cells performing only maintenance metabolism. These results provide the first quantitative in situ evidence of metabolic heterogeneity among cells across oxic and suboxic zones as well as within the suboxic zone itself in individual cable bacteria filaments.",
+    "source_paper_id": "10.1021/acs.estlett.6c00495",
+    "doi": "10.1021/acs.estlett.6c00495",
+    "title": "Natural Iron as a Decentralized Catalyst Supply for Electrochemical Groundwater Treatment",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Lu Zhang",
-      "Ji Zhan",
-      "Junhui Guo",
-      "Tianqi Lin",
-      "Wei Yang",
-      "Guohong Liu",
-      "Zhiying Liu",
-      "Xing Liu",
-      "Shungui Zhou"
+      "Aidan Francis Meese",
+      "Rilyn Todd",
+      "Christian Kwon",
+      "Jae-Hong Kim"
     ],
     "primary_category": "environmental-science",
     "categories": [
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est"
+      "est-letters"
     ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.872310+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c18921",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c18921",
+    "published": "2026-07-13T00:00:00+00:00",
+    "updated_at": "2026-07-13T20:18:21.350091+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00495",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00495",
     "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
     "journal_issn": [
-      "0013-936X",
-      "1520-5851"
+      "2328-8930",
+      "2328-8930"
     ],
     "source_weight": 10,
     "open_pdf_status": "no_open_pdf",
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
       "environmental-science",
       "journal-watch",
       "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Chemistry",
-      "Environmental chemistry",
-      "Isotope analysis",
-      "Raman spectroscopy",
-      "Isotope",
-      "Sediment",
-      "Stable isotope ratio",
-      "Bacteria"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-5c13915",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.5c13915",
-    "doi": "10.1021/acs.est.5c13915",
-    "title": "Unraveling the Historical Trajectory and Dynamic Mechanisms of Microplastic Degradation in Sediment Cores over the Last Century",
-    "abstract": "Microplastics (MPs) in sediments serve as chronographic markers of the Anthropocene, enabling the reconstruction of plastic pollution history and the revelation of natural degradation patterns during sedimentation. However, the associations between temporal span, MP abundance, and their degradation patterns remain poorly understood. This study investigated MP abundance and degradation in mangrove sediment cores (1931–2023) and assessed the contribution rates and dynamic mechanisms of four influencing factor categories: anthropogenic activities, climate/meteorological conditions, sediment physicochemical properties, and biological information. The results showed that the earliest detectable MPs appeared in 1953, with abundance ranging from 16 ± 14.97 to 3056 ± 207.62 items kg –1 . The carbonyl, hydroxyl, assimilation, and yellowness indices exhibited a fluctuating upward trend with increasing depth, with annual variation rates of 0.0163, 0.0187, 0.0175, and 0.5357, respectively; the carbonyl index could effectively estimate sediment age ( R 2 = 0.55). Importantly, microbial communities were identified as the most critical factor affecting MP degradation: community richness ( Acidobacteriota and Pseudomonadota ) and diversity (Chao1, Shannon, and Simpson indices) contributed the most, and MP degradation indicators were positively correlated with species composition (path coefficient = 0.530). This study provides new insights into the reliability of sedimentary MPs as Anthropocene chronostratigraphic markers and their long-term natural degradation patterns under historical changes.",
-    "authors": [
-      "Jiatian Huang",
-      "Haiwei Li",
-      "Yunlong Li",
-      "Jun Zhu",
-      "Ruikun Sun",
-      "Zhengqing Dai",
-      "Rijian Mo",
-      "Shiqi Jiang",
-      "Lei He",
-      "Liming Song",
-      "Muhammad Usman Amin",
-      "Chengyong Li"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-08T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:16.872249+00:00",
-    "link": "https://doi.org/10.1021/acs.est.5c13915",
-    "abs_url": "https://doi.org/10.1021/acs.est.5c13915",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Sediment",
-      "Environmental science",
-      "Degradation (telecommunications)",
-      "Abundance (ecology)",
-      "Ecology",
-      "Mangrove",
-      "Species richness",
-      "Microplastics"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
+      "est-letters"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -934,7 +897,7 @@
       "est-letters"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:17.429628+00:00",
+    "updated_at": "2026-07-13T20:18:21.350343+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00529",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00529",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00529?ref=article_openPDF",
@@ -1001,7 +964,7 @@
       "est-letters"
     ],
     "published": "2026-07-09T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:17.429654+00:00",
+    "updated_at": "2026-07-13T20:18:21.350375+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00404",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00404",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00404?ref=article_openPDF",
@@ -1070,7 +1033,7 @@
       "est-letters"
     ],
     "published": "2026-07-07T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:17.429707+00:00",
+    "updated_at": "2026-07-13T20:18:21.350439+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00601",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00601",
     "pdf_url": null,
@@ -1139,7 +1102,7 @@
       "est-letters"
     ],
     "published": "2026-07-06T00:00:00+00:00",
-    "updated_at": "2026-07-12T20:06:17.429754+00:00",
+    "updated_at": "2026-07-13T20:18:21.350473+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00517",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00517",
     "pdf_url": null,
@@ -9572,7 +9535,7 @@
     "source_paper_id": "10.1016/j.watres.2026.126453",
     "doi": "10.1016/j.watres.2026.126453",
     "title": "Nature-based solution for treating pesticide-contaminated groundwater: performance of a combined two-stage biofilm system",
-    "abstract": "Biological treatment represents an alternative to conventional adsorption technologies for the removal of pesticides from contaminated groundwater and landfill leachates. A pilot-scale treatment combining moving bed biofilm reactors (MBBRs) and downstream biofilters was operated for two years to evaluate the removal of the chlorophenoxy herbicides mecoprop (MCPP) and dichlorprop (DCPP) under realistic field conditions. After establishing famine operation and aeration, removals were 78 ± 3% (MCPP) and 73 ± 4% (DCPP) in one treatment line, while the other one achieved lower but consistent removal (47–51%). Mass balance analyses demonstrated that decreases in parent compounds were not solely due to production of known transformation products, indicating effective sequential biodegradation (mineralisation). The upstream MBBR primarily improved iron and particle management to protect the downstream biofilters from, whereas biofilters accounted for most of the removal of both parents and metabolites. Removal was largely independent of hydraulic retention time when varying this between 10–25 h but strongly linked to dissolved oxygen concentrations, highlighting aerobic biofilm activity as the key controlling factor. Microbial community analysis revealed biofilms dominated by Pseudomonadota , with higher abundance of putative phenoxyacid degraders and fewer anaerobic taxa in the better-performing line, supporting an oxygen-driven biodegradation mechanism. An in silico full-scale assessment indicated substantially lower life-cycle and monetary expenditures compared to granular activated carbon treatment.",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Andrea Mongelli",
       "Johanna L Kruse",
@@ -9603,6 +9566,185 @@
       "query:core-journal",
       "query:water-research",
       "query:WR"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c13915",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c13915",
+    "doi": "10.1021/acs.est.5c13915",
+    "title": "Unraveling the Historical Trajectory and Dynamic Mechanisms of Microplastic Degradation in Sediment Cores over the Last Century",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jiatian Huang",
+      "Haiwei Li",
+      "Yunlong Li",
+      "Jun Zhu",
+      "Ruikun Sun",
+      "Zhengqing Dai",
+      "Rijian Mo",
+      "Shiqi Jiang",
+      "Lei He",
+      "Liming Song",
+      "Muhammad Usman Amin",
+      "Chengyong Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.5c13915",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c13915",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18921",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.5c18921",
+    "doi": "10.1021/acs.est.5c18921",
+    "title": "In Situ Single-Cell Raman Isotope Analysis Quantifies Cell-to-Cell Metabolic Heterogeneity within Individual Cable Bacteria Filaments in Sediments",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lu Zhang",
+      "Ji Zhan",
+      "Junhui Guo",
+      "Tianqi Lin",
+      "Wei Yang",
+      "Guohong Liu",
+      "Zhiying Liu",
+      "Xing Liu",
+      "Shungui Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.5c18921",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18921",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00157",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00157",
+    "doi": "10.1021/acs.est.6c00157",
+    "title": "Impact of Manganese Mineral Transformations on Nanoplastic Transport and Sedimentation in Surface and Subsurface Aqueous Systems",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Aniket Choudhary",
+      "Gopala Krishna Darbha"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-09",
+    "link": "https://doi.org/10.1021/acs.est.6c00157",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00157",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02260",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02260",
+    "doi": "10.1021/acs.est.6c02260",
+    "title": "Molecular Mechanisms of Dissolved Organic Matter in Controlling Cr(III) Colloidal Deposition and Reversibility",
+    "abstract": "Transport of Cr(III) colloids in the subsurface poses environmental risks because they can be reoxidized to carcinogenic Cr(VI). Although dissolved organic matter (DOM) is known to determine the fate of colloidal Cr(III) via organic-mineral interactions, the molecular mechanisms controlling its mobility and deposition remain unclear. This study investigated changes in the deposition kinetics and characteristics of Cr(III) colloids in response to DOM composition and concentration. Quartz crystal microbalance with dissipation showed a nonmonotonic deposition pattern of Cr(III)-DOM colloids across DOM concentrations and types. Specifically, the deposition efficiency decreased to a minimum at a critical DOM concentration, above which it increased significantly with the irreversible fraction. This phenomenon was driven by dynamic interactions between silica and the multilayer corona of Cr(III) colloids, arising from the self-assembly of aliphatic compounds with condensed polyaromatics or polyphenols. The mechanism was supported by Fourier transform ion cyclotron resonance mass spectrometry, scanning transmission electron microscopy with electron energy loss spectroscopy, and molecular dynamics simulation. A mechanistic dimensionless model based on normalized deposition mass and sorbed aliphatic abundance successfully predicted the deposition of crystalline Cr(III) colloids under soil, sediment, and aquatic DOM. These findings highlight the importance of the DOM molecular composition in assessing heavy metal colloidal transport and Cr contamination risks.",
+    "authors": [
+      "Wendan Luo",
+      "Yijun Mo",
+      "Shishu Zhu",
+      "Chao Jin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c02260",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02260",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
     ],
     "open_pdf_source": "",
     "open_pdf_status": "no_open_pdf",
@@ -9667,7 +9809,7 @@
     "source_paper_id": "10.1021/acs.est.6c03127",
     "doi": "10.1021/acs.est.6c03127",
     "title": "Conversion of Gaseous Hg 0 Capture by CuS from Surface Adsorption to the Replacement Reaction through Intermittent Acid Washing",
-    "abstract": "Metal sulfides are promising for capturing gaseous Hg 0, but their adsorption capacities are limited due to Hg 0 adsorption only on superficial unsaturated sulfur (S) coordination. Therefore, enabling saturated S coordination beneath the surface to participate in Hg 0 adsorption is an innovative and effective strategy. In this study, surface adsorption of Hg 0 on CuS was converted into a replacement reaction with a stoichiometric ratio of 1:6 through intermittent acid washing, allowing 2/3 of sulfur in CuS to contribute to Hg 0 adsorption, significantly increasing the capacity theoretically to 348 mg g –1 . The formation of a Cu vacancy due to the dissociation of four-coordinated Cu1 with one dangling bond and the transformation of four-coordinated Cu0 without a dangling bond to Cu1 alternately happened during each acid washing and Hg 0 adsorption, respectively, resulting in a chain reaction of the substitution of Cu in CuS by Hg 0 . Ultimately, 1/4 of four-coordinated Cu 1.5+ in CuS can be isomerous-substituted by Hg and dissociated into the acid washing solution, resulting in the growth of one-dimensional HgS in destroyed CuS crystals. CuS with intermittent acid washing demonstrates significant potential for recovering gaseous Hg 0 from flue gas, with Hg content in spent CuS exceeding 20%, offering a valuable approach for resource recycling.",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
       "Jialiang Zhou",
       "Pengjian Lv",
@@ -9683,229 +9825,6 @@
     "published": "2026-07-06",
     "link": "https://doi.org/10.1021/acs.est.6c03127",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03127",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_label": "EST",
-    "publisher": "",
-    "source_weight": 10,
-    "metadata_sources": [
-      "docs-meta"
-    ],
-    "tags": [
-      "query:environmental-science",
-      "query:journal-watch",
-      "query:core-journal",
-      "query:est",
-      "query:EST"
-    ],
-    "open_pdf_source": "",
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c07049",
-    "source": "journal",
-    "source_detail": "docs-meta",
-    "source_paper_id": "10.1021/acs.est.6c07049",
-    "doi": "10.1021/acs.est.6c07049",
-    "title": "Temperate Phages Mediate Dual Adaptive Mechanisms That Enhance Microbial Resilience in Antibiotic-Contaminated Wastewater Treatment Systems",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Jie Li",
-      "Peng Liu",
-      "Qifeng Zhang",
-      "Renxin Zhao",
-      "Jiayu Zhang",
-      "Xiulin Zheng",
-      "Bing Li",
-      "Xu-Xiang Zhang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch"
-    ],
-    "published": "2026-07-07",
-    "link": "https://doi.org/10.1021/acs.est.6c07049",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c07049",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_label": "EST",
-    "publisher": "",
-    "source_weight": 10,
-    "metadata_sources": [
-      "docs-meta"
-    ],
-    "tags": [
-      "query:environmental-science",
-      "query:journal-watch",
-      "query:core-journal",
-      "query:est",
-      "query:EST"
-    ],
-    "open_pdf_source": "",
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c07055",
-    "source": "journal",
-    "source_detail": "docs-meta",
-    "source_paper_id": "10.1021/acs.est.6c07055",
-    "doi": "10.1021/acs.est.6c07055",
-    "title": "Eco-Corona of Microplastics in Soil Inhibits Their Role as a Contaminant Vector While Enhancing Their Role as a Microorganism Vector",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Shi Yao",
-      "Tao Wang",
-      "Qicheng Bei",
-      "Xiangwei Wu",
-      "Xin Jiang",
-      "Yongming Luo",
-      "Yang Song",
-      "Scott X. Chang",
-      "Hans Peter H. Arp"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch"
-    ],
-    "published": "2026-07-08",
-    "link": "https://doi.org/10.1021/acs.est.6c07055",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c07055",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_label": "EST",
-    "publisher": "",
-    "source_weight": 10,
-    "metadata_sources": [
-      "docs-meta"
-    ],
-    "tags": [
-      "query:environmental-science",
-      "query:journal-watch",
-      "query:core-journal",
-      "query:est",
-      "query:EST"
-    ],
-    "open_pdf_source": "",
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c08080",
-    "source": "journal",
-    "source_detail": "docs-meta",
-    "source_paper_id": "10.1021/acs.est.6c08080",
-    "doi": "10.1021/acs.est.6c08080",
-    "title": "60 Years of Science on Contaminants of Emerging Concern in ES&T : From Serendipitous Discoveries to a More Systematic Understanding",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Juliane Hollender",
-      "Pablo Gago-Ferrero",
-      "Frederic D. L. Leusch",
-      "Susan D. Richardson",
-      "Huahong Shi",
-      "Zhanyun Wang"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch"
-    ],
-    "published": "2026-07-07",
-    "link": "https://doi.org/10.1021/acs.est.6c08080",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c08080",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_label": "EST",
-    "publisher": "",
-    "source_weight": 10,
-    "metadata_sources": [
-      "docs-meta"
-    ],
-    "tags": [
-      "query:environmental-science",
-      "query:journal-watch",
-      "query:core-journal",
-      "query:est",
-      "query:EST"
-    ],
-    "open_pdf_source": "",
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c08214",
-    "source": "journal",
-    "source_detail": "docs-meta",
-    "source_paper_id": "10.1021/acs.est.6c08214",
-    "doi": "10.1021/acs.est.6c08214",
-    "title": "Emerging Contaminants in Treated Wastewater Reuse under Water Scarcity: A Hidden Risk in the Middle East, North Africa, and Türkiye",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Imen Haddaoui",
-      "Ramona Marasco",
-      "Lucy Semerjian",
-      "Yasemin Dilsad Yilmazel",
-      "Olfa Mahjoub",
-      "Pei-Ying Hong"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch"
-    ],
-    "published": "2026-07-07",
-    "link": "https://doi.org/10.1021/acs.est.6c08214",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c08214",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_label": "EST",
-    "publisher": "",
-    "source_weight": 10,
-    "metadata_sources": [
-      "docs-meta"
-    ],
-    "tags": [
-      "query:environmental-science",
-      "query:journal-watch",
-      "query:core-journal",
-      "query:est",
-      "query:EST"
-    ],
-    "open_pdf_source": "",
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c02260",
-    "source": "journal",
-    "source_detail": "docs-meta",
-    "source_paper_id": "10.1021/acs.est.6c02260",
-    "doi": "10.1021/acs.est.6c02260",
-    "title": "Molecular Mechanisms of Dissolved Organic Matter in Controlling Cr(III) Colloidal Deposition and Reversibility",
-    "abstract": "Transport of Cr(III) colloids in the subsurface poses environmental risks because they can be reoxidized to carcinogenic Cr(VI). Although dissolved organic matter (DOM) is known to determine the fate of colloidal Cr(III) via organic-mineral interactions, the molecular mechanisms controlling its mobility and deposition remain unclear. This study investigated changes in the deposition kinetics and characteristics of Cr(III) colloids in response to DOM composition and concentration. Quartz crystal microbalance with dissipation showed a nonmonotonic deposition pattern of Cr(III)-DOM colloids across DOM concentrations and types. Specifically, the deposition efficiency decreased to a minimum at a critical DOM concentration, above which it increased significantly with the irreversible fraction. This phenomenon was driven by dynamic interactions between silica and the multilayer corona of Cr(III) colloids, arising from the self-assembly of aliphatic compounds with condensed polyaromatics or polyphenols. The mechanism was supported by Fourier transform ion cyclotron resonance mass spectrometry, scanning transmission electron microscopy with electron energy loss spectroscopy, and molecular dynamics simulation. A mechanistic dimensionless model based on normalized deposition mass and sorbed aliphatic abundance successfully predicted the deposition of crystalline Cr(III) colloids under soil, sediment, and aquatic DOM. These findings highlight the importance of the DOM molecular composition in assessing heavy metal colloidal transport and Cr contamination risks.",
-    "authors": [
-      "Wendan Luo",
-      "Yijun Mo",
-      "Shishu Zhu",
-      "Chao Jin"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch"
-    ],
-    "published": "2026-07-08",
-    "link": "https://doi.org/10.1021/acs.est.6c02260",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02260",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -10118,6 +10037,187 @@
     "published": "2026-07-08",
     "link": "https://doi.org/10.1021/acs.est.6c04125",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04125",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07049",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c07049",
+    "doi": "10.1021/acs.est.6c07049",
+    "title": "Temperate Phages Mediate Dual Adaptive Mechanisms That Enhance Microbial Resilience in Antibiotic-Contaminated Wastewater Treatment Systems",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Jie Li",
+      "Peng Liu",
+      "Qifeng Zhang",
+      "Renxin Zhao",
+      "Jiayu Zhang",
+      "Xiulin Zheng",
+      "Bing Li",
+      "Xu-Xiang Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-07",
+    "link": "https://doi.org/10.1021/acs.est.6c07049",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07049",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07055",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c07055",
+    "doi": "10.1021/acs.est.6c07055",
+    "title": "Eco-Corona of Microplastics in Soil Inhibits Their Role as a Contaminant Vector While Enhancing Their Role as a Microorganism Vector",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shi Yao",
+      "Tao Wang",
+      "Qicheng Bei",
+      "Xiangwei Wu",
+      "Xin Jiang",
+      "Yongming Luo",
+      "Yang Song",
+      "Scott X. Chang",
+      "Hans Peter H. Arp"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-08",
+    "link": "https://doi.org/10.1021/acs.est.6c07055",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07055",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08080",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c08080",
+    "doi": "10.1021/acs.est.6c08080",
+    "title": "60 Years of Science on Contaminants of Emerging Concern in ES&T : From Serendipitous Discoveries to a More Systematic Understanding",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Juliane Hollender",
+      "Pablo Gago-Ferrero",
+      "Frederic D. L. Leusch",
+      "Susan D. Richardson",
+      "Huahong Shi",
+      "Zhanyun Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-07",
+    "link": "https://doi.org/10.1021/acs.est.6c08080",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08080",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08214",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c08214",
+    "doi": "10.1021/acs.est.6c08214",
+    "title": "Emerging Contaminants in Treated Wastewater Reuse under Water Scarcity: A Hidden Risk in the Middle East, North Africa, and Türkiye",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Imen Haddaoui",
+      "Ramona Marasco",
+      "Lucy Semerjian",
+      "Yasemin Dilsad Yilmazel",
+      "Olfa Mahjoub",
+      "Pei-Ying Hong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-07",
+    "link": "https://doi.org/10.1021/acs.est.6c08214",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08214",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
