@@ -1,0 +1,185 @@
+Title: Early Warning from Wastewater: Detection of Emerging Opioid Cychlorphine in Rural Tennessee
+
+URL Source: https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00529?ref=article_openPDF
+
+Number of Pages: 7
+
+Markdown Content:
+# Early Warning from Wastewater: Detection of Emerging Opioid Cychlorphine in Rural Tennessee 
+
+# Bikram Subedi, * Ramesh Sapkota, and Debra H. Phillips 
+
+Cite This: https://doi.org/10.1021/acs.estlett.6c00529 Read Online 
+
+# ACCESS Metrics & More Article Recommendations *sı Supporting Information 
+
+ABSTRACT: The rapid succession of synthetic drug waves in the United States �from the rise of fentanyl in 2013 to the xylazine and nitazene adulterants in 2019 and recent emergence of cychlorphine in 2025 �underscores the highly dynamic and continuously evolving illicit drug market. Since November 2025, public health authorities have reported the emergence of cychlorphine across multiple jurisdictions despite limited analytical capability. In this study, wastewater collected from 12 catchments in East Tennessee � an area reporting most cychlorphine-involved overdose cases �was analyzed using a validated liquid chromatog-raphy mass spectrometry method. Cychlorphine was detected in seven samples and quantified in four samples from one rural community situated along Interstate 75, with a mean concentration of 8.69 ± 1.60 ng/L. Population and flow normalized mass loads ranged from 2.61 to 5.48 mg/day/1000 people, indicating sustained community-level exposure. To our knowledge, this study provides the first evidence of cychlorphine occurrence in wastewater samples. These findings demonstrate the wastewater-based epidemiology as an early warning system for emerging synthetic opioids. Implementing comprehensive and continuous wastewater monitoring can provide near-real-time insights into drug use trends, enabling proactive public health responses, informing harm-reduction strategies, and strengthening emergency preparedness to mitigate the impact of highly potent synthetic opioids. 
+
+KEYWORDS: Cychlorphine, N-propionitrile chlorphine, Synthetic opioids, Opioid overdoses, Wastewater-based epidemiology 
+
+# ■ INTRODUCTION 
+
+N-Propionitrile chlorphine, commonly called cychlorphine, is a novel synthetic opioid reported first in 2024 to the United Nation Office on Drug Abuse Early Warning Advisories on new synthetic substances. 1 As a highly potent synthetic opioid, cychlorphine (>10 times than fentanyl) has been linked to increasing risk of fatal overdoses despite no approved medical use since its discovery in the 1960s. Similar to the xylazine and nitazene crises, the lack of rapid analytical techniques to detect cychlorphine has posed a significant burden on health officials and law enforcement for early detection to minimize associated harm. The Center for Forensic Science Research and Education detected cychlorphine in 25 blood samples from fatal overdoses that were submitted between October 2025 and January 2026, including the highest seven cases in Tennessee � the first reported detection in the state. 2 In fact, between July 2025 and February 2026, cychlorphine in combination with other substances including fentanyl, phenazolam, and xylazine claimed 46 overdose deaths in Knox County and the surrounding 10 counties in East Tennessee. 3 Following an abrupt rise in cychlorphine fatalities, several state health departments and law enforcement agencies across the country reinforced the use of multiple doses of naloxone (i.e., Narcan), medication that reverses opioid overdose and warned of the requirement of rapid recognition and aggressive intervention to prevent fatal outcomes. 4−6 In March 2026, the Alabama Legislature enacted, for the first time, a resolution classifying cychlorphine as a Schedule I controlled substance, citing its extreme potency, frequent co-occurrence in polysubstance use, and the heightened risk of fatal overdoses. 7
+
+Despite analytical challenges to detect such trace level of drug residues in diluted municipal wastewater, emerging synthetic opioids such as metonitazene and veterinary sedative such as xylazine were quantified in wastewater collected from interstate highways in Kentucky. 8,9 Several nitazene analogs including N-pyrrolidino etonitazene, isotonitazene, butonita-zene, etonitazene, metonitazene, protonitazene, and N-pyrrolidino protonitazene were also reported recently in wastewater during the Super Bowl and Mardi Gras in New Orleans. 10 In fact, metonitazene in rest areas was detected in 
+
+Received: June 2, 2026 
+
+Revised: July 7, 2026 
+
+Accepted: July 7, 2026   
+
+> Letter pubs.acs.org/journal/estlcu
+> © XXXX The Authors. Published by American Chemical Society A
+> https://doi.org/10.1021/acs.estlett.6c00529
+> Environ. Sci. Technol. Lett. XXXX, XXX, XXX −XXX
+> This article is licensed under CC-BY 4.0 Downloaded via 34.34.225.197 on July 14, 2026 at 21:49:19 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+30% of wastewater samples from Kentucky �preceding reports in the state’s seized and toxicological data. During New Year celebrations, protonitazene and N-pyrrolidino etonitazene were detected in wastewater in Washington State and Australia, respectively. 11 −13 There are very few reports of cychlorphine detections in forensic and toxicological samples, potentially due to the limited analytical capabilities and the recent emergence of the drug. It is important to note that conventional epidemiological approaches including drug seizures, drug overdoses, and toxicological reports and drug-involved crime statistics primarily reflect the detected cases and may not fully capture the true extent of substance use in our communities. 14,15 Wastewater analysis is a noninvasive and near-real-time approach to understand the actual and comprehensive use of substances in target catchments. 16,17 
+
+In this study, cychlorphine was analyzed in raw municipal wastewater collected from 12 wastewater catchments in eastern Tennessee, where the most cychlorphine overdose deaths have been reported. To our knowledge, this is the first report of wastewater analysis of highly potent cychlorphine in waste-
+
+Figure 1. Mass spectra of cychlorphine (CAS number: 16145-71-4; molecular mass: 408.93 g ·mol −1). (A) Precursor ion mass spectra in positive mode of electrospray ionization using a standard solution. (B) Product ion mass spectra to identify MRM transitions using a standard solution. (C) MRM spectra from a sample extract at optimized 32 eV. Note that mass spectra A and B are acquired by direct (void volume) injection without chromatographic separation during compound optimization, whereas mass spectra C was obtained following chromatographic separation using an analytical column. 
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Letter  
+
+> https://doi.org/10.1021/acs.estlett.6c00529
+> Environ. Sci. Technol. Lett. XXXX, XXX, XXX −XXX
+> B
+
+water, and early detection of highly potent substances like cychlorphine can provide public health authorities and law enforcement an improved understanding of cychlorphine abuse for targeted interventions to address the evolving polysubstance crisis and minimize associated public health risk. 
+
+# ■ MATERIALS AND METHODS 
+
+Chemicals and Reagents 
+
+Standards of cychlorphine were purchased from Cayman Chemical Company, Inc. (Ann Arbor, MI, USA) while an internal standard fentanyl-d 5 was purchased from MilliporeSigma’s Cerilliant (Round Rock, TX, USA) at their highest available purities (>98%). Stock solutions were transferred into amber silanized glass vials while working standard solutions were prepared by diluting all the individual stock solutions in methanol and stored at −20 °C. LC-MS grade methanol (99.9%) from J.T. Baker Chemicals (Phillipsburg, NJ, USA) and formic acid ( ≥99.0%) were purchased from Fisher Scientific. Ultrapure water was dispensed from the combined WaterPro RO and WaterPro PS system from Labconco (Kansas City, MO, USA). 
+
+Sampling and Sample Preparation 
+
+Raw wastewater was collected from 12 wastewater treatment plants (WWTPs) in eastern Tennessee between August 3 and 14, 2025, using time-proportional autosamplers aliquoting every 15 min and composited for 24 h over seven consecutive days. However, samples could be collected only over five consecutive days in four WWTPs. These WWTPs serve approximately 2500 to 90,000 people and treat daily averages of 6.62 × 10 5 to 39.5 × 10 6 L of wastewater. Samples were collected and transported frozen to the Louisiana State University and stored at −20 °C until analysis. We did not collect any personally identifiable information from the WWTP catchments, thereby upholding ethical standards and ensuring personal con-fidentiality. Furthermore, this study was exempted by the Louisiana State University IRBAM-26-0460. Samples were prepared as detailed by Sapkota et al. 10 for nitazenes in wastewater. Briefly, 100 mL of each sample was centrifuged at 10,000 rpm (15,316 g) for 5 min and vacuum-filtered using 0.45 μmnylon filter papers, mixed thoroughly, and extracted using Oasis HLB cartridges (6 cc, 200 mg). Cartridges were conditioned with 3 mL of methanol followed by 3 mL of ultrapure water before extraction and the sample loaded at a flow rate of ∼1 mL/min. Dried cartridges were eluted with 4 mL of methanol and 3 mL of 5% ammonia in methanol. The eluate was concentrated, spiked with 100 ng of internal standard, and reconstituted with methanol to a final 1 mL. Prepared samples were analyzed using an ultrahigh-performance liquid chromatograph (Agilent 1290 Infinity II) coupled with a triple quadrupole (MS/MS) mass spectrometer (Agilent G6475A). Chromatographic separation was achieved using a ResTek Force Biphenyl column (100 mm × 2.1 mm × 1.8 μm particle size), ResTek Ultrashield UHPLC Precolumn Filter, and a gradient flow of methanol and 0.1% aqueous solution of formic acid (Table S1). Two MRM transitions in positive electrospray mode were optimized: 409.2 > 139.0 m/z at collision energy 32 eV (for quantitation) and 409.2 > 271.1 m/z at collision energy 20 eV (for qualitative purpose only) (Figure 1). For the internal standard (fentanyl-d 5), MRM transition at 342.3 > 188.2 m/z at a collision energy of 30 eV was used. Target analyte peak identification in wastewater was based on the relative retention time ( ±0.05 min) compared to their standards, two MRMs, and a ratio of the quantitative to qualitative m/z ions abundance ( ±20%). The quantitative to qualitative ion ratio in calibration standard solutions was 96.0 ± 2.05 (n = 9), while that in wastewater samples with cychlorphine detections was 92.3 ± 3.84% (n = 7). The internal standard methods of calibrations were used for quantitation ( R2 > 0.999). 
+
+Method Validation and Quality Assurance and Quality Control 
+
+To evaluate the recovery of cychlorphine, a randomly selected wastewater sample was divided into three 100 mL aliquots (n = 3), each fortified with 10 ng of cychlorphine, while an additional aliquot was left unspiked and served as a control. All samples were spiked with 100 ng internal standards and extracted as detailed above. Eluates were concentrated, reconstituted with methanol to a final 1 mL, and subjected to instrumental analysis. The relative percentage recovery of cychlorphine was 68.3 ± 5.44%. It is important to note that the reported concentrations of cychlorphine in this study were not adjusted for analyte recovery. The intraday precision, expressed as relative standard error, was 0.69% based on 10 consecutive analyses of a matrix-spiked sample (10 ng/mL). To determine the limits of detection (LOD) and quantitation (LOQ), a 100 mL of wastewater sample was extracted as detailed above, spiked with 1 ng of cychlorphine and 100 ng of internal standard, reconstituted with methanol to a final volume of 1 mL, and analyzed. Based on the signal-to-noise (S/N) ratio of the peak of 
+
+Figure 2. Chromatograms of cychlorphine in calibration check standard (left), a method blank (middle), and a wastewater sample from a rural community in Tennessee (right). Chromatograms from the top to bottom correspond to the internal standard, quantitative MRM, and qualitative MRM. 
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Letter          
+
+> https://doi.org/10.1021/acs.estlett.6c00529
+> Environ. Sci. Technol. Lett. XXXX, XXX, XXX −XXX
+> Ccychlorphine, the estimated cychlorphine concentrations correspond-ing to S/N ratios of 3 and 10 were 1.51 and 5.03 ng/L, respectively. These figures of merit are comparable to those previously reported for nitazenes and other illicit drugs in wastewater. 8−10
+> To assess the potential laboratory contamination, a method blank (ultrapure water) spiked with the 100 ng internal standard was processed in each batch (n = 4) of sample analysis. Cychlorphine was not detected in any method blank samples (Figure 2). Similarly, to evaluate the validity of the internal standard method of calibration, a calibration verification standard solution (25 ng) was analyzed prior and after every 10 samples in each batch of sample analysis. The mean percentage recoveries from acontinuous calibration verification solution were 90.5 ±7.57%.
+
+# ■ RESULTS AND DISCUSSION 
+
+Cychlorphine Detection in Wastewater 
+
+Among the 68 wastewater samples analyzed, cychlorphine was detected in seven samples from one rural wastewater catchment situated along Interstate 75 (Figure 2 and Figure 3). Measured concentrations ranged from 1.58 to 10.6 ng/L. However, cychlorphine was quantifiable (>LOQ) in only four samples, and the mean concentration of cychlorphine in those four samples was 8.69 ± 1.60 ng/L (Figure 3). To our knowledge, this study provides the first evidence of cychlorphine occurrence in wastewater samples. This wastewater treatment plant receives wastewater from approximately 2154 residents and the rest area along interstate highway 75. The rest area serves approximately 2100 users on weekdays and 2750 users on weekends. Based on an estimated contributing population of 2154 residents and transient rest-area users, and a daily wastewater inflow of 1.12 −2.54 × 10 6 L(Table S2), the normalized mass load of cychlorphine ranged from 2.61 to 5.48 mg/day/1000 people (Figure 3). Notably, these levels are comparable to those previously reported for metonitazene (approximately 100-fold more potent than morphine) and the highly potent N-pyrrolidino etonitazene (approximately 1500-fold more potent than morphine) in New Orleans during 2025 based on their residual concentrations in wastewater; 10 however, they are an order of magnitude higher than the metonitazene levels reported in rest areas along the interstate highways across Kentucky during 2020 −2023. 8
+
+Because cychlorphine detected in wastewater from a rural community along interstate highway 75 may originate from both local residents and transient travelers, its presence should not be attributed solely to community consumption. Interstate highway 75 is an approximately 2900-km north −south transportation corridor that traverses six states, passes through this rural community and extends from Detroit, Michigan, in the north to Miami, Florida, in the south, making it a major transportation corridor for illicit drug trafficking. Recent multistate enforcement efforts, including the “313 initiative” targeting trafficking routes from Detroit to East Tennessee, have been associated with reductions in overdose fatalities in the region. 18 This rural catchment is characterized by substantial socioeconomic disadvantage, ranking among one of the median household income (bottom 50 of the total 309 cities), limited educational attainment (<16% college edu-cated), and low employment rates (<40%). These demo-graphic indicators may contribute to heightened vulnerability to substance use and associated harms, potentially facilitating the emergence and proliferation of highly potent synthetic drugs within under-resourced and economically disadvantaged communities. 19 
+
+Cychlorphine was not detected in the other 11 WWTP catchments, potentially because samples were collected at a very early stage of its emergence (August 2025). Notably, in the United States, cychlorphine was only recently reported in forensic samples by NFLIS in the second half of 2025. 20 In eastern Tennessee, cychlorphine-involved overdoses were first reported in July 2025, and 46 overdoses deaths had been reported by February 2026. 3 The recent emergence of cychlorphine, coupled with its high potency and potential use as an adulterant, may account for its nondetection in several WWTPs. 
+
+Forensic Detection of Cychlorphine 
+
+Globally, 11 ‘orphine analogs’ were reported to the UNODC Early Warning Advisory on New Psychoactive Substances in 2024, and by 2025, nine of these �including cychlorphine �
+
+had been detected in forensic samples. 21 Cychlorphine has recently emerged in the European drug market as an adulterant,with detection reported in heroin and cocaine samples seized by law enforcement in the United Kingdom, 22 
+
+in drug samples analyzed by drug-checking service in France, 23 
+
+and in tablets misrepresented as prodrugs of the benzodiaze-pine alprazolam by forensic toxicologists and physicians in Germany in 2025. 24 Following a series of cychlorphine-related overdoses and deaths in Europe, Germany proactively placed cychlorphine under its New Psychoactive Substances Act (NpSG) to mitigate potential public health risks. 24,25 
+
+In the United States, NFLIS reported 105 cychlorphine cases in the second half of 2025, with 17% occurring in Tennessee and 35% in Ohio. 20 The Center for Forensic Science Research and Education further associated cychlor-phine prevalence with increased fatal overdose deaths, based on its detection in 25 blood specimens from overdose fatalities across eight U.S. states and three Canadian provinces. 2
+
+Cychlorphine was identified as the sole opioid in 11 of the 25 cases, while in the remaining cases it was detected in combination with fentanyl, oxycodone, or traditional stimu-lants. Reports of cychlorphine-involved nonfatal overdoses have also emerged in Ohio, where it was detected along with           
+
+> Figure 3. Concentrations and mass loads of cychlorphine in wastewater collected from a community in eastern Tennessee. Y-axis on left shows the concentrations while on right shows the mass load of cychlorphine. Note that the solid reference line on the y-axis (for LOD) and dotted reference line (for LOQ) is only applicable for concentrations.
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Letter  
+
+> https://doi.org/10.1021/acs.estlett.6c00529
+> Environ. Sci. Technol. Lett. XXXX, XXX, XXX −XXX
+> D
+
+fentanyl and xylazine in 2025, 26 and approximately 40 overdose deaths in East Tennessee have been linked to cychlorphine during the same period. 27 Consequently, the Tennessee Department of Health has emphasized the need for higher doses of naloxone in cychlorphine-involved overdoses, 4
+
+although its opioid effects, including respiratory depression, may not be fully reversed by naloxone. 28 
+
+Wastewater Analysis �Early Warning of Substance Use 
+
+Every year, new psychoactive substances (NPSs) continue to enter the illicit drug supply chain. The European Union Early Warning System monitoring list surpassed 1000 NPS in 2025. 29 The availability and associated risks of newly emerging synthetic opioids, particularly nitazenes, are also increasing significantly. Nitazene seizures tripled, and seven new nitazene analogs were reported in 2024. 29 During the ongoing fentanyl and xylazine crisis, 30 the U.S. Drug Enforcement Admin-istration (DEA) has additionally reported a marked rise in encounters involving carfentanyl, 31 nitazenes, 32 and cychlor-ophine. 33 
+
+These substances may infiltrate the drug market well before they are identified through forensic surveillance systems. Current detection and reporting infrastructures often operate with substantial delays. For example, NFLIS data typically lag by approximately six months, while overdose mortality reporting through the State Unintentional Drug Overdose Reporting System (SUDORS) may lag by nearly 18 months. 34 
+
+In fact, SUDORS has not yet reported any cychlorphine-involved deaths. 34 Consequently, traffickers can synthesize and distribute novel highly potent compounds �now increasingly aided by artificial intelligence �while exploiting regulatory loopholes, thereby creating significant public health threats before authorities can recognize and respond to their emergence. 35 
+
+Wastewater surveillance of drug biomarkers offers a direct measure of community level consumption of drugs in near real-time. 16,17 Trace concentrations of residual drugs and their metabolites, often at parts-per-trillion levels, can be reliably quantified in wastewater using state-of-the-art analytical methods. 8−10 Using this approach, we identified xylazine in wastewater in Kentucky for the first time 9 and detected nitazenes in Kentucky 8 and Louisiana 10 at or before official reports from public health and law enforcement agencies. These findings demonstrate that wastewater-based epidemiol-ogy can serve as a proactive early warning system for newly emerging psychoactive substances while also complementing and corroborating other data sources used to quantify community-level drug exposure. As advocated by the White House Office of National Drug Control Policy, 36 coupling artificial intelligence-assisted forecasting of novel psychoactive substances and emerging drug classes with targeted and suspect/nontargeted screening of wastewater samples from substance-use hotspots has the potential to transform waste-water-based epidemiology into a proactive, intelligence-driven early warning system. Establishing a sustained surveillance network that integrates targeted and untargeted screening of drug biomarkers would enable earlier detection of highly potent compounds entering the drug supply, support faster public health responses, reduce overdose-related harms, and ultimately save lives. 
+
+Limitations and Future Perspectives 
+
+Although this study reports the first detection of cychlorphine in wastewater, several limitations should be addressed in future monitoring to improve reliability and interpretation of cychlorphine and other emerging synthetic opioids. First, larger communities are typically served by extensive sewer networks in a larger wastewater catchment, increasing hydraulic residence time and, therefore, a higher potential for in-sewer transformation, sorption, and degradation of drug residues prior to sample collection. Therefore, comprehensive studies evaluating the stability and fate of cychlorphine under representative sewer conditions can minimize the uncertainty associated with back-calculation of cychlorphine uses in communities. Second, analytical sensitivity achieved in this study may have limited the detection of low-abundance cychlorphine residues, particularly in highly diluted larger wastewater catchments. Further optimization of sample preparation procedures including enhanced extract cleanup could lower the LOQ (5.03 ng/L in this study) and improve detection frequency in catchments with low prevalence or substantial dilution. Additionally, the lack of commercially available isotopic-labeled cychlorphine necessitated the use of fentanyl-d 5 as the closest retention-time analog for quantification. While this approach enabled reliable detection, differences in extraction efficiency, ionization behavior, and matrix suppression between the two analytes may introduce quantification uncertainty. Further studies should prioritize the development and application of isotopically labeled cychlorphine as an internal standard to improve analytical accuracies, matrix-related biases, and overall analytical sensitivities. The analytical workflow developed in this study demon-strated applicability beyond cychlorphine detection in waste-water and has previously been used to determine nine nitazene analogs in wastewater. This versatility suggests that similar approaches may be extended to monitor structurally diverse nitazenes, benzimidazolone opioids, and other emerging synthetic drugs of concern. However, rigorous method validation remains essential for each target analyte, particularly when quantifying ultratrace concentrations in complex environmental matrices such as wastewater. Future efforts should focus on expanding analytical coverage, improving sensitivity, characterizing sewer stability, and integrating wastewater surveillance with forensic, clinical, and public health data to provide a comprehensive framework for the early detection and monitoring of emerging drug threats. 
+
+# ■ ASSOCIATED CONTENT 
+
+## *sı Supporting Information 
+
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.estlett.6c00529. Table S1: Gradient mobile phase program. Table S2: Daily population and wastewater inflow (PDF) 
+
+# ■ AUTHOR INFORMATION 
+
+Corresponding Author 
+
+Bikram Subedi − Department of Environmental Sciences, Louisiana State University, Baton Rouge, Louisiana 70803, United States; orcid.org/0000-0001-7832-2585; Phone: 1-225-578-0448; Email: bsubedi@lsu.edu; Fax: 1-225-578-5328 
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Letter  
+
+> https://doi.org/10.1021/acs.estlett.6c00529
+> Environ. Sci. Technol. Lett. XXXX, XXX, XXX −XXX
+> E
+
+Authors 
+
+Ramesh Sapkota − Department of Environmental Sciences, Louisiana State University, Baton Rouge, Louisiana 70803, United States 
+
+Debra H. Phillips − School of Natural and Built Environment, Queen’s University of Belfast, Belfast BT9 5AG, United Kingdom 
+
+Complete contact information is available at: https://pubs.acs.org/10.1021/acs.estlett.6c00529 
+
+Notes 
+
+The authors declare no competing financial interest. 
+
+# ■ ACKNOWLEDGMENTS 
+
+The authors acknowledge wastewater treatment operators for their assistance with sample collection and for providing wastewater flow data. The authors also acknowledge Md Firoz Al Mamun for assistance with sample preparation. This study was supported by faculty startup funding by the Office of Research & Economic Development, Louisiana State Uni-versity, as well as general research funding from the Queen’s University Belfast. 
+
+# ■ REFERENCES 
+
+(1) UNODC (United Nation Office on Drugs and Crime), 2025. Available at https://www.unodc.org/LSS/Announcement/Details/ 55d787ca-cec7-4204-90b0-68236305dcaa. Accessed on April 28, 2026. (2) CFSRE (Center for Forensic Science Research and Education), 2026. Available at https://www.cfsre.org/nps-discovery/public-alerts/ increase-in-fatal-overdoses-linked-to-novel-synthetic-opioid-n-propionitrile-chlorphine-cychlorphine. Accessed on April 28, 2026. (3) Knox County Regional Forensic Center, 2026. New Drug Cychlorphine appearing in other deaths across East Tennessee . Available at https://www.knoxcounty.org/rfc/pdfs/mediarelease/2026/2026. 0 4 . 06NewDrugCychlorphineAppearinginOtherDeathsAcrossEastTennes see.pdf. Accessed on April 28, 2026. (4) TDH (Tennessee Department of Health), 2026. TDH Reinforces Importance of Naloxone with Rise in Cychlorphine Fatalities . Available in https://www.tn.gov/health/news/2026/3/18/tdh-reinforces-importance-of-naloxone-with-rise-in-cychlorphine-fatalities.html. Ac-cessed on April 28, 2026. (5) Oklahoma State University, 2026. New synthetic opioid “cychlorphine” raises concern among Oklahoma health experts . Available at https://news.okstate.edu/articles/communications/2026/new-synthetic-opioid-cychlorphine-raises-concern-among-oklahoma-health-experts. Accessed on April 28, 2026. (6) ABCnews4, 2026. Available at https://abcnews4.com/news/ nation-world/cyclorphine-drug-warning-western-north-carolina-overdose-death-fentanyl-mcdowell-county-sheriffs-office-jackson-county-narcan. Accessed on April 28, 2026. (7) State of Alabama, House of Representative, 2026. HJR281 Enrolled: Urging the state committee of public health to review and consider adding the novel synthetic opioid N-propionitrile chlorphine as a Schedule I controlled substance . Available at https://alison.legislature. state.al.us/files/pdf/SearchableInstruments/2026RS/HJR281-enr.pdf. Accessed on April 28, 2026. (8) Subedi, B.; Kodati, D. P.; Niegocki, A.; Stites, A. O.; Delcher, C. New psychoactive substances in wastewater from rest areas and commercial weigh stations along interstate highways. Environ. Sci. Technol. 2025 , 59 , 24302 −24309. (9) Delcher, C.; Quesinberry, D.; Torabi, S.; Berry, S.; Keck, J. W.; Rani, A.; Subedi, B. Wastewater surveillance for xylazine in Kentucky. 
+
+AJPM Focus 2024 , 3, 100203. (10) Sapkota, R.; Lomnicki, E. E.; Subedi, B. Nitazenes discharged during Super Bowl and Mardi Gras celebrations in New Orleans, USA. Environ. Sci. Technol. Lett. 2026 , 13 , 333 −338. (11) Bade, R.; Nadarajan, D.; Driver, E. M.; Halden, R. U.; Gerber, C.; Krotulski, A.; Hall, W.; Mueller, J. F. Wastewater-based monitoring of the nitazene analogues: First detection of protonitazene in wastewater. Sci. Total Environ. 2024 , 920 , 170781. (12) NPS Wastewater Consortium. Early identification of the use of potent benzylbenzimidazoles (nitazenes) through wastewater analysis: Two years of data from 22 countries. Addiction 2025 , 120 , 1739 −
+
+1746. (13) Keller, E. L.; Peake, B.; Simpson, B. S.; White, J. M.; Gerber, C. Comprehensive method to detect nitazene analogues and xylazine in wastewater. Environ. Sci. Pollut. Res. 2025 , 32 , 30863 −30870. (14) Banta-Green, C. J.; Field, J. A.; Chiaia, A. C.; Sudakin, D. L.; Power, L.; de Montigny, L. The spatial epidemiology of cocaine, methamphetamine and 3,4-methylenedioxymethamphetamine (MDMA) use: a demonstration using a population measure of community drug load derived from municipal wastewater. Addiction 
+
+2009 , 104 , 1874 −1880. (15) Huizer, M.; ter Laak, T. L.; de Voogt, P.; van Wezel, A. P. Wastewater-based epidemiology for illicit drugs: A critical review on global data. Water Res. 2021 , 207 , 117789. (16) O’Rourke, C. E.; Subedi, B. Occurrence and mass loading of synthetic opioids, synthetic cathinones, and synthetic cannabinoids in wastewater treatment plants in four U.S. communities. Environ. Sci. Technol. 2020 , 54 , 6661 −6670. (17) Montgomery, A. B.; Bowers, I.; Subedi, B. Trends in Substance Use in Two United States Communities during Early COVID-19 Lockdowns Based on Wastewater Analysis. Environ. Sci. Technol. Lett. 
+
+2021 , 8, 890 −896. (18) District Attorney General: 313 Initiative continues to remove drugs from East Tennessee streets , 2025. Available at https://dag. knoxcountytn.gov/press-release/313-initiative-continues-to-remove-drugs-from-east-tennessee-streets/. Accessed on April 28, 2026. (19) Choi, P. M.; Tscharke, B.; Samanipour, S.; Hall, W. D.; Gartner, C. E.; Mueller, J. F.; Thomas, K. V.; O’Brien, J. W. Social, demographic, and economic correlates of food and chemical consumption measured by wastewater-based epidemiology. Proc. Natl. Acad. Sci. U.S.A. 2019 , 116 , 21864 −21873. (20) NFLIS (National Forensic Laboratory Information System), 2026. Public DQS Data Query System . Available at https://www.nflis. deadiversion.usdoj.gov/dqs-main.xhtml?jfwid=Tjg3_QJ_ pWPSJ7RpFx5ezQRBvx3puOxi7Q7KB0a_:32. Accessed on April 28, 2026. (21) UNODC (United Nation Office on Drugs and Crime), 2026. 
+
+Laboratory and Scientific Service Portals . https://www.unodc.org/LSS/ Announcement/Details/e69b2ff5-5b91-4eea-8e1f-802ca7ad5080. (22) Barradale, G. Warning as new synthetic opioid 200 times stronger than heroin kills three users in days . December 2025. Available at https://www.bigissue.com/news/social-justice/drug-deaths-cychlorphine-opioid-camden-london/. Accessed on April 28, 2026. (23) Dugues, P.; Robin, T.; Bellouard, M.; Chenorhokian, S.; Triguel, M.; Pfau, G.; Feng, C.; Cherki, S.; Herbette, G.; Alvarez, J. C.; Larabi, I. A. Multi-analytical identification of the synthetic opioids cychlorphine and methiodone (IC-26) in drug seizures: first detection in Europe. Clinical Chem. Lab. Med. 2026 , 64 , 1413. (24) Medical Center at the University of Freiburg Warning about mislabeled tablets - life-threatening poisoning possible: Cyclorphine instead of benzodiazepine/Life-threatening mix-up with online tablets . Available at https://www.uniklinik-freiburg.de/en/press/press-releases/ detailed-view/5145-warnung-vor-falsch-deklarierten-tabletten-lebensbedrohliche-vergiftungen-moeglich.html. Accessed on April 30, 2026. (25) Deutsche Aidshilfe, 2025. Warnmeldung - synthetisches Opioid Cychlorphine im Raum Karlsruhe . Available at https://www.ladr.de/ toxikologie/detail/neues-synthetisches-opioid-cychlorphin-breitet-s i c h - i n - d e u t s c h l a n d - a u s # : ~ : t e x t = Im%20Dezember%202025%20wurde%20Cychlorphin%20in%20 
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Letter  
+
+> https://doi.org/10.1021/acs.estlett.6c00529
+> Environ. Sci. Technol. Lett. XXXX, XXX, XXX −XXX
+> F
+
+das%20Neue%2Dpsychoaktive%2DStoffe%2DGesetz%20(NpS G)%20aufgenommen. Accessed on April 30, 2026. (26) Sprague, J. E.; Toms, J. A.; Ratermann, C. F. Non-fatal opioid overdose associated predominantly with the benzimidazolone, cychlorphine. Clin. Toxicol. 2026 , 64 , 146 −147. (27) Mileusnic-Polchan, D.; Thomas, C. Drug Related Death Report: Knox and Anderson Counties . Knox County Regional Forensic Center, 2025. Available at https://knoxcounty.org/rfc/pdfs/KCRFC_DRD_ Report_2025.pdf. Accessed on April 28, 2026. (28) Vandeputte, M. M.; Bilel, S.; Tirri, M.; Corli, G.; Bassi, M.; Layle, N. K.; Fantinati, A.; Walther, D.; Iula, D. M.; Baumann, M. H.; Stove, C. P.; Marti, M. Elucidating the harm potential of brorphine analogues as new synthetic opioids: synthesis, in vitro, and in vivo characterization. Neuropharmacol. 2024 , 260 , 110113. (29) EUDA (European Union Drugs Agency), 2026. European drug report 2025: Trends and Developments . Available at https://www.euda. europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en. Accessed on April 28, 2026. (30) The White House, Executive Office of the President, Office of National Drug Control Policy Fentanyl adulterated or associated with xylazine implementation report , June 2024. Available at https://www. whitehouse.gov/wp-content/uploads/2025/03/ONDCP-2024-FAAX-Implementation-Report.pdf. Accessed on April 28, 2026. (31) DEA (United States Drug Enforcement Administration), 2025. 
+
+Carfentanil: A synthetic opioid unlike any other . Available at https:// www.dea.gov/stories/2025/2025-05/2025-05-14/carfentanil-synthetic-opioid-unlike-any-other. Accessed on April 28, 2026. (32) DEA (United States Drug Enforcement Administration), 2026. 
+
+Benzimidazole − Opioids . Available at https://www.deadiversion. usdoj.gov/drug_chem_info/benzimidazole-opioids.pdf. Accessed on April 28, 2026. (33) KRCRTV, 2026. DEA warns powerful new synthetic opioid ‘cychlorphine’ has reached North Carolina . Available at https://krcrtv. com/north-coast-news/eureka-local-news/dea-warns-powerful-new-synthetic-opioid-cychlorphine-has-reached-northern-california. Ac-cessed on April 28, 2026. (34) SUDORS (State Unintentional Drug Overdose Reporting System), 2026. SUDORS Dashboard: Fatal Overdose Death Data .Available at https://www.cdc.gov/overdose-prevention/data-research/facts-stats/sudors-dashboard-fatal-overdose-data.html. Ac-cessed on April 28, 2026. (35) UN (United Nations) News, 2025. Global perspective human stories. Rapid ‘expansion’ of synthetic drugs reshaping illicit markets, UN anti-narcotics body warns . Available at https://news.un.org/en/story/ 2025/03/1160741 #:~:text=in%20Niamey%2C%20Niger.-,'Rapid%20expansion'%20of%20synthetic%20drugs%20reshapin g%20illicit%20markets%2C%20UN,adapting%20to%20evade%20la w%20enforcement. Accessed on April 28, 2026. (36) The White House − Office of National Drug Control Policy, 2026. Fact Sheet: 2026 National Drug Control Strategy . Available at https://www.whitehouse.gov/fact-sheets/2026/05/2026-national-drug-control-strategy-fact-sheet/. Accessed on June 11, 2026. 
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Letter

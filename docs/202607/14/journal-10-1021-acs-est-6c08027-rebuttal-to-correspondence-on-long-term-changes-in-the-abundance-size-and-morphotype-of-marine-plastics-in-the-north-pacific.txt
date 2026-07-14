@@ -1,0 +1,55 @@
+Title: Rebuttal to Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”
+
+URL Source: https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c08027?ref=article_openPDF
+
+Number of Pages: 2
+
+Markdown Content:
+# Rebuttal to Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific” 
+
+Cite This: https://doi.org/10.1021/acs.est.6c08027 Read Online 
+
+# ACCESS Metrics & More Article Recommendations 
+
+# We thank Bermu ́ dez-Monsalve et al. for their interest in our article 1 and for reanalyzing our long-term floating-plastic data set from the western North Pacific. We disagree that the multidecadal “stagnation period” (more precisely, a high-abundance, low-growth regime) and size/morphotype changes are primarily artifacts of sampling-gear changes. This regime, with annual mean abundance broadly within 10 4−10 5
+
+pieces km −2, spans the late Maruchi-, Shin-Chigyo-, and early new-neuston-net periods from the late 1970s to 2011. 1 If the regime primarily resulted from gear replacement, one would expect an abrupt discontinuity, or at least a marked shift, near net transitions; instead, the pattern emerged gradually and persisted across multiple net protocols (Figure 1). A clogging-based explanation does not adequately account for net-series intercalibration, design, and field validation. Maruchi-net data were corrected using a selection curve derived from Maruchi −Shin-Chigyo transition-period data, including concurrent-use years, addressing the lower catch efficiency of the Maruchi net for particles smaller than 2.8 mm. 1 Thus, the Maruchi −Shin-Chigyo transition was not treated as an uncorrected discontinuity. The Shin-Chigyo and new-neuston nets used the same 0.45 mm mesh and had high open-area ratios of 5.3 and 7.2, respectively; 2,3 both values exceed the UNESCO guideline of 5, above which initial filtration efficiencies of up to 95% are expected for simple conical nets made of modern gauze. 4 Their 10 min-tow catch efficiencies did not differ significantly. 3 A flow-meter evaluation of 1566 new-neuston tows during 2003 −2016 under the same protocol showed a median swept-area rate of 0.996 and no significant regional- or period-level differences. 5 Additionally, the recent reincrease after the mid-2010s occurred under the new-neuston protocol, further indicating that the broader long-term pattern that we report cannot be explained solely by gear replacement. These points do not eliminate all uncertainty, but they argue against systematic large-scale clogging or gear replacement as the primary cause of the high-abundance, low-growth regime and long-term downsizing. Size and morphotype trends likewise cannot be reduced to a simple gear discontinuity. Maruchi-net data were corrected for size-dependent undercatch, and Shin-Chigyo and new-neuston nets shared the same mesh size. Significant decreasing size trends also persisted for fragments and foams within the new-neuston period alone ( p < 0.05, n = 13), indicating that part of the downsizing signal remained under a single sampling protocol. Sample preparation may introduce uncertainty, but there is no clear reason to expect these procedures to have changed over time so as to systematically produce amultidecadal directional shift from larger, film-dominated debris to smaller, fragment-dominated debris. 1
+
+Having addressed the methodological interpretation, we next clarify the regime definition and the role of the Pacific Decadal Oscillation (PDO). The year 1978 was not intended as a sharp mechanistic breakpoint, but as an operational onset. Although all-size annual mean abundance in 1976 and 1977 also slightly exceeded 10 4 pieces km −2, abundance remained broadly within 10 4−10 5 pieces km −2 from the late 1970s 
+
+Received: May 27, 2026 
+
+Revised: June 14, 2026 
+
+Accepted: June 22, 2026 Figure 1. Annual mean abundance of surface plastic debris around Japan, 1949 −2020, with sampling gears indicated by symbols. Asterisks indicate transition-period data used for gear intercalibration. Data are from Miyazono et al. 1  
+
+> Correspondence/Rebuttal pubs.acs.org/est
+> © XXXX American Chemical Society A
+> https://doi.org/10.1021/acs.est.6c08027
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX Downloaded via 34.96.49.148 on July 14, 2026 at 21:48:26 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+through 2011. Thus, the transition is gradual from the late 1970s to the early 1980s, and the conclusion does not depend on 1978 as a unique threshold year. Short rolling-window slopes around 1980 reflect interannual variability during this transition, not continuation of the order-of-magnitude increase during the 1950s −1970s. We agree that the PDO correlation is sensitive to the selected start year and should not be interpreted as evidence that PDO alone controlled floating plastic abundance. PDO-related productivity was discussed as evidence consistent with a removal-modulated regime, not as a universal control over the 70-year record. Earlier negative PDO phases coincided with the initial accumulation stage, when rapidly increasing input and coastal concentration of larger or film-shaped debris likely overwhelmed removal. Thus, the absence of stagnation then does not contradict a removal-modulated interpretation for the later regime, nor does our interpretation require a monotonic increase in primary productivity. Offshore dispersal should not be interpreted as a sudden onset of offshore transport after decades of coastal accumulation. Rather, progressive changes in particle proper-ties likely altered the balance between coastal retention and offshore dispersal under ordinary inputs. The trans-Pacific movement of debris after the 2011 Tohoku tsunami shows that ocean circulation can transport a large pulse of floating material over long distances, 6 but this exceptional pulse-input event does not address the long-term balance between coastal retention and offshore dispersal. In the initial accumulation stage, rapidly increasing input and coastal concentration of larger or film-shaped debris likely produced intense nearshore pollution, with input exceeding losses through sinking, beaching, and nearshore trapping. As debris shifted toward smaller fragments, particles likely became less subject to coastal retention and more widely dispersed offshore, potentially diluting areal density and expanding the area over which biological aggregation and sinking may remove small particles. 1 Thus, offshore dispersal, spatial dilution, and removal are potentially linked processes associated with long-term fragmentation and downsizing. Sedimentary studies from the Bungo Channel −western Seto Inland Sea region, including waters adjacent to Beppu Bay, indicate decadal-scale coastal productivity variability associated with North Pacific climate variability, including the PDO. 7 The Beppu Bay record of Hinata et al. 8 was used not as aquantitative proxy for open-ocean removal rates, but as regional evidence that productivity-related aggregation can transfer microplastics from water to sediments. Increasing microplastic accumulation in open-ocean sediments does not undermine the proposed surface regime; when inputs continue, sediment accumulation is consistent with transfer of plastics from the surface layer to other reservoirs and cannot distinguish increased input from enhanced surface removal when both co-occur. Cross-basin comparisons were intended as broader context, not direct quantitative evidence. Although strict comparisons are limited by geography, sources, circulation, and sampling histories, broadly similar nonmonotonic surface-abundance patterns across basins suggest shared broad controls, including global increases in plastic production and use and analogous postinput processes such as fragmentation, offshore dispersal, spatial dilution, and transfer to nonsurface reservoirs. This supports a balance framework in which surface abundance reflects input, particle transformation, transport, dilution, and removal, rather than input alone. In summary, clarifying the transition as a late-1970s to early-1980s operational onset does not alter the main conclusion: the western North Pacific record shows an initial input-dominated increase of floating plastics, followed by amultidecadal high-abundance, low-growth regime, and then a recent reincrease. This pattern is best interpreted within such a balance framework, rather than as a solely methodological artifact. 
+
+Kentaro Miyazono Kazuaki Tadokoro Gajahin G. N. Thushari Hiroomi Miyamoto Akinori Takasuka Mikio Watai Tohya Yasuda orcid.org/0000-0002-1493-4715 
+
+Takuya Sato Rei Yamashita orcid.org/0000-0002-6000-0155 
+
+Taketoshi Kodama Kazutaka Takahashi orcid.org/0000-0002-5846-0240 
+
+# ■ AUTHOR INFORMATION 
+
+Complete contact information is available at: https://pubs.acs.org/10.1021/acs.est.6c08027 
+
+Notes 
+
+The authors declare no competing financial interest. 
+
+# ■ REFERENCES 
+
+(1) Miyazono, K.; Tadokoro, K.; Thushari, G. G.; Miyamoto, H.; Takasuka, A.; Watai, M.; Yasuda, T.; Sato, T.; Yamashita, R.; Kodama, T.; Takahashi, K. Long-term changes in the abundance, size, and morphotype of marine plastics in the North Pacific. Environ. Sci. Technol. 2025 , 59 , 4608 −4617. (2) Oozeki, Y. Comparison of catch efficiencies between the Manta net and surface ring net for sampling larvae and juveniles of Pacific saury, Cololabis saira. Nippon Suisan Gakkaishi 2000 , 64 , 18 −24. (3) Oozeki, Y.; Kimura, R.; Kubota, H.; Ishida, M. Modified neuston net for collecting larvae and juveniles of Pacific saury, Cololabis saira. 
+
+Nippon Suisan Gakkaishi 2001 , 65 , 1 −5. (4) Tranter, D. J.; Smith, P. E. Filtration performance. In 
+
+Zooplankton Sampling; UNESCO Monographs on Oceanographic Methodology 2 ; UNESCO Press: Paris, 1968; pp 27 −56. (5) Takasuka, A.; Nyuji, M.; Kuroda, H.; Oozeki, Y. Variability of swept area by sea-surface tows of a neuston net: Balance of resistance, clogging, and over-inflow effects. Fish. Res. 2019 , 210 , 175 −180. (6) Lebreton, L. C. M.; Borrero, J. C. Modeling the transport and accumulation floating debris generated by the 11 March 2011 Tohoku tsunami. Mar. Pollut. Bull. 2013 , 66 , 53 −58. (7) Kuwae, M.; Yamashita, A.; Hayami, Y.; Kaneda, A.; Sugimoto, T.; Inouchi, Y.; Amano, A.; Takeoka, H. Sedimentary records of multidecadal-scale variability of diatom productivity in the Bungo Channel, Japan, associated with the Pacific Decadal Oscillation. J. Oceanogr. 2006 , 62 , 657 −666. (8) Hinata, H.; Kuwae, M.; Tsugeki, N.; Masumoto, I.; Tani, Y.; Hatada, Y.; Kawamata, H.; Mase, A.; Kasamo, K.; Sukenaga, K.; Suzuki, Y. A 75-year history of microplastic fragment accumulation rates in a semi-enclosed hypoxic basin. Sci. Total Environ. 2023 , 854 ,158751. 
+
+Environmental Science & Technology pubs.acs.org/est Correspondence/Rebuttal

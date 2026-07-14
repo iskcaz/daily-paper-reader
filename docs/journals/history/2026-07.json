@@ -4887,7 +4887,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "semantic_scholar",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -4954,7 +4954,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "semantic_scholar",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5019,7 +5019,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5088,7 +5088,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5237,7 +5237,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5857,6 +5857,58 @@
       "journal-watch",
       "core-journal",
       "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05701",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05701",
+    "doi": "10.1021/acs.est.6c05701",
+    "title": "Inorganic and Methylmercury Inputs to Arctic Coastal Waters from Submarine Groundwater Discharge",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Emma J. Bullock",
+      "Robert Mason",
+      "Isabel V. Schaal",
+      "Emily M. Bristol",
+      "M. Bayani Cardenas",
+      "James W. McClelland",
+      "Matthew A. Charette"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-14T00:00:00+00:00",
+    "updated_at": "2026-07-14T20:15:38.539501+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05701",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05701",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
