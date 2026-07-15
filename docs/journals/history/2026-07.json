@@ -4887,7 +4887,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "semantic_scholar",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -4954,7 +4954,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "semantic_scholar",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -5750,7 +5750,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5759,7 +5761,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrosomonas",
+      "Estuary",
+      "Nitrospira",
+      "Denitrification",
+      "Nitrification",
+      "Environmental chemistry",
+      "Nitrous oxide",
+      "Environmental science"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c08566",
@@ -5850,7 +5869,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -5859,7 +5880,21 @@
       "est-letters"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Groundwater",
+      "Waste management",
+      "Natural (archaeology)",
+      "Environmental engineering",
+      "Catalysis",
+      "Electrochemistry",
+      "Water supply"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
   },
   {
     "id": "journal-10-1021-acs-est-6c05701",
@@ -5902,6 +5937,63 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "docs-meta",
+      "semantic_scholar"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00169",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00169",
+    "doi": "10.1021/acs.est.6c00169",
+    "title": "Tidal Rhythm Regulates the Adverse Outcome Pathways of Microplastics on Coastal Microbial Mat Multifunctionality",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yan Song",
+      "Kailun Sun",
+      "Xingpan Guo",
+      "Huikun Yao",
+      "Maotian Li",
+      "Lijun Hou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-14T00:00:00+00:00",
+    "updated_at": "2026-07-15T19:51:09.950811+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00169",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00169",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
       "docs-meta"
     ],
     "tags": [
@@ -5909,6 +6001,74 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07519",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07519",
+    "doi": "10.1021/acs.est.6c07519",
+    "title": "Rethinking Bloom-Risk Management in Recovering Shallow Lakes: From Visible Surface Events to Latent Risk",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Xin-Yue Jv",
+      "Gao-Fang Yin",
+      "Nan-Jing Zhao",
+      "Jie-Jie Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-13T00:00:00+00:00",
+    "updated_at": "2026-07-15T19:51:09.951235+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07519",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07519",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Environmental resource management",
+      "Environmental planning",
+      "Surface water",
+      "Remote sensing",
+      "Risk management",
+      "Geography",
+      "Surface (topology)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
