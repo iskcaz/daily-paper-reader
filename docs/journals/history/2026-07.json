@@ -4887,7 +4887,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -4954,7 +4954,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -6069,6 +6069,994 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01538",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01538",
+    "doi": "10.1021/acs.est.6c01538",
+    "title": "In Situ Measurement of Eddy Diffusion Fluxes of Trace Hydrophobic Organic Contaminants across the Water-Sediment Interface in Lakes",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Ying Liu",
+      "Zhiwei Liu",
+      "Rainer Lohmann",
+      "Peter Grathwohl"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-18T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.920901+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01538",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01538",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01472",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01472",
+    "doi": "10.1021/acs.est.6c01472",
+    "title": "Climate-Driven Harmful Algal Blooms Impair the Coastal Nitrogen Filter and Shift Denitrification Pathways toward N 2 O Accumulation",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Mingzhen Zhang",
+      "Yiqi Yu",
+      "Xiyu Zhang",
+      "Fan Qu",
+      "Nengwang Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-17T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921200+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01472",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01472",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Denitrification",
+      "Algal bloom",
+      "Environmental science",
+      "Environmental chemistry",
+      "Nitrogen",
+      "Filter (signal processing)",
+      "Chemistry",
+      "Environmental engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02449",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02449",
+    "doi": "10.1021/acs.est.6c02449",
+    "title": "Highly Resolved Life Cycle Emissions of Per- and Polyfluoroalkyl Substances (PFAS) in China from 1985 to 2023",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shijie Song",
+      "Zihui Mei",
+      "Tao Huang",
+      "Yanpeng Gao",
+      "Liangliang Huang",
+      "Junchi Liu",
+      "Na Jing",
+      "Yijian Zhong",
+      "Jie Ma",
+      "Caixia Wen",
+      "Yuan Zhao",
+      "Hong Gao",
+      "Bin Dong",
+      "Jianmin Ma"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-17T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921113+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02449",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02449",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Environmental chemistry",
+      "China",
+      "Chemistry",
+      "Air pollution",
+      "Pollutant",
+      "Water pollution",
+      "Environmental engineering"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05300",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05300",
+    "doi": "10.1021/acs.est.6c05300",
+    "title": "Trivalent Metal Coordination Drives Ultrafast Antibiotic Shuttling to Soft Interfaces of Sewage Sludge",
+    "abstract": "The inefficacy of the conventional activated sludge process (ASP) against high-concentration antibiotic streams, compelling energy-intensive pretreatments, represents a major hurdle for low-carbon wastewater treatment. We resolved this by repurposing waste-activated sludge (WAS), the main ASP byproduct, shifting its function from microbial effect to leveraging its inherent soft-matter interfaces. Owing to its high affinity for trivalent metal ions, WAS is transformed into a high-performance adsorbent via minimal Al 3+ functionalization. This enhanced the tetracycline binding capacity by 2.6-fold through coordination-driven immobilization at the Al 3+ –extracellular polymeric substance interface. A coordination-mediated interfacial shuttling mechanism, involving the rapid “hitchhiking” of antibiotics via precomplexed Al 3+ to the interface, enabled 95.6% removal of oxytetracycline from real pharmaceutical wastewater in a prototype reactor. This strategy reduces life-cycle costs to <17% of that of conventional pretreatments and could be extended to other ligand-bearing antibiotics (e.g., fluoroquinolones). Ultimately, this interfacial shuttling effect upgrades the WAS soft interface into a selective separation platform.",
+    "authors": [
+      "Qiandi Wang",
+      "Qiongying Xu",
+      "Wenzong Liu",
+      "Qi Sun",
+      "Siyuan Zhai",
+      "Zhuqi Chen",
+      "Jinglong Han",
+      "Aijie Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-17T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921143+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05300",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05300",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Adsorption",
+      "Chemistry",
+      "Sewage sludge",
+      "Activated sludge",
+      "Oxytetracycline",
+      "Wastewater",
+      "Sewage treatment",
+      "Metal"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01994",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01994",
+    "doi": "10.1021/acs.est.6c01994",
+    "title": "A Novel Low-Dose Mn(VII)/PMS System for Efficient Contaminant Removal with Enhanced Mn(VII) Utilization: Unveiling Mn(VI)-Mediated Mn(VII) Regeneration",
+    "abstract": "Balancing degradation efficiency with environmental sustainability remains a critical challenge for permanganate (Mn(VII))-based oxidation processes in environmental remediation. In this study, we report a novel system initiated by low-dose Mn(VII) dosage (2 μM) in combination with peroxymonosulfate (PMS), enabling efficient removal of emerging contaminants exemplified by bisphenol A (BPA), especially under alkaline conditions (e.g., pH 10). Notably, distinct from conventional radical or nonradical activation mechanisms, we identified a previously unrecognized Mn(VII) regeneration process in the Mn(VII)/PMS system, as supported by a series of complementary evidence from radical quenching experiments, stopped-flow spectroscopy, DFT calculations, and kinetic modeling. The in situ generated Mn(VI) from the reaction of Mn(VII) and BPA was demonstrated to act as the key intermediate, which was subsequently reoxidized by PMS via a multihydrogen-bonded complex back to Mn(VII). This Mn(VI)/Mn(VII) interconversion, reported here for the first time, not only effectively enhanced contaminant degradation but also significantly improved Mn(VII) utilization efficiency. These findings broaden the mechanistic understanding of Mn(VII)-based systems beyond traditional free radical- and Mn(III)/Mn(V)-driven pathways and open new insights for developing efficient and environmentally benign water treatment technologies.",
+    "authors": [
+      "Yang Zhou",
+      "Yuqing Feng",
+      "Rui Wen",
+      "Qiping Huang",
+      "Qin Guo",
+      "Xixin Lu",
+      "Bin Han",
+      "Haijiao Xie",
+      "Jinxing Ma",
+      "Jin Jiang",
+      "Jun Ma",
+      "Yuan Gao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921664+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01994",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01994",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Degradation (telecommunications)",
+      "Bisphenol A",
+      "Environmental chemistry",
+      "Permanganate",
+      "Quenching (fluorescence)",
+      "Water treatment",
+      "Regeneration (biology)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03235",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03235",
+    "doi": "10.1021/acs.est.6c03235",
+    "title": "A Targeted Mitigation Strategy for Freshwater Harmful Algal Blooms through the Release of a Small-Molecule Polyphenolic Algaecide from Clay Nanotubes",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Harmful algal blooms (HABs) caused by Microcystis aeruginosa (MC) pose serious threats to freshwater ecosystems, public health, and water treatment infrastructure. Here, we present a targeted mitigation technology involving flocculation and settling of MC using a flocculant, polyaluminum chloride (PAC), and a nanotubular clay, halloysite, which serves both as a ballast to aid settling of the flocs and as a reservoir to deliver algaecides. The tubular morphology of halloysite allows loading of algaecide, thus constituting a targeted release of algaecide to MC cells in the floc. The specific algaecide chosen is a small-molecule polyphenol, propyl gallate (PG), whose release can be modulated by coating the halloysite nanotubes (HNT) with a thin layer of paraffin wax. Pulse amplitude modulation fluorometry (PAM) measurements confirm that PG disrupts the photosynthesis efficiency of MC in doses as low as 25 mg/L. Importantly, the extensive extracellular polymeric substance (EPS) produced by MC forms a hydrated and adhesive matrix that physically entraps HNTs within the floc through entanglement and interfacial interactions, thereby enhancing localized algaecide delivery while limiting exposure to nontarget organisms. Our findings demonstrate the potential of HNT-based delivery systems as scalable, environmentally benign technologies for managing freshwater HABs caused by Microcystis aeruginosa, with promising implications for long-term bloom suppression and ecological safety.",
+    "authors": [
+      "Pedram AziziHariri",
+      "Borui Wang",
+      "Monica Brady",
+      "Istiak Hossain",
+      "Nicholas R. Sandoval",
+      "William Scott",
+      "Tim I. McLean",
+      "Vincent J. Lovko",
+      "Vijay T. John"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921491+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03235",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03235",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Flocculation",
+      "Algal bloom",
+      "Microcystis aeruginosa",
+      "Chemistry",
+      "Halloysite",
+      "Environmental chemistry",
+      "Settling",
+      "Cyanobacteria"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01228",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01228",
+    "doi": "10.1021/acs.est.6c01228",
+    "title": "Anthropogenic Carbon Particles Trigger Oxidative Reprogramming of Mangrove Physiology and Disrupt Rhizosphere Microbial Networks",
+    "abstract": "seedling and rhizosphere responses to subsurface-applied polystyrene nanoplastic (PS NP) or biochar (BC) were evaluated through integrated physiological, microscopic, and multiomics analyses. PS NPs followed a soil-root-stem-leaf gradient (63.4, 24.33, 4.72, 3.66 μg/g), indicating restricted upward transport, whereas BC showed limited internalization. Compared to controls, PS NP reduced root volume by 6.68%, caused chloroplast disintegration, and increased leaf reactive oxygen species by 1.14-fold, decreasing ΦPSII by 11%. BC reduced ΦPSII by 20.7% and induced severe root-tip disintegration; urease activity declined by 83%. Multiomics revealed PS NP upregulated arachidonic acid metabolism and aromatic amino acid pathways by 2.56- and 2.71-fold and reduced microbe-gene-metabolite connectivity by 28.3%, while BC reduced unsaturated fatty acid abundance by 28% and microbial network connectivity by 23.9%. Both treatments altered core C-N cycling genes, with PS NP promoting carbon degradation and BC inducing compensatory carbon fixation. Collectively, both PS NP and BC disrupt the soil-microbe-plant interface, with BC's negative effects exacerbated in oxygen-limited mangrove sediments.",
+    "authors": [
+      "Sixiang Zhuang",
+      "Zeyu Cai",
+      "Ziqin Lin",
+      "Chunyang Li",
+      "Zewei Zhang",
+      "Jiahao Li",
+      "Xinxin Xu",
+      "Anqi Liang",
+      "Shuai Wang",
+      "Weili Jia",
+      "Yini Cao",
+      "Bin Han",
+      "Jingchun Feng",
+      "Lanfang Han",
+      "Jian Zhao",
+      "Jason C. White",
+      "Chuanxin Ma",
+      "Baoshan Xing"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921530+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01228",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01228",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Rhizosphere",
+      "Reactive oxygen species",
+      "Metabolism",
+      "Mangrove",
+      "Carbon fibers",
+      "Environmental chemistry",
+      "Biochemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01862",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01862",
+    "doi": "10.1021/acs.est.6c01862",
+    "title": "Bioaccumulation, Tissue Distribution, and Biotransformation of Photoinitiators in Freshwater Snails: Field Evidence from a Textile Industrial Area",
+    "abstract": "Photoinitiators (PIs) are ubiquitous contaminants with endocrine-disrupting effects, yet their bioaccumulation and biotransformation in aquatic organisms remain unclear. This study reports the first multimedia analysis of 24 PIs in a textile-impacted area in eastern China. Apple snails showed the highest PI levels and diversity (∑ 19 PIs 44.5–353 ng/g dw), exceeding those in fish (∑ 17 PIs 18.3–213 ng/g dw), sediment (∑ 14 PIs 4.1–122 ng/g dw), and river water (∑ 11 PIs 11.7–405 ng/L). In snails, several PIs had median bioaccumulation factors (BAFs) > 1000 L/kg and median biota-sediment accumulation factors >1, suggesting accumulation from both aqueous and sediment-associated sources. Viscera were the primary PI sink, with higher burdens than muscle and gonadal tissues. Muscle accumulation was associated with hydrophobicity, showing a parabolic log BAF–log K ow relationship ( R 2 = 0.97, p < 0.01). Several metabolites were detected in snail tissues, but low metabolite-to-parent ratios (≤9.8%) for confirmed hydroxylated benzophenones indicated limited biotransformation. Three phosphine oxides, benzophenone, and 2-isopropylthioxanthone were identified as priority risk drivers, with risks concentrated in industrial zones. These findings provide field evidence of PI bioaccumulation and biotransformation in freshwater mollusks, informing aquatic ecological risk assessments of PIs.",
+    "authors": [
+      "Wei Zhang",
+      "Qin Lv",
+      "Wenyu Xu",
+      "Chenqi Guo",
+      "Xinyang Li",
+      "Zechen Yu",
+      "Xuezhi Yang",
+      "Jianjie Fu",
+      "Haiyan Zhang",
+      "Guibin Jiang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921396+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01862",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01862",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Bioaccumulation",
+      "Biotransformation",
+      "Environmental chemistry",
+      "Chemistry",
+      "Aquatic ecosystem",
+      "Contamination",
+      "Water pollution",
+      "Industrial area"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05107",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05107",
+    "doi": "10.1021/acs.est.6c05107",
+    "title": "Dual Cation-Exchange Membrane Solid Electrolyte Reactors for Organic Acid Separation and Alkali Cation Recovery from Neutral CO 2 Electroreduction",
+    "abstract": "Electrochemical CO 2 reduction (CO 2 RR) under near-neutral conditions offers enhanced operational stability and compatibility with reactive carbon capture, yet downstream separation of dissolved products from supporting alkali cations remains a major barrier to practical deployment. Here we report a dual-cation-exchange-membrane solid electrolyte reactor (SER) that enables simultaneous organic acid separation, alkali cation recovery, and CO 2 regeneration from neutral CO 2 RR effluents through highly efficient ion transport. Compared with state-of-the-art flow-electrode capacitive deionization systems, the SER exhibits substantially enhanced ion-transport performance without requiring flow electrodes or supporting electrolytes. Organic acids are selectively retained in the separation chamber with efficiencies of up to 94.7%, whereas more than 95% of alkali cations are recovered in the cathode chamber. Mechanistic analyses reveal that proton-assisted conductivity enhancement governs cation transport, whereas organic acid crossover remains limited and is primarily associated with electro-osmotic drag accompanying cation migration through the membrane. Integration of the SER with a practical reactive-capture electrolyzer demonstrates stable continuous coupling of carbon capture, electrochemical conversion, product separation and electrolyte recovery. These findings establish solid electrolyte reactors as an energy-efficient platform for electrochemical separations and highlight their potential for scalable downstream processing in CO 2 electrovalorization systems.",
+    "authors": [
+      "Yong Jiang",
+      "Chenghao Xu",
+      "Hang Lin",
+      "Yanwei Luo",
+      "Weihong Zheng",
+      "Bingjie Sun",
+      "Huilin Chen",
+      "Yan Wang",
+      "Xintong Xu",
+      "Jiping Tang",
+      "Na Chu",
+      "Raymond Jianxiong Zeng",
+      "Xiangdong Zhu",
+      "Peng Liang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921306+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05107",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05107",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Electrolyte",
+      "Electrochemistry",
+      "Chemistry",
+      "Alkali metal",
+      "Capacitive deionization",
+      "Electrolysis",
+      "Inorganic chemistry",
+      "Electrode"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c17530",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c17530",
+    "doi": "10.1021/acs.est.5c17530",
+    "title": "Freeze-Drying as a Novel Concentrating Method for Wastewater Detection of SARS-CoV-2",
+    "abstract": "Detecting viral RNA from wastewater has emerged as a cost-effective approach for community-level surveillance during the recent SARS-CoV-2 pandemic. Although various concentrating methods have been developed, none are optimal for all key requirements for wastewater viral detection. Freeze-drying, a technique widely used for concentrating and preserving biological materials, remains underexplored for this purpose. This study compared the performance of freeze-drying and centrifugal ultrafiltration in terms of recovery efficiency, detection limit, and other key parameters. Early pandemic samples in this study, with extremely low viral concentrations, offered an ideal benchmark to assess their suitability for early-warning applications. Statistical analyses showed that freeze-drying achieved significantly higher recovery efficiency (0.338% ± 0.065% vs. 0.149% ± 0.046%), superior detection ratio (81.6% vs. 36.8%), and lower detection limit (0.06 vs. 0.36 copies/mL) compared to centrifugal ultrafiltration. To our knowledge, this is the first study to apply freeze-drying for wastewater-based viral detection. Despite its longer processing time, freeze-drying offers multiple advantages, including the elimination of pretreatment steps, a flexible workflow, reduced RNA degradation under cryogenic conditions, minimal pathogen exposure, lower labor demands, and less human interference during processing. These features position freeze-drying as a novel alternative for wastewater-based viral surveillance, particularly for decision-making when establishing such systems. Synopsis: Freeze-drying is a new wastewater virus concentrating method that outperforms centrifugal ultrafiltration, providing a simpler, safer, and more sensitive approach for community surveillance.",
+    "authors": [
+      "Rui Dong",
+      "Elizabeth Noriega Landa",
+      "Hugues Ouellet",
+      "Wen-Yee Lee",
+      "Chuan Xiao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921364+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c17530",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c17530",
+    "pdf_url": "https://www.medrxiv.org/content/medrxiv/early/2025/12/05/2025.01.04.25319877.full.pdf",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "green",
+    "openalex_concepts": [
+      "Wastewater",
+      "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+      "Coronavirus disease 2019 (COVID-19)",
+      "Environmental science",
+      "2019-20 coronavirus outbreak",
+      "Virology",
+      "Chemistry",
+      "Environmental engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06094",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06094",
+    "doi": "10.1021/acs.est.6c06094",
+    "title": "Paper-Based Chip Platform: PCR-SERS-LFA Integration for On-Site Coastal Harmful Microorganism Detection",
+    "abstract": "Harmful algal blooms (HABs) and pathogenic microorganisms threaten coastal ecosystems and public health, requiring rapid field-deployable detection. Herein, we present an integrated paper-based platform combining polymerase chain reaction (PCR), surface-enhanced Raman scattering (SERS), and lateral flow assay (LFA) for on-site nucleic acid detection. The platform integrates a miniature thermal cycler, lyophilized paper-based reaction chambers, and a capillary-driven detection pen for contamination-free transfer and dual-mode readout. The platform achieved limits of detection of 10 1 –10 2 copies μL –1 by SERS and 10 3 –10 4 copies μL –1 by visualization for Enterococcus spp., Escherichia coli, Alexandrium tamarense, and Noctiluca scintillans, with complete amplification and detection within 30 min. Field validation at a coastal bathing beach showed agreement with laboratory-based quantitative PCR (qPCR), with only one discordant result out of 36 environmental samples, demonstrating comparable performance to the current gold-standard method while offering portability and rapid on-site response. Furthermore, the platform identified Ulva prolifera (a key driver of green tide) micropropagules as small as 600 μm and enabled large-scale mapping of overwintering zones across the Yellow-Bohai Sea. This platform supports rapid environmental monitoring and public health surveillance.",
+    "authors": [
+      "Qishuo Wang",
+      "Yunqing Wang",
+      "Longwen Fu",
+      "Chunlei Xia",
+      "Rongchao Mei",
+      "Yixuan Wu",
+      "Jiadong Chen",
+      "Hongxiao Sun",
+      "Zhiyang Zhang",
+      "Xiaoyan Wang",
+      "Lingxin Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-16T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921427+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06094",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06094",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Software portability",
+      "Microorganism",
+      "Algal bloom",
+      "Environmental monitoring",
+      "SYBR Green I",
+      "Remote sensing",
+      "Polymerase chain reaction"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01785",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01785",
+    "doi": "10.1021/acs.est.6c01785",
+    "title": "Effect of Formation pH on the Structure of Ferrihydrite and Its Photochemical Activity",
+    "abstract": "Acid mine drainage (AMD) is a widespread environmental pollution that releases millions of tons of acidic, metal-laden mine effluents into surface waters, where steep pH gradients (from strongly acidic (pH < 3) to near-neutral) promote the continuous formation of metastable ferrihydrite (Fh). Under light irradiation, Fh can undergo photochemical reactions that influence iron redox cycling and contaminant behavior; however, how Fh formation pH controls its subsequent photochemical reactivity and environmental function remains poorly understood. Herein, Fh was synthesized via the hydrolysis of Fe 3+ under pH conditions ranging from 3 to 7 to simulate its formation, and its structural and physicochemical properties (including morphology, crystallinity, and particle size) as well as photochemical activities were then systematically characterized. The results revealed that Fh synthesized under lower pH conditions (e.g., pH ∼3 in AMD upstream) exhibits low crystallinity and pronounced photoreduction, leading to substantial Fe 2+ release, continuous surface renewal, and potential dissolution–precipitation-driven iron redistribution; whereas in neutral downstream environments (pH ∼7), elevated pH drives the formation of Fh with higher crystallinity, resulting in weakened photoreduction activity, reduced Fe 2+ release, and mineral deposition. Importantly, structure–activity fitting revealed that abundant surface Fe–OH govern the photolysis and ligand-to-metal charge transfer (LMCT) activity of Fh, which in turn influences •OH generation. These results indicate that Fh in AMD systems functions not as a passively aging mineral particle, but as a dynamically renewed photoreactive phase whose redox activity, aging behavior, and phase transformation are preconditioned by Fh formation pH. This study provides novel insights into the spatial variability of iron mobility and contaminant fate in AMD systems, with implications for predictive modeling and remediation strategies.",
+    "authors": [
+      "Ying Lv",
+      "Jianfa Li",
+      "Qing Liao",
+      "Yixuan Yang",
+      "Jiangang Hu",
+      "Yimin Li",
+      "Huaping Dong",
+      "Runliang Zhu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-15T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921722+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01785",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01785",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ferrihydrite",
+      "Chemistry",
+      "Redox",
+      "Reactivity (psychology)",
+      "Schwertmannite",
+      "Photochemistry",
+      "Phase (matter)",
+      "Photodissociation"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08845",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08845",
+    "doi": "10.1021/acs.est.6c08845",
+    "title": "Nontarget Discovery of Organophosphite Antioxidant (OPA) Methyl Analogues in the Pearl River Estuary Sediments: Source Tracking to Commercial OPA Byproducts",
+    "abstract": "Recent nontarget analyses have uncovered numerous novel organophosphate esters (OPEs) and organophosphite antioxidants (OPAs) in the environment, yet the origins of most newly identified contaminants remain elusive. In this study, we applied suspect and nontarget screening utilizing high-resolution mass spectrometry to identify eight novel OPA analogues (including parent OPAs along with mono- and dioxidized derivatives) structurally related to the commercial antioxidants AO626 and AO168, in sediments from the Pearl River Estuary. Their concentrations showed strong correlations with oxidation products of AO626/AO168. Further analysis revealed that seven of these compounds, termed OPA methyl analogues (OPAMAs), were present in commercial AO626 and AO168 products as OPAs and mono-oxidized derivatives, collectively accounting for 12-15% by mass. Laboratory photolysis experiments demonstrated that these OPAs and mono-oxidized derivatives can be oxidized in river water to form the corresponding mono- and dioxidized derivatives. Thus, sediment OPAMAs may originate from byproducts formed during industrial OPA synthesis using trimethyl phosphite and phenols via transesterification reaction. Retrospective screening confirmed OPAMA presence in food contact materials, corroborating a commercial-to-environment pathway. This study underscores that impurities and byproducts from commercial OPA products, together with environmental transformation, represent a significant source of emerging OPE contaminants in aquatic systems.",
+    "authors": [
+      "Xiwei Chen",
+      "Yanhao Chen",
+      "Mingdeng Yuan",
+      "Zhanpeng Su",
+      "Kaiyuan Wang",
+      "Tao Zhang",
+      "Lei Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-15T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:07.921694+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08845",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08845",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Environmental chemistry",
+      "Estuary",
+      "Phenols",
+      "Contamination",
+      "Pearl",
+      "Mass spectrometry",
+      "Sediment"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00068",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00068",
+    "doi": "10.1021/acs.estlett.6c00068",
+    "title": "Relevance of Sustainable and Green-Synthesized Biogenic Iron Oxide Nanoparticles for Remediation of Emerging Contaminants from Water Ecosystems and Their Associated Health Concerns",
+    "abstract": "Groundwater pollution by emerging contaminants (ECs), including pharmaceuticals, per- and polyfluoroalkyl substances (PFAS), heavy metals, and disinfection byproducts, poses severe environmental and public health hazards. Conventional treatment approaches are unable to eliminate ECs, prompting the development of sustainable alternatives for eliminating ECs. This review provides insights into the synthesis of iron oxide nanoparticles (IONPs) using environmentally friendly methods, including systems based on bacteria, fungi, algae, plants, and biowaste. Biogenic IONPs are highly effective at removing ECs, including PFAS, certain medications, and organic pollutants. Their unusual physicochemical characteristics, high surface area, magnetic separation capability, and tunable reactivity make them promising candidates for groundwater cleanup. Future studies should focus on expanding the application of IONPs across a broader range of ECs, refining synthesis methods, and improving functionalization to enable targeted pollutant removal. Though knowledge gaps exist regarding their efficiency against some contaminants, e.g., persistent pesticides, nitrosamines, microplastics, and complex pharmaceutical metabolites, for which no effective biogenic IONPs are currently available, biogenic IONPs have shown great potential for removing several ECs. Biogenic IONPs are a long-lasting and effective way to mitigate health risks and groundwater contamination provided that they are continually improved.",
+    "authors": [
+      "Gagandeep Singh",
+      "Rakesh Kumar",
+      "Neelam Thakur",
+      "Umesh Kumar",
+      "Prosun Bhattacharya"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-17T00:00:00+00:00",
+    "updated_at": "2026-07-18T20:18:08.345595+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00068",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00068",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930",
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental remediation",
+      "Environmental science",
+      "Human health",
+      "Groundwater",
+      "Iron oxide nanoparticles",
+      "Environmental chemistry",
+      "Contamination",
+      "Groundwater remediation"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
