@@ -1,0 +1,94 @@
+Title: Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific”
+
+URL Source: https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c02999?ref=article_openPDF
+
+Number of Pages: 4
+
+Markdown Content:
+# Correspondence on “Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific” 
+
+Cite This: https://doi.org/10.1021/acs.est.6c02999 Read Online 
+
+# ACCESS Metrics & More Article Recommendations 
+
+# Miyazono et al. 1 present a valuable long-term data set (1949 −2020) on surface plastic debris in the Western North Pacific, but methodological inconsistencies and assump-tions raise concerns about the robustness of reported trends in microplastic size, morphotype, and abundance. The data was collected using three net types, Maruchi (1949 −
+
+1988), Shin-Chigyo (1987 −2000), and new-neuston (2000 −
+
+2020); interestingly, they also propose three phases: rising (1950s −1970s), “stagnation” (1978 −2011), and reincrease (mid-2010s onward). Our reanalysis suggests that shifts in sampling protocols, rather than environmental change, likely explain the reported changes, particularly the “stagnation” phase. 
+
+# ■ CONCERNS ABOUT THE REPORTED STAGNATION PERIOD 
+
+The authors adopt 1978 as the analytical cutoff year for the start of the “stagnant” phase but provide no substantive justification for this choice. From the data set provided by the corresponding author, we reanalyzed the data of Figure 2b (Figure 1a here) by a rolling-slope time series on log-transformed plastic abundance with windows of three (Figure 1b) and five (Figure 1c) years between 1949 and 1987, the last year the Maruchi net was used. The three-year window shows no clear stagnation after 1978, with 1980 showing the third-highest annual increase ever (Figure 1b). The five-year window shows increasing plastic abundance until at least 1981 (Figure 1c). Thus, the selection of 1978 as the cutoff seems inappropriate. Miyazono et al. propose two mechanisms for the plateau: (a) enhanced removal of plastics via co-sedimentation with plankton, invoking a correlation with the winter Pacific decadal oscillation (PDO), and (b) increased offshore dispersion owing to plastic fragmentation and shifting plastic types. For mechanism a, the authors report a significant correlation (p < 0.05) between mean log plastic abundance (1978 −2011) and the winter PDO index (Figure 4b). We reanalyzed it (Figure 1a), obtaining a p of 0.0322, which is slightly different to that reported by the authors, which can be due to rounding differences in the winter PDO. However, the correlation weakens substantially when using three- and five-year rolling averages as a basis for the selection of the phase shift. Excluding 1978 −1986 yields a p of 0.156 (Figure 2b), and excluding 1978 −1981 yields a p of 0.118 (Figure 2c). This indicates that the reported correlation is fragile and sensitive to the selected start year (1978). If PDO-driven removal controlled plastic abundance, earlier consecutive years of negative winter PDO phases (1949 −1957, 1965 −1969, and 1971 −1976) should also show plastic stagnation or a decrease; instead, Miyazono’s data set shows strong increases during these periods (Figure 1b). Moreover, regional studies 2,3 report decreasing net primary productivity in the Pacific and East/Japan Sea during the relevant interval, which is the opposite of the trend required to sustain a flat plastic abundance record. Additionally, the authors cite Hinata et al. 4, who studied microplastic accumulation in Beppu Bay, to support sedimenta-tion. However, Beppu Bay is a shallow, semienclosed basin ( ∼70 m) and not representative of the open ocean sampled by Miyazono et al. Moreover, Hinata’s sedimentation trends do not match key periods in the surface data, e.g., the 2000 −2005 decrease in Beppu Bay and the 2009 peak in Miyazono’s record. In contrast, open ocean sediments in the North Pacifi 5,6 show exponential accumulation during the same period, consistent with increasing plastic production rather than enhanced removal, further undermining the proposed plateau. For the offshore dispersion mechanism (b), the authors argue that fragmentation and changing polymer forms increased dispersion, reducing local concentrations. The proposed 1978 start of the stagnation phase may coincide with the post-1977 North Pacific regime shift, 7 but the continuation of stagnation to 2011 cannot be explained solely by the 1977 −1988/89 regime. 7
+
+Furthermore, the authors cite a rapid trans-Pacific dispersal of debris in the region which was observed, for example, after the 2011 To ̅ hoku tsunami. 8,9 It seems unlikely that dispersion accelerated only after accumulation for three decades without a mechanistic explanation or evidence. Finally, Miyazono et al. compare their stagnation phase with North Atlantic and North Pacific data sets. However, for the North Pacific, there is an ∼10-year data gap after 1988; thus, any comparison to the “stagnation” period is not possible. Once the new sampling protocol begins in 2000, Miyazono et al.’s data align again with North Pacific records, suggesting methodo-logical convergence rather than true ecological synchrony. North Atlantic comparisons are likewise unhelpful given the distinct geography, pollution sources, and circulation regimes. 10 
+
+Received: April 23, 2026 
+
+Revised: June 15, 2026 
+
+Accepted: June 22, 2026   
+
+> Correspondence/Rebuttal pubs.acs.org/est
+> © XXXX The Authors. Published by American Chemical Society A
+> https://doi.org/10.1021/acs.est.6c02999
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX Downloaded via 34.34.253.249 on July 19, 2026 at 21:30:06 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+# ■ CONCERNS ABOUT THE REPORTED SIZE, MORPHOTYPE, AND ABUNDANCE OF PLASTICS 
+
+The size composition and morphotype trends in Figure 3 of ref 1 may be confounded by changes in the net mesh size and design. The shift of the late 1980s coincides with replacement of the 2 mm front −0.33 mm back Maruchi net by the 0.45 mm Shin-Chigyo net, directly altering the detectable size range and particle types. Sample preparation may also introduce biases. Fish eggs and larvae were removed prior to analysis, potentially excluding associated plastics, and samples were mixed rather than digested for a full recovery. Variable biological material among samples likely introduced an unquantified recovery bias. 
+
+# ■ LIKELY CAUSE OF REPORTED STAGNATION 
+
+Considering the unjustified analytical pivot year (1978) and coincident timing of sampling-net transitions with the proposed 
+
+Figure 1. (a) Plastic abundance, reproduced from Figure 2b of ref 1. Copyright 2025 American Chemical Society. (b) Rolling-slope analysis of data in (a) with a three-year window reveals no stagnation. (c) A five-year window suggests a possible transition only after 1981. The red boxes denote time frames in which the Maruchi net was still in use after 1978. 
+
+Environmental Science & Technology pubs.acs.org/est Correspondence/Rebuttal  
+
+> https://doi.org/10.1021/acs.est.6c02999
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> B
+
+“stagnation” phase, we propose that the presented results are likely due to methodological and analytical artifacts caused by differential clogging of the nets used, 11,12 and increased samplng area, rather than an environmental signal. Clogging depends on the size of the particles, as particles larger than the mesh openings must be caught and thus start clogging the net. For the net with a large −fine mesh combination (e.g., Maruchi), the fine part in the back will be clogged first while larger particles will still be caught in the front until the net is fully clogged; this would lead to an overestimation of average particle size but underestimation of overall concentration with increased clogging. For a single-mesh net (e.g., Shin-Chigyo), as soon as the net starts clogging the effective openings quickly become smaller and then rapidly clog and also capture much smaller particles, until nothing gets through the net and it looks like a plateau is reached. This effect would explain both the plateau and the “reduced size” of plastics in the stagnation phase. Furthermore, the distance towed with the first net (Maruchi) was just half of that with the second net (Shin-Chigyo). The resulting areas per sample were 402 and 803 m 2 in the first and second phases, respectively. Furthermore, nets were not equipped with a flow meter, and the filtering efficiency was assumed to be 100% by the authors. Thus, the second net (Shin-Chigyo) with a uniform, much smaller mesh size that is towed twice as far, increases the risk of clogging significantly, and an artificial plateau phase is highly possible. Clogging can be tested via repeated short tows until reaching a microplastic concentration plateau, which was unfortunately not done when the samples were collected. Thus, the purported stagnation phase described by Miyazono et al. is doubtful. The 1978 cutoff is not explicitly justified, the statistical correlation with winter PDO is tenuous and sensitive to data selection, the mechanistic explanations are contradicted by regional productivity and sedimentation evidence, and there are likely methodological issues like net clogging. To improve reliability, data sets from each net protocol could be analyzed separately. Until methodological consistency is achieved, the claims of a multidecadal stagnation in marine plastic pollution in the western North Pacific should be interpreted cautiously. 
+
+J. Rafael Bermu ́dez-Monsalve orcid.org/0000-0002-8109-5819 
+
+Stella A. Berger Gu ̈lce Yalc ̧ ınJens C. Nejstgaard 
+
+# ■ AUTHOR INFORMATION 
+
+Complete contact information is available at: https://pubs.acs.org/10.1021/acs.est.6c02999 
+
+Notes 
+
+The authors declare no competing financial interest. 
+
+# ■ REFERENCES 
+
+(1) Miyazono, K.; Tadokoro, K.; Thushari, G. G. N.; Miyamoto, H.; Takasuka, A.; Watai, M.; Yasuda, T.; Sato, T.; Yamashita, R.; Kodama, T.; Takahashi, K. Long-Term Changes in the Abundance, Size, and Morphotype of Marine Plastics in the North Pacific. Environ. Sci. Technol. 2025 , 59 (9), 4608 −4617. (2) Maishal, S. Decadal Changes in Global Oceanic Primary Productivity and Its Drivers. Ocean-Land-Atmosphere Research 2024 ,
+
+3, No. 0066. (3) Joo, H.; Son, S.; Park, J.-W.; Kang, J. J.; Jeong, J.-Y.; Lee, C. I.; Kang, C.-K.; Lee, S. H. Long-Term Pattern of Primary Productivity in the East/Japan Sea Based on Ocean Color Data Derived from MODIS-Aqua. Remote Sensing 2016 , 8 (1), 25. (4) Hinata, H.; Kuwae, M.; Tsugeki, N.; Masumoto, I.; Tani, Y.; Hatada, Y.; Kawamata, H.; Mase, A.; Kasamo, K.; Sukenaga, K.; Suzuki, Y. A 75-Year History of Microplastic Fragment Accumulation Rates in a Semi-Enclosed Hypoxic Basin. Science of The Total Environment 2023 ,
+
+854 , No. 158751. (5) Chen, M.; Du, M.; Jin, A.; Chen, S.; Dasgupta, S.; Li, J.; Xu, H.; Ta, K.; Peng, X. Forty-Year Pollution History of Microplastics in the Largest Marginal Sea of the Western Pacific. Geochemical Perspectives Letters 2020 , 42 −47. (6) Brandon, J. A.; Jones, W.; Ohman, M. D. Multidecadal Increase in Plastic Particles in Coastal Ocean Sediments. Science Advances 2019 , 5
+
+(9), No. eaax0587. (7) Hare, S. R.; Mantua, N. J. Empirical Evidence for North Pacific Regime Shifts in 1977 and 1989. Progress in Oceanography 2000 , 47 (2), 103 −145. (8) Lebreton, L. C.-M.; Borrero, J. C. Modeling the Transport and Accumulation Floating Debris Generated by the 11 March 2011 Tohoku Tsunami. Mar. Pollut. Bull. 2013 , 66 (1), 53 −58. (9) Maximenko, N.; Hafner, J.; Kamachi, M.; MacFadyen, A. Numerical Simulations of Debris Drift from the Great Japan Tsunami of 2011 and Their Verification with Observational Reports. Mar. Pollut. Bull. 2018 , 132 , 5 −25. (10) Meijer, L. J. J.; van Emmerik, T.; van der Ent, R.; Schmidt, C.; Lebreton, L. More than 1000 Rivers Account for 80% of Global Riverine Plastic Emissions into the Ocean. Science Advances 2021 , 7
+
+(18), No. eaaz5803. 
+
+Figure 2. (a) Mean plastic abundance, reproduced from Figure 4b of ref 1. Copyright 2025 American Chemical Society. Same analysis excluding (b) 1978 −1986 and (c) 1978 −1981, for which the correlations become nonsignificant. 
+
+Environmental Science & Technology pubs.acs.org/est Correspondence/Rebuttal  
+
+> https://doi.org/10.1021/acs.est.6c02999
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+> C
+
+(11) Smith, P. E.; Counts, R. C.; Clutter, R. I. Changes in Filtering Efficiency of Plankton Nets Due to Clogging Under Tow. Journal du Conseil 1968 , 32 (2), 232 −248. (12) Muehlbauer, J. D.; Kennedy, T. A.; Copp, A. J.; Sabol, T. A. Deleterious Effects of Net Clogging on the Quantification of Stream Drift. Can. J. Fish. Aquat. Sci. 2017 , 74 (7), 1041 −1048. 
+
+Environmental Science & Technology pubs.acs.org/est Correspondence/Rebuttal  
+
+> https://doi.org/10.1021/acs.est.6c02999
+> Environ. Sci. Technol. XXXX, XXX, XXX −XXX
+
+D

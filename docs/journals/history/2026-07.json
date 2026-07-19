@@ -6111,7 +6111,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex"
     ],
     "tags": [
       "environmental-science",
@@ -6120,7 +6121,19 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Eddy diffusion",
+      "Contamination",
+      "Environmental science",
+      "Environmental remediation",
+      "Water column",
+      "Sediment–water interface",
+      "Environmental chemistry",
+      "Sampling (signal processing)"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01472",
@@ -6162,7 +6175,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -6183,7 +6197,12 @@
       "Environmental engineering"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c02449",
@@ -6234,7 +6253,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -6255,7 +6275,12 @@
       "Environmental engineering"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c05300",
@@ -7038,7 +7063,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7057,6 +7083,340 @@
       "Environmental chemistry",
       "Contamination",
       "Groundwater remediation"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18927",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18927",
+    "doi": "10.1021/acs.est.5c18927",
+    "title": "Characterization of the Human Exposome and Risk of Reproductive Hormone Disruption by Integrating GC-HRMS Nontarget Analysis, Molecular Networking, and Knowledge Transfer Learning",
+    "abstract": "Chemical characterization of the human exposome has largely overlooked nonpolar substances analyzed by gas chromatography-high-resolution mass spectrometry (GC-HRMS). In this study, nontarget analysis by GC-HRMS was applied to screen nonpolar exogenous contaminants in the whole blood ( n = 155) of healthy adults in the general population of China. With the assistance of molecular networking, 194 molecular features were annotated after excluding 55 features by blank filtering: 8 annotated at confidence level 1, 173 at level 2, and 13 at level 3. Among these, 93 were noncyclic alkanes or alkane derivatives not previously reported in exposome studies. These alkanes were accompanied by aromatic compounds (58), halogenated compounds (21), heterocyclic compounds (16), and cycloalkanes (6). Acknowledging the small dataset and environmentally relevant low exposure levels, a transfer learning model was implemented to predict the cumulative hormone-disrupting potential of the newly identified chemicals and of previously detected perfluoroalkyl substances (PFAS). PFAS primarily contribute to disruption of follicle-stimulating hormone, while GC-HRMS-detected aromatics make the greatest cumulative contribution to luteinizing hormone and estradiol. Unexpectedly, alkane derivatives contribute a 1.7-fold higher reproductive risk to urban/suburban residents than rural residents. The results will require confirmation in further work but underscore the importance of GC-HRMS for chemical exposomics by revealing understudied aromatic and alkane derivatives as risk factors.",
+    "authors": [
+      "Xin Chen",
+      "Rouyi Wang",
+      "Yi Yang",
+      "Hongyu Xie",
+      "Jonathan W. Martin",
+      "Guoqiang Shan",
+      "Ying Zhang",
+      "Lingyan Zhu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-18T00:00:00+00:00",
+    "updated_at": "2026-07-19T20:23:01.517292+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18927",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18927",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Exposome",
+      "Alkane",
+      "Population",
+      "Adverse Outcome Pathway",
+      "Chemistry",
+      "Biology",
+      "Risk assessment",
+      "Computational biology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02850",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02850",
+    "doi": "10.1021/acs.est.6c02850",
+    "title": "Colonization and Expansion of Burrowing Isopod Sphaeroma on Styrofoam Floats as New Habitats in Mariculture",
+    "abstract": "Plastic debris is generally recognized as a vector for marine organisms. However, the impact of macroplastic debris at the ecological level remains poorly understood. Sphaeroma, a mangrove-damaging burrowing isopod, has been demonstrated to inhabit floating Styrofoam and can serve as a good example for researching such impact. In this study, a large scale of field investigations was conducted for the population of burrowing isopods ( S. tetrebrans and S. retrolaeve ) on Styrofoam floats and mangroves along the coastal waters of China during 2021–2024. The colonization of burrowing isopods Sphaeroma on Styrofoam floats was simulated in situ in mariculture areas for two years, and their behaviors were observed in the laboratory. Our field investigation suggested that S. tetrebrans had more widespread distribution, higher population densities, a more female-biased sex ratio, and larger body size on floats (16 sites with 0.22 ind./cm 2 ) compared to the conspecifics in adjacent mangrove habitats (12 sites with 0.15 ind./cm 2 ). Burrowing isopods Sphaeroma could colonize on fresh Styrofoam floats within 1 month, and the population quickly increased in the following two years on Styrofoam floats. In the laboratory, S. tetrebrans tended to adhere to the substrate (i.e., Styrofoam floats) after a short while (e.g., 4.4 s) of backstroke swimming and could bore a complete burrow in foam blocks as fast as within 4 h. Our study indicated that the burrowing isopods Sphaeroma showed great fitness on expanded polystyrene and rapid colonization as well as expansion on foam substrates in mariculture areas, which might be collectively driven by the environmental factors of mariculture areas, the physical ones of expanded polystyrene, and the biological ones of Sphaeroma .",
+    "authors": [
+      "Yifan Zheng",
+      "Yufei Chen",
+      "Wenxuan Sui",
+      "Shiquan Chen",
+      "Wenjun Zhao",
+      "Cuizhu Ma",
+      "Jingmin Zhu",
+      "Jiji Li",
+      "Huahong Shi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-18T00:00:00+00:00",
+    "updated_at": "2026-07-19T20:23:01.517257+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02850",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02850",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Mariculture",
+      "Burrow",
+      "Habitat",
+      "Mangrove",
+      "Colonization",
+      "Population",
+      "Ecology",
+      "Biology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04106",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04106",
+    "doi": "10.1021/acs.est.6c04106",
+    "title": "Ferroelectric Heterojunction with Spatiotemporally Programmable CO Spillover Pathways Boosts Urea Electrosynthesis",
+    "abstract": "Electrochemical urea synthesis offers a sustainable strategy for the purification and resource utilization of greenhouse gases and water pollutants. However, kinetic disparities between the competing reduction pathways of CO 2 and NO 3 – lead to spatiotemporal mismatches between C- and N-intermediates, severely hindering efficient C–N coupling. In this context, we demonstrated a strategic design of enzyme-inspired “spatial decoupling–temporal coupling” on a ferroelectric SnS-Cu 0.15 -TiO 2 heterojunction. A high urea yield rate of 2392.5 μg h –1 mg cat –1 with a Faradaic efficiency (FE) of 71.2% outperforms the state-of-the-art electrocatalysts. Atomically dispersed Cu 1 sites induce an unprecedented ferroelectricity enhancement, whereby a strengthened built-in electric field generates spatially resolved charge domains for coactivation of both CO 2 and NO 3 – . Correlated in situ Raman and infrared spectroscopic studies disclose that the S-Cu 1 -O interfacial channels mediate remote *CO spillover and its dynamic, temporal coupling with *NH 2 . Moreover, a coupled electrolyzer integrating the electrocatalytic upcycling of wastewater-derived NO 3 – and Cl – achieves a remarkable 79.4% urea FE, while enabling simultaneous environmental remediation. This work highlights the unique advantages of ferroelectric heterojunctions-mediated dynamic catalysis in regulating complex reaction networks for urea electrosynthesis, opening sustainable electrochemical routes toward CO 2 mitigation and the green transformation of coastal wastewater treatment.",
+    "authors": [
+      "Liying Zhang",
+      "Wenzhe Shang",
+      "Yao Li",
+      "Yantao Shi",
+      "Wei Liu",
+      "Sen Qiao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-18T00:00:00+00:00",
+    "updated_at": "2026-07-19T20:23:01.517185+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04106",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04106",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ferroelectricity",
+      "Electrochemistry",
+      "Materials science",
+      "Electrosynthesis",
+      "Urea",
+      "Heterojunction",
+      "Water splitting",
+      "Nanotechnology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01331",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01331",
+    "doi": "10.1021/acs.est.6c01331",
+    "title": "Identification of Organic Radicals in Aqueous Environments by DIPPMPO Spin Trapping Coupled with High-Resolution Mass Spectrometry",
+    "abstract": "Organic radicals are key reactive intermediates that govern pollutant transformation and biogeochemical cycling in aquatic environments, yet their direct identification remains challenging because of structural diversity, low concentrations, and transient lifetimes. This study introduces a robust analytical workflow that integrates the spin-trapping agent 5-(diisopropoxyphosphoryl)-5-methyl-1-pyrroline N-oxide (DIPPMPO) with ultraperformance liquid chromatography-quadrupole time-of-flight mass spectrometry (UPLC-QTOF-MS) for the systematic detection and identification of organic radicals in complex aqueous matrices. Systematic validation confirmed the high stability and linear concentration response of DIPPMPO-radical adducts, while characteristic neutral-loss patterns (42.0470 and 166.0759 Da) provided structural confirmation across multiple organic radical classes, including phenoxyl, semiquinone, acyloxyl, peroxyl, and alkyl radicals. Applied to both engineered and natural aqueous systems, the workflow successfully identified organic radicals generated during UV-irradiated bisphenol A degradation and in sunlight-exposed dissolved organic matter (DOM). The results illustrate its ability to trace pollutant-derived organic radicals and map diverse DOM-generated organic radicals, offering new insights into transformation pathways. By delivering enhanced specificity, structural insight, and semiquantitative capability, this approach advances the mechanistic understanding of radical-mediated processes and provides a versatile platform for studying transient reactive intermediates in water treatment and environmental redox systems.",
+    "authors": [
+      "Xuewen Luo",
+      "Yangjian Zhou",
+      "Liangke Gong",
+      "Yanheng Pan",
+      "Shuangshuang Cheng",
+      "Xin Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-18T00:00:00+00:00",
+    "updated_at": "2026-07-19T20:23:01.517221+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01331",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01331",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Radical",
+      "Chemistry",
+      "Aqueous solution",
+      "Mass spectrometry",
+      "Redox",
+      "Environmental chemistry",
+      "Pollutant",
+      "Degradation (telecommunications)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02502",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02502",
+    "doi": "10.1021/acs.est.6c02502",
+    "title": "Decoupling Energy Demand from Boron Compliance in Seawater Desalination via a Hybrid Single-Pass Multistage (HSPM) System",
+    "abstract": "Achieving stringent boron compliance in seawater desalination has long depended on energy-intensive multipass reverse osmosis (RO) with alkaline dosing, creating a trade-off between energy consumption and water quality. This work breaks this bottleneck by developing a hybrid single-pass multistage (HSPM) system with selectivity-optimized loose RO membranes. Tailoring commercial RO membranes into high-flux variants via a 5 h controlled chlorination achieves an optimal balance, whereas an extended 20-h modification causes an impractical 24.1-fold increase in boron passage. Mechanistic analysis reveals that the 4-fold increase in apparent activation energy ( E a ) for B(OH) 4 – transport at pH 11 fails to fully offset the intrinsic loss of steric selectivity under neutral conditions. To overcome this material-level limitation, a multidimensional performance map identifies the operational sweet spot of the HSPM system, enabling membranes with moderate boron rejection and high water permeance to meet the 1.0 mg L –1 threshold via multistage blending and energy recovery. Coupling the 5 h chlorinated membrane with an optimized 3-stage configuration theoretically yields a ∼42.5% energy saving versus conventional two-pass RO. This research establishes a novel paradigm for application-specific membrane selection and process synergy, offering a scalable, low-carbon blueprint for desalination and water reuse.",
+    "authors": [
+      "Likun Ma",
+      "Peng-Fei Sun",
+      "Yuling Deng",
+      "Zhiyang Zhu",
+      "Huaxing Liang",
+      "Yi Yang",
+      "Xinglin Lu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-17T00:00:00+00:00",
+    "updated_at": "2026-07-19T20:23:01.517431+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02502",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02502",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Decoupling (probability)",
+      "Seawater",
+      "Environmental science",
+      "Geothermal desalination",
+      "Environmental engineering",
+      "Desalination",
+      "Waste management",
+      "Boron"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
