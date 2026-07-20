@@ -6112,7 +6112,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -6133,6 +6134,11 @@
       "Sediment–water interface",
       "Environmental chemistry",
       "Sampling (signal processing)"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -7132,7 +7138,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7153,7 +7160,12 @@
       "Computational biology"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c02850",
@@ -7199,7 +7211,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7220,7 +7233,12 @@
       "Biology"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c04106",
@@ -7263,7 +7281,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7284,7 +7303,12 @@
       "Nanotechnology"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c01331",
@@ -7327,7 +7351,8 @@
     "metadata_sources": [
       "crossref",
       "openalex",
-      "docs-meta"
+      "docs-meta",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7348,7 +7373,12 @@
       "Degradation (telecommunications)"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c02502",
@@ -7417,6 +7447,129 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04194",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04194",
+    "doi": "10.1021/acs.est.6c04194",
+    "title": "A Missing Source of New Particles in the Cold Arctic Atmosphere: The Synergistic Nucleation of Halogen Oxyacids",
+    "abstract": "ternary nucleation is a crucial NPF pathway in marine environments with active halogen chemistry, providing a fundamental theoretical basis for understanding the sources, sinks, and climate impacts of marine chlorine-containing components.",
+    "authors": [
+      "Xurong Bai",
+      "Yongjian Lian",
+      "Ruoying Yuan",
+      "Jinsheng Zhang",
+      "Chunyu Wang",
+      "Jianfei Peng",
+      "Hongjun Mao",
+      "Shuai Jiang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-19T00:00:00+00:00",
+    "updated_at": "2026-07-20T20:58:51.801762+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04194",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04194",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nucleation",
+      "Halogen",
+      "Ternary operation",
+      "Arctic",
+      "The arctic",
+      "Chemistry",
+      "Chemical physics",
+      "Supercooling"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03527",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03527",
+    "doi": "10.1021/acs.est.6c03527",
+    "title": "Residual Toxicity of Iodinated Disinfection Byproducts in Boiled Drinking Water",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Wenyuan Yang",
+      "Shengkun Dong",
+      "Chao Fang",
+      "Yingying Zhou",
+      "Songhang Du",
+      "Wenhai Chu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-19T00:00:00+00:00",
+    "updated_at": "2026-07-20T20:58:51.801738+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03527",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03527",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

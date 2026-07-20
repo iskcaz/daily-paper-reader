@@ -1,0 +1,117 @@
+Title: Urgency to Propose Normative Soil Limits for Per- and Polyfluoroalkyl Substances Targeting PFOA and PFOS
+
+URL Source: https://pubs.acs.org/doi/pdf/10.1021/acs.estlett.6c00543?ref=article_openPDF
+
+Number of Pages: 3
+
+Markdown Content:
+# Urgency to Propose Normative Soil Limits for Per- and Polyfluoroalkyl Substances Targeting PFOA and PFOS 
+
+# Sébastien Sauv é* and Hans Peter H. Arp *
+
+Cite This: Environ. Sci. Technol. Lett. 2026, 13, 862−864 Read Online 
+
+# ACCESS Metrics & More Article Recommendations 
+
+ABSTRACT: Per- and polyfluoroalkyl substances (PFAS) are ubiquitous and water threshold limits are beginning to be enforced in various regions, particularly for perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA). An associated concern is PFAS contamination to soils, which impacts the potential transfer of PFAS to crops, grazing animals, and leaching to surface water and groundwater. Here we present the urgency to set international, normative soil limits for PFOS and PFOA. 
+
+# ■ IMPACTS FROM PER- AND POLYFLUOROALKYL SUBSTANCES (PFAS) POLLUTED SOILS 
+
+PFAS have recently been a major environmental challenge because of their ubiquity in water, soils, air, rain, food, and house dust. Concerns have been raised about the presence of PFAS in soils, particularly from biosolids/sewage sludge, which have led to the contamination of farmland, affecting crops, livestock, and groundwater. 1 Hotspots of PFAS polluted soils near fluoropol-ymer production facilities and fire-training areas at airports, military bases, and industrial facilities have led to intense ecosystem and groundwater contamination. 2
+
+Although there is knowledge about the persistency and toxicity of several PFAS, we have much more knowledge regarding the impacts and toxicity of perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA). The U.S. Environmental Protection Agency (EPA) has established very strict drinking water quality guidelines for both of these PFAS at 4 ng/L. 3 The threshold considerations in Canada or the European Union (EU) have been slightly different, integrating a more precautionary approach of targeting 20 −25 different PFAS. 3 The current EU Environmental Quality Standers (EQS) in surface water for the Water Framework Directive (Dir. 2008/ 105/EC) 4 are based on a limit of “PFOA-equivalents” of 4.4 ng/ L for the sum of 25 PFAS, giving PFOA a proposed future EQS of 4.4 ng/L and PFOS of 2.2 ng/L in the absence of other PFAS. Leaching to groundwater and potential contamination of nearby wells or aquifers might very well be the most sensitive end point caused by contamination of soils with PFAS. Therefore, there is a need to harmonize soil thresholds with water thresholds, from an environmental policy and manage-ment point-of-view. 
+
+# ■ SOIL −WATER PARTITIONING 
+
+Soil −water partitioning coefficients ( Kd) have been widely used to model and predict the mobility of contaminants in contaminated soils. Kd is defined has the ratio of the concentration of the contaminant in the solid phase over the concentration in the liquid phase (eq 1) and is usually in L/kg units. K X (g/mL) soil concentration X ( g X/kg) water concentration X ( g X/L) d =
+
+(1) 
+
+Literature data are available to estimate the range of Kd values for PFOS and PFOA (Table 1). The compilation of relevant Kd
+
+values for PFOS and PFOA shows that Kd can vary by a factor of 100 to diverse factors (like pH, organic carbon content, mineral content, etc.). More data are available, but the values in Table 1 are representative. The inclusion of more Kd values would have little to no impact on the end results of our analysis because the key aspect is the range of values. 
+
+# ■ SOIL THRESHOLD DERIVATION 
+
+The range of Kd values in Table 1 can be selected to backcalculate the maximum soil concentration to prevent the exceedance of a specific PFAS concentration in groundwater. It should be noted that this is a conservative approach because in unsaturated soils there can be substantial sorption to the air −
+
+water interface within soils, 2 so this would apply mostly to saturated soils (e.g., saturated, heavily irrigated, or flooded soils). Here, we consider the 4 ng/L U.S. EPA regulation threshold for PFOS and PFOA, 10 which is similar to the EU threshold. The compiled log Kd values are variable and range from about 0.2 to 2.0 for PFOA and from 1.2 to 3.3 for PFOS. Ideally, a thorough analysis of hundreds of soils with variable conditions of pH, soil organic matter, different clay types, variable levels of iron and aluminum oxides, etc. could be used to explain this variability, but here we are most interested in the empirical distribution of the log Kd value itself. With this extensive data set, we would 
+
+Received: June 6, 2026 
+
+Revised: June 23, 2026 
+
+Accepted: June 24, 2026 
+
+Published: June 30, 2026   
+
+> Highlight pubs.acs.org/journal/estlcu
+> Published 2026 by American Chemical Society 862
+> https://doi.org/10.1021/acs.estlett.6c00543
+> Environ. Sci. Technol. Lett. 2026, 13, 862 −864 Downloaded via 34.34.253.108 on July 20, 2026 at 22:00:23 (UTC). See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+have a distribution of values and could pick a 5th or 95th percentile value as the threshold, depending on the level of conservatism, and an expert judgment on what seems to be representative of a wide range of conditions. Looking at the data in Table 1, we feel that a log Kd value of 0.5 for PFOA is a reasonable protective target and a log Kd value of 1.2 seems reasonable for PFOS for a derivation of thresholds because both are on the low end, but not the lowest measured. A water concentration threshold of 4 ng/L would result in backcalculated maximum allowable average vadose soil concentrations of 0.01 μg PFOA/kg of soil and 0.06 μgPFOS/kg of soil if one is hoping to prevent downward leaching of water that would exceed water quality guidelines. Those numbers are extremely low. From our experience, typical limits of detection for most commercial laboratories are usually around 1 μg/kg for the analysis of specific PFAS in soils, sewage sludge, manure, or other solids. We can also redo this calculation using a much higher threshold of 100 ng/L, which would be the current European drinking water guideline for the sum of 20 PFAS and assuming it is entirely from only PFOA or PFOS; the resulting soil quality thresholds in this case would be 0.3 μg PFOA/kg and 1.6 μgPFOS/kg. We can anticipate that, with the upcoming update to the EU Water Framework Directive, 4 there will also be an update to the EU Drinking Water Directive, which will be more strict and further reduce those thresholds. 
+
+# ■ GROUNDWATER PROTECTION 
+
+PFAS is unevenly distributed in soil. Surface-applied sludges with PFAS mix within the plough layer, but this varies with moisture. Downward movement is slowed by readsorption to lower, less-contaminated soils. Although modeling this process is complex, PFAS compounds will gradually leach with rainfall or irrigation, eventually reaching groundwater. Thus, soil threshold values should be based on the average concentrations across the vadose zone. 
+
+# ■ RECOMMENDED NORMATIVE SOIL THRESHOLD AND ITS IMPLEMENTATION 
+
+On the basis of these considerations, we propose an interim, normative soil quality guideline for PFOA and PFOS that should be 1 μg/kg to protect soil health and excessive leaching to groundwater, matching the typical reporting limits of commercial laboratories (using the aforementioned log Kd
+
+corresponds to water concentrations of 300 ng PFOA/L and 60 ng PFOS/L). Research laboratories may have lower detection limits, but for regulatory purposes, we must rely on certified commercial laboratories. We could have considered other aspects, like maximum values for plant uptake, impacts on soil fauna, or microbial processes, but these are unlikely to be more sensitive, and even if some were more sensitive, we would still be confronted with the limits of detection of commercial laboratories. This normative limit of 1 μg/kg should be seen as aspirational from a management sense. It can serve as a basis for deriving allowable concentrations in sewage sludge, biosolids, manure, and other soil amendments, accounting for dilution in soils and potential groundwater impacts. However, in PFAS-contami-nated areas, this target is challenging because large areas may exceed such a low threshold. For example, The Netherlands previously proposed a limit of 0.1 μg/kg, but this exceeded background levels of diffuse PFAS contamination and halted about 70% of soil-related projects. 11 Diffuse sources, such as rainfall and marine aerosols, may also cause concentrations above 1 μg/kg in many regions. 12 Moreover, achieving this level through remediation may be economically and environmentally unfeasible, particularly if it requires excavation or soil washing, because lower thresholds increase the volume of soil requiring treatment and the associated energy and costs. A limit of 1 μg/kg is recommended to protect water resources, but contaminated land management may require higher thresholds depending on land use and to avoid regrettable remediation. Cost −benefit and environmental impact analyses should be done in such cases to ensure that the benefits of reducing PFAS do not outweigh the environmental and health impacts of the remediation itself. Rather than removing soil, remediation in PFOS/PFOA hotspots could focus on increasing soil Kd to reduce bioavailability, mobility, leaching, and exposure, for example, through phytomanagement and stabiliz-ing agents such as biochar. 
+
+# ■ AUTHOR INFORMATION 
+
+Corresponding Authors 
+
+Sébastien Sauvé − Département de Chimie, Universit é de Montr éal, Montr éal, Quebec H3C 3J7, Canada; orcid.org/ 0000-0001-8584-1690; Email: sebastien.sauve@ umontreal.ca 
+
+Hans Peter H. Arp − Norwegian Geotechnical Institute, N-0806 Oslo, Norway; Department of Chemistry, Norwegian University of Science and Technology, NO-7491 Trondheim, Norway; orcid.org/0000-0002-0747-8838; Email: hans.peter.arp@ngi.no Complete contact information is available at: https://pubs.acs.org/10.1021/acs.estlett.6c00543 
+
+Table 1. Compilation of Kd Available in the Literature for Soils                                                                                               
+
+> type location log KdNref PFOA field-collected soils lysimeters Feucherolles, France 2.02 ±0.70 15 5field-collected soils lysimeters Colmar, France 1.02 ±0.49 45field-collected soils extracted soils Re ́union, France 0.23 ±0.41 35spiked soils extracted soils Australia 0.46 ±0.29 10 6spiked soils extracted soils Taiwan 0.66 ±0.33 57field-collected soils extracted soils Lyon, France 1.91 ±0.52 26 8PFOS field-collected soils lysimeters Feucherolles, France 3.23 ±0.90 15 5field-collected soils lysimeters Colmar, France 3.30 ±0.32 45field-collected soils extracted soils Re ́union, France 2.26 ±0.62 35spiked soils extracted soils Australia 1.18 ±0.35 10 6spiked soils extracted soils Taiwan 1.38 ±0.46 57field-collected soils extracted soils Lyon, France 2.49 ±0.66 18 8soils extracted soils USA 1.45 ±0.25 39
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Highlight  
+
+> https://doi.org/10.1021/acs.estlett.6c00543
+> Environ. Sci. Technol. Lett. 2026, 13, 862 −864
+> 863
+
+Author Contributions 
+
+The manuscript was written through contributions of all authors. All authors have given approval to the final version of the manuscript. 
+
+Notes 
+
+The authors declare no competing financial interest. 
+
+Biographies 
+
+Se ́bastien Sauve ́ is a full professor in Environmental Chemistry at the Universite ́ de Montre ́ al and holds the Canada Research Chair in the Citizen Science of Emerging Contaminants. He is a Fellow of the Royal Society of Canada and also a foreign correspondent to the Acade ́ mie d’Agriculture de France. He is the Field Chief Editor for Frontiers in Environmental Chemistry. He has studied at McGill University and Cornell University. He directs a group of about 20 students and researchers that work on a variety of subjects including contaminated soils, circular economy, blue-green algae, and ultratrace analysis using mass spectrometry, as well as the impacts of emerging contaminants on health and the environment. 
+
+Hans Peter H. Arp is an environmental chemist who explores multidisciplinary ways to prevent, manage, and reduce pollution exposure. His projects include research on the science −policy interface, interdisciplinary collaboration, and sustainable technologies to enable a zero-pollution society. He holds a Ph.D. from ETH Zu ̈rich (2008) and a professorship at the Norwegian University of Science and Technology (since 2018). He is an Associate Editor for the journal Environmental Science: Processes and Impacts (since 2024). Since 2025, he has served as a Member of the Management Board of the European Chemicals Agency (ECHA), appointed by the European Parliament. The views expressed in this Highlight do not necessarily reflect those of ECHA nor its Management Board. 
+
+# ■ ACKNOWLEDGMENTS 
+
+This project was funded through a RQRAD project (DOI: 10. 69777/355389) supported by the Quebec Ministry of Agriculture (Ministe ̀ re de l’Agriculture, des Pe ̂cheries et de l’Alimentation, MAPAQ) and the Quebec Research Fund (Fonds de recherche du Québec, FRQ). H.P.H.A. acknowledges funding from the Horizon Europe project ARAGORN under Grant Agreement 101112723 and the H2020 project ZeroPM under Grant Agreement 101036756. 
+
+# ■ REFERENCES 
+
+(1) Moavenzadeh Ghaznavi, S.; Zimmerman, C.; Shea, M. E.; MacRae, J. D.; Peckenham, J. M.; Noblet, C. L.; Apul, O. G.; Kopec, A. D. Management of per- and polyfluoroalkyl substances (PFAS)-laden wastewater sludge in Maine: Perspectives on a wicked problem. 
+
+Biointerphases 2023 , 18 (4). DOI: 10.1116/6.0002796. (2) Brusseau, M. L.; Anderson, R. H.; Guo, B. PFAS concentrations in soils: Background levels versus contaminated sites. Science of The Total Environment 2020 , 740 , 140017. (3) Sauvé, S.; Barbeau, B.; Bouchard, M. F.; Verner, M.-A.; Liu, J. How Should We Interpret the New Water Quality Regulations for Per- and Polyfluoroalkyl Substances? ACS ES &T Water 2023 , 3 (9), 2810 −
+
+2815. (4) Interinstitutional File: 2022/0344 (COD) ″Proposal for a Directive of the European Parliament and of the Council amending Directive 2000/ 60/EC establishing a framework for Community action in the field of water policy, Directive 2006/118/EC on the protection of groundwater against pollution and deterioration and Directive 2008/105/EC on environmental quality standards in the field of water policy” ; Council of the European Union, Brussels, Belgium, 2025. https://data.consilium.europa.eu/ doc/document/ST-13706-2025-INIT/en/pdf. (5) Michaud, A. M.; Dunsin Saliu, T.; Munoz, G.; Feder, F.; Sappin-Didier, V.; Watteau, F.; Houot, S.; Sauvé, S. In situ occurrence and mobility of per and polyfluoroalkyl substances in soils amended with organic waste products. Science of The Total Environment 2025 , 984 ,179708. (6) Nguyen, T. V.; Reinhard, M.; Chen, H.; Gin, K. Y. H. Fate and transport of perfluoro- and polyfluoroalkyl substances including perfluorooctane sulfonamides in a managed urban water body. 
+
+Environmental Science and Pollution Research 2016 , 23 (11), 10382 −
+
+10392. (7) Chen, Y.-C.; Lo, S.-L.; Li, N.-H.; Lee, Y.-C.; Kuo, J. Sorption of perfluoroalkyl substances (PFASs) onto wetland soils. Desalination and Water Treatment 2013 , 51 (40), 7469 −7475. (8) Morales, L.; Saliu, T. D.; Fontaine, J.; Delon, L.; Sauvé, S. Soil −
+
+Water Distribution Coefficients (Kd) of PFAS in Field-Collected Contaminated Soils from Lyon, France. Environ. Res. 2026 , 306 ,125071. (9) Ellefson, M. Soil Adsorption/Desorption Study of Potassium Perfluorooctanesulfonate (PFOS) ; 2000. https://cdn.toxicdocs.org/3J/ 3J88ZY2ozbY9nO5oGnr8rGNp3/3J88ZY2ozbY9nO5oGnr8rGNp3. pdf (accessed 2026-06-19). (10) PFAS National Primary Drinking Water Regulation Rulemaking ;U.S. EPA, 2023. https://www.federalregister.gov/documents/2023/ 03/29/2023-05471/pfas-national-primary-drinking-water-regulation-rulemaking (accessed 2026-06-19). (11) Ministers aim to relax PFAS pollution rules after new limit halts earth-moving work ; Dutch News, 2019. https://www.dutchnews.nl/ 2019/10/ministers-aim-to-relax-pfas-pollution-rules-after-new-limit-halts-earth-moving-work/ (accessed 2026-06-19). (12) Cousins, I. T.; Johansson, J. H.; Salter, M. E.; Sha, B.; Scheringer, M. Outside the Safe Operating Space of a New Planetary Boundary for Per- and Polyfluoroalkyl Substances (PFAS). Environ. Sci. Technol. 
+
+2022 , 56 (16), 11172 −11179. 
+
+Environmental Science & Technology Letters pubs.acs.org/journal/estlcu Highlight
