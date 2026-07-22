@@ -6779,7 +6779,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -7550,6 +7550,182 @@
     "updated_at": "2026-07-20T20:58:51.801738+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03527",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03527",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03343",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03343",
+    "doi": "10.1021/acs.est.6c03343",
+    "title": "Greenland Emissions Contribute to Black Carbon Aerosols in the Arctic Marine Boundary Layer",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Xiaomi Teng",
+      "Mao Du",
+      "Congbo Song",
+      "Yuqing Dai",
+      "Vipul Lal Chandani",
+      "David C. S. Beddows",
+      "Manuel Dall’Osto",
+      "Darrel Baumgardner",
+      "Roy M. Harrison",
+      "James Brean",
+      "Mingxi Yang",
+      "Yangmei Zhang",
+      "Weijun Li",
+      "Zongbo Shi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-22T00:00:00+00:00",
+    "updated_at": "2026-07-22T19:58:16.099932+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03343",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03343",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01721",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01721",
+    "doi": "10.1021/acs.est.6c01721",
+    "title": "Predicting PFAS Exposure Risks from Rural Private Wells Using Integrated Mechanistic and Machine-Learned Bayesian Network Models",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Hana Chmielewski Long",
+      "Rohit Warrier",
+      "Krishna Ganta",
+      "Riley Mulhern",
+      "Ted Lillys",
+      "Jennifer Hoponick Redmon",
+      "Jacqueline MacDonald Gibson"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-21T00:00:00+00:00",
+    "updated_at": "2026-07-22T19:58:16.100475+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01721",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01721",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Bayesian network",
+      "Computer science",
+      "Risk analysis (engineering)",
+      "Network model",
+      "Bayesian probability",
+      "Environmental science",
+      "Network analysis",
+      "Risk assessment"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03864",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03864",
+    "doi": "10.1021/acs.est.6c03864",
+    "title": "Understanding and Reporting PFAS Exposure: Wide-Scope Retrospective Suspect Screening of High-Resolution Mass Spectrometry Data from Exposomics Studies",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lapo Renai",
+      "Federica Calabró",
+      "Viktoriia Turkina",
+      "Pradeep Dewapriya",
+      "Kevin V. Thomas",
+      "Stefano Papazian",
+      "Saer Samanipour"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-21T00:00:00+00:00",
+    "updated_at": "2026-07-22T19:58:16.100630+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03864",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03864",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
