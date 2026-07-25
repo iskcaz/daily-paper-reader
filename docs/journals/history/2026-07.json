@@ -7623,7 +7623,8 @@
     "metadata_sources": [
       "crossref",
       "docs-meta",
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7644,6 +7645,11 @@
       "Atmospheric sciences",
       "Oceanography",
       "Carbon fibers"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ]
   },
   {
@@ -7818,7 +7824,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7827,7 +7835,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Anaerobic digestion",
+      "Digestate",
+      "Wastewater",
+      "Chromatography",
+      "Pulp and paper industry",
+      "Adsorption",
+      "Bioreactor"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c06158",
@@ -7871,7 +7896,9 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
@@ -7880,7 +7907,24 @@
       "est"
     ],
     "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ecology",
+      "Ecosystem",
+      "Microbial population biology",
+      "Metagenomics",
+      "Dominance (genetics)",
+      "Niche",
+      "Environmental science",
+      "Biology"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ]
   },
   {
     "id": "journal-10-1021-acs-est-6c04284",
@@ -8296,13 +8340,318 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "docs-meta"
+      "docs-meta",
+      "openalex",
+      "semantic_scholar"
     ],
     "tags": [
       "environmental-science",
       "journal-watch",
       "core-journal",
       "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction.",
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Neuroinflammation",
+      "Neurotoxicity",
+      "Microglia",
+      "Carboxylic acid",
+      "Rodent",
+      "Chemistry",
+      "Biology",
+      "Neuroscience"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00181",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00181",
+    "doi": "10.1021/acs.est.6c00181",
+    "title": "Atmospheric Mixing Controls Air Pollution Chemistry and Mitigation Efficacy in High-Latitude Cities",
+    "abstract": "Urban air pollution in cold environments poses a significant public health risk. However, the physicochemical processes determining the concentrations of primary and secondary pollutants remain poorly understood. This is due to fundamentally different conditions compared to warmer environments, such as extremely shallow polluted surface layers (PSLs) and low ultraviolet radiation. We apply an observation-driven chemical transport model to a multiday persistent PSL event during the 2022 Alaskan Layered Pollution and Chemical Analysis (ALPACA) experiment in Fairbanks, AK, USA. The simulations account for pollutant emissions, multiphase chemical kinetics, and turbulent and advective exchange of PSL air with the clean background atmosphere. This exchange is continuous, occurs on a time scale of 30 min to 3.5 h, and is essential for an accurate representation of the PSL composition. We find that measured diurnal cycles of particulate nitrate reflect the interplay between photochemical nitric acid formation and the loss of nitrate aerosol from of the PSL through mixing with clean background air. The continuous removal and replenishment of PSL aerosol counteracts self-acidification and prevents coagulation with acidic primary sulfate aerosol, thus sustaining sulfate and hydromethanesulfonate (HMS) formation throughout the pollution event. Sensitivity calculations show that within the coupled chemistry and transport system of a shallow PSL, reductions of nitrogen oxide emissions can change the multiphase oxidation regime and thereby even increase the levels of secondary nitrate and sulfate in the PSL.",
+    "authors": [
+      "Jonas Kuhn",
+      "Laura M. D. Heinlein",
+      "Meeta Cesler-Maloney",
+      "Michael O. Sunday",
+      "Fangzhou Guo",
+      "James H. Flynn",
+      "Allison Moon",
+      "Becky Alexander",
+      "William R. Simpson",
+      "Cort Anastasio",
+      "Jochen Stutz"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-23T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.185006+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00181",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00181",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00181?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Nitrate",
+      "Aerosol",
+      "Chemistry",
+      "Sulfate",
+      "Pollutant",
+      "Pollution",
+      "Environmental chemistry",
+      "Particulates"
+    ],
+    "citation_count": 1,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04020",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04020",
+    "doi": "10.1021/acs.est.6c04020",
+    "title": "Iron-Rich Clay Minerals Mediate Abiotic Methane Formation through Distinct Fe Coordination Environments",
+    "abstract": "Methane (CH 4 ) plays a central role in the global carbon cycle, yet the contribution of abiotic processes to natural CH 4 emissions remains poorly constrained, particularly in iron-rich sedimentary environments. Here, we demonstrate that ubiquitous iron-rich clay minerals, including Fe 3+ -exchanged montmorillonite (Fe 3+ -MMT) and ferric nontronite (NAu), catalyze abiotic CH 4 formation from methylated organic substrates under environmentally relevant redox conditions. Both minerals enhance CH 4 formation relative to dissolved Fe 3+ but exhibit contrasting formation kinetics and product selectivity arising from differences in Fe coordination and mineral structure. Fe 3+ -MMT generates rapid CH 4 pulses through interlayer-confined redox cycling, whereas NAu supports slower yet sustained CH 4 formation through gradual activation of structural Fe. Spectroscopic analyses combined with density functional theory calculations reveal that mineral structure regulates Fe(IV)═O generation and stabilizes methyl radicals, thereby suppressing overoxidation. Compared with homogeneous Fe 3+ systems, clay-catalyzed reactions reduced CO/CO 2 formation by 42–62%. CH 4 yields are further modulated by pH, temperature, inorganic cations, and organic ligands. These findings identify iron-rich clays as mineralogical controls on abiotic CH 4 -forming pathways and highlight their potential role in sedimentary carbon cycling and methylated organic compound transformation.",
+    "authors": [
+      "Ying Yan",
+      "Jianlong Zou",
+      "Hao Wang",
+      "Menghan Yu",
+      "Huaming Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-23T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.184833+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04020",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04020",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Nontronite",
+      "Abiotic component",
+      "Clay minerals",
+      "Montmorillonite",
+      "Methane",
+      "Environmental chemistry",
+      "Redox"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00610",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00610",
+    "doi": "10.1021/acs.est.6c00610",
+    "title": "Electrochemical Formation of N -Nitrosodimethylamine in Nitrite-Impacted Waters",
+    "abstract": "Electrochemical water treatment is increasingly popular for a variety of applications, including resource recovery and advanced oxidation processes. In complex environmental matrices, electro-oxidative processes are known to form hazardous byproducts. This study identifies a new pathway for N -nitrosodimethylamine (NDMA) formation via nitrite electro-oxidation in spiked synthetic and natural electrolytes. In a novel flow-through electrochemical cell, NDMA formation was observed from 1 mg/L N nitrite and 100 μg/L dimethylamine, yielding 169–553 ng/L NDMA in a 1 mM Na 2 SO 4 electrolyte and 189–715 ng/L NDMA in a drinking water treatment plant matrix across various cell potentials (2–12 V and 2–10 V, respectively), exceeding the resident tap water regional screening level for NDMA (0.11 ng/L) by over 1000-fold. Uniquely, formation exclusively occurred in cathode-to-anode flow. Voltammetric data and mechanistic insights are consistent with a cathodic process increasing downstream pH, consequently facilitating amine deprotonation and enabling its nitrosation via N 2 O 4 generated from nitrite oxidation. Generally, nitrite or chloride oxidation activity monitoring (via chlorine residual measurement) was not predictive of nitrosamine yield, and direct measurement of nitrosamines using sensitive analytical techniques (limit of quantification: 55 ng/L) was necessary. This work highlights the understudied formation potential for toxic nitrogenous byproducts in emerging electrochemical treatment technologies, particularly in nitrate recovery contexts.",
+    "authors": [
+      "Barathkumar Baskaran",
+      "Michelle Wang",
+      "Kristen A. Riedinger",
+      "Glen Andrew D. de Vera",
+      "Elijah E. Martin",
+      "Chad D. Vecitis",
+      "Desiree L. Plata"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-22T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.185474+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00610",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00610",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrite",
+      "Chemistry",
+      "Nitrate",
+      "Nitrosamine",
+      "Electrochemistry",
+      "Chlorine",
+      "Inorganic chemistry",
+      "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02708",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02708",
+    "doi": "10.1021/acs.est.6c02708",
+    "title": "Increased Support Layer Hydraulic Resistance Partially Explains Permeability Loss in High-Pressure Reverse Osmosis",
+    "abstract": "(61% reduction). Selective removal of the polyamide active layer enabled direct measurement of compacted support permeability. Despite a substantial drop (90% reduction) in support permeability, a resistance-in-series analysis suggested that bulk support densification accounted for only 32% of the total TFC permeability decline. Incorporating the effects of 20-30% elastic deformation, measured through uniaxial compression testing, increased the estimated support-layer contribution but still could not fully explain the observed permeability decline, suggesting a persistent resistance beyond bulk deformation. Support surface characterization revealed a 41% decrease in mean surface pore diameter. A resistance analysis suggests that residual permeability loss (∼57% at 100 bar) may stem from polyamide nodules becoming disconnected from underlying open pores (i.e., increased interfacial resistance between the selective and support layers), though direct experimental confirmation of this mechanism remains a direction for future work. These findings suggest that permeability loss under HPRO compaction is governed by both support hydraulic resistance and an interlayer transport limitation, requiring membrane designs that preserve bulk integrity and surface pore accessibility under high pressure.",
+    "authors": [
+      "Sima Zeinali Danalou",
+      "Hongchen Wang",
+      "Niher R. Sarker",
+      "Nan Zhang",
+      "Jordan Fidelino",
+      "Jiahao Zhu",
+      "Fiona Chang",
+      "Gawtham Senthilvelan",
+      "Patrick C. Lee",
+      "Jason Hattrick-Simpers",
+      "Jay R. Werber"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-22T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.185354+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02708",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02708",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Reverse osmosis",
+      "Permeability (electromagnetism)",
+      "Hydraulic resistance",
+      "Layer (electronics)",
+      "Materials science",
+      "Osmosis",
+      "Hydraulic conductivity",
+      "Geotechnical engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

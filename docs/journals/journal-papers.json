@@ -1,12 +1,86 @@
 [
   {
+    "id": "journal-10-1021-acs-est-6c00181",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00181",
+    "doi": "10.1021/acs.est.6c00181",
+    "title": "Atmospheric Mixing Controls Air Pollution Chemistry and Mitigation Efficacy in High-Latitude Cities",
+    "abstract": "Urban air pollution in cold environments poses a significant public health risk. However, the physicochemical processes determining the concentrations of primary and secondary pollutants remain poorly understood. This is due to fundamentally different conditions compared to warmer environments, such as extremely shallow polluted surface layers (PSLs) and low ultraviolet radiation. We apply an observation-driven chemical transport model to a multiday persistent PSL event during the 2022 Alaskan Layered Pollution and Chemical Analysis (ALPACA) experiment in Fairbanks, AK, USA. The simulations account for pollutant emissions, multiphase chemical kinetics, and turbulent and advective exchange of PSL air with the clean background atmosphere. This exchange is continuous, occurs on a time scale of 30 min to 3.5 h, and is essential for an accurate representation of the PSL composition. We find that measured diurnal cycles of particulate nitrate reflect the interplay between photochemical nitric acid formation and the loss of nitrate aerosol from of the PSL through mixing with clean background air. The continuous removal and replenishment of PSL aerosol counteracts self-acidification and prevents coagulation with acidic primary sulfate aerosol, thus sustaining sulfate and hydromethanesulfonate (HMS) formation throughout the pollution event. Sensitivity calculations show that within the coupled chemistry and transport system of a shallow PSL, reductions of nitrogen oxide emissions can change the multiphase oxidation regime and thereby even increase the levels of secondary nitrate and sulfate in the PSL.",
+    "authors": [
+      "Jonas Kuhn",
+      "Laura M. D. Heinlein",
+      "Meeta Cesler-Maloney",
+      "Michael O. Sunday",
+      "Fangzhou Guo",
+      "James H. Flynn",
+      "Allison Moon",
+      "Becky Alexander",
+      "William R. Simpson",
+      "Cort Anastasio",
+      "Jochen Stutz"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-23T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.185006+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00181",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00181",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00181?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Nitrate",
+      "Aerosol",
+      "Chemistry",
+      "Sulfate",
+      "Pollutant",
+      "Pollution",
+      "Environmental chemistry",
+      "Particulates"
+    ],
+    "citation_count": 1,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": true
+  },
+  {
     "id": "journal-10-1021-acs-est-6c01981",
     "source": "journal",
     "source_detail": "crossref",
     "source_paper_id": "10.1021/acs.est.6c01981",
     "doi": "10.1021/acs.est.6c01981",
     "title": "Dual-Stage Membrane Distillation for One-Step Separation, Concentration of Volatile Fatty Acids, and Simultaneous Water Recovery from Wastewater",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "The anaerobic digestate generated from municipal sludge treatment contains abundant volatile fatty acids (VFAs), which hold great recovery value due to their wide utility in the food, pharmaceutical, and chemical industries. However, conventional recovery technologies are confronted with inferior purity and low concentration of the VFA product because of their poor VFA selectivity over competing species and low efficiency in separating VFAs from water. In this study, a novel dual-stage membrane distillation (MD) coupled with alkali adsorption was designed to achieve one-step VFA separation, concentration, and simultaneous water recovery. When treating real anaerobic digestion wastewater, the system achieved a VFA recovery of 86.2%, VFA concentration of 103.3 g L –1, concentration factor of 20.3, and water recovery of 62.8%, which were the best performances reported to date. A literature review elucidates that the concentration, concentration factor, and purity of the obtained VFA product are far superior to those of the state-of-the-art technologies. Moreover, the system also exhibited excellent stability during 192 h of continuous operation with real wastewater. This study demonstrates the great potential of the dual-stage MD for separating and concentrating VFAs from anaerobic digestion wastewater, providing a novel solution for volatile component recovery.",
     "authors": [
       "Lingxi Xia",
       "Qinghao Wu",
@@ -32,7 +106,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190313+00:00",
+    "updated_at": "2026-07-25T20:02:07.184801+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01981",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01981",
     "pdf_url": null,
@@ -48,6 +122,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -55,6 +131,92 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Anaerobic digestion",
+      "Digestate",
+      "Wastewater",
+      "Chromatography",
+      "Pulp and paper industry",
+      "Adsorption",
+      "Bioreactor"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04020",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04020",
+    "doi": "10.1021/acs.est.6c04020",
+    "title": "Iron-Rich Clay Minerals Mediate Abiotic Methane Formation through Distinct Fe Coordination Environments",
+    "abstract": "Methane (CH 4 ) plays a central role in the global carbon cycle, yet the contribution of abiotic processes to natural CH 4 emissions remains poorly constrained, particularly in iron-rich sedimentary environments. Here, we demonstrate that ubiquitous iron-rich clay minerals, including Fe 3+ -exchanged montmorillonite (Fe 3+ -MMT) and ferric nontronite (NAu), catalyze abiotic CH 4 formation from methylated organic substrates under environmentally relevant redox conditions. Both minerals enhance CH 4 formation relative to dissolved Fe 3+ but exhibit contrasting formation kinetics and product selectivity arising from differences in Fe coordination and mineral structure. Fe 3+ -MMT generates rapid CH 4 pulses through interlayer-confined redox cycling, whereas NAu supports slower yet sustained CH 4 formation through gradual activation of structural Fe. Spectroscopic analyses combined with density functional theory calculations reveal that mineral structure regulates Fe(IV)═O generation and stabilizes methyl radicals, thereby suppressing overoxidation. Compared with homogeneous Fe 3+ systems, clay-catalyzed reactions reduced CO/CO 2 formation by 42–62%. CH 4 yields are further modulated by pH, temperature, inorganic cations, and organic ligands. These findings identify iron-rich clays as mineralogical controls on abiotic CH 4 -forming pathways and highlight their potential role in sedimentary carbon cycling and methylated organic compound transformation.",
+    "authors": [
+      "Ying Yan",
+      "Jianlong Zou",
+      "Hao Wang",
+      "Menghan Yu",
+      "Huaming Yang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-23T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.184833+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04020",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04020",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chemistry",
+      "Nontronite",
+      "Abiotic component",
+      "Clay minerals",
+      "Montmorillonite",
+      "Methane",
+      "Environmental chemistry",
+      "Redox"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -66,7 +228,7 @@
     "source_paper_id": "10.1021/acs.est.6c06158",
     "doi": "10.1021/acs.est.6c06158",
     "title": "Microplastic Pollution Is Associated with Fragmentation and Environmental Sensitivity of Marine Planktonic Microbial Communities",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "The effects of increasing marine microplastic (MP) pollution on the microbial community structure and function remain uncertain, particularly under natural conditions. Specifically, our study focuses on free-living marine microbial communities (0.8–5 μm) rather than plastisphere biofilms. Here, we systematically evaluated differences in microbial community responses to environmental gradients across MP concentration regimes on the basis of a response modulation analysis framework (RMAF). In this framework, co-occurrence network analysis, random forest modeling, and SHapley Additive exPlanations (SHAP) and partial dependence-based interpretation methods are integrated to quantify changes in microbial sensitivity and ecological interactions. Through the use of Tara Oceans metagenomic data, we analyzed seven functional gene categories and species diversity across MP concentration gradients. High-MP environments (with concentrations exceeding 5,500 items·km –2 ) were characterized by a notable decrease in nondominant taxa (from 17–21% to 6.53–9.45%) alongside increased dominance of abundant species. The functional profiles showed higher abundance levels of genes involved in carbon, nitrogen, and sulfur cycling. The results of network analysis indicated reduced connectivity and increased fragmentation, suggesting weakened ecological interactions and decreased system stability. Microbial communities in high-MP environments exhibited increased sensitivity to environmental drivers, characterized by response centralization and niche compression, suggesting a narrower range of environmental responses. MPs were associated with high microbial functional activity and potential indications of low ecosystem resilience.",
     "authors": [
       "Rui Ma",
       "Guanlin Guo",
@@ -85,7 +247,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190367+00:00",
+    "updated_at": "2026-07-25T20:02:07.184867+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06158",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06158",
     "pdf_url": null,
@@ -101,6 +263,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -108,6 +272,23 @@
       "journal-watch",
       "core-journal",
       "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Ecology",
+      "Ecosystem",
+      "Microbial population biology",
+      "Metagenomics",
+      "Dominance (genetics)",
+      "Niche",
+      "Environmental science",
+      "Biology"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -142,7 +323,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190816+00:00",
+    "updated_at": "2026-07-25T20:02:07.185447+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04284",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04284",
     "pdf_url": null,
@@ -213,7 +394,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190697+00:00",
+    "updated_at": "2026-07-25T20:02:07.185294+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05684",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05684",
     "pdf_url": null,
@@ -283,7 +464,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190509+00:00",
+    "updated_at": "2026-07-25T20:02:07.185079+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00809",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00809",
     "pdf_url": null,
@@ -330,6 +511,77 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c00610",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00610",
+    "doi": "10.1021/acs.est.6c00610",
+    "title": "Electrochemical Formation of N -Nitrosodimethylamine in Nitrite-Impacted Waters",
+    "abstract": "Electrochemical water treatment is increasingly popular for a variety of applications, including resource recovery and advanced oxidation processes. In complex environmental matrices, electro-oxidative processes are known to form hazardous byproducts. This study identifies a new pathway for N -nitrosodimethylamine (NDMA) formation via nitrite electro-oxidation in spiked synthetic and natural electrolytes. In a novel flow-through electrochemical cell, NDMA formation was observed from 1 mg/L N nitrite and 100 μg/L dimethylamine, yielding 169–553 ng/L NDMA in a 1 mM Na 2 SO 4 electrolyte and 189–715 ng/L NDMA in a drinking water treatment plant matrix across various cell potentials (2–12 V and 2–10 V, respectively), exceeding the resident tap water regional screening level for NDMA (0.11 ng/L) by over 1000-fold. Uniquely, formation exclusively occurred in cathode-to-anode flow. Voltammetric data and mechanistic insights are consistent with a cathodic process increasing downstream pH, consequently facilitating amine deprotonation and enabling its nitrosation via N 2 O 4 generated from nitrite oxidation. Generally, nitrite or chloride oxidation activity monitoring (via chlorine residual measurement) was not predictive of nitrosamine yield, and direct measurement of nitrosamines using sensitive analytical techniques (limit of quantification: 55 ng/L) was necessary. This work highlights the understudied formation potential for toxic nitrogenous byproducts in emerging electrochemical treatment technologies, particularly in nitrate recovery contexts.",
+    "authors": [
+      "Barathkumar Baskaran",
+      "Michelle Wang",
+      "Kristen A. Riedinger",
+      "Glen Andrew D. de Vera",
+      "Elijah E. Martin",
+      "Chad D. Vecitis",
+      "Desiree L. Plata"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-22T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.185474+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00610",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00610",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Nitrite",
+      "Chemistry",
+      "Nitrate",
+      "Nitrosamine",
+      "Electrochemistry",
+      "Chlorine",
+      "Inorganic chemistry",
+      "Environmental chemistry"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c05830",
     "source": "journal",
     "source_detail": "crossref",
@@ -358,7 +610,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190604+00:00",
+    "updated_at": "2026-07-25T20:02:07.185185+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05830",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05830",
     "pdf_url": null,
@@ -411,7 +663,7 @@
     "source_paper_id": "10.1021/acs.est.6c03343",
     "doi": "10.1021/acs.est.6c03343",
     "title": "Greenland Emissions Contribute to Black Carbon Aerosols in the Arctic Marine Boundary Layer",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "). Mixing-state analysis shows that 54% of soot particles in coastal air masses were externally mixed, consistent with relatively fresh emissions, whereas most soot particles over the open sea and sea-ice regions were internally mixed, indicative of aged, transported aerosol. FLEXPART modeling suggests BC enhancements along the Greenland coast. Our data indicate that Greenland acts as a regional source of BC to the Arctic marine boundary layer in late spring and early summer, when midlatitude transport is weak.",
     "authors": [
       "Xiaomi Teng",
       "Mao Du",
@@ -436,7 +688,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190485+00:00",
+    "updated_at": "2026-07-25T20:02:07.185049+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03343",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03343",
     "pdf_url": null,
@@ -453,6 +705,7 @@
     "metadata_sources": [
       "crossref",
       "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -472,6 +725,86 @@
       "Atmospheric sciences",
       "Oceanography",
       "Carbon fibers"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02708",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02708",
+    "doi": "10.1021/acs.est.6c02708",
+    "title": "Increased Support Layer Hydraulic Resistance Partially Explains Permeability Loss in High-Pressure Reverse Osmosis",
+    "abstract": "(61% reduction). Selective removal of the polyamide active layer enabled direct measurement of compacted support permeability. Despite a substantial drop (90% reduction) in support permeability, a resistance-in-series analysis suggested that bulk support densification accounted for only 32% of the total TFC permeability decline. Incorporating the effects of 20-30% elastic deformation, measured through uniaxial compression testing, increased the estimated support-layer contribution but still could not fully explain the observed permeability decline, suggesting a persistent resistance beyond bulk deformation. Support surface characterization revealed a 41% decrease in mean surface pore diameter. A resistance analysis suggests that residual permeability loss (∼57% at 100 bar) may stem from polyamide nodules becoming disconnected from underlying open pores (i.e., increased interfacial resistance between the selective and support layers), though direct experimental confirmation of this mechanism remains a direction for future work. These findings suggest that permeability loss under HPRO compaction is governed by both support hydraulic resistance and an interlayer transport limitation, requiring membrane designs that preserve bulk integrity and surface pore accessibility under high pressure.",
+    "authors": [
+      "Sima Zeinali Danalou",
+      "Hongchen Wang",
+      "Niher R. Sarker",
+      "Nan Zhang",
+      "Jordan Fidelino",
+      "Jiahao Zhu",
+      "Fiona Chang",
+      "Gawtham Senthilvelan",
+      "Patrick C. Lee",
+      "Jason Hattrick-Simpers",
+      "Jay R. Werber"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-22T00:00:00+00:00",
+    "updated_at": "2026-07-25T20:02:07.185354+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02708",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02708",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "semantic_scholar",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Reverse osmosis",
+      "Permeability (electromagnetism)",
+      "Hydraulic resistance",
+      "Layer (electronics)",
+      "Materials science",
+      "Osmosis",
+      "Hydraulic conductivity",
+      "Geotechnical engineering"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "semantic_fields_of_study": [
+      "Medicine"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
@@ -501,7 +834,7 @@
       "est"
     ],
     "published": "2026-07-21T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190886+00:00",
+    "updated_at": "2026-07-25T20:02:07.185538+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01721",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01721",
     "pdf_url": null,
@@ -578,7 +911,7 @@
       "est"
     ],
     "published": "2026-07-21T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.190863+00:00",
+    "updated_at": "2026-07-25T20:02:07.185509+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05476",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05476",
     "pdf_url": null,
@@ -631,7 +964,7 @@
     "source_paper_id": "10.1021/acs.estlett.6c00433",
     "doi": "10.1021/acs.estlett.6c00433",
     "title": "Brain Response after Exposure to Fluorotelomer Carboxylic Acid: Evidence of Region-Specific Neuroinflammation and Behavioral Remodeling in Avian and Rodent Models",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "abstract": "Poly- and perfluoroalkyl substances (PFAS) are persistent organic pollutants that pose health and environmental concerns. Although a few legacy PFAS are regulated, the toxicity of less scrutinized substances, precursors, and breakdown products is not well investigated. Fluorotelomer alcohols (FTOHs) are volatile precursors to perfluorinated carboxylic acids, including 7:3 fluorotelomer carboxylic acid (7:3FTCA), which is increasingly found in wildlife tissues. This study investigates the neurotoxicity of 7:3FTCA at an environmentally relevant concentration, using a comparative approach in gull embryos and adult mice. In gulls, 7:3FTCA exposure via egg injection induced significant neuroinflammation specifically in the pallium. In mice, a three-week exposure via food intake caused behavioral remodeling, marked by reduced photophobia and increased social interaction. Behavioral alteration in mice was associated with a 20% increase in prefrontal cortex (PFC) calcium activity and microglial activation. Our study reveals region-specific sensitivity (pallium/PFC) without overt neuronal loss, suggesting that 7:3FTCA drives functional brain remodeling, possibly through microglia-mediated pathways rather than acute cell death. These findings provide the first evidence of a neurotoxic response to fluorotelomer carboxylic acids in wildlife and laboratory models, highlighting a critical need to reassess the neurological risks of PFASs beyond legacy compounds.",
     "authors": [
       "Jerome Badaut",
       "Christophe J. Dubois",
@@ -653,7 +986,7 @@
       "est-letters"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.485789+00:00",
+    "updated_at": "2026-07-25T20:02:07.777571+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00433",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00433",
     "pdf_url": null,
@@ -669,6 +1002,8 @@
     "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
+      "openalex",
+      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -677,6 +1012,20 @@
       "core-journal",
       "est-letters"
     ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Neuroinflammation",
+      "Neurotoxicity",
+      "Microglia",
+      "Carboxylic acid",
+      "Rodent",
+      "Chemistry",
+      "Biology",
+      "Neuroscience"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
@@ -703,7 +1052,7 @@
       "est-letters"
     ],
     "published": "2026-07-17T00:00:00+00:00",
-    "updated_at": "2026-07-24T20:08:04.485914+00:00",
+    "updated_at": "2026-07-25T20:02:07.777725+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00068",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00068",
     "pdf_url": null,
@@ -11588,6 +11937,51 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c03864",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03864",
+    "doi": "10.1021/acs.est.6c03864",
+    "title": "Understanding and Reporting PFAS Exposure: Wide-Scope Retrospective Suspect Screening of High-Resolution Mass Spectrometry Data from Exposomics Studies",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lapo Renai",
+      "Federica Calabró",
+      "Viktoriia Turkina",
+      "Pradeep Dewapriya",
+      "Kevin V. Thomas",
+      "Stefano Papazian",
+      "Saer Samanipour"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-21",
+    "link": "https://doi.org/10.1021/acs.est.6c03864",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03864",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c04106",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -11657,51 +12051,6 @@
     "published": "2026-07-19",
     "link": "https://doi.org/10.1021/acs.est.6c04194",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04194",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_label": "EST",
-    "publisher": "",
-    "source_weight": 10,
-    "metadata_sources": [
-      "docs-meta"
-    ],
-    "tags": [
-      "query:environmental-science",
-      "query:journal-watch",
-      "query:core-journal",
-      "query:est",
-      "query:EST"
-    ],
-    "open_pdf_source": "",
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03864",
-    "source": "journal",
-    "source_detail": "docs-meta",
-    "source_paper_id": "10.1021/acs.est.6c03864",
-    "doi": "10.1021/acs.est.6c03864",
-    "title": "Understanding and Reporting PFAS Exposure: Wide-Scope Retrospective Suspect Screening of High-Resolution Mass Spectrometry Data from Exposomics Studies",
-    "abstract": "No abstract was available from the journal metadata sources for this paper.",
-    "authors": [
-      "Lapo Renai",
-      "Federica Calabró",
-      "Viktoriia Turkina",
-      "Pradeep Dewapriya",
-      "Kevin V. Thomas",
-      "Stefano Papazian",
-      "Saer Samanipour"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch"
-    ],
-    "published": "2026-07-21",
-    "link": "https://doi.org/10.1021/acs.est.6c03864",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03864",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",

@@ -1,0 +1,1650 @@
+Title: 30045065
+
+URL Source: https://www.medrxiv.org/content/medrxiv/early/2025/12/05/2025.01.04.25319877.full.pdf
+
+Published Time: Sat, 25 Jul 2026 21:22:30 GMT
+
+Number of Pages: 36
+
+Markdown Content:
+Freeze -drying as a Novel Concentrating Method for Wastewater Detection of 1
+
+SARS -CoV -22
+
+Rui Dong a, Elizabeth Noriega Landa a, Hugues Ouellet b, Wen -Yee Lee a, Chuan Xiao a*3
+
+> a
+
+Department of C hemistry and Biochemistry , The University of Texas at El Paso , 500 W. 4
+
+University Ave , El Paso, TX 79902, USA 5
+
+> b
+
+Department of Biological Science s, The University of Texas at El Paso , 500 W. University Ave ,6
+
+El Paso, TX 79902, USA 7
+
+Abstract 8
+
+Detecting viral RNA from wastewater has emerged as a cost -effective approach for community -9
+
+level surveillance during the recent SARS -CoV -2 pandemic. Although various concentrati ng 10 
+
+methods have been developed, none are optimal for all key requirements for wastewater viral 11 
+
+detection . Freeze -drying, a technique widely used for concentrating and preserving biological 12 
+
+materials, remains underexplored for this purpose. This study compared the performance of 13 
+
+freeze -drying and centrifugal ultrafiltration in terms of recovery efficiency, detection limit, and 14 
+
+other key parameters. Early pandemic samples in this study , with extremely low viral 15 
+
+concentrations , offered an ideal benchmark to assess their suitability for early -warning 16 
+
+applications. Statistical analyses showed that freeze -drying achieved significantly higher 17 
+
+recovery efficiency (20.2 ± 3. 8% vs. 12.9 ± 2.0%), superior detection ratio (68.4% vs. 31.6%), 18 
+
+and lower detection limit (0.06 vs. 0.35 copies/mL) compared to centrifugal ultrafiltration. To 19 
+
+our knowledge, this is the first study to apply freeze -drying for wastewater -based viral detection. 20 
+
+Despite its longer processing time, freeze -drying offers multiple advantages, including 21 
+
+elimination of pretreatment steps, flexible storage, reduced RNA degradation under cryogenic 22 
+
+conditions, minimal pathogen exposure, lower labor demands , and less human interference 23 
+
+during processing . These features position freeze -drying as a novel alternative for wastewater -24 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+> NOTE: This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.
+
+based viral surveillance, particularly for developing early -warning systems in resource -limited 25 
+
+settings. 26 
+
+> 27
+
+Keywords : wastewater; viral RNA detection ; SARS -CoV -2; concentrating ; freeze -drying; 28 
+
+centrifugal ultrafiltration .29 
+
+* Corresponding Author. Tel.: +01 -915 -747 -8657 30 
+
+Email Address:  cxiao@utep.edu 31 
+
+1. Introduction 32 
+
+Coronavirus disease 2019 (COVID -19) is caused by the Severe Acute Respiratory Syndrome 33 
+
+Coronavirus 2 (SARS -CoV -2), a single -stranded RNA virus. The World Health Organization has 34 
+
+classified COVID -19 as a global pandemic. As of December 15, 2024, over 7 million deaths 35 
+
+have been reported worldwide .1,2 Timely detection and monitoring of the virus at the early stage s36 
+
+of a pandemic are crucial to mitigate its spread , and wastewater surveillance has emerged as a 37 
+
+recognized and effective approach . Notably, in March 2020, Medema et al. reported the first 38 
+
+detection of SARS -CoV -2 RNA in wastewater in the Netherlands , preceding major outbreaks in 39 
+
+various regions .3-5 Quantifying SARS -CoV -2 viral RNA in sewage offers the possibility for 40 
+
+develop ing an early alarm system , provid ing valuable insights into disease prevalence , and 41 
+
+allowing public health authorities more time to intervene . Thus, a sensitive and cost -effective 42 
+
+method will be desirable for such applications. 43 
+
+Nevertheless, assessing viral load within wastewater presents challenges due to the variable 44 
+
+composition of sewage. Wastewater comprises both liquid and solid phases , each might contain 45 
+
+viral signals .3 Moreover, the composition of wastewater is influenced by numerous factors, 46 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+including local precipitation, drought conditions, temperature fluctuations, and water usage 47 
+
+patterns .4 Therefore, the concentration of virus es in wastewater can fluctuate widely . In addition, 48 
+
+nuclease s in the environment can potentially degrade nucleic acids, particularly RNA ,49 
+
+representing another significant factor impacting detectable vir al RNA concentration in 50 
+
+wastewater .5 Considering all these variables , detecting minute quantities of specific pathogens in 51 
+
+the complex matrix of wastewater represents a substantial challenge, necessitating a proper 52 
+
+sample concentrating method to maximize preservation of signal for subsequent detection. 53 
+
+To tackle these challenges, a concentrating method should be developed specifically to address 54 
+
+the properties of wastewater. An effective method must efficiently collect viruses from both 55 
+
+wastewater phases while protecting viral genomic materials from degradation. The method 56 
+
+should avoid (1) pretreatments such as prefiltration that could result in loss of the viruses 57 
+
+associated with solid particles ;6,7 (2) a ddition of chemicals that may inhibit downstream 58 
+
+detection. 8–10 Additionally, especially for RNA virus es , the approach should minimize the 59 
+
+degradation caused by ubiquitous environmental RNases. 11 Given the very low vir al load during 60 
+
+early and late pandemic stages (Figure 1a), the recovery rate and detection limit of concentrating 61 
+
+method will be the most critical criteri on . For resource -limited facilities such as those wastewater 62 
+
+treatment plants , the concentrating method should be easy to establish without specialized 63 
+
+personnel training. In addition, labor -intensive processes should be minimized in the protocol for 64 
+
+long -term surveillance applications. 12 65 
+
+The U.S. Centers for Disease Control and Prevention (CDC) ha s outlined five distinct 66 
+
+methodologies for concentrat ing viral particles from wastewater .13 While each of these met hods 67 
+
+employs different principles to address the challenge s of low viral RNA content in 68 
+
+wastewater ,6,14 –19 none fully meet all the criteria for effectively concentrating and detecting 69 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+viruses. Achieving sensitive viral RNA detection in wastewater samples, especially during the 70 
+
+onset of COVID -19 peaks with sporadic infections, necessitates the development of more 71 
+
+strategic sample concentrating methods. 72 
+
+In contrast, freeze -drying , which is not listed by CDC, is a promising alternative concentrating 73 
+
+method that is widely used to preserve various biological products .20,21 Recently, it has been 74 
+
+applied to concentrate wastewater samples to evaluate the deactivating effect of Fe 3+ treatment 75 
+
+on bacteria ,22 yet its potential for w astewater -based virus detection has not been explored .76 
+
+Freeze -drying effectively remov es water from wastewater matrices by sublimation . This method 77 
+
+uniquely retains viral entities from both the liquid and solid components of wastewater, which 78 
+
+enhanc es detection sensitivity. Additionally, freeze -drying does not rely on reagent -dependent 79 
+
+sample pre -treatment, thus preserving sample integrity from chemical interventions. The 80 
+
+cryogenic environment during freeze -drying prevents the degradation of viral RNA, thereby 81 
+
+improving the detection limit in the subsequent steps. Although it is time -consuming to process 82 
+
+large -volume samples, freeze -drying offers operational convenience by minimizing human 83 
+
+oversight after initial setup. In summary, freeze -drying represents a novel, sensitive, reliable, and 84 
+
+less labor -intensive virus detection methodolog y, as it minimizes viral loss and optimizes the 85 
+
+protection of viral RNA. Nevertheless, its effectiveness needs to be assessed by comparing to 86 
+
+existing methods. 87 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+This study will be the first to apply freeze -drying to measure SARS -CoV -2 levels in 88 
+
+wastewater. A comparative analysis was conducted between freeze -drying and widely used 89 
+
+centrifugal ultrafiltration as concentrating methods for wastewater samples. Throughout the 90 
+
+subsequent sections, “ultrafiltration” will be used in lieu of the more descriptive term 91 
+
+"centrifugal ultrafiltration" to improve conciseness. Ultrafiltration was chosen for comparison 92 
+
+because it is among the most widely used method s, having been employed in the first 23 and 93 
+
+several early publications 24 –26 on detecting SARS -CoV -2 in wastewater. Critical factors ,94 
+
+including recovery efficiency and detection limits , were systematically compared and evaluated 95 
+
+through RT -qPCR analys es across both concentrati ng methods. 96 
+
+The wastewater samples tested in this study held exceptional value as they were collected 97 
+
+during the critical onset and waning phases of pandemic peaks. During these periods, viral 98 
+
+concentrations were extremely low, highlighting the value of this comparison in selecting a 99 
+
+better concentrating method for developing a wastewater -based early warning system. Before 100 
+
+using these precious sample s, thorough method testing and optimization have been carried out 101 
+
+using DNA and RNA standards , as well as a similar but less pathogenic coronavirus. Although 102 
+
+each invaluable sample was only processed by each concentrating method once due to volume 103 
+
+limitation of sample collected in those pandemic periods , our optimal utilization strategy ensured 104 
+
+reliable quantitative measurements while maximizing the extraction of meaningful 105 
+
+epidemiological insights from these irreplaceable specimens. The resulting data are pivotal for 106 
+
+developing a sensitive, precise, reproducible, and practical system to detect viruses in 107 
+
+wastewater, ultimately enhancing community -level early warning and surveillance capabilities. 108 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+2. Material and Methods 109 
+
+2.1 . Sample Collection and Pasteurization 110 
+
+Raw wastewater samples composited over 24 hours from the final effluent were collected on 111 
+
+designated dates primarily during the early stages of the first COVID -19 pandemic peak in El Paso, 112 
+
+Texas, USA, with additional samples collected during the low and steady tail of the peak (Figure 113 
+
+1a, Supplementary Table S3 ). Due to limited storage space in -80 °C freezers , only 500 mL of 114 
+
+each sample w as obtained . The wastewater samples were collected from four wastewater treatment 115 
+
+plants (WWTPs) in El Paso, Texas, USA. These WWTPs are Haskell Street Wastewater Plant 116 
+
+(HS), John T. Hickerson Water Reclamation Facility (JH) , Fred Hervey Water Reclamation (FH) ,117 
+
+and Roberto R. Bustamante Wastewater Plant ( BU ). Locations of these WWTPs are shown in 118 
+
+Figure 1c. Due to safety concerns during the early phase of the pandemic , before the person -to -119 
+
+person transmission pathway of the SARS -Co V-2 was elucidated (March 2020 to July 2020 ), a120 
+
+sample collecting protocol was developed and approved by the Institutional Biosafety Committee 121 
+
+(IBC) of the University of Texas at El Paso (UTEP) . Individuals collecting samples overcautiously 122 
+
+wore double -layer disposable nitrile gloves, splash goggles , N95 or surgical masks , and disposable 123 
+
+lab coats . Nevertheless, these overcautiously designed sample collection protocol s can be used for 124 
+
+future emerging viruses. 125 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+126 
+
+All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint Figure 1. Experimental design . (a) El Paso COVID -19 pandemic data. D aily new case numbers (blue) were plotted, 127 
+
+and the two sample collecting periods were shaded in orange . (b) Flow cha rt of comparing freeze -drying and 128 
+
+ultrafiltration as concentrating methods for wastewater virus detection. (c) El P aso area and water facilit y sites. Four 129 
+
+El Paso WWTPs were marked as red “ *” and labeled on the map . El Paso area was colored pale orange. (d) Flow 130 
+
+chart of sample processing with sample number s. Samples collected from four different WWTPs were inactivated 131 
+
+through pasteurization and then concentrated using two methods. FH, Fred Hervey Water Reclamation Plant; JH, 132 
+
+John T. Hickerson Water Reclamation Facility; HS, Haskell R. Street Wastewater Treatment Plant ; BU, Roberto R. 133 
+
+Bustamante Wastewater Treatment Plant. The number (n) of samples processed at each step is indicated in 134 
+
+parentheses. Viral RNA of all the samples was extracted from concentrated samples and subjected to RT -qPCR for 135 
+
+quantification. 136 
+
+Samples were collected in the precleaned wide -mouth , leak -proof bottles ( Fish er brand TM , Cat# 137 
+
+05719709) , transported in double zip -lock bags within hard -plastic coolers to the BSL -2 lab, and 138 
+
+handled under standard biosafety and disinfection procedures. For early pandemic samples, 139 
+
+bottles were immediately frozen and stored at -80 °C following the overcautiously designed IBC 140 
+
+protocol in Section 2.1. Later, after CDC published its guideline to inactivate pathogens for 141 
+
+wastewater virus detection ,27 samples were pasteurized in a water bath at 65 °C for 90 min 142 
+
+before being stored at -80 °C. For those early sample without pasteurization, before processing, 143 
+
+they were thawed and pasteurized as recommended by the CDC guidelines .144 
+
+2.2 . Sample Concentrati ng via Freeze -drying 145 
+
+Although samples were pasteurized and thus considered to be bio safety lev el 1 (BSL -1) based 146 
+
+on the CDC gu ide line s,12 a fully sealed freeze -dry ing set -up was overcautiously designed and 147 
+
+implemented using FreeZone 2.5 Liter -84 °C Benchtop Freeze Dryer ( Labconco ™, Cat# 148 
+
+710201000) , t his design is illustrated in  Figure 2. The bio safety set -up incorporated multiple 149 
+
+safeguards : (1) The freeze dryer vacuum chamber contain ed PTFE coated coil , which is resistant 150 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+to erosive disinfectants that are used after each freeze -drying cycle ; (2) Three layers of Filter 151 
+
+paper s ( Labconco ™, Cat# 7544810 ) and aseptic valve (Labconco ™, Cat# 7543900) were added 152 
+
+between the fast -freeze flask and manifold to prevent any potential accidental pathogen from 153 
+
+passing through ; (3) A HEP A filter was added before the vacuum pump as the last filter to 154 
+
+capture any potential accidental pathogen leakage and spill age ; (4) Wastewater samples were 155 
+
+placed inside plastic Erlenmeyer flask s which were wrapped w ith absorbent pads in 600 mL156 
+
+Complete Fast -Freeze Flasks ( Labconco ™, Cat # 7540800) . The absorbent pads were intended to 157 
+
+capture any accidental spill ; and (5) The exhausting pipe of the vacuum pump was connected to 158 
+
+the chemical fume hoo d, to exhaust the odorous volatile organic comp ound s from the 159 
+
+wastewater . Even with these safety design s, as an extra precaution , all potential ly contaminated 160 
+
+containers and the flow path before the HEPA filter were disinfected after each freeze -drying 161 
+
+run .162 
+
+As shown in  Figure 1b and d , p rior to the freeze -drying procedure, 200 mL of each 163 
+
+pasteurized wastewater sample from Section  2.1  was weighed and aliquoted in to a 250 mL164 
+
+plastic Erlenmeyer flask , wrapped with absorbent pads, placed into a zip -lock bag, and frozen 165 
+
+at -80 °C at least overnight . On the day of concentrating, t he f rozen samples in Erlenmeyer flasks 166 
+
+wra pped with absorbent pads were then placed in Fast -Freeze Flasks with plastic Erlenmeyer 167 
+
+flask caps loosen ed . Freeze -drying was conducted with temperature set to −8 6 °C and vacuum 168 
+
+to 0.040 mbar. After approximate ly three days of freeze -drying, s ample masses were reduced to 169 
+
+about 3 g. Volume reduction factors were estimate d by sample weight before and after freeze -170 
+
+drying . The f reeze -dried samples were dissolved in three volumes (v/w) , approximately 9 mL, of 171 
+
+TRIzol ™ LS reagent ( Thermo Fisher Scientific, Cat # 10296 -028). Samples were vortexed to 172 
+
+ensure thorough mix ing before storing at –20 °C until viral RNA extraction. It has been proven 173 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+that T RI zol will deactivate all viral pathogens such as SARS -CoV -2 in the sample .28 Therefore, 174 
+
+the following steps will be considered as BSL -1.175 
+
+> 176
+> 177
+
+Fig ure 2. Schematic diagram of freeze -drying set -up . Key biosafety safeguard features are highlighted 178 
+
+and labeled with numbers within the diagram. 179 
+
+2.3 . Sample Concentrati ng via Ultrafiltration 180 
+
+In parallel to concentrating samples via freeze -dry ing as shown in  Figure 1b and d , another 181 
+
+200 mL of pasteurized wastewater sample from Section  2.1  was aliquoted into four 50 mL182 
+
+conical tubes and loaded into swinging buckets (Thermo Fisher Scientific, Cat # 75003655 ) with 183 
+
+adaptor s (Thermo Fisher Scientific, Cat # 75003683 ) for the TX -400 rotor (Thermo Fisher 184 
+
+Scientific, Cat# 75003 181) . The swinging buckets are sealed with ClickSeal Biocontainment 185 
+
+Lids ( Thermo Fisher Scientific, Cat# 75003656) and wiped with disinfectant on the outside 186 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+before centrifug ing at 3 ,000 × g for 15 min using Multifuge X1R Refrigerated Centrifuge 187 
+
+(Thermo Fisher Scientific, Cat # 75004251 ). After centrifugation, t he supernatant was filtered 188 
+
+using a 0.22 μm PES bottle filter (Corning ™, Cat # 431096 ) while the pellet s were collected and 189 
+
+weighed . Three volumes over the measured weight of TRIzol ™ LS reagent were added to the 190 
+
+pellet. All these procedures were carried out in a biosafety cabinet (BSC) to ensure safety .191 
+
+Supplementary Figure S1 illustrates the filter system with multiple , overcautiously designed 192 
+
+safeguard s: (1) A trap bottle with disinfectant on the bottom was connected to the filter bottle to 193 
+
+capture any potential accidental pathogen leakage and s pill age ; (2) An in -line 0.22 μm filter was 194 
+
+added before the vacuum valve further to capture any potential accidental pathogen leakage and 195 
+
+spillage .196 
+
+Inside the BSC, t he fil tered supernatants from the previous step were aliquoted (approximate ly 197 
+
+70 mL) into Centricon Plus -70 with 10 kDa MW cut -off membrane ( MilliporeSigma, Cat# 198 
+
+UFC701008) and placed in to disinfected swinging buckets (Thermo Fisher Scientific, Cat #199 
+
+75003655, with seal cap C at # 75003656 ). The buckets were completely sealed with ClickSeal 200 
+
+Biocontainment Lids ( Thermo Fisher Scientific, Cat# 75003656) and wiped with disinfectant on 201 
+
+the outside before being taken out from BSC to be loaded onto TX -400 rotor ( Thermo Fisher 202 
+
+Scientific, Cat# 75003181). The samples were centrifuge d at 3 ,500 × g for about 15 min using 203 
+
+Multifuge X1R Refrigerated Centrifuge (Thermo Fisher Scientific, Cat # 75004251) . After 204 
+
+centrifug ation , the swinging buckets were moved back into the BSC, and the passthrough liquid 205 
+
+was disinfected and discarded . Following the same centrifugation protocol, t he remaining filtered 206 
+
+supernatant s were added to Centricon Plus -70 units for the next round of concentrating via 207 
+
+ultrafiltration .208 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+After three to four rounds of centrifugation, the sample volume was reduced from 200 mL to 209 
+
+approximately 0.5 mL. Following the manufacturer's instructions , t he filters were inverted and 210 
+
+centrifuged at 1 ,000 × g to collect the concentrates . The concentrated samples were subsequently 211 
+
+transferred to new tube s and mixed with th ree volumes, approximately 1.5 mL , of TRIzol ™ LS 212 
+
+reagent . TRIzol treated s amples were vortexed to ensure thorough mixing before being stored 213 
+
+at -20 °C until viral RNA extraction s. Volume reduction factors for ultrafiltration were 214 
+
+determined by comparing the weights of the samples before and after concentrati ng . All the 215 
+
+filters and liquid transfer pipettes were so aked in ~1% bleach for at least 1 5 min before being 216 
+
+safely discarded .217 
+
+2.4 . Viral RNA Extraction and Quantification 218 
+
+SARS -CoV -2 RNA was extracted from the concentrated samples and purified using the 219 
+
+PureLink TM RNA Extraction Kit ( Thermo Fisher Scientific, Cat# 12183018A). Prior to RNA 220 
+
+extraction, the frozen sample s mixed with TRIzol were thawed at room temperature. For every 221 
+
+milliliter of sample mixed with TRIzol , 0.2 mL of Chloroform was added . The mixture was then 222 
+
+centrifuged at 1 2,000 × g at 4 °C for 30 min using ST16 Centrifuge ( Thermo Fisher Scientific ,223 
+
+Cat# 75004381) . Following centrifugation, the colorless upper aqueous phase , which contains 224 
+
+the RNA , was carefully extracted following the manufacturer's instructions . The b ound RNA 225 
+
+was eluted from the spin cartridge in 30 μL of ribonuclease -free water and collected by 226 
+
+centrifug ation . To maximize RNA recovery, s econd and third elution s were performed by adding 227 
+
+100 μL of ribonuclease -free water and centrifuging. The purified viral RNA was either 228 
+
+immediately analyzed by one -step RT –qPCR or stored at −20 °C to minimize degradation, 229 
+
+depending on thermocycler availability. RT –qPCR assays for RNA extracted from the same 230 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+sampling event but split and concentrated in parallel using the two methods , were always 231 
+
+performed in the same runs to ensure identical post -extraction processing .232 
+
+SARS -CoV -2 RNA was quantified by one -step RT –qPCR using N1 and N2 primers sets 233 
+
+suggested by the CDC (Table S1 ). 29 Each s ample was aliquot ed in tripl icate and analyzed using 234 
+
+the TaqPath ™ 1-Step RT -qPCR ( Thermo Fisher Scientific , Cat # A15299) in 20 μL reactions .235 
+
+Triplicate water samples were added as the negative control. The qPCR reactions were run at 50 236 
+
+°C for 15 min and 95 °C for 2 min, followed by 45 cycles of 95 °C for 5 s and 55 °C for 30 s, per 237 
+
+the manufacturer’s recommendations. The performance and efficiency of N1 and N2 primers in 238 
+
+the RT -qPCR assay were first evaluated by generating standard curves using 10 -fold seri al 239 
+
+dilution ( 1 to 10 5 copies per reaction) of template s: (1) a DNA plasmid containing complete 240 
+
+nucleocapsid gene from SARS -CoV -2 ( IDT, Cat# 10006625 ), and (2) Twist synthetic SARS -241 
+
+CoV -2 RNA (Twist Bioscience, Cat # MT0075s44). Standard curves and assay efficiency were 242 
+
+evaluated using Ct values from technical replicates as shown in  Figure 3 using similar methods 243 
+
+described in Supplementary 244 
+
+Section 1. 4. To test template stability, standard curves were also generated after storage of 245 
+
+standards at -20 °C for up to four months. During the method development period with less than 246 
+
+four wastewater sample size with two concentration methods, a Magnetic Induction Cycler (Bio 247 
+
+Molecular System , Cat# 71 -101 , 48 reactions each in individual tubes ). After the method wa s248 
+
+optimized and standardized, the StepOnePlus ™ Real -Time PCR System ( Thermo Fisher 249 
+
+Scientific, Cat#4376600 , 96 reactions in plates ) was used wi th the same the rmo cycling 250 
+
+conditions .251 
+
+The original DNA and RNA stock had concentration s of 2.0 ×10 5 copies/μL and 1.0 ×10 6252 
+
+copies/ μL, respectively . Standard curve s established from 10 -fold dilution s of each DNA or 253 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+RNA stock with N1 or N2 assay were shown in  Figure 3. The fresh DNA standard curve 254 
+
+generated using the N1 assay was used to quantify viral RNA in the concentrated wastewater 255 
+
+samples. Each RNA elution from extraction was aliquoted in triplicate and analyzed under 256 
+
+identical qPCR conditions as the standards . Each run included a no -template water negative 257 
+
+control. Viral concentrations were calculated as described in Supplementary Section 1.3 . These 258 
+
+values represent the virus recovered by each concentrati ng method and therefore allow direct 259 
+
+comparison of their analytical sensitivity. Method -specific detection limits were determined by 260 
+
+the minimum detected concentration from all the wastewater samples using the same method 261 
+
+(Supplementary Table S 3 last row ).262 
+
+2.5 . Recovery Efficiency Calculations using Human Coronavirus OC43 263 
+
+To compare the recovery efficiency of the two concentrating methods, human coronavirus 264 
+
+OC43 was chosen as the surrogate virus to be spiked into a wastewater sample. Both OC43 and 265 
+
+SARS -CoV -2 are beta -coronaviruses that cause respiratory infections in humans and are 266 
+
+transmitted via droplets and/or aerosols. However, unlike SARS -CoV -2, OC43 does not cause 267 
+
+severe disease in humans, making it an ideal surrogate for laboratory recovery tests without 268 
+
+biosafety concerns. 269 
+
+To estimate the amount of viruses to be spiked in to wastewater for recovery efficiency 270 
+
+calculation , a standard curve of heat -inactivated OC43 virus was generated . The virus infectivity 271 
+
+of the original stock of heat -inactivated OC43 culture fluid ( ZeptoMetrix, Cat# 0810024CFHI) is 272 
+
+defined by the median tissue culture infectious dose (TCID 50 ), the dilution of virus required to 273 
+
+infect 50% of the given cell monolayers .30 An exact 100 μL aliquot of this inactivated OC43 at 274 
+
+5.0×10 8 TCID 50 /μL was used to prepare a 10 -fold serial dilution with water . The concentration of 275 
+
+inactivated OC43 in each dilution was determined based on the dilution factor. These serially 276 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+diluted samples were then subjected to the same procedures aforementioned for TRIzol 277 
+
+treatment , RNA extraction , and RT -qPCR (triplets) , but with different primer/probe sets for 278 
+
+OC43 31 (Sigma Custom DNA Oligos Cat# 41105327 ) (Supplementary Table S1 ). Following a279 
+
+similar approach mentioned in Secti on  2.4  for DNA and RNA standards, a standard curve was 280 
+
+established by plotting the RT -qPCR Ct value ( y-axis) against the log arithm of heat -inactivate d281 
+
+OC43 concentration , expressed in the units of TCID 50 .282 
+
+To calculate the virus recovery efficiency of each concentrating method , an exact 20 μL aliquot 283 
+
+of Zeptometrix heat -inactivated OC43 with initial concentration of 5.0 ×10 8 TCID 50 /μL was 284 
+
+spiked into 400 mL pasteurized wastewater sample to reach a final concentration of 2. 5×10 4285 
+
+TCID 50 /μL . To demonstrate that RT -qPCR cannot detect the virus without concentrat ing , 1 mL 286 
+
+of spiked sample was collected and treated with 3 mL of TRIzol ™ LS reagent. The remain ing 287 
+
+spiked sample was divided into two parts (approximately 200 mL each) and concentrated via 288 
+
+either freeze -drying or ultrafiltration , following the same procedure described in Sections  2.2 289 
+
+and  2.3  on sample concentrating . Viral RNA was then extracted and analyzed by RT -qPCR 290 
+
+(triplets) using the same procedure described previously for OC43 standard curve .291 
+
+The Ct value from the RT -qPCR and the standard curve allowed the estimation of the 292 
+
+concentration of virus recovered by the two methods expressed in the unit of TCID 50 /μL , which 293 
+
+can be used to calculate the total amount of virus recovered using the sample volumes 294 
+
+(Supplementary Table S2 ). Recovery efficiency was then calculated as the ratio of the 295 
+
+recovered virus amount to the amount initially spiked, with both values expressed in units of 296 
+
+TCID 50 (Table 1). The recovery efficiency estimations were performed in triplicate, allowing the 297 
+
+calculati on of the mean and standard deviation for each method. A two -sample t-test, a 298 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+parametric test that assumes normal distribution of the data ,32 was conducted to determine 299 
+
+whether there was a significant difference between the two methods. 300 
+
+2.6 . COVID -19 Case Data and Statistical Analysis 301 
+
+Daily COVID -19 record s from April 14, 2020, to May 28, 2021, in El Paso, TX, was collected 302 
+
+from  https://www.epstrong.org/results.php  and https://elpasocovid19tracker.com/index.html 303 
+
+(accessed 2025 -11 -18 ). Sampl ing d at es with associated vi ral load calculation s from all four 304 
+
+wastewater plant sites are list ed in Supplementary Table S3. The c orrelation between the total 305 
+
+COVID -19 case s and SARS -CoV -2 viral load in wastewater was first evaluated for normality 306 
+
+using the Shapiro -Wilk test. 33 Based on the results of the test, the Spearman’s rank correlation 307 
+
+was calculated between the total COVID -19 cases and SARS -CoV -2 viral load in wastewater ,308 
+
+which can be denoted as rho “ ρ”.34 Th is ρ, ranging from -1 to 1, provided a quantitative measure 309 
+
+of the observed relationship between the two variables : daily COVID -19 case numbers and 310 
+
+SARS -CoV -2 viral load in wastewater . A ρ close to zero means no correlation , while close to 1 311 
+
+and -1 indicate strong positive or negative correlat ion , respectively. All data processing and 312 
+
+statistical analyses were conducted using R Studio .35 313 
+
+3. Results 314 
+
+3.1 . Sample Collection 315 
+
+Our study underscores the importance of strict safety procedures when handling wastewater 316 
+
+samples containing emerging pathogens , particularly in adhering to the stringent biosafety 317 
+
+standards set by institutions such as the CDC and NIH. The design s of our wastewater sample 318 
+
+collection and process ing protocols reflect a strong commitment to these high safety standards . A319 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+multilayer safety setup was implemented during sample collection and pasteurization , including 320 
+
+the use of disposable protective gear, rigorous disinfection protocols, and an approved safety 321 
+
+protocol developed early in the SARS -CoV -2 pandemic . This proactive approach to biosafety 322 
+
+was crucial during uncertain times . Combining sample collection with immediate pasteurization ,323 
+
+a swift transition to BSL -1 became possible , offering a versatile solution for handling unknown 324 
+
+emerging pathogens. This approach is particularly beneficial for laboratories with limited 325 
+
+resource s, such as those affiliated with wastewater treatment plants .326 
+
+A total of 83 wastewater samples were collected from four wastewater treatment plants 327 
+
+(WWTPs) in El Paso, Texas (Figure 1d), USA, from April 14, 2020, to May 28, 2021. Given 328 
+
+that our wastewater samples were collected from the onset and waning phases of pandemic 329 
+
+peaks, the anticipated viral concentration was extremely low, making these samples especially 330 
+
+valuable for detection and quantification comparison . However , our storage capacity was 331 
+
+severely limited, restricting both the volume of wastewater that could be retained and the total 332 
+
+number of samples processed. These constraints meant that only 500 mL of wastewater could be 333 
+
+collected for each sampling event , and each sample was split into two 200 mL portions, which 334 
+
+were analyzed in parallel by the two concentrating methods once. However, triplicate RT -qPCR 335 
+
+analyses were performed on RNA extracted from the concentrated sample s, maximizing the 336 
+
+usage of each collection and allowing us to obtain reliable quantitative measurements despite 337 
+
+challenging sample availability . Our study design reflects careful stewardship and maximization 338 
+
+of these precious materials, demonstrating a commitment to extracting the most meaningful data 339 
+
+possible within logistical and epidemiological limitations. Corresponding local daily case 340 
+
+number s were shown in  Figure 1a. However, some samples from certain WWTPs were 341 
+
+unavailable due to technical and personnel challenges encountered during the pandemic. During 342 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+the small peaks from April 2020 to August 2020, 60 samples were collected and stored in 343 
+
+a -80 °C freezer using sample collection protocol at UTEP before the analytic protocol was fully 344 
+
+developed and approved by IBC . Due to the limited lab accessibility during the pandemic ,345 
+
+human resource constraints, and the restricted storage space in -80 °C freezer s, sample collection 346 
+
+was paused between August 2020 and April 2021 . Once the sample s were processed using the 347 
+
+fully developed and approved protocol and storage space was freed up in -80 °C freezers , sample 348 
+
+collection was resumed in May 2021 . The collection frequency during the second period was 349 
+
+more sporadic , depending on the processing speed of stored samples . For the second period, a 350 
+
+total of 12 samples were collected. Following pas teuri zation to inactivate wastewater path oge ns, 351 
+
+71 samples were concentrated using freeze -drying and 70 using ultrafiltration , respectively. 352 
+
+Additionally, 56 pellets were collected from 70 ultrafiltration samples ( Figure 1d).353 
+
+Unfortunately, RT -qPCR dat a for 11 samples were lost due to an unexpected crash of the 354 
+
+computer that controls the StepOnePlus ™ Real -Time PCR System. At the end, data from a total 355 
+
+of 72 samples were obtained ( Figure 1d , Table S 3). 356 
+
+3.2 . RT -qPCR Primer Selection and Template Stabilit ies 357 
+
+Standard curve analysis in  Figure 3 shows that a cross all points of RNA and DNA standards, 358 
+
+the N1 primer consistently exhibited higher R 2 values and lower Ct values than the N2 primer ,359 
+
+indicating a stronger linear correlation between the measured and expected quantities. 360 
+
+Additionally , the fitted lines of N1 for both RNA and DNA are low er than those of N 2, reflecting 361 
+
+overall lower Ct values for the N1 primer . These higher R 2 values and lower overall Ct values 362 
+
+highlight the superior quantification accuracy and reliability of the N1 primer , making it the 363 
+
+preferred choice. However, the impact of sta ndards degradation over time cannot be overlooked ,364 
+
+as evidenced by the progressive increase in the heights (Ct va lues) of fitting lines observed for 365 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+both RNA and DNA standards . Ob vious ly, RNA exhibited more significant degradation than 366 
+
+DNA underscoring its higher susceptibility to degradation . The crossing observed in the RNA 367 
+
+and DNA standard curves using N2 primers after storage in -20 °C for 4 months (Figure 3b and 368 
+
+Figure 3d) suggests that the N2 primer region may be more susceptible to degradation, resulting 369 
+
+in deviations from the expected slope (approximately -3.3 to -3.4 )36 of the standard curve. 370 
+
+Consequently, while the N1 primer is the optimal choice for fresh samples due to its stronger 371 
+
+linear correlation , DNA standards are more suitable for long -term studies or situations requiring 372 
+
+extended sample storage, owing to its greater stabilit y. Therefore, for the subsequent analyses ,373 
+
+we use d DNA standard s and N1 assay to estimate the total number of detected virus es .374 
+
+Based on the observed degradation of RNA standard, s pecific precautions must be followed to 375 
+
+mitigate RNA degradation in concentrated wastewater and preserve its integrity for potential 376 
+
+future analyses. Immediate sample processing post -collection is ideal for maximizing RNA 377 
+
+extraction yield and maintaining its integrity. However, logistical constraints often necessitate 378 
+
+sample storage, for which TRIzol or similar denaturing reagents are highly recommended. 379 
+
+TRIzol effectively inhibits RNase activity, thereby preventing RNA degradation. 37 Concentrated 380 
+
+samples in TRIzol demonstrate superior stability for long -term storage, particularly when stored 381 
+
+at -80 °C freezer. 38 Thus, maintaining samples in TRIzol without RNA extraction until imminent 382 
+
+RT -qPCR analysis is considered the optimal storage strategy. Moreover, minimizing freeze -thaw 383 
+
+cycles of samples, regardless of the storage method, is critical to prevent RNA degradation. 384 
+
+RNases are prevalent and can regain enzymatic activity after removing denaturing conditions. 39 385 
+
+Consequently, after RNA is extracted from the TRIzol storage solution, downstream procedures 386 
+
+should be performed promptly to minimize RNA degradation and ensure the reliability and 387 
+
+accuracy of the subsequent RT -qPCR analyses. 388 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+Fig ure 3. RNA and DNA standard curves . Panels a and b display the fitted lines of qPCR Ct mean values (y-axis) 389 
+
+with error bars denoting ± SD , plotted against logarithm of gene copies (x-axis) of serially diluted RNA standards, 390 
+
+using the N1 and N2 primers, respectively. Panels c and d present similar fitted lines for DNA standards. As the 391 
+
+legend indicates, t he different line colors represent standard curves generated from fresh samples or samples stored 392 
+
+at -20 °C for 3 or 4 months . The fitted equations and corresponding R 2 values are shown in the same colors as their 393 
+
+respective lines .394 
+
+3.3 . Comparison of Recovery Efficiency Between Two Concentrating Methods 395 
+
+Recovery efficiency for the two concentrating methods was compared using a surrogate virus: 396 
+
+human OC43. Based on the standard curve using heat -inactivated OC43 virus (approximately 1.0 397 
+
+× 10 9 TCID 50 ) was spiked into 400 mL of wastewater. This sample was divided into two equal 398 
+
+volumes and concentrated using either freeze -drying or ultrafiltration methods. A control sample 399 
+
+without concentrating had an undetermined Ct valu e, indicating that RT -qPCR could not detect 400 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+the OC43 signal prior to concentrating. Recovery rates were calculated from the Ct values of the 401 
+
+first RNA extraction elution and were 20.2% for the freeze -drying method and 12.9% for the 402 
+
+ultrafiltration method. The higher recovery efficiency from the freeze -drying method was found 403 
+
+to be significant (p = 0.04) over that of the ultrafiltration method (Table 1).404 
+
+> 405
+
+Table 1. Recovery rate of freeze -drying and ultrafiltration 406 
+
+Method  Recovered virus (TCID 50 ) Recovery rate (± SD ） p-value 1
+
+Freeze drying  1.08 × 10 9 20.2% (± 3.76) 
+
+0.04 
+
+Ultrafiltration  6.90 × 10 8 12.9% (± 1.95)  
+
+> 1
+
+p-value obtained from two -sample t-test between the recovery rates from the methods of freeze -407 
+
+drying and ultrafiltration. 408 
+
+> 409
+
+Notably, the second elution from the freeze -dried sample exhibited a lower Ct value than the 410 
+
+first elution (Supplementary Table S3). This phenomenon was also observed in other 411 
+
+wastewater samples concentrated by freeze -drying during SARS -CoV -2 detection but not in the 412 
+
+sample concentrated v ia ultrafiltration or RNA extracted from heat -inactivated OC43 serial 413 
+
+dilution when establishing the standard curve . Since the freeze -drying process concentrates all 414 
+
+small molecules, it is possible that inhibitory substances affecting RT -qPCR may also be 415 
+
+enriched. When combining the recovery rates from both the first and second elutions, the overall 416 
+
+recovery rates remained at 20.2% for freeze -drying and 1 2.9% for ultrafiltration, demonstrating 417 
+
+the potential advantage of the freeze -drying approach .418 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+3.4 . Comparison of Early Detection of Two Concentrating Methods 419 
+
+To evaluate the detection sensitivities of the freeze -drying and ultrafiltration methods, 420 
+
+wastewater viral load data from the early stages of the COVID -19 pandemic (April 2020 to May 421 
+
+2020) were analyzed. A total of 38 samples were collected from various wastewater treatment 422 
+
+plants in El Paso, Texas , USA . The freeze -drying method identified 26 positive samples (68.4%) 423 
+
+(Table 2). As previously discussed, the freeze -dry ing method yielded lower Ct values ( indicating 424 
+
+more sensitive detection) in the second elution s. When the second elution was included , the 425 
+
+detection ratio increased to 28 positive samples (73.7%). In contrast, the ultrafiltration detected 426 
+
+only 12 positive samples (31.6%), which increased slightly to 13 positive samples (34.2%) when 427 
+
+including the second elution (Table 2). The higher detection ratio observed with the freeze -428 
+
+drying method highlights its superior ability to concentrate viral material compared to 429 
+
+ultrafiltration. This is particularly important given that our samples were collected during the 430 
+
+early stages of the pandemic, when viral loads in wastewater were extremely low ( Figure 1a). 431 
+
+The higher detection ratio observed with the freeze -drying method suggests it is a more effective 432 
+
+approach for establishing an early warning system for the surveillance of emerging viruses. 433 
+
+The superior detection sensitivity of the freeze -drying method was further supported by the 434 
+
+lower average Ct values obtained during RT -qPCR analyses . Across all four wastewater 435 
+
+treatment plants, the freeze -drying method consistently exhibited lower Ct value s compared to 436 
+
+ultrafiltration (Table 2), equivalent to a higher amount of viral RNA in the concentrated samples 437 
+
+(Supplementary Table S3). Furthermore, a Wilcoxon rank -sum tes t, a nonparametric test that 438 
+
+compares two independent groups without assumption of normal distribution ,40 was conducted to 439 
+
+compare virus copies in the original wastewater samples across all four facilities. As described in 440 
+
+Section  2.4 , the total virus copies were estimated using the DNA standard curve and the Ct 441 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+values . For both freeze -dry and ultrafiltration method s, both first and second elution s were 442 
+
+combined to calculate the total RNA copies in the original wastewater samples . Where a method 443 
+
+or elution did not detect the virus, it was recorded as zero copies . A total of 72 data pairs from all 444 
+
+collected data listed in Table S2 show ed that there was a significant (p = 5.70 × 10 -6) difference 445 
+
+between the detected virus concentration from the freeze -drying and the ultrafiltration methods. 446 
+
+As described in Section  2.4 , method -specific detection limits of copies/mL can be determined 447 
+
+using the highest Ct value for each method and the standard curves. T he freeze -drying method 448 
+
+demonstrated a lower limit of detection (0.0 6 copies/mL) compared to ultrafiltration (0. 35 449 
+
+copies/mL) (Supplementary Table S3 last row ).450 
+
+> 451
+
+Table 2. Positive rate and Ct value range for samples collected from four WWTPs between April 452 
+
+2020 to May 2020 453 
+
+Site 
+
+Sample 
+
+Number 
+
+Positive numbers  Positive Rat e % Range of Ct Value 
+
+Freeze -
+
+drying 
+
+Ultrafiltra 
+
+tion 
+
+Freeze -drying  Ultrafiltration  Freeze -drying  Ultrafiltration 
+
+HS  18  12 (14)  5 (6)  66.7 (77.8)  27.8 (33.3)  31 (32) – 42 (42)  33 (33) – 38 (38) 
+
+JH  1 1 (1)  1 (1)  100.0 (100.0)  100.0 (100.0)  33 (33) – 33 (35)  35 (35) – 36 (36) 
+
+FH  8 6 (6)  5 (5)  75.0 (75.0)  62.5 (62.5)  32 (32) – 39 (39)  32 (32) – 41 (41) 
+
+BU  11  7 (7)  1 (1)  63.6 (63.6)  9.1 (9.1)  33 (33) – 37(37)  33 (33) – 34 (34) 
+
+Total  38  26 (28)  12 (13)  68.4 (73.7)  31.6 (34.2) 
+
+* Numbers in the parentheses are values obtained from the second elution 454 
+
+> 455
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+3.5 . Correlation Between Wastewater Viral Load and COVID -19 Case Numbers 456 
+
+The relationship between wastewater viral load and community COVID -19 cases is a key 457 
+
+consideration in evaluating the utility of wastewater surveillance. The correlation between the 458 
+
+measured viral load in wastewater and the reported COVID -19 cases in El Paso, TX , USA, was 459 
+
+investigated. Available viral load data from Haskell Street Wastewater Plant and t he 460 
+
+corresponding daily COVID -19 case counts on the wastewater sample collect ion date s were 461 
+
+collected . The area s from where the case numbers were collected cover HS serving regions, 462 
+
+including zip codes 79901, 79902, 79903, 79905 , and 7993 0 (Figure 1c).463 
+
+Normalization of viral load data to accurately account for differences in human contribution to 464 
+
+wastewater is widely considered essential in wastewater surveillance . Some studies use 465 
+
+creatinine as a normalization biomarker to improve the correlation between wastewater viral 466 
+
+loads and COVID -19 case trends. 41,42 Attempt s following these studies were carried out via 467 
+
+creatinine measurement using a commercial colorimetric kit (Supplementary Section 1.5 ).468 
+
+However, the concentration s of creatinine measured in the collected samples (Supplementary 469 
+
+Section 1.5 ) were consistently below the kit's sensitivity limit, preventing reliable normalization ,470 
+
+similar to the other report. 41 Given these analytical constraints and the primary goal of 471 
+
+comparing two concentrating methods , the correlation analysis in this study was conducted on 472 
+
+unnormalized data. Therefore, the correlation results presented here are meant to provide 473 
+
+supplemental insight into the relationship between wastewater viral concentrations and 474 
+
+community COVID -19 case counts, rather than to serve as definitive epidemiological findings. 475 
+
+Shapiro -Wilk test s showed p = 5.6 × 10 -6, 8.4 × 10 -5, and 1.2 × 10 -5, for total RNA copies 476 
+
+detected by freeze -drying, those detected by ultrafiltration, and community COVID -19 case 477 
+
+numbers, respectively. Thus, i t was concluded that the se data w ere not normally distributed. 478 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+Given the small sample size, a non -parametric test was chosen instead of a parametric test. 33,43 479 
+
+The Spearman rank correlation test 34 was applied to evaluate the association between the total 480 
+
+viral load and the number of reported daily cases on each date across the studied areas. Due to 481 
+
+the unavailability of active case numbers during the early stages of the pandemic (April 2020 to 482 
+
+May 2020), the analysis was conducted using daily case numbers. During this period, the 483 
+
+difference among active , daily, and cumulative cases was likely minimal. Additionally, prior 484 
+
+studies have indicated that recovered patients may continue shedding the virus .44,45 During the 485 
+
+early period, the analysis revealed a positive correlation of 0. 45 between the freeze -dried viral 486 
+
+load and the daily case numbers. This correlation was statistically significant ( p=0.0 48 ). 487 
+
+Similarly, for the ultrafiltration method, using data from the same period, the analysis showed a 488 
+
+moderate positive correlation of 0.2 4 between the viral load and the cumulative COVID -19 case 489 
+
+numbers, which was not statistically significant ( p=0. 305 ). Our results are consistent with 490 
+
+various correlations found in published studies , some demonstrated a positive correlation 23,46 491 
+
+while other studies have reported weaker or inconsistent correlations 47 . These variations are 492 
+
+potentially due to factors such as differences in viral shedding patterns and in testing rates, as 493 
+
+well as the influence of local conditions on viral transport and persistence in wastewater 494 
+
+systems. 48 It is important to note that the correlation observed in this study is mostly based on 495 
+
+minimal data from the early stages of the pandemic and lacks reliable normalization of human 496 
+
+contribution to wastewater. 497 
+
+> 498
+
+4. Discussion 499 
+
+The two concentrating methods, ultrafiltration and freeze -drying, exhibited distinct 500 
+
+disadvantages in performance and methodology in this study. Ultrafiltration requires multiple 501 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+pretreatment steps, such as centrifugation and filtration, to remove larger solids. However, this 502 
+
+process can inadvertently lead to the loss of viral signals that are associated with sewage 503 
+
+sludge. 49,50 This was confirmed by the viral signal detected in the pellet from the prefiltration 504 
+
+step (Supplementary Table S2 ). The same observation was also reported in l iterature , where 505 
+
+viral detection rate is commonly decreased when solids are excluded from wastewater samples. 51 506 
+
+On the other hand, the major disadvantage of freeze -drying is its long processing time, where 507 
+
+one overnight deep -freezing process and around three days are needed to concentrate a 200 mL 508 
+
+sample to a target volume of approximately 3 mL .509 
+
+Although freeze -drying has a longer processing time, it demonstrated a superior recovery rate 510 
+
+and lower detection limit compared to ultrafiltration in this study. This makes freeze -drying 511 
+
+particularly advantageous for early detection of viral pathogens during the onset or waning 512 
+
+phases of a pandemic ( Figure 1a) when viral loads in wastewater are extremely low. This 513 
+
+superior performance can be attributed to several factors. Unlike ultrafiltration, freeze -drying 514 
+
+eliminates the need for prefiltration by retaining all wastewater components, including solids, 515 
+
+thereby maximizing viral capture , particularly for viruses associated with sewage sludge that 516 
+
+would otherwise be lost in the pretreatment of centrifugation and filtration . The process of 517 
+
+freeze -drying involves fewer liquid handling steps, reducing the opportunity for sample loss and 518 
+
+contamination . In addition, the immediate freezing of samples at −80 °C after pasteurization and 519 
+
+maintaining the sample throughout concentrating at ultra -low temperatures reduces the 520 
+
+degradation of viral RNA and preserves its integrity prior to downstream processing. This is 521 
+
+most important for RNA viruses due to the ubiquitous existence of RNase in the environment. 522 
+
+Additionally, the improved retention and processing fidelity achieved by freeze -drying is 523 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+reflected in stronger correlations between wastewater viral loads and community case data, 524 
+
+supporting its reliability for tracking disease prevalence through wastewater surveillance .525 
+
+From the operational aspects, ultrafiltration uses expensive filters and involves multiple 526 
+
+centrifugation and liquid handling steps. These steps prolong operator exposure to wastewater 527 
+
+and increase pathogen transmission risk s. Consequently, when working with unknown emerging 528 
+
+pathogens, ultrafiltration requires rigorous personal protective equipment (PPE) and extensive 529 
+
+decontamination procedures , resulting in labor -intensive workflows and limit ing the throughput 530 
+
+to approximately eight samples per day. In contrast , the freeze -drying method uses only 531 
+
+inexpensive sample bottles and minimizes operator exposure, requiring brief handling for cap 532 
+
+loosening and flask mounting (Figure 2) during the initial setup . Decontamination was only 533 
+
+needed at process completion . Although t he freeze -drying method does require three days to 534 
+
+concentrate eight samples , it demands minimal labor, reduces exposure to wastewater, and 535 
+
+minimizes human -factor variability during the whole process period (Section  2.3 ).536 
+
+In summary, using inva luable sample s collected mainly during the onset of the COVID -19 537 
+
+pandemic, this study conclusively demonstrated the superior performance of freeze -drying 538 
+
+method over the widely used ultrafiltration technique for concentrating wastewater samples for 539 
+
+viral detection . Freeze -drying ’s higher recovery rates, detection ratios, and sensitivity for viral 540 
+
+RNA in wastewater are crucial during periods when viral loads are low, such as the early phase 541 
+
+of a pandemic. Free ze -drying’s operational benefits include increased storage flexibility, reduced 542 
+
+labor intensity, minimized exposure risks are particular ly suitab le for settings with limited 543 
+
+technical expertise. All these advantages of freeze -drying position it as a novel sensitive, precise, 544 
+
+reproducible, and practical method for early warning and surveillance applications against 545 
+
+emerging pathogens in the community. 546 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint 547
+
+ACKNOWLEDGMENT 548 
+
+During the preparation of this work, the author(s) utilized ChatGPT to only enhance readability 549 
+
+and improve language. Following its use, the authors carefully reviewed and edited the content 550 
+
+as necessary and took full responsibility for the final version of the publication. The authors 551 
+
+would like to acknowledge Teresa T. Alcala and El Paso Water Laboratory personnel : Hugo 552 
+
+Ruiz at John T. Hickerson Water Reclamation Facility, Martin L. Ortiz at Roberto Bustamante 553 
+
+Wastewater Plant, Rick Dominguez at Haskell Street Wastewater Plant, Roberto Hernandez at 554 
+
+Fred Hervey Water Reclamation, for their assistance during wastewater sample collection 555 
+
+especially during the COVID -19 pandemic period . This work received funding from the College 556 
+
+of Science, University of Texas at El Paso. The work has used instruments in the Border 557 
+
+Biomedical Research Center (BBRC) that is supported by the National Institutes on Minority 558 
+
+Health and Health Disparities (NIMHD) of the National Institutes of Health (NIH) under award 559 
+
+number U54MD007592. Special thanks go to BBRC personnel Georgialina Rodriguez and Ana 560 
+
+P. Betancourt who helped us us e the instruments. RD and CX also received support from the 561 
+
+National Institute of General Medical Sciences (NIGMS) of NIH under award number 562 
+
+R01GM129525 and from the Welch Foundation under Grant Number AH -2126 -20220331. 563 
+
+WYL received support from NIGMS of NIH under the award number SC1CA245675. The 564 
+
+content is solely the responsibility of the authors and does not necessarily represent the official 565 
+
+views of the funding agencies. 566 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+REFERENCES 567 
+
+(1) World Health Organization. Coronavirus Disease (COVID -19): Situation Report, 158 ;568 
+
+World Health Organization, 2020. https://apps.who.int/iris/handle/10665/332858 (accessed 569 
+
+2022 -02 -14). 570 
+
+(2) CDC. COVID Data Tracker . Centers for Disease Control and Prevention. 571 
+
+https://covid.cdc.gov/covid -data -tracker (accessed 2022 -02 -14). 572 
+
+(3) Roldan -Hernandez, L.; Boehm, A. B. Adsorption of Respiratory Syncytial Virus, 573 
+
+Rhinovirus, SARS -CoV -2, and F+ Bacteriophage MS2 RNA onto Wastewater Solids from 574 
+
+Raw Wastewater. Environ. Sci. Technol. 2023 , 57 (36), 13346 –13355. 575 
+
+https://doi.org/10.1021/acs.est.3c03376. 576 
+
+(4) Hughes, J.; Cowper -Heays, K.; Olesson, E.; Bell, R.; Stroombergen, A. Impacts and 577 
+
+Implications of Climate Change on Wastewater Systems: A New Zealand Perspective. 578 
+
+Clim. Risk Manag. 2021 , 31 , 100262. https://doi.org/10.1016/j.crm.2020.100262. 579 
+
+(5) Farkas, K.; Hillary, L. S.; Malham, S. K.; McDonald, J. E.; Jones, D. L. Wastewater and 580 
+
+Public Health: The Potential of Wastewater Surveillance for Monitoring COVID -19. Curr. 581 
+
+Opin. Environ. Sci. Health 2020 , 17 , 14 –20. https://doi.org/10.1016/j.coesh.2020.06.001. 582 
+
+(6) Zheng, X.; Deng, Y.; Xu, X.; Li, S.; Zhang, Y.; Ding, J.; On, H. Y.; Lai, J. C. C.; In Yau, 583 
+
+C.; Chin, A. W. H.; Poon, L. L. M.; Tun, H. M.; Zhang, T. Comparison of Virus 584 
+
+Concentration Methods and RNA Extraction Methods for SARS -CoV -2 Wastewater 585 
+
+Surveillance. Sci. Total Environ. 2022 , 824 , 153687. 586 
+
+https://doi.org/10.1016/j.scitotenv.2022.153687. 587 
+
+(7) Banadaki, M. D.; Torabi, S.; Rockward, A.; Strike, W. D.; Noble, A.; Keck, J. W.; Berry, S. 588 
+
+M. Simple SARS -CoV -2 Concentration Methods for Wastewater Surveillance in Low 589 
+
+Resource Settings. Sci. Total Environ. 2024 , 912 , 168782. 590 
+
+https://doi.org/10.1016/j.scitotenv.2023.168782. 591 
+
+(8) Zafeiriadou, A.; Nano, K.; Thomaidis, N. S.; Markou, A. Evaluation of PCR -Enhancing 592 
+
+Approaches to Reduce Inhibition in Wastewater Samples and Enhance Viral Load 593 
+
+Measurements. Sci. Total Environ. 2024 , 955 , 176768. 594 
+
+https://doi.org/10.1016/j.scitotenv.2024.176768. 595 
+
+(9) Huge, B. J.; North, D.; Mousseau, C. B.; Bibby, K.; Dovichi, N. J.; Champion, M. M. 596 
+
+Comparison of RT -dPCR and RT -qPCR and the Effects of Freeze –Thaw Cycle and Glycine 597 
+
+Release Buffer for Wastewater SARS -CoV -2 Analysis. Sci. Rep. 2022 , 12 (1), 20641. 598 
+
+https://doi.org/10.1038/s41598 -022 -25187 -1. 599 
+
+(10) Ahmed, W.; Simpson, S. L.; Bertsch, P. M.; Bibby, K.; Bivins, A.; Blackall, L. L.; Bofill -600 
+
+Mas, S.; Bosch, A.; Brandão, J.; Choi, P. M.; Ciesielski, M.; Donner, E.; D’Souza, N.; 601 
+
+Farnleitner, A. H.; Gerrity, D.; Gonzalez, R.; Griffith, J. F.; Gyawali, P.; Haas, C. N.; 602 
+
+Hamilton, K. A.; Hapuarachchi, H. C.; Harwood, V. J.; Haque, R.; Jackson, G.; Khan, S. J.; 603 
+
+Khan, W.; Kitajima, M.; Korajkic, A.; La Rosa, G.; Layton, B. A.; Lipp, E.; McLellan, S. 604 
+
+L.; McMinn, B.; Medema, G.; Metcalfe, S.; Meijer, W. G.; Mueller, J. F.; Murphy, H.; 605 
+
+Naughton, C. C.; Noble, R. T.; Payyappat, S.; Petterson, S.; Pitkänen, T.; Rajal, V. B.; 606 
+
+Reyneke, B.; Roman, F. A.; Rose, J. B.; Rusiñol, M.; Sadowsky, M. J.; Sala -Comorera, L.; 607 
+
+Setoh, Y. X.; Sherchan, S. P.; Sirikanchana, K.; Smith, W.; Steele, J. A.; Sabburg, R.; 608 
+
+Symonds, E. M.; Thai, P.; Thomas, K. V.; Tynan, J.; Toze, S.; Thompson, J.; Whiteley, A. 609 
+
+S.; Wong, J. C. C.; Sano, D.; Wuertz, S.; Xagoraraki, I.; Zhang, Q.; Zimmer -Faust, A. G.; 610 
+
+Shanks, O. C. Minimizing Errors in RT -PCR Detection and Quantification of SARS -CoV -2611 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+RNA for Wastewater Surveillance. Sci. Total Environ. 2022 , 805 , 149877. 612 
+
+https://doi.org/10.1016/j.scitotenv.2021.149877. 613 
+
+(11) Sanchez -Quete, F.; Chiang, L.; Caldera Sequeira, F.; Goitom, E.; Tsitouras, A.; Maere, T.; 614 
+
+Vanrolleghem, P. A.; Dorner, S.; Frigon, D.; Loeb, S. K. Suspended Solids and Optimal 615 
+
+RNase Inhibitors Impact the Partitioning and Decay of SARS -CoV -2 in Wastewater. ACS 616 
+
+EST Water 2024 , 4 (12), 5980 –5988. https://doi.org/10.1021/acsestwater.4c01074. 617 
+
+(12) Juel, M. A. I.; Stark, N.; Nicolosi, B.; Lontai, J.; Lambirth, K.; Schlueter, J.; Gibas, C.; 618 
+
+Munir, M. Performance Evaluation of Virus Concentration Methods for Implementing 619 
+
+SARS -CoV -2 Wastewater Based Epidemiology Emphasizing Quick Data Turnaround. Sci. 620 
+
+Total Environ. 2021 , 801 , 149656. https://doi.org/10.1016/j.scitotenv.2021.149656. 621 
+
+(13) Parkins, M. D.; Lee, B. E.; Acosta, N.; Bautista, M.; Hubert, C. R. J.; Hrudey, S. E.; 622 
+
+Frankowski, K.; Pang, X. -L. Wastewater -Based Surveillance as a Tool for Public Health 623 
+
+Action: SARS -CoV -2 and Beyond. Clin. Microbiol. Rev. 37 (1), e00103 -22. 624 
+
+https://doi.org/10.1128/cmr.00103 -22. 625 
+
+(14) Lu, D.; Huang, Z.; Luo, J.; Zhang, X.; Sha, S. Primary Concentration – The Critical Step in 626 
+
+Implementing the Wastewater Based Epidemiology for the COVID -19 Pandemic: A Mini -627 
+
+Review. Sci. Total Environ. 2020 , 747 , 141245. 628 
+
+https://doi.org/10.1016/j.scitotenv.2020.141245. 629 
+
+(15) Farkas, K.; Pellett, C.; Alex -Sanders, N.; Bridgman, M. T. P.; Corbishley, A.; Grimsley, J. 630 
+
+M. S.; Kasprzyk -Hordern, B.; Kevill, J. L.; Pântea, I.; Richardson -O’Neill, I. S.; Lambert -631 
+
+Slosarska, K.; Woodhall, N.; Jones, D. L. Comparative Assessment of Filtration - and 632 
+
+Precipitation -Based Methods for the Concentration of SARS -CoV -2 and Other Viruses 633 
+
+from Wastewater. Microbiol. Spectr. 2022 , 10 (4), e01102 -22. 634 
+
+https://doi.org/10.1128/spectrum.01102 -22. 635 
+
+(16) Anderson -Coughlin, B. L.; Shearer, A. E. H.; Omar, A. N.; Wommack, K. E.; Kniel, K. E. 636 
+
+Recovery of SARS -CoV -2 from Wastewater Using Centrifugal Ultrafiltration. Methods 637 
+
+Protoc. 2021 , 4 (2), 32. https://doi.org/10.3390/mps4020032. 638 
+
+(17) Sapula, S. A.; Whittall, J. J.; Pandopulos, A. J.; Gerber, C.; Venter, H. An Optimized and 639 
+
+Robust PEG Precipitation Method for Detection of SARS -CoV -2 in Wastewater. Sci. Total 640 
+
+Environ. 2021 , 785 , 147270. https://doi.org/10.1016/j.scitotenv.2021.147270. 641 
+
+(18) Philo, S. E.; Ong, A. Q. W.; Keim, E. K.; Swanstrom, R.; Kossik, A. L.; Zhou, N. A.; Beck, 642 
+
+N. K.; Meschke, J. S. Development and Validation of the Skimmed Milk Pellet Extraction 643 
+
+Protocol for SARS -CoV -2 Wastewater Surveillance. Food Environ. Virol. 2022 , 14 (4), 644 
+
+355 –363. https://doi.org/10.1007/s12560 -022 -09512 -5. 645 
+
+(19) Fonseca, M. S.; Machado, B. A. S.; Rolo, C. de A.; Hodel, K. V. S.; Almeida, E. dos S.; de 646 
+
+Andrade, J. B. Evaluation of SARS -CoV -2 Concentrations in Wastewater and River Water 647 
+
+Samples. Case Stud. Chem. Environ. Eng. 2022 , 6, 100214. 648 
+
+https://doi.org/10.1016/j.cscee.2022.100214. 649 
+
+(20) Bhatnagar, B. S.; Tchessalov, S.; Lewis, L. M.; Johnson, R. Freeze Drying of Biologics. In 650 
+
+Encyclopedia of Pharmaceutical Science and Technology, Six Volume Set (Print) ; CRC 651 
+
+Press, 2013. 652 
+
+(21) Alves, D.; Sparrow, R.; Garnier, G. Rapidly Freeze -Dried Human Red Blood Cells for Pre -653 
+
+Transfusion Alloantibody Testing Reagents. J. Biomed. Mater. Res. B Appl. Biomater. 654 
+
+2021 , 109 (11), 1689 –1697. https://doi.org/10.1002/jbm.b.34825. 655 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+(22) Qin, C.; Chen, C.; Shang, C.; Xia, K. Fe3+ -Saturated Montmorillonite Effectively 656 
+
+Deactivates Bacteria in Wastewater. Sci. Total Environ. 2018 , 622 –623 , 88 –95. 657 
+
+https://doi.org/10.1016/j.scitotenv.2017.11.302. 658 
+
+(23) Medema, G.; Heijnen, L.; Elsinga, G.; Italiaander, R.; Brouwer, A. Presence of SARS -659 
+
+Coronavirus -2 RNA in Sewage and Correlation with Reported COVID -19 Prevalence in the 660 
+
+Early Stage of the Epidemic in The Netherlands. Environ. Sci. Technol. Lett. 2020 , 7 (7), 661 
+
+511 –516. https://doi.org/10.1021/acs.estlett.0c00357. 662 
+
+(24) Fontenele, R. S.; Kraberger, S.; Hadfield, J.; Driver, E. M.; Bowes, D.; Holland, L. A.; 663 
+
+Faleye, T. O. C.; Adhikari, S.; Kumar, R.; Inchausti, R.; Holmes, W. K.; Deitrick, S.; 664 
+
+Brown, P.; Duty, D.; Smith, T.; Bhatnagar, A.; Yeager, R. A.; Holm, R. H.; von 665 
+
+Reitzenstein, N. H.; Wheeler, E.; Dixon, K.; Constantine, T.; Wilson, M. A.; Lim, E. S.; 666 
+
+Jiang, X.; Halden, R. U.; Scotch, M.; Varsani, A. High -Throughput Sequencing of SARS -667 
+
+CoV -2 in Wastewater Provides Insights into Circulating Variants. Water Res. 2021 , 205 ,668 
+
+117710. https://doi.org/10.1016/j.watres.2021.117710. 669 
+
+(25) Gonçalves, J.; Koritnik, T.; Mioč, V.; Trkov, M.; Bolješič, M.; Berginc, N.; Prosenc, K.; 670 
+
+Kotar, T.; Paragi, M. Detection of SARS -CoV -2 RNA in Hospital Wastewater from a Low 671 
+
+COVID -19 Disease Prevalence Area. Sci. Total Environ. 2021 , 755 , 143226. 672 
+
+https://doi.org/10.1016/j.scitotenv.2020.143226. 673 
+
+(26) Kazenelson, J.; Jefferson, T.; Rhodes, R. G.; Cahoon, L. B.; Frampton, A. R. Detection of 674 
+
+SARS -CoV -2 RNA in Wastewater from an Enclosed College Campus Serves as an Early 675 
+
+Warning Surveillance System. PLOS ONE 2023 , 18 (7), e0288808. 676 
+
+https://doi.org/10.1371/journal.pone.0288808. 677 
+
+(27) CDC. Laboratory Biosafety Guidelines for working with SARS -CoV -2. COVID -19. 678 
+
+https://www.cdc.gov/covid/php/lab/index.html (accessed 2025 -11 -05). 679 
+
+(28) Patterson, E. I.; Prince, T.; Anderson, E. R.; Casas -Sanchez, A.; Smith, S. L.; Cansado -680 
+
+Utrilla, C.; Solomon, T.; Griffiths, M. J.; Acosta -Serrano, Á.; Turtle, L.; Hughes, G. L. 681 
+
+Methods of Inactivation of SARS -CoV -2 for Downstream Biological Assays. J. Infect. Dis. 682 
+
+2020 , 222 (9), 1462 –1467. https://doi.org/10.1093/infdis/jiaa507. 683 
+
+(29) Lu, X.; Wang, L.; Sakthivel, S. K.; Whitaker, B.; Murray, J.; Kamili, S.; Lynch, B.; 684 
+
+Malapati, L.; Burke, S. A.; Harcourt, J.; Tamin, A.; Thornburg, N. J.; Villanueva, J. M.; 685 
+
+Lindstrom, S. US CDC Real -Time Reverse Transcription PCR Panel for Detection of 686 
+
+Severe Acute Respiratory Syndrome Coronavirus 2. Emerg. Infect. Dis. 2020 , 26 (8), 1654 –687 
+
+1665. https://doi.org/10.3201/eid2608.201246. 688 
+
+(30) Lei, C.; Yang, J.; Hu, J.; Sun, X. On the Calculation of TCID50 for Quantitation of Virus 689 
+
+Infectivity. Virol. Sin. 2020 , 36 (1), 141 –144. https://doi.org/10.1007/s12250 -020 -00230 -5. 690 
+
+(31) Dare, R. K.; Fry, A. M.; Chittaganpitch, M.; Sawanpanyalert, P.; Olsen, S. J.; Erdman, D. 691 
+
+D. Human Coronavirus Infections in Rural Thailand: A Comprehensive Study Using Real -692 
+
+Time Reverse -Transcription Polymerase Chain Reaction Assays. J. Infect. Dis. 2007 , 196 693 
+
+(9), 1321 –1328. https://doi.org/10.1086/521308. 694 
+
+(32) FRALICK, D.; ZHENG, J. Z.; Wang, B.; TU, X. M.; FENG, C. The Differences and 695 
+
+Similarities Between Two -Sample T -Test and Paired T -Test. Shanghai Arch. Psychiatry 29 696 
+
+(3), 184 –188. https://doi.org/10.11919/j.issn.1002 -0829.217070. 697 
+
+(33) Souza, R. R. de; Toebe, M.; Mello, A. C.; Bittencourt, K. C. Sample Size and Shapiro -Wilk 698 
+
+Test: An Analysis for Soybean Grain Yield. Eur. J. Agron. 2023 , 142 , 126666. 699 
+
+https://doi.org/10.1016/j.eja.2022.126666. 700 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+(34) Hauke, J.; Kossowski, T. Comparison of Values of Pearson’s and Spearman’s Correlation 701 
+
+Coefficients on the Same Sets of Data. Sciendo 2011 . https://doi.org/10.2478/v10117 -011 -702 
+
+0021 -1. 703 
+
+(35) Posit team. RStudio: Integrated Development Environment for R, 2025. 704 
+
+http://www.posit.co/. 705 
+
+(36) Nagelkerke, E.; Hetebrij, W. A.; Koelewijn, J. M.; Kooij, J.; van der Drift, A. -M. R.; van 706 
+
+der Beek, R. F. H. J.; de Jonge, E. F.; Lodder, W. J. PCR Standard Curve Quantification in 707 
+
+an Extensive Wastewater Surveillance Program: Results from the Dutch SARS -CoV -2708 
+
+Wastewater Surveillance. Front. Public Health 2023 , 11 , 1141494. 709 
+
+https://doi.org/10.3389/fpubh.2023.1141494. 710 
+
+(37) Chomczynski, P.; Sacchi, N. The Single -Step Method of RNA Isolation by Acid 711 
+
+Guanidinium Thiocyanate –Phenol –Chloroform Extraction: Twenty -Something Years On. 712 
+
+Nat. Protoc. 2006 , 1 (2), 581 –585. https://doi.org/10.1038/nprot.2006.83. 713 
+
+(38) Fabre, A. -L.; Colotte, M.; Luis, A.; Tuffet, S.; Bonnet, J. An Efficient Method for Long -714 
+
+Term Room Temperature Storage of RNA. Eur. J. Hum. Genet. 2014 , 22 (3), 379 –385. 715 
+
+https://doi.org/10.1038/ejhg.2013.145. 716 
+
+(39) Thatcher, S. A. DNA/RNA Preparation for Molecular Detection. Clin. Chem. 2015 , 61 (1), 717 
+
+89 –99. https://doi.org/10.1373/clinchem.2014.221374. 718 
+
+(40) Ramachandran, K. M.; Tsokos, C. P. Chapter 12 - Nonparametric Tests. In Mathematical 719 
+
+Statistics with Applications in R (Second Edition) ; Ramachandran, K. M., Tsokos, C. P., 720 
+
+Eds.; Academic Press: Boston, 2015; pp 589 –637. https://doi.org/10.1016/B978 -0-12 -721 
+
+417113 -8.00012 -6. 722 
+
+(41) Hutchison, J. M.; Li, Z.; Chang, C. -N.; Hiripitiyage, Y.; Wittman, M.; Sturm, B. S. M. 723 
+
+Improving Correlation of Wastewater SARS -CoV -2 Gene Copy Numbers with COVID -19 724 
+
+Public Health Cases Using Readily Available Biomarkers. FEMS Microbes 2022 , 3,725 
+
+xtac010. https://doi.org/10.1093/femsmc/xtac010. 726 
+
+(42) Hsu, S. -Y.; Bayati, M.; Li, C.; Hsieh, H. -Y.; Belenchia, A.; Klutts, J.; Zemmer, S. A.; 727 
+
+Reynolds, M.; Semkiw, E.; Johnson, H. -Y.; Foley, T.; Wieberg, C. G.; Wenzel, J.; Johnson, 728 
+
+M. C.; Lin, C. -H. Biomarkers Selection for Population Normalization in SARS -CoV -2729 
+
+Wastewater -Based Epidemiology. Water Res. 2022 , 223 , 118985. 730 
+
+https://doi.org/10.1016/j.watres.2022.118985. 731 
+
+(43) King, A.; Eckersley, R. Inferential Statistics IV: Choosing a Hypothesis Test; 2019; pp 732 
+
+147 –171. https://doi.org/10.1016/B978 -0-08 -102939 -8.00016 -5. 733 
+
+(44) van Kampen, J. J. A.; van de Vijver, D. A. M. C.; Fraaij, P. L. A.; Haagmans, B. L.; 734 
+
+Lamers, M. M.; Okba, N.; van den Akker, J. P. C.; Endeman, H.; Gommers, D. A. M. P. J.; 735 
+
+Cornelissen, J. J.; Hoek, R. A. S.; van der Eerden, M. M.; Hesselink, D. A.; Metselaar, H. 736 
+
+J.; Verbon, A.; de Steenwinkel, J. E. M.; Aron, G. I.; van Gorp, E. C. M.; van Boheemen, 737 
+
+S.; Voermans, J. C.; Boucher, C. A. B.; Molenkamp, R.; Koopmans, M. P. G.; 738 
+
+Geurtsvankessel, C.; van der Eijk, A. A. Duration and Key Determinants of Infectious 739 
+
+Virus Shedding in Hospitalized Patients with Coronavirus Disease -2019 (COVID -19). Nat. 740 
+
+Commun. 2021 , 12 (1), 267. https://doi.org/10.1038/s41467 -020 -20568 -4. 741 
+
+(45) Xing, Y. -H.; Ni, W.; Wu, Q.; Li, W. -J.; Li, G. -J.; Wang, W. -D.; Tong, J. -N.; Song, X. -F.; 742 
+
+Wing -Kin Wong, G.; Xing, Q. -S. Prolonged Viral Shedding in Feces of Pediatric Patients 743 
+
+with Coronavirus Disease 2019. J. Microbiol. Immunol. Infect. 2020 .744 
+
+https://doi.org/10.1016/j.jmii.2020.03.021. 745 
+
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+(46) Randazzo, W.; Truchado, P.; Cuevas -Ferrando, E.; Simón, P.; Allende, A.; Sánchez, G. 746 
+
+SARS -CoV -2 RNA in Wastewater Anticipated COVID -19 Occurrence in a Low Prevalence 747 
+
+Area. Water Res. 2020 , 181 , 115942. https://doi.org/10.1016/j.watres.2020.115942. 748 
+
+(47) Kuang, D.; Gao, X.; Du, N.; Huang, J.; Dai, Y.; Chen, Z.; Wang, Y.; Wang, C.; Lu, R. 749 
+
+Wastewater Surveillance as a Predictive Tool for COVID -19: A Case Study in Chengdu. 750 
+
+https://doi.org/10.1371/journal.pone.0324521. 751 
+
+(48) Gonzalez, R.; Curtis, K.; Bivins, A.; Bibby, K.; Weir, M. H.; Yetka, K.; Thompson, H.; 752 
+
+Keeling, D.; Mitchell, J.; Gonzalez, D. COVID -19 Surveillance in Southeastern Virginia 753 
+
+Using Wastewater -Based Epidemiology. Water Res. 2020 , 186 , 116296. 754 
+
+https://doi.org/10.1016/j.watres.2020.116296. 755 
+
+(49) Kitajima, M.; Ahmed, W.; Bibby, K.; Carducci, A.; Gerba, C. P.; Hamilton, K. A.; 756 
+
+Haramoto, E.; Rose, J. B. SARS -CoV -2 in Wastewater: State of the Knowledge and 757 
+
+Research Needs. Sci. Total Environ. 2020 , 739 , 139076. 758 
+
+https://doi.org/10.1016/j.scitotenv.2020.139076. 759 
+
+(50) Ye, Y.; Ellenberg, R. M.; Graham, K. E.; Wigginton, K. R. Survivability, Partitioning, and 760 
+
+Recovery of Enveloped Viruses in Untreated Municipal Wastewater. Environ. Sci. Technol. 761 
+
+2016 , 50 (10), 5077 –5085. https://doi.org/10.1021/acs.est.6b00876. 762 
+
+(51) Ahmed, W.; Bertsch, P. M.; Bibby, K.; Haramoto, E.; Hewitt, J.; Huygens, F.; Gyawali, P.; 763 
+
+Korajkic, A.; Riddell, S.; Sherchan, S. P.; Simpson, S. L.; Sirikanchana, K.; Symonds, E. 764 
+
+M.; Verhagen, R.; Vasan, S. S.; Kitajima, M.; Bivins, A. Decay of SARS -CoV -2 and 765 
+
+Surrogate Murine Hepatitis Virus RNA in Untreated Wastewater to Inform Application in 766 
+
+Wastewater -Based Epidemiology. Environ. Res. 2020 , 191 , 110092. 767 
+
+https://doi.org/10.1016/j.envres.2020.110092. 768 
+
+> 769
+> All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
+
+All rights reserved. No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted December 5, 2025. ;https://doi.org/10.1101/2025.01.04.25319877 doi: medRxiv preprint
