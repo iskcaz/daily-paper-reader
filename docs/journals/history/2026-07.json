@@ -8030,7 +8030,7 @@
     "updated_at": "2026-07-24T20:08:04.190697+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05684",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05684",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05684?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -8039,8 +8039,8 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -8070,7 +8070,7 @@
     "semantic_fields_of_study": [
       "Medicine"
     ],
-    "open_pdf_available": false,
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {

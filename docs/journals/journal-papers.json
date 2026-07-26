@@ -28,7 +28,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185006+00:00",
+    "updated_at": "2026-07-26T20:05:18.465277+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00181",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00181",
     "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00181?ref=article_openPDF",
@@ -106,7 +106,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.184801+00:00",
+    "updated_at": "2026-07-26T20:05:18.465095+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01981",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01981",
     "pdf_url": null,
@@ -175,7 +175,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.184833+00:00",
+    "updated_at": "2026-07-26T20:05:18.465130+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04020",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04020",
     "pdf_url": null,
@@ -247,7 +247,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.184867+00:00",
+    "updated_at": "2026-07-26T20:05:18.465163+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06158",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06158",
     "pdf_url": null,
@@ -323,7 +323,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185447+00:00",
+    "updated_at": "2026-07-26T20:05:18.465724+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04284",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04284",
     "pdf_url": null,
@@ -394,10 +394,10 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185294+00:00",
+    "updated_at": "2026-07-26T20:05:18.465553+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05684",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05684",
-    "pdf_url": null,
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05684?ref=article_openPDF",
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -406,8 +406,8 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -437,7 +437,7 @@
     "semantic_fields_of_study": [
       "Medicine"
     ],
-    "open_pdf_available": false,
+    "open_pdf_available": true,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
@@ -464,7 +464,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185079+00:00",
+    "updated_at": "2026-07-26T20:05:18.465344+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00809",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00809",
     "pdf_url": null,
@@ -535,7 +535,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185474+00:00",
+    "updated_at": "2026-07-26T20:05:18.465770+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c00610",
     "abs_url": "https://doi.org/10.1021/acs.est.6c00610",
     "pdf_url": null,
@@ -610,7 +610,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185185+00:00",
+    "updated_at": "2026-07-26T20:05:18.465444+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05830",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05830",
     "pdf_url": null,
@@ -688,7 +688,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185049+00:00",
+    "updated_at": "2026-07-26T20:05:18.465314+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c03343",
     "abs_url": "https://doi.org/10.1021/acs.est.6c03343",
     "pdf_url": null,
@@ -763,7 +763,7 @@
       "est"
     ],
     "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185354+00:00",
+    "updated_at": "2026-07-26T20:05:18.465611+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c02708",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02708",
     "pdf_url": null,
@@ -834,7 +834,7 @@
       "est"
     ],
     "published": "2026-07-21T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185538+00:00",
+    "updated_at": "2026-07-26T20:05:18.465837+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01721",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01721",
     "pdf_url": null,
@@ -911,7 +911,7 @@
       "est"
     ],
     "published": "2026-07-21T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.185509+00:00",
+    "updated_at": "2026-07-26T20:05:18.465805+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c05476",
     "abs_url": "https://doi.org/10.1021/acs.est.6c05476",
     "pdf_url": null,
@@ -986,7 +986,7 @@
       "est-letters"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.777571+00:00",
+    "updated_at": "2026-07-26T20:05:18.744997+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00433",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00433",
     "pdf_url": null,
@@ -1023,72 +1023,6 @@
       "Chemistry",
       "Biology",
       "Neuroscience"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-estlett-6c00068",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.estlett.6c00068",
-    "doi": "10.1021/acs.estlett.6c00068",
-    "title": "Relevance of Sustainable and Green-Synthesized Biogenic Iron Oxide Nanoparticles for Remediation of Emerging Contaminants from Water Ecosystems and Their Associated Health Concerns",
-    "abstract": "Groundwater pollution by emerging contaminants (ECs), including pharmaceuticals, per- and polyfluoroalkyl substances (PFAS), heavy metals, and disinfection byproducts, poses severe environmental and public health hazards. Conventional treatment approaches are unable to eliminate ECs, prompting the development of sustainable alternatives for eliminating ECs. This review provides insights into the synthesis of iron oxide nanoparticles (IONPs) using environmentally friendly methods, including systems based on bacteria, fungi, algae, plants, and biowaste. Biogenic IONPs are highly effective at removing ECs, including PFAS, certain medications, and organic pollutants. Their unusual physicochemical characteristics, high surface area, magnetic separation capability, and tunable reactivity make them promising candidates for groundwater cleanup. Future studies should focus on expanding the application of IONPs across a broader range of ECs, refining synthesis methods, and improving functionalization to enable targeted pollutant removal. Though knowledge gaps exist regarding their efficiency against some contaminants, e.g., persistent pesticides, nitrosamines, microplastics, and complex pharmaceutical metabolites, for which no effective biogenic IONPs are currently available, biogenic IONPs have shown great potential for removing several ECs. Biogenic IONPs are a long-lasting and effective way to mitigate health risks and groundwater contamination provided that they are continually improved.",
-    "authors": [
-      "Gagandeep Singh",
-      "Rakesh Kumar",
-      "Neelam Thakur",
-      "Umesh Kumar",
-      "Prosun Bhattacharya"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "published": "2026-07-17T00:00:00+00:00",
-    "updated_at": "2026-07-25T20:02:07.777725+00:00",
-    "link": "https://doi.org/10.1021/acs.estlett.6c00068",
-    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00068",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology Letters",
-    "journal_key": "est_letters",
-    "journal_label": "EST Letters",
-    "journal_issn": [
-      "2328-8930",
-      "2328-8930"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est-letters"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Environmental remediation",
-      "Environmental science",
-      "Human health",
-      "Groundwater",
-      "Iron oxide nanoparticles",
-      "Environmental chemistry",
-      "Contamination",
-      "Groundwater remediation"
     ],
     "citation_count": 0,
     "influential_citation_count": 0,
@@ -11485,6 +11419,49 @@
       "query:core-journal",
       "query:est",
       "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00068",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.estlett.6c00068",
+    "doi": "10.1021/acs.estlett.6c00068",
+    "title": "Relevance of Sustainable and Green-Synthesized Biogenic Iron Oxide Nanoparticles for Remediation of Emerging Contaminants from Water Ecosystems and Their Associated Health Concerns",
+    "abstract": "Groundwater pollution by emerging contaminants (ECs), including pharmaceuticals, per- and polyfluoroalkyl substances (PFAS), heavy metals, and disinfection byproducts, poses severe environmental and public health hazards. Conventional treatment approaches are unable to eliminate ECs, prompting the development of sustainable alternatives for eliminating ECs. This review provides insights into the synthesis of iron oxide nanoparticles (IONPs) using environmentally friendly methods, including systems based on bacteria, fungi, algae, plants, and biowaste. Biogenic IONPs are highly effective at removing ECs, including PFAS, certain medications, and organic pollutants. Their unusual physicochemical characteristics, high surface area, magnetic separation capability, and tunable reactivity make them promising candidates for groundwater cleanup. Future studies should focus on expanding the application of IONPs across a broader range of ECs, refining synthesis methods, and improving functionalization to enable targeted pollutant removal. Though knowledge gaps exist regarding their efficiency against some contaminants, e.g., persistent pesticides, nitrosamines, microplastics, and complex pharmaceutical metabolites, for which no effective biogenic IONPs are currently available, biogenic IONPs have shown great potential for removing several ECs. Biogenic IONPs are a long-lasting and effective way to mitigate health risks and groundwater contamination provided that they are continually improved.",
+    "authors": [
+      "Gagandeep Singh",
+      "Rakesh Kumar",
+      "Neelam Thakur",
+      "Umesh Kumar",
+      "Prosun Bhattacharya"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-17",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00068",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00068",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_label": "EST Letters",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est-letters",
+      "query:EST Letters"
     ],
     "open_pdf_source": "",
     "open_pdf_status": "no_open_pdf",
