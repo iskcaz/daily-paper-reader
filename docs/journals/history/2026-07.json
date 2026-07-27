@@ -8040,7 +8040,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -8409,7 +8409,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -8652,6 +8652,166 @@
     "influential_citation_count": 0,
     "semantic_fields_of_study": [
       "Medicine"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08762",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08762",
+    "doi": "10.1021/acs.est.6c08762",
+    "title": "Enhanced Generation of Fe(IV)-Oxo Species via Chlorite Activation in Nanoconfined Covalent Organic Frameworks for Hypersaline Wastewater Decontamination",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Zhenxi Yuan",
+      "Muke Lin",
+      "Zhuocheng Liang",
+      "Zhipeng Zhang",
+      "Keyu Chen",
+      "Rumeng Zhang",
+      "Yimu Jiao",
+      "Jingyun Fang",
+      "Dehua Xia"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-27T00:00:00+00:00",
+    "updated_at": "2026-07-27T20:34:10.026526+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08762",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08762",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05876",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05876",
+    "doi": "10.1021/acs.est.6c05876",
+    "title": "Solar Driven Zero-Liquid Discharge of High-Salinity Phenolic Wastewater",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shuai Wang",
+      "Hongjie Guo",
+      "Dylan Ming-Han Li",
+      "Hameer Chand",
+      "He Yang",
+      "Peng Wang",
+      "Changyong Zhang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-27T00:00:00+00:00",
+    "updated_at": "2026-07-27T20:34:10.026430+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05876",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05876",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08194",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08194",
+    "doi": "10.1021/acs.est.6c08194",
+    "title": "Identification and Characterization of Per- and Polyfluoroalkyl Substances Isomers in Bird Eggs by Liquid Chromatography-Ion Mobility-High-Resolution Mass Spectrometry",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lu Zhao",
+      "Francesca Cappelli",
+      "Lidia Belova",
+      "Jodie Buytaert",
+      "Thimo Groffen",
+      "Shanshan Yin",
+      "Weiping Liu",
+      "Lieven Bervoets",
+      "Adrian Covaci"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-26T00:00:00+00:00",
+    "updated_at": "2026-07-27T20:34:10.026908+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08194",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08194",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."

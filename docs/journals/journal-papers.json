@@ -1,24 +1,22 @@
 [
   {
-    "id": "journal-10-1021-acs-est-6c00181",
+    "id": "journal-10-1021-acs-est-6c08762",
     "source": "journal",
     "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00181",
-    "doi": "10.1021/acs.est.6c00181",
-    "title": "Atmospheric Mixing Controls Air Pollution Chemistry and Mitigation Efficacy in High-Latitude Cities",
-    "abstract": "Urban air pollution in cold environments poses a significant public health risk. However, the physicochemical processes determining the concentrations of primary and secondary pollutants remain poorly understood. This is due to fundamentally different conditions compared to warmer environments, such as extremely shallow polluted surface layers (PSLs) and low ultraviolet radiation. We apply an observation-driven chemical transport model to a multiday persistent PSL event during the 2022 Alaskan Layered Pollution and Chemical Analysis (ALPACA) experiment in Fairbanks, AK, USA. The simulations account for pollutant emissions, multiphase chemical kinetics, and turbulent and advective exchange of PSL air with the clean background atmosphere. This exchange is continuous, occurs on a time scale of 30 min to 3.5 h, and is essential for an accurate representation of the PSL composition. We find that measured diurnal cycles of particulate nitrate reflect the interplay between photochemical nitric acid formation and the loss of nitrate aerosol from of the PSL through mixing with clean background air. The continuous removal and replenishment of PSL aerosol counteracts self-acidification and prevents coagulation with acidic primary sulfate aerosol, thus sustaining sulfate and hydromethanesulfonate (HMS) formation throughout the pollution event. Sensitivity calculations show that within the coupled chemistry and transport system of a shallow PSL, reductions of nitrogen oxide emissions can change the multiphase oxidation regime and thereby even increase the levels of secondary nitrate and sulfate in the PSL.",
+    "source_paper_id": "10.1021/acs.est.6c08762",
+    "doi": "10.1021/acs.est.6c08762",
+    "title": "Enhanced Generation of Fe(IV)-Oxo Species via Chlorite Activation in Nanoconfined Covalent Organic Frameworks for Hypersaline Wastewater Decontamination",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
     "authors": [
-      "Jonas Kuhn",
-      "Laura M. D. Heinlein",
-      "Meeta Cesler-Maloney",
-      "Michael O. Sunday",
-      "Fangzhou Guo",
-      "James H. Flynn",
-      "Allison Moon",
-      "Becky Alexander",
-      "William R. Simpson",
-      "Cort Anastasio",
-      "Jochen Stutz"
+      "Zhenxi Yuan",
+      "Muke Lin",
+      "Zhuocheng Liang",
+      "Zhipeng Zhang",
+      "Keyu Chen",
+      "Rumeng Zhang",
+      "Yimu Jiao",
+      "Jingyun Fang",
+      "Dehua Xia"
     ],
     "primary_category": "environmental-science",
     "categories": [
@@ -27,11 +25,11 @@
       "core-journal",
       "est"
     ],
-    "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465277+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00181",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00181",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00181?ref=article_openPDF",
+    "published": "2026-07-27T00:00:00+00:00",
+    "updated_at": "2026-07-27T20:34:10.026526+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08762",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08762",
+    "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_key": "est",
     "journal_label": "EST",
@@ -40,12 +38,10 @@
       "1520-5851"
     ],
     "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
     "metadata_sources": [
       "crossref",
-      "openalex",
-      "semantic_scholar",
       "docs-meta"
     ],
     "tags": [
@@ -54,24 +50,114 @@
       "core-journal",
       "est"
     ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Nitrate",
-      "Aerosol",
-      "Chemistry",
-      "Sulfate",
-      "Pollutant",
-      "Pollution",
-      "Environmental chemistry",
-      "Particulates"
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05876",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05876",
+    "doi": "10.1021/acs.est.6c05876",
+    "title": "Solar Driven Zero-Liquid Discharge of High-Salinity Phenolic Wastewater",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Shuai Wang",
+      "Hongjie Guo",
+      "Dylan Ming-Han Li",
+      "Hameer Chand",
+      "He Yang",
+      "Peng Wang",
+      "Changyong Zhang"
     ],
-    "citation_count": 1,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
     ],
-    "open_pdf_available": true
+    "published": "2026-07-27T00:00:00+00:00",
+    "updated_at": "2026-07-27T20:34:10.026430+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05876",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05876",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08194",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08194",
+    "doi": "10.1021/acs.est.6c08194",
+    "title": "Identification and Characterization of Per- and Polyfluoroalkyl Substances Isomers in Bird Eggs by Liquid Chromatography-Ion Mobility-High-Resolution Mass Spectrometry",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Lu Zhao",
+      "Francesca Cappelli",
+      "Lidia Belova",
+      "Jodie Buytaert",
+      "Thimo Groffen",
+      "Shanshan Yin",
+      "Weiping Liu",
+      "Lieven Bervoets",
+      "Adrian Covaci"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-07-26T00:00:00+00:00",
+    "updated_at": "2026-07-27T20:34:10.026908+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08194",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08194",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
     "id": "journal-10-1021-acs-est-6c01981",
@@ -106,7 +192,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465095+00:00",
+    "updated_at": "2026-07-27T20:34:10.027124+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c01981",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01981",
     "pdf_url": null,
@@ -175,7 +261,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465130+00:00",
+    "updated_at": "2026-07-27T20:34:10.027147+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c04020",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04020",
     "pdf_url": null,
@@ -247,7 +333,7 @@
       "est"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465163+00:00",
+    "updated_at": "2026-07-27T20:34:10.027174+00:00",
     "link": "https://doi.org/10.1021/acs.est.6c06158",
     "abs_url": "https://doi.org/10.1021/acs.est.6c06158",
     "pdf_url": null,
@@ -294,670 +380,6 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
-    "id": "journal-10-1021-acs-est-6c04284",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c04284",
-    "doi": "10.1021/acs.est.6c04284",
-    "title": "An Ultra-Sensitive QCM-Based Detecting Platform for On-Site and Rapid Quantification of Nanoplastics in Bottled Water",
-    "abstract": "The release of nanoplastics (NPs) from plastic bottled water containers has emerged as a concealed yet critical threat to water quality and consumer health. Yet, on-site and rapid quantification of NPs, particularly at environmentally relevant trace levels, remains a formidable analytical challenge. Here, we reported an ultrasensitive detection platform that integrates a quartz crystal microbalance (QCM) with a custom-engineered nanoporous sensing chip, enabling real-time, field-deployable quantification of NPs in bottled water with a detection limit of 0.39 μg·L –1 . The platform achieves quantitative analysis of multiple NP types, including poly(methyl methacrylate) (PMMA), polyethylene terephthalate (PET), poly(vinyl alcohol) (PVA), polyvinyl chloride (PVC), polystyrene (PS), and carboxylated PS (PS-COOH), with a surface mass sensitivity of 17.7 ng·cm –2 ·Hz –1 . Comprehensive interfacial characterization, supported by molecular simulations, shows that electrostatic attraction facilitates initial NP capture, whereas van der Waals interactions stabilize the adsorbed state, with PET exhibiting particularly favorable adsorption energetics. Leveraging this mechanism, we then conceived a portable device and validated its performance across diverse real-world scenarios involving PET-contaminated bottled water. The system demonstrated robust reliability and analytical fidelity under field conditions. This work establishes a QCM-based analytical paradigm for NP quantification and delivers a deployable technological solution for on-site, rapid, and trustworthy monitoring of NPs in drinking water matrices.",
-    "authors": [
-      "Xueyan Suo",
-      "Yang Huo",
-      "Yifei Wang",
-      "Kairui Liu",
-      "Siyu Zhang",
-      "Jinshan Wei",
-      "Yingxu Liu",
-      "Yunfei Tan",
-      "Chengzhi Hu",
-      "Mingxin Huo",
-      "Jiuhui Qu",
-      "Meng Sun"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465724+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c04284",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c04284",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Bottled water",
-      "Nanoporous",
-      "Quartz crystal microbalance",
-      "Polyvinyl chloride",
-      "Adsorption",
-      "Detection limit",
-      "Chemistry",
-      "Polystyrene"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c05684",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c05684",
-    "doi": "10.1021/acs.est.6c05684",
-    "title": "Carbon Dioxide Emissions from Acid Mine Drainage Neutralization Are a Major Component of Metal Mining Carbon Footprints",
-    "abstract": "High Resolution Image Download MS PowerPoint Slide Achieving the transition to net zero human greenhouse gas emissions requires a large increase in metal production by mining. Acid mine drainage (AMD) neutralization is a potentially important but poorly quantified source of mining industry CO 2 emissions. Here, we show that AMD neutralization-related CO 2 emissions can be a major component of metal production carbon footprints. Data from the rivers and estuarine system draining the central and eastern Iberian Pyrite Belt show that AMD neutralization emits 32 ± 11 kt CO 2 /yr. Normalized to historic copper production rates, AMD-associated emissions (0.3–4.2 t CO 2 per t Cu) are of similar magnitude as conventional copper production carbon footprints (1–9 t CO 2 per t Cu). However, continual oxidative weathering of waste sulfide minerals will increase AMD-related CO 2 emission budgets into the future. Complete oxidative weathering of waste sulfide minerals extracted from this region will yield AMD-related CO 2 emissions (7–165 t CO 2 per t Cu) that exceed conventional Cu production carbon footprints by more than 1 order of magnitude. These findings highlight the need to account for AMD-related CO 2 emissions from metal mining to support the transition toward net zero greenhouse gas emissions.",
-    "authors": [
-      "Stanisław Kołodziejski",
-      "Eva E. Stüeken",
-      "Laura Sánchez López",
-      "Jose Miguel Nieto",
-      "Carlos R. Cánovas",
-      "Rafael Pérez-López",
-      "Luke Bridgestock"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465553+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c05684",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c05684",
-    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05684?ref=article_openPDF",
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Acid mine drainage",
-      "Carbon dioxide",
-      "Sulfide minerals",
-      "Greenhouse gas",
-      "Environmental science",
-      "Sulfide",
-      "Pyrite",
-      "Environmental chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": true,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c00809",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00809",
-    "doi": "10.1021/acs.est.6c00809",
-    "title": "Chromatography Coupled to High-Resolution Mass Spectrometry Analysis Reveals Flaws in van Krevelen Compound Class Assignments in DOM",
-    "abstract": "High-resolution mass spectrometry (HRMS) is a powerful tool for determining molecular formulas in dissolved organic matter (DOM). In the biogeochemical field, it is common to assign DOM molecular formulas to prospective chemical classes based on elemental ratios alone, with these classes based on known biomolecules or empirical classifications (e.g., carboxyl-rich alicyclic molecules). However, accurate identification of molecular origin remains challenging due to DOM's extreme isomeric diversity and the inability of HRMS to provide information about chemical connectivity, calling into question the accuracy of assignment or quantification. To address the lack of chemical connectivity gained from HRMS alone, we used liquid chromatography-HRMS to determine whether retention behavior is consistent with biochemical class assignment. Problematically, all examined classes displayed very broad retention profiles, indicating diversity of chemical functionality within their defined elemental ratios. Furthermore, retention behavior matched poorly with known biochemical class hydrophobicity data, particularly for \"carbohydrates\" and \"peptides\". Additionally, differences in retention profiles of various compound classes and molecular formulas between terrestrial and marine samples show that molecular formulas are constituted by different groups of isomers between environments. We recommend an overhaul of standard practice in the use of HRMS data for biogeochemical investigation of DOM, relying less on assignment to prospective classes and more on chemical understanding, which can be developed through the implementation of chromatography and tandem MS methods using modern equipment and workflows.",
-    "authors": [
-      "Maria G. Digernes",
-      "Alexander J. Craig",
-      "Tsz Yung Patrick Wong",
-      "Erik Bergström",
-      "Murat V. Ardelan",
-      "Jeffrey A. Hawkes"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465344+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00809",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00809",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Chemistry",
-      "Biogeochemical cycle",
-      "Alicyclic compound",
-      "Mass spectrometry",
-      "Biomolecule",
-      "Dissolved organic carbon",
-      "Environmental chemistry",
-      "Tandem mass spectrometry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c00610",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c00610",
-    "doi": "10.1021/acs.est.6c00610",
-    "title": "Electrochemical Formation of N -Nitrosodimethylamine in Nitrite-Impacted Waters",
-    "abstract": "Electrochemical water treatment is increasingly popular for a variety of applications, including resource recovery and advanced oxidation processes. In complex environmental matrices, electro-oxidative processes are known to form hazardous byproducts. This study identifies a new pathway for N -nitrosodimethylamine (NDMA) formation via nitrite electro-oxidation in spiked synthetic and natural electrolytes. In a novel flow-through electrochemical cell, NDMA formation was observed from 1 mg/L N nitrite and 100 μg/L dimethylamine, yielding 169–553 ng/L NDMA in a 1 mM Na 2 SO 4 electrolyte and 189–715 ng/L NDMA in a drinking water treatment plant matrix across various cell potentials (2–12 V and 2–10 V, respectively), exceeding the resident tap water regional screening level for NDMA (0.11 ng/L) by over 1000-fold. Uniquely, formation exclusively occurred in cathode-to-anode flow. Voltammetric data and mechanistic insights are consistent with a cathodic process increasing downstream pH, consequently facilitating amine deprotonation and enabling its nitrosation via N 2 O 4 generated from nitrite oxidation. Generally, nitrite or chloride oxidation activity monitoring (via chlorine residual measurement) was not predictive of nitrosamine yield, and direct measurement of nitrosamines using sensitive analytical techniques (limit of quantification: 55 ng/L) was necessary. This work highlights the understudied formation potential for toxic nitrogenous byproducts in emerging electrochemical treatment technologies, particularly in nitrate recovery contexts.",
-    "authors": [
-      "Barathkumar Baskaran",
-      "Michelle Wang",
-      "Kristen A. Riedinger",
-      "Glen Andrew D. de Vera",
-      "Elijah E. Martin",
-      "Chad D. Vecitis",
-      "Desiree L. Plata"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465770+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c00610",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c00610",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Nitrite",
-      "Chemistry",
-      "Nitrate",
-      "Nitrosamine",
-      "Electrochemistry",
-      "Chlorine",
-      "Inorganic chemistry",
-      "Environmental chemistry"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c05830",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c05830",
-    "doi": "10.1021/acs.est.6c05830",
-    "title": "From Release to Transformation: Elucidating the Microplastic-Facilitated Fate of Brominated Additives in Soil",
-    "abstract": "Microplastics (MPs) are pervasive vectors in soil, but their quantitative role in additive transport and transformation remains unclear. This study examines the release, transport, and transformation of TBBPA and BDE-209 from polystyrene MPs. Vertical MP migration forms an observed secondary emission front under hotspot-like conditions at 5–7 cm depth, which influences the spatial distribution of the strongly hydrophobic BDE-209, leading to a concentration plateau at this interface. We developed a mechanistic model based on Fick’s second law, parameterized with the first-order release rate constant ( k release ), colloidal diffusion coefficient ( D sc ), and biodegradation rate constant (k) under our experimental conditions. This model successfully captured the distinct migration patterns of the two additives, supported by machine learning (XGB) validation within the scope. Depth and time were the primary experimental controls, while EC and pH were the key soil properties influencing additive fate. Beyond transport, MP-driven soil changes promoted extensive additive transformation into 59 byproducts. The majority of BDE-209 transformation products were predicted to exhibit significant oral toxicity and high persistence in the environment. Our findings propose a novel, comprehensive framework that advances beyond existing approaches by linking MP-mediated transport to hazardous product formation, providing essential insights for the risk assessment of plastic-contaminated soils.",
-    "authors": [
-      "Ying Zhang",
-      "Hao Chen",
-      "Jingwen Li",
-      "Mengqiang He",
-      "Ping Sun",
-      "Zhongbo Wei",
-      "Dongmei Zhou",
-      "Moustafa M. G. Fouda",
-      "Hanan Sayed Abdel-Rahman",
-      "Zunyao Wang",
-      "Ruijuan Qu"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465444+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c05830",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c05830",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Microplastics",
-      "Transformation (genetics)",
-      "Chemistry",
-      "Environmental chemistry",
-      "Hazardous waste",
-      "Reaction rate constant",
-      "Biodegradation",
-      "Diffusion"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c03343",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c03343",
-    "doi": "10.1021/acs.est.6c03343",
-    "title": "Greenland Emissions Contribute to Black Carbon Aerosols in the Arctic Marine Boundary Layer",
-    "abstract": "). Mixing-state analysis shows that 54% of soot particles in coastal air masses were externally mixed, consistent with relatively fresh emissions, whereas most soot particles over the open sea and sea-ice regions were internally mixed, indicative of aged, transported aerosol. FLEXPART modeling suggests BC enhancements along the Greenland coast. Our data indicate that Greenland acts as a regional source of BC to the Arctic marine boundary layer in late spring and early summer, when midlatitude transport is weak.",
-    "authors": [
-      "Xiaomi Teng",
-      "Mao Du",
-      "Congbo Song",
-      "Yuqing Dai",
-      "Vipul Lal Chandani",
-      "David C. S. Beddows",
-      "Manuel Dall’Osto",
-      "Darrel Baumgardner",
-      "Roy M. Harrison",
-      "James Brean",
-      "Mingxi Yang",
-      "Yangmei Zhang",
-      "Weijun Li",
-      "Zongbo Shi"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465314+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c03343",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c03343",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": true,
-    "oa_status": "hybrid",
-    "openalex_concepts": [
-      "Carbon black",
-      "Environmental science",
-      "Arctic",
-      "The arctic",
-      "Boundary layer",
-      "Atmospheric sciences",
-      "Oceanography",
-      "Carbon fibers"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c02708",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c02708",
-    "doi": "10.1021/acs.est.6c02708",
-    "title": "Increased Support Layer Hydraulic Resistance Partially Explains Permeability Loss in High-Pressure Reverse Osmosis",
-    "abstract": "(61% reduction). Selective removal of the polyamide active layer enabled direct measurement of compacted support permeability. Despite a substantial drop (90% reduction) in support permeability, a resistance-in-series analysis suggested that bulk support densification accounted for only 32% of the total TFC permeability decline. Incorporating the effects of 20-30% elastic deformation, measured through uniaxial compression testing, increased the estimated support-layer contribution but still could not fully explain the observed permeability decline, suggesting a persistent resistance beyond bulk deformation. Support surface characterization revealed a 41% decrease in mean surface pore diameter. A resistance analysis suggests that residual permeability loss (∼57% at 100 bar) may stem from polyamide nodules becoming disconnected from underlying open pores (i.e., increased interfacial resistance between the selective and support layers), though direct experimental confirmation of this mechanism remains a direction for future work. These findings suggest that permeability loss under HPRO compaction is governed by both support hydraulic resistance and an interlayer transport limitation, requiring membrane designs that preserve bulk integrity and surface pore accessibility under high pressure.",
-    "authors": [
-      "Sima Zeinali Danalou",
-      "Hongchen Wang",
-      "Niher R. Sarker",
-      "Nan Zhang",
-      "Jordan Fidelino",
-      "Jiahao Zhu",
-      "Fiona Chang",
-      "Gawtham Senthilvelan",
-      "Patrick C. Lee",
-      "Jason Hattrick-Simpers",
-      "Jay R. Werber"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-22T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465611+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c02708",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c02708",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Reverse osmosis",
-      "Permeability (electromagnetism)",
-      "Hydraulic resistance",
-      "Layer (electronics)",
-      "Materials science",
-      "Osmosis",
-      "Hydraulic conductivity",
-      "Geotechnical engineering"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c01721",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c01721",
-    "doi": "10.1021/acs.est.6c01721",
-    "title": "Predicting PFAS Exposure Risks from Rural Private Wells Using Integrated Mechanistic and Machine-Learned Bayesian Network Models",
-    "abstract": "Per- and polyfluoroalkyl substances (PFAS) pose complex challenges for drinking water management, particularly in rural communities reliant on private wells that fall outside federal regulatory oversight. As regulators and communities grapple with evolving standards and limited resources, there is a critical need for scalable, accurate, and resource-efficient models to assess PFAS exposure risks. This study compares traditional mechanistic groundwater models to machine-learned Bayesian networks and hybrid approaches that integrate both model types. Using hexafluoropropylene oxide dimer acid, commonly known as GenX, contamination near North Carolina's Fayetteville Works Plant as a case study, we evaluate each model's (1) ability to identify wells exceeding health-based GenX thresholds, (2) robustness to incomplete data, and (3) development and calibration time. Results demonstrate that Bayesian networks match or exceed mechanistic models in classification performance, while offering superior robustness to missing data and varying decision thresholds, along with decreased modeling resource demands. Hybrid models incorporating mechanistic outputs into Bayesian networks achieve the highest performance, showing that mechanistic insights can improve Bayesian network predictions. These findings support a flexible modeling framework that can adapt to changing regulations and emerging contaminants without recalibrating full process-based models, offering practical tools for regulators and communities to advance PFAS risk management.",
-    "authors": [
-      "Hana Chmielewski Long",
-      "Rohit Warrier",
-      "Krishna Ganta",
-      "Riley Mulhern",
-      "Ted Lillys",
-      "Jennifer Hoponick Redmon",
-      "Jacqueline MacDonald Gibson"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-21T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465837+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c01721",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c01721",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Bayesian network",
-      "Computer science",
-      "Risk analysis (engineering)",
-      "Network model",
-      "Bayesian probability",
-      "Environmental science",
-      "Network analysis",
-      "Risk assessment"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
-    "id": "journal-10-1021-acs-est-6c05476",
-    "source": "journal",
-    "source_detail": "crossref",
-    "source_paper_id": "10.1021/acs.est.6c05476",
-    "doi": "10.1021/acs.est.6c05476",
-    "title": "Silicalite-1-Confined Synergistic Effects of Bimetallic Oxide Nanoclusters toward High Water Resistance for Complete Propane Oxidation",
-    "abstract": "Water-induced deactivation of Pd-based catalysts for light alkane combustion remains a significant challenge. Herein, S-1 zeolite-encapsulated Pd–Pt bimetallic oxide nanoclusters were prepared for catalytic propane oxidation. The optimized Pd 0.8 Pt 0.2 @S-1 catalyst exhibits exceptional water resistance with the propane oxidation reaction temperature (T 90 ) shifting by a mere 9 °C in the presence of 5% H 2 O and fully recovering once the water feed is terminated, superior activity, and thermal stability. Combined experimental and theoretical insights reveal that the introduction of Pt induces the formation of Pt–O–Pd bonds, modulating the electronic structure of Pd to enhance surface hydrophobicity, optimize oxygen and propane adsorption, and promote propane activation. In situ DRIFTS studies further confirm that propane oxidation over Pd 0.8 Pt 0.2 @S-1 proceeds via a Mars–van Krevelen mechanism. This work sheds new light on confined bimetallic synergistic effects for the rational design of catalysts with superior performance.",
-    "authors": [
-      "Zhiqiang Chen",
-      "Xiaoqiang Xie",
-      "Xincheng Zhou",
-      "Xiang Tu",
-      "Fengqing Zhuo",
-      "Jian Ji",
-      "Fengbo Yu",
-      "Guobo Li",
-      "Wenming Liu",
-      "Lu Wei",
-      "Jiguang Deng",
-      "Weili Dai",
-      "Honggen Peng"
-    ],
-    "primary_category": "environmental-science",
-    "categories": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "published": "2026-07-21T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.465805+00:00",
-    "link": "https://doi.org/10.1021/acs.est.6c05476",
-    "abs_url": "https://doi.org/10.1021/acs.est.6c05476",
-    "pdf_url": null,
-    "journal": "Environmental Science & Technology",
-    "journal_key": "est",
-    "journal_label": "EST",
-    "journal_issn": [
-      "0013-936X",
-      "1520-5851"
-    ],
-    "source_weight": 10,
-    "open_pdf_status": "no_open_pdf",
-    "open_pdf_source": "",
-    "metadata_sources": [
-      "crossref",
-      "openalex",
-      "semantic_scholar",
-      "docs-meta"
-    ],
-    "tags": [
-      "environmental-science",
-      "journal-watch",
-      "core-journal",
-      "est"
-    ],
-    "is_oa": false,
-    "oa_status": "closed",
-    "openalex_concepts": [
-      "Propane",
-      "Bimetallic strip",
-      "Catalysis",
-      "Nanoclusters",
-      "Oxide",
-      "Chemical engineering",
-      "Alkane",
-      "Materials science"
-    ],
-    "citation_count": 0,
-    "influential_citation_count": 0,
-    "semantic_fields_of_study": [
-      "Medicine"
-    ],
-    "open_pdf_available": false,
-    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
-  },
-  {
     "id": "journal-10-1021-acs-estlett-6c00433",
     "source": "journal",
     "source_detail": "crossref",
@@ -986,7 +408,7 @@
       "est-letters"
     ],
     "published": "2026-07-23T00:00:00+00:00",
-    "updated_at": "2026-07-26T20:05:18.744997+00:00",
+    "updated_at": "2026-07-27T20:34:10.291671+00:00",
     "link": "https://doi.org/10.1021/acs.estlett.6c00433",
     "abs_url": "https://doi.org/10.1021/acs.estlett.6c00433",
     "pdf_url": null,
@@ -11734,6 +11156,143 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c00181",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00181",
+    "doi": "10.1021/acs.est.6c00181",
+    "title": "Atmospheric Mixing Controls Air Pollution Chemistry and Mitigation Efficacy in High-Latitude Cities",
+    "abstract": "Urban air pollution in cold environments poses a significant public health risk. However, the physicochemical processes determining the concentrations of primary and secondary pollutants remain poorly understood. This is due to fundamentally different conditions compared to warmer environments, such as extremely shallow polluted surface layers (PSLs) and low ultraviolet radiation. We apply an observation-driven chemical transport model to a multiday persistent PSL event during the 2022 Alaskan Layered Pollution and Chemical Analysis (ALPACA) experiment in Fairbanks, AK, USA. The simulations account for pollutant emissions, multiphase chemical kinetics, and turbulent and advective exchange of PSL air with the clean background atmosphere. This exchange is continuous, occurs on a time scale of 30 min to 3.5 h, and is essential for an accurate representation of the PSL composition. We find that measured diurnal cycles of particulate nitrate reflect the interplay between photochemical nitric acid formation and the loss of nitrate aerosol from of the PSL through mixing with clean background air. The continuous removal and replenishment of PSL aerosol counteracts self-acidification and prevents coagulation with acidic primary sulfate aerosol, thus sustaining sulfate and hydromethanesulfonate (HMS) formation throughout the pollution event. Sensitivity calculations show that within the coupled chemistry and transport system of a shallow PSL, reductions of nitrogen oxide emissions can change the multiphase oxidation regime and thereby even increase the levels of secondary nitrate and sulfate in the PSL.",
+    "authors": [
+      "Jonas Kuhn",
+      "Laura M. D. Heinlein",
+      "Meeta Cesler-Maloney",
+      "Michael O. Sunday",
+      "Fangzhou Guo",
+      "James H. Flynn",
+      "Allison Moon",
+      "Becky Alexander",
+      "William R. Simpson",
+      "Cort Anastasio",
+      "Jochen Stutz"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-23",
+    "link": "https://doi.org/10.1021/acs.est.6c00181",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00181",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c00181?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_source": "unknown"
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00610",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00610",
+    "doi": "10.1021/acs.est.6c00610",
+    "title": "Electrochemical Formation of N -Nitrosodimethylamine in Nitrite-Impacted Waters",
+    "abstract": "Electrochemical water treatment is increasingly popular for a variety of applications, including resource recovery and advanced oxidation processes. In complex environmental matrices, electro-oxidative processes are known to form hazardous byproducts. This study identifies a new pathway for N -nitrosodimethylamine (NDMA) formation via nitrite electro-oxidation in spiked synthetic and natural electrolytes. In a novel flow-through electrochemical cell, NDMA formation was observed from 1 mg/L N nitrite and 100 μg/L dimethylamine, yielding 169–553 ng/L NDMA in a 1 mM Na 2 SO 4 electrolyte and 189–715 ng/L NDMA in a drinking water treatment plant matrix across various cell potentials (2–12 V and 2–10 V, respectively), exceeding the resident tap water regional screening level for NDMA (0.11 ng/L) by over 1000-fold. Uniquely, formation exclusively occurred in cathode-to-anode flow. Voltammetric data and mechanistic insights are consistent with a cathodic process increasing downstream pH, consequently facilitating amine deprotonation and enabling its nitrosation via N 2 O 4 generated from nitrite oxidation. Generally, nitrite or chloride oxidation activity monitoring (via chlorine residual measurement) was not predictive of nitrosamine yield, and direct measurement of nitrosamines using sensitive analytical techniques (limit of quantification: 55 ng/L) was necessary. This work highlights the understudied formation potential for toxic nitrogenous byproducts in emerging electrochemical treatment technologies, particularly in nitrate recovery contexts.",
+    "authors": [
+      "Barathkumar Baskaran",
+      "Michelle Wang",
+      "Kristen A. Riedinger",
+      "Glen Andrew D. de Vera",
+      "Elijah E. Martin",
+      "Chad D. Vecitis",
+      "Desiree L. Plata"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c00610",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00610",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00809",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c00809",
+    "doi": "10.1021/acs.est.6c00809",
+    "title": "Chromatography Coupled to High-Resolution Mass Spectrometry Analysis Reveals Flaws in van Krevelen Compound Class Assignments in DOM",
+    "abstract": "High-resolution mass spectrometry (HRMS) is a powerful tool for determining molecular formulas in dissolved organic matter (DOM). In the biogeochemical field, it is common to assign DOM molecular formulas to prospective chemical classes based on elemental ratios alone, with these classes based on known biomolecules or empirical classifications (e.g., carboxyl-rich alicyclic molecules). However, accurate identification of molecular origin remains challenging due to DOM's extreme isomeric diversity and the inability of HRMS to provide information about chemical connectivity, calling into question the accuracy of assignment or quantification. To address the lack of chemical connectivity gained from HRMS alone, we used liquid chromatography-HRMS to determine whether retention behavior is consistent with biochemical class assignment. Problematically, all examined classes displayed very broad retention profiles, indicating diversity of chemical functionality within their defined elemental ratios. Furthermore, retention behavior matched poorly with known biochemical class hydrophobicity data, particularly for \"carbohydrates\" and \"peptides\". Additionally, differences in retention profiles of various compound classes and molecular formulas between terrestrial and marine samples show that molecular formulas are constituted by different groups of isomers between environments. We recommend an overhaul of standard practice in the use of HRMS data for biogeochemical investigation of DOM, relying less on assignment to prospective classes and more on chemical understanding, which can be developed through the implementation of chromatography and tandem MS methods using modern equipment and workflows.",
+    "authors": [
+      "Maria G. Digernes",
+      "Alexander J. Craig",
+      "Tsz Yung Patrick Wong",
+      "Erik Bergström",
+      "Murat V. Ardelan",
+      "Jeffrey A. Hawkes"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c00809",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00809",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c01331",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -11757,6 +11316,51 @@
     "published": "2026-07-18",
     "link": "https://doi.org/10.1021/acs.est.6c01331",
     "abs_url": "https://doi.org/10.1021/acs.est.6c01331",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01721",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c01721",
+    "doi": "10.1021/acs.est.6c01721",
+    "title": "Predicting PFAS Exposure Risks from Rural Private Wells Using Integrated Mechanistic and Machine-Learned Bayesian Network Models",
+    "abstract": "Per- and polyfluoroalkyl substances (PFAS) pose complex challenges for drinking water management, particularly in rural communities reliant on private wells that fall outside federal regulatory oversight. As regulators and communities grapple with evolving standards and limited resources, there is a critical need for scalable, accurate, and resource-efficient models to assess PFAS exposure risks. This study compares traditional mechanistic groundwater models to machine-learned Bayesian networks and hybrid approaches that integrate both model types. Using hexafluoropropylene oxide dimer acid, commonly known as GenX, contamination near North Carolina's Fayetteville Works Plant as a case study, we evaluate each model's (1) ability to identify wells exceeding health-based GenX thresholds, (2) robustness to incomplete data, and (3) development and calibration time. Results demonstrate that Bayesian networks match or exceed mechanistic models in classification performance, while offering superior robustness to missing data and varying decision thresholds, along with decreased modeling resource demands. Hybrid models incorporating mechanistic outputs into Bayesian networks achieve the highest performance, showing that mechanistic insights can improve Bayesian network predictions. These findings support a flexible modeling framework that can adapt to changing regulations and emerging contaminants without recalibrating full process-based models, offering practical tools for regulators and communities to advance PFAS risk management.",
+    "authors": [
+      "Hana Chmielewski Long",
+      "Rohit Warrier",
+      "Krishna Ganta",
+      "Riley Mulhern",
+      "Ted Lillys",
+      "Jennifer Hoponick Redmon",
+      "Jacqueline MacDonald Gibson"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-21",
+    "link": "https://doi.org/10.1021/acs.est.6c01721",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01721",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -11823,6 +11427,55 @@
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   },
   {
+    "id": "journal-10-1021-acs-est-6c02708",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c02708",
+    "doi": "10.1021/acs.est.6c02708",
+    "title": "Increased Support Layer Hydraulic Resistance Partially Explains Permeability Loss in High-Pressure Reverse Osmosis",
+    "abstract": "(61% reduction). Selective removal of the polyamide active layer enabled direct measurement of compacted support permeability. Despite a substantial drop (90% reduction) in support permeability, a resistance-in-series analysis suggested that bulk support densification accounted for only 32% of the total TFC permeability decline. Incorporating the effects of 20-30% elastic deformation, measured through uniaxial compression testing, increased the estimated support-layer contribution but still could not fully explain the observed permeability decline, suggesting a persistent resistance beyond bulk deformation. Support surface characterization revealed a 41% decrease in mean surface pore diameter. A resistance analysis suggests that residual permeability loss (∼57% at 100 bar) may stem from polyamide nodules becoming disconnected from underlying open pores (i.e., increased interfacial resistance between the selective and support layers), though direct experimental confirmation of this mechanism remains a direction for future work. These findings suggest that permeability loss under HPRO compaction is governed by both support hydraulic resistance and an interlayer transport limitation, requiring membrane designs that preserve bulk integrity and surface pore accessibility under high pressure.",
+    "authors": [
+      "Sima Zeinali Danalou",
+      "Hongchen Wang",
+      "Niher R. Sarker",
+      "Nan Zhang",
+      "Jordan Fidelino",
+      "Jiahao Zhu",
+      "Fiona Chang",
+      "Gawtham Senthilvelan",
+      "Patrick C. Lee",
+      "Jason Hattrick-Simpers",
+      "Jay R. Werber"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c02708",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02708",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
     "id": "journal-10-1021-acs-est-6c02850",
     "source": "journal",
     "source_detail": "docs-meta",
@@ -11849,6 +11502,58 @@
     "published": "2026-07-18",
     "link": "https://doi.org/10.1021/acs.est.6c02850",
     "abs_url": "https://doi.org/10.1021/acs.est.6c02850",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03343",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c03343",
+    "doi": "10.1021/acs.est.6c03343",
+    "title": "Greenland Emissions Contribute to Black Carbon Aerosols in the Arctic Marine Boundary Layer",
+    "abstract": "). Mixing-state analysis shows that 54% of soot particles in coastal air masses were externally mixed, consistent with relatively fresh emissions, whereas most soot particles over the open sea and sea-ice regions were internally mixed, indicative of aged, transported aerosol. FLEXPART modeling suggests BC enhancements along the Greenland coast. Our data indicate that Greenland acts as a regional source of BC to the Arctic marine boundary layer in late spring and early summer, when midlatitude transport is weak.",
+    "authors": [
+      "Xiaomi Teng",
+      "Mao Du",
+      "Congbo Song",
+      "Yuqing Dai",
+      "Vipul Lal Chandani",
+      "David C. S. Beddows",
+      "Manuel Dall’Osto",
+      "Darrel Baumgardner",
+      "Roy M. Harrison",
+      "James Brean",
+      "Mingxi Yang",
+      "Yangmei Zhang",
+      "Weijun Li",
+      "Zongbo Shi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c03343",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03343",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
@@ -12028,6 +11733,201 @@
     "published": "2026-07-19",
     "link": "https://doi.org/10.1021/acs.est.6c04194",
     "abs_url": "https://doi.org/10.1021/acs.est.6c04194",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04284",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c04284",
+    "doi": "10.1021/acs.est.6c04284",
+    "title": "An Ultra-Sensitive QCM-Based Detecting Platform for On-Site and Rapid Quantification of Nanoplastics in Bottled Water",
+    "abstract": "The release of nanoplastics (NPs) from plastic bottled water containers has emerged as a concealed yet critical threat to water quality and consumer health. Yet, on-site and rapid quantification of NPs, particularly at environmentally relevant trace levels, remains a formidable analytical challenge. Here, we reported an ultrasensitive detection platform that integrates a quartz crystal microbalance (QCM) with a custom-engineered nanoporous sensing chip, enabling real-time, field-deployable quantification of NPs in bottled water with a detection limit of 0.39 μg·L –1 . The platform achieves quantitative analysis of multiple NP types, including poly(methyl methacrylate) (PMMA), polyethylene terephthalate (PET), poly(vinyl alcohol) (PVA), polyvinyl chloride (PVC), polystyrene (PS), and carboxylated PS (PS-COOH), with a surface mass sensitivity of 17.7 ng·cm –2 ·Hz –1 . Comprehensive interfacial characterization, supported by molecular simulations, shows that electrostatic attraction facilitates initial NP capture, whereas van der Waals interactions stabilize the adsorbed state, with PET exhibiting particularly favorable adsorption energetics. Leveraging this mechanism, we then conceived a portable device and validated its performance across diverse real-world scenarios involving PET-contaminated bottled water. The system demonstrated robust reliability and analytical fidelity under field conditions. This work establishes a QCM-based analytical paradigm for NP quantification and delivers a deployable technological solution for on-site, rapid, and trustworthy monitoring of NPs in drinking water matrices.",
+    "authors": [
+      "Xueyan Suo",
+      "Yang Huo",
+      "Yifei Wang",
+      "Kairui Liu",
+      "Siyu Zhang",
+      "Jinshan Wei",
+      "Yingxu Liu",
+      "Yunfei Tan",
+      "Chengzhi Hu",
+      "Mingxin Huo",
+      "Jiuhui Qu",
+      "Meng Sun"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c04284",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04284",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05476",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c05476",
+    "doi": "10.1021/acs.est.6c05476",
+    "title": "Silicalite-1-Confined Synergistic Effects of Bimetallic Oxide Nanoclusters toward High Water Resistance for Complete Propane Oxidation",
+    "abstract": "Water-induced deactivation of Pd-based catalysts for light alkane combustion remains a significant challenge. Herein, S-1 zeolite-encapsulated Pd–Pt bimetallic oxide nanoclusters were prepared for catalytic propane oxidation. The optimized Pd 0.8 Pt 0.2 @S-1 catalyst exhibits exceptional water resistance with the propane oxidation reaction temperature (T 90 ) shifting by a mere 9 °C in the presence of 5% H 2 O and fully recovering once the water feed is terminated, superior activity, and thermal stability. Combined experimental and theoretical insights reveal that the introduction of Pt induces the formation of Pt–O–Pd bonds, modulating the electronic structure of Pd to enhance surface hydrophobicity, optimize oxygen and propane adsorption, and promote propane activation. In situ DRIFTS studies further confirm that propane oxidation over Pd 0.8 Pt 0.2 @S-1 proceeds via a Mars–van Krevelen mechanism. This work sheds new light on confined bimetallic synergistic effects for the rational design of catalysts with superior performance.",
+    "authors": [
+      "Zhiqiang Chen",
+      "Xiaoqiang Xie",
+      "Xincheng Zhou",
+      "Xiang Tu",
+      "Fengqing Zhuo",
+      "Jian Ji",
+      "Fengbo Yu",
+      "Guobo Li",
+      "Wenming Liu",
+      "Lu Wei",
+      "Jiguang Deng",
+      "Weili Dai",
+      "Honggen Peng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-21",
+    "link": "https://doi.org/10.1021/acs.est.6c05476",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05476",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "",
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05684",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c05684",
+    "doi": "10.1021/acs.est.6c05684",
+    "title": "Carbon Dioxide Emissions from Acid Mine Drainage Neutralization Are a Major Component of Metal Mining Carbon Footprints",
+    "abstract": "High Resolution Image Download MS PowerPoint Slide Achieving the transition to net zero human greenhouse gas emissions requires a large increase in metal production by mining. Acid mine drainage (AMD) neutralization is a potentially important but poorly quantified source of mining industry CO 2 emissions. Here, we show that AMD neutralization-related CO 2 emissions can be a major component of metal production carbon footprints. Data from the rivers and estuarine system draining the central and eastern Iberian Pyrite Belt show that AMD neutralization emits 32 ± 11 kt CO 2 /yr. Normalized to historic copper production rates, AMD-associated emissions (0.3–4.2 t CO 2 per t Cu) are of similar magnitude as conventional copper production carbon footprints (1–9 t CO 2 per t Cu). However, continual oxidative weathering of waste sulfide minerals will increase AMD-related CO 2 emission budgets into the future. Complete oxidative weathering of waste sulfide minerals extracted from this region will yield AMD-related CO 2 emissions (7–165 t CO 2 per t Cu) that exceed conventional Cu production carbon footprints by more than 1 order of magnitude. These findings highlight the need to account for AMD-related CO 2 emissions from metal mining to support the transition toward net zero greenhouse gas emissions.",
+    "authors": [
+      "Stanisław Kołodziejski",
+      "Eva E. Stüeken",
+      "Laura Sánchez López",
+      "Jose Miguel Nieto",
+      "Carlos R. Cánovas",
+      "Rafael Pérez-López",
+      "Luke Bridgestock"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c05684",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05684",
+    "pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.est.6c05684?ref=article_openPDF",
+    "journal": "Environmental Science & Technology",
+    "journal_label": "EST",
+    "publisher": "",
+    "source_weight": 10,
+    "metadata_sources": [
+      "docs-meta"
+    ],
+    "tags": [
+      "query:environmental-science",
+      "query:journal-watch",
+      "query:core-journal",
+      "query:est",
+      "query:EST"
+    ],
+    "open_pdf_source": "unknown",
+    "open_pdf_status": "open_pdf",
+    "open_pdf_available": true,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05830",
+    "source": "journal",
+    "source_detail": "docs-meta",
+    "source_paper_id": "10.1021/acs.est.6c05830",
+    "doi": "10.1021/acs.est.6c05830",
+    "title": "From Release to Transformation: Elucidating the Microplastic-Facilitated Fate of Brominated Additives in Soil",
+    "abstract": "Microplastics (MPs) are pervasive vectors in soil, but their quantitative role in additive transport and transformation remains unclear. This study examines the release, transport, and transformation of TBBPA and BDE-209 from polystyrene MPs. Vertical MP migration forms an observed secondary emission front under hotspot-like conditions at 5–7 cm depth, which influences the spatial distribution of the strongly hydrophobic BDE-209, leading to a concentration plateau at this interface. We developed a mechanistic model based on Fick’s second law, parameterized with the first-order release rate constant ( k release ), colloidal diffusion coefficient ( D sc ), and biodegradation rate constant (k) under our experimental conditions. This model successfully captured the distinct migration patterns of the two additives, supported by machine learning (XGB) validation within the scope. Depth and time were the primary experimental controls, while EC and pH were the key soil properties influencing additive fate. Beyond transport, MP-driven soil changes promoted extensive additive transformation into 59 byproducts. The majority of BDE-209 transformation products were predicted to exhibit significant oral toxicity and high persistence in the environment. Our findings propose a novel, comprehensive framework that advances beyond existing approaches by linking MP-mediated transport to hazardous product formation, providing essential insights for the risk assessment of plastic-contaminated soils.",
+    "authors": [
+      "Ying Zhang",
+      "Hao Chen",
+      "Jingwen Li",
+      "Mengqiang He",
+      "Ping Sun",
+      "Zhongbo Wei",
+      "Dongmei Zhou",
+      "Moustafa M. G. Fouda",
+      "Hanan Sayed Abdel-Rahman",
+      "Zunyao Wang",
+      "Ruijuan Qu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch"
+    ],
+    "published": "2026-07-22",
+    "link": "https://doi.org/10.1021/acs.est.6c05830",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05830",
     "pdf_url": null,
     "journal": "Environmental Science & Technology",
     "journal_label": "EST",
