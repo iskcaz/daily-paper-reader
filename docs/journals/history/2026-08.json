@@ -3280,5 +3280,54 @@
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-143166",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.143166",
+    "doi": "10.1016/j.jhazmat.2026.143166",
+    "title": "A chemical-free approach for effective abatement of acetochlor in drinking water",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Xinyuan Yi",
+      "Yue Du",
+      "Zhixuan Tan",
+      "Wanxin Li",
+      "Ran Yin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-03T20:45:23.268595+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.143166",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.143166",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]
