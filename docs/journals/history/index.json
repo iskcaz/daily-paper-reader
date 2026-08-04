@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-03T22:00:45.527752+00:00",
+  "generated_at": "2026-08-04T21:54:25.481731+00:00",
   "latest": "2026-08",
   "months": [
     {
       "month": "2026-08",
       "path": "docs/journals/history/2026-08.json",
-      "count": 48
+      "count": 60
     },
     {
       "month": "2026-07",
       "path": "docs/journals/history/2026-07.json",
-      "count": 134
+      "count": 136
     },
     {
       "month": "2026-06",

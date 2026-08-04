@@ -9373,5 +9373,109 @@
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00413",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00413",
+    "doi": "10.1021/acs.estlett.6c00413",
+    "title": "Distance-Dependent Transport of Tire and Road Wear Particles along the Road-to-Indoor Gradient and Implications for Human Exposure",
+    "abstract": "Abstract Tire and road wear particles (TRWPs) are ubiquitous in urban environments and represent a potential pathway for human exposure to microplastics, yet knowledge of their transport across multimedia and the associated exposure implications remains scarce. Here, we investigate the road-to-indoor transport of TRWPs and evaluate human exposure in road-adjacent and indoor scenarios using a multicompartment nationwide data set. Lateral and vertical transport analysis showed clear attenuation with increasing road-to-building distance and sampling height, following the relationships y = 1.62x–0.384 and y = 1.16e–0.023x, respectively. Particle size played a dominant role in transport, with finer particles showing greater indoor penetration. In contrast, aspect ratio varied little among compartments and exerted limited influence. Wind speed further affected TRWP transport, showing a positive correlation with lateral transport (r = 0.398) but a negative correlation with vertical transport (r = −0.512). Moreover, TRWPs contribute to daily intake in both outdoor and indoor environments, with dust ingestion being the predominant pathway. Notably, indoor exposure exceeded outdoor exposure, with median estimated daily intakes of 12 300 and 928 ng (kg of body weight)−1 day–1 for children and adults, respectively. This study provides new insights into the transport patterns of TRWPs and highlights their substantial contribution to human exposure in road-to-indoor environments.",
+    "authors": [
+      "Yutong Sui",
+      "Yifan Ren",
+      "Chen Qu",
+      "Yu Chen",
+      "Yanjun Zhao",
+      "Wenhui Li",
+      "Chuandong Wu",
+      "Jiemin Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-31T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:50.682824+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00413",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00413",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00408",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00408",
+    "doi": "10.1021/acs.estlett.6c00408",
+    "title": "Quantitative Imaging of Polyfluoroalkyl Substances Based on the Reversal of Albumin Luminescence",
+    "abstract": "Abstract Per- and polyfluoroalkyl substances (PFASs) are human-made environmental contaminants of global concern due to their extreme persistence and potential adverse health effects, and elucidating their physiological impacts remains a critical challenge. In this study, we present a molecular imaging platform that enables quantitative visualization of PFAS effects in vivo and in vitro by indexing the reversal of albumin luminescence mediated by specially designed coelenterazine (CTZ) analogues as optical indicators. We synthesized a list of CTZ analogues to facilitate luminescence upon binding with specific albumins; this signal is efficiently suppressed by PFAS compounds. We found that perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) dose dependently suppressed bovine serum albumin luminescence, a feature consistent across multiple mammalian albumins, including humans. Further in vivo imaging revealed rapid absorption of PFOS into the liver of living mice and a marked 41% reduction in hepatic luminescence, suggesting that acute exposure suppresses the normal liver activity. This study represents the first albumin-based molecular imaging platform for assaying the potential physiological impacts of PFASs in vivo and in vitro, offering a practical and adaptable tool for environmental monitoring and toxicological evaluation.",
+    "authors": [
+      "Sung-Bae Kim",
+      "Sachi Taniyasu",
+      "Tadaomi Furuta",
+      "Nobuo Kitada",
+      "Suresh Thangudu",
+      "Arutselvan Natarajan",
+      "Shojiro A. Maki",
+      "Ramasamy Paulmurugan"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-07-31T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:50.682738+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00408",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00408",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]

@@ -2837,7 +2837,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "unknown",
+    "open_pdf_source": "openalex",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -3326,6 +3326,669 @@
       "journal-watch",
       "core-journal",
       "hazardous-materials"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06884",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06884",
+    "doi": "10.1021/acs.est.6c06884",
+    "title": "Enhanced Recovery of Strategic Metal Antimony from Wastewater via a Synergistic UV/Iodide/Sulfite Process",
+    "abstract": "Abstract Antimony-bearing wastewater poses substantial environmental risks, while conventional treatment technologies mainly transfer dissolved antimony into secondary hazardous wastes. Here, we developed a synergistic UV/iodide/sulfite process for the rapid reductive recovery of Sb(V) and Sb(III) from wastewater as high-purity elemental antimony (Sb(0)). This system achieved removal efficiencies of 99.91 ± 0.02% for both Sb(V) and Sb(III) within 60 min at substantially reduced chemical input, reducing residual antimony concentrations below 10 μg L–1. The recovered product was highly crystalline Sb(0) with a purity of up to 99.92 wt %. Mechanistic investigations demonstrated that hydrated electrons (eaq–) dominated antimony reduction. Iodide photolysis efficiently generated eaq– together with reactive iodine species (RIS), whereas sulfite rapidly quenched RIS and regenerated iodide, thereby suppressing electron scavenging and antimony reoxidation. This synergy prolonged the eaq– lifetime by 4.3-fold, maintained a higher steady-state reductive capacity, and thereby accelerated the reduction of Sb(V) and Sb(III) at lower chemical input. Validation with real wastewater further demonstrated the efficiency and practical applicability of the process. This work provides an efficient, low-chemical-input strategy for coupling antimony detoxification with resource recovery and offers useful insight into designing photochemical redox strategies for other redox-sensitive metal(loid)s in complex industrial wastewaters.",
+    "authors": [
+      "Jining Li",
+      "Rui Shao",
+      "Wenwen Dong",
+      "Xianjia Peng",
+      "Mengchang He",
+      "Linghao Kong"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-04T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.953683+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06884",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06884",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06459",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06459",
+    "doi": "10.1021/acs.est.6c06459",
+    "title": "Qualitative and Quantitative Prediction of Blood–Brain Barrier Permeability of Chemicals via an SE(3)-Transformer-Based Model with LLM-Assisted Explanation",
+    "abstract": "Abstract The blood–brain barrier (BBB) regulates the entry of chemicals into the central nervous system, and contaminants with high permeability can accumulate in the brain, posing neurotoxicity risks. Given the urgent need for high-throughput neurotoxicity assessment, this study proposes a multifeature fusion framework for identifying and quantifying the BBB permeability to neurotoxic chemicals. BBBProfiler leverages an SE(3)-Transformer to encode the three-dimensional molecular geometry and a deep neural network to encode collision cross-section (CCS) and fingerprint, followed by adaptive integration of modality representations through gating weights. Under the scaffold-split evaluation, BBBProfiler achieves high performance with an area under the receiver operating characteristic curve (AUC) of 93.72% and a recall of 89.19% for classification, and a coefficient of determination (R2) of 0.72 for regression. Its predictive performance was validated using a BBB bioassay (11 chemicals) and an external data set (2023 chemicals), in which the model achieved 94.42% AUC. Substructure mask explanation analysis revealed CCS as an influential feature that correlated well with BBB permeability to chemicals (R2 = 0.84). Model predictions were supplemented with natural-language explanations generated from a large language model. BBBProfiler is deployed on a publicly accessible platform (https://www.ai4environ.cn/BBBProfiler) to facilitate the development of new approach methodologies for neurotoxicity evaluation.",
+    "authors": [
+      "Lilai Shen",
+      "Ziyu Chen",
+      "Weiwei Huan",
+      "Yizhou Huang",
+      "Peirong Wu",
+      "Hou Guo",
+      "Chunlong Zhang",
+      "Shulin Zhuang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-04T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.953513+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06459",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06459",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04547",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04547",
+    "doi": "10.1021/acs.est.6c04547",
+    "title": "Non-Negligible Source of PFOS: Biochemical Fate and Metabolic Activation of Precursors",
+    "abstract": "Abstract The widespread detection of PFOS precursors in the environment and human matrices raises a new wave of health concerns. However, their absorption, distribution, metabolism, and excretion (ADME) fates and toxicity profiles in mammals remain largely unexplored. Here, we investigated the toxicokinetic, metabolic transformation, and toxicity of three precursors, N-MeFOSA, N-EtFOSA, and N-EtFOSAA, by integrating toxicokinetic modeling in mice, rat liver microsome metabolism, and hepatocellular toxicity assays. N-MeFOSA and N-EtFOSA were rapidly eliminated in vivo and exhibited high efficiencies of conversion to legacy PFAS in liver microsomes, surpassing the typically low transformation rates in mammals reported for other precursors. Notably, N-MeFOSA showed the greatest metabolic transformation potential (25% legacy PFAS and 22% PFOS in 3 h). Moreover, in hepatocellular toxicity assays, both precursors exhibited weaker direct metabolic perturbations than their metabolites (PFOS and FOSA), indicating that their toxicity is primarily enhanced via metabolic activation. In contrast, N-EtFOSAA displayed persistence and stability in vivo and in vitro and induced lipid accumulation comparable to that of PFOS, together with stronger inhibition of cellular energy metabolism. Collectively, our study provides crucial ADME data identifying N-alkyl-FOSA-type precursors as non-negligible internal PFOS sources, underscoring a dual-risk paradigm where toxicity is driven either by metabolic activation or intrinsic parent compound toxicity.",
+    "authors": [
+      "Weitian Tang",
+      "Xiangyu Wang",
+      "Jia Lv",
+      "Jiayue Hu",
+      "Yiqun Chen",
+      "De-Xiang Xu",
+      "Lin Tao",
+      "Adrian Covaci",
+      "Yichao Huang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-03T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.954381+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04547",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04547",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18591",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18591",
+    "doi": "10.1021/acs.est.5c18591",
+    "title": "Release, Cross-Media Transport, and Retained Inventory of Rare Earth Elements from Informal Electronic Waste Recycling",
+    "abstract": "Abstract Rare earth elements (REEs) are essential for modern electronics and are increasingly entering electronic waste (e-waste) streams. Informal recycling can release REEs into the environment, but their sources, transfer pathways, and retained inventories remain poorly quantified. Here, we combine microscopic particle characterization, neodymium (Nd) isotopes, Bayesian source apportionment, and a Level III steady-state multimedia aquivalence (SMA) model to characterize REE sources, cross-media transport, and retained inventories in Guiyu, China. Spatial clustering of REE concentrations near historical recycling sites, together with spherical and angular particles, supported anthropogenic inputs from thermal treatment and mechanical fragmentation. Isotopic mixing models estimated that geogenic contributions remained dominant, whereas e-waste contributions accounted for 21.4%, 16.4%, and 33.6% of REEs loading in soil, road dust, and sediment, respectively. Fly ash and wastewater sludge were the main anthropogenic end-members, pointing to combustion and acid-leaching pathways. Multimedia modeling identified land-to-river export as the dominant cross-media pathway, with soil runoff and surface wash-off serving as major vectors to aquatic systems. The retained inventory within the modeled solid compartments, including soil, road dust, and sediment, was estimated at 1.68 × 103 t ΣREE, with an uncertainty range of 0.555 × 103 to 4.74 × 103 t. Scenario extrapolations to 2030 projected annual REE releases of 3.98 × 103 t under historical recycling intensities and 1.32 × 103 t under regulated management. These findings suggest that informal e-waste recycling can shift recoverable REEs into persistent environmental reservoirs, making secondary remobilization an additional concern beyond direct emissions.",
+    "authors": [
+      "Zhunan Xiong",
+      "Lingqing Wang",
+      "Qian Zhang",
+      "Xiao Yang",
+      "Jing Wang",
+      "Mingyuan Wang",
+      "Peter E. Holm",
+      "Tao Liang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-03T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.953986+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18591",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18591",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05561",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05561",
+    "doi": "10.1021/acs.est.6c05561",
+    "title": "Unraveling Contaminant Effects on Biodiversity across Spatial, Temporal, and Biological Scales: The Macroecotoxicology Perspective",
+    "abstract": "Abstract With the spread of contaminants across the globe, ecosystems are increasingly exposed to pollutants at varying levels of biological organization. The effects of a wide range of contaminants on individuals have been extensively studied within the discipline of ecotoxicology, but understanding the generality of species’ responses across taxa and ecosystems remains a major challenge. This is because such responses are shaped by ecophysiological, geographic, and evolutionary factors, dimensions that ecotoxicology has not been able to fully capture on its own. While these dimensions are frequently explored in macroecological studies, such research rarely considers environmental contamination as a variable capable of influencing species occurrence and distribution patterns. Here, we explore the potential of macroecotoxicology as a subdiscipline capable of integrating the core principles of both ecotoxicology and macroecology. By benefiting from recent advances in these disciplines, macroecotoxicological research would allow us to scale responses from individual organisms’ sensitivity up to broader patterns of species distribution and ecosystem response, contributing to the development of predictive frameworks for biodiversity change in a rapidly transforming world.",
+    "authors": [
+      "Gabriel M. Moulatlet",
+      "Mariana V. Capparelli",
+      "Daniela M. Truchet",
+      "Andreu Rico",
+      "Fabricio Villalobos"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-03T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.953797+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05561",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05561",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18883",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18883",
+    "doi": "10.1021/acs.est.5c18883",
+    "title": "Aqueous Interfaces as an Overlooked Driver in Global Pollutant Cycling: Mercury as an Example",
+    "abstract": "Abstract Aqueous interfaces, such as those formed at the surface of microdroplets, can spontaneously generate reactive species, driving the critical redox reactions. This raises a pivotal question: could such laboratory-observed interfacial phenomena be integrated into our broader understanding of pollutant transformation and transport dynamics? In this perspective, we discuss this issue in the context of climate warming and changes in hydrological processes, focusing on how these environmental changes may alter the occurrence, composition, and reaction conditions of aqueous interfaces. Notably, aqueous interfaces may represent a previously underrecognized factor influencing the fate and transport of global pollutants, such as mercury. Bridging laboratory findings with field observations will be essential for linking microscale interfacial chemistry to macroscale environmental outcomes, ultimately improving predictive models of global pollutant cycling in a warming world.",
+    "authors": [
+      "Qingyuan Song",
+      "Baowei Chen",
+      "Bolei Chen",
+      "Yong Liang",
+      "Ligang Hu",
+      "Jianbo Shi",
+      "Maoyong Song",
+      "Xinxing Zhang",
+      "Yongguang Yin",
+      "Yong Cai",
+      "Guibin Jiang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.955084+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18883",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18883",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c01173",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c01173",
+    "doi": "10.1021/acs.est.6c01173",
+    "title": "Dynamic Emissions and Secondary Organic Aerosol Formation from Real Personal Care Products: New Insights into Siloxane-Containing Molecules",
+    "abstract": "Abstract In urban atmosohere, volatile methyl siloxanes (VMSs) was treated as the important maker from pesonal care products (PCPs) of volatile chemical products (VCPs), yet the link between their realistic emission profiles and secondary organic aerosol (SOA) formation remains elusive. Moving beyond previous studies using pure standards, we systematically characterized the dynamic emissions and SOA evolution of four typical PCPs using an evaporation chamber coupled with an oxidation flow reactor and other online gas/aerosol mass spectrometry. VMS dominated the emissions (&gt;95%) for most PCP products and exhibited prolonged evaporation time scales compared to coemitted solvent VOCs. Emission factors for VMS ranged from approximately 132 to 300 g kg–1. We quantified the PCP -derived SOA formation yield and saturated and unsaturated molecular composition for the first time and systematically discussed VMS oxidation pathways. Furthermore, molecular fingerprints revealed that while cross-reactions between different VMS precursors occurred readily, cross-reactions between VMS and other VOCs were kinetically inhibited due to mismatches in reactivity and evaporation timing. The evolution of SOA volatility was found to be highly pathway-dependent, with oligomerization driving a volatility reduction of 0.8 or up to several orders of magnitude. These findings provide a mechanistic basis for the atmospheric persistence of VMS and their potential for long-range transport to remote regions, with direct implications for improving source apportionment of VCPs and refining SOA formation in atmospheric models.",
+    "authors": [
+      "Mingkai Liu",
+      "Chuman Sun",
+      "Weiwei Hu",
+      "Zhijun Yang",
+      "Tianle Pan",
+      "Qianqian Xie",
+      "Tingting Feng",
+      "Jun Wang",
+      "Xinming Wang",
+      "Jiabi Ma",
+      "Sihang Wang",
+      "Xianjun He",
+      "Yang Yang",
+      "Yihua Sun",
+      "Yibo Huangfu",
+      "Shan Huang",
+      "Bin Yuan",
+      "Mitchell W. Alton",
+      "Douglas R. Worsnop",
+      "Min Shao",
+      "Xuemei Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.955014+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c01173",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c01173",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07694",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07694",
+    "doi": "10.1021/acs.est.6c07694",
+    "title": "In Situ Antibiotic Accumulation on Microplastics in Wastewater Treatment Plants: Roles of Biofilm Colonization, Water Chemistry, and Substrate Aging",
+    "abstract": "Abstract Microplastics (MPs) and antibiotics co-occur in wastewater treatment plants (WWTPs), yet pristine-polymer adsorption does not adequately capture accumulation on field-aged MPs. We performed 3- and 12-month in situ deployment of polyamide (PA), polyethylene (PE), polyhydroxyalkanoate (PHA), and polycaprolactone (PCL) in WWTP oxidation and disinfection ponds along with sulfamethoxazole (SMX) and tetracycline (TC) adsorption experiments. Surface antibiotic loadings increased from 6.91–34.18 ng kg–1 at 3 months to 1.27 × 104–2.87 × 105 ng kg–1 at 12 months, while surface-associated antibiotic profiles showed limited overlap with contemporaneous water-phase profiles. PHA had the highest 12-month burdens in both ponds, whereas the variable behavior of PCL showed that biodegradability alone did not explain accumulation. On 3-month biofilm-colonized MPs, adsorption capacities were 0.06–0.27 mg g–1 for SMX and 0.01–2.07 mg g–1 for TC, and across polymers, higher biofilm biomass did not translate into higher adsorption. Isotherm and two-dimensional correlation spectroscopy analyses resolved binding modes: SMX retention involved partitioning-dominated weak interactions, whereas TC bound interface, specifically via ester, carbonyl, and amide groups, on polymer and biofilm domains. TC adsorption was strongly associated with O/C ratio (ρ = 0.940, p &lt; 0.01) and SMX with polysaccharide content (ρ = 0.727, p &lt; 0.01), whereas pH and representative ions modulated these compound-specific adsorption pathways through distinct interfacial mechanisms. After biofilm removal, TC adsorption on aged MPs was associated more closely with roughness and wettability than with BET surface area or O/C ratio. These findings support a dynamic-interface framework in which biofilm colonization, water chemistry, and substrate aging collectively influence adsorption on field-aged MPs.",
+    "authors": [
+      "Kexiao Song",
+      "Jiaqi Wang",
+      "Sijing Huang",
+      "Yusheng Pan",
+      "Fan Xiao",
+      "Yuqi Wang",
+      "Chunlian Xiang",
+      "Bin Liang",
+      "Zhiling Li",
+      "Wenzong Liu",
+      "Shu-Hong Gao",
+      "Aijie Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.955319+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07694",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07694",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03676",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03676",
+    "doi": "10.1021/acs.est.6c03676",
+    "title": "Iron Reduction in Coastal Wetland Habitats: Kinetics, Pathways, and Controls",
+    "abstract": "Abstract Iron(III) reduction is a critical biogeochemical process governing the dynamics of organic carbon (OC), nutrients, and contaminants under fluctuating redox conditions in coastal wetlands. However, the relative importance of dissimilatory and sulfur-mediated Fe(III) reduction pathways and their environmental controls remain poorly constrained across coastal habitats. Through large-scale anaerobic incubations of 50 surface soils from mangrove and saltmarsh wetlands along China’s coastline, we showed that dissimilatory Fe(III) reduction was the dominant pathway, accounting for ∼80% of total Fe(III) reduction. Although both dissimilatory and sulfur-mediated Fe(III) reduction rates were higher in mangroves, dissimilatory pathway contributed a greater fraction in saltmarshes, whereas sulfur-mediated Fe(III) reduction was more pronounced in mangroves. Across all soils, poorly crystalline Fe minerals and OC availability were the dominant predictors of dissimilatory Fe(III) reduction. Substrate-addition experiments (glucose, ferrihydrite, and Fe(III)-reducing bacteria) further revealed that Fe(III) reduction was primarily limited by labile OC availability and microbial abundance in both habitats, with stronger OC limitation in saltmarshes, whereas reactive Fe(III) mineral limitation occurred exclusively in OC-rich mangroves. These results define habitat-specific controls on Fe(III) reduction at a continental scale and help predict the fate of Fe-bound OC, nutrients, and contaminants in coastal wetlands.",
+    "authors": [
+      "Hua Ma",
+      "Yanjun Dong",
+      "Yanqi Xiao",
+      "Cong-Qiang Liu",
+      "Chunmei Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.955403+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03676",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03676",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03422",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03422",
+    "doi": "10.1021/acs.est.6c03422",
+    "title": "WaterMAP: A Scalable Machine Learning Framework for Emission-Factor-Derived Spatiotemporal GHG Prediction and Mitigation in Wastewater Treatment Plants",
+    "abstract": "Abstract Greenhouse gas (GHG) emissions from wastewater treatment have gained increasing attention in global climate governance. However, conventional emission-factor (EF)-derived inventories lacked the ability to capture nonlinear variations, while existing machine learning (ML) models remained fragmented in scale. Here, we introduce WaterMAP (Wastewater AI Treatment Emission Regression for Multi-scale Accounting and Prediction), a novel ML framework designed for spatiotemporal EF-derived GHG prediction and mitigation evaluation. Using 40,722 inventory-based GHG records from 5155 WWTPs in China during 2009–2019 as a case study, the National_Total_Model achieved a test RMSE of 0.19 kg CO2-e/m3 when predicting the total EF-derived intensity. National_Type_Model showed that scope 1 totaled 7.6 Mt CO2-e, scope 2 accounted for 18.9 Mt CO2-e, and scope 3 contributed 0.5 Mt CO2-e in 2019. We then estimated cumulative GHGs for 2024 to be 36.8 Mt CO2-e, with an average intensity of 0.51 kg CO2-e/m3. Treated volume, TNinf, sludge yield, latitude, and CODinf were identified as the key predictors influencing EF-derived GHG emissions. We further proposed a GHG spatial heterogeneity index using Provincial_Type_Model, reflecting urban development. Under exploratory sensitivity analysis toward 2060, WaterMAP-guided projections suggested 9.6–34.0% potential reduction. Overall, WaterMAP offers a scalable framework for EF-derived GHG emissions screening and prediction, supporting GHG mitigation assessment.",
+    "authors": [
+      "Jinqi Jiang",
+      "Zhijing Wu",
+      "Guosen Zhang",
+      "Yuwei Zhang",
+      "Yichao Lyu",
+      "Shen Qu",
+      "Huabo Duan",
+      "Hongxiao Guo",
+      "Xiang Xiang",
+      "Zongping Wang",
+      "Guanghao Chen",
+      "Gang Guo"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:49.955179+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03422",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03422",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00625",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00625",
+    "doi": "10.1021/acs.estlett.6c00625",
+    "title": "Septum Sorption: A Hidden Bias in Headspace Analysis of Neutral PFAS and Its Implications for Air–Water Partition Coefficients",
+    "abstract": "Abstract Reliable quantification of neutral per- and polyfluoroalkyl substances (nPFAS) via headspace analysis remains hindered by unrecognized analytical biases. We reveal a severe, previously unquantified artifact arising from sorptive interaction between nPFAS and commonly used polytetrafluoroethylene (PTFE)/silicone septa, resulting in time-dependent signal loss exceeding 90% within 12 h. Incorporating septum sorption into the headspace equilibrium model shows that this artifact systematically distorts air–water partition coefficients (Kaw), artificially masking true nPFAS volatility and compromising environmental fate modeling. A simple aluminum-foil barrier successfully eliminates septum artifacts, restoring analyte stability and enabling reliable Kaw determination. These findings reveal a critical but underappreciated source of systematic error in headspace workflows, highlighting the need to account for sorptive artifacts to understand nPFAS environmental behavior.",
+    "authors": [
+      "Liang Zhou",
+      "Qianxin Zhang",
+      "Bin Wang",
+      "Chao Chen",
+      "Yu Wang",
+      "Jun Huang",
+      "Gang Yu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:50.682662+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00625",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00625",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1016-j-jhazmat-2026-143195",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1016/j.jhazmat.2026.143195",
+    "doi": "10.1016/j.jhazmat.2026.143195",
+    "title": "Biodegradation of Potassium Amyl Xanthate from Mining Flotation Wastewater with Minimal CS2 Emission",
+    "abstract": "No abstract was available from the journal metadata sources for this paper.",
+    "authors": [
+      "Yuhang Cai",
+      "Jingyuan Zhai",
+      "Meiqi Lin",
+      "Wanyu Huang",
+      "Ruiqi Zhang",
+      "Chen-Wei Zheng",
+      "Yi-Hao Luo",
+      "Bruce E. Rittmann"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "published": "2026-08-01T00:00:00+00:00",
+    "updated_at": "2026-08-04T20:15:52.533065+00:00",
+    "link": "https://doi.org/10.1016/j.jhazmat.2026.143195",
+    "abs_url": "https://doi.org/10.1016/j.jhazmat.2026.143195",
+    "pdf_url": null,
+    "journal": "Journal of Hazardous Materials",
+    "journal_key": "jhm",
+    "journal_label": "JHM",
+    "journal_issn": [
+      "0304-3894"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "hazardous-materials"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biodegradation",
+      "Chemistry",
+      "Wastewater",
+      "Xanthate",
+      "Pulp and paper industry",
+      "Environmental chemistry",
+      "Waste management",
+      "Sewage treatment"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
