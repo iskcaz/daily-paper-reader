@@ -2837,7 +2837,7 @@
     ],
     "source_weight": 10,
     "open_pdf_status": "open_pdf",
-    "open_pdf_source": "openalex",
+    "open_pdf_source": "unknown",
     "metadata_sources": [
       "crossref",
       "openalex",
@@ -3989,6 +3989,709 @@
       "Environmental chemistry",
       "Waste management",
       "Sewage treatment"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c09157",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c09157",
+    "doi": "10.1021/acs.est.6c09157",
+    "title": "A Potential Difference-Driven Cascade Effect of Cathode Biofilm–Plant Physiology Governs the Efficiency-Energy-Risk Trade-Off in Constructed Wetland–Microbial Electrolysis Cells",
+    "abstract": "Abstract Conventional potential difference optimization in microbial electrolysis cell-integrated constructed wetlands (ECWs) treating antibiotic-laden wastewater frequently prioritizes single-dimensional removal efficiency, critically overlooking trade-offs with energy consumption and ecological risks. By evaluating four ECWs operated under varying potential differences treating chloramphenicol (CAP) wastewater via physicochemical metrics, multiomics, structural equation modeling, and comprehensive risk assessment, we identified a potential difference-driven “cathode biofilm–plant physiology” cascade effect governing this “efficiency-energy-risk” trade-off. Specifically, moderate potential differences (0.5 and 0.8 V) achieved superior total nitrogen (79.5–80.1%) and substantial CAP (90.9–92.5%) removal, driven by the selectively enriched electroactive, dissimilatory nitrate reduction to ammonium and CAP-degrading bacteria (e.g., Geobacter sp., Ectobacillus sp., Defluviilinea sp016789025). These microbiomes provided continuous ammonium supply, activating diverse plant nitrogen pathways and stimulating robust root radial oxygen loss to engineer a microoxic-anoxic microenvironment for comprehensive risk mitigation. Concurrently, relative to the 0.2 V control group, the 0.5 V condition minimized greenhouse gas emissions (a 49.2% reduction), lowered effluent ecotoxicity by 47.4%, and suppressed AMR risk by 56.0%, without incurring excess energy input. Ultimately, the optimal 0.5 V potential difference establishes a sustainable efficiency-energy-risk equilibrium, empowering ECWs as robust biogeochemical barriers under a unified “One Health” perspective.",
+    "authors": [
+      "Jiawei Xie",
+      "Liming Zhang",
+      "Lei Zhou",
+      "Weicong Wang",
+      "Shuangqi Wu",
+      "Jianshi Huang",
+      "Chongjun Chen",
+      "Shuiping Cheng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.176662+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c09157",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c09157",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02934",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02934",
+    "doi": "10.1021/acs.est.6c02934",
+    "title": "Anomalies of Net Primary Productivity under Compound Marine Heatwaves and Microplastics",
+    "abstract": "Abstract Marine heatwaves (MHW) and microplastics (MPs) pollution increasingly co-occur, yet the response of phytoplankton net primary production (NPP) to this compound condition remains incompletely characterized, in part because analyses confined to local conditions may overlook nonlocal influences. Here we developed an adaptive machine learning framework to evaluate global NPP anomalies under co-occurring MHW and MPs. The results indicate that comparable compound-stress regimes corresponded to divergent NPP outcomes depending on regional nutrient backgrounds: an anomalous increase coincided with nitrate replenishment in oligotrophic waters, whereas an anomalous decrease coincided with silicate accumulation in iron-limited, diatom-dominated waters. Furthermore, pronounced NPP anomalies frequently exhibited a geographic offset from heatwave cores, a spatial mismatch consistent with a shock-transmission-spillover (STS) framework, here interpreted as a spatial teleconnection between the thermal forcing and the ecological response. Pending in situ validation, these observed associations indicate that monitoring confined to thermal or pollution sources may misplace ecological risk. Consequently, these findings support a shift toward downstream monitoring along current pathways relevant to fisheries and carbon uptake.",
+    "authors": [
+      "Hao Liu",
+      "Zehou Li",
+      "Yiling Zhong",
+      "Xiangang Hu",
+      "Yuan Feng",
+      "Xue Kong",
+      "Jiawei Li",
+      "Chunhui Liu",
+      "Yuan Zhang",
+      "Nanyi Peng"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.176804+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02934",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02934",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Environmental science",
+      "Primary production",
+      "Microplastics",
+      "Phytoplankton",
+      "Oceanography",
+      "Productivity",
+      "Primary productivity",
+      "Pollution"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c03897",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c03897",
+    "doi": "10.1021/acs.est.6c03897",
+    "title": "Beyond Total PFAS: Isomer Composition Matters for Water Quality and Human Exposure Studies",
+    "abstract": "Abstract Per- and polyfluoroalkyl substances (PFAS) produced by electrochemical fluorination are complex mixtures of linear and branched isomers that differ in physicochemical properties, environmental fate, bioaccumulation potential, and biological activity. Increasing evidence shows that not only linear but also branched PFAS isomers are prevalent in the environment. Yet, current monitoring frameworks and regulatory approaches largely rely on total PFAS isomer metrics, masking the distinct behaviors and toxicities of individual isomers and introducing uncertainty into exposure and risk assessments. In this Perspective, we examine the current knowledge of (1) the distribution and accumulation of PFAS isomers across environmental compartments, (2) analytical challenges associated with isomer separation, identification, and reporting, and (3) critical gaps in understanding the environmental and biological processes governing isomer-specific toxicity and fate. We argue that reliance on the sum of PFAS isomers rather than individual isomers may bias PFAS quantification, weaken exposure-response assessments, and limit the development of scientifically robust, isomer-informed risk assessment and regulation. Advancing PFAS risk evaluation will require a shift from aggregate measurements to isomer-resolved science and policy. To support this shift, we propose integrating advanced analytical techniques with in silico, in vivo, in vitro, and biomonitoring approaches to better characterize isomer-specific exposure, fate, and toxicity. Such efforts will improve risk characterization and provide a stronger scientific foundation for regulatory frameworks that more accurately reflect real-world PFAS exposures and better protect environmental and human health.",
+    "authors": [
+      "Judith R. Cristobal",
+      "Jenise Z. Paddayuman",
+      "Mindula K. Wijayahena",
+      "Narasimhan Loganathan",
+      "Deepak James",
+      "Angela K. Wilson",
+      "G. Ekin Atilla-Gokcumen",
+      "Diana S. Aga"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.177249+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c03897",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c03897",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c14189",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c14189",
+    "doi": "10.1021/acs.est.5c14189",
+    "title": "Electrochemically Driven Sorbent-Mediated Recovery of CO2 in Marine Inorganic Carbon Extraction Processes",
+    "abstract": "Abstract The oceans act as a sink for atmospheric CO2, absorbing more than a quarter of global emissions annually. Technologies for marine inorganic carbon dioxide removal (mCDR) have recently gained attention as a means of leveraging this effect to reduce environmental CO2 concentrations. In pH-swing mCDR systems, electrochemical acidification drives the conversion of dissolved inorganic carbon (DIC) in seawater to CO2, which is then removed through vacuum stripping before the water is realkalinized and released to the ocean to draw down atmospheric carbon. While most research has focused on the pH-swing process itself, little attention has been devoted to the stripping step, which is particularly capital- and energy-intensive and indiscriminately removes dissolved oxygen, which is vital to marine life. In this work, we present a framework for an alternative sorbent-mediated CO2 concentration process, analyzing and experimentally demonstrating an electrochemically mediated embodiment. A comparative energetic and technoeconomic assessment is presented, evaluating performance relative to state-of-the-art vacuum processes and indicating that a sorbent-mediated extraction process can be a viable alternative.",
+    "authors": [
+      "Michael P. Nitzsche",
+      "Michael Massen-Hane",
+      "Annlin Su",
+      "Kripa K. Varanasi",
+      "T. Alan Hatton"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.176393+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c14189",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c14189",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Seawater",
+      "Carbon dioxide",
+      "Environmental science",
+      "Stripping (fiber)",
+      "Environmental chemistry",
+      "Sink (geography)",
+      "Extraction (chemistry)",
+      "Dissolved organic carbon"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08059",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08059",
+    "doi": "10.1021/acs.est.6c08059",
+    "title": "Gamma-Irradiation-Enhanced Reduction of 99Tc(VII) and Re(VII) by Natural Pyrite",
+    "abstract": "Abstract Reductive immobilization of 99Tc(VII) to sparingly soluble TcO2-type phases is a key process limiting 99Tc transport in the environment. However, the reactivity of natural pyrite toward 99Tc(VII) under conditions relevant to nuclear waste repositories remains poorly understood. Here, we investigate the interactions of 99Tc(VII) and its nonradioactive congener Re(VII) with natural pyrite under γ-irradiation (0–100 kGy; 0–100 Gy/min). In the absence of γ-irradiation, natural pyrite exhibited limited reactivity toward 99Tc(VII) at circumneutral to alkaline pH over the investigated time scales. Under γ-irradiation, however, pyrite-mediated reductive sequestration of both Tc(VII) and Re(VII) was substantially enhanced, producing a TcO2/TcOx-TcSx mixture and ReO2 as dominant reduction products. Mechanistic analyses indicate that radiolytically generated hydrated electrons (eaq–) and hydrogen radicals (·H) directly reduce TcO4– and ReO4–, while pyrite and dissolved Fe2+ scavenge hydroxyl radicals (·OH) and sustain a reducing interfacial environment. Under acidic conditions, protonation of eaq– to ·H limits Tc(VII)/Re(VII) reduction efficiency. At higher pH, OH– suppresses intermediate disproportionation, promoting efficient stepwise reduction via consecutive one-electron transfer from eaq–. These findings demonstrate that γ-irradiation fundamentally alters the redox reactivity of natural pyrite and promotes radionuclide immobilization under nuclear waste repository conditions, providing critical constraints for predicting long-term radionuclide transport in deep geological disposal systems.",
+    "authors": [
+      "Jingye She",
+      "Mingliang Kang",
+      "Wujian Jin",
+      "Hanqin Weng",
+      "Danwen Qin",
+      "Zhixing Gu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.176493+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08059",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08059",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05884",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05884",
+    "doi": "10.1021/acs.est.6c05884",
+    "title": "Rubber Dams: An Overlooked Source of Leachable Organic Contaminants within Water Infrastructure Systems",
+    "abstract": "Abstract Inflatable rubber dams are used globally within water infrastructure, yet their potential as chemical contaminant sources remains overlooked. We investigated the occurrence of rubber additives and their transformation products within rubber dam materials (RDMs), including their organic extracts, aqueous leachates, and adjacent receiving waters, by employing targeted quantitative analysis combined with high-resolution mass spectrometry-based suspect and nontargeted screening. Targeted analysis revealed that substituted para-phenylenediamines (PPDs), their quinone/nonquinone products, and other rubber additives were abundant in RDM extracts and leachates. The antiozonant product N-(1,3-dimethylbutyl)-N′-phenyl- p-phenylenediamine quinone (6PPDQ) was detected in laboratory leachates and receiving water adjacent to an in-service dam at toxic concentrations. Suspect and nontargeted screening of the RDM extracts and leachates identified 83 potential RDM-derived contaminants, with 75 structurally annotated (confidence level ≥3), including various hexa-(methoxymethyl)melamine analogues and 4-hydroxydiphenylamine homologues. To assess environmental health impacts, in silico toxicity predictions on unmonitored compounds prioritized from suspect and nontarget screening indicated high ecotoxicity potential, including aquatic neurotoxicity, revealing critical toxicological data deficits for rubber-derived contaminants. These findings demonstrate that water infrastructure materials can act as point sources of 6PPDQ and other contaminants, highlighting critical gaps in infrastructure risk assessment and emphasizing the need for environmentally benign rubber materials.suspect and nontargeted screeningNTS",
+    "authors": [
+      "Wei Wang",
+      "Melissa Gonzalez",
+      "Yafen Ge",
+      "Emily K. Everton",
+      "Jeffrey Perala-Dewey",
+      "Edward P. Kolodziej"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.177006+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05884",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05884",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04152",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04152",
+    "doi": "10.1021/acs.est.6c04152",
+    "title": "Ultrashort-Chain Per- and Polyfluoroalkyl Substances and Cholestasis: In Vitro Evidence of Liver Dysfunction from Emerging Environmental Contaminants",
+    "abstract": "Abstract Over the past 75 years, fluorinated contaminants present in aquatic, dietary, and environmental matrices have increasingly raised scientific and public health concerns. Among these substances, ultrashort perfluoroalkyl substances (US-PFAS) demonstrate substantial environmental persistence and mobility, comparable to that of their long-chain counterparts. Reported human serum concentrations of individual US-PFAS reach up to 27.7 ng/mL, substantially exceeding established thresholds for total PFAS levels. Nevertheless, data on human toxicity of US-PFAS remain limited. The present study aimed to investigate the impact of US-PFAS on cholestatic features and to elucidate the underlying mechanisms using an adverse outcome pathway network as a mechanistic compass. Human HepaRG liver cell cultures were exposed to 4 US-PFAS at various concentrations for 1 to 72 h. Transcriptomic profiles were assessed by RNA sequencing analysis. Functional alterations in early and key events associated with cholestatic pathology were evaluated using fluorescently labeled probes, while bile canaliculi dynamics were examined through in situ immunostaining and phase-contrast imaging. This revealed significant perturbations of molecular pathways involved in both early and late events relevant for cholestatic liver injury. US-PFAS did not significantly affect hepatocellular transporter activity or bile canalicular integrity at early time points (≤6 h). In contrast, prolonged exposure (24–72 h) to several US-PFAS elicited hepatocellular stress responses, such as oxidative stress and endoplasmic reticulum stress, and promoted inflammatory cell adhesion. Collectively, these findings demonstrate that US-PFAS have the capacity to affect biliary homeostasis and trigger downstream cholestatic events, providing mechanistic insight relevant for hazard identification.",
+    "authors": [
+      "Amy Maerten",
+      "Jette Ritz",
+      "Lindsey Devisscher",
+      "Mathieu Vinken"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.176586+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04152",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04152",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02511",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02511",
+    "doi": "10.1021/acs.est.6c02511",
+    "title": "An Initial Assessment of Microplastic Distribution across Trophic Levels in Benthic Ecosystems of Tidal Flats",
+    "abstract": "Abstract Microplastics (MPs) are widespread pollutants, yet their distribution across the trophic levels in tidal flat ecosystems remain poorly understood. We investigated MPs in sediments, seawater, macroalgae, and benthic organisms (19 species, 81 individuals) from two tidal flats in Incheon, Republic of Korea using a count-based approach. MPs were dominated by polypropylene, polyethylene, and polystyrene, with 20–100 μm particles accounting for 65% of total particles. Abundance ranged from 0.85 to 2.72 MPs/g dw in sediments and 0.4–2.2 MPs/L in seawater. Predators (3.63 ± 1.44 MPs/g) contained higher MP levels than their prey, filter feeders (0.87 ± 0.63 MPs/g), while detritivores (26.69 ± 31.45 MPs/g) exhibited higher abundances than macroalgae (11.62 ± 8.37 MPs/g). Deposit feeders accumulated significantly more MPs than filter feeders, reflecting feeding strategy-dependent exposure pathways. Bioconcentration factors (BCF &gt; 1), bioaccumulation factors (BAF &gt; 1), and predator-prey biomagnification factors ranging from 3.9 to 9.6 were observed based on particle counts. Despite lower MP abundance, filter feeders exhibited higher potential polymer-associated hazards, suggesting that MP abundance alone does not fully represent ecological risk. These findings highlight the importance of feeding ecology in shaping MP exposure and accumulation in tidal flats.",
+    "authors": [
+      "Byeongyong Park",
+      "Yubin Koo",
+      "Sungkook Yun",
+      "Minho Kang",
+      "Taewon Kim"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-10T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.177444+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02511",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02511",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Benthic zone",
+      "Trophic level",
+      "Detritivore",
+      "Bioaccumulation",
+      "Biomagnification",
+      "Microplastics",
+      "Abundance (ecology)",
+      "Ecology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07484",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07484",
+    "doi": "10.1021/acs.est.6c07484",
+    "title": "An OsWRKY1– OsPht1;4 Regulatory Module Restricts Arsenic Uptake and Accumulation in Rice Grain",
+    "abstract": "Abstract Arsenic (As) contamination in paddy soils poses a threat to human health through rice consumption. Arsenate (AsV) uptake contributes to grain As accumulation, yet its upstream regulatory mechanisms remain largely unknown. Here, we identified a WRKY transcription factor, OsWRKY1, as a key regulator of AsV uptake in rice plant, whose expression is strongly induced by AsV at both transcript and protein levels. Loss of OsWRKY1 function increased rice root As concentration by 2.8-fold under hydroponic conditions and raised grain As concentration by 19–22% in soil-grown plants compared with wild type, indicating that OsWRKY1 is a negative regulator of As accumulation. Chromatin immunoprecipitation sequencing revealed that OsWRKY1 directly binds to the promoter of P-transporter OsPht1;4, an also major AsV transporter gene in rice, but not to other Pht1 family members. Dual-luciferase assays further showed that OsWRKY1 represses OsPht1;4 promoter activity. Under AsV exposure, OsPht1;4 transcript levels were upregulated by 2.5-fold in oswrky1 mutants and were downregulated by 90% compared with wild type in OsWRKY1-overexpressing lines. These results define the OsWRKY1–OsPht1;4 module as a critical transcriptional repression mechanism that limits AsV uptake and accumulation in rice grain, providing a mechanistic basis for restricting As accumulation through specific transcriptional regulation of AsV uptake.",
+    "authors": [
+      "Xiang Zhang",
+      "Zihan Zeng",
+      "Ning Li",
+      "Huayuan Feng",
+      "Guanzhong Shou",
+      "Dan Sun",
+      "Shunan Zhang",
+      "Yetao Tang",
+      "Guohua Xu",
+      "Lena Q. Ma",
+      "Yue Cao",
+      "Rongliang Qiu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-10T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.177754+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07484",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07484",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Chromatin immunoprecipitation",
+      "Regulator",
+      "WRKY protein domain",
+      "Mutant",
+      "Transcriptional regulation",
+      "Arsenic",
+      "Gene",
+      "Genetically modified rice"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c14069",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c14069",
+    "doi": "10.1021/acs.est.5c14069",
+    "title": "Redox Alternation Drives Dynamics of Sediment Reducing Capacity: Dominance of Reducing Organic Substances and Ferrous-Iron/Sulfur Synergistic Mechanisms",
+    "abstract": "Abstract Sediment reducing capacity (RC) regulates benthic habitat function and the biogeochemical cycling of carbon, nutrients, and pollutants. However, the compositional complexity and dynamic responses of RC to redox alternation remain inadequately characterized. Through laboratory stimulation experiments of redox alternation with 20 freshwater sediments from four water bodies with distinct trophic status in China (Honghu Lake: HL, n = 3; Xiashan Reservoir: XR, n = 6; Yudong Reservoir: YR, n = 7; and Zhanghe Reservoir: ZR, n = 4), we monitored the dynamics of RC and its fractions (RCpH7.0, RCpH2.0), and quantified the responses of major reducing components (reducing organic substances (RedOr), Fe(II), and sulfides (Sn, −2 ≤ n &lt; 0)). Redox alternation triggered asynchronous RC responses, with depletion during oxic phases and recovery under anoxia. RC fluctuation amplitude exhibited sediment-type dependence, with RedOr-Sn sediments (HL/XR) showing greater variability than RedOr-Fe(II) systems (YR/ZR). Component-specific contributions differed significantly between sediment types (p &lt; 0.05). RedOr contributed most to RC variation in RedOr-Sn sediments (45.9–71.2% vs 35.7–52.2% in RedOr-Fe(II)), whereas Fe(II) contributed 45.8–61.5% in RedOr-Fe(II) sediments (18.9–26.6% in RedOr-Sn), and Sn accounted for 8.73–27.5% in RedOr-Sn sediments (1.62–2.62% in RedOr-Fe(II)). These differences reflected anoxia-driven differences in component reactivity and abundance. RedOr-Sn sediments exhibited concurrent enrichment of RedOr, Fe(II), and Sn, whereas RedOr-Fe(II) sediments showed mainly enhanced Fe(II) reactivity with limited RedOr/Sn changes. Mechanistically, the observed RC patterns were consistent with distinct Fe cycling pathways. In RedOr-Sn sediments, limited labile Fe(III) was associated with greater apparent involvement of magnetite, whereas easily reducible/reducible Fe(III) fractions were more prominent in RedOr-Fe(II) systems. Our findings demonstrate the high lability of eutrophic sediment RC and establish redox alternation as an efficient diagnostic tool for identifying reductive sediment types and pinpointing regulatory targets.",
+    "authors": [
+      "Xuemei Chen",
+      "Ruilian Guo",
+      "Zhenjun Liu",
+      "Yang Jiao",
+      "Sen Gu",
+      "Qingman Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-10T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.177683+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c14069",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c14069",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Biogeochemical cycle",
+      "Redox",
+      "Lability",
+      "Environmental chemistry",
+      "Chemistry",
+      "Sediment",
+      "Benthic zone",
+      "Trophic level"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c18280",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c18280",
+    "doi": "10.1021/acs.est.5c18280",
+    "title": "Seasonal and Habitat-Specific Mercury Cycling in Coastal Biota Revealed by Species-Specific Isotopes",
+    "abstract": "Abstract Understanding how inorganic mercury (IHg, primarily Hg(II)) and methylmercury (MeHg, primarily monomethylmercury) transform and cycle in coastal food webs is essential for evaluating Hg exposure risks, yet relevant species-specific mercury (Hg) isotope studies remain scarce. Here, we optimized a purge-trap method that enabled efficient separation and isotopic analysis of IHg and MeHg in marine organisms. Applying this method to surface and benthic organisms collected from the Bohai Sea in winter and summer, we reveal distinct seasonal and habitat-specific Hg dynamics. Surface organisms primarily accumulated MeHg that had undergone photodemethylation in the water column, while benthic organisms assimilated a mixture of photodegraded water-column MeHg (64–80%) and nonphotodegraded MeHg produced in sediments (20–36%). In vivo MeHg demethylation was substantially enhanced in surface organisms during summer, contributing ∼36% of the organismal IHg pool. Species-specific isotope signatures further suggest that methylation of IHg in sediments is a major source of MeHg to the water column, with ∼14–19% of it being photodegraded before biological uptake. Together, these findings provide new mechanistic insight into coastal Hg cycling and advance the isotopic framework for assessing ecological risks associated with marine Hg exposure.",
+    "authors": [
+      "Songjing Li",
+      "Ruoyu Sun",
+      "Xiaowei Chen",
+      "Zhao Wang",
+      "Chao Zhang",
+      "Pengfei Li",
+      "Yi Liu",
+      "Wang Zheng",
+      "Jiubin Chen"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-10T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.177894+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c18280",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c18280",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Methylmercury",
+      "Mercury (programming language)",
+      "Environmental chemistry",
+      "Benthic zone",
+      "Biota",
+      "Environmental science",
+      "Stable isotope ratio",
+      "Surface water"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00607",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00607",
+    "doi": "10.1021/acs.estlett.6c00607",
+    "title": "Per- and Polyfluoroalkyl Substances in Pediatric Cerebrospinal Fluid: Evidence of Central Nervous System Exposure",
+    "abstract": "Abstract Per- and polyfluoroalkyl substances (PFAS) have been implicated in neurodevelopmental toxicity, yet direct evidence of their presence within the central nervous system (CNS) of children remains limited. We quantified 12 PFAS in cerebrospinal fluid (CSF) samples from 47 pediatric patients undergoing clinically indicated lumbar puncture in Nanjing, China. PFAS were detected in 100% of samples, with PFOA (detection frequency: 98%), PFHxS (96%), PFOS (89%), and 6:2 Cl-PFESA (68%) most prevalent; their CSF distribution patterns were generally consistent with those observed in pediatric serum samples from nearby regions. Median concentrations were numerically higher in children under 2 and under 6 years of age, but these differences were not statistically significant (p = 0.450 and p = 0.322; rank-biserial r = 0.110 and 0.145) and should be interpreted as nonsignificant in this small, clinically heterogeneous sample. The presence of PFAS in children’s CSF adds to the growing concerns about early-life neurotoxicant exposure. Importantly, this study involved a small cohort (n = 47) of critically ill children. Given the limited sample size, the underpowered age subgroups, and the potential influence of disease-related changes in barrier permeability, the measured concentrations should not be generalized to healthy children, and all age-related comparisons are exploratory.",
+    "authors": [
+      "Hexiang Bai",
+      "Feng Zhu",
+      "Yahui Feng",
+      "Peiyao Ye",
+      "Zongli Huo",
+      "Zhuo Li",
+      "Kai Luo"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-08-11T00:00:00+00:00",
+    "updated_at": "2026-08-11T19:40:43.682058+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00607",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00607",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
     ],
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
