@@ -1,0 +1,260 @@
+Title: view
+
+URL Source: https://www.dora.lib4ri.ch/wsl/dload/wsl:43597/PDF2/view
+
+Published Time: Fri, 19 Jun 2026 07:29:37 GMT
+
+Number of Pages: 12
+
+Markdown Content:
+Supporting Information for 
+
+Hidden radiation legacy revealed in Scots pine’s xylem structure and hydraulic function after the Chornobyl accident Table S1 Xylem anomalies description of coniferous species 
+
+Type of anomality 
+
+Cross-section  Radial section  Tangential section 
+
+Radiation  In the year of the accident and the following year, there was an increase in the number of resin ducts (Musaev, 1996; Skuterud et al., 1994). The normal structure of earlywood (EW) tracheids is disturbed by interruptions in the rows, insertion of new tracheid rows (Musaev, 1996), and ‘forking’ (bifurcation) of tracheid rows (Kozubov and Taskaev, 1994; Schmitt et al., 2000; Tulik and Kozakiewicz, 2005). Some tracheids were 2–3 times larger than normal EW tracheids and had irregular shapes, such as oval, round, or nearly isodiametric forms (Tulik, 2001). Latewood (LW) tracheids maintained typical wall thickness (Musaev, 1996). Affected LW tracheids have larger lumina, thinner walls, and distorted shape (Clark and Hamilton, 1968). Rays became curved and wider, traumatic resin ducts deformed, and groups of parenchyma cells were observed (Kozubov and Taskaev, 1994; Tulik and Kozakiewicz, 2005). Thin-walled cells of a parenchymatous nature, stained brownish-red, appeared randomly in both EW and LW, indicating high lignin content (Tulik, 2001). The 1987 tree ring shows similar but less pronounced changes (Schmitt et al., 2000), with increased parenchymatisation and wider rays (Musaev, 1996), followed by a growth reduction and missing rings  (Woodwell and Miller, 1963) in following years (1988-1989; (Musaev, 1995)). 
+
+The ends of the tracheids are irregular (Tulik and Kozakiewicz, 2005), distorted, sometimes split, elongated, or flattened. The tracheids have funnel-shaped pits on their walls, but the pitting pattern is irregular. The typical single -row arrangement of pits, two -row or entirely irregular pits (Tulik and Kozakiewicz, 2005). In the walls of macerated tracheids, structures were observed neither funnel -shaped pits nor window -
+
+like pits (Tulik, 2001). 
+
+Tracheids length is not affected (Clark and Hamilton, 1968) or increased tracheids length (Tulik, 2001). Trachareids wall structure is changed in both S2 and S3 layers (Tulik and Rusin, 2005). Untypical clusters of rays connected with their irregular shape and “stretching” parenchyma cells (Tulik and Kozakiewicz, 2005). 
+
+Frost ring  Tracheids are thin-walled (Lee et al., 2007; Schweingruber, 2007), sometimes extremely thin-walled, and greatly collapsed occurring alongside thicker-walled uncollapsed or less collapsed tracheids. The thin walls ranged from consisting solely of compound middle lamella, externally coated with irregular deposits of dense material, to having modified secondary wall materials differing in their density and texture (Glerum and Farrar, 1966; Lee et al., 2007). Tracheids are often highly collapsed, tangentially flattened, axial tracheids deviate from the radial course of alignment (Glerum and Farrar, 1966; Lee et al., 2007; Schweingruber, 2007). Callus tissue and morphologically regenerating tracheids are present (Schweingruber, 2007). Rays are highly distended (Rhoads, 1923), displaced (Fritts, 1976; Glock, 1951), often undergoing a knee-shaped bending (Rhoads, 1923; Schweingruber, 2007). 
+
+Tracheids are much shorter and have blunt end walls (Glerum and Farrar, 1966). Rays often consist of an increased number of parenchyma cells 14). 
+
+The ray parenchyma cannot be distinguished from the traumatic parenchyma. The tracheids are irregular in shape and abnormally short (Glerum and Farrar, 1966). 
+
+IADF  A dark band of latewood-like cells within the earlywood, or a light band of earlywood-like cells within the latewood, is characterized by a gradual or abrupt transition to neighboring cells (De Micco et al., 2016; Kuo and Mc Ginnes, 1973). In earlywood (EW), the double cell wall thickness is equal to or greater than the cell lumen diameter (De Micco et al., 2016), with a more or less fluent transition to flattened tracheids with thin cell walls (Schweingruber, 2007). 
+
+Pits are smaller and more elliptical, comparable to surrounding transition wood (Mayer et al., 2020). 
+
+At the IADF band the tracheid shorter (Mayer et al., 2020). Table S2 Pairwise post-hoc comparisons  for efficiency traits derived from linear mixed -effects models 
+
+Contrast  Site 
+
+log(Kh) 
+
+(m 4*s -1*MPa -1 )
+
+log(Kh) 
+
+(m4*s-1*MPa-1) 
+
+Dh 
+
+(mkm) 
+
+Dh 
+
+(mkm)  RCTA (%)  RCTA (%) 
+
+log(HCE) 
+
+(m*s -1*MPa -1 )mkm -2 
+
+log(HCE) 
+
+(m*s-1*MPa -1 )mkm -2 
+
+Est.±SE  t.ratio  Est.±SE  t.ratio  Est.±SE  t.ratio  Est.±SE  t.ratio 
+
+pre-accident  3 0.22±0.18  1.26  0.47±0.71  0.66  2.03±1.66  1.23  0.2±0.19  1.06 
+
+pre-deflection  3 0.04±0.18  0.23  -0.82±0.71  -1.16  -2.53±1.66  -1.53  -0.03±0.19  -0.16 
+
+pre-post  3 0.09±0.13  0.68  0.12±0.51  0.24  -1.03±1.19  -0.86  -0.01±0.13  -0.09 
+
+accident-deflection  3 -0.18±0.2  -0.89  -1.28±0.81  -1.58  -4.57±1.91  -2.4  -0.23±0.22  -1.05 
+
+accident-post  3 -0.13±0.16  -0.84  -0.34±0.65  -0.53  -3.06±1.52  -2.01  -0.21±0.17  -1.22 
+
+deflection-post  3 0.05±0.16  0.27  0.94±0.65  1.45  1.51±1.52  0.99  0.02±0.17  0.11 
+
+pre-accident  1 0.8±0.32  2.52.  6.02±1.61  3.74**  5.05±3.21  1.57  0.47±0.31  1.53 
+
+pre-deflection  1 1.19±0.32  3.78**  7.29±1.61  4.52***  8.59±3.21  2.68 * 1.02±0.31  3.3* 
+
+pre-post  1 0.36±0.22  1.61  -0.27±1.14  -0.24  3.02±2.27  1.33  0.38±0.22  1.73 
+
+accident-deflection  1 0.4±0.36  1.09  1.27±1.86  0.68  3.54±3.71  0.96  0.55±0.36  1.53 
+
+accident-post  1 -0.44±0.29  -1.52  -6.29±1.47  -4.28***  -2.04±2.93  -0.69  -0.1±0.28  -0.34 
+
+deflection-post  1 -0.83±0.29  -2.9*  -7.56±1.47  -5.14***  -5.58±2.93  -1.9  -0.64±0.28  -2.28 
+
+pre-accident  2 0.78±0.17  4.6*  6.02±0.67  9.02***  6.03±1.6  3.77 . 0.69±0.18  3.74. 
+
+pre-deflection  2 0.47±0.18  2.7  1.18±0.67  1.77  -5.23±1.6  -3.27 * 0.24±0.18  1.3 
+
+pre-post  2 0.14±0.13  0.89  0.75±0.52  1.45  0.71±1.2  0.59  0.02±0.14  0.18 
+
+accident-deflection  2 -0.31±0.2  -1.65  -4.83±0.76  -6.35**  -11.25±1.83  -6.15 **  -0.45±0.21  -2.13 
+
+accident-post  2 -0.65±0.16  -4.24*  -5.26±0.64  -8.27***  -5.32±1.5  -3.54 . -0.67±0.17  -3.89. 
+
+deflection-post  2 -0.33±0.16  -2.2  -0.43±0.64  -0.67  5.93±1.5  3.95 * -0.21±0.17  -1.25 
+
+Estimates are presented as ‘Est± SE’ along with the corresponding t value. Significance codes are indicated as follows: 
+
+*** p < 0.001; ** p < 0.01; * p < 0.05; . p < 0.1 Table S3  Pairwise post -hoc comparisons for safety traits from Linear Mixed -Effects Models 
+
+Contrast  Site  CWTall 
+
+(mkm) 
+
+CWTall 
+
+(mkm)  RWD  RWD  CWA 
+
+(mkm 2)
+
+CWA 
+
+(mkm2)  log(TB2)  log(TB2) 
+
+Est.±SE  t.ratio  Est.±SE  t.ratio  Est.±SE  t.ratio  Est.±SE  t.ratio 
+
+pre-accident  3 0±0.14  0.01  -0.01±0.02  -0.62  13.06±9.74  1.34  0.07±0.2  0.36 
+
+pre-deflection  3 0.45±0.14  3.25.  0.03±0.02  1.95  33.63±9.74  3.45*  0.36±0.2  1.75 
+
+pre-post  3 0.28±0.1  2.77.  0.01±0.01  0.87  42.3±7.14  5.93**  0.12±0.15  0.81 
+
+accident-deflection  3 0.45±0.16  2.82.  0.05±0.02  2.23  20.57±11.18  1.84  0.28±0.23  1.2 
+
+accident-post  3 0.27±0.13  2.17  0.02±0.02  1.35  29.24±9.02  3.24*  0.04±0.19  0.24 
+
+deflection-post  3 -0.17±0.13  -1.35  -0.02±0.02  -1.45  8.67±9.02  0.96  -0.24±0.19  -1.28 
+
+pre-accident  1 0.85±0.31  2.71*  -0.02±0.03  -0.6  123.94±27.38  4.53***  0.66±0.34  1.94 
+
+pre-deflection  1 0.02±0.31  0.08  -0.05±0.03  -1.44  71.61±27.38  2.62*  0.01±0.34  0.03 
+
+pre-post  1 -0.29±0.22  -1.31  -0.03±0.02  -1.41  -9.83±19.36  -0.51  -0.24±0.24  -1.02 
+
+accident-deflection  1 -0.83±0.36  -2.28  -0.03±0.04  -0.73  -52.33±31.62  -1.66  -0.65±0.39  -1.65 
+
+accident-post  1 -1.14±0.29  -3.99***  -0.01±0.03  -0.43  -133.78±25  -5.35***  -0.9±0.31  -2.92* 
+
+deflection-post  1 -0.31±0.29  -1.1  0.01±0.03  0.49  -81.44±25  -3.26**  -0.26±0.31  -0.83 
+
+pre-accident  2 0.36±0.13  2.79  -0.03±0.02  -1.48  53.33±8.86  6.02***  0.49±0.2  2.49 
+
+pre-deflection  2 1.21±0.13  9.32***  0.07±0.02  4.28*  100.9±8.86  11.39***  0.99±0.2  5* 
+
+pre-post  2 0.26±0.1  2.6  0.01±0.01  0.44  37.31±7.24  5.15** * 0.18±0.15  1.2 
+
+accident-deflection  2 0.85±0.15  5.73***  0.1±0.02  5.03*  47.56±10  4.76** * 0.5±0.23  2.18 
+
+accident-post  2 -0.1±0.12  -0.8  0.03±0.02  1.93  -16.03±8.62  -1.86  -0.32±0.19  -1.72 
+
+deflection-post  2 -0.95±0.12  -7.64***  -0.07±0.02  -4.21  -63.59±8.62  -7.38***  -0.82±0.19  -4.42* 
+
+Estimates are presented as ‘Est± SE’ along with the corresponding t value. Significance codes are indicated as follows: 
+
+*** p < 0.001; ** p < 0.01; * p < 0.05; . p < 0.1 Table S4 Type-III tests for fixed effects in linear mixed models of PCA scores. R²m = variance explained by fixed effects; R²c = variance explained by full model (Nakagawa and Schielzeth, 2013) 
+
+PC  Fixed term  Num df  Den df  F p R²m  R²c 
+
+PC-2(hydraulic capacity)  Period  3 6.98  18.49  0.0011  0.372  0.616 
+
+Site  2 37.09  2.02  0.147 
+
+Period × Site  6 207.51  12.18  1.0 × 10 ⁻¹¹ 
+
+PC-1(safety–efficiency trade-off)  Period  3 4.67  0.55  0.673  0.142  0.756 
+
+Site  2 35.82  0.83  0.445 
+
+Period × Site  6 207.16  6.23  5.0 × 10 ⁻⁶
+
+Table S5  Tukey-adjusted contrasts for each period relative to the site’s pre-accident PC scores’ mean 
+
+PC  Site  Period vs pre 
+
+Estimate (SD)  SE  df  pTukey 
+
+PC-2 (hydraulic capacity)  Site 3  Accident  –0.62  0.35  6.67  0.393 
+
+Deflection  –0.43  0.35  6.67  0.650 
+
+Post  –0.64  0.26  7.15  0.222 
+
+Site 1  Accident  –3.56  0.79  117  0.0001 
+
+Deflection  –3.64  0.79  117  0.0001 
+
+Post  –0.54  0.56  117  0.773 
+
+Site 2  Accident  –2.87  0.33  5.79  0.0006 
+
+Deflection  –2.49  0.25  5.79  0.0013 
+
+Post  –0.81  0.26  7.51  0.874 
+
+PC-1 (safety-efficiency trade-off)  Site 3  Accident  +0.35  0.57  5.26  0.940 
+
+Deflection  –1.11  0.57  5.26  0.319 
+
+Post  –0.57  0.41  5.52  0.544 
+
+Site 1  Accident  –0.21  1.02  48.8  0.997 
+
+Deflection  +1.88  1.02  48.8  0.269 
+
+Post  +1.13  0.72  48.8  0.409 
+
+Site 2  Accident  +0.75  0.55  4.68  0.572 
+
+Deflection  –2.30  0.55  4.68  0.043 
+
+Post  –0.34  0.41  5.58  0.860 Fig.S1. Cross-sections of Scots pine wood showing damage attributed to radiation from the 1986 Chornobyl disaster, taken from three study sites. The wood samples represent conditions exposed to conditionally lethal, sub-lethal, and moderate radiation doses, respectively. 
+
+Fig. S2. Cross-sections of Scots pine wood showing damage from radiation exposure in 1986 at site 2 (sub-lethal dose) and the IADF band formed in 1989 at site 3 (moderate dose). Fig. S3. Distribution of key QWA variables used in the analysis. Variables: CWA — Mean cell wall area ( μm2); CWTall — Mean thickness of all cell walls ([CWTrad+CWTtan]/2) ( μm); Dh — Mean hydraulic diameter ( μm), Dh = sum (cell hydraulic diameter ^5) / sum(cell hydraulic diameter ^4); Kh — Theoretical hydraulic conductance (m⁴·s ⁻¹·MPa ⁻¹) as approximated by Poiseuille's law and adjusted to elliptical tubes; HCE is Kh / CWA ratio (m²·s ⁻¹·MPa ⁻¹); RCTA — Percentage of conductive area [%]; RWD — Mean relative anatomical cell density; TB2 — Mean cell wall reinforcement index (t/b) 2. t is the double cell wall thickness and b the length of the same cell wall Fig. S4. Yearly variations of the hydraulic -efficiency (Kh, Dh, RSTA, HCE) and mechanical -safety parameters (CWTall, RWD, CWA, TB2). Colored lines denote mean values Fig. S5. Percent contribution of each anatomical trait to the first four principal components.Trait codes are identical to those used in Fig. S3. Fig. S6. Yearly variation of the relative anatomical traits from 1984 to 1991. The solid vertical line in 1986 marks the accident year, and the dashed vertical line in 1987 marks the deflection period. The pre-accident (reference) period is 1984–1985, and the post-accident period is 1988–1991. Thin lines without dots show individual trees’ trends, while thick lines with dots represent the mean values for each site Fig. S7. Year-to-year trajectories of PC-2 and PC-1 (1984–1991) by site. Graphic elements follow the conventions explained in Fig. S6: vertical lines mark the accident (1986, solid) and deflection (1987, dashed) years; thin grey lines trace individual trees; thick black lines with dots show site means References 
+
+Clark, A., Hamilton, J.R., 1968. Effects of ionizing irradiation on the xylem derivatives of Pinus echinata Mill. West Virginia Agricultural and Forestry Experiment Station Bulletins 567T. 
+
+De Micco, V., Campelo, F., De Luis, M., Bräuning, A., Grabner, M., Battipaglia, G., Cherubini, P., 2016. Intra -annual density fluctuations in tree rings: How, when, where and why? IAWA J. 37, 232 –259. https://doi.org/10.1163/22941932 -20160132 
+
+Fritts, H.C., 1976. Tree Rings and Climate. Elsevier. https://doi.org/10.1016/B978 -0-12 -268450 -0.X5001 -0
+
+Glerum, C., Farrar, J.L., 1966.  Frost ring formation in the stems of some coniferous species. Canadian Journal of Botany 44, 879 –886. https://doi.org/10.1139/b66 -103 
+
+Glock, W.S., 1951. Cambial frost injuries and multiple growth layers at lubbock, Texas. Ecology 32, 28 –36. 
+
+Kozubov, G.M., Taskaev, A.I., 1994. Radiobiological and radioecological studies of woody plants.  Nauka, Saint Peterburg. 
+
+Kuo, M.L., Mc Ginnes, E.A.., 1973.  Variation of anatomical structure of false rings in Eastern Redcedar. Wood Science 5, 205 –210. 
+
+Lee, K.H., Singh, A.P., Kim, Y.S., 2007. Cellular characteristics of a traumatic frost ring in the secondary xylem of Pinus radiata.  Trees 21, 403 –410. https://doi.org/10.1007/s00468 -007 -0131 -5
+
+Mayer, K., Grabner, M., Rosner, S., Felhofer, M., Gierlinger, N., 2020.  A synoptic view on intra -annual density fluctuations in Abies alba.  Dendrochronologia (Verona). 64, 125781. https://doi.org/10.1016/j.dendro.2020.125781 
+
+Musaev, E.K., 1996.  Seasonal growth and structure of Scots pine annual rings in the Chernoyl catastrofe zone. Lesovedenie 1, 16 –48. 
+
+Musaev, E.K., 1995. Reaction of growth and structure of annual rings of Scots pine ( Pinus sylvestris L.). V.N.Sukachev Institute of Forest RAS, Krasnoyarsk. 
+
+Nakagawa, S., Schielzeth, H., 2013. A general and simple method for obtaining R 2 from generalized linear mixed-effects models. Methods Ecol. Evol. 4, 133 –142. https://doi.org/10.1111/j.2041 -210x.2012.00261.x 
+
+Rhoads, A.S., 1923. The formation and pathological anatomy of frost rings in conifers injured by late frosts. United States Deptament of Agriculture 1131, 1 –15. 
+
+Schmitt, U., Grünwald, C., Eckstein, D., 2000. Xylem structure in pine trees growth near the Chernobyl Nuclear Power Plant / Ukraine.  IAWA J. 21, 379 –387. 
+
+Schweingruber, F.H., 2007. Wood structure and environment. Springer Berlin Heidelberg, Berlin, Heidelberg. https://doi.org/10.1007/978 -3-540 -48548 -3
+
+Skuterud, L., Goltsova, N.I., Næumann, R., Sikkeland, T., Lindmo, T., 1994.  Histological changes in Pinus sylvestris L. in the proximal -zone around the Chernobyl power plant. Science of The Total Environment 157, 387 –397. https://doi.org/10.1016/0048 -9697(94)90602 -5
+
+Tulik, M., 2001. Cambial history of Scots pine trees ( Pinus sylvestris ) prior and after the Chernobyl accident as encoded in the xylem.  Environ. Exp. Bot. 46, 1 –10. https://doi.org/10.1016/S0098 -8472(01)00075 -2
+
+Tulik, M., Kozakiewicz, P., 2005.  Some physical and mechanical properties of pine wood (Pinus sylvestris L.) from excluded zones around the Chernobyl power station. Folia Forestalia Polonica 36, 3 –14. 
+
+Tulik, M., Rusin, A., 2005. Microfibril angle in wood of Scots pine trees ( Pinus sylvestris ) after irradiation from the Chernobyl nuclear reactor accident.  Environmental Pollution 134, 195 –199. 
+
+https://doi.org/10.1016/j.envpol.2004.08.009 
+
+Woodwell, G.M., Miller, Lee.N., 1963.  Chronic gamma radiation affects the distribution of radial increment in Pinus rigida stems.  Science 139, 222 –223.
