@@ -5931,5 +5931,1050 @@
     "influential_citation_count": 0,
     "open_pdf_available": false,
     "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06214",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06214",
+    "doi": "10.1021/acs.est.6c06214",
+    "title": "Machine-Learning-Assisted Auto-Fluorescence Cell-Sorting-Based Fast Differentiation and Quantification of Extracellular Polymeric Substances in the Microalgae and Bacteria Consortium",
+    "abstract": "Abstract Extracellular polymeric substances (EPS) are crucial in microalgae-bacteria consortia (MBC)-based wastewater treatment. Revealing the roles of EPS depends on reliable and accurate differentiation, extraction, and quantification of EPS from microalgae and bacteria in the MBC. Autofluorescence-based cell sorting (AFCS) coupled with thermal extraction can achieve the above goals, but it is time-consuming and costly, and invoves unignorable EPS loss (0.4–3.9%) during cell sorting. In this work, the raw data of microalgae (3.42 ± 0.14 mg/g TSS – 52.38 ± 0.47 mg/g TSS) and bacteria (2.95 ± 0.17 mg/g TSS – 48.94 ± 0.21 mg/g TSS) EPS from a series of MBC are obtained using AFCS with thermal extraction. Machine learning regression models are applied for microalgae and bacteria identification, and EPS concentration simulation and prediction. Results showed that, based on the total EPS concentrations and the fluorescence scattering characteristics (obtained from flow cytometry) of the MBC before and after heating, machine learning regression models enabled accurate prediction of EPS concentrations from microalgae (k-Nearest Neighbors, R2 = 0.975, P &lt; 0.001) and bacteria (eXtreme Gradient Boosting, R2 = 0.953, P &lt; 0.001) in the MBC, without cell sorting or EPS loss. This study provides an innovative method for rapid and accurate quantification of total EPS in microalgae and bacteria without requiring physical separation of the MBC, thereby laying a crucial foundation for in-depth analysis of EPS-based interaction mechanisms and functional regulation of microalgae and bacteria within the MBC during wastewater treatment.",
+    "authors": [
+      "Libo Xia",
+      "Xiaocai Cui",
+      "Tian Ren",
+      "Ting Ran",
+      "Lingfang Huang",
+      "Beibei Wu",
+      "Peng Cai",
+      "Yun Zhou"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-22T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.773593+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06214",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06214",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04079",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04079",
+    "doi": "10.1021/acs.est.6c04079",
+    "title": "Swim Bladder Inflation in Fish: A Sensitive Endpoint for Risk Assessment and Mechanistic Research",
+    "abstract": "Abstract The swim bladder is a vital organ in many bony fish, playing an essential role in buoyancy regulation, position control in water and consequently survival. Ultimately, its potential malfunctioning may affect foraging efficiency, predator avoidance, and therefore population fitness. Nevertheless, proper swim bladder inflation is rarely systematically recorded as an endpoint in fish toxicity studies, regardless of the chemical class or mode of action under investigation. This represents a missed opportunity to detect sensitive sublethal effects and accumulate mechanistic evidence across studies. This paper therefore argues for the systematic inclusion of swim bladder inflation measurements in experimental designs that assess chemical exposure or manipulate neural and endocrine function. We highlight the biological basis of swim bladder development and inflation, summarize the growing body of evidence indicating its sensitivity to various chemical contaminants and pharmacological agents, and discuss its potential as an integrative indicator linking endocrine, metabolic, and neurobehavioral processes. We also identify key practical and methodological considerations for incorporating this endpoint into standardized tests, including timing, observation methods and species applicability. Incorporating this endpoint in studies ranging from ecotoxicological testing to neurodevelopmental and behavioral experiments could enhance the mechanistic interpretation of results, improve the detection of subtle sublethal effects and strengthen the ecological and physiological relevance of fish-based research.",
+    "authors": [
+      "Alexis Buatois",
+      "Bente Nissen",
+      "Colette vom Berg"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-22T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.773786+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04079",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04079",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c04503",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c04503",
+    "doi": "10.1021/acs.est.6c04503",
+    "title": "Characterizing Regional Variation of PFAS Profiles in Human Serum from China by Integrated Target and Nontarget Analysis with Machine Learning",
+    "abstract": "Abstract Per- and polyfluoroalkyl substances (PFASs) are globally detected in humans, yet regional variations in PFAS exposure remain insufficiently characterized. Herein, by utilizing target and nontarget analysis with machine learning, differences in PFAS exposure were assessed based on 1088 serum samples of the population from SX, GD, HeB, and HuB regions in China. Nontarget analysis identified 49 PFASs, among which bis(trifluoromethane)sulfonimide (Ntf2), C8 per- and polyfluoroalkyl ether carboxylic acid, C12 hydrogen-substituted polyfluoroalkyl (linear) carboxylic acid, 8:2 fluorotelomer unsaturated carboxylic acid, 1-hydroxy-6:2 fluorotelomer sulfonic acid, haloxyfop, and leflunomide were reported in human serum for the first time. Target analysis indicated total PFAS concentrations of 9.4, 17, 25, and 29 ng/mL in the SX, GD, HeB, and HuB regions, respectively, with compositional profiles differing in the proportions of specific PFAS classes. Machine learning classifiers achieved an accuracy of 0.89 in distinguishing samples from the four regions, revealing significant interregional disparity. Furthermore, PFNA, Ntf2, PFOA, and 6:2 Cl-PFESA were identified as distinctive exposure biomarkers for SX, GD, HeB, and HuB, respectively, each being closely associated with local industrial activities. Overall, this study elucidates the region-specific characteristics of human PFAS exposure in China, providing a scientific basis for regionally tailored health risk assessment and pollution control strategies.",
+    "authors": [
+      "Huikang Lin",
+      "Chang He",
+      "Anna Ji",
+      "Xiaohui Yu",
+      "Xiaoping Wang",
+      "Guiying Li",
+      "Taicheng An"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.775025+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c04503",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c04503",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Human health",
+      "Population",
+      "Pollution",
+      "Southern china",
+      "Environmental chemistry",
+      "Exposure assessment",
+      "Ether",
+      "Machine learning"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08323",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08323",
+    "doi": "10.1021/acs.est.6c08323",
+    "title": "Collective Microbubble Interactions Drive Sulfur Transformation in Seawater",
+    "abstract": "Abstract Breaking waves, marine biological activity, and submarine geological processes continuously generate vast microbubble populations in seawater, yet the chemical consequences of bubble–bubble interactions remain poorly understood. Here, we address an apparent contradiction in saline interfacial chemistry: although high ionic strength suppresses oxidative responses at isolated bubble interfaces, dense microbubble swarms sustain transient photon emission and reactive oxygen species formation during bubbling. This contrast suggests that salinity weakens single-bubble interfacial reactivity, whereas collective bubble–bubble interactions create localized redox microenvironments through interfacial screening, conductivity effects, and repeated close interbubble encounters. The localized photon bursts observed during close bubble–bubble encounters, together with concurrent radical formation, are consistent with interbubble discharge-like events termed microlightning. Using dimethyl sulfide (DMS) as a representative marine organic sulfur compound, we further demonstrate that microbubble-mediated transformation redirects DMS toward inorganic sulfur species, including sulfate (SO42–) and reduced inorganic sulfur species. Electron spin resonance, oxidative fluorescence, spin-trapping mass spectrometry, and ion chromatography support a proposed branched radical-mediated network involving sulfur-centered activation, C–S fragmentation, oxygenation, and aqueous sulfur redox conversion. These findings reconcile salt-suppressed isolated-bubble reactivity with sustained swarm-level redox chemistry, identifying dense microbubble swarms as collective interfacial microreactors for aqueous sulfur transformation in seawater.",
+    "authors": [
+      "Jinheng Xu",
+      "Yu Xia",
+      "Yifan Meng",
+      "Richard N. Zare"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774695+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08323",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08323",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07017",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07017",
+    "doi": "10.1021/acs.est.6c07017",
+    "title": "Deriving Antibiotic Thresholds Under a One Health Framework: Integrating Bioaccumulation and Human Exposure in the Yangtze River Estuary Food Web",
+    "abstract": "Abstract Antibiotics are widely detected in aquatic environments, yet current environmental thresholds rarely integrate ecological and human health risks under a One Health framework. Here, we developed a bioaccumulation- and human exposure-based approach to derive health-protective environmental thresholds for antibiotics in the Yangtze River Estuary (YRE). Total antibiotic concentrations averaged 6.64 ± 5.91 ng/L in water, 9.65 ± 7.55 ng/g in sediment, and 56.4 ± 80.9 ng/g in aquatic organisms, with significant cross-compartmental variability and distinct compositional patterns among environmental matrices. Chloramphenicol (CAP) exhibited the strongest bioaccumulation potential (BCF up to 20,190 L/g) and was the only compound showing trophic magnification (TMF = 2.97), whereas most other antibiotics displayed trophic dilution. Derived thresholds ranged from 2.04 × 10–5–434 ng/L for water and 3.01 × 10–4–17.0 ng/g for sediment, several orders of magnitude lower than thresholds derived using traditional ecotoxicity-based approaches in previous studies. CAP, norfloxacin, and ofloxacin were identified as priority risk compounds, demonstrating that even moderate environmental concentrations can bioaccumulate through aquatic food webs and pose notable dietary exposure risks to consumers. This framework provides a more protective basis for antibiotic pollution management and environmental standard development under a One Health perspective.",
+    "authors": [
+      "Ya-Qian Xu",
+      "Qian Li",
+      "Xinyang Zhang",
+      "Xingpan Guo",
+      "Ye Huang",
+      "Xinran Liu",
+      "Nan Lin"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774235+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07017",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07017",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Bioaccumulation",
+      "Trophic level",
+      "Estuary",
+      "Environmental science",
+      "Food web",
+      "Food chain",
+      "Environmental monitoring",
+      "Yangtze river"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c15499",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c15499",
+    "doi": "10.1021/acs.est.5c15499",
+    "title": "Microplastic-Derived Dissolved Organic Matter: Environmental Chemistry and Ecological Consequences",
+    "abstract": "Abstract Microplastics (MPs) are widely recognized as particulate hazards, yet environmental aging releases a time-evolving pool of MP-derived dissolved organic matter (MP-DOM) that engages in photochemical and redox reactions. This work provides a critical overview of the aging mechanisms of MPs and the release characteristics of MP-DOM, with emphasis on its molecular properties and the intrinsic and extrinsic factors driving DOM release. Particular attention is given to the strong polymer dependence of MP-DOM, as different plastic classes can generate dissolved mixtures with distinct release kinetics, chemical profiles, and environmental reactivities. Insights into the unstable characteristics of MP-DOM are translated into measurable physicochemical reactions by evaluating its photochemical reactivity and interactions with natural minerals. Importantly, high methodological heterogeneity in experimental protocols hampers reliable comparisons across studies, underscoring the need for standardized leaching procedures in MP-DOM quantification and characterization. The role of MP-DOM in influencing the behavior of environmental pollutants, such as organic contaminants, metals, and antibiotic resistance genes, is critically assessed, particularly its contribution to disinfection byproduct formation, an ongoing concern in water quality management. Recent advances in understanding the ecological and biogeochemical impacts of MP-DOM are synthesized, highlighting its effects on cellular toxicity, microbial responses, and disruptions in element cycling and greenhouse gas emissions. Future directions include standardized aging protocols, rapid source attribution methods, and transferable models for predicting MP-DOM fate and ecological consequences under multistressor conditions. This review provides an updated synthesis of MP-DOM by linking its environmental behavior to ecological fate, advancing our understanding of the long-term ecological impacts and toxicity of plastics.",
+    "authors": [
+      "Jing Wang",
+      "Peng Li",
+      "Weimin Zhu",
+      "Jialiang Gu",
+      "Zihan Fan",
+      "Jun Ma",
+      "Nanqi Ren",
+      "Defeng Xing"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774430+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c15499",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c15499",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Microplastics",
+      "Dissolved organic carbon",
+      "Environmental science",
+      "Biogeochemical cycle",
+      "Environmental chemistry",
+      "Leaching (pedology)",
+      "Ecology",
+      "Organic chemicals"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c00489",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c00489",
+    "doi": "10.1021/acs.est.6c00489",
+    "title": "Microplastics as Selective Substrates for Marine Microorganisms: Beyond the Toxicological Paradigm",
+    "abstract": "Abstract Microplastics (MPs) are widely studied as marine contaminants, yet their ecological roles in microbial systems remain incompletely understood. Conventional toxicological frameworks, largely developed for multicellular organisms, emphasize acute stress and cellular damage but capture only a limited subset of microbial responses. Here, we propose a stage-structured framework in which MPs function primarily as selective substrates rather than as conventional toxicants. Plastisphere assembly is governed by dynamically shifting selection across three stages: initial physicochemical filtering, substrate- and metabolism-driven selection, and biofilm-mediated spatial adaptation. Central to this process is the coupling between substrate transformation and reactive oxygen species (ROS) dynamics. Extracellular ROS arise from interfacial reactions of weathered plastic compounds, while intracellular ROS are generated during microbial carbon assimilation. These processes are mechanistically linked: plastic-derived compounds act as both substrates and stressors, and extracellular ROS further transform them into more bioavailable forms, reinforcing intracellular constraints. Biofilms introduce spatial organization that redistributes metabolic and oxidative burdens, enabling metabolic cooperation, stress partitioning, and HGT, allowing selection to operate at both individual traits and spatially organized community levels. Together, this framework shifts the perspective from toxicity-based interpretations toward a selection paradigm that integrates substrate availability, metabolic constraints, and spatial organization, providing a mechanistic basis for linking microscale microbial processes to broader ecological and biogeochemical dynamics.",
+    "authors": [
+      "Ting-Ting Hou",
+      "Lu-Chen Bi",
+      "Ben-Bin Liang",
+      "Hai-Nan Dong",
+      "Ji-Ji Li",
+      "Zhi-Qiang Han",
+      "Yang Gao",
+      "Zhi-Pei Liu",
+      "Dong-Dong Xu",
+      "Peng-Zhi Qi"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.773976+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c00489",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c00489",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Microplastics",
+      "Multicellular organism",
+      "Microscale chemistry",
+      "Function (biology)",
+      "Extracellular polymeric substance",
+      "Extracellular",
+      "Substrate (aquarium)",
+      "Chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c10862",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c10862",
+    "doi": "10.1021/acs.est.6c10862",
+    "title": "Nontarget Analysis of the Volatile and Semivolatile Chemical Profile of Wildland Firefighter Gear: Insight into Occupational Exposure and Health Implications",
+    "abstract": "Abstract Prescribed fire releases a complex mixture of volatile and semivolatile organic compounds to the environment. Firefighters are directly exposed to these hazardous mixtures through occupational activities. This study investigated the volatile and semivolatile chemical contamination profile of firefighter protective gear and the effectiveness of laundering as a decontamination strategy. Our results revealed that firefighter gear accumulated a broad spectrum of combustion-derived contaminants, predominantly composed of polycyclic aromatic hydrocarbons and derivatives, phenolic compounds, and aromatic hydrocarbons. Representative compounds identified included toluene, biphenyl, naphthalene, 1-methynaphthalene, 2-methylnaphthalene, acenaphthene, phenol, alkylated phenols, and chlorinated phenols. Quantitative analysis revealed representative combustion-derived compounds at concentrations (mean ± standard deviation, SD) including toluene (0.958 ± 0.293 ng/g), biphenyl (0.015 ± 0.004 ng/g), naphthalene (0.053 ± 0.020 ng/g), 1-methynaphthalene (0.468 ± 0.132 ng/g), 2-methylnaphthalene (0.009 ± 0.002 ng/g), and acenaphthene (0.303 ± 0.001 ng/g). Multivariate analysis showed that although laundering substantially reduced contaminant levels, residues of several compounds remained significantly detectable in washed samples. These results demonstrate that firefighter personal protective equipment (PPE) serves as a reservoir for toxic compounds, underscoring the additional risk of secondary exposure to firefighters through dermal contact, handling, and off-gassing. Together, our findings emphasize the need for the safe transport of protective gear (e.g., in sealed bags), proper storage before laundering, and periodic replacement of these protective materials. This will help mitigate secondary exposure and adverse long-term health effects.",
+    "authors": [
+      "Patrica-Ivy Agorsor",
+      "Husam Kafeenah",
+      "Margaret D. Taiwo",
+      "Robin Verble",
+      "Michael O. Eze"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.775113+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c10862",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c10862",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Environmental chemistry",
+      "Acenaphthene",
+      "Hazardous waste",
+      "Contamination",
+      "Naphthalene",
+      "Personal protective equipment",
+      "Environmental science",
+      "Human decontamination"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06467",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06467",
+    "doi": "10.1021/acs.est.6c06467",
+    "title": "Oxidation Mechanism of Ce(III) to Ce(IV) by δ-MnO2: Insights from EXAFS Spectroscopy and Density Functional Theory",
+    "abstract": "Abstract The oxidation of cerium (Ce) from the soluble trivalent state (Ce(III)) to the insoluble tetravalent state (Ce(IV)) on manganese (Mn) oxides critically influences its environmental fate and geochemical cycle, and is also of interest in water treatment. However, a comprehensive mechanistic understanding of how Ce is immobilized upon interaction with Mn oxides in soils and marine sediments is still lacking. The bonding structure of Ce on δ-MnO2, the most abundant Mn oxide, was investigated by X-ray absorption spectroscopy at environmentally relevant pH and Ce concentration, and the oxidation reaction was modeled by atomistic calculation. Ce(III) is adsorbed as a six-coordinate complex at particle edges and a nine-coordinate complex at Mn(IV) vacancy sites of the MnO2 phyllomanganate layer. Ce(III) oxidation is nonspontaneous and requires hydrolysis of the sorption complexes to proceed. Gibbs free energy calculations of possible oxidation pathways show that electron transfers from Ce(III) to Mn(IV) at edge sites, and from Ce(III) to interlayer Mn(III) at vacancy sites, are thermodynamically favorable. Thus, the redox reactivity of δ-MnO2 depends on its crystallographic structure and the Mn valence. Our findings show that Mn(IV) and Mn(III) are kinetically more effective oxidants of Ce(III) than dissolved oxygen, and therefore, that cerium can be immobilized by Mn oxides even under suboxic conditions. The new mechanistic insights from this study improve understanding of the oxidative uptake of Ce by Mn oxides and its relevance to natural and engineered systems.",
+    "authors": [
+      "Alain Manceau",
+      "Yan Li",
+      "Jianlin Liao",
+      "Andrea Giacomelli",
+      "Lorenzo Spadini",
+      "Stephan N. Steinmann",
+      "Olivier Mathon"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774953+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06467",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06467",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Extended X-ray absorption fine structure",
+      "Chemistry",
+      "Cerium",
+      "Redox",
+      "Manganese",
+      "Sorption",
+      "Density functional theory",
+      "Reactivity (psychology)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c07048",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c07048",
+    "doi": "10.1021/acs.est.6c07048",
+    "title": "Spatial Optimization of Multiscale Biorefinery Deployment for a Diversified Bioeconomy in the United States",
+    "abstract": "Abstract Strategic biorefinery siting is critical for a diversified bioeconomy, yet industry, policy, and research often focus on either large-scale biofuel plants or smaller-scale specialty bioproduct facilities, with limited coordination across scales. We address this gap by modeling biorefinery deployment spanning a 28-fold difference in capacity. We developed an open-source, spatially explicit framework integrating techno-economic analysis with logistics and refinery cost surrogate models to evaluate multiscale miscanthus-derived biorefineries across the rainfed U.S. for the production of ethanol, succinic acid, lactic acid, potassium sorbate, and acrylic acid. Overall costs change little as feedstock density increases, while transport distances decrease by ∼30 to 67% (∼100 km) and siting flexibility improves. Specifically, a 5-fold feedstock density increase (2% to 10% of suitable land) reduces minimum selling prices by &lt;10% (e.g., 0.27 USD·gal–1 for ethanol). This limited economic sensitivity suggests dense planting is not required for competitive deployment, particularly for smaller-scale facilities. Representing collection areas as irregular rather than circular expands the feasible space under low-density scenarios. While large-scale refineries anchor regional supply chains, smaller facilities retain spatial flexibility even when large refineries are established. These findings highlight the importance of spatial representation and multiscale coordination for robust, regionally tailored biomanufacturing networks to advance renewable carbon integration without extensive land conversion.",
+    "authors": [
+      "Maria Florencia Bianco",
+      "Manuel M. Reyna",
+      "Wenjun Guo",
+      "Jeremy S. Guest"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774155+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c07048",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c07048",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c06586",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c06586",
+    "doi": "10.1021/acs.est.6c06586",
+    "title": "Tracing Combustion Regime Shifts through Char and Soot Black Carbon Records in Beibu Gulf Sediment Cores: Burial Flux Controls and Carbon Storage Assessment",
+    "abstract": "Abstract Black carbon (BC) in marine sediments provides a unique archive of combustion history and a reservoir for long-term carbon storage. However, the distinct roles of char BC (CBC) and soot BC (SBC) in combustion-source tracing and carbon-cycle assessment remain poorly resolved in marginal seas. Here, we analyze four sediment cores from the Beibu Gulf, South China Sea, using benzene poly(carboxylic acid) (BPCA) and chemothermal oxidation at 375 °C (CTO-375) methods to resolve subtype-specific BC records. CBC accounted for 52–57% of the estimated total BC burial across all settings, consistent with sustained biomass-burning contributions. SBC exhibited higher spatiotemporal variability and sensitivity to fossil fuel expansion, particularly near industrial zones. Estimated BC burial fluxes varied spatially, largely reflecting differences in representative sedimentation rates rather than BC content. Notably, nearshore sites exhibited higher burial despite lower BC content. Centennial-scale profiles revealed that SBC effectively traced regional transitions from biomass to fossil fuel combustion, while CBC preserved the long-term fire legacy. These findings highlight the complementary roles of CBC and SBC in reconstructing combustion histories and assessing BC burial in marginal seas. Burial of biomass-derived BC can contribute to net atmospheric CO2 sequestration, whereas fossil-derived BC burial represents the transfer of fossil carbon into long-term sedimentary storage.",
+    "authors": [
+      "Liwei Mo",
+      "Ruijie Zhang",
+      "Li Zhang",
+      "Jing Guo",
+      "Jingyu Wang",
+      "Zhehong Ji",
+      "Pan Wei",
+      "Quanfa Ye",
+      "Yinghui Wang",
+      "Kefu Yu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774062+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c06586",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c06586",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Sediment",
+      "Environmental science",
+      "Combustion",
+      "Sedimentary rock",
+      "Soot",
+      "Carbon black",
+      "Total organic carbon",
+      "Carbon fibers"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c08622",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c08622",
+    "doi": "10.1021/acs.est.6c08622",
+    "title": "Transformation of Dissolved Organic Matter by Aqueous Fe(IV) under Acidic Conditions: Bulk-to-Molecular Insights into Reaction Kinetics and Mechanisms",
+    "abstract": "Abstract Aqueous Fe(IV) has emerged as a significant nonradical oxidant in iron-based oxidative water treatment, yet its reaction kinetics and mechanisms with dissolved organic matter (DOM) remain largely unexplored. Herein, second-order rate constants (k) for Fe(IV) reactions with DOM and DOM-relevant model compounds were determined under acidic conditions using a competition kinetics method performed on self-assembled quenched-flow apparatuses. At pH 3.0, k for 15 DOM isolates ranged from (2.1 ± 0.2) × 104 MC–1 s–1 to (11.6 ± 0.9) × 104 MC–1 s–1 and correlated strongly with the electron-donating capacity of DOM. Similarly, k for nine para-substituted phenolic compounds correlated linearly with the Hammett constant σ+, EHOMO, and vertical ionization potential, supporting Fe(IV) selectivity toward electron-rich substrates. Across pH 1.0–3.5, k for DOM increased monotonically from the 104 to 105 MC–1 s–1 scale. In contrast, k for 11 model compounds representing major DOM moieties spanned 101–107 M–1 s–1 and exhibited moiety-specific pH dependences, indicating that individual DOM components contribute differently to overall Fe(IV)-DOM reactivity. Fluorescence spectroscopy revealed broad-spectrum oxidation of DOM fluorophores, whereas high-resolution mass spectrometry showed that Fe(IV) preferentially transformed unsaturated moieties, oxidized nitrogen/sulfur-containing functionalities, and fragmented moderate-molecular-weight molecules. These findings provide a bulk-to-molecular kinetic and mechanistic basis for predicting Fe(IV) fate in DOM-containing waters and optimizing Fe(IV)-based advanced oxidation processes.",
+    "authors": [
+      "Zhen Wang",
+      "Wenbo Liu",
+      "Yunho Lee",
+      "Jin Jiang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774620+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c08622",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c08622",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "openalex_concepts": [
+      "Chemistry",
+      "Dissolved organic carbon",
+      "Aqueous solution",
+      "Kinetics",
+      "Reaction rate constant",
+      "Redox",
+      "Chemical kinetics",
+      "Inorganic chemistry"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c05230",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c05230",
+    "doi": "10.1021/acs.est.6c05230",
+    "title": "Two-Compartment Physiologically Based Pharmacokinetic Modeling with Postnatal Glomerular Filtration Rate Maturation to Estimate Individual-Level Infant Blood Polyfluoroalkyl Substances Concentrations from Breast Milk: Persistent Burden amid Shifting Compound Profiles in Korean Cohorts (2018–2023)",
+    "abstract": "Abstract Per- and polyfluoroalkyl substances (PFAS) accumulate in breast milk and pose a distinct hazard to breastfed infants, whose immature renal clearance substantially prolongs internal PFAS half-lives. We developed a two-compartment physiologically based pharmacokinetic (PBPK) model incorporating a postnatal glomerular filtration rate (GFR) maturation function to estimate individual-level infant blood PFAS concentrations from breast milk ingestion, and applied it to two prospective Korean birth cohorts (Cohort A: n = 221, 2018; Cohort B: n = 204, 2023). Five PFAS─perfluorodecanoic acid (PFDeA), perfluorohexanesulfonate (PFHxS), perfluorononanoic acid (PFNA), perfluorooctanoic acid (PFOA), and perfluorooctanesulfonate (PFOS)─were quantified by LC–MS/MS. Age-adjusted ANCOVA revealed compound-specific temporal shifts: PFHxS declined 66.7% (adjusted ratio: 0.33; p &lt; 0.001), while PFNA and PFDeA increased 161.5% and 135.1% (both p &lt; 0.001), evidencing regrettable substitution. PFOA and PFOS remained unchanged (both p &gt; 0.69). Global sensitivity analysis confirmed that breast milk concentration and daily intake volume dominated model output uncertainty (|PRCC| = 0.82–0.91), whereas pharmacokinetic clearance parameters (elimination half-life and GFR maturation) had negligible influence on peak concentration (|PRCC| ≤ 0.05), reflecting accumulation-dominated kinetics over the first six months. External benchmarking against Fromme et al. (2010) yielded predicted-to-observed ratios of 0.67 and 0.61, respectively, within the prespecified acceptable range of 0.5–2.0. PBPK-estimated four-compound daily intake exceeded the EFSA (2020) TWI daily equivalent of 0.63 ng/kg/day (median multiples: 61× and 77×). These findings demonstrate that compound-specific regulatory action has not reduced aggregate infant fluorinated burden and highlight the urgent need for infant-specific PFAS reference values accounting for GFR immaturity.",
+    "authors": [
+      "Ju Hee Kim",
+      "Jisu Jung",
+      "Jungmin Kwak"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-21T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.774343+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c05230",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c05230",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Breast milk",
+      "Renal function",
+      "Medicine",
+      "Pharmacokinetics",
+      "Perfluorooctanoic acid",
+      "Infant formula",
+      "Physiology",
+      "Hazard ratio"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-6c02754",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.6c02754",
+    "doi": "10.1021/acs.est.6c02754",
+    "title": "Chemoproteomics Prioritizes Mitochondrial ADP/ATP Translocase as a Candidate Target Associated with 6PPDQ-Induced Respiratory Toxicity in Rainbow Trout Gill",
+    "abstract": "Abstract 6PPD quinone (6PPDQ) is an emerging contaminant that induces acute respiratory toxicity in rainbow trout (Oncorhynchus mykiss), yet its underlying molecular mechanisms remain poorly understood. In the present study, short-term in vivo exposure of rainbow trout to 6PPDQ resulted in substantial accumulation and limited biotransformation of 6PPDQ in the gill, accompanied by pronounced gill structural damage and increased whole-fish oxygen consumption. Taking advantage of the electrophilic reactivity of the quinone moiety of 6PPDQ toward cysteine residues, we applied activity-based protein profiling (ABPP) to gill tissue. ABPP revealed marked alterations in mitochondrial cysteine reactivity and highlighted ADP/ATP translocase (ANT) as a candidate 6PPDQ-interacting mitochondrial protein. A Cys-160-containing ANT peptide within the nucleotide-binding domain of ANT was pinpointed as the covalent binding site through ABPP, Peptide-centric Local Stability Assay (PELSA), and molecular docking. Functional assays using isolated gill mitochondria showed that 6PPDQ elicited an uncoupling-like mitochondrial respiratory response that was partially attenuated by the ANT inhibitor carboxyatractyloside (CATR), supporting the functional involvement of ANT in this gill-based model. Together, these findings nominate ANT as a candidate gill mitochondrial target associated with 6PPDQ-induced acute respiratory toxicity and demonstrate the utility of chemoproteomics for prioritizing mechanistically relevant protein interactions of emerging pollutants.",
+    "authors": [
+      "Xiqing Zhang",
+      "Wei Zhang",
+      "Jing You",
+      "Xiumei Xing",
+      "Xiaojian Shao"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-20T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.775547+00:00",
+    "link": "https://doi.org/10.1021/acs.est.6c02754",
+    "abs_url": "https://doi.org/10.1021/acs.est.6c02754",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "ANT",
+      "Biology",
+      "Rainbow trout",
+      "Mitochondrion",
+      "Biochemistry",
+      "Toxicity",
+      "Cysteine",
+      "Cell biology"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-est-5c14935",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.est.5c14935",
+    "doi": "10.1021/acs.est.5c14935",
+    "title": "Depth-Resolved Metagenomics Reveals Nitrate- and Sulfate-Mediated Arsenic Transformation in Lake Tosen, a Stratified Saline Lake on the Tibetan Plateau",
+    "abstract": "Abstract High-altitude saline lakes on the Tibetan Plateau host some of the world’s most arsenic-rich waters, yet controls on arsenic (As) transformation remain poorly resolved. By integrating depth-resolved geochemistry with metagenomic profiling in Lake Tosen, we identified a redox framework for As cycling that is not fully explained by the Fe-centric model derived from groundwater and freshwater. In summer, oxic-suboxic-anoxic stratification supported three distinct pathways: (i) oxic waters exhibited a microbial detoxification-oxidation loop sustaining As(V) dominance; (ii) suboxic waters were associated with nitrate-supported As(III) oxidation linked to denitrifying taxa; and (iii) anoxic sulfidic waters showed sulfate-reduction-related As transformation, with sulfur cycling likely modifying the fate and mobility of released As under sulfidic conditions. Meanwhile, canonical Fe(III)-respiration markers were not prominent, and saturation indices indicated stable goethite/hematite under in situ conditions. Together, these findings indicate that, under the observed stratified conditions in Lake Tosen, nitrate- and sulfate-associated pathways were more closely linked to arsenic transformation than canonical Fe(III)-respiration signals. This nonclassical coupling may become increasingly relevant as stratification, nitrate loading, and salinization intensify, with implications for As risk prediction in endorheic basins under changing climates.",
+    "authors": [
+      "Dongli Li",
+      "Shiyuan Ding",
+      "Mengdi Yang",
+      "Xuecheng Zhang",
+      "Tianhao Guan",
+      "Wenjing Dai",
+      "Yan Li",
+      "Hang Shao",
+      "Haibo He",
+      "Xiaodong Li"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "published": "2026-08-20T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:50.775468+00:00",
+    "link": "https://doi.org/10.1021/acs.est.5c14935",
+    "abs_url": "https://doi.org/10.1021/acs.est.5c14935",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology",
+    "journal_key": "est",
+    "journal_label": "EST",
+    "journal_issn": [
+      "0013-936X",
+      "1520-5851"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Anoxic waters",
+      "Salinity",
+      "Arsenic",
+      "Groundwater",
+      "Environmental science",
+      "Environmental chemistry",
+      "Ecological succession",
+      "Nitrate"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00668",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00668",
+    "doi": "10.1021/acs.estlett.6c00668",
+    "title": "Physics-Regularized Operator Learning for Hourly Mapping of Near-Surface Air Pollution under Sparse Observations",
+    "abstract": "Abstract Hourly air-pollution fields are needed for exposure assessment and air-quality management; however, ground monitors are sparse, and satellite observations are intermittent. Data-driven models may reproduce station observations while leaving unmonitored regions poorly constrained. This mismatch raises a central concern for observation-free hourly mapping: station-level skill may not imply a physically reliable pollution field. To test this, we trained a neural operator to predict near-surface CO over Mainland China from emissions, meteorology, and terrain, using ground observations only for training. Transport regularization was imposed through a full-grid advection-diffusion-reaction residual that balances emissions, transport, diffusion, and decay. On the unseen year 2022, this constraint increased hourly station agreement from R = 0.57 to 0.64 and structural agreement with an assimilation-informed reanalysis from R = 0.55 to 0.74. In a blind-region test, where local monitors were removed from training, R increased from 0.51 to 0.58. Transport regularization therefore reduces nonphysical extrapolation and enables more stable hourly pollution-field reconstruction without observations at prediction time.",
+    "authors": [
+      "Jingkai Xue",
+      "Yizhi Zhu",
+      "Qihou Hu",
+      "Yu Ma",
+      "Zirui Xuan",
+      "Jun Zhang",
+      "Zhiguo Zhang",
+      "Peize Lin",
+      "Qihua Li",
+      "Cheng Liu"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-08-19T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:51.107386+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00668",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00668",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Meteorology",
+      "Environmental science",
+      "Residual",
+      "Extrapolation",
+      "Satellite",
+      "Remote sensing",
+      "Artificial neural network",
+      "Operator (biology)"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
+  },
+  {
+    "id": "journal-10-1021-acs-estlett-6c00642",
+    "source": "journal",
+    "source_detail": "crossref",
+    "source_paper_id": "10.1021/acs.estlett.6c00642",
+    "doi": "10.1021/acs.estlett.6c00642",
+    "title": "Scalable Online Machine Learning for Water Quality Optimization and Carbon Source Reduction in Wastewater Treatment Plants",
+    "abstract": "Abstract Effective real-time control of wastewater treatment plants (WWTPs) remains challenging due to highly variable influent conditions, while regulation of external carbon sources (ECS) is critical for sustaining nitrogen removal and meeting increasingly stringent effluent standards. This study developed a systematic framework integrating online learning (OL) and reinforcement learning (RL) to optimize effluent quality and ECS dosing in a full-scale WWTP. Based on one year of high-frequency sensor data, Transformer (TF) was identified as the best-performing model among six machine learning methods, with a mean R2 of 0.91 across multiple effluent indicators. SHAP was employed to identify key features, which informed the design of a key-indicator-based time-decayed online learning (KTOL) strategy, enabling the Transformer model to maintain stable predictive performance under dynamic operating conditions. Building on this, RL enabled real-time ECS regulation. During a 10-day practical test, KTOL-TF-RL outperformed conventional feedback control by improving effluent compliance and reducing ECS usage by 21.8%. Monte Carlo simulations demonstrated robustness against sensor distortion and malfunction. Overall, the KTOL-TF-RL framework demonstrates the potential of intelligent control as a promising pathway for achieving cost-effective and resilient wastewater treatment.",
+    "authors": [
+      "Yu-Qi Wang",
+      "Wan-Xin Yin",
+      "Hao-Lin Yang",
+      "Jia-Min Xu",
+      "Jia-Ji Chen",
+      "Yun-Peng Song",
+      "Meng Wu",
+      "Hong-Cheng Wang"
+    ],
+    "primary_category": "environmental-science",
+    "categories": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "published": "2026-08-15T00:00:00+00:00",
+    "updated_at": "2026-08-23T19:48:51.107500+00:00",
+    "link": "https://doi.org/10.1021/acs.estlett.6c00642",
+    "abs_url": "https://doi.org/10.1021/acs.estlett.6c00642",
+    "pdf_url": null,
+    "journal": "Environmental Science & Technology Letters",
+    "journal_key": "est_letters",
+    "journal_label": "EST Letters",
+    "journal_issn": [
+      "2328-8930"
+    ],
+    "source_weight": 10,
+    "open_pdf_status": "no_open_pdf",
+    "open_pdf_source": "",
+    "metadata_sources": [
+      "crossref",
+      "openalex",
+      "docs-meta"
+    ],
+    "tags": [
+      "environmental-science",
+      "journal-watch",
+      "core-journal",
+      "est-letters"
+    ],
+    "is_oa": false,
+    "oa_status": "closed",
+    "openalex_concepts": [
+      "Effluent",
+      "Robustness (evolution)",
+      "Sewage treatment",
+      "Scalability",
+      "Computer science",
+      "Machine learning",
+      "Wastewater",
+      "Water quality"
+    ],
+    "open_pdf_available": false,
+    "open_pdf_note": "No legal open PDF found; skip screenshots and figure extraction."
   }
 ]
